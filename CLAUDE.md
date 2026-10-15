@@ -1,12 +1,19 @@
 # rpgArchive
 
 ## What this is
-Samuele's personal project about tabletop role-playing games (GdR) in Italy.
-Goal still being defined. First step: find out whether an online directory of
-Italian tabletop RPG resources (players, groups, associations, shops, games) already exists.
+A worldwide directory of tabletop RPGs (GdR), like Goodreads but for RPGs.
+Built and kept up to date by AI agents. Each game links straight to the
+publisher's site or Amazon.
+
+## Decisions (2026-10-15)
+- Scope: every RPG worldwide.
+- Agents fill the catalog and auto-update it on a schedule.
+- Links: plain links now, Amazon affiliate later (needs an Amazon Associates account).
+- First version: plain HTML/CSS/JS site reading a JSON file, hosted on GitHub Pages.
+- Seed list: Wikidata (free, CC0 license), ~1,720 RPGs. Do not copy RPGGeek's database (their terms forbid it).
 
 ## Stack
-None yet. No code so far, only research notes.
+Planned: static HTML/CSS/JS + one JSON data file. No code yet.
 
 ## Files
 - `DEVLOG.md`: history of what was done, session by session

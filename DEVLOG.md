@@ -20,3 +20,20 @@
 
 **Next**
 - Decide the project's goal (e.g. fill the gap: catalog of Italian RPGs, or a map of shops/associations).
+
+## 2026-10-15: Project goal decided
+
+**Status:** planning, branch `main`, no code yet.
+
+**Done**
+- Checked for a "Goodreads for RPGs": RPGGeek is the closest (English, worldwide). No Italian equivalent exists.
+- Checked Wikidata as a free seed list: 1,720 RPGs, only 122 with an official website, 217 with an Italian name.
+
+**Decisions**
+- Worldwide directory of all RPGs, filled and auto-updated by AI agents.
+- Plain vendor/Amazon links now, affiliate links later.
+- Static website (HTML/CSS/JS + JSON) on GitHub Pages.
+- Start from Wikidata, agents add descriptions and shop links, and every link gets checked live (agents can invent links).
+
+**Next**
+- Pilot: 50 games end to end, to test data quality and cost before the full run.
