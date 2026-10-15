@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+._*
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Dependencies and build output (if code is added later)
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+
+# Large downloaded assets (PDFs, scraped dumps)
+downloads/
+*.zip
