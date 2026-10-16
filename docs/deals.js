@@ -55,7 +55,7 @@ function ratingLine(d) {
   if (!d.rating) return null;
   return el("div", { class: "rating" },
     el("span", { class: "stars", "aria-hidden": "true" }, "★"),
-    ` ${d.rating.value.toFixed(1)} · ${d.rating.count.toLocaleString("en-US")} ratings on ${siteName(d.url)}`);
+    ` ${d.rating.value.toFixed(1)} from ${d.rating.count.toLocaleString("en-US")} ratings`);
 }
 
 function reviewList(d) {
