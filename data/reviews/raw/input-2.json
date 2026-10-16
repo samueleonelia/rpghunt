@@ -1,0 +1,65 @@
+[
+ {
+  "key": "bundle-of-holding-blue-fox-cthulhu",
+  "title": "Blue Fox Cthulhu",
+  "game": null,
+  "shop": "Bundle of Holding",
+  "type": "bundle",
+  "url": "https://bundleofholding.com/presents/BlueFox",
+  "summary": "Nine Blue Fox Mythos titles for $17.95: three Cthulhu gamebooks plus graphic novels based on Lovecraft stories, so it suits Cthulhu fans who like solo and story-driven reading."
+ },
+ {
+  "key": "paizo-store-pathfinder-roleplaying-game-planar-adventures-1e",
+  "title": "Pathfinder Roleplaying Game: Planar Adventures (1e)",
+  "game": "Pathfinder 1e",
+  "shop": "Paizo Store",
+  "type": "physical",
+  "url": "https://store.paizo.com/pathfinder-roleplaying-game-planar-adventures/",
+  "summary": "A Pathfinder 1e planar sourcebook at 70% off in Paizo's Fall Clearance."
+ },
+ {
+  "key": "itch-io-radmad-hesitation-at-the-gate",
+  "title": "Hesitation at the Gate",
+  "game": "Hesitation at the Gate",
+  "shop": "itch.io (Radmad)",
+  "type": "sale",
+  "url": "https://radmad.itch.io/hesitation-at-the-gate",
+  "summary": "A tarot-based RPG about seeking enlightenment in a mystical city-state, half price in the Spooky Season Salestravaganza."
+ },
+ {
+  "key": "demiplane-vampire-the-masquerade-5th-edition-digital-compendiums-for-demiplane-4",
+  "title": "Vampire: The Masquerade 5th Edition Digital Compendiums for Demiplane (40% off, code WOD2026)",
+  "game": "Vampire: The Masquerade",
+  "shop": "Demiplane",
+  "type": "sale",
+  "url": "https://app.demiplane.com/nexus/vampire",
+  "summary": "Digital compendiums for Vampire and other World of Darkness games on Demiplane are 40% off with a checkout code."
+ },
+ {
+  "key": "itch-io-turtlebun-questlandia-2nd-edition",
+  "title": "Questlandia: 2nd Edition",
+  "game": "Questlandia",
+  "shop": "itch.io (Turtlebun)",
+  "type": "sale",
+  "url": "https://turtlebun.itch.io/questlandia-second-edition",
+  "summary": "A GM-less fantasy RPG played with cards and d6s where you build a kingdom's society and then play through its collapse, 30% off in the Fall Sale."
+ },
+ {
+  "key": "itch-io-blackwellwriter-for-small-creatures-such-as-we",
+  "title": "For Small Creatures Such As We",
+  "game": "For Small Creatures Such As We",
+  "shop": "itch.io (BlackwellWriter)",
+  "type": "sale",
+  "url": "https://blackwellwriter.itch.io/for-small-creatures-such-as-we",
+  "summary": "A solo or co-op sci-fi card-driven RPG about captaining a mixed human and alien crew, 25% off in the Spooky Sale."
+ },
+ {
+  "key": "modiphius-warehouse-clearance-dune-adventures-in-the-imperium-gamemaster-s-toolk",
+  "title": "Dune: Adventures in the Imperium - Gamemaster's Toolkit",
+  "game": "Dune: Adventures in the Imperium",
+  "shop": "Modiphius (warehouse clearance)",
+  "type": "physical",
+  "url": "https://modiphius.us/collections/warehouse-clearance-sale/products/dune-adventures-in-the-imperium-gamemasters-toolkit",
+  "summary": "The Dune GM toolkit (screen and aids) for 5 pounds in the Modiphius clearance."
+ }
+]

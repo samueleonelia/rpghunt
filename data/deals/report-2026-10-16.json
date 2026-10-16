@@ -17,41 +17,42 @@
    "reason": "low confidence"
   },
   {
-   "title": "Daggerheart Core Set (hardcover)",
-   "shop": "Amazon US",
-   "url": "https://www.amazon.com/dp/B0DWLWMRK1",
-   "reason": "robot check page, no end date"
-  },
-  {
-   "title": "Marvel Multiverse Role-Playing Game: Core Rulebook",
-   "shop": "Amazon US",
-   "url": "https://www.amazon.com/dp/1302927833",
-   "reason": "robot check page, no end date"
-  },
-  {
-   "title": "The Game Master's Book of Random Encounters",
-   "shop": "Amazon US",
-   "url": "https://www.amazon.com/dp/1948174375",
-   "reason": "robot check page, no end date"
-  },
-  {
-   "title": "The Game Master's Book of Legendary Dragons (5e)",
-   "shop": "Amazon US",
-   "url": "https://www.amazon.com/dp/1956403051",
-   "reason": "robot check page, no end date"
-  },
-  {
-   "title": "Power Rangers Roleplaying Game Core Rulebook",
-   "shop": "Renegade Game Studios webstore",
-   "url": "https://renegadegamestudios.com/power-rangers-roleplaying-game-core-rulebook/",
-   "reason": "robot check page, no end date"
-  },
-  {
    "title": "Vampire: The Masquerade 5th Edition Roll20 titles (40% off)",
    "shop": "Roll20 Marketplace",
    "url": "https://marketplace.roll20.net/browse/publisher/1661/renegade-game-studios",
    "reason": "low confidence"
   }
  ],
- "price_not_seen": []
+ "price_not_seen": [
+  {
+   "title": "Daggerheart Core Set (hardcover)",
+   "shop": "Amazon US",
+   "url": "https://www.amazon.com/dp/B0DWLWMRK1",
+   "reason": ""
+  },
+  {
+   "title": "Marvel Multiverse Role-Playing Game: Core Rulebook",
+   "shop": "Amazon US",
+   "url": "https://www.amazon.com/dp/1302927833",
+   "reason": ""
+  },
+  {
+   "title": "Dungeons & Dragons Worlds & Realms: Adventures from Greyhawk to Faerun and Beyond",
+   "shop": "Amazon US",
+   "url": "https://www.amazon.com/dp/0593835506",
+   "reason": ""
+  },
+  {
+   "title": "The Game Master's Book of Random Encounters",
+   "shop": "Amazon US",
+   "url": "https://www.amazon.com/dp/1948174375",
+   "reason": ""
+  },
+  {
+   "title": "The Game Master's Book of Legendary Dragons (5e)",
+   "shop": "Amazon US",
+   "url": "https://www.amazon.com/dp/1956403051",
+   "reason": ""
+  }
+ ]
 }

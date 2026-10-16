@@ -19,8 +19,27 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://modiphius.us/cdn/shop/products/Dune-Core-Book-Ennies.jpg?v=1661261994",
+   "rating": null,
    "game_id": null,
-   "id": "modiphius-warehouse-clearance-dune-adventures-in-the-imperium-core-rulebook-stan"
+   "id": "modiphius-warehouse-clearance-dune-adventures-in-the-imperium-core-rulebook-stan",
+   "reviews": [
+    {
+     "source": "Cannibal Halfling Gaming",
+     "url": "https://cannibalhalflinggaming.com/?p=6656",
+     "kind": "article",
+     "verdict": "Recommends it even to non-fans; the shared Great House and House-versus-House intrigue is a risk that pays off.",
+     "score": null,
+     "date": "2021-04"
+    },
+    {
+     "source": "EN World",
+     "url": "https://www.enworld.org/threads/a-look-inside-dune-2d20.679418/",
+     "kind": "forum",
+     "verdict": "Excellent game of narrative intrigue and action for fans of the books and films; misses random events for dynastic play.",
+     "score": null,
+     "date": "2021-04"
+    }
+   ]
   },
   {
    "type": "bundle",
@@ -40,8 +59,10 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://assets.bundleofholding.com/resources/d6/2d/d62dd3b5f5784c44f2d35757cb76bf259891f3cf08c009ca86e3abe67bf4f5de.png",
+   "rating": null,
    "game_id": null,
-   "id": "bundle-of-holding-blue-fox-cthulhu"
+   "id": "bundle-of-holding-blue-fox-cthulhu",
+   "reviews": []
   },
   {
    "type": "bundle",
@@ -61,8 +82,19 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://assets.bundleofholding.com/resources/a4/86/a4863ce8917f2d2bc28f37bd34f291f051c4f623ed5b5faeb2ec0577fa59e1e7.png",
+   "rating": null,
    "game_id": null,
-   "id": "bundle-of-holding-cthulhu-awakens"
+   "id": "bundle-of-holding-cthulhu-awakens",
+   "reviews": [
+    {
+     "source": "Gnome Stew",
+     "url": "https://gnomestew.com/cthulhu-awakens-first-impression/",
+     "kind": "article",
+     "verdict": "Calls it a Cthulhu game breaking new ground, but wants summary charts for the dense rules and finds the sample adventures uneven.",
+     "score": null,
+     "date": "2023-10"
+    }
+   ]
   },
   {
    "type": "bundle",
@@ -82,8 +114,19 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://assets.bundleofholding.com/resources/12/5a/125a141513c6da1bd0fb8a1dcaaef782fabdeebe50ae3a49dabdacfc9fedff85.png",
+   "rating": null,
    "game_id": null,
-   "id": "bundle-of-holding-knock-magazine-bundle"
+   "id": "bundle-of-holding-knock-magazine-bundle",
+   "reviews": [
+    {
+     "source": "Glyph and Grok",
+     "url": "https://glyphngrok.substack.com/p/review-knock",
+     "kind": "article",
+     "verdict": "Calls issue #1 a strong, dense OSR collection and a treasure trove for GMs; minor typos and glossy finish.",
+     "score": null,
+     "date": "2025-07"
+    }
+   ]
   },
   {
    "type": "bundle",
@@ -103,8 +146,27 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://assets.bundleofholding.com/resources/be/c4/bec4fd759cd42c09adf04e3ecee417a3d1be46738bcae07f0a7d6ed8bb988ce9.png",
+   "rating": null,
    "game_id": "monster-of-the-week",
-   "id": "bundle-of-holding-monster-hunters-of-the-week-bundle"
+   "id": "bundle-of-holding-monster-hunters-of-the-week-bundle",
+   "reviews": [
+    {
+     "source": "EN World (Rob Wieland)",
+     "url": "https://www.enworld.org/threads/monster-of-the-week-retro-review.695119/",
+     "kind": "forum",
+     "verdict": "Top recommendation of the new hardback; a go-to game for learning PbtA and onboarding new players.",
+     "score": null,
+     "date": "2023-02"
+    },
+    {
+     "source": "The Hagiologist",
+     "url": "https://www.hagiologist.com/blog/one-shots-review-monster-of-the-week",
+     "kind": "article",
+     "verdict": "Loves it as a showcase of Powered by the Apocalypse design; great for one-shot mysteries and introducing newcomers.",
+     "score": null,
+     "date": "2026-03"
+    }
+   ]
   },
   {
    "type": "physical",
@@ -124,8 +186,19 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://cdn11.bigcommerce.com/s-e0sdfpgiwh/products/3991/images/11442/PZO1141__00962.1755634294.386.513.jpg?c=1",
+   "rating": null,
    "game_id": null,
-   "id": "paizo-store-pathfinder-roleplaying-game-planar-adventures-1e"
+   "id": "paizo-store-pathfinder-roleplaying-game-planar-adventures-1e",
+   "reviews": [
+    {
+     "source": "Black Gate",
+     "url": "https://www.blackgate.com/2018/07/29/pathfinderplanar/",
+     "kind": "article",
+     "verdict": "Calls it a solid setting sourcebook with long shelf life, useful for both First and Second Edition players.",
+     "score": null,
+     "date": "2018-07"
+    }
+   ]
   },
   {
    "type": "physical",
@@ -145,8 +218,19 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://cdn11.bigcommerce.com/s-e0sdfpgiwh/products/5759/images/2371/PZO9226_500__23817.1781807682.386.513.jpg?c=1",
+   "rating": null,
    "game_id": null,
-   "id": "paizo-store-pathfinder-campaign-setting-the-inner-sea-world-guide-pfrpg-hardcove"
+   "id": "paizo-store-pathfinder-campaign-setting-the-inner-sea-world-guide-pfrpg-hardcove",
+   "reviews": [
+    {
+     "source": "Black Gate",
+     "url": "https://www.blackgate.com/?p=30410",
+     "kind": "article",
+     "verdict": "Calls it the most complete fantasy setting he has seen and recommends it to veterans and newcomers alike.",
+     "score": null,
+     "date": "2012-02"
+    }
+   ]
   },
   {
    "type": "sale",
@@ -166,29 +250,22 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://img.itch.zone/aW1nLzcyMDc3NTEucG5n/original/ihfwy%2F.png",
+   "rating": {
+    "value": 5.0,
+    "count": 33
+   },
    "game_id": null,
-   "id": "itch-io-boocherry-enter-the-survival-horror"
-  },
-  {
-   "type": "physical",
-   "title": "Dungeons & Dragons Worlds & Realms: Adventures from Greyhawk to Faerun and Beyond",
-   "game": "Dungeons & Dragons",
-   "shop": "Amazon US",
-   "url": "https://www.amazon.com/dp/0593835506",
-   "price_now": 24.74,
-   "price_was": 50.0,
-   "currency": "USD",
-   "discount_pct": 51,
-   "format": "print",
-   "ends": null,
-   "summary": "An illustrated D&D lore and setting tour at about half price on Amazon.",
-   "confidence": "high",
-   "notes": "Price and -51% badge seen on the Amazon page 2026-10-16. It is a lore/setting book, not a rules book.",
-   "verified": "page",
-   "price_seen": true,
-   "image": null,
-   "game_id": "dungeons-dragons",
-   "id": "amazon-us-dungeons-dragons-worlds-realms-adventures-from-greyhawk-to-faerun-and-"
+   "id": "itch-io-boocherry-enter-the-survival-horror",
+   "reviews": [
+    {
+     "source": "TTRPG Substack (Surveying the Dark, #50)",
+     "url": "https://ttrpg.substack.com/p/50-surveying-the-dark-part-4",
+     "kind": "article",
+     "verdict": "Likes how it adapts Blades in the Dark mechanics to survival horror, especially the find-what-you-need loot idea.",
+     "score": null,
+     "date": "2021"
+    }
+   ]
   },
   {
    "type": "sale",
@@ -208,8 +285,13 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://img.itch.zone/aW1nLzQ3MDAzNjYucG5n/original/8jYcxB.png",
+   "rating": {
+    "value": 4.9,
+    "count": 15
+   },
    "game_id": null,
-   "id": "itch-io-radmad-hesitation-at-the-gate"
+   "id": "itch-io-radmad-hesitation-at-the-gate",
+   "reviews": []
   },
   {
    "type": "physical",
@@ -229,8 +311,27 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://cdn11.bigcommerce.com/s-e0sdfpgiwh/products/13938/images/18440/PZO1110-PE__66275.1755562586.386.513.jpg?c=1",
+   "rating": null,
    "game_id": null,
-   "id": "paizo-store-pathfinder-rpg-core-rulebook-ogl-pocket-edition"
+   "id": "paizo-store-pathfinder-rpg-core-rulebook-ogl-pocket-edition",
+   "reviews": [
+    {
+     "source": "GamingTrend",
+     "url": "https://gamingtrend.com/reviews/less-is-more-pathfinder-core-pocket-edition-review/",
+     "kind": "article",
+     "verdict": "Same content as the big book, cheaper and easier to carry; deep customization, but complex and it wears with use.",
+     "score": "80/100",
+     "date": "2016-11"
+    },
+    {
+     "source": "Strange Assembly",
+     "url": "https://www.strangeassembly.com/?p=7540",
+     "kind": "article",
+     "verdict": "Loves Pathfinder; the pocket edition trades some readability and lay-flat use for portability and a lower price.",
+     "score": null,
+     "date": "2016-10"
+    }
+   ]
   },
   {
    "type": "sale",
@@ -250,8 +351,13 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://img.itch.zone/aW1nLzY4NjE2MjgucG5n/original/VtgG%2B1.png",
+   "rating": {
+    "value": 5.0,
+    "count": 22
+   },
    "game_id": null,
-   "id": "itch-io-stoneshore-bar-the-windows-bolt-the-doors"
+   "id": "itch-io-stoneshore-bar-the-windows-bolt-the-doors",
+   "reviews": []
   },
   {
    "type": "sale",
@@ -271,8 +377,19 @@
    "verified": "source",
    "price_seen": null,
    "image": null,
+   "rating": null,
    "game_id": "vampire-the-masquerade",
-   "id": "drivethrurpg-vampire-the-masquerade-5th-edition-pdf-and-all-world-of-darkness-pd"
+   "id": "drivethrurpg-vampire-the-masquerade-5th-edition-pdf-and-all-world-of-darkness-pd",
+   "reviews": [
+    {
+     "source": "Grimdark Magazine",
+     "url": "https://grimdarkmagazine.com/review-vampire-the-masquerade-5th-edition/",
+     "kind": "article",
+     "verdict": "A pretty good edition with renewed horror focus; dislikes dropped original clans and heavy in-universe fiction.",
+     "score": "8.5/10",
+     "date": "2019-09"
+    }
+   ]
   },
   {
    "type": "sale",
@@ -292,8 +409,27 @@
    "verified": "page",
    "price_seen": null,
    "image": "https://images.demiplane.com/nexus/vampire/og-image.png",
+   "rating": null,
    "game_id": "vampire-the-masquerade",
-   "id": "demiplane-vampire-the-masquerade-5th-edition-digital-compendiums-for-demiplane-4"
+   "id": "demiplane-vampire-the-masquerade-5th-edition-digital-compendiums-for-demiplane-4",
+   "reviews": [
+    {
+     "source": "Gnome Stew",
+     "url": "https://gnomestew.com/demiplane-nexus-vampire-ultimate-bundle-first-impression/",
+     "kind": "article",
+     "verdict": "Likes the linked navigation for fast rules lookups, wants a hyperlinked glossary, sees online rules sites as the industry's future.",
+     "score": null,
+     "date": "2023-04"
+    },
+    {
+     "source": "Grimdark Magazine",
+     "url": "https://grimdarkmagazine.com/review-vampire-the-masquerade-5th-edition/",
+     "kind": "article",
+     "verdict": "Pretty good edition with renewed horror focus; wishes it kept all original Clans and used less in-universe fiction.",
+     "score": "8.5/10",
+     "date": "2019-09"
+    }
+   ]
   },
   {
    "type": "sale",
@@ -313,8 +449,22 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://img.itch.zone/aW1nLzU5NzY0MTMucG5n/original/7y4CHj.png",
+   "rating": {
+    "value": 5.0,
+    "count": 50
+   },
    "game_id": "mork-borg",
-   "id": "itch-io-loot-the-room-treasures-of-the-troll-king-for-mork-borg"
+   "id": "itch-io-loot-the-room-treasures-of-the-troll-king-for-mork-borg",
+   "reviews": [
+    {
+     "source": "Meatcastle (Substack)",
+     "url": "https://meatcastle.substack.com/p/my-favorite-rpg-things-of-2021",
+     "kind": "article",
+     "verdict": "Ran it over three online sessions; dark, weird, easy to run, art and layout match the core book.",
+     "score": null,
+     "date": "2022-01"
+    }
+   ]
   },
   {
    "type": "sale",
@@ -334,8 +484,10 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://koboldpress.com/kpstore/wp-content/uploads/Book-of-hexcrawl-Fan-Resize-scaled.jpg",
+   "rating": null,
    "game_id": null,
-   "id": "kobold-press-store-book-of-hexcrawl-1-6-bundle-pdf"
+   "id": "kobold-press-store-book-of-hexcrawl-1-6-bundle-pdf",
+   "reviews": []
   },
   {
    "type": "sale",
@@ -355,8 +507,10 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://img.itch.zone/aW1nLzMwNDM3NjE5LmpwZw==/original/EevUGh.jpg",
+   "rating": null,
    "game_id": null,
-   "id": "itch-io-tomb-lantern-the-tomb-beneath-the-red-sands"
+   "id": "itch-io-tomb-lantern-the-tomb-beneath-the-red-sands",
+   "reviews": []
   },
   {
    "type": "sale",
@@ -376,8 +530,36 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://img.itch.zone/aW1nLzEwNTkxNjkxLnBuZw==/original/3gTw%2Bu.png",
+   "rating": {
+    "value": 5.0,
+    "count": 13
+   },
    "game_id": null,
-   "id": "itch-io-turtlebun-questlandia-2nd-edition"
+   "id": "itch-io-turtlebun-questlandia-2nd-edition",
+   "reviews": []
+  },
+  {
+   "type": "physical",
+   "title": "Power Rangers Roleplaying Game Core Rulebook",
+   "game": "Power Rangers Roleplaying Game",
+   "shop": "Renegade Game Studios webstore",
+   "url": "https://renegadegamestudios.com/power-rangers-roleplaying-game-core-rulebook/",
+   "price_now": 38.5,
+   "price_was": 55.0,
+   "currency": "USD",
+   "discount_pct": 30,
+   "format": "print",
+   "ends": null,
+   "summary": "The Power Rangers RPG core book at 30% off on the publisher's own store, listed in Bellhop's 'last chance' section.",
+   "confidence": "high",
+   "notes": "Shop page showed $38.50 with 'Was' $55.00. Stock shown blank; no end date. Bellhop (2026-10-14) put it under 'last chance'.",
+   "verified": "page",
+   "price_seen": true,
+   "image": "https://cdn11.bigcommerce.com/s-kftzvkkgjv/products/351/images/7604/38__25800.1744729838.386.513.png?c=1",
+   "rating": null,
+   "game_id": null,
+   "id": "renegade-game-studios-webstore-power-rangers-roleplaying-game-core-rulebook",
+   "reviews": []
   },
   {
    "type": "physical",
@@ -397,8 +579,27 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://cdn.shopify.com/s/files/1/0674/5433/7265/files/9789189765382_p0.jpg?v=1768964614",
+   "rating": null,
    "game_id": null,
-   "id": "barnes-noble-lord-of-the-rings-rpg-starter-set"
+   "id": "barnes-noble-lord-of-the-rings-rpg-starter-set",
+   "reviews": [
+    {
+     "source": "The Outer Haven",
+     "url": "https://www.theouterhaven.net/the-lord-of-the-rings-roleplaying-5e-starter-set-review/",
+     "kind": "article",
+     "verdict": "A confident, accessible entry to Tolkien roleplaying; best for D&D veterans and Tolkien fans, newcomers may need guidance.",
+     "score": "4.5",
+     "date": "2026-02"
+    },
+    {
+     "source": "Geeks Under Grace",
+     "url": "https://www.geeksundergrace.com/tabletop/review-the-lord-of-the-rings-roleplaying-starter-set/",
+     "kind": "article",
+     "verdict": "Calls it a great way to jump into the Lord of the Rings roleplaying world.",
+     "score": "8.5",
+     "date": "2026-07"
+    }
+   ]
   },
   {
    "type": "sale",
@@ -418,8 +619,10 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://koboldpress.com/kpstore/wp-content/uploads/Book-of-Blades-PDF-Store-Image-1-scaled-1.jpg",
+   "rating": null,
    "game_id": null,
-   "id": "kobold-press-store-book-of-blades-for-5th-edition-complete-digital-bundle-pdf"
+   "id": "kobold-press-store-book-of-blades-for-5th-edition-complete-digital-bundle-pdf",
+   "reviews": []
   },
   {
    "type": "sale",
@@ -439,8 +642,38 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://img.itch.zone/aW1nLzYxNTk4MTcucG5n/original/qiiW49.png",
+   "rating": {
+    "value": 4.9,
+    "count": 393
+   },
    "game_id": null,
-   "id": "itch-io-blackwellwriter-apothecaria"
+   "id": "itch-io-blackwellwriter-apothecaria",
+   "reviews": [
+    {
+     "source": "Reviews from R'lyeh",
+     "url": "http://rlyehreviews.blogspot.com/2022/02/solitaire-apothecaria.html",
+     "kind": "article",
+     "verdict": "A genuinely lovely cosy solo game, though the layout splits and misplaces rules explanations.",
+     "score": null,
+     "date": "2022-02"
+    },
+    {
+     "source": "The TTRPG Factory",
+     "url": "https://ttrpgfactory.com/2021/07/22/apothecaria-review/",
+     "kind": "article",
+     "verdict": "Favourable: a relaxing writing game that could help with writer's block.",
+     "score": null,
+     "date": "2021-07"
+    },
+    {
+     "source": "The Lore Mistress",
+     "url": "https://www.theloremistress.co.uk/post/review-apothecaria",
+     "kind": "article",
+     "verdict": "Superb, relaxing and cosy; balances structured rules with creative freedom and may help aspiring writers.",
+     "score": null,
+     "date": "2021-10"
+    }
+   ]
   },
   {
    "type": "sale",
@@ -460,8 +693,22 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://img.itch.zone/aW1nLzE2Nzc1ODI4LnBuZw==/original/PRRlqc.png",
+   "rating": {
+    "value": 4.9,
+    "count": 169
+   },
    "game_id": null,
-   "id": "itch-io-blackwellwriter-for-small-creatures-such-as-we"
+   "id": "itch-io-blackwellwriter-for-small-creatures-such-as-we",
+   "reviews": [
+    {
+     "source": "Tabletop Gaming",
+     "url": "https://www.tabletopgaming.co.uk/reviews/for-small-creatures-such-as-we-rpg-review/",
+     "kind": "article",
+     "verdict": "Accessible sci-fi game with sci-fi influences; a must-play, especially for Star Wars RPG fans.",
+     "score": null,
+     "date": "2025-02"
+    }
+   ]
   },
   {
    "type": "physical",
@@ -481,8 +728,27 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://evilhat.com/wp-content/uploads/2025/02/Delightful-Duo-Bundle-Image-4.webp",
+   "rating": null,
    "game_id": null,
-   "id": "evil-hat-webstore-thirsty-sword-lesbians-delightful-duo-bundle-hardcovers"
+   "id": "evil-hat-webstore-thirsty-sword-lesbians-delightful-duo-bundle-hardcovers",
+   "reviews": [
+    {
+     "source": "Gayming Magazine",
+     "url": "https://gaymingmag.com/?p=31254",
+     "kind": "article",
+     "verdict": "Well designed and mostly fun with praised safety tools, but some moves and the Strings mechanic frustrated his group.",
+     "score": "3.5/5",
+     "date": "2022-01"
+    },
+    {
+     "source": "Burn After Running",
+     "url": "https://burnafterrunningrpg.com/2021/09/04/review-are-you-thirsty-thirsty-sword-lesbians/",
+     "kind": "article",
+     "verdict": "Calls it a great addition to current Powered by the Apocalypse games and plans to run it at cons.",
+     "score": null,
+     "date": "2021-09"
+    }
+   ]
   },
   {
    "type": "sale",
@@ -502,8 +768,10 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://koboldpress.com/kpstore/wp-content/uploads/Field-Guide-to-Monster-Harvesting.png",
+   "rating": null,
    "game_id": null,
-   "id": "kobold-press-store-field-guide-to-monster-harvesting-collection-pdf"
+   "id": "kobold-press-store-field-guide-to-monster-harvesting-collection-pdf",
+   "reviews": []
   },
   {
    "type": "sale",
@@ -523,8 +791,30 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://img.itch.zone/aW1nLzEzMzg0NjI4LmpwZw==/original/vjCGua.jpg",
+   "rating": {
+    "value": 5.0,
+    "count": 64
+   },
    "game_id": null,
-   "id": "itch-io-rori-montford-dead-letter-society"
+   "id": "itch-io-rori-montford-dead-letter-society",
+   "reviews": [
+    {
+     "source": "The Cozy Cauldron",
+     "url": "http://thecozycauldron.blog/2023/01/27/dead-letter-society/",
+     "kind": "article",
+     "verdict": "Strongly positive: thorough world creation, excellent atmosphere, lovely art and layout, plus a solo variant.",
+     "score": null,
+     "date": "2023-01"
+    },
+    {
+     "source": "Glitzy Demon Adventures",
+     "url": "https://glitzydemonadventures.wordpress.com/2023/01/30/review-dead-letter-society/",
+     "kind": "article",
+     "verdict": "Enthusiastic: a dream for vampire pen-pals, free choice of vampire and world, intuitive system, beautiful book.",
+     "score": null,
+     "date": "2023-01"
+    }
+   ]
   },
   {
    "type": "physical",
@@ -544,8 +834,10 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://modiphius.us/cdn/shop/products/dune-adventures-in-the-imperium-gamemasters-toolkit-dune-adventures-in-the-imperium-modiphius-entertainment-493390.jpg?v=1681744375",
+   "rating": null,
    "game_id": null,
-   "id": "modiphius-warehouse-clearance-dune-adventures-in-the-imperium-gamemaster-s-toolk"
+   "id": "modiphius-warehouse-clearance-dune-adventures-in-the-imperium-gamemaster-s-toolk",
+   "reviews": []
   },
   {
    "type": "physical",
@@ -565,8 +857,19 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://modiphius.us/cdn/shop/products/OdysseyHardcoverMockup.png?v=1631845022",
+   "rating": null,
    "game_id": null,
-   "id": "modiphius-warehouse-clearance-odyssey-of-the-dragonlords-hardcover-adventure-boo"
+   "id": "modiphius-warehouse-clearance-odyssey-of-the-dragonlords-hardcover-adventure-boo",
+   "reviews": [
+    {
+     "source": "What Do I Know About Reviews?",
+     "url": "https://whatdoiknowknighterrantjr.wordpress.com/2020/03/05/what-do-i-know-about-reviews-odyssey-of-the-dragonlords-5e-ogl",
+     "kind": "article",
+     "verdict": "Qualified recommendation: a beautiful book with many strengths, but know what you are getting before buying.",
+     "score": null,
+     "date": "2020-03"
+    }
+   ]
   },
   {
    "type": "physical",
@@ -586,8 +889,10 @@
    "verified": "page",
    "price_seen": true,
    "image": "https://modiphius.us/cdn/shop/products/CopyofBooklet_Dishonored_GM-Kit_RGB-150dpi.jpg?v=1643648308",
+   "rating": null,
    "game_id": null,
-   "id": "modiphius-webstore-dishonored-gamemaster-toolkit"
+   "id": "modiphius-webstore-dishonored-gamemaster-toolkit",
+   "reviews": []
   }
  ]
 }

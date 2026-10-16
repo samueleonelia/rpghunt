@@ -88,6 +88,16 @@ input, select { caret-color: var(--accent); }
 .deal-actions .btn.primary { font-weight: 700; }
 .deal-source { font-size: .78rem; color: var(--muted); margin: 2px 0 0; }
 
+/* Ratings and reviews */
+.rating { font-size: .85rem; color: var(--muted); }
+.rating .stars { color: var(--accent); }
+.reviews summary { cursor: pointer; color: var(--accent); font-size: .88rem; font-weight: 600; width: fit-content; }
+.reviews ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 10px; }
+.reviews li { font-size: .85rem; }
+.reviews li a { font-weight: 600; text-underline-offset: 3px; }
+.reviews li .score { color: var(--accent); font-weight: 700; }
+.reviews li p { margin: 2px 0 0; color: var(--muted); }
+
 /* Narrow screens: logo + language switch on one row, page menu on the next. */
 .brand, .nav a { white-space: nowrap; }
 .top-row { flex-wrap: wrap; row-gap: 8px; }

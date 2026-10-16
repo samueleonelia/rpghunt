@@ -1,6 +1,6 @@
 # STATUS: RPG Hunt (rpgArchive)
 
-_Updated: 2026-10-16 · commit e27d526_
+_Updated: 2026-10-16 · commit 32c5a96_
 
 <!-- Rewrite this file in place. Never append. History belongs in DEVLOG.md. Keep under 60 lines. -->
 
@@ -19,12 +19,13 @@ _Updated: 2026-10-16 · commit e27d526_
 | Amazon deals | ❌ broken | robot pages; needs Amazon API (Associates account) |
 | DriveThruRPG deals | ⚠️ partial | blocked; only dated deals with end date survive |
 | Free giveaways | 🚧 building | none found on the pilot day |
+| Reviews and ratings | ✅ working | 17 of 28 deals have reviews, 8 have star ratings |
 | Game catalog | ✅ working | 50 of 1,425 games |
 | Custom domain | 🚧 building | rpghunt.com not bought |
 
 ## Next up
 1. Daily scheduled run
-2. Review aggregation (scores + linked reviews)
+2. Reviews for games without any (RPGGeek API needs approval)
 3. rpghunt.com pointed at GitHub Pages
 4. Amazon API and DriveThruRPG affiliate feed
 

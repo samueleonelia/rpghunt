@@ -26,6 +26,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "deals" / "raw"
 GAMES = ROOT / "docs" / "data" / "games.json"
 OUT = ROOT / "docs" / "data" / "deals.json"
+REVIEWS = ROOT / "data" / "reviews" / "reviews.json"  # verified reviews by deal id (scripts/build_reviews.py)
 TYPES = {"sale", "bundle", "physical", "free"}
 STOP = {"the", "and", "for", "with", "pdf", "edition", "bundle", "of", "rpg", "roleplaying",
         "game", "core", "rulebook", "book", "set", "box", "boxed", "print", "hardcover"}
@@ -61,8 +62,33 @@ def share_image(html, page_url):
     return None
 
 
+def shop_rating(html):
+    """Star rating the shop publishes for search engines (schema.org aggregateRating)."""
+    m = re.search(r'"aggregateRating"\s*:\s*\{([^}]*)\}', html)
+    if not m:
+        return None
+    block = m.group(1)
+    num = lambda k: (re.search(rf'"{k}"\s*:\s*"?([0-9.]+)', block) or [None, None])[1]
+    value, count, best = num("ratingValue"), num("ratingCount") or num("reviewCount"), num("bestRating") or "5"
+    if not value or not count or int(float(count)) < 5:
+        return None  # one or two votes say nothing
+    return {"value": round(float(value) * 5 / float(best), 1), "count": int(float(count))}
+
+
+ROBOT_TITLES = ("robot check", "just a moment", "attention required", "are you a robot",
+                "access denied", "verify you are human", "security check")
+
+
+def is_robot_check(html):
+    """A bot-wall page (Amazon robot check, Cloudflare challenge), judged by its title
+    and Amazon's own wording, not by words like "captcha" that normal pages also contain."""
+    m = re.search(r"<title[^>]*>(.*?)</title>", html, re.S | re.I)
+    title = (m.group(1) if m else "").strip().lower()
+    return any(t in title for t in ROBOT_TITLES) or "enter the characters you see below" in html.lower()
+
+
 def fetch(url):
-    """Return (status, reason, page_text, image_url). status: ok | blocked | dead."""
+    """Return (status, reason, page_text, image_url, rating). status: ok | blocked | dead."""
     req = urllib.request.Request(url, headers={
         "User-Agent": UA,
         "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
@@ -71,16 +97,15 @@ def fetch(url):
     try:
         with OPENER.open(req, timeout=20) as resp:
             body = resp.read(800_000).decode("utf-8", "ignore")
-            low = body.lower()
-            if "captcha" in low and ("robot" in low or "automated access" in low):
-                return "blocked", "robot check page", "", None
-            return "ok", "", plain(body + " " + resp.geturl()), share_image(body, resp.geturl())
+            if is_robot_check(body):
+                return "blocked", "robot check page", "", None, None
+            return "ok", "", plain(body + " " + resp.geturl()), share_image(body, resp.geturl()), shop_rating(body)
     except urllib.error.HTTPError as e:
         if e.code in BLOCKED:
-            return "blocked", f"HTTP {e.code} (bot protection)", "", None
-        return "dead", f"HTTP {e.code}", "", None
+            return "blocked", f"HTTP {e.code} (bot protection)", "", None, None
+        return "dead", f"HTTP {e.code}", "", None, None
     except Exception as e:  # DNS failure, timeout, SSL error
-        return "dead", type(e).__name__, "", None
+        return "dead", type(e).__name__, "", None, None
 
 
 def price_on_page(price, text):
@@ -144,7 +169,8 @@ def main():
 
     catalog = {slugify(g["name"]): g["id"] for g in json.loads(GAMES.read_text())}
     out = []
-    for d, (status, reason, text, image) in zip(deals, fetched):
+    reviews = json.loads(REVIEWS.read_text()) if REVIEWS.exists() else {}
+    for d, (status, reason, text, image, rating) in zip(deals, fetched):
         entry = {"title": d["title"], "shop": d.get("shop"), "url": d["url"], "reason": reason}
         ends = d.get("ends")
         if ends and datetime.date.fromisoformat(ends) < today:
@@ -180,12 +206,14 @@ def main():
         if d.get("price_now") is not None and d.get("price_was") and not d.get("discount_pct"):
             d["discount_pct"] = round(100 * (1 - d["price_now"] / d["price_was"]))
         d["image"] = image
+        d["rating"] = rating
         # The shop is shown once on the card; do not repeat it in the title.
         shop = (d.get("shop") or "").split(" (")[0]
         if shop and d["title"].lower().startswith(shop.lower() + ":"):
             d["title"] = d["title"][len(shop) + 1:].strip()
         d["game_id"] = catalog.get(slugify(d["game"])) if d.get("game") else None
         d["id"] = slugify(f"{d.get('shop', '')} {d['title']}")[:80]
+        d["reviews"] = reviews.get(d["id"], [])
         d.pop("found_via", None)
         out.append(d)
 
@@ -203,7 +231,8 @@ def main():
     for d in out:
         by_type[d["type"]] = by_type.get(d["type"], 0) + 1
     print("by type:", by_type, "| linked to catalog:", sum(1 for d in out if d["game_id"]),
-          "| with image:", sum(1 for d in out if d["image"]))
+          "| with image:", sum(1 for d in out if d["image"]),
+          "| with rating:", sum(1 for d in out if d["rating"]), "| with reviews:", sum(1 for d in out if d["reviews"]))
 
 
 if __name__ == "__main__":

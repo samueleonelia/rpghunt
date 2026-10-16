@@ -51,6 +51,24 @@ function siteName(url) {
   return parts.slice(-keep).join(".");
 }
 
+function ratingLine(d) {
+  if (!d.rating) return null;
+  return el("div", { class: "rating" },
+    el("span", { class: "stars", "aria-hidden": "true" }, "★"),
+    ` ${d.rating.value.toFixed(1)} · ${d.rating.count.toLocaleString("en-US")} ratings on ${siteName(d.url)}`);
+}
+
+function reviewList(d) {
+  const reviews = d.reviews || [];
+  if (!reviews.length) return null;
+  return el("details", { class: "reviews" },
+    el("summary", {}, `${reviews.length} review${reviews.length === 1 ? "" : "s"}`),
+    el("ul", {}, ...reviews.map((r) => el("li", {},
+      el("a", { href: r.url, target: "_blank", rel: "noopener" }, r.source),
+      r.score ? el("span", { class: "score" }, ` ${r.score}`) : null,
+      el("p", {}, r.verdict)))));
+}
+
 function cover(d) {
   const box = el("div", { class: "deal-cover" });
   const fallback = () => box.replaceChildren(el("div", { class: "fallback" }, d.game || d.title), kind);
@@ -77,7 +95,9 @@ function card(d) {
         el("span", { class: "now" }, now),
         was ? el("span", { class: "was" }, was) : null,
         d.discount_pct ? el("span", { class: "off" }, `-${d.discount_pct}%`) : null) : null,
+      ratingLine(d),
       d.summary ? el("p", { class: "desc" }, d.summary) : null,
+      reviewList(d),
       ends ? el("div", { class: "ends" + (ends[1] ? " soon" : "") }, ends[0]) : null,
       el("div", { class: "deal-actions" },
         el("a", { class: "btn primary", href: d.url, target: "_blank", rel: "noopener" }, d.type === "free" ? "Get it free" : "Get the deal"),

@@ -175,3 +175,22 @@
 - User feedback: the wide "best deal" card looked unboxed and the source line was overcomplicated. Now every card has the same layout (best deal is simply first) and the source line is only "at <shop>".
 - Accent test: the first card's button uses a reddish #d9653a; everything else stays ochre #d9a033. Waiting for the user's pick.
 - Accent decided: ochre, slightly brighter (#e6af3e, 9:1 on the dark ground). Red test removed.
+
+## 2026-10-16: Reviews pilot
+
+**Done**
+- `agents/reviews-brief.md`: agents find 0-3 independent reviews per deal (blogs, review sites, YouTube, Reddit), one-line verdict in their own words, reviewer's own score only. No copied review text.
+- 4 Sonnet agents on 28 deals: 31 review links found, about 370k agent tokens.
+- `scripts/build_reviews.py`: opens every review link (one request per site at a time), keeps only pages that load and mention the product; stores them in `data/reviews/reviews.json` by deal id so they persist across days.
+- `build_deals.py` reads shop star ratings from schema.org data (itch.io publishes them); ratings under 5 votes hidden.
+- Cards show "★ 4.9 · 393 ratings on itch.io" and a collapsible "3 reviews" list (source, score, verdict, link).
+
+**Results**
+- 29 of 31 review links verified; 17 of 28 deals have reviews; 8 have star ratings.
+- Kobold Press, the Modiphius toolkit and new indie titles have no independent reviews online.
+
+**Bug fixed**
+- The robot-page detector matched "captcha" + "robot" anywhere (comment-form captchas, the "Roboto" font, meta robots), wrongly dropping blogs and 2 real deals. Now it judges by page title (Robot Check, Just a moment...) and Amazon's own robot-test wording.
+
+**Next**
+- Daily scheduled run (deals + reviews for new deals only).

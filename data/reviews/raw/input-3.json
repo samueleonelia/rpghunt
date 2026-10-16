@@ -1,0 +1,65 @@
+[
+ {
+  "key": "bundle-of-holding-cthulhu-awakens",
+  "title": "Cthulhu Awakens",
+  "game": "Cthulhu Awakens",
+  "shop": "Bundle of Holding",
+  "type": "bundle",
+  "url": "https://bundleofholding.com/presents/CthulhuAwakens",
+  "summary": "The complete Cthulhu Awakens core rulebook (a Mythos RPG built on the AGE system) plus the Revelations of the Bacchae scenario for $12.95; paying over $21.22 adds a bonus set of six more titles including Cults of the Mythos and Fantasy AGE Cthulhu Mythos."
+ },
+ {
+  "key": "paizo-store-pathfinder-campaign-setting-the-inner-sea-world-guide-pfrpg-hardcove",
+  "title": "Pathfinder Campaign Setting: The Inner Sea World Guide (PFRPG) Hardcover",
+  "game": "Pathfinder 1e",
+  "shop": "Paizo Store",
+  "type": "physical",
+  "url": "https://store.paizo.com/pathfinder-chronicles-campaign-setting-world-guide-the-inner-sea/",
+  "summary": "The classic Golarion world guide for Pathfinder 1e at 70% off in the Paizo Fall Clearance."
+ },
+ {
+  "key": "paizo-store-pathfinder-rpg-core-rulebook-ogl-pocket-edition",
+  "title": "Pathfinder RPG Core Rulebook (OGL) Pocket Edition",
+  "game": "Pathfinder 1e",
+  "shop": "Paizo Store",
+  "type": "physical",
+  "url": "https://store.paizo.com/pathfinder-rpg-core-rulebook-ogl-pocket-edition/",
+  "summary": "The Pathfinder 1e core rules in a pocket-size edition at half price from Paizo's Fall Clearance."
+ },
+ {
+  "key": "itch-io-loot-the-room-treasures-of-the-troll-king-for-mork-borg",
+  "title": "Treasures of the Troll King for MORK BORG",
+  "game": "Mork Borg",
+  "shop": "itch.io (Loot the Room)",
+  "type": "sale",
+  "url": "https://loottheroom.itch.io/troll-king",
+  "summary": "A sewer-crawl adventure for MORK BORG hunting the sunken chapel of the exiled troll king, 34% off."
+ },
+ {
+  "key": "barnes-noble-lord-of-the-rings-rpg-starter-set",
+  "title": "Lord of the Rings RPG Starter Set",
+  "game": "The Lord of the Rings Roleplaying Game",
+  "shop": "Barnes & Noble",
+  "type": "physical",
+  "url": "https://www.barnesandnoble.com/w/lord-of-the-rings-rpg-starter-set-free-league-publishi/1145163296?ean=9789189765382",
+  "summary": "Free League's boxed starter set for the Lord of the Rings RPG at 30% off at Barnes & Noble."
+ },
+ {
+  "key": "evil-hat-webstore-thirsty-sword-lesbians-delightful-duo-bundle-hardcovers",
+  "title": "Thirsty Sword Lesbians Delightful Duo Bundle (hardcovers)",
+  "game": "Thirsty Sword Lesbians",
+  "shop": "Evil Hat webstore",
+  "type": "physical",
+  "url": "https://evilhat.com/product/thirsty-sword-lesbians-delightful-duo-bundle/",
+  "summary": "Thirsty Sword Lesbians and Advanced Lovers & Lesbians hardcovers bundled with a discount."
+ },
+ {
+  "key": "modiphius-warehouse-clearance-odyssey-of-the-dragonlords-hardcover-adventure-boo",
+  "title": "Odyssey of the Dragonlords: Hardcover Adventure Book",
+  "game": "Odyssey of the Dragonlords",
+  "shop": "Modiphius (warehouse clearance)",
+  "type": "physical",
+  "url": "https://modiphius.us/collections/warehouse-clearance-sale/products/odyssey-of-the-dragonlords-hardcover-adventure-book",
+  "summary": "A hardcover campaign book from the Modiphius clearance, roughly half off."
+ }
+]

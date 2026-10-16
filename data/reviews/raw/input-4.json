@@ -1,0 +1,65 @@
+[
+ {
+  "key": "bundle-of-holding-knock-magazine-bundle",
+  "title": "Knock! Magazine Bundle",
+  "game": null,
+  "shop": "Bundle of Holding",
+  "type": "bundle",
+  "url": "https://bundleofholding.com/presents/Knock2026",
+  "summary": "Three full issues of the KNOCK! tabletop RPG magazine (about 650 pages of system-neutral adventures, tools and ideas) as DRM-free PDFs for one flat price, about a quarter of retail."
+ },
+ {
+  "key": "itch-io-boocherry-enter-the-survival-horror",
+  "title": "Enter the Survival Horror",
+  "game": "Enter the Survival Horror",
+  "shop": "itch.io (BooCherry)",
+  "type": "sale",
+  "url": "https://boocherry.itch.io/enterthesurvivalhorror",
+  "summary": "A Forged in the Dark survival-horror RPG about limited supplies and monsters, 60% off."
+ },
+ {
+  "key": "itch-io-stoneshore-bar-the-windows-bolt-the-doors",
+  "title": "Bar the Windows, Bolt the Doors",
+  "game": "Bar the Windows, Bolt the Doors",
+  "shop": "itch.io (Stoneshore)",
+  "type": "sale",
+  "url": "https://stoneshore.itch.io/bar-the-windows-bolt-the-doors",
+  "summary": "A GM-less horror RPG where 2 to 6 players defend a remote cabin from monsters until dawn, 40% off in the October Sale 2026."
+ },
+ {
+  "key": "kobold-press-store-book-of-hexcrawl-1-6-bundle-pdf",
+  "title": "Book of Hexcrawl 1-6 Bundle (PDF)",
+  "game": null,
+  "shop": "Kobold Press store",
+  "type": "sale",
+  "url": "https://koboldpress.com/kpstore/product/book-of-hexcrawl-1-6-bundle-pdf/",
+  "summary": "Six hexcrawl books from Kobold Press (system-neutral wilderness exploration toolkits) in one PDF bundle for a third off."
+ },
+ {
+  "key": "kobold-press-store-book-of-blades-for-5th-edition-complete-digital-bundle-pdf",
+  "title": "Book of Blades for 5th Edition: Complete Digital Bundle (PDF)",
+  "game": "Dungeons & Dragons 5th Edition",
+  "shop": "Kobold Press store",
+  "type": "sale",
+  "url": "https://koboldpress.com/kpstore/product/book-of-blades-the-complete-digital-bundle-pdf/",
+  "summary": "Twelve 5e martial-class and combat supplements (warfare, naval battles, weapons and armor) in one PDF bundle, 30% off."
+ },
+ {
+  "key": "kobold-press-store-field-guide-to-monster-harvesting-collection-pdf",
+  "title": "Field Guide to Monster Harvesting Collection (PDF)",
+  "game": "Dungeons & Dragons 5th Edition",
+  "shop": "Kobold Press store",
+  "type": "sale",
+  "url": "https://koboldpress.com/kpstore/product/field-guide-to-monster-harvesting-collection-pdf/",
+  "summary": "Two 5e PDFs on crafting with monster parts and magical ingredients, covering 700+ creatures, for 20% off."
+ },
+ {
+  "key": "modiphius-webstore-dishonored-gamemaster-toolkit",
+  "title": "Dishonored Gamemaster Toolkit",
+  "game": "Dishonored: The Roleplaying Game",
+  "shop": "Modiphius webstore",
+  "type": "physical",
+  "url": "https://modiphius.us/products/dishonored-gamemaster-toolkit",
+  "summary": "Gamemaster toolkit for the Dishonored RPG at GBP 7.50 in the Modiphius warehouse clearance, with only a few copies left."
+ }
+]
