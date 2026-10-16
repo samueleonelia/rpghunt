@@ -76,7 +76,7 @@ function card(d) {
       el("div", { class: "deal-actions" },
         el("a", { class: "btn primary", href: d.url, target: "_blank", rel: "noopener" }, d.type === "free" ? "Get it free" : "Get the deal"),
         d.game_id ? el("a", { class: "btn", href: `games.html#${encodeURIComponent(d.game_id)}` }, `About ${d.game}`) : null),
-      el("p", { class: "deal-source" }, `at ${shopName}`),
+      el("p", { class: "deal-source" }, shopName),
     ),
   );
 }
