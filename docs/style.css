@@ -6,7 +6,7 @@
   --ink: #f0ebe2;
   --muted: #aea596;
   --line: #332f29;
-  --accent: #d9a033;
+  --accent: #e6af3e;
   --accent-ink: #1a1205;
   --urgent: #ff7a59;
   --chip: #2a2620;
@@ -87,9 +87,6 @@ input, select { caret-color: var(--accent); }
 .deal-actions { margin-top: auto; padding-top: 6px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .deal-actions .btn.primary { font-weight: 700; }
 .deal-source { font-size: .78rem; color: var(--muted); margin: 2px 0 0; }
-
-/* Accent test: a more reddish primary button on the first deal only. */
-.btn.primary.try-red { background: #d9653a; border-color: #d9653a; color: #1a0d08; }
 
 /* Narrow screens: logo + language switch on one row, page menu on the next. */
 .brand, .nav a { white-space: nowrap; }

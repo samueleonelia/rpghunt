@@ -58,7 +58,7 @@ function cover(d) {
   return box;
 }
 
-function card(d, lead) {
+function card(d) {
   const now = money(d.price_now, d.currency);
   const was = d.price_was && d.price_was !== d.price_now ? money(d.price_was, d.currency) : null;
   const ends = endsText(d.ends);
@@ -74,7 +74,7 @@ function card(d, lead) {
       d.summary ? el("p", { class: "desc" }, d.summary) : null,
       ends ? el("div", { class: "ends" + (ends[1] ? " soon" : "") }, ends[0]) : null,
       el("div", { class: "deal-actions" },
-        el("a", { class: "btn primary" + (lead ? " try-red" : ""), href: d.url, target: "_blank", rel: "noopener" }, d.type === "free" ? "Get it free" : "Get the deal"),
+        el("a", { class: "btn primary", href: d.url, target: "_blank", rel: "noopener" }, d.type === "free" ? "Get it free" : "Get the deal"),
         d.game_id ? el("a", { class: "btn", href: `games.html#${encodeURIComponent(d.game_id)}` }, `About ${d.game}`) : null),
       el("p", { class: "deal-source" }, `at ${shopName}`),
     ),
@@ -83,7 +83,7 @@ function card(d, lead) {
 
 function render() {
   const list = deals.filter((d) => filter === "all" || d.type === filter);
-  $("#grid").replaceChildren(...list.map((d, i) => card(d, i === 0)));
+  $("#grid").replaceChildren(...list.map(card));
   $("#count").textContent = `${list.length} deal${list.length === 1 ? "" : "s"}`;
   $("#empty").hidden = list.length > 0;
 }

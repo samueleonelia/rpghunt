@@ -174,3 +174,4 @@
 
 - User feedback: the wide "best deal" card looked unboxed and the source line was overcomplicated. Now every card has the same layout (best deal is simply first) and the source line is only "at <shop>".
 - Accent test: the first card's button uses a reddish #d9653a; everything else stays ochre #d9a033. Waiting for the user's pick.
+- Accent decided: ochre, slightly brighter (#e6af3e, 9:1 on the dark ground). Red test removed.
