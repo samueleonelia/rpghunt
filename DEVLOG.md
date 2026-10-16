@@ -124,3 +124,21 @@
 - Design the deals home page with Impeccable (new-work).
 - Fill the gaps: Amazon via the official API, DriveThruRPG via affiliate feed, a freebies source.
 - Daily scheduled run.
+
+## 2026-10-16: Site online
+
+**Status:** live at https://samueleonelia.github.io/rpghunt/, repo https://github.com/samueleonelia/rpghunt (public), branch `main`.
+
+**Done**
+- Scanned the repo for secrets and emails before publishing: none.
+- Added Impeccable's Apache 2.0 LICENSE and NOTICE (required to redistribute its files publicly).
+- Created the public repo `rpghunt`, pushed `main` and tags, turned on GitHub Pages from `main` `/docs`. Build took under a minute; live site checked in the browser (27 deals, games page, no console errors).
+- Deals page now hides deals whose end date has passed, since data is not refreshed daily yet.
+
+**Decisions**
+- Repo named `rpghunt` (local folder stays `rpgArchive`). Project notes (CLAUDE.md, DEVLOG, STATUS, PRODUCT.md) are public too.
+
+**Next**
+- Daily scheduled run, otherwise the live deals go stale.
+- Buy rpghunt.com and point it at GitHub Pages.
+- Redesign with Impeccable.

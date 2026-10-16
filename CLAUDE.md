@@ -25,6 +25,10 @@ with `--no-hooks`); turn on with `/impeccable hooks on`. Telemetry turned off.
 Its 16 MB engine binary is gitignored; the launcher re-downloads it if missing.
 Update with `npx impeccable update`.
 
+## Online
+- Live site: https://samueleonelia.github.io/rpghunt/ (GitHub Pages, `main` branch, `/docs` folder; every push to `main` republishes it)
+- Repo: https://github.com/samueleonelia/rpghunt (public). Domain rpghunt.com not bought yet.
+
 ## Files
 - `DEVLOG.md`: history of what was done, session by session
 - `STATUS.md`: current state, rewritten in place

@@ -88,7 +88,10 @@ function renderTypes() {
 async function init() {
   const res = await fetch("data/deals.json");
   const data = await res.json();
-  deals = data.deals;
+  // Until the daily run exists, the data can be days old: hide deals that have ended since.
+  const d = new Date();
+  const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  deals = data.deals.filter((x) => !x.ends || x.ends >= today);
   dataDate = data.date;
   $("#checked").textContent = `Last checked ${new Date(dataDate + "T12:00:00").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })}.`;
   renderTypes();
