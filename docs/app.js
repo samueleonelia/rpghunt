@@ -84,7 +84,7 @@ function card(g) {
     links.append(el("a", { class: "btn", href: amazonUrl("amazon.it", itQuery), target: "_blank", rel: "noopener" }, "Amazon.it"));
   }
 
-  return el("article", { class: "card" },
+  return el("article", { class: "card", id: g.id },
     el("h2", {}, title),
     altTitle ? el("div", { class: "alt" }, altTitle) : null,
     meta ? el("div", { class: "meta" }, meta) : null,
@@ -161,6 +161,9 @@ async function init() {
   games = await res.json();
   games.forEach((g) => { g._hay = haystack(g); });
   applyLang();
+  // Deals link to a game as games.html#<id>: bring that card into view.
+  const target = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+  if (target) { target.classList.add("focus"); target.scrollIntoView({ block: "center" }); }
 }
 
 init();

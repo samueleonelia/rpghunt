@@ -95,3 +95,32 @@
 
 - Name: **RPG Hunt**, domain rpghunt.com. Checked: .com/.net/.io unregistered, no existing site or brand with that name (only small itch.io games called "Hunt"). Not bought yet; the user buys it.
 - Site title and logo text updated. Folder and repo name stay `rpgArchive` for now.
+
+## 2026-10-16: Deals pilot, one day end to end
+
+**Status:** deals pilot works locally, merged to `main`, tag `v0.2-deals-pilot`. No GitHub remote yet.
+
+**Done**
+- `agents/deals-brief.md`: instruction sheet for deal-finding agents (4 types, confidence levels, link rules).
+- 4 Sonnet agents in parallel: bundles, digital sales, publisher/VTT stores, print discounts + freebies.
+- `scripts/build_deals.py`: drops expired, dead, wrong-page and low-confidence deals; drops deals whose price is not on the loaded page; deals on robot-blocking shops kept only with a known end date; dedupes across agents and sister domains; links deals to catalog games.
+- Home page is now today's deals (`docs/index.html` + `docs/deals.js`), archive moved to `docs/games.html`. Deals link to `games.html#<id>`.
+
+**Results**
+- 39 deals found, 27 published: 4 bundles (all Bundle of Holding), 14 digital sales (mostly itch.io indies, Kobold Press, Month of Darkness), 9 print deals (Modiphius clearance, Paizo clearance, Barnes & Noble, Evil Hat).
+- 0 free giveaways: none genuinely limited-time and recent.
+- 25 of 27 published deals had their price confirmed on the shop page.
+- Cost: about 515k agent tokens, about 19 minutes (slowest agent).
+
+**Key learnings**
+- Amazon shows robot-check pages to scripts; all 5 Amazon deals were dropped. Real Amazon deals need the Product Advertising API (requires an Amazon Associates account).
+- DriveThruRPG blocks everything automated; only deals with a dated source and end date survive. Its affiliate program may offer a feed.
+- itch.io and Bundle of Holding are easy to verify; Bundle of Holding end dates come from countdown timestamps in the page.
+- A deals blog page (Tabletop Bellhop) contained text addressed to AI agents; the agent ignored it. Keep treating fetched pages as data.
+- Agents overlap (the Modiphius clearance was found twice), so dedupe is required.
+- EN World's weekly column is the best lead source, but its latest issue was 11 days old.
+
+**Next**
+- Design the deals home page with Impeccable (new-work).
+- Fill the gaps: Amazon via the official API, DriveThruRPG via affiliate feed, a freebies source.
+- Daily scheduled run.
