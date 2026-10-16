@@ -26,3 +26,6 @@ __pycache__/
 # Large downloaded assets (PDFs, scraped dumps)
 downloads/
 *.zip
+
+# Impeccable design engine binary (16 MB, re-downloaded by its launcher)
+.claude/skills/impeccable/scripts/bin/
