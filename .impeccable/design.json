@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T13:55:56+00:00",
+  "title": "Design System: RPG Hunt",
+  "extensions": {
+    "colorMeta": {
+      "hunt-ochre": {
+        "role": "primary",
+        "displayName": "Hunt Ochre",
+        "canonical": "oklch(78.6% 0.140 82)",
+        "tonalRamp": [
+          "#1c0300",
+          "#3c1b00",
+          "#5d3600",
+          "#815400",
+          "#a67200",
+          "#c6952d",
+          "#eabd68",
+          "#ffe89f"
+        ]
+      },
+      "ochre-ink": {
+        "role": "primary",
+        "displayName": "Ochre Ink",
+        "canonical": "oklch(18.9% 0.028 80)",
+        "tonalRamp": [
+          "#0f0a04",
+          "#292319",
+          "#463f32",
+          "#655c4e",
+          "#867c6b",
+          "#a79d8d",
+          "#ccc3b4",
+          "#f6ede0"
+        ]
+      },
+      "ember": {
+        "role": "tertiary",
+        "displayName": "Ember",
+        "canonical": "oklch(72.9% 0.170 35)",
+        "tonalRamp": [
+          "#2a0000",
+          "#500000",
+          "#781300",
+          "#a23113",
+          "#cd4e2e",
+          "#ef7658",
+          "#ffa185",
+          "#ffd1b7"
+        ]
+      },
+      "sage": {
+        "role": "tertiary",
+        "displayName": "Sage",
+        "canonical": "oklch(79.5% 0.103 149)",
+        "tonalRamp": [
+          "#001200",
+          "#002d0d",
+          "#184c26",
+          "#336c40",
+          "#4e8e5b",
+          "#73af7e",
+          "#9dd4a6",
+          "#cdfdd4"
+        ]
+      },
+      "night-bg": {
+        "role": "neutral",
+        "displayName": "Night Background",
+        "canonical": "oklch(18.3% 0.007 78)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#252421",
+          "#413f3c",
+          "#5f5d5a",
+          "#7f7d79",
+          "#a09e9a",
+          "#c6c4c0",
+          "#f0eeeb"
+        ]
+      },
+      "lamp-card": {
+        "role": "neutral",
+        "displayName": "Lamp Card",
+        "canonical": "oklch(21.9% 0.008 85)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#252421",
+          "#413f3c",
+          "#5f5d59",
+          "#7f7d78",
+          "#a09e99",
+          "#c6c4bf",
+          "#f0eeea"
+        ]
+      },
+      "chip-umber": {
+        "role": "neutral",
+        "displayName": "Chip Umber",
+        "canonical": "oklch(27.1% 0.012 78)",
+        "tonalRamp": [
+          "#0d0b08",
+          "#26241f",
+          "#433f3a",
+          "#615d57",
+          "#817c75",
+          "#a29e97",
+          "#c8c3bd",
+          "#f2eee8"
+        ]
+      },
+      "line-umber": {
+        "role": "neutral",
+        "displayName": "Line Umber",
+        "canonical": "oklch(30.7% 0.012 78)",
+        "tonalRamp": [
+          "#0d0b08",
+          "#26241f",
+          "#433f3a",
+          "#615d57",
+          "#817d76",
+          "#a29e97",
+          "#c8c3bd",
+          "#f2eee8"
+        ]
+      },
+      "rank-umber": {
+        "role": "neutral",
+        "displayName": "Rank Umber",
+        "canonical": "oklch(51.4% 0.022 80)",
+        "tonalRamp": [
+          "#0e0b05",
+          "#28231b",
+          "#453f35",
+          "#645d51",
+          "#847c6f",
+          "#a59d90",
+          "#cac3b7",
+          "#f4eee3"
+        ]
+      },
+      "parchment-ink": {
+        "role": "neutral",
+        "displayName": "Parchment Ink",
+        "canonical": "oklch(94.1% 0.013 82)",
+        "tonalRamp": [
+          "#0d0b07",
+          "#26241f",
+          "#433f39",
+          "#615d56",
+          "#817d75",
+          "#a29e96",
+          "#c8c4bc",
+          "#f2eee7"
+        ]
+      },
+      "dust-muted": {
+        "role": "neutral",
+        "displayName": "Dust Muted",
+        "canonical": "oklch(72.5% 0.024 81)",
+        "tonalRamp": [
+          "#0e0a05",
+          "#28231b",
+          "#453f34",
+          "#645d50",
+          "#857c6e",
+          "#a59d90",
+          "#cbc3b6",
+          "#f4eee2"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The single centered home headline."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "Current price on deal cards; 1.15rem in Top 9."
+      },
+      "rank": {
+        "displayName": "Rank",
+        "purpose": "Top 9 position numerals."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "RPG Hunt wordmark, Hunt in ochre."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text and summaries."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, meta, rating line, shop domain, nav."
+      }
+    },
+    "shadows": [
+      {
+        "name": "focus-ring",
+        "value": "0 0 0 2px #e6af3e",
+        "purpose": "Marks a focused card (state only, not elevation)."
+      },
+      {
+        "name": "cover-label-overlay",
+        "value": "rgba(20, 18, 15, .85)",
+        "purpose": "Translucent background of the deal-type label on cover images (a fill, not a shadow)."
+      }
+    ],
+    "motion": [],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "560px"
+      },
+      {
+        "name": "header-stack",
+        "value": "720px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one loud action on a card: Get the deal / Get it free.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Get the deal</a>",
+      "css": ":host{--bg:#14120f;--card:#1c1a16;--ink:#f0ebe2;--muted:#aea596;--line:#332f29;--accent:#e6af3e;--accent-ink:#1a1205;--urgent:#ff7a59;--chip:#2a2620;--ok:#8ccf98;--radius:12px;font-family:Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink);} .ds-btn{display:inline-block;font-size:.82rem;text-decoration:none;padding:6px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);} .ds-btn-primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700;} .ds-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet action: About [game], View all, All deals.",
+      "html": "<button type=\"button\" class=\"ds-btn\">View all →</button>",
+      "css": ":host{--bg:#14120f;--card:#1c1a16;--ink:#f0ebe2;--muted:#aea596;--line:#332f29;--accent:#e6af3e;--accent-ink:#1a1205;--urgent:#ff7a59;--chip:#2a2620;--ok:#8ccf98;--radius:12px;font-family:Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink);} .ds-btn{font:inherit;font-size:.82rem;padding:6px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;} .ds-btn:hover{border-color:var(--accent);} .ds-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Pill search in the sticky header; border turns ochre on focus.",
+      "html": "<label class=\"ds-search\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m20 20-4-4\"/></svg><input type=\"search\" placeholder=\"Search deals, games, shops\"></label>",
+      "css": ":host{--bg:#14120f;--card:#1c1a16;--ink:#f0ebe2;--muted:#aea596;--line:#332f29;--accent:#e6af3e;--accent-ink:#1a1205;--urgent:#ff7a59;--chip:#2a2620;--ok:#8ccf98;--radius:12px;font-family:Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink);} .ds-search{display:flex;align-items:center;gap:10px;max-width:520px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:0 16px;} .ds-search:focus-within{border-color:var(--accent);} .ds-search svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;color:var(--muted);flex:none;} .ds-search input{flex:1;min-width:0;border:0;background:none;color:var(--ink);font:inherit;padding:11px 0;outline:none;caret-color:var(--accent);} .ds-search input::placeholder{color:var(--muted);opacity:1;}"
+    },
+    {
+      "name": "Header Nav",
+      "kind": "nav",
+      "refersTo": "site-header",
+      "description": "Muted text nav; hover and current item turn parchment and underline.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">All</a><a href=\"#\">Sales</a><a href=\"#\">Bundles</a><a href=\"#\">Free</a></nav>",
+      "css": ":host{--bg:#14120f;--card:#1c1a16;--ink:#f0ebe2;--muted:#aea596;--line:#332f29;--accent:#e6af3e;--accent-ink:#1a1205;--urgent:#ff7a59;--chip:#2a2620;--ok:#8ccf98;--radius:12px;font-family:Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink);} .ds-nav{display:flex;gap:18px;background:var(--card);padding:14px 16px;border-bottom:1px solid var(--line);} .ds-nav a{color:var(--muted);font-size:.92rem;text-decoration:none;padding:4px 0;} .ds-nav a:hover,.ds-nav a[aria-current=page]{color:var(--ink);text-decoration:underline;text-underline-offset:4px;} .ds-nav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip-tag",
+      "description": "Pill toggle; selected state turns ochre.",
+      "html": "<button class=\"ds-tag\" aria-pressed=\"true\">OSR</button> <button class=\"ds-tag\" aria-pressed=\"false\">Horror</button>",
+      "css": ":host{--bg:#14120f;--card:#1c1a16;--ink:#f0ebe2;--muted:#aea596;--line:#332f29;--accent:#e6af3e;--accent-ink:#1a1205;--urgent:#ff7a59;--chip:#2a2620;--ok:#8ccf98;--radius:12px;font-family:Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink);} .ds-tag{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:5px 11px;font:inherit;font-size:.8rem;cursor:pointer;} .ds-tag[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);} .ds-tag:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}"
+    },
+    {
+      "name": "Deal Card",
+      "kind": "card",
+      "refersTo": "deal-card",
+      "description": "The single deal layout: cover, title, rating, price, summary, end date, buttons, shop domain.",
+      "html": "<article class=\"ds-deal\"><div class=\"ds-cover\"><div class=\"ds-fallback\">Mothership</div><span class=\"ds-kind\">Sale</span></div><div class=\"ds-body\"><h3>Mothership Core Set PDF</h3><div class=\"ds-rating\"><span class=\"ds-stars\">★</span> 4.9 from 393 ratings</div><div class=\"ds-price\"><span class=\"ds-now\">$12.00</span><span class=\"ds-was\">$20.00</span><span class=\"ds-off\">-40%</span></div><p class=\"ds-desc\">Sci-fi horror RPG of desperate crews and things in the dark.</p><div class=\"ds-ends ds-soon\">Ends in 2 days</div><div class=\"ds-actions\"><a class=\"ds-btn ds-primary\" href=\"#\">Get the deal</a><a class=\"ds-btn\" href=\"#\">About Mothership</a></div><p class=\"ds-source\">tuesdayknightgames.com</p></div></article>",
+      "css": ":host{--bg:#14120f;--card:#1c1a16;--ink:#f0ebe2;--muted:#aea596;--line:#332f29;--accent:#e6af3e;--accent-ink:#1a1205;--urgent:#ff7a59;--chip:#2a2620;--ok:#8ccf98;--radius:12px;font-family:Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink);} .ds-deal{max-width:280px;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;} .ds-cover{position:relative;aspect-ratio:4/3;background:var(--chip);display:grid;place-items:center;} .ds-fallback{padding:20px;text-align:center;font-weight:800;font-stretch:75%;font-size:1.5rem;line-height:1.1;color:var(--muted);} .ds-kind{position:absolute;left:10px;top:10px;background:rgba(20,18,15,.85);color:var(--ink);font-size:.75rem;font-weight:600;padding:4px 9px;border-radius:6px;} .ds-body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;} .ds-body h3{font-size:1.15rem;font-weight:700;margin:0;line-height:1.25;} .ds-rating{font-size:.85rem;color:var(--muted);} .ds-stars{color:var(--accent);} .ds-price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;} .ds-now{font-size:1.6rem;font-weight:800;font-stretch:85%;line-height:1;} .ds-was{color:var(--muted);text-decoration:line-through;} .ds-off{background:var(--accent);color:var(--accent-ink);font-weight:800;font-size:.85rem;padding:4px 8px;border-radius:6px;} .ds-desc{margin:0;font-size:.93rem;color:var(--muted);} .ds-ends{font-size:.82rem;color:var(--muted);} .ds-soon{color:var(--urgent);font-weight:600;} .ds-actions{display:flex;flex-wrap:wrap;gap:8px;padding-top:6px;} .ds-btn{font-size:.82rem;text-decoration:none;padding:6px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);} .ds-btn:hover{border-color:var(--accent);} .ds-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px;} .ds-primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700;} .ds-source{font-size:.78rem;color:var(--muted);margin:2px 0 0;}"
+    },
+    {
+      "name": "Top 9 Item",
+      "kind": "custom",
+      "description": "Ranked board entry: oversized condensed numeral behind a 76px thumbnail.",
+      "html": "<ol class=\"ds-top9\"><li><span class=\"ds-rank\">1</span><div class=\"ds-thumb\"></div><div class=\"ds-tb\"><h3><a href=\"#\">Blades in the Dark</a></h3><p class=\"ds-d\">Heists and hauntings in a haunted industrial city.</p><div class=\"ds-p\"><span class=\"ds-now\">$9.99</span><span class=\"ds-off\">-50%</span></div><p class=\"ds-src\">drivethrurpg.com</p></div></li></ol>",
+      "css": ":host{--bg:#14120f;--card:#1c1a16;--ink:#f0ebe2;--muted:#aea596;--line:#332f29;--accent:#e6af3e;--accent-ink:#1a1205;--urgent:#ff7a59;--chip:#2a2620;--ok:#8ccf98;--radius:12px;font-family:Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink);} .ds-top9{list-style:none;margin:0;padding:0;max-width:360px;} .ds-top9 li{position:relative;display:grid;grid-template-columns:76px 1fr;gap:14px;padding-left:34px;align-items:start;padding-top:14px;} .ds-rank{position:absolute;left:0;top:0;font-size:5.2rem;font-weight:800;font-stretch:75%;line-height:1;color:#6e6659;} .ds-thumb{position:relative;z-index:1;width:76px;height:76px;border-radius:10px;background:var(--chip);} .ds-tb{display:grid;gap:4px;} .ds-tb h3{margin:0;font-size:1.02rem;font-weight:700;line-height:1.25;} .ds-tb a{color:inherit;text-decoration:none;} .ds-tb a:hover{text-decoration:underline;text-underline-offset:3px;} .ds-d{margin:0;color:var(--muted);font-size:.88rem;} .ds-p{display:flex;gap:10px;align-items:baseline;} .ds-now{font-size:1.15rem;font-weight:800;font-stretch:85%;} .ds-off{background:var(--accent);color:var(--accent-ink);font-weight:800;font-size:.85rem;padding:4px 8px;border-radius:6px;} .ds-src{margin:0;font-size:.78rem;color:var(--muted);}"
+    },
+    {
+      "name": "Announcement Bar",
+      "kind": "custom",
+      "refersTo": "announce-bar",
+      "description": "Thin ochre strip with the deal ending soonest.",
+      "html": "<div class=\"ds-announce\"><span>Ends tomorrow: Bundle of Holding OSR, 70% off</span><a href=\"#\">Get it</a></div>",
+      "css": ":host{--bg:#14120f;--card:#1c1a16;--ink:#f0ebe2;--muted:#aea596;--line:#332f29;--accent:#e6af3e;--accent-ink:#1a1205;--urgent:#ff7a59;--chip:#2a2620;--ok:#8ccf98;--radius:12px;font-family:Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink);} .ds-announce{background:var(--accent);color:var(--accent-ink);font-size:.88rem;font-weight:600;display:flex;justify-content:center;gap:12px;padding:8px 16px;flex-wrap:wrap;text-align:center;} .ds-announce a{color:inherit;font-weight:800;text-underline-offset:3px;} .ds-announce a:focus-visible{outline:2px solid var(--accent-ink);outline-offset:2px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Evening Deal Board",
+    "overview": "RPG Hunt is a deal board read after dark: warm near-black surfaces, parchment-colored text, and one ochre accent that marks only what earns a click (the discount, the buy button, the selected filter, the stars). It is browsed in the evening, between sessions, often on a phone, so the page is always dark and dense enough to scan in seconds.\n\nThe structure is a marketplace front page in the AppSumo mould: a thin ochre announcement bar, a sticky header with a pill search, a centered headline, a short trust row, a ranked Top 9 list, then rows of four deal cards each with a View all button. Every deal card has the same layout and always shows a cover image, so the eye learns one card and reads the rest.\n\nType is a single family, Archivo, used across its width axis: condensed and heavy for prices, rank numerals and headlines; wide for the wordmark; normal width for reading. There are no serif faces anywhere. Depth comes from tonal steps between three dark surfaces and hairline borders, not from shadows.",
+    "keyCharacteristics": [
+      "Always dark, warm umber-tinted neutrals.",
+      "One accent (ochre), used sparingly for price, action and selection.",
+      "One typeface (Archivo), with personality carried by width and weight, not by a second family.",
+      "Flat surfaces separated by 1px warm borders; no drop shadows.",
+      "Identical deal cards: cover, title, rating, price, summary, end date, buttons, shop domain."
+    ],
+    "rules": [
+      {
+        "name": "The Always Dark Rule",
+        "body": "The site has no light theme. `color-scheme: dark` is set on the root; every new surface uses the night, lamp and chip steps.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Accent Rule",
+        "body": "Ochre is the only accent color. Red is not the accent; Ember appears only for an urgent deadline.",
+        "section": "colors"
+      },
+      {
+        "name": "The No Serif Rule",
+        "body": "Archivo is the only family. Do not introduce a serif or a second display face; vary width and weight instead.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rating Wording Rule",
+        "body": "Ratings read exactly \"★ 4.9 from 393 ratings\": an ochre star, one decimal, the count with thousands separators, the word \"ratings\".",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Board Rule",
+        "body": "No drop shadows. The only box-shadow in the system is a 2px ochre ring marking a focused card, a state signal, not elevation.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep every surface dark: night background, lamp card, chip umber.",
+      "Do reserve ochre for price badges, the main action, selection, stars and focus.",
+      "Do show a cover image on every deal and keep every deal card in the same order.",
+      "Do show the shop once per card, as its bare domain in small muted text under the buttons.",
+      "Do write ratings as \"★ 4.9 from 393 ratings\".",
+      "Do use Archivo's width axis (condensed for numbers, wide for the wordmark) instead of adding fonts.",
+      "Do keep the AppSumo-style home order: announcement bar, header with search, headline, trust row, Top 9, rows of 4 with View all."
+    ],
+    "donts": [
+      "Don't add a light theme or light surfaces.",
+      "Don't use red or any second hue as the accent.",
+      "Don't use serif fonts anywhere.",
+      "Don't repeat information on a card (no shop name in two places, no duplicated price or label).",
+      "Don't add drop shadows to cards or buttons."
+    ]
+  }
+}

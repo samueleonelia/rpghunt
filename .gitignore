@@ -34,3 +34,6 @@ downloads/
 .impeccable/decision/
 .impeccable/mocks/
 .impeccable/review/
+.impeccable/live/sessions/
+.impeccable/live/inject-journal.json
+.impeccable/live/roots.json
