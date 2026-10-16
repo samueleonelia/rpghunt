@@ -1,0 +1,52 @@
+{
+ "dead": [],
+ "unverified": [
+  {
+   "game": "Warhammer Fantasy Roleplay",
+   "url": "https://www.cubicle7games.com/our-games/warhammer-fantasy-roleplay",
+   "reason": "HTTP 403 (bot protection)"
+  },
+  {
+   "game": "Legend of the Five Rings Roleplaying Game",
+   "url": "https://www.legendofthefiverings.com/products/roleplaying-games/",
+   "reason": "HTTP 403 (bot protection)"
+  },
+  {
+   "game": "Legend of the Five Rings Roleplaying Game",
+   "url": "http://www.edge-studio.net/games/l5r-core-rulebook",
+   "reason": "HTTP 403 (bot protection)"
+  }
+ ],
+ "rejected_candidates": [
+  {
+   "game": "Rifts",
+   "url": "https://palladiumbooks.com/shop/futuristic/rifts-rpg/rifts-core-books/rifts-ultimate-edition/",
+   "reason": "HTTP 403 (bot protection)"
+  },
+  {
+   "game": "Rifts",
+   "url": "https://www.drivethrurpg.com/en/product/181928/rifts-ultimate-edition-rpg",
+   "reason": "HTTP 403 (bot protection)"
+  },
+  {
+   "game": "The One Ring",
+   "url": "https://www.drivethrurpg.com/en/product/370267/The-One-RingTM-Core-Rules",
+   "reason": "HTTP 403 (bot protection)"
+  },
+  {
+   "game": "Alien: The Role-Playing Game",
+   "url": "https://www.drivethrurpg.com/en/product/293976/alien-rpg-core-rulebook",
+   "reason": "HTTP 403 (bot protection)"
+  },
+  {
+   "game": "Mage: The Ascension",
+   "url": "https://www.drivethrurpg.com/en/product/149562/mage-the-ascension-20th-anniversary-edition",
+   "reason": "HTTP 403 (bot protection)"
+  },
+  {
+   "game": "Vaesen",
+   "url": "https://www.drivethrurpg.com/en/product/319119/vaesen-nordic-horror-roleplaying",
+   "reason": "HTTP 403 (bot protection)"
+  }
+ ]
+}

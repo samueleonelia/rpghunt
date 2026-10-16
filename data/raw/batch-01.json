@@ -1,0 +1,261 @@
+[
+  {
+    "wikidata": "Q1375",
+    "name": "Dungeons & Dragons",
+    "name_it": "Dungeons & Dragons",
+    "year": 1974,
+    "current_edition": "2024 revised 5th Edition (2024)",
+    "in_print": true,
+    "publishers": ["Wizards of the Coast", "TSR"],
+    "designers": ["Gary Gygax", "Dave Arneson"],
+    "tags": ["fantasy"],
+    "description_en": "You play a band of adventurers who explore dungeons, fight monsters and gather treasure, while one player acts as the Dungeon Master and runs the world. It is the original tabletop RPG and still the most played, with a classic heroic fantasy tone and a rules system built on a twenty-sided die. The 2024 books update the 5th edition rules without making older material unusable.",
+    "description_it": "Interpreti un gruppo di avventurieri che esplorano dungeon, combattono mostri e cercano tesori, mentre un giocatore fa da Dungeon Master e guida il mondo di gioco. È il gioco di ruolo da tavolo originale e ancora oggi il più giocato, con un tono fantasy eroico classico e un sistema basato sul dado a venti facce. I manuali del 2024 aggiornano le regole della quinta edizione senza rendere inutilizzabile il materiale precedente.",
+    "italian_edition": {
+      "publisher": "Wizards of the Coast",
+      "url": "https://wpn.wizards.com/it/products/2024-players-handbook"
+    },
+    "links": [
+      {"type": "official", "label": "Dungeons & Dragons (official site)", "url": "https://dungeonsanddragons.com/"},
+      {"type": "free", "label": "System Reference Document 5.2.1 (free rules, CC-BY-4.0)", "url": "https://www.dndbeyond.com/resources/1781-systems-reference-document-srd"}
+    ],
+    "amazon_query": "Dungeons & Dragons Player's Handbook 2024",
+    "sources": [
+      "https://dungeonsanddragons.com/",
+      "https://www.dndbeyond.com/resources/1781-systems-reference-document-srd",
+      "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons",
+      "https://wpn.wizards.com/it/products/2024-players-handbook",
+      "https://www.smartworld.it/videogiochi/d-e-d-manuale-del-giocatore-2024-italiano.html"
+    ],
+    "notes": "No store link confirmed (dndbeyond.com home and Wizards shop pages not opened). Italian publisher of the 2024 edition (probably Asmodee Italia) not confirmed; italian_edition url is the Wizards Play Network Italian product page. Italian edition released 8 May 2025 per SmartWorld."
+  },
+  {
+    "wikidata": "Q1047814",
+    "name": "GURPS",
+    "name_it": null,
+    "year": 1986,
+    "current_edition": "4th Edition Revised (4th Edition: 2004)",
+    "in_print": true,
+    "publishers": ["Steve Jackson Games"],
+    "designers": ["Steve Jackson"],
+    "tags": ["generic", "crunchy"],
+    "description_en": "GURPS is a toolkit that lets you play almost any genre, from medieval fantasy to modern spies or far-future space, using the same rules. Characters are built point by point and the rules aim for realism and detail, so it suits groups who like to tinker. A large library of setting and rules books adds more options.",
+    "description_it": "GURPS è una cassetta degli attrezzi che permette di giocare quasi qualsiasi genere, dal fantasy medievale alle spie moderne fino allo spazio del futuro, sempre con le stesse regole. I personaggi si costruiscono a punti e il regolamento punta su realismo e dettaglio, quindi piace ai gruppi che amano personalizzare tutto. Una grande libreria di manuali di ambientazione e regole aggiunge altre opzioni.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "GURPS at Steve Jackson Games", "url": "https://www.sjgames.com/gurps/"},
+      {"type": "store", "label": "GURPS Basic Set, Fourth Edition Revised (Warehouse 23)", "url": "https://www.warehouse23.com/products/gurps-basic-set-fourth-edition-revised"},
+      {"type": "free", "label": "GURPS Lite (free 32-page PDF)", "url": "https://www.sjgames.com/gurps/lite/"}
+    ],
+    "amazon_query": "GURPS Basic Set Fourth Edition Revised",
+    "sources": [
+      "http://www.sjgames.com/gurps/",
+      "https://www.sjgames.com/gurps/lite/",
+      "https://www.warehouse23.com/products/gurps-basic-set-fourth-edition-revised",
+      "https://en.wikipedia.org/wiki/GURPS"
+    ],
+    "notes": "Year of the 4th Edition Revised printing not confirmed (Warehouse 23 page flags it as a new release). Italian edition existence not confirmed, so name_it and italian_edition left null (Wikidata gave 'GURPS')."
+  },
+  {
+    "wikidata": "Q5473",
+    "name": "Middle-earth Role Playing",
+    "name_it": "Il Gioco di Ruolo del Signore degli Anelli",
+    "year": 1984,
+    "current_edition": "Second Edition (1986)",
+    "in_print": false,
+    "publishers": ["Iron Crown Enterprises"],
+    "designers": ["Coleman Charlton"],
+    "tags": ["fantasy", "crunchy"],
+    "description_en": "MERP lets you play heroes in Tolkien's Middle-earth, mostly in the Third Age, using a simplified version of the Rolemaster rules. Character classes, skills and combat use percentile dice and tables, so it is detailed and a bit heavy by modern standards. It is out of print and cannot be reprinted because the Tolkien license ended in 1999.",
+    "description_it": "MERP permette di interpretare eroi nella Terra di Mezzo di Tolkien, per lo più nella Terza Era, con una versione semplificata delle regole di Rolemaster. Classi, abilità e combattimento usano dadi percentuali e tabelle, quindi il gioco è dettagliato e un po' pesante per gli standard di oggi. È fuori stampa e non può essere ristampato perché la licenza Tolkien è scaduta nel 1999.",
+    "italian_edition": {
+      "publisher": "Stratelibri",
+      "url": null
+    },
+    "links": [],
+    "amazon_query": "Middle-earth Role Playing MERP rulebook Iron Crown",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Middle-earth_Role_Playing",
+      "https://ironcrown.co.uk/",
+      "https://en.wikipedia.org/wiki/Iron_Crown_Enterprises"
+    ],
+    "notes": "No link confirmed: ironcrown.co.uk lists MERP only in a menu with no product page. Out of print since the license was revoked in 1999 (Wikipedia). Italian edition by Stratelibri is from a single search-result snippet (220-page softcover), not verified by fetching; year unknown. A collector's second edition appeared in 1993. Wikidata listed no designer; Wikipedia credits Coleman Charlton."
+  },
+  {
+    "wikidata": "Q5453",
+    "name": "Ars Magica",
+    "name_it": "Ars Magica",
+    "year": 1987,
+    "current_edition": "Definitive Edition (2026)",
+    "in_print": true,
+    "publishers": ["Atlas Games", "White Wolf", "Lion Rampant"],
+    "designers": ["Jonathan Tweet", "Mark Rein-Hagen"],
+    "tags": ["fantasy", "historical", "narrative"],
+    "description_en": "You play wizards of the Order of Hermes in a medieval Europe where faeries, demons and miracles are real, around the year 1220. Players share the storyteller role and each controls several characters: a powerful mage, companions and servants. The game is slow, scholarly and focused on the group's shared base, and its magic system is built from combining Techniques and Forms.",
+    "description_it": "Interpreti maghi dell'Ordine di Ermes in un'Europa medievale, attorno al 1220, dove fate, demoni e miracoli sono reali. I giocatori si dividono il ruolo del narratore e ognuno guida più personaggi: un mago potente, dei compagni e i servitori. Il ritmo è lento ed erudito, molto centrato sulla sede condivisa del gruppo, e la magia nasce dalla combinazione di Tecniche e Forme.",
+    "italian_edition": {
+      "publisher": "Das Production (1993, translation of the 3rd edition, out of print)",
+      "url": null
+    },
+    "links": [
+      {"type": "official", "label": "Ars Magica at Atlas Games", "url": "https://www.atlas-games.com/arsmagica/"},
+      {"type": "store", "label": "Ars Magica Definitive Edition (Atlas Games)", "url": "https://www.atlas-games.com/definitive"}
+    ],
+    "amazon_query": "Ars Magica Fifth Edition Atlas Games",
+    "sources": [
+      "https://www.atlas-games.com/arsmagica/",
+      "https://www.atlas-games.com/definitive",
+      "https://en.wikipedia.org/wiki/Ars_Magica",
+      "https://it.wikipedia.org/wiki/Ars_Magica"
+    ],
+    "notes": "Definitive Edition was announced for August 2026 on the Atlas page; Wikipedia says it shipped in 2026. The 5th Edition (2004) is also still listed on the Atlas page. The free Ars Magica Open License is mentioned on the Atlas page but no direct URL was opened. Only the 1993 Italian edition is known, no current Italian edition found. Amazon likely carries only the 5th Edition."
+  },
+  {
+    "wikidata": "Q1180909",
+    "name": "Deadlands",
+    "name_it": null,
+    "year": 1996,
+    "current_edition": "Deadlands: The Weird West (2021)",
+    "in_print": true,
+    "publishers": ["Pinnacle Entertainment Group"],
+    "designers": ["Shane Lacy Hensley"],
+    "tags": ["western", "horror"],
+    "description_en": "You play gunslingers, gamblers and mad scientists in an alternate 1870s Wild West where the dead walk and dark powers haunt the frontier. The tone mixes classic Western with pulp horror, and cards and poker chips often take part in play. The current edition runs on the Savage Worlds rules, so you also need that core rulebook.",
+    "description_it": "Interpreti pistoleri, giocatori d'azzardo e scienziati pazzi in un Far West alternativo del 1870, dove i morti camminano e forze oscure infestano la frontiera. Il tono unisce il western classico all'horror pulp, e carte e fiches da poker spesso entrano in gioco. L'edizione attuale usa le regole di Savage Worlds, quindi serve anche il suo manuale base.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Deadlands at Pinnacle Entertainment Group", "url": "https://www.peginc.com/product-category/deadlands/"}
+    ],
+    "amazon_query": "Deadlands The Weird West Savage Worlds Pinnacle",
+    "sources": [
+      "https://www.peginc.com/product-category/deadlands/",
+      "https://en.wikipedia.org/wiki/Deadlands",
+      "https://it.wikipedia.org/wiki/Deadlands"
+    ],
+    "notes": "The Pinnacle page says online sales moved to shop.peginc.com, which was not opened, so no store link. Italian edition not confirmed (name_it null although Wikidata gave 'Deadlands'). Earlier versions: Classic (1996, 1999), d20 and GURPS (2001), Reloaded (2006), 20th Anniversary (2017); older editions are on a separate Pinnacle page not opened."
+  },
+  {
+    "wikidata": "Q1336480",
+    "name": "Rifts",
+    "name_it": null,
+    "year": 1990,
+    "current_edition": "Ultimate Edition (2005)",
+    "in_print": true,
+    "publishers": ["Palladium Books"],
+    "designers": ["Kevin Siembieda"],
+    "tags": ["post-apocalyptic", "sci-fi", "fantasy", "crunchy"],
+    "description_en": "Rifts is set on a far-future Earth shattered by magic, where portals open to other worlds and bring monsters, aliens and wizards next to cyborgs and giant armor. Anything goes: you can play a dragon, a psychic, a robot or a powered-armor soldier in the same party. It is big, crunchy and wildly mixed, and it favors the thrill of the setting over balanced rules.",
+    "description_it": "Rifts è ambientato su una Terra del lontano futuro sconvolta dalla magia, dove portali verso altri mondi portano mostri, alieni e maghi accanto a cyborg e armature giganti. Qui tutto è possibile: nello stesso gruppo puoi giocare un drago, un telepate, un robot o un soldato in armatura potenziata. È un gioco vasto, ricco di regole e molto eterogeneo, che punta sul fascino dell'ambientazione più che sul bilanciamento.",
+    "italian_edition": null,
+    "links": [],
+    "amazon_query": "Rifts Ultimate Edition Palladium Books",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rifts_(role-playing_game)",
+      "https://frosty.palladiumbooks.com/shop/futuristic/rifts-rpg/rifts-core-books/rifts-ultimate-edition"
+    ],
+    "notes": "No link confirmed: palladiumbooks.com and its shop pages returned 403 to WebFetch. In-print status comes from web search snippets of Palladium pages (hardcover 800HC still sold, softcover 800SE added 2021), not verified directly. The search-result URL frosty.palladiumbooks.com was listed as a source only from the search result, not opened. Wikipedia lists other contributors: C. J. Carella, Kevin Long, Patrick Nowak, Julius Rosenstein. Italian edition not confirmed."
+  },
+  {
+    "wikidata": "Q39045543",
+    "name": "Blades in the Dark",
+    "name_it": "Blades in the Dark",
+    "year": 2017,
+    "current_edition": "Core rulebook (2017)",
+    "in_print": true,
+    "publishers": ["Evil Hat Productions", "One Seven Design"],
+    "designers": ["John Harper"],
+    "tags": ["dark-fantasy", "narrative"],
+    "description_en": "You play a crew of criminals trying to make a name in Doskvol, a gloomy industrial city haunted by ghosts. Play moves through heists and scores, with a quick planning system and flashbacks, and the fallout of each job feeds the next. It is fast, stylish and focused on telling a story about the crew rather than tracking details.",
+    "description_it": "Interpreti una banda di criminali che cerca di farsi un nome a Doskvol, una cupa città industriale infestata dai fantasmi. Si gioca tra colpi e missioni, con un sistema rapido di pianificazione e di flashback, e le conseguenze di ogni lavoro alimentano il successivo. È veloce, di grande stile e punta a raccontare la storia della banda più che a contare dettagli.",
+    "italian_edition": {
+      "publisher": "Grumpy Bear / Pendragon Game Studio",
+      "url": null
+    },
+    "links": [
+      {"type": "official", "label": "Blades in the Dark (official site)", "url": "https://bladesinthedark.com/"},
+      {"type": "store", "label": "Blades in the Dark (Evil Hat)", "url": "https://evilhat.com/product/blades-in-the-dark/"},
+      {"type": "free", "label": "Blades in the Dark SRD (free rules, CC-licensed)", "url": "https://bladesinthedark.com/greetings-scoundrel"}
+    ],
+    "amazon_query": "Blades in the Dark RPG John Harper Evil Hat",
+    "sources": [
+      "https://bladesinthedark.com/",
+      "https://bladesinthedark.com/greetings-scoundrel",
+      "https://evilhat.com/product/blades-in-the-dark/",
+      "https://en.wikipedia.org/wiki/Blades_in_the_Dark"
+    ],
+    "notes": "Italian edition (Grumpy Bear with Pendragon Game Studio) comes only from a search snippet of a Tom's Hardware Italia review (page returned 403) and an IBS listing seen in search results (ISBN 9788894514506, shown as unavailable). Italian publisher, URL and availability not confirmed. The official site also links itch.io and DriveThruRPG, but those pages were not opened."
+  },
+  {
+    "wikidata": "Q679735",
+    "name": "Kata Kumbas",
+    "name_it": "Kata Kumbas",
+    "year": 1984,
+    "current_edition": "Savage Worlds edition (2015)",
+    "in_print": false,
+    "publishers": ["GG Studio (now Space Orange)", "Edizioni E.Elle", "Orion Edizioni"],
+    "designers": ["Agostino Carocci", "Massimo Senzacqua"],
+    "tags": ["fantasy", "comedy"],
+    "description_en": "An early Italian game in which the players are themselves, their minds carried in their sleep into Laitia, a comic fantasy version of medieval Italy. The tone is picaresque and grotesque, drawing on Ariosto, Calvino's folk tales and swashbuckling Italian comedy films. It is a rare example of a funny, distinctly Italian fantasy from the 1980s.",
+    "description_it": "Un gioco italiano degli esordi in cui i giocatori interpretano sé stessi: durante il sonno la loro mente viene trasportata a Laitia, una versione fantastica e comica dell'Italia medievale. Il tono è picaresco e grottesco e attinge all'Orlando furioso, alle fiabe di Calvino e al cinema comico di cappa e spada. È un raro esempio di fantasy divertente e tipicamente italiano degli anni Ottanta.",
+    "italian_edition": {
+      "publisher": "GG Studio (now Space Orange), Savage Worlds edition 2015",
+      "url": null
+    },
+    "links": [],
+    "amazon_query": "Kata Kumbas gioco di ruolo",
+    "sources": [
+      "https://it.wikipedia.org/wiki/Kata_Kumbas",
+      "https://www.goodreads.com/author_blog_posts/22191867-kata-kumbas",
+      "https://rpggeek.com/rpgitemversion/294302/softcover-version"
+    ],
+    "notes": "in_print unconfirmed, set to false. The 2015 Savage Worlds edition (GG Studio, product code GGSW0901, per search snippet) may still be sold by Space Orange via a Gumroad page, but that page was blocked by the environment's money-page guard and was not opened, so no link. Designer spelling differs: Carocci (it.wikipedia) vs Carrocci (Goodreads). Publisher history from it.wikipedia: Orion Edizioni 1984 (distributed by Bero Toys), Edizioni E.Elle 1988, Savage Worlds version 2015 written by Umberto Pignatelli; the Savage Worlds publisher (GG Studio) comes from search snippets. goodreads and rpggeek were used from search snippets only."
+  },
+  {
+    "wikidata": "Q77272478",
+    "name": "Monster of the Week",
+    "name_it": null,
+    "year": 2012,
+    "current_edition": "Hardcover edition (2023)",
+    "in_print": true,
+    "publishers": ["Evil Hat Productions", "Generic Games"],
+    "designers": ["Michael Sands"],
+    "tags": ["horror", "urban-fantasy", "narrative"],
+    "description_en": "You play monster hunters in a story like a monster-of-the-week TV show such as Buffy, Supernatural or The X-Files. One player, the Keeper, prepares a mystery and a creature, and the hunters investigate, find its weakness and fight it. The rules are light and story-first, with each hunter type bringing its own special moves.",
+    "description_it": "Interpreti cacciatori di mostri in una storia che ricorda le serie TV con un mostro diverso a puntata, come Buffy, Supernatural o X-Files. Un giocatore, il Custode, prepara un mistero e una creatura, mentre i cacciatori indagano, ne scoprono il punto debole e la affrontano. Le regole sono leggere e pensate per la storia, e ogni tipo di cacciatore porta con sé mosse speciali.",
+    "italian_edition": null,
+    "links": [
+      {"type": "store", "label": "Monster of the Week (Evil Hat)", "url": "https://evilhat.com/product/monster-of-the-week/"}
+    ],
+    "amazon_query": "Monster of the Week RPG hardcover Evil Hat",
+    "sources": [
+      "https://evilhat.com/product/monster-of-the-week/",
+      "https://en.wikipedia.org/wiki/Monster_of_the_Week"
+    ],
+    "notes": "Wikidata gave the Italian title 'Il mostro della settimana' but no Italian edition could be found in two searches, so name_it and italian_edition are null. genericgames.co.nz/mow returned 404, so no official designer-site link. The Evil Hat page says the softcover is out of print; the 2023 hardcover (344 pages) is current. Revised edition with Evil Hat first appeared in 2015."
+  },
+  {
+    "wikidata": "Q136691424",
+    "name": "The One Ring",
+    "name_it": "L'Unico Anello",
+    "year": 2011,
+    "current_edition": "2nd Edition (2022)",
+    "in_print": true,
+    "publishers": ["Free League Publishing", "Cubicle 7"],
+    "designers": ["Francesco Nepitello", "Marco Maggi"],
+    "tags": ["fantasy", "narrative"],
+    "description_en": "You play heroes in Tolkien's Middle-earth, in the years between The Hobbit and The Lord of the Rings. The game alternates long journeys through dangerous lands with quiet rest periods in safe havens, and tracks the weariness and shadow that threaten your characters. The second edition is set in Eriador, the land of the Shire, and has a warm, melancholic tone.",
+    "description_it": "Interpreti eroi nella Terra di Mezzo di Tolkien, negli anni tra Lo Hobbit e Il Signore degli Anelli. Il gioco alterna lunghi viaggi attraverso terre pericolose a periodi di riposo in luoghi sicuri, e tiene traccia della stanchezza e dell'ombra che minacciano i personaggi. La seconda edizione è ambientata in Eriador, la terra della Contea, con un tono caldo e malinconico.",
+    "italian_edition": {
+      "publisher": "Need Games!",
+      "url": null
+    },
+    "links": [],
+    "amazon_query": "The One Ring Roleplaying Game Core Rules 2nd Edition Free League",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_One_Ring_Roleplaying_Game",
+      "https://www.needgames.it/",
+      "https://wellplayed.ch/products/the-one-ring-rpg-core-rules-en"
+    ],
+    "notes": "Wikidata entry is the 2nd edition (Wikidata says 2021); sources say it was released in 2022. year is the first edition (2011, Cubicle 7). No link confirmed: freeleaguepublishing.com returned 403 and the DriveThruRPG page also 403. Need Games! as Italian publisher comes from a search snippet that the 2nd edition would be translated by them; the exact Italian 2nd edition title and release date are unconfirmed (needgames.it home only showed a news item mentioning L'Unico Anello). Some retailers list the core rules as sold out or backordered, so in_print is likely but not verified directly."
+  }
+]

@@ -1,0 +1,474 @@
+[
+ {
+  "wikidata": "Q1034675",
+  "name": "Cyberpunk 2020",
+  "name_it": "Cyberpunk 2020",
+  "year": 1990,
+  "current_edition": "Cyberpunk 2020 (1990), revised 2.0.1 (1993)",
+  "in_print": true,
+  "publishers": [
+   "R. Talsorian Games",
+   "Stratelibri (Italy)"
+  ],
+  "designers": [
+   "Mike Pondsmith"
+  ],
+  "tags": [
+   "cyberpunk",
+   "crunchy"
+  ],
+  "description_en": "You play edgerunners in a violent 2020s world run by megacorporations, where a single bullet can end a character and every cyberware upgrade costs a bit of your humanity. It is a fast, deadly, skill-based game with a lot of style, street gangs and hacking. This is the classic that inspired the later Cyberpunk RED and the video game.",
+  "description_it": "Interpreti edgerunner in un futuro violento dominato dalle megacorporazioni, dove basta un proiettile per chiudere la partita e ogni impianto cibernetico ti costa un pezzo di umanità. Il gioco è veloce, letale e basato sulle abilità, con tanto stile, bande di strada e hacking. È il classico da cui sono nati Cyberpunk RED e il videogioco.",
+  "italian_edition": {
+   "publisher": "Stratelibri",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Cyberpunk collection, R. Talsorian store",
+    "url": "https://talsorianstore.com/collections/cyberpunk"
+   },
+   {
+    "type": "store",
+    "label": "Cyberpunk 2020 on the R. Talsorian store",
+    "url": "https://talsorianstore.com/collections/cyberpunk/products/cyberpunk-2020"
+   }
+  ],
+  "amazon_query": "Cyberpunk 2020 Roleplaying Game Core Rulebook R. Talsorian",
+  "sources": [
+   "https://talsorianstore.com/collections/cyberpunk",
+   "https://talsorianstore.com/collections/cyberpunk/products/cyberpunk-2020",
+   "https://en.wikipedia.org/wiki/Cyberpunk_(role-playing_game)",
+   "https://it.wikipedia.org/wiki/Cyberpunk_2020",
+   "https://rtalsoriangames.com/2019/12/17/back-to-the-dark-future/"
+  ],
+  "notes": "The first game was simply called Cyberpunk (1988, later nicknamed 2013); Cyberpunk 2020 is the 1990 edition. The store page does not say if the listing is print or PDF, so in_print is probable but unconfirmed. Italian edition by Stratelibri confirmed only on it.wikipedia; no Italian URL found, and it is long out of print. No DriveThruRPG link added (not opened successfully)."
+ },
+ {
+  "wikidata": "Q681338",
+  "name": "RuneQuest",
+  "name_it": null,
+  "year": 1978,
+  "current_edition": "RuneQuest: Roleplaying in Glorantha (2018)",
+  "in_print": true,
+  "publishers": [
+   "Chaosium",
+   "Avalon Hill",
+   "Mongoose Publishing",
+   "The Design Mechanism"
+  ],
+  "designers": [
+   "Steve Perrin",
+   "Steve Henderson",
+   "Warren James",
+   "Ray Turney",
+   "Greg Stafford"
+  ],
+  "tags": [
+   "fantasy",
+   "mythology",
+   "crunchy"
+  ],
+  "description_en": "A percentile-dice fantasy game set in Glorantha, a Bronze Age world of warring gods and myth. Your character comes from a culture and a cult, not a class, and skills, spirit magic and rune magic all work through the same d100 roll. Combat is gritty and dangerous, and the world is as important as the rules.",
+  "description_it": "Un gioco fantasy con dadi percentuali ambientato a Glorantha, un mondo dell'Età del Bronzo pieno di dèi in guerra e mitologia. Il personaggio nasce da una cultura e da un culto, non da una classe, e abilità e magia usano lo stesso tiro di d100. Gli scontri sono crudi e pericolosi, e il mondo conta quanto le regole.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "RuneQuest at Chaosium",
+    "url": "http://www.chaosium.com/runequest"
+   },
+   {
+    "type": "store",
+    "label": "RuneQuest: Roleplaying in Glorantha, hardcover",
+    "url": "https://www.chaosium.com/runequest-roleplaying-in-glorantha-hardcover/"
+   }
+  ],
+  "amazon_query": "RuneQuest Roleplaying in Glorantha Core Rulebook Chaosium",
+  "sources": [
+   "http://www.chaosium.com/runequest",
+   "https://www.chaosium.com/runequest-roleplaying-in-glorantha-hardcover/",
+   "https://en.wikipedia.org/wiki/RuneQuest",
+   "https://it.wikipedia.org/wiki/RuneQuest"
+  ],
+  "notes": "No Italian edition found for the current edition (searches and it.wikipedia mention none). Chaosium page shows no stock status for the hardcover, but it offers print-on-demand, so in_print is true. Starter Set and Quickstart exist on chaosium.com but I did not open those pages, so they are not linked. Stafford is credited for Glorantha rather than the rules."
+ },
+ {
+  "wikidata": "Q680764",
+  "name": "Rolemaster",
+  "name_it": "Rolemaster",
+  "year": 1980,
+  "current_edition": "Rolemaster Unified (2022)",
+  "in_print": true,
+  "publishers": [
+   "Iron Crown Enterprises",
+   "Mjolnir LLC (licensee)",
+   "Guild Companion Publications (licensee)"
+  ],
+  "designers": [
+   "Pete Fenlon",
+   "S. Coleman Charlton",
+   "Kurt Fischer"
+  ],
+  "tags": [
+   "fantasy",
+   "crunchy"
+  ],
+  "description_en": "A fantasy game famous for its detail: percentile dice, lots of skills, and big tables that tell you exactly how much damage a hit does and what critical wound follows. It grew out of house rules for a Middle-earth style campaign and suits groups who love gritty, simulation-style fights and complex magic.",
+  "description_it": "Un gioco fantasy famoso per il suo dettaglio: dadi percentuali, tantissime abilità e grandi tabelle che dicono esattamente quanto danno fa un colpo e quale ferita critica ne segue. Nasce da regole della casa per una campagna in stile Terra di Mezzo ed è fatto per chi ama scontri crudi e realistici e una magia complessa.",
+  "italian_edition": {
+   "publisher": "Strategiochi (2004), then Red Glove (2009 revised)",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Rolemaster at Iron Crown Enterprises",
+    "url": "https://ironcrown.co.uk/rolemaster/"
+   },
+   {
+    "type": "official",
+    "label": "Rolemaster Unified Core Law announcement",
+    "url": "https://ironcrown.co.uk/rolemaster-unified-core-law-out-now/"
+   }
+  ],
+  "amazon_query": "Rolemaster Unified Core Law",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rolemaster",
+   "https://ironcrown.co.uk/rolemaster/",
+   "https://ironcrown.co.uk/rolemaster-unified-core-law-out-now/",
+   "https://ironcrown.co.uk/directors-briefing-march-2023/",
+   "https://it.wikipedia.org/wiki/Rolemaster"
+  ],
+  "notes": "Sold mainly as PDF and print-on-demand through DriveThruRPG. The DriveThruRPG product page returned 403, so I could not open it and did not link it; the publisher page https://www.drivethrurpg.com/product/416633/Rolemaster-Core-Law-RMU appears on the ICE announcement. Print-on-demand availability was announced in 2023 but not re-confirmed today. Designers per Wikipedia (original house-rule authors); credited designers on the book may differ. Italian editions are old and probably out of print."
+ },
+ {
+  "wikidata": "Q1350935",
+  "name": "Fate",
+  "name_it": null,
+  "year": 2003,
+  "current_edition": "Fate Condensed (2020), based on Fate Core (2013)",
+  "in_print": true,
+  "publishers": [
+   "Evil Hat Productions"
+  ],
+  "designers": [
+   "Fred Hicks",
+   "Rob Donoghue"
+  ],
+  "tags": [
+   "generic",
+   "narrative"
+  ],
+  "description_en": "A toolkit system that works for any genre. Characters are described by free-form phrases called aspects, which you spend fate points to use for bonuses or take to get complications, so the story is driven by what the characters are like. Fate Condensed is the shortest, current version of the rules, with many setting books built on it.",
+  "description_it": "Un sistema universale che va bene per qualsiasi genere. I personaggi sono descritti da frasi libere chiamate aspetti, che si spendono con i punti fato per ottenere bonus o si accettano per avere complicazioni, così la storia nasce da come sono fatti i personaggi. Fate Condensed è la versione più breve e attuale delle regole, con molti manuali di ambientazione basati su di essa.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Fate Condensed at Evil Hat",
+    "url": "https://evilhat.com/product/fate-condensed/"
+   },
+   {
+    "type": "store",
+    "label": "Fate Condensed on itch.io (name your price)",
+    "url": "https://evilhat.itch.io/fate-condensed"
+   },
+   {
+    "type": "free",
+    "label": "Fate SRD (Core, Accelerated, Condensed)",
+    "url": "https://fate-srd.com/"
+   }
+  ],
+  "amazon_query": "Fate Condensed RPG Evil Hat Productions",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fate_(role-playing_game_system)",
+   "https://evilhat.com/?p=909",
+   "https://evilhat.com/product/fate-condensed/",
+   "https://evilhat.itch.io/fate-condensed",
+   "https://fate-srd.com/"
+  ],
+  "notes": "Fate is a system with several versions (1.0 to 2.0 in 2003, 3.0 in 2006, Fate Core 2013, Fate Accelerated, Fate Condensed 2020); this entry points to the current one. Evil Hat's product page showed no price. No official Italian edition found, only fan/LocJAM translations. Wikipedia does not date Fate Condensed; 2020 comes from the itch.io dev log and Bell of Lost Souls URL."
+ },
+ {
+  "wikidata": "Q682229",
+  "name": "The Dark Eye",
+  "name_it": "Uno sguardo nel buio",
+  "year": 1984,
+  "current_edition": "5th Edition (2015; English 2016)",
+  "in_print": true,
+  "publishers": [
+   "Ulisses Spiele",
+   "Fantasy Productions",
+   "Schmidt Spiele"
+  ],
+  "designers": [
+   "Ulrich Kiesow"
+  ],
+  "tags": [
+   "fantasy",
+   "crunchy"
+  ],
+  "description_en": "The best-selling RPG in Germany, set on the continent of Aventuria. It is classic high fantasy with many professions, cultures, gods and spells, and a huge shelf of official books about every corner of the world. The fifth edition is a detailed, rules-rich game for groups who like to dig into a deep setting.",
+  "description_it": "Il gioco di ruolo più venduto in Germania, ambientato nel continente di Aventuria. È fantasy classico con tante professioni, culture, divinità e incantesimi, e una enorme collezione di libri ufficiali su ogni angolo del mondo. La quinta edizione è un gioco ricco di regole, per chi ama immergersi in un'ambientazione profonda.",
+  "italian_edition": {
+   "publisher": "La Compagnia delle Dodici Gemme",
+   "url": "https://12gemme.itch.io/uno-sguardo-nel-buio-regolamento"
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "The Dark Eye at Ulisses US",
+    "url": "https://ulisses-us.com/games/tde/"
+   },
+   {
+    "type": "store",
+    "label": "Uno sguardo nel buio, 5a edizione (Italian), on itch.io",
+    "url": "https://12gemme.itch.io/uno-sguardo-nel-buio-regolamento"
+   }
+  ],
+  "amazon_query": "The Dark Eye Core Rules 5th Edition Ulisses",
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Dark_Eye_(role-playing_game)",
+   "https://ulisses-us.com/games/tde/",
+   "https://12gemme.itch.io/uno-sguardo-nel-buio-regolamento",
+   "https://it.wikipedia.org/wiki/Uno_sguardo_nel_buio",
+   "https://ulisses-us.com/"
+  ],
+  "notes": "Wikipedia credits 'Ulrich Kiesow et al.'; other original co-creators not confirmed. The Ulisses US page did not mention a quickstart (a free one exists per search results, unlinked). Italian: first edition by Edizioni EL (1986), 5th edition by La Compagnia delle Dodici Gemme (2020). The itch.io page is a digital rulebook at $19.99 minimum; a printed Italian edition exists (Kickstarter 2020) but its current stock is unconfirmed."
+ },
+ {
+  "wikidata": "Q3224019",
+  "name": "Legend of the Five Rings Roleplaying Game",
+  "name_it": "La leggenda dei cinque anelli",
+  "year": 1997,
+  "current_edition": "5th Edition (2018, core rulebook by Edge Studio 2021 printing)",
+  "in_print": true,
+  "publishers": [
+   "Edge Studio",
+   "Fantasy Flight Games",
+   "Alderac Entertainment Group"
+  ],
+  "designers": [
+   "John Wick"
+  ],
+  "tags": [
+   "fantasy",
+   "narrative"
+  ],
+  "description_en": "You play samurai, courtiers and shugenja in Rokugan, a fantasy land inspired by feudal Japan with strict honor, clan politics and spirits. Characters come to life through a short list of questions, and play centres on duty, rivalry and ring-based dice that let you choose how to approach each problem. It is as much about intrigue and duels as about monsters.",
+  "description_it": "Interpreti samurai, cortigiani e shugenja a Rokugan, una terra fantasy ispirata al Giappone feudale, tra onore rigido, politica tra clan e spiriti. I personaggi nascono da una serie di domande e il gioco ruota attorno a dovere, rivalità e dadi legati agli Anelli, con cui scegli come affrontare ogni problema. Contano quanto i mostri anche gli intrighi e i duelli.",
+  "italian_edition": {
+   "publisher": "Need Games (5th edition, 2019)",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Legend of the Five Rings, roleplaying games",
+    "url": "https://www.legendofthefiverings.com/products/roleplaying-games/"
+   },
+   {
+    "type": "official",
+    "label": "L5R Core Rulebook at Edge Studio",
+    "url": "http://www.edge-studio.net/games/l5r-core-rulebook"
+   }
+  ],
+  "amazon_query": "Legend of the Five Rings Roleplaying Core Rulebook Edge Studio",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Legend_of_the_Five_Rings_Roleplaying_Game",
+   "https://www.legendofthefiverings.com/products/roleplaying-games/",
+   "http://www.edge-studio.net/games/l5r-core-rulebook",
+   "https://it.wikipedia.org/wiki/La_leggenda_dei_cinque_anelli_(gioco_di_ruolo)"
+  ],
+  "notes": "Wikidata official site l5r.com/rpg now redirects to a 404 on legendofthefiverings.com. Publisher chain per Wikipedia: AEG (editions 1 to 4, 1997 to 2010), FFG (2015 to 2020, 5th edition 2018), Edge Studio from 2020 under Asmodee. Italian edition by Need Games (2019) comes only from it.wikipedia and the Need Games blog tags; no product URL confirmed. The 2021 date is the core rulebook printing, not the edition. Dice and character-creation details come from a GamingTrend review snippet in search results and Wikipedia."
+ },
+ {
+  "wikidata": "Q135031073",
+  "name": "Daggerheart",
+  "name_it": "Daggerheart",
+  "year": 2025,
+  "current_edition": "Core Set (2025)",
+  "in_print": true,
+  "publishers": [
+   "Darrington Press"
+  ],
+  "designers": [
+   "Spenser Starke",
+   "Carlos Cisco",
+   "Rowan Hall",
+   "John Harper",
+   "Matthew Mercer",
+   "Alex Uboldi",
+   "Mike Underwood"
+  ],
+  "tags": [
+   "fantasy",
+   "narrative"
+  ],
+  "description_en": "A heroic fantasy game from the makers of Critical Role. You roll two twelve-sided dice, one for Hope and one for Fear: the result tells you if you succeed and who gets a resource, you or the Game Master. There is no initiative order, and characters are built from decks of cards, so play flows back and forth between players and GM.",
+  "description_it": "Un gioco fantasy eroico dai creatori di Critical Role. Si tirano due dadi a dodici facce, uno di Speranza e uno di Paura: il risultato dice se riesci e chi ottiene una risorsa, tu o il Game Master. Non c'è un ordine di iniziativa e i personaggi si costruiscono con mazzi di carte, così il gioco passa fluido tra giocatori e GM.",
+  "italian_edition": {
+   "publisher": "Acheron Games",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Daggerheart official site",
+    "url": "https://www.daggerheart.com/"
+   },
+   {
+    "type": "free",
+    "label": "Daggerheart System Reference Document (free)",
+    "url": "https://www.daggerheart.com/srd/"
+   }
+  ],
+  "amazon_query": "Daggerheart Core Set Darrington Press",
+  "sources": [
+   "https://www.daggerheart.com/",
+   "https://www.daggerheart.com/srd/",
+   "https://www.daggerheart.com/faq/",
+   "https://en.wikipedia.org/wiki/Daggerheart"
+  ],
+  "notes": "No store link: the official 'buy' page is blocked in this environment (agents may not open money pages), and I did not open any shop page, so the Core Set purchase link is missing. The FAQ lists an Italian edition by Acheron Games as a pre-order; the Acheron pre-order page did not load, so the Italian release status and URL are unconfirmed. SRD is at version 2.0, which may mean a revised core edition; not verified."
+ },
+ {
+  "wikidata": "Q110997125",
+  "name": "Alien: The Role-Playing Game",
+  "name_it": null,
+  "year": 2019,
+  "current_edition": "Evolved Edition (2025)",
+  "in_print": true,
+  "publishers": [
+   "Free League Publishing"
+  ],
+  "designers": [
+   "Tomas Härenstam"
+  ],
+  "tags": [
+   "sci-fi",
+   "horror",
+   "space"
+  ],
+  "description_en": "You play ordinary space workers or colonial marines stuck in a deadly situation with a xenomorph in the dark. The game has two modes: Cinematic, one tense scenario shaped like an Alien film, and Campaign, an ongoing game of survival with limited resources. Stress and panic mechanics make fear part of the dice.",
+  "description_it": "Interpreti lavoratori dello spazio o marine coloniali bloccati in una situazione mortale con uno xenomorfo nel buio. Ci sono due modalità: Cinematica, un unico scenario teso costruito come un film di Alien, e Campagna, una partita lunga di sopravvivenza con risorse limitate. Stress e panico rendono la paura parte dei dadi.",
+  "italian_edition": {
+   "publisher": "Wyrd Edizioni",
+   "url": null
+  },
+  "links": [],
+  "amazon_query": "ALIEN The Roleplaying Game Evolved Edition Core Rulebook Free League",
+  "sources": [
+   "https://www.tomshw.it/culturapop/alien-the-roleplaying-game-intervista-a-tomas-harenstam-autore/",
+   "https://www.uberstrategist.com/press-releases/alien-rpg-evolved-edition-rapture-protocol-cinematic-adventure-and-evolved-edition-starter-set-out-now",
+   "https://bloody-disgusting.com/books/3910649/ttrpg-alien-the-roleplaying-game-evolved-edition-launches-november-18/"
+  ],
+  "notes": "NO LINKS: freeleaguepublishing.com returned 403 to every fetch, so no Free League URL was opened. Candidate URLs found in search (not opened): https://freeleaguepublishing.com/games/alien/ and https://freeleaguepublishing.com/shop/alien-rpg-2/evolved-edition-core-rulebook/. Evolved Edition released 18 Nov 2025 per press coverage. Designer name from an Italian interview headline only; Wikipedia page could not be fetched. Italian name of the book not confirmed; Italian edition (Wyrd Edizioni) covers the original 2019 core book, not the Evolved Edition."
+ },
+ {
+  "wikidata": "Q115732642",
+  "name": "Cyberpunk RED",
+  "name_it": null,
+  "year": 2020,
+  "current_edition": "Cyberpunk RED core rulebook (2020)",
+  "in_print": true,
+  "publishers": [
+   "R. Talsorian Games"
+  ],
+  "designers": [
+   "Mike Pondsmith",
+   "James Hutt",
+   "Cody Pondsmith",
+   "Jay Parker",
+   "J Gray",
+   "David Ackerman",
+   "Jaye Kovach"
+  ],
+  "tags": [
+   "cyberpunk",
+   "sci-fi"
+  ],
+  "description_en": "The newest Cyberpunk, set in 2045 after the Fourth Corporate War, between Cyberpunk 2020 and the video game. You pick one of ten Roles such as Solo, Netrunner or Nomad and build a life with a lifepath, then take jobs in Night City. It keeps the deadly, stylish feel of the classic with cleaner rules.",
+  "description_it": "L'ultimo Cyberpunk, ambientato nel 2045 dopo la Quarta Guerra delle Corporazioni, tra Cyberpunk 2020 e il videogioco. Si sceglie uno dei dieci Ruoli, come Solo, Netrunner o Nomade, si costruisce il passato con il lifepath e poi si prendono lavori a Night City. Mantiene lo spirito letale e di stile del classico, con regole più pulite.",
+  "italian_edition": {
+   "publisher": "Need Games (Jumpstart Kit only, 2020)",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "store",
+    "label": "Cyberpunk RED core book, R. Talsorian store",
+    "url": "https://talsorianstore.com/collections/cyberpunk-red/products/cyberpunk-red"
+   },
+   {
+    "type": "free",
+    "label": "Cyberpunk RED Easy Mode (free intro)",
+    "url": "https://talsorianstore.com/collections/cyberpunk-red/products/cyberpunk-red-easy-mode"
+   },
+   {
+    "type": "official",
+    "label": "Cyberpunk RED collection, R. Talsorian store",
+    "url": "https://talsorianstore.com/collections/cyberpunk-red"
+   }
+  ],
+  "amazon_query": "Cyberpunk RED Core Rulebook R. Talsorian Games",
+  "sources": [
+   "https://talsorianstore.com/collections/cyberpunk-red",
+   "https://talsorianstore.com/collections/cyberpunk-red/products/cyberpunk-red",
+   "https://talsorianstore.com/collections/cyberpunk-red/products/cyberpunk-red-easy-mode",
+   "https://rtalsoriangames.com/2020/10/09/cyberpunk-red-alert/amp/",
+   "https://en.wikipedia.org/wiki/Cyberpunk_(role-playing_game)",
+   "https://www.tomshw.it/culturapop/need-games-annuncia-le-uscite-per-modena-play-2020/"
+  ],
+  "notes": "Store product page shows an 'Add to cart' and a 'Notify me when available' option, so stock is unclear; core book is widely listed by retailers, hence in_print true. Italian: only the Jumpstart Kit by Need Games (2020) was found; no Italian core book found; no Need Games product URL opened. Designer list is from the 2020 R. Talsorian devlog."
+ },
+ {
+  "wikidata": "Q39058240",
+  "name": "Starfinder",
+  "name_it": null,
+  "year": 2017,
+  "current_edition": "Starfinder Second Edition (2025)",
+  "in_print": true,
+  "publishers": [
+   "Paizo"
+  ],
+  "designers": [],
+  "tags": [
+   "sci-fi",
+   "space",
+   "fantasy",
+   "crunchy"
+  ],
+  "description_en": "A science-fantasy game where heroes explore the galaxy with laser guns, spells, starships and a mix of alien species. It is built on Pathfinder's rules, so characters have classes, feats and detailed tactical combat, with extra systems for starship battles and faster-than-light travel. The Second Edition shares its rules with Pathfinder Second Edition.",
+  "description_it": "Un gioco di fantascienza e fantasy in cui gli eroi esplorano la galassia con pistole laser, incantesimi, astronavi e una varietà di specie aliene. È basato sulle regole di Pathfinder, quindi ha classi, talenti e combattimenti tattici dettagliati, con sistemi in più per le battaglie tra astronavi e i viaggi superluce. La Seconda Edizione condivide le regole con Pathfinder Seconda Edizione.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Starfinder at Paizo",
+    "url": "https://paizo.com/starfinder"
+   },
+   {
+    "type": "store",
+    "label": "Starfinder Player Core, Paizo store",
+    "url": "https://store.paizo.com/starfinder-2e-player-core/"
+   },
+   {
+    "type": "free",
+    "label": "Starfinder 2e rules database, Archives of Nethys",
+    "url": "https://2e.aonsrd.com/"
+   }
+  ],
+  "amazon_query": "Starfinder Player Core Second Edition Paizo",
+  "sources": [
+   "https://paizo.com/starfinder",
+   "https://store.paizo.com/starfinder-2e-player-core/",
+   "https://2e.aonsrd.com/",
+   "https://aonsrd.com/",
+   "https://en.wikipedia.org/wiki/Starfinder_Roleplaying_Game"
+  ],
+  "notes": "Name shortened from 'Starfinder Roleplaying Game'. Designers left empty: no source I opened names them. Second Edition date (2025) from Wikipedia, whose own timeline is slightly inconsistent; Paizo store listing shows Player Core in stock. Archives of Nethys is a fan-run but Paizo-endorsed site; its page did not say it is free (it is a public database). No Italian edition found. First edition (2017) is still hosted at aonsrd.com."
+ }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "wikidata": "Q650924",
+    "name": "Vampire: The Masquerade",
+    "name_it": "Vampiri: la masquerade",
+    "year": 1991,
+    "current_edition": "5th Edition (2018)",
+    "in_print": true,
+    "publishers": ["Renegade Game Studios", "Modiphius Entertainment", "Paradox Interactive (White Wolf)", "Onyx Path Publishing", "White Wolf Publishing"],
+    "designers": ["Mark Rein·Hagen", "Graeme Davis", "Tom Dowd", "Lisa Stevens", "Stewart Wieck"],
+    "tags": ["horror", "urban-fantasy", "narrative"],
+    "description_en": "You play a vampire in a modern gothic world, hiding your kind from humanity while fighting your own hunger for blood. Play is about scheming, rivalries between clans and the guilt of being a monster, far more than about fighting. The current 5th Edition uses a Hunger dice mechanic that makes losing control a regular part of the story.",
+    "description_it": "Interpreti un vampiro nel mondo moderno, nascosto agli esseri umani e in lotta con la tua stessa sete di sangue. Si gioca soprattutto di intrighi, rivalità tra clan e peso morale dell'essere un mostro, più che di combattimento. L'attuale quinta edizione usa i dadi Fame, che rendono la perdita di controllo parte della storia.",
+    "italian_edition": {"publisher": "Need Games", "url": "https://www.needgames.it/giochi/vampiri-la-masquerade-5a-edizione/"},
+    "links": [
+      {"type": "store", "label": "Renegade Game Studios store: 5th Edition Core Rulebook", "url": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-core-rulebook"},
+      {"type": "store", "label": "Need Games: Vampiri La Masquerade 5a edizione (Italian)", "url": "https://www.needgames.it/giochi/vampiri-la-masquerade-5a-edizione/"}
+    ],
+    "amazon_query": "Vampire: The Masquerade 5th Edition Roleplaying Game Core Rulebook",
+    "sources": [
+      "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-core-rulebook",
+      "https://www.needgames.it/giochi/vampiri-la-masquerade-5a-edizione/",
+      "https://en.wikipedia.org/wiki/Vampire:_The_Masquerade",
+      "https://it.wikipedia.org/wiki/Vampiri:_la_masquerade"
+    ],
+    "notes": "The Renegade page showed 'pre-order' status when fetched, so check stock. The Wikidata official site (white-wolf.com/vampire) was not opened, so it is not linked. Designer list is from English Wikipedia. Earlier Italian editions: Giochi dei Grandi/Das Production (1993), 21st Century Games (2000), 25 Edition (2002), per it.wikipedia."
+  },
+  {
+    "wikidata": "Q2164069",
+    "name": "Traveller",
+    "name_it": "Traveller",
+    "year": 1977,
+    "current_edition": "Mongoose 2nd Edition, Core Rulebook Update 2022 (2022)",
+    "in_print": true,
+    "publishers": ["Mongoose Publishing", "Game Designers' Workshop", "Hobby Japan"],
+    "designers": ["Marc W. Miller", "Frank Chadwick", "John Harshman", "Loren Wiseman"],
+    "tags": ["sci-fi", "space", "crunchy"],
+    "description_en": "A classic science fiction game of starship crews, traders and wanderers in a huge, slow, realistic galaxy with no faster-than-light radio. Characters are built by playing through a career before the game starts, which sometimes kills them. The default setting is the Third Imperium, but the rules work for almost any space campaign.",
+    "description_it": "Un classico della fantascienza: equipaggi di astronavi, mercanti e vagabondi in una galassia enorme e lenta, dove non esiste la radio più veloce della luce. I personaggi si creano vivendo una carriera prima di iniziare a giocare, e a volte non sopravvivono. L'ambientazione di base è il Terzo Impero, ma le regole vanno bene per quasi ogni campagna spaziale.",
+    "italian_edition": null,
+    "links": [
+      {"type": "store", "label": "Mongoose Publishing: Traveller Core Rulebooks", "url": "https://www.mongoosepublishing.com/collections/core-rulebooks-traveller"},
+      {"type": "official", "label": "Mongoose Publishing: Traveller", "url": "https://www.mongoosepublishing.com/collections/traveller-rpgs"}
+    ],
+    "amazon_query": "Traveller Core Rulebook Update 2022 Mongoose",
+    "sources": [
+      "https://www.mongoosepublishing.com/collections/core-rulebooks-traveller",
+      "https://www.mongoosepublishing.com/collections/traveller-rpgs",
+      "https://eu.nobleknight.com/P/2147924282",
+      "https://en.wikipedia.org/wiki/Traveller_(role-playing_game)",
+      "https://it.wikipedia.org/wiki/Traveller_(gioco_di_ruolo)"
+    ],
+    "notes": "Hobby Japan is from Wikidata (Japanese edition), not verified. Italian edition: Wild Boar Edizioni published a translation of Mongoose Traveller in 2008 (it.wikipedia), but I could not confirm it is still on sale or find a URL, so italian_edition is null. Traveller5 (2013, Far Future Enterprises) is a separate current ruleset. The Mongoose page did not show stock status explicitly."
+  },
+  {
+    "wikidata": "Q2142180",
+    "name": "Werewolf: The Apocalypse",
+    "name_it": "Werewolf: L'Apocalisse",
+    "year": 1992,
+    "current_edition": "5th Edition (2023)",
+    "in_print": true,
+    "publishers": ["Renegade Game Studios", "Paradox Interactive (White Wolf)", "Onyx Path Publishing", "White Wolf Publishing"],
+    "designers": ["Mark Rein·Hagen"],
+    "tags": ["horror", "urban-fantasy", "narrative"],
+    "description_en": "You play a Garou, a shapeshifting werewolf warrior, defending the natural world against corporate and spiritual corruption. It mixes savage action with rage that can take over your character, and with the politics of tribes that do not always agree. The tone is angry and tragic, closer to eco-activism with claws than to a monster hunt.",
+    "description_it": "Interpreti un Garou, un guerriero mutaforma che difende la natura dalla corruzione spirituale e industriale. Alterna azione feroce, una rabbia che può prendere il controllo del personaggio e le liti politiche tra tribù che non vanno mai d'accordo. Il tono è furioso e tragico, più vicino a un ecoattivismo con gli artigli che a una caccia ai mostri.",
+    "italian_edition": {"publisher": "Need Games", "url": "https://www.needgames.it/giochi/werewolf-lapocalisse/"},
+    "links": [
+      {"type": "official", "label": "Renegade Game Studios: Werewolf: The Apocalypse 5th Edition (UK)", "url": "https://uk.renegadegamestudios.com/werewolf-the-apocalypse/"},
+      {"type": "store", "label": "Renegade Game Studios store: 5th Edition Core Rulebook", "url": "https://renegadegamestudios.com/werewolf-the-apocalypse-5th-edition-core-rulebook"},
+      {"type": "store", "label": "Need Games: Werewolf L'Apocalisse (Italian)", "url": "https://www.needgames.it/giochi/werewolf-lapocalisse/"}
+    ],
+    "amazon_query": "Werewolf: The Apocalypse 5th Edition Roleplaying Game Core Rulebook",
+    "sources": [
+      "https://renegadegamestudios.com/werewolf-the-apocalypse-5th-edition-core-rulebook",
+      "https://retailers.renegadegamestudios.com/werewolf-the-apocalypse-5th-edition-core-rulebook/",
+      "https://uk.renegadegamestudios.com/werewolf-the-apocalypse/",
+      "https://www.needgames.it/giochi/werewolf-lapocalisse/",
+      "https://en.wikipedia.org/wiki/Werewolf:_The_Apocalypse",
+      "https://it.wikipedia.org/wiki/Licantropi:_l'apocalisse"
+    ],
+    "notes": "The UK Renegade line page did not list the core rulebook itself (only the free Primer and supplements), but the US store page does. Older Italian edition used the title 'Licantropi: l'apocalisse' (20th Anniversary edition via Raven Distribution per it.wikipedia). Release year of the 5th Edition core book (2023) comes from retailer listings; English Wikipedia also gives 1991/1992 for the original, I used 1992. The 'Primer' free link was not opened, so it is omitted."
+  },
+  {
+    "wikidata": "Q1883961",
+    "name": "Mage: The Ascension",
+    "name_it": null,
+    "year": 1993,
+    "current_edition": "20th Anniversary Edition (2015)",
+    "in_print": true,
+    "publishers": ["Onyx Path Publishing", "White Wolf Publishing"],
+    "designers": ["Stewart Wieck", "Christopher Earley", "Stephan Wieck", "Bill Bridges", "Sam Chupp", "Andrew Greenberg", "Chris Hind"],
+    "tags": ["urban-fantasy", "narrative", "mystery"],
+    "description_en": "You play an awakened person who can bend reality with belief, in a modern world where every group has its own idea of what reality should be. Magic is freeform: you describe the effect you want and the Storyteller judges it against your knowledge of nine 'Spheres', and bold magic risks Paradox backlash. It is a game of ideas and philosophy as much as spellcasting, and it is famously dense.",
+    "description_it": "Interpreti una persona risvegliata che piega la realtà con la forza delle proprie convinzioni, in un mondo moderno dove ogni gruppo ha una sua idea di come la realtà dovrebbe funzionare. La magia è libera: descrivi l'effetto che vuoi e il Narratore lo valuta in base alle tue conoscenze nelle nove Sfere, e gli incantesimi audaci rischiano il contraccolpo del Paradosso. È un gioco di idee e di filosofia tanto quanto di incantesimi, e ha fama di essere molto denso.",
+    "italian_edition": null,
+    "links": [],
+    "amazon_query": "Mage: The Ascension 20th Anniversary Edition",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mage:_The_Ascension",
+      "https://it.wikipedia.org/wiki/Mage:_The_Ascension",
+      "https://theonyxpath.com/mage-the-ascension-20th-anniversary-edition-faq-part-2/"
+    ],
+    "notes": "No links: DriveThruRPG (the Onyx Path store listing for the 20th Anniversary Edition) returned 403 and I could not open it, so nothing is linked. The in_print flag is based on a DriveThruRPG search result showing PDF plus hardcover/print-on-demand options; stock was not confirmed. I found no announcement of a Mage 5th Edition in my searches, but my results were old, so it is worth a recheck. it.wikipedia says Mage: The Ascension was never translated into Italian; a 2019 Fantasy Magazine item mentions a delayed Italian 'Maghi: L'Ascensione' via Raven Distribution that I could not confirm, so name_it is null. Designer list is from English Wikipedia and is not a clean single-designer credit."
+  },
+  {
+    "wikidata": "Q683240",
+    "name": "Tunnels & Trolls",
+    "name_it": "Tunnel e Troll",
+    "year": 1975,
+    "current_edition": "Deluxe Tunnels & Trolls (2015)",
+    "in_print": true,
+    "publishers": ["Rebellion Unplugged", "Flying Buffalo", "Fiery Dragon Productions"],
+    "designers": ["Ken St. Andre"],
+    "tags": ["fantasy", "osr"],
+    "description_en": "One of the oldest fantasy RPGs, made as a simpler and friendlier answer to Dungeons & Dragons. It uses only six-sided dice, eight attributes, and a magic system that spends points rather than memorised spells. It is built to work for a group, solo play with gamebook-style adventures, and play by mail.",
+    "description_it": "Uno dei più antichi giochi di ruolo fantasy, nato come risposta più semplice e più accessibile a Dungeons & Dragons. Usa solo dadi a sei facce, otto caratteristiche e una magia basata su punti da spendere invece che su incantesimi memorizzati. Funziona sia in gruppo sia da solo con avventure in stile librogame, e anche per corrispondenza.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Rebellion Unplugged: Tunnels & Trolls", "url": "https://rebellionunplugged.com/tunnelsandtrolls"}
+    ],
+    "amazon_query": "Deluxe Tunnels & Trolls rulebook hardcover",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tunnels_%26_Trolls",
+      "https://rebellionunplugged.com/tunnelsandtrolls",
+      "https://it.wikipedia.org/wiki/Tunnels_%26_Trolls",
+      "https://www.icv2.com/print/article/39762"
+    ],
+    "notes": "Flying Buffalo's old page (flyingbuffalo.com/tandt.htm) now redirects to Rebellion Unplugged, which acquired the line in May 2023. The Rebellion page says physical and PDF copies are sold via DriveThruRPG and Kurated Korner and that a new edition is in development (Wikipedia mentions a Kickstarter, 'A New Age', due 2027); it does not mention the Deluxe edition by name, so in_print is likely but unconfirmed. DriveThruRPG and Kurated Korner links were not opened and so are omitted. Italian edition: Mondadori published the 5th edition in 1986 (it.wikipedia); out of print, so italian_edition is null."
+  },
+  {
+    "wikidata": "Q680553",
+    "name": "Pendragon",
+    "name_it": null,
+    "year": 1985,
+    "current_edition": "6th Edition (2024)",
+    "in_print": true,
+    "publishers": ["Chaosium", "Nocturnal Media", "White Wolf", "Green Knight Publishing"],
+    "designers": ["Greg Stafford"],
+    "tags": ["fantasy", "historical", "mythology", "narrative"],
+    "description_en": "You play knights in King Arthur's Britain, trying to live up to chivalric ideals while jealousy, love and duty pull you apart. Your character's personality traits and passions, like Honor or Love of Family, are scored and can force your actions in play. A campaign covers decades, passing the story to your heirs as knights grow old and die.",
+    "description_it": "Interpreti cavalieri nella Britannia di re Artù, cercando di essere all'altezza degli ideali cavallereschi mentre gelosia, amore e dovere vi mettono gli uni contro gli altri. Tratti del carattere e passioni, come Onore o Amore per la famiglia, hanno un punteggio e possono costringere il personaggio ad agire in un certo modo. Una campagna copre decenni, e quando un cavaliere invecchia o muore la storia passa ai suoi eredi.",
+    "italian_edition": null,
+    "links": [
+      {"type": "store", "label": "Chaosium: Pendragon Core Rulebook (hardcover)", "url": "https://www.chaosium.com/pendragon-core-rulebook-hardcover/"},
+      {"type": "free", "label": "The Adventure of the Great Hunt (free 6th Edition quickstart)", "url": "https://chaosium.itch.io/the-adventure-of-the-great-hunt"}
+    ],
+    "amazon_query": "Pendragon Core Rulebook 6th Edition Chaosium",
+    "sources": [
+      "https://www.chaosium.com/pendragon-core-rulebook-hardcover/",
+      "https://www.chaosium.com/pendragon-gamemasters-handbook-leatherette",
+      "https://chaosium.itch.io/the-adventure-of-the-great-hunt",
+      "https://en.wikipedia.org/wiki/Pendragon_(role-playing_game)",
+      "https://it.wikipedia.org/wiki/Pendragon_(gioco_di_ruolo)"
+    ],
+    "notes": "Third-party sources call the 2024 book the 'Player's Handbook'; Chaosium's own page names it 'Core Rulebook'. The Gamemaster's Handbook (2025) is a separate book. The free quickstart is the 2020 preview of the 6th Edition rules. No Italian edition found in searches or on it.wikipedia."
+  },
+  {
+    "wikidata": "Q110106831",
+    "name": "Brancalonia",
+    "name_it": "Brancalonia",
+    "year": 2021,
+    "current_edition": null,
+    "in_print": true,
+    "publishers": ["Acheron Games", "Ares Games"],
+    "designers": [],
+    "tags": ["fantasy", "comedy"],
+    "description_en": "A setting book for D&D 5th Edition that turns the game into 'spaghetti fantasy': a ruined, quarrelsome, folklore-heavy Italy where the player characters are a gang of scoundrels in a mercenary band. Expect brawls, scams, tavern stunts and a lot of dark humour, with new rules for things like shabby hideouts and dirty tricks. It draws on Pinocchio, Dante and Italian westerns.",
+    "description_it": "Un'ambientazione per D&D 5a edizione che trasforma il gioco in un fantasy all'italiana: un regno scalcinato, litigioso e pieno di folklore, dove i personaggi sono una banda di furfanti che vive di espedienti. Tra risse, imbrogli e bravate da osteria, il tono è comico e a tratti amaro, con regole nuove per i covi malmessi e i colpi bassi. Pesca da Pinocchio, da Dante e dagli spaghetti western.",
+    "italian_edition": {"publisher": "Acheron Games", "url": null},
+    "links": [
+      {"type": "store", "label": "Acheron Games on itch.io: The Empire Whacks Back (campaign supplement, PDF)", "url": "https://acheron-games.itch.io/brancalonia-the-empire-whacks-back"}
+    ],
+    "amazon_query": "Brancalonia RPG Setting Book 5E",
+    "sources": [
+      "https://acheron-games.itch.io/brancalonia-the-empire-whacks-back",
+      "https://leisuregames.com/products/brancalonia-rpg-core-book",
+      "https://www.acheron.it/Brancalonia-The-Emperor-pack-jr-English-Version-p414967434"
+    ],
+    "notes": "The itch.io link is a Brancalonia campaign supplement, not the core book. I could not open the core book page: Ares Games and its Kickstarter shop returned 403, acheron.it refused connection. A UK retailer showed the English core book as sold out, so in_print is uncertain (likely true for the Italian edition, which seems to be Acheron's own product; a new Bounty Kingdom Gazetteer was announced for 2025). Release year 2021 comes from Wikidata and was not confirmed; current_edition and designers are unknown. The Italian edition is the original; I have no confirmed URL."
+  },
+  {
+    "wikidata": "Q110204172",
+    "name": "Vaesen",
+    "name_it": null,
+    "year": 2020,
+    "current_edition": "Revised Edition (2025)",
+    "in_print": true,
+    "publishers": ["Free League Publishing"],
+    "designers": ["Nils Hintze", "Johan Egerkrans"],
+    "tags": ["horror", "mystery", "mythology", "historical"],
+    "description_en": "You play investigators in 19th-century Northern Europe who can see the folklore creatures, called vaesen, that ordinary people cannot. Sessions are mysteries: you find the creature, learn what it wants, and decide whether to fight it, bargain with it, or help it. It runs on a simple dice-pool system, with a shared headquarters and a gentle, melancholy tone rather than gore.",
+    "description_it": "Interpreti investigatori nell'Europa del nord dell'Ottocento, capaci di vedere le creature del folklore, i vaesen, invisibili alla gente comune. Ogni sessione è un mistero: scopri la creatura, capisci che cosa vuole e decidi se combatterla, trattare con lei o aiutarla. Usa un sistema semplice a riserva di dadi, con una sede comune per il gruppo e un tono malinconico più che sanguinoso.",
+    "italian_edition": null,
+    "links": [],
+    "amazon_query": "Vaesen Nordic Horror Roleplaying Revised Edition",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Vaesen_(role-playing_game)",
+      "https://gamingtrend.com/news/pre-orders-for-vaesen-nordic-horror-roleplaying-revised-edition-are-open",
+      "https://www.tomshw.it/culturapop/vaesen-nordic-horror-roleplaying-recensione/",
+      "https://eu.nobleknight.com/P/2147805224"
+    ],
+    "notes": "No links: Free League's site returned 403 on every URL tried and I never saw a Free League page, so none is linked. A revised edition released on 28 October 2025 per Gaming Trend (the book was out of stock for months before). Johan Egerkrans is credited as illustrator and co-writer on Wikipedia; Nils Hintze wrote the base game. No Italian edition announced as of the Tom's Hardware Italia reviews I found."
+  },
+  {
+    "wikidata": "Q124281093",
+    "name": "Lancer",
+    "name_it": "Lancer",
+    "year": 2019,
+    "current_edition": "Core Book hardcover, second printing (2024)",
+    "in_print": true,
+    "publishers": ["Massif Press", "Dark Horse Books"],
+    "designers": ["Miguel Lopez-Hall", "Tom Bloom"],
+    "tags": ["sci-fi", "mecha", "space", "crunchy"],
+    "description_en": "A mecha game about pilots in a far-future galaxy run by a single powerful state, UNION, with an optimistic but not naive tone. Combat is a detailed, grid-based tactical game where you build and customise your mech, while the rest of play is lighter and story-driven. Characters grow by unlocking licenses for new gear, not by gaining experience points.",
+    "description_it": "Un gioco di mecha su piloti in una galassia del lontano futuro governata da un'unica potenza, la UNION, con un tono ottimista ma non ingenuo. Il combattimento è un gioco tattico su griglia molto dettagliato, in cui costruisci e personalizzi il tuo mech, mentre il resto della partita è più leggero e guidato dalla storia. I personaggi crescono sbloccando licenze per nuovo equipaggiamento, non con i punti esperienza.",
+    "italian_edition": {"publisher": "Need Games", "url": "https://www.needgames.it/giochi/lancer/"},
+    "links": [
+      {"type": "free", "label": "Lancer Core Book, free PDF (Massif Press on itch.io)", "url": "https://massif-press.itch.io/corebook-pdf-free"},
+      {"type": "store", "label": "Dark Horse Books: Lancer TTRPG Core Rulebook", "url": "https://www.darkhorse.com/books/3013-834/lancer-ttrpg-core-rulebook-hc/"},
+      {"type": "store", "label": "Need Games: Lancer (Italian)", "url": "https://www.needgames.it/giochi/lancer/"}
+    ],
+    "amazon_query": "Lancer TTRPG Core Rulebook Dark Horse",
+    "sources": [
+      "https://massif-press.itch.io/corebook-pdf-free",
+      "https://www.darkhorse.com/books/3013-834/lancer-ttrpg-core-rulebook-hc/",
+      "https://www.needgames.it/giochi/lancer/",
+      "https://en.wikipedia.org/wiki/Lancer_(role-playing_game)"
+    ],
+    "notes": "The free PDF omits the GM section, NPC rules and setting info (those are in the paid book). The 2019 first edition was funded on Kickstarter; Dark Horse did the 2024 hardcover (release listed as 10 July 2024 on the Dark Horse page, other sources say June). Massif Press's own site and the paid itch.io page were not opened, so they are not linked. Wikidata's itch.io creator page (massif-press.itch.io) was not used as a link."
+  },
+  {
+    "wikidata": "Q104821877",
+    "name": "Inferno",
+    "name_it": null,
+    "year": 1994,
+    "current_edition": null,
+    "in_print": false,
+    "publishers": ["Death's Edge Games"],
+    "designers": ["Gabe Ivan"],
+    "tags": ["fantasy", "dark-fantasy", "mythology"],
+    "description_en": "A 1990s fantasy game set in Hell. You play either a hero trying to free innocent souls and help the damned find redemption, or an evil necromancer trying to take over the underworld. Characters are one of four kinds (mortal, shade, hellspawn, imp) and are tracked by a faith level, using a d20 roll-under system.",
+    "description_it": "Un gioco fantasy degli anni Novanta ambientato all'Inferno. Si interpreta un eroe che libera anime innocenti e aiuta i dannati a trovare la redenzione, oppure un negromante malvagio che vuole conquistare il regno dei morti. I personaggi sono di quattro tipi (mortale, ombra, demoniaco, diavoletto) e hanno un livello di fede, con un sistema a d20 in cui si deve tirare uguale o sotto il valore.",
+    "italian_edition": null,
+    "links": [],
+    "amazon_query": "Inferno Death's Edge Games role-playing game 1994",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Inferno_(role-playing_game)"
+    ],
+    "notes": "Out of print since the 1990s; the studio released only an expansion (Gods of Hell, 1995) and an adventure (Out of the Abyss, 1995). No in-print source found, so no links. Name 'Inferno' alone is ambiguous: do not confuse with Acheron Games' 'Inferno: Dante's Guide to Hell' (5E, 2020s), which is a different product. Only one source (Wikipedia) was used."
+  }
+]

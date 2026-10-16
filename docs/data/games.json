@@ -1,0 +1,2193 @@
+[
+ {
+  "wikidata": "Q16000545",
+  "name": "13th Age",
+  "name_it": "13th Age",
+  "year": 2013,
+  "current_edition": "Second Edition (2025)",
+  "in_print": true,
+  "publishers": [
+   "Pelgrane Press"
+  ],
+  "designers": [
+   "Rob Heinsoo",
+   "Jonathan Tweet"
+  ],
+  "tags": [
+   "fantasy",
+   "narrative"
+  ],
+  "description_en": "A d20 fantasy game by two of the people behind Dungeons & Dragons 3rd and 4th edition, mixing classic dungeon play with story tools. Each hero is tied to powerful figures called Icons, and a one-line backgrounds system replaces long skill lists. It keeps fights fast and easy to run while leaving room for the players to invent the world.",
+  "description_it": "Un gioco fantasy basato sul d20, creato da due dei progettisti di Dungeons & Dragons 3a e 4a edizione, che unisce l'esplorazione classica dei sotterranei a strumenti narrativi. Ogni eroe ha legami con figure potentissime dette Icone, e i background in una riga sostituiscono le lunghe liste di abilità. Gli scontri sono rapidi e facili da gestire, e ai giocatori resta molto spazio per inventare il mondo.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "free",
+    "label": "13th Age SRD (free online rules)",
+    "url": "https://www.13thagesrd.com/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "13th Age Second Edition Heroes' Handbook",
+  "notes": "pelgranepress.com returned 403 on every page, so no official or store link could be confirmed. Second Edition print shipped around December 2025 according to search results (not opened on the publisher site), so in_print is likely but unconfirmed. The SRD linked is a 1st-edition-era SRD; the page itself did not state the edition. it.wikipedia says Wyrd Edizioni published an Italian 13th Age, but I could not confirm it on Wyrd's site (blocked), so italian_edition is null and name_it is just the English title.",
+  "id": "13th-age",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q270118",
+  "name": "7th Sea",
+  "name_it": "7th Sea",
+  "year": 1999,
+  "current_edition": "Second Edition (2016)",
+  "in_print": true,
+  "publishers": [
+   "Chaosium",
+   "John Wick Presents",
+   "Alderac Entertainment Group"
+  ],
+  "designers": [
+   "John Wick",
+   "Jennifer Mahr",
+   "Kevin Wilson"
+  ],
+  "tags": [
+   "fantasy",
+   "historical",
+   "narrative"
+  ],
+  "description_en": "A swashbuckling game set in Theah, a fantasy version of 17th century Europe full of pirates, musketeers, secret societies and sorcery. You play daring heroes who duel, scheme and sail for glory. The rules focus on stories and big cinematic moments, so players get to describe how they pull off stunts and heroic risks.",
+  "description_it": "Un gioco di cappa e spada ambientato a Théah, un'Europa fantasy del Seicento piena di pirati, moschettieri, società segrete e magia. Interpreti eroi spavaldi che duellano, tramano e solcano i mari in cerca di gloria. Le regole puntano sulle storie e sulle scene da film: i giocatori raccontano come compiono imprese audaci e rischi epici.",
+  "italian_edition": {
+   "publisher": "Need Games",
+   "url": "https://www.needgames.it/prodotto/7th-sea-manuale-base/",
+   "verified": true
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "7th Sea on Chaosium",
+    "url": "https://www.chaosium.com/7th-sea/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Second Edition Core Rulebook (Chaosium shop)",
+    "url": "https://chaosium.com/7th-sea-core-rulebook-second-edition-hardcover",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Getting started page (mentions free Quickstart)",
+    "url": "https://www.chaosium.com/7th-sea-getting-started/",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Quickstart in Italian (Need Games)",
+    "url": "https://www.needgames.it/prodotto/7th-sea-quickstart-pdf/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "7th Sea Second Edition Core Rulebook",
+  "notes": "Wikidata says 1998; en.wikipedia says the first edition was released by AEG in 1999, used 1999. Second edition was made by John Wick Presents (2016) and the line moved to Chaosium in 2019. Chaosium's own free quickstart link (free-stuff page) returned 404, so I linked the getting-started page that mentions it; the direct file is unconfirmed. Italian price EUR 49.90 listed as available.",
+  "id": "7th-sea",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q110997125",
+  "name": "Alien: The Role-Playing Game",
+  "name_it": null,
+  "year": 2019,
+  "current_edition": "Evolved Edition (2025)",
+  "in_print": true,
+  "publishers": [
+   "Free League Publishing"
+  ],
+  "designers": [
+   "Tomas Härenstam"
+  ],
+  "tags": [
+   "sci-fi",
+   "horror",
+   "space"
+  ],
+  "description_en": "You play ordinary space workers or colonial marines stuck in a deadly situation with a xenomorph in the dark. The game has two modes: Cinematic, one tense scenario shaped like an Alien film, and Campaign, an ongoing game of survival with limited resources. Stress and panic mechanics make fear part of the dice.",
+  "description_it": "Interpreti lavoratori dello spazio o marine coloniali bloccati in una situazione mortale con uno xenomorfo nel buio. Ci sono due modalità: Cinematica, un unico scenario teso costruito come un film di Alien, e Campagna, una partita lunga di sopravvivenza con risorse limitate. Stress e panico rendono la paura parte dei dadi.",
+  "italian_edition": {
+   "publisher": "Wyrd Edizioni",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Free League: ALIEN The Roleplaying Game",
+    "url": "https://freeleaguepublishing.com/games/alien/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Free League: Evolved Edition Starter Set",
+    "url": "https://freeleaguepublishing.com/shop/alien-rpg-2/evolved-edition-starter-set/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "ALIEN The Roleplaying Game Evolved Edition Core Rulebook Free League",
+  "notes": "NO LINKS: freeleaguepublishing.com returned 403 to every fetch, so no Free League URL was opened. Candidate URLs found in search (not opened): https://freeleaguepublishing.com/games/alien/ and https://freeleaguepublishing.com/shop/alien-rpg-2/evolved-edition-core-rulebook/. Evolved Edition released 18 Nov 2025 per press coverage. Designer name from an Italian interview headline only; Wikipedia page could not be fetched. Italian name of the book not confirmed; Italian edition (Wyrd Edizioni) covers the original 2019 core book, not the Evolved Edition.",
+  "id": "alien-the-role-playing-game",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q16382540",
+  "name": "Apocalypse World",
+  "name_it": "Il mondo dell'Apocalisse",
+  "year": 2010,
+  "current_edition": "2nd Edition (2016)",
+  "in_print": true,
+  "publishers": [
+   "Lumpley Games"
+  ],
+  "designers": [
+   "D. Vincent Baker",
+   "Meguey Baker"
+  ],
+  "tags": [
+   "post-apocalyptic",
+   "narrative"
+  ],
+  "description_en": "A game about survivors in a broken, dangerous world, where the game master (the MC) asks questions and builds the setting with the players as you go. Each player picks a playbook such as the Battlebabe or the Brainer, with its own moves. It is the original game of the Powered by the Apocalypse family, which many other games, like Dungeon World, are based on.",
+  "description_it": "Un gioco su sopravvissuti in un mondo distrutto e pericoloso, dove il master (l'MC) fa domande e costruisce l'ambientazione insieme ai giocatori mentre si gioca. Ognuno sceglie un manuale di personaggio, come la Battlebabe o il Brainer, con le proprie mosse. È il capostipite della famiglia Powered by the Apocalypse, su cui si basano molti altri giochi, tra cui Dungeon World.",
+  "italian_edition": {
+   "publisher": "Narrattiva",
+   "url": "https://narrattiva.it/it/shop/fantasy/awii-il-mondo-dellapocalisse-ii/",
+   "verified": true
+  },
+  "links": [
+   {
+    "type": "store",
+    "label": "Apocalypse World 2nd Edition (Lumpley Games on itch.io)",
+    "url": "https://lumpley.itch.io/apocalypse-world",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Apocalypse World 2nd Edition Vincent Baker Meguey Baker",
+  "notes": "The itch.io page sells PDFs only (USD 20 minimum); a print edition on Amazon and retailers is likely but I did not open a print listing. The Italian page is listed in the 'fantasy' category on Narrattiva's site (looks like a category mix-up) but is clearly Apocalypse World II. No official game website found, so no 'official' link.",
+  "id": "apocalypse-world",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q5453",
+  "name": "Ars Magica",
+  "name_it": "Ars Magica",
+  "year": 1987,
+  "current_edition": "Definitive Edition (2026)",
+  "in_print": true,
+  "publishers": [
+   "Atlas Games",
+   "White Wolf",
+   "Lion Rampant"
+  ],
+  "designers": [
+   "Jonathan Tweet",
+   "Mark Rein-Hagen"
+  ],
+  "tags": [
+   "fantasy",
+   "historical",
+   "narrative"
+  ],
+  "description_en": "You play wizards of the Order of Hermes in a medieval Europe where faeries, demons and miracles are real, around the year 1220. Players share the storyteller role and each controls several characters: a powerful mage, companions and servants. The game is slow, scholarly and focused on the group's shared base, and its magic system is built from combining Techniques and Forms.",
+  "description_it": "Interpreti maghi dell'Ordine di Ermes in un'Europa medievale, attorno al 1220, dove fate, demoni e miracoli sono reali. I giocatori si dividono il ruolo del narratore e ognuno guida più personaggi: un mago potente, dei compagni e i servitori. Il ritmo è lento ed erudito, molto centrato sulla sede condivisa del gruppo, e la magia nasce dalla combinazione di Tecniche e Forme.",
+  "italian_edition": {
+   "publisher": "Das Production (1993, translation of the 3rd edition, out of print)",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Ars Magica at Atlas Games",
+    "url": "https://www.atlas-games.com/arsmagica/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Ars Magica Definitive Edition (Atlas Games)",
+    "url": "https://www.atlas-games.com/definitive",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Ars Magica Fifth Edition Atlas Games",
+  "notes": "Definitive Edition was announced for August 2026 on the Atlas page; Wikipedia says it shipped in 2026. The 5th Edition (2004) is also still listed on the Atlas page. The free Ars Magica Open License is mentioned on the Atlas page but no direct URL was opened. Only the 1993 Italian edition is known, no current Italian edition found. Amazon likely carries only the 5th Edition.",
+  "id": "ars-magica",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q39045543",
+  "name": "Blades in the Dark",
+  "name_it": "Blades in the Dark",
+  "year": 2017,
+  "current_edition": "Core rulebook (2017)",
+  "in_print": true,
+  "publishers": [
+   "Evil Hat Productions",
+   "One Seven Design"
+  ],
+  "designers": [
+   "John Harper"
+  ],
+  "tags": [
+   "dark-fantasy",
+   "narrative"
+  ],
+  "description_en": "You play a crew of criminals trying to make a name in Doskvol, a gloomy industrial city haunted by ghosts. Play moves through heists and scores, with a quick planning system and flashbacks, and the fallout of each job feeds the next. It is fast, stylish and focused on telling a story about the crew rather than tracking details.",
+  "description_it": "Interpreti una banda di criminali che cerca di farsi un nome a Doskvol, una cupa città industriale infestata dai fantasmi. Si gioca tra colpi e missioni, con un sistema rapido di pianificazione e di flashback, e le conseguenze di ogni lavoro alimentano il successivo. È veloce, di grande stile e punta a raccontare la storia della banda più che a contare dettagli.",
+  "italian_edition": {
+   "publisher": "Grumpy Bear / Pendragon Game Studio",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Blades in the Dark (official site)",
+    "url": "https://bladesinthedark.com/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Blades in the Dark (Evil Hat)",
+    "url": "https://evilhat.com/product/blades-in-the-dark/",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Blades in the Dark SRD (free rules, CC-licensed)",
+    "url": "https://bladesinthedark.com/greetings-scoundrel",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Blades in the Dark RPG John Harper Evil Hat",
+  "notes": "Italian edition (Grumpy Bear with Pendragon Game Studio) comes only from a search snippet of a Tom's Hardware Italia review (page returned 403) and an IBS listing seen in search results (ISBN 9788894514506, shown as unavailable). Italian publisher, URL and availability not confirmed. The official site also links itch.io and DriveThruRPG, but those pages were not opened.",
+  "id": "blades-in-the-dark",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q110106831",
+  "name": "Brancalonia",
+  "name_it": "Brancalonia",
+  "year": 2021,
+  "current_edition": null,
+  "in_print": true,
+  "publishers": [
+   "Acheron Games",
+   "Ares Games"
+  ],
+  "designers": [],
+  "tags": [
+   "fantasy",
+   "comedy"
+  ],
+  "description_en": "A setting book for D&D 5th Edition that turns the game into 'spaghetti fantasy': a ruined, quarrelsome, folklore-heavy Italy where the player characters are a gang of scoundrels in a mercenary band. Expect brawls, scams, tavern stunts and a lot of dark humour, with new rules for things like shabby hideouts and dirty tricks. It draws on Pinocchio, Dante and Italian westerns.",
+  "description_it": "Un'ambientazione per D&D 5a edizione che trasforma il gioco in un fantasy all'italiana: un regno scalcinato, litigioso e pieno di folklore, dove i personaggi sono una banda di furfanti che vive di espedienti. Tra risse, imbrogli e bravate da osteria, il tono è comico e a tratti amaro, con regole nuove per i covi malmessi e i colpi bassi. Pesca da Pinocchio, da Dante e dagli spaghetti western.",
+  "italian_edition": {
+   "publisher": "Acheron Games",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "store",
+    "label": "Acheron Games on itch.io: The Empire Whacks Back (campaign supplement, PDF)",
+    "url": "https://acheron-games.itch.io/brancalonia-the-empire-whacks-back",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Brancalonia RPG Setting Book 5E",
+  "notes": "The itch.io link is a Brancalonia campaign supplement, not the core book. I could not open the core book page: Ares Games and its Kickstarter shop returned 403, acheron.it refused connection. A UK retailer showed the English core book as sold out, so in_print is uncertain (likely true for the Italian edition, which seems to be Acheron's own product; a new Bounty Kingdom Gazetteer was announced for 2025). Release year 2021 comes from Wikidata and was not confirmed; current_edition and designers are unknown. The Italian edition is the original; I have no confirmed URL.",
+  "id": "brancalonia",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q1027121",
+  "name": "Call of Cthulhu",
+  "name_it": "Il richiamo di Cthulhu",
+  "year": 1981,
+  "current_edition": "7th Edition (2014, hardcover 2016)",
+  "in_print": true,
+  "publishers": [
+   "Chaosium",
+   "Games Workshop (UK hardcover editions, 1983-1987)"
+  ],
+  "designers": [
+   "Sandy Petersen"
+  ],
+  "tags": [
+   "cosmic-horror",
+   "horror",
+   "historical",
+   "mystery"
+  ],
+  "description_en": "You play ordinary investigators who dig into strange events and slowly learn that the universe holds things far bigger and crueler than people. Most scenarios are set in the 1920s, though other eras are supported. The d100 rules make characters fragile, and a loss of sanity is as dangerous as a wound, so the fun comes from clues and dread, not from winning fights.",
+  "description_it": "Interpreti investigatori comuni che indagano su fatti inspiegabili e scoprono, un indizio alla volta, che l'universo nasconde creature immensamente più grandi e crudeli di noi. Le avventure sono per lo più ambientate negli anni Venti, ma ci sono anche altre epoche. Con il sistema a percentuali i personaggi sono fragili e perdere la sanità mentale è pericoloso quanto ferirsi: si gioca per scoprire la verità e per la tensione, non per vincere gli scontri.",
+  "italian_edition": {
+   "publisher": "Raven Distribution",
+   "url": "https://www.ravendistribution.it/il-richiamo-di-cthulhu-manuale-base-7a-edizione-2/",
+   "verified": true
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Call of Cthulhu RPG on Chaosium",
+    "url": "https://www.chaosium.com/call-of-cthulhu-rpg",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Starter Set (Chaosium shop)",
+    "url": "https://www.chaosium.com/call-of-cthulhu-starter-set/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Keeper Rulebook, hardcover (Chaosium shop)",
+    "url": "https://www.chaosium.com/call-of-cthulhu-keeper-rulebook-hardcover/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Call of Cthulhu 7th Edition Keeper Rulebook",
+  "notes": "Chaosium pages show a blank stock count; in_print inferred from active price listing and Chaosium's print-on-demand option. 7th edition release year differs by source (2014 Kickstarter/PDF, print 2016). Italian URL is Raven's download page for the 7th edition base book (free Italian resources), not a shop page. Free Chaosium adventure/quickstart pages were listed but not opened, so left out.",
+  "id": "call-of-cthulhu",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q1034675",
+  "name": "Cyberpunk 2020",
+  "name_it": "Cyberpunk 2020",
+  "year": 1990,
+  "current_edition": "Cyberpunk 2020 (1990), revised 2.0.1 (1993)",
+  "in_print": true,
+  "publishers": [
+   "R. Talsorian Games",
+   "Stratelibri (Italy)"
+  ],
+  "designers": [
+   "Mike Pondsmith"
+  ],
+  "tags": [
+   "cyberpunk",
+   "crunchy"
+  ],
+  "description_en": "You play edgerunners in a violent 2020s world run by megacorporations, where a single bullet can end a character and every cyberware upgrade costs a bit of your humanity. It is a fast, deadly, skill-based game with a lot of style, street gangs and hacking. This is the classic that inspired the later Cyberpunk RED and the video game.",
+  "description_it": "Interpreti edgerunner in un futuro violento dominato dalle megacorporazioni, dove basta un proiettile per chiudere la partita e ogni impianto cibernetico ti costa un pezzo di umanità. Il gioco è veloce, letale e basato sulle abilità, con tanto stile, bande di strada e hacking. È il classico da cui sono nati Cyberpunk RED e il videogioco.",
+  "italian_edition": {
+   "publisher": "Stratelibri",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Cyberpunk collection, R. Talsorian store",
+    "url": "https://talsorianstore.com/collections/cyberpunk",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Cyberpunk 2020 on the R. Talsorian store",
+    "url": "https://talsorianstore.com/collections/cyberpunk/products/cyberpunk-2020",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Cyberpunk 2020 Roleplaying Game Core Rulebook R. Talsorian",
+  "notes": "The first game was simply called Cyberpunk (1988, later nicknamed 2013); Cyberpunk 2020 is the 1990 edition. The store page does not say if the listing is print or PDF, so in_print is probable but unconfirmed. Italian edition by Stratelibri confirmed only on it.wikipedia; no Italian URL found, and it is long out of print. No DriveThruRPG link added (not opened successfully).",
+  "id": "cyberpunk-2020",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q115732642",
+  "name": "Cyberpunk RED",
+  "name_it": null,
+  "year": 2020,
+  "current_edition": "Cyberpunk RED core rulebook (2020)",
+  "in_print": true,
+  "publishers": [
+   "R. Talsorian Games"
+  ],
+  "designers": [
+   "Mike Pondsmith",
+   "James Hutt",
+   "Cody Pondsmith",
+   "Jay Parker",
+   "J Gray",
+   "David Ackerman",
+   "Jaye Kovach"
+  ],
+  "tags": [
+   "cyberpunk",
+   "sci-fi"
+  ],
+  "description_en": "The newest Cyberpunk, set in 2045 after the Fourth Corporate War, between Cyberpunk 2020 and the video game. You pick one of ten Roles such as Solo, Netrunner or Nomad and build a life with a lifepath, then take jobs in Night City. It keeps the deadly, stylish feel of the classic with cleaner rules.",
+  "description_it": "L'ultimo Cyberpunk, ambientato nel 2045 dopo la Quarta Guerra delle Corporazioni, tra Cyberpunk 2020 e il videogioco. Si sceglie uno dei dieci Ruoli, come Solo, Netrunner o Nomade, si costruisce il passato con il lifepath e poi si prendono lavori a Night City. Mantiene lo spirito letale e di stile del classico, con regole più pulite.",
+  "italian_edition": {
+   "publisher": "Need Games (Jumpstart Kit only, 2020)",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "store",
+    "label": "Cyberpunk RED core book, R. Talsorian store",
+    "url": "https://talsorianstore.com/collections/cyberpunk-red/products/cyberpunk-red",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Cyberpunk RED Easy Mode (free intro)",
+    "url": "https://talsorianstore.com/collections/cyberpunk-red/products/cyberpunk-red-easy-mode",
+    "verified": true
+   },
+   {
+    "type": "official",
+    "label": "Cyberpunk RED collection, R. Talsorian store",
+    "url": "https://talsorianstore.com/collections/cyberpunk-red",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Cyberpunk RED Core Rulebook R. Talsorian Games",
+  "notes": "Store product page shows an 'Add to cart' and a 'Notify me when available' option, so stock is unclear; core book is widely listed by retailers, hence in_print true. Italian: only the Jumpstart Kit by Need Games (2020) was found; no Italian core book found; no Need Games product URL opened. Designer list is from the 2020 R. Talsorian devlog.",
+  "id": "cyberpunk-red",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q135031073",
+  "name": "Daggerheart",
+  "name_it": "Daggerheart",
+  "year": 2025,
+  "current_edition": "Core Set (2025)",
+  "in_print": true,
+  "publishers": [
+   "Darrington Press"
+  ],
+  "designers": [
+   "Spenser Starke",
+   "Carlos Cisco",
+   "Rowan Hall",
+   "John Harper",
+   "Matthew Mercer",
+   "Alex Uboldi",
+   "Mike Underwood"
+  ],
+  "tags": [
+   "fantasy",
+   "narrative"
+  ],
+  "description_en": "A heroic fantasy game from the makers of Critical Role. You roll two twelve-sided dice, one for Hope and one for Fear: the result tells you if you succeed and who gets a resource, you or the Game Master. There is no initiative order, and characters are built from decks of cards, so play flows back and forth between players and GM.",
+  "description_it": "Un gioco fantasy eroico dai creatori di Critical Role. Si tirano due dadi a dodici facce, uno di Speranza e uno di Paura: il risultato dice se riesci e chi ottiene una risorsa, tu o il Game Master. Non c'è un ordine di iniziativa e i personaggi si costruiscono con mazzi di carte, così il gioco passa fluido tra giocatori e GM.",
+  "italian_edition": {
+   "publisher": "Acheron Games",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Daggerheart official site",
+    "url": "https://www.daggerheart.com/",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Daggerheart System Reference Document (free)",
+    "url": "https://www.daggerheart.com/srd/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Daggerheart Core Set Darrington Press",
+  "notes": "No store link: the official 'buy' page is blocked in this environment (agents may not open money pages), and I did not open any shop page, so the Core Set purchase link is missing. The FAQ lists an Italian edition by Acheron Games as a pre-order; the Acheron pre-order page did not load, so the Italian release status and URL are unconfirmed. SRD is at version 2.0, which may mean a revised core edition; not verified.",
+  "id": "daggerheart",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q1180909",
+  "name": "Deadlands",
+  "name_it": null,
+  "year": 1996,
+  "current_edition": "Deadlands: The Weird West (2021)",
+  "in_print": true,
+  "publishers": [
+   "Pinnacle Entertainment Group"
+  ],
+  "designers": [
+   "Shane Lacy Hensley"
+  ],
+  "tags": [
+   "western",
+   "horror"
+  ],
+  "description_en": "You play gunslingers, gamblers and mad scientists in an alternate 1870s Wild West where the dead walk and dark powers haunt the frontier. The tone mixes classic Western with pulp horror, and cards and poker chips often take part in play. The current edition runs on the Savage Worlds rules, so you also need that core rulebook.",
+  "description_it": "Interpreti pistoleri, giocatori d'azzardo e scienziati pazzi in un Far West alternativo del 1870, dove i morti camminano e forze oscure infestano la frontiera. Il tono unisce il western classico all'horror pulp, e carte e fiches da poker spesso entrano in gioco. L'edizione attuale usa le regole di Savage Worlds, quindi serve anche il suo manuale base.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Deadlands at Pinnacle Entertainment Group",
+    "url": "https://www.peginc.com/product-category/deadlands/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Deadlands The Weird West Savage Worlds Pinnacle",
+  "notes": "The Pinnacle page says online sales moved to shop.peginc.com, which was not opened, so no store link. Italian edition not confirmed (name_it null although Wikidata gave 'Deadlands'). Earlier versions: Classic (1996, 1999), d20 and GURPS (2001), Reloaded (2006), 20th Anniversary (2017); older editions are on a separate Pinnacle page not opened.",
+  "id": "deadlands",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q15221892",
+  "name": "Dungeon World",
+  "name_it": "Dungeon World",
+  "year": 2012,
+  "current_edition": "1st Edition (2012); Dungeon World 2 in open beta (v3, October 2026)",
+  "in_print": false,
+  "publishers": [
+   "Phinlos LLC",
+   "Sage Kobold Productions",
+   "RNDM Games"
+  ],
+  "designers": [
+   "Sage LaTorra",
+   "Adam Koebel"
+  ],
+  "tags": [
+   "fantasy",
+   "narrative"
+  ],
+  "description_en": "A fantasy adventure game that keeps the classic feel of dungeon crawling but runs on fast, story-first rules. Players pick a class like the Fighter or Wizard and roll two dice when they do something risky, and a failed roll gives the game master a chance to make things worse in an interesting way. Rules are light, so it works well for improvised games with a quick start.",
+  "description_it": "Un gioco di avventura fantasy che mantiene lo spirito classico dei sotterranei, ma usa regole veloci che mettono la storia al primo posto. Si sceglie una classe come Guerriero o Mago e si tirano due dadi quando si fa qualcosa di rischioso; se il tiro va male il master può complicare le cose in modo interessante. Le regole sono leggere e si comincia subito, quindi è ottimo per partite improvvisate.",
+  "italian_edition": {
+   "publisher": "Narrattiva",
+   "url": "https://narrattiva.it/it/shop/fantasy/dungeon-world-3-5/",
+   "verified": true
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Dungeon World official site (includes DW2 beta)",
+    "url": "https://www.dungeon-world.com/",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Free downloads (play kit, adventures)",
+    "url": "https://www.dungeon-world.com/downloads/",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Dungeon World SRD (CC-BY 3.0)",
+    "url": "https://www.dungeonworldsrd.com/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Dungeon World Sage LaTorra Adam Koebel",
+  "notes": "I could not check whether the first edition is still on sale in English: the official shop page was blocked by my tools, and the Wikipedia/search results did not say. So in_print is false (unconfirmed), though the Italian edition is listed in stock at Narrattiva (EUR 39.70, revised reprint, 576 pages). The official site now belongs to Phinlos LLC and promotes Dungeon World 2 (designers include Luke Crane, John Dimatos), which is in beta, not a finished edition. No store link because the buy page was blocked.",
+  "id": "dungeon-world",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q1375",
+  "name": "Dungeons & Dragons",
+  "name_it": "Dungeons & Dragons",
+  "year": 1974,
+  "current_edition": "2024 revised 5th Edition (2024)",
+  "in_print": true,
+  "publishers": [
+   "Wizards of the Coast",
+   "TSR"
+  ],
+  "designers": [
+   "Gary Gygax",
+   "Dave Arneson"
+  ],
+  "tags": [
+   "fantasy"
+  ],
+  "description_en": "You play a band of adventurers who explore dungeons, fight monsters and gather treasure, while one player acts as the Dungeon Master and runs the world. It is the original tabletop RPG and still the most played, with a classic heroic fantasy tone and a rules system built on a twenty-sided die. The 2024 books update the 5th edition rules without making older material unusable.",
+  "description_it": "Interpreti un gruppo di avventurieri che esplorano dungeon, combattono mostri e cercano tesori, mentre un giocatore fa da Dungeon Master e guida il mondo di gioco. È il gioco di ruolo da tavolo originale e ancora oggi il più giocato, con un tono fantasy eroico classico e un sistema basato sul dado a venti facce. I manuali del 2024 aggiornano le regole della quinta edizione senza rendere inutilizzabile il materiale precedente.",
+  "italian_edition": {
+   "publisher": "Wizards of the Coast",
+   "url": "https://wpn.wizards.com/it/products/2024-players-handbook",
+   "verified": true
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Dungeons & Dragons (official site)",
+    "url": "https://dungeonsanddragons.com/",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "System Reference Document 5.2.1 (free rules, CC-BY-4.0)",
+    "url": "https://www.dndbeyond.com/resources/1781-systems-reference-document-srd",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Dungeons & Dragons Player's Handbook 2024",
+  "notes": "No store link confirmed (dndbeyond.com home and Wizards shop pages not opened). Italian publisher of the 2024 edition (probably Asmodee Italia) not confirmed; italian_edition url is the Wizards Play Network Italian product page. Italian edition released 8 May 2025 per SmartWorld.",
+  "id": "dungeons-dragons",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q5464",
+  "name": "Earthdawn",
+  "name_it": null,
+  "year": 1993,
+  "current_edition": "Fourth Edition (2015)",
+  "in_print": true,
+  "publishers": [
+   "FASA Games, Inc.",
+   "Vagrant Workshop",
+   "RedBrick",
+   "Living Room Games",
+   "FASA Corporation"
+  ],
+  "designers": [
+   "Greg Gorden"
+  ],
+  "tags": [
+   "fantasy",
+   "mythology"
+  ],
+  "description_en": "High fantasy in Barsaive, a land recovering after four centuries spent hiding underground from monstrous Horrors. You play adepts who follow magical Disciplines, and your abilities grow as you build bonds with enchanted items and deeds. The tone is heroic and hopeful, with a lot of attention to a consistent world and its magic.",
+  "description_it": "Alta fantasia a Barsaive, una terra che si rialza dopo quattro secoli passati nascosta sottoterra per sfuggire agli Orrori. Interpreti adepti che seguono Discipline magiche e crescono legandoti a oggetti incantati e alle tue imprese. Il tono è eroico e speranzoso, con grande cura per la coerenza del mondo e della sua magia.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Earthdawn at FASA Games",
+    "url": "https://fasagames.com/earthdawn",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Earthdawn Player's Guide, 4th Edition (FASA Games shop)",
+    "url": "https://shop.fasagames.com/index.php?main_page=product_info&products_id=1330",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Earthdawn Fourth Edition Quick Start Guide",
+    "url": "https://shop.fasagames.com/index.php?main_page=product_info&cPath=1_102_128&products_id=1329",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Earthdawn Fourth Edition Player's Guide",
+  "notes": "No Italian edition found. Wikipedia lists a later 'Age of Legend Edition' (Vagrant Workshop, 2016) after the 4th edition; FASA Games' site treats 4th edition as current, so that is used. The 'free' Quick Start page shows $0.00 for the PDF and $5 for print. Original design credit is Greg Gorden per Wikipedia (other staff contributed).",
+  "id": "earthdawn",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q5467",
+  "name": "Exalted",
+  "name_it": "Exalted",
+  "year": 2001,
+  "current_edition": "Third Edition (2016); streamlined Exalted: Essence (2023)",
+  "in_print": true,
+  "publishers": [
+   "Onyx Path Publishing",
+   "White Wolf Publishing"
+  ],
+  "designers": [
+   "Robert Hatch",
+   "Justin Achilli",
+   "Stephan Wieck"
+  ],
+  "tags": [
+   "fantasy",
+   "mythology",
+   "crunchy"
+  ],
+  "description_en": "You play Exalted, chosen mortals who become demigod-like heroes in a fantasy world of jade palaces, gods and decaying empires. Characters can leap rooftops, shatter armies and reshape kingdoms with special powers called Charms. It is big, over-the-top mythic action with a lot of detail, plus a lighter Essence book that simplifies the rules.",
+  "description_it": "Interpreti gli Exalted, mortali scelti che diventano eroi quasi divini in un mondo fantasy di palazzi di giada, divinità e imperi in rovina. I personaggi saltano sui tetti, spezzano eserciti e cambiano il destino dei regni grazie a poteri speciali chiamati Charm. È azione mitica eccessiva e ricca di dettagli, con anche un manuale Essence che semplifica le regole.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Exalted on Onyx Path",
+    "url": "https://theonyxpath.com/category/worlds/exalted/",
+    "verified": true
+   },
+   {
+    "type": "official",
+    "label": "Exalted products list (Onyx Path)",
+    "url": "https://theonyxpath.com/exalted-products/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Exalted Essence Core Rulebook Onyx Path",
+  "notes": "No store link: the DriveThruRPG and Indie Press Revolution product links on Onyx Path's page returned 403 or were not opened. in_print is based on Onyx Path listing 3rd Edition and Essence as current products (mostly PDF and print on demand); print format availability not confirmed. Italian edition existed in the past (BBPublishing 2002, then Wild Boar Edizioni from 2005, per it.wikipedia); no current Italian edition found. Wikidata link http://theonyxpath.com/category/worlds/exalted was used as the official page.",
+  "id": "exalted",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q1350935",
+  "name": "Fate",
+  "name_it": null,
+  "year": 2003,
+  "current_edition": "Fate Condensed (2020), based on Fate Core (2013)",
+  "in_print": true,
+  "publishers": [
+   "Evil Hat Productions"
+  ],
+  "designers": [
+   "Fred Hicks",
+   "Rob Donoghue"
+  ],
+  "tags": [
+   "generic",
+   "narrative"
+  ],
+  "description_en": "A toolkit system that works for any genre. Characters are described by free-form phrases called aspects, which you spend fate points to use for bonuses or take to get complications, so the story is driven by what the characters are like. Fate Condensed is the shortest, current version of the rules, with many setting books built on it.",
+  "description_it": "Un sistema universale che va bene per qualsiasi genere. I personaggi sono descritti da frasi libere chiamate aspetti, che si spendono con i punti fato per ottenere bonus o si accettano per avere complicazioni, così la storia nasce da come sono fatti i personaggi. Fate Condensed è la versione più breve e attuale delle regole, con molti manuali di ambientazione basati su di essa.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Fate Condensed at Evil Hat",
+    "url": "https://evilhat.com/product/fate-condensed/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Fate Condensed on itch.io (name your price)",
+    "url": "https://evilhat.itch.io/fate-condensed",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Fate SRD (Core, Accelerated, Condensed)",
+    "url": "https://fate-srd.com/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Fate Condensed RPG Evil Hat Productions",
+  "notes": "Fate is a system with several versions (1.0 to 2.0 in 2003, 3.0 in 2006, Fate Core 2013, Fate Accelerated, Fate Condensed 2020); this entry points to the current one. Evil Hat's product page showed no price. No official Italian edition found, only fan/LocJAM translations. Wikipedia does not date Fate Condensed; 2020 comes from the itch.io dev log and Bell of Lost Souls URL.",
+  "id": "fate",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q104854077",
+  "name": "Forbidden Lands",
+  "name_it": null,
+  "year": 2018,
+  "current_edition": "Core Boxed Set (2018)",
+  "in_print": true,
+  "publishers": [
+   "Free League Publishing"
+  ],
+  "designers": [
+   "Tomas Härenstam"
+  ],
+  "tags": [
+   "fantasy",
+   "dark-fantasy",
+   "osr"
+  ],
+  "description_en": "A sandbox fantasy game where you are raiders and drifters exploring a cursed, ruined land. Play is about travel, survival, looting old tombs and eventually building your own stronghold, with hunger, thirst and cold as real dangers. It has the feel of classic dungeon crawling but with modern, simple rules.",
+  "description_it": "Un gioco fantasy sandbox in cui sei un predone o un vagabondo che esplora una terra maledetta e in rovina. Si gioca tra viaggi, sopravvivenza, saccheggio di vecchie tombe e infine la costruzione di una propria fortezza, con fame, sete e freddo come pericoli concreti. Ha il sapore dell'esplorazione dei dungeon di una volta, ma con regole moderne e semplici.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Forbidden Lands at Free League Publishing",
+    "url": "https://newsite.freeleaguepublishing.com/games/forbidden-lands/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Forbidden Lands Core Boxed Set (Free League shop)",
+    "url": "https://newsite.freeleaguepublishing.com/shop/forbidden-lands/core-boxed-set/",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Forbidden Lands free Quickstart PDF",
+    "url": "https://newsite.freeleaguepublishing.com/shop/forbidden-lands/free-quickstart-pdf/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Forbidden Lands Core Boxed Set Free League",
+  "notes": "Free League links use the newsite.freeleaguepublishing.com host because the main freeleaguepublishing.com host returned 403 to my tool; swap the host to freeleaguepublishing.com once checked. Designers: only Tomas Härenstam confirmed (as original creator); a co-designer may be missing. Release year 2018 from Free League press and search results. No Italian edition found (a 2020 Tom's Hardware Italia review said English only).",
+  "id": "forbidden-lands",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q1047814",
+  "name": "GURPS",
+  "name_it": null,
+  "year": 1986,
+  "current_edition": "4th Edition Revised (4th Edition: 2004)",
+  "in_print": true,
+  "publishers": [
+   "Steve Jackson Games"
+  ],
+  "designers": [
+   "Steve Jackson"
+  ],
+  "tags": [
+   "generic",
+   "crunchy"
+  ],
+  "description_en": "GURPS is a toolkit that lets you play almost any genre, from medieval fantasy to modern spies or far-future space, using the same rules. Characters are built point by point and the rules aim for realism and detail, so it suits groups who like to tinker. A large library of setting and rules books adds more options.",
+  "description_it": "GURPS è una cassetta degli attrezzi che permette di giocare quasi qualsiasi genere, dal fantasy medievale alle spie moderne fino allo spazio del futuro, sempre con le stesse regole. I personaggi si costruiscono a punti e il regolamento punta su realismo e dettaglio, quindi piace ai gruppi che amano personalizzare tutto. Una grande libreria di manuali di ambientazione e regole aggiunge altre opzioni.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "GURPS at Steve Jackson Games",
+    "url": "https://www.sjgames.com/gurps/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "GURPS Basic Set, Fourth Edition Revised (Warehouse 23)",
+    "url": "https://www.warehouse23.com/products/gurps-basic-set-fourth-edition-revised",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "GURPS Lite (free 32-page PDF)",
+    "url": "https://www.sjgames.com/gurps/lite/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "GURPS Basic Set Fourth Edition Revised",
+  "notes": "Year of the 4th Edition Revised printing not confirmed (Warehouse 23 page flags it as a new release). Italian edition existence not confirmed, so name_it and italian_edition left null (Wikidata gave 'GURPS').",
+  "id": "gurps",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q104821877",
+  "name": "Inferno",
+  "name_it": null,
+  "year": 1994,
+  "current_edition": null,
+  "in_print": false,
+  "publishers": [
+   "Death's Edge Games"
+  ],
+  "designers": [
+   "Gabe Ivan"
+  ],
+  "tags": [
+   "fantasy",
+   "dark-fantasy",
+   "mythology"
+  ],
+  "description_en": "A 1990s fantasy game set in Hell. You play either a hero trying to free innocent souls and help the damned find redemption, or an evil necromancer trying to take over the underworld. Characters are one of four kinds (mortal, shade, hellspawn, imp) and are tracked by a faith level, using a d20 roll-under system.",
+  "description_it": "Un gioco fantasy degli anni Novanta ambientato all'Inferno. Si interpreta un eroe che libera anime innocenti e aiuta i dannati a trovare la redenzione, oppure un negromante malvagio che vuole conquistare il regno dei morti. I personaggi sono di quattro tipi (mortale, ombra, demoniaco, diavoletto) e hanno un livello di fede, con un sistema a d20 in cui si deve tirare uguale o sotto il valore.",
+  "italian_edition": null,
+  "links": [],
+  "amazon_query": "Inferno Death's Edge Games role-playing game 1994",
+  "notes": "Out of print since the 1990s; the studio released only an expansion (Gods of Hell, 1995) and an adventure (Out of the Abyss, 1995). No in-print source found, so no links. Name 'Inferno' alone is ambiguous: do not confuse with Acheron Games' 'Inferno: Dante's Guide to Hell' (5E, 2020s), which is a different product. Only one source (Wikipedia) was used.",
+  "id": "inferno",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q679735",
+  "name": "Kata Kumbas",
+  "name_it": "Kata Kumbas",
+  "year": 1984,
+  "current_edition": "Savage Worlds edition (2015)",
+  "in_print": false,
+  "publishers": [
+   "GG Studio (now Space Orange)",
+   "Edizioni E.Elle",
+   "Orion Edizioni"
+  ],
+  "designers": [
+   "Agostino Carocci",
+   "Massimo Senzacqua"
+  ],
+  "tags": [
+   "fantasy",
+   "comedy"
+  ],
+  "description_en": "An early Italian game in which the players are themselves, their minds carried in their sleep into Laitia, a comic fantasy version of medieval Italy. The tone is picaresque and grotesque, drawing on Ariosto, Calvino's folk tales and swashbuckling Italian comedy films. It is a rare example of a funny, distinctly Italian fantasy from the 1980s.",
+  "description_it": "Un gioco italiano degli esordi in cui i giocatori interpretano sé stessi: durante il sonno la loro mente viene trasportata a Laitia, una versione fantastica e comica dell'Italia medievale. Il tono è picaresco e grottesco e attinge all'Orlando furioso, alle fiabe di Calvino e al cinema comico di cappa e spada. È un raro esempio di fantasy divertente e tipicamente italiano degli anni Ottanta.",
+  "italian_edition": {
+   "publisher": "GG Studio (now Space Orange), Savage Worlds edition 2015",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "store",
+    "label": "SpaceOrange42: Kata Kumbas (Savage Worlds)",
+    "url": "https://spaceorange42.gumroad.com/l/KataKumbas",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Kata Kumbas gioco di ruolo",
+  "notes": "in_print unconfirmed, set to false. The 2015 Savage Worlds edition (GG Studio, product code GGSW0901, per search snippet) may still be sold by Space Orange via a Gumroad page, but that page was blocked by the environment's money-page guard and was not opened, so no link. Designer spelling differs: Carocci (it.wikipedia) vs Carrocci (Goodreads). Publisher history from it.wikipedia: Orion Edizioni 1984 (distributed by Bero Toys), Edizioni E.Elle 1988, Savage Worlds version 2015 written by Umberto Pignatelli; the Savage Worlds publisher (GG Studio) comes from search snippets. goodreads and rpggeek were used from search snippets only.",
+  "id": "kata-kumbas",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q1392276",
+  "name": "Kult",
+  "name_it": null,
+  "year": 1991,
+  "current_edition": "4th Edition, Kult: Divinity Lost (2018)",
+  "in_print": true,
+  "publishers": [
+   "Helmgast",
+   "Modiphius Entertainment",
+   "Metropolis Ltd",
+   "Target Games",
+   "Äventyrsspel"
+  ],
+  "designers": [
+   "Gunilla Jonsson",
+   "Michael Petersén"
+  ],
+  "tags": [
+   "horror",
+   "urban-fantasy",
+   "dark-fantasy"
+  ],
+  "description_en": "A modern horror game where the world you see is a lie built by a false god, and the truth behind it is full of nightmares. You play troubled people whose grip on reality starts to slip, and the story goes to dark, disturbing places. The current edition moves the setting to the 2010s and uses a rules engine from Powered by the Apocalypse games.",
+  "description_it": "Un gioco horror moderno in cui il mondo che vedi è un'illusione creata da un falso dio, e dietro c'è una realtà piena di incubi. Interpreti persone fragili che perdono pian piano il contatto con la realtà, e le storie arrivano in territori cupi e disturbanti. L'edizione attuale è ambientata negli anni 2010 e usa un sistema derivato dai giochi Powered by the Apocalypse.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Kult at Helmgast",
+    "url": "https://www.helmgast.se/en/kult",
+    "verified": true
+   },
+   {
+    "type": "official",
+    "label": "KULT: Divinity Lost official site",
+    "url": "https://kultdivinitylost.com/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Modiphius: KULT Divinity Lost core rules",
+    "url": "https://modiphius.net/en-us/products/kult-divinity-lost-4th-edition-of-kult",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Modiphius: Together Unto Death (free PDF)",
+    "url": "https://modiphius.net/en-us/products/kult-divinity-lost-together-unto-death-free-pdf",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Kult Divinity Lost Core Rulebook",
+  "notes": "Helmgast webshop URL (webshop.helmgast.se/kult/) is listed on the official page but returned empty when fetched, so left out; in_print inferred from the page's 'Buy in shop' link. Wikipedia says an Italian edition was published by Raven Distribution (older editions), not confirmed with a page, so name_it and italian_edition are null. Publisher order (Helmgast current; Modiphius listed as English publisher in retailer results) is not fully verified. No free quickstart confirmed.",
+  "id": "kult",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q124281093",
+  "name": "Lancer",
+  "name_it": "Lancer",
+  "year": 2019,
+  "current_edition": "Core Book hardcover, second printing (2024)",
+  "in_print": true,
+  "publishers": [
+   "Massif Press",
+   "Dark Horse Books"
+  ],
+  "designers": [
+   "Miguel Lopez-Hall",
+   "Tom Bloom"
+  ],
+  "tags": [
+   "sci-fi",
+   "mecha",
+   "space",
+   "crunchy"
+  ],
+  "description_en": "A mecha game about pilots in a far-future galaxy run by a single powerful state, UNION, with an optimistic but not naive tone. Combat is a detailed, grid-based tactical game where you build and customise your mech, while the rest of play is lighter and story-driven. Characters grow by unlocking licenses for new gear, not by gaining experience points.",
+  "description_it": "Un gioco di mecha su piloti in una galassia del lontano futuro governata da un'unica potenza, la UNION, con un tono ottimista ma non ingenuo. Il combattimento è un gioco tattico su griglia molto dettagliato, in cui costruisci e personalizzi il tuo mech, mentre il resto della partita è più leggero e guidato dalla storia. I personaggi crescono sbloccando licenze per nuovo equipaggiamento, non con i punti esperienza.",
+  "italian_edition": {
+   "publisher": "Need Games",
+   "url": "https://www.needgames.it/giochi/lancer/",
+   "verified": true
+  },
+  "links": [
+   {
+    "type": "free",
+    "label": "Lancer Core Book, free PDF (Massif Press on itch.io)",
+    "url": "https://massif-press.itch.io/corebook-pdf-free",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Dark Horse Books: Lancer TTRPG Core Rulebook",
+    "url": "https://www.darkhorse.com/books/3013-834/lancer-ttrpg-core-rulebook-hc/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Need Games: Lancer (Italian)",
+    "url": "https://www.needgames.it/giochi/lancer/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Lancer TTRPG Core Rulebook Dark Horse",
+  "notes": "The free PDF omits the GM section, NPC rules and setting info (those are in the paid book). The 2019 first edition was funded on Kickstarter; Dark Horse did the 2024 hardcover (release listed as 10 July 2024 on the Dark Horse page, other sources say June). Massif Press's own site and the paid itch.io page were not opened, so they are not linked. Wikidata's itch.io creator page (massif-press.itch.io) was not used as a link.",
+  "id": "lancer",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q3224019",
+  "name": "Legend of the Five Rings Roleplaying Game",
+  "name_it": "La leggenda dei cinque anelli",
+  "year": 1997,
+  "current_edition": "5th Edition (2018, core rulebook by Edge Studio 2021 printing)",
+  "in_print": true,
+  "publishers": [
+   "Edge Studio",
+   "Fantasy Flight Games",
+   "Alderac Entertainment Group"
+  ],
+  "designers": [
+   "John Wick"
+  ],
+  "tags": [
+   "fantasy",
+   "narrative"
+  ],
+  "description_en": "You play samurai, courtiers and shugenja in Rokugan, a fantasy land inspired by feudal Japan with strict honor, clan politics and spirits. Characters come to life through a short list of questions, and play centres on duty, rivalry and ring-based dice that let you choose how to approach each problem. It is as much about intrigue and duels as about monsters.",
+  "description_it": "Interpreti samurai, cortigiani e shugenja a Rokugan, una terra fantasy ispirata al Giappone feudale, tra onore rigido, politica tra clan e spiriti. I personaggi nascono da una serie di domande e il gioco ruota attorno a dovere, rivalità e dadi legati agli Anelli, con cui scegli come affrontare ogni problema. Contano quanto i mostri anche gli intrighi e i duelli.",
+  "italian_edition": {
+   "publisher": "Need Games (5th edition, 2019)",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Legend of the Five Rings, roleplaying games",
+    "url": "https://www.legendofthefiverings.com/products/roleplaying-games/",
+    "verified": false
+   },
+   {
+    "type": "official",
+    "label": "L5R Core Rulebook at Edge Studio",
+    "url": "http://www.edge-studio.net/games/l5r-core-rulebook",
+    "verified": false
+   }
+  ],
+  "amazon_query": "Legend of the Five Rings Roleplaying Core Rulebook Edge Studio",
+  "notes": "Wikidata official site l5r.com/rpg now redirects to a 404 on legendofthefiverings.com. Publisher chain per Wikipedia: AEG (editions 1 to 4, 1997 to 2010), FFG (2015 to 2020, 5th edition 2018), Edge Studio from 2020 under Asmodee. Italian edition by Need Games (2019) comes only from it.wikipedia and the Need Games blog tags; no product URL confirmed. The 2021 date is the core rulebook printing, not the edition. Dice and character-creation details come from a GamingTrend review snippet in search results and Wikipedia.",
+  "id": "legend-of-the-five-rings-roleplaying-game",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q679867",
+  "name": "Lex Arcana",
+  "name_it": "Lex Arcana",
+  "year": 1993,
+  "current_edition": "Second Edition (2018)",
+  "in_print": true,
+  "publishers": [
+   "Acheron Games",
+   "Quality Games",
+   "Need Games",
+   "Dal Negro"
+  ],
+  "designers": [
+   "Leo Colovini",
+   "Dario De Toffoli",
+   "Marco Maggi",
+   "Francesco Nepitello"
+  ],
+  "tags": [
+   "historical",
+   "mythology",
+   "dark-fantasy"
+  ],
+  "description_en": "An alternate history where the Roman Empire never fell, and the Emperor keeps a special unit to deal with magic, monsters and cults. You play a member of that unit, called the Cohors Arcana, investigating mysteries and hunting threats from legend. The look and rules are full of classical flavor, with Latin skill names and virtues from ancient philosophy.",
+  "description_it": "Una storia alternativa in cui l'Impero Romano non è mai caduto e l'Imperatore ha un reparto speciale per occuparsi di magia, mostri e culti. Interpreti un membro di questa unità, la Cohors Arcana, che indaga su misteri e dà la caccia alle minacce uscite dalle leggende. Aspetto e regole sono pieni di sapore classico, con abilità dai nomi latini e virtù prese dalla filosofia antica.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "store",
+    "label": "Lex Arcana Core Rulebook (Acheron Games on itch.io)",
+    "url": "https://acheron-games.itch.io/lex-arcana-core-rulebook",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Lex Arcana Core Rulebook Acheron",
+  "notes": "Only one link confirmed. Acheron's own site (acheronbooks.com) refused connection and Ares Games returned 403. In_print is true from search results showing the Acheron store selling the book (not opened); itch.io page confirms the book is released. Year 1993 and the designers list come from Italian Wikipedia and a 2018 article; other sources suggest the first Dal Negro edition may be later, so treat year as uncertain. Wikipedia gives 2018 or 2020 for the second edition; itch page does not state an edition. Italian edition exists (Need Games! until 2021, then Quality Games/Acheron) but no URL confirmed, so italian_edition is null.",
+  "id": "lex-arcana",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q1883961",
+  "name": "Mage: The Ascension",
+  "name_it": null,
+  "year": 1993,
+  "current_edition": "20th Anniversary Edition (2015)",
+  "in_print": true,
+  "publishers": [
+   "Onyx Path Publishing",
+   "White Wolf Publishing"
+  ],
+  "designers": [
+   "Stewart Wieck",
+   "Christopher Earley",
+   "Stephan Wieck",
+   "Bill Bridges",
+   "Sam Chupp",
+   "Andrew Greenberg",
+   "Chris Hind"
+  ],
+  "tags": [
+   "urban-fantasy",
+   "narrative",
+   "mystery"
+  ],
+  "description_en": "You play an awakened person who can bend reality with belief, in a modern world where every group has its own idea of what reality should be. Magic is freeform: you describe the effect you want and the Storyteller judges it against your knowledge of nine 'Spheres', and bold magic risks Paradox backlash. It is a game of ideas and philosophy as much as spellcasting, and it is famously dense.",
+  "description_it": "Interpreti una persona risvegliata che piega la realtà con la forza delle proprie convinzioni, in un mondo moderno dove ogni gruppo ha una sua idea di come la realtà dovrebbe funzionare. La magia è libera: descrivi l'effetto che vuoi e il Narratore lo valuta in base alle tue conoscenze nelle nove Sfere, e gli incantesimi audaci rischiano il contraccolpo del Paradosso. È un gioco di idee e di filosofia tanto quanto di incantesimi, e ha fama di essere molto denso.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Onyx Path: Mage: The Ascension products",
+    "url": "https://theonyxpath.com/mage-the-ascension-products/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Mage: The Ascension 20th Anniversary Edition",
+  "notes": "No links: DriveThruRPG (the Onyx Path store listing for the 20th Anniversary Edition) returned 403 and I could not open it, so nothing is linked. The in_print flag is based on a DriveThruRPG search result showing PDF plus hardcover/print-on-demand options; stock was not confirmed. I found no announcement of a Mage 5th Edition in my searches, but my results were old, so it is worth a recheck. it.wikipedia says Mage: The Ascension was never translated into Italian; a 2019 Fantasy Magazine item mentions a delayed Italian 'Maghi: L'Ascensione' via Raven Distribution that I could not confirm, so name_it is null. Designer list is from English Wikipedia and is not a clean single-designer credit.",
+  "id": "mage-the-ascension",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q5473",
+  "name": "Middle-earth Role Playing",
+  "name_it": "Il Gioco di Ruolo del Signore degli Anelli",
+  "year": 1984,
+  "current_edition": "Second Edition (1986)",
+  "in_print": false,
+  "publishers": [
+   "Iron Crown Enterprises"
+  ],
+  "designers": [
+   "Coleman Charlton"
+  ],
+  "tags": [
+   "fantasy",
+   "crunchy"
+  ],
+  "description_en": "MERP lets you play heroes in Tolkien's Middle-earth, mostly in the Third Age, using a simplified version of the Rolemaster rules. Character classes, skills and combat use percentile dice and tables, so it is detailed and a bit heavy by modern standards. It is out of print and cannot be reprinted because the Tolkien license ended in 1999.",
+  "description_it": "MERP permette di interpretare eroi nella Terra di Mezzo di Tolkien, per lo più nella Terza Era, con una versione semplificata delle regole di Rolemaster. Classi, abilità e combattimento usano dadi percentuali e tabelle, quindi il gioco è dettagliato e un po' pesante per gli standard di oggi. È fuori stampa e non può essere ristampato perché la licenza Tolkien è scaduta nel 1999.",
+  "italian_edition": {
+   "publisher": "Stratelibri",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Iron Crown Enterprises: MERP page",
+    "url": "http://ironcrown.com/middle-earth-role-playing/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Middle-earth Role Playing MERP rulebook Iron Crown",
+  "notes": "No link confirmed: ironcrown.co.uk lists MERP only in a menu with no product page. Out of print since the license was revoked in 1999 (Wikipedia). Italian edition by Stratelibri is from a single search-result snippet (220-page softcover), not verified by fetching; year unknown. A collector's second edition appeared in 1993. Wikidata listed no designer; Wikipedia credits Coleman Charlton.",
+  "id": "middle-earth-role-playing",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q77272478",
+  "name": "Monster of the Week",
+  "name_it": null,
+  "year": 2012,
+  "current_edition": "Hardcover edition (2023)",
+  "in_print": true,
+  "publishers": [
+   "Evil Hat Productions",
+   "Generic Games"
+  ],
+  "designers": [
+   "Michael Sands"
+  ],
+  "tags": [
+   "horror",
+   "urban-fantasy",
+   "narrative"
+  ],
+  "description_en": "You play monster hunters in a story like a monster-of-the-week TV show such as Buffy, Supernatural or The X-Files. One player, the Keeper, prepares a mystery and a creature, and the hunters investigate, find its weakness and fight it. The rules are light and story-first, with each hunter type bringing its own special moves.",
+  "description_it": "Interpreti cacciatori di mostri in una storia che ricorda le serie TV con un mostro diverso a puntata, come Buffy, Supernatural o X-Files. Un giocatore, il Custode, prepara un mistero e una creatura, mentre i cacciatori indagano, ne scoprono il punto debole e la affrontano. Le regole sono leggere e pensate per la storia, e ogni tipo di cacciatore porta con sé mosse speciali.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "store",
+    "label": "Monster of the Week (Evil Hat)",
+    "url": "https://evilhat.com/product/monster-of-the-week/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Monster of the Week RPG hardcover Evil Hat",
+  "notes": "Wikidata gave the Italian title 'Il mostro della settimana' but no Italian edition could be found in two searches, so name_it and italian_edition are null. genericgames.co.nz/mow returned 404, so no official designer-site link. The Evil Hat page says the softcover is out of print; the 2023 hardcover (344 pages) is current. Revised edition with Evil Hat first appeared in 2015.",
+  "id": "monster-of-the-week",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q110998799",
+  "name": "Mothership",
+  "name_it": null,
+  "year": 2018,
+  "current_edition": "1st Edition (2024)",
+  "in_print": true,
+  "publishers": [
+   "Tuesday Knight Games"
+  ],
+  "designers": [
+   "Sean McCoy"
+  ],
+  "tags": [
+   "sci-fi",
+   "space",
+   "horror"
+  ],
+  "description_en": "A sci-fi horror game in the style of Alien and similar films: you play ordinary space workers stuck on a ship, station or planet where something terrible lurks. Characters are fragile and stress can make them panic at the worst moment. The game master runs a mystery that unfolds as you explore, and the tone is lonely, tense and bleak.",
+  "description_it": "Un gioco di fantascienza horror nello stile di Alien: interpreti lavoratori comuni dello spazio bloccati su un'astronave, una stazione o un pianeta dove si nasconde qualcosa di terribile. I personaggi sono fragili e lo stress può farli andare nel panico nel momento peggiore. Il master guida un mistero che si svela con l'esplorazione, in un'atmosfera solitaria, tesa e cupa.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Mothership RPG on Tuesday Knight Games",
+    "url": "https://www.tuesdayknightgames.com/pages/mothership-rpg",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Mothership RPG Core Set",
+  "notes": "mothershiprpg.com redirects to the Tuesday Knight Games page. The publisher page does not name a designer; Sean McCoy comes from en.wikipedia. The 2018 release was the original Player's Survival Guide (later called 0th Edition); the 1st Edition boxed set is 2024 per en.wikipedia. The page links to Core Set and Deluxe Set but I did not open those product pages. No official Italian edition found (only unofficial fan material); no confirmed free link.",
+  "id": "mothership",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q110997466",
+  "name": "Mörk Borg",
+  "name_it": "Mörk Borg",
+  "year": 2019,
+  "current_edition": "Core Rulebook (2019)",
+  "in_print": true,
+  "publishers": [
+   "Free League Publishing",
+   "Stockholm Kartell"
+  ],
+  "designers": [
+   "Pelle Nilsson",
+   "Johan Nohr"
+  ],
+  "tags": [
+   "dark-fantasy",
+   "post-apocalyptic",
+   "osr"
+  ],
+  "description_en": "A short, bleak fantasy game set in a world that is ending and cannot be saved. You play doomed scum robbing tombs and ruins, and the rules are light and fast, with high lethality and dark chaotic randomness. It is known for its loud black, yellow and pink metal-inspired art and for being easy to run in one evening.",
+  "description_it": "Un breve gioco fantasy cupissimo, ambientato in un mondo che sta per finire e non si può salvare. Interpreti disperati che saccheggiano tombe e rovine, con regole leggere e veloci, molta letalità e un caos spesso crudele. È famoso per la grafica rumorosa in nero, giallo e rosa ispirata al metal e per la facilità con cui si gioca una partita in una sera.",
+  "italian_edition": {
+   "publisher": "Need Games",
+   "url": "https://www.needgames.it/prodotto/mork-borg/",
+   "verified": true
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Official site, with free Bare Bones edition",
+    "url": "https://morkborg.com/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Mörk Borg RPG Core Rulebook",
+  "notes": "Official site morkborg.com says the game is made by Pelle Nilsson (Ockult Ortmastare Games) and Johan Nohr (Stockholm Kartell) and published by Free League Publishing. The free Bare Bones edition is on that same page; Free League's own page returned 403. Sources disagree on 2019 vs 2020 for the original release; used 2019 (English edition). Italian edition by Need Games (88 page A5 hardcover, EUR 34.90, in stock), presented at Lucca 2025. No store URL confirmed for the English book.",
+  "id": "mork-borg",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q1042398",
+  "name": "Paranoia",
+  "name_it": null,
+  "year": 1984,
+  "current_edition": "The All New Shiny Edition (2023)",
+  "in_print": true,
+  "publishers": [
+   "Mongoose Publishing",
+   "West End Games"
+  ],
+  "designers": [
+   "Greg Costikyan",
+   "Dan Gelber",
+   "Eric Goldberg"
+  ],
+  "tags": [
+   "sci-fi",
+   "comedy"
+  ],
+  "description_en": "You are a clone-citizen of Alpha Complex, a domed city ruled by an insane, all-seeing computer that executes anyone for the smallest slip. Everyone has secret treason, mutant powers and hidden agendas, so a mission turns into a farce of backstabbing and bad luck. It is meant to be funny and deadly, and players are expected to lose several clones per session.",
+  "description_it": "Sei un cittadino clonato di Alpha Complex, una città sotto cupola governata da un computer folle che vede tutto e condanna a morte per un nonnulla. Ognuno ha segreti, poteri da mutante e piani nascosti, quindi ogni missione si trasforma in una farsa di tradimenti e sfortuna. Il tono è comico e letale, e a ogni sessione ci si aspetta di perdere più di un clone.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Paranoia at Mongoose Publishing",
+    "url": "https://www.mongoosepublishing.com/collections/paranoia",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Paranoia Core Book (Mongoose shop)",
+    "url": "https://www.mongoosepublishing.com/products/paranoia-core-book",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Paranoia RPG Core Book Mongoose Publishing",
+  "notes": "Mongoose core book page does not name the edition or year; All New Shiny Edition (22 Sept 2023) comes from Wikipedia and Mongoose's collection menu. Original 1984 designers per Wikipedia (Ken Rolston helped rewrite). Italian edition not confirmed (none found). No free quickstart URL confirmed.",
+  "id": "paranoia",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q680176",
+  "name": "Pathfinder Roleplaying Game",
+  "name_it": "Pathfinder GdR",
+  "year": 2009,
+  "current_edition": "Second Edition Remaster (2023)",
+  "in_print": true,
+  "publishers": [
+   "Paizo"
+  ],
+  "designers": [
+   "Jason Bulmahn"
+  ],
+  "tags": [
+   "fantasy",
+   "crunchy"
+  ],
+  "description_en": "A heroic fantasy game where you build a character from a large menu of classes, ancestries and feats, then fight, explore and cast spells in adventures run by a game master. Each turn you get three actions to spend how you like, which makes combat tactical and flexible. It started as an improved version of older d20 Dungeons & Dragons rules and is now a separate, very complete system.",
+  "description_it": "Un gioco fantasy eroico in cui costruisci il tuo personaggio scegliendo tra tante classi, stirpi e talenti, poi combatti, esplori e lanci incantesimi in avventure guidate da un master. A ogni turno hai tre azioni da spendere come preferisci, quindi gli scontri sono tattici e variegati. Nasce come evoluzione delle vecchie regole d20 di Dungeons & Dragons ed è oggi un sistema autonomo e molto completo.",
+  "italian_edition": {
+   "publisher": "Giochi Uniti",
+   "url": "https://www.giochiuniti.it/pathfinder-2-remaster-l-ululato-della-natura.html",
+   "verified": true
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Pathfinder on Paizo",
+    "url": "https://paizo.com/pathfinder",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Archives of Nethys (online rules reference)",
+    "url": "https://2e.aonprd.com/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Pathfinder Second Edition Remaster Player Core",
+  "notes": "First edition (Pathfinder RPG) was 2009; open playtest in 2008. Second Edition is 2019, Remaster core books 2023-2024. The Italian URL is a Giochi Uniti Pathfinder 2 Remaster product page (a supplement), because I could not find a page for the Italian Player Core. it.wikipedia says Italian Remaster core books came out in January 2026 (not verified on the shop). No Paizo shop URL was opened, so no store link. Archives of Nethys page did not itself state it is free.",
+  "id": "pathfinder-roleplaying-game",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q680553",
+  "name": "Pendragon",
+  "name_it": null,
+  "year": 1985,
+  "current_edition": "6th Edition (2024)",
+  "in_print": true,
+  "publishers": [
+   "Chaosium",
+   "Nocturnal Media",
+   "White Wolf",
+   "Green Knight Publishing"
+  ],
+  "designers": [
+   "Greg Stafford"
+  ],
+  "tags": [
+   "fantasy",
+   "historical",
+   "mythology",
+   "narrative"
+  ],
+  "description_en": "You play knights in King Arthur's Britain, trying to live up to chivalric ideals while jealousy, love and duty pull you apart. Your character's personality traits and passions, like Honor or Love of Family, are scored and can force your actions in play. A campaign covers decades, passing the story to your heirs as knights grow old and die.",
+  "description_it": "Interpreti cavalieri nella Britannia di re Artù, cercando di essere all'altezza degli ideali cavallereschi mentre gelosia, amore e dovere vi mettono gli uni contro gli altri. Tratti del carattere e passioni, come Onore o Amore per la famiglia, hanno un punteggio e possono costringere il personaggio ad agire in un certo modo. Una campagna copre decenni, e quando un cavaliere invecchia o muore la storia passa ai suoi eredi.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "store",
+    "label": "Chaosium: Pendragon Core Rulebook (hardcover)",
+    "url": "https://www.chaosium.com/pendragon-core-rulebook-hardcover/",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "The Adventure of the Great Hunt (free 6th Edition quickstart)",
+    "url": "https://chaosium.itch.io/the-adventure-of-the-great-hunt",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Pendragon Core Rulebook 6th Edition Chaosium",
+  "notes": "Third-party sources call the 2024 book the 'Player's Handbook'; Chaosium's own page names it 'Core Rulebook'. The Gamemaster's Handbook (2025) is a separate book. The free quickstart is the 2020 preview of the 6th Edition rules. No Italian edition found in searches or on it.wikipedia.",
+  "id": "pendragon",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q1336480",
+  "name": "Rifts",
+  "name_it": null,
+  "year": 1990,
+  "current_edition": "Ultimate Edition (2005)",
+  "in_print": true,
+  "publishers": [
+   "Palladium Books"
+  ],
+  "designers": [
+   "Kevin Siembieda"
+  ],
+  "tags": [
+   "post-apocalyptic",
+   "sci-fi",
+   "fantasy",
+   "crunchy"
+  ],
+  "description_en": "Rifts is set on a far-future Earth shattered by magic, where portals open to other worlds and bring monsters, aliens and wizards next to cyborgs and giant armor. Anything goes: you can play a dragon, a psychic, a robot or a powered-armor soldier in the same party. It is big, crunchy and wildly mixed, and it favors the thrill of the setting over balanced rules.",
+  "description_it": "Rifts è ambientato su una Terra del lontano futuro sconvolta dalla magia, dove portali verso altri mondi portano mostri, alieni e maghi accanto a cyborg e armature giganti. Qui tutto è possibile: nello stesso gruppo puoi giocare un drago, un telepate, un robot o un soldato in armatura potenziata. È un gioco vasto, ricco di regole e molto eterogeneo, che punta sul fascino dell'ambientazione più che sul bilanciamento.",
+  "italian_edition": null,
+  "links": [],
+  "amazon_query": "Rifts Ultimate Edition Palladium Books",
+  "notes": "No link confirmed: palladiumbooks.com and its shop pages returned 403 to WebFetch. In-print status comes from web search snippets of Palladium pages (hardcover 800HC still sold, softcover 800SE added 2021), not verified directly. The search-result URL frosty.palladiumbooks.com was listed as a source only from the search result, not opened. Wikipedia lists other contributors: C. J. Carella, Kevin Long, Patrick Nowak, Julius Rosenstein. Italian edition not confirmed.",
+  "id": "rifts",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q680764",
+  "name": "Rolemaster",
+  "name_it": "Rolemaster",
+  "year": 1980,
+  "current_edition": "Rolemaster Unified (2022)",
+  "in_print": true,
+  "publishers": [
+   "Iron Crown Enterprises",
+   "Mjolnir LLC (licensee)",
+   "Guild Companion Publications (licensee)"
+  ],
+  "designers": [
+   "Pete Fenlon",
+   "S. Coleman Charlton",
+   "Kurt Fischer"
+  ],
+  "tags": [
+   "fantasy",
+   "crunchy"
+  ],
+  "description_en": "A fantasy game famous for its detail: percentile dice, lots of skills, and big tables that tell you exactly how much damage a hit does and what critical wound follows. It grew out of house rules for a Middle-earth style campaign and suits groups who love gritty, simulation-style fights and complex magic.",
+  "description_it": "Un gioco fantasy famoso per il suo dettaglio: dadi percentuali, tantissime abilità e grandi tabelle che dicono esattamente quanto danno fa un colpo e quale ferita critica ne segue. Nasce da regole della casa per una campagna in stile Terra di Mezzo ed è fatto per chi ama scontri crudi e realistici e una magia complessa.",
+  "italian_edition": {
+   "publisher": "Strategiochi (2004), then Red Glove (2009 revised)",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Rolemaster at Iron Crown Enterprises",
+    "url": "https://ironcrown.co.uk/rolemaster/",
+    "verified": true
+   },
+   {
+    "type": "official",
+    "label": "Rolemaster Unified Core Law announcement",
+    "url": "https://ironcrown.co.uk/rolemaster-unified-core-law-out-now/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Rolemaster Unified Core Law",
+  "notes": "Sold mainly as PDF and print-on-demand through DriveThruRPG. The DriveThruRPG product page returned 403, so I could not open it and did not link it; the publisher page https://www.drivethrurpg.com/product/416633/Rolemaster-Core-Law-RMU appears on the ICE announcement. Print-on-demand availability was announced in 2023 but not re-confirmed today. Designers per Wikipedia (original house-rule authors); credited designers on the book may differ. Italian editions are old and probably out of print.",
+  "id": "rolemaster",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q681338",
+  "name": "RuneQuest",
+  "name_it": null,
+  "year": 1978,
+  "current_edition": "RuneQuest: Roleplaying in Glorantha (2018)",
+  "in_print": true,
+  "publishers": [
+   "Chaosium",
+   "Avalon Hill",
+   "Mongoose Publishing",
+   "The Design Mechanism"
+  ],
+  "designers": [
+   "Steve Perrin",
+   "Steve Henderson",
+   "Warren James",
+   "Ray Turney",
+   "Greg Stafford"
+  ],
+  "tags": [
+   "fantasy",
+   "mythology",
+   "crunchy"
+  ],
+  "description_en": "A percentile-dice fantasy game set in Glorantha, a Bronze Age world of warring gods and myth. Your character comes from a culture and a cult, not a class, and skills, spirit magic and rune magic all work through the same d100 roll. Combat is gritty and dangerous, and the world is as important as the rules.",
+  "description_it": "Un gioco fantasy con dadi percentuali ambientato a Glorantha, un mondo dell'Età del Bronzo pieno di dèi in guerra e mitologia. Il personaggio nasce da una cultura e da un culto, non da una classe, e abilità e magia usano lo stesso tiro di d100. Gli scontri sono crudi e pericolosi, e il mondo conta quanto le regole.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "RuneQuest at Chaosium",
+    "url": "http://www.chaosium.com/runequest",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "RuneQuest: Roleplaying in Glorantha, hardcover",
+    "url": "https://www.chaosium.com/runequest-roleplaying-in-glorantha-hardcover/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "RuneQuest Roleplaying in Glorantha Core Rulebook Chaosium",
+  "notes": "No Italian edition found for the current edition (searches and it.wikipedia mention none). Chaosium page shows no stock status for the hardcover, but it offers print-on-demand, so in_print is true. Starter Set and Quickstart exist on chaosium.com but I did not open those pages, so they are not linked. Stafford is credited for Glorantha rather than the rules.",
+  "id": "runequest",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q916623",
+  "name": "Savage Worlds",
+  "name_it": null,
+  "year": 2003,
+  "current_edition": "Adventure Edition, SWADE (2018)",
+  "in_print": true,
+  "publishers": [
+   "Pinnacle Entertainment Group"
+  ],
+  "designers": [
+   "Shane Lacy Hensley"
+  ],
+  "tags": [
+   "generic",
+   "crunchy"
+  ],
+  "description_en": "A rules toolkit meant to run any genre, from pulp adventure to space opera, with fast and loose combat. You roll a die sized to your skill, plus a spare d6 for heroes, and high rolls explode for more. Cards decide who acts first and tokens called bennies let you reroll, so games feel cinematic and quick. It is the rules engine behind Deadlands.",
+  "description_it": "Un sistema di regole pensato per qualsiasi genere, dall'avventura pulp allo space opera, con combattimenti veloci e spicci. Tira un dado legato alla tua abilità, più un d6 extra per gli eroi, e i risultati massimi esplodono per tiri ulteriori. Le carte decidono chi agisce per primo e i gettoni detti bennie permettono di ritirare, così le partite risultano rapide e cinematografiche. È il motore alla base di Deadlands.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Savage Worlds at Pinnacle Entertainment",
+    "url": "https://peginc.com/savage-settings/savage-worlds/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Savage Worlds Adventure Edition Core Rules PDF",
+    "url": "https://shop.peginc.com/products/savage-worlds-adventure-edition-core-rules-swade-pdf",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Savage Worlds Test Drive (Deadlands, free PDF)",
+    "url": "https://shop.peginc.com/products/deadlands-the-weird-west-blood-on-the-range-savage-worlds-test-drive-swade",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Savage Worlds Adventure Edition Core Rules",
+  "notes": "A web search summary of a Tom's Hardware Italia article says SpaceOrange42 launched the Italian Adventure Edition at Modena Play 2019, but the article fetch returned 403 and I found no verified product URL, so italian_edition and name_it are null. Release year of SWADE: Wikipedia says 2018 (the Kickstarter shipped in 2017). The free Test Drive is a Deadlands one-shot, not the generic core rules. Rules summary uses Wikipedia.",
+  "id": "savage-worlds",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q1042442",
+  "name": "Shadowrun",
+  "name_it": null,
+  "year": 1989,
+  "current_edition": "Sixth World (2019)",
+  "in_print": true,
+  "publishers": [
+   "Catalyst Game Labs",
+   "FanPro LLC",
+   "FASA Corporation"
+  ],
+  "designers": [
+   "Robert N. Charrette",
+   "Paul R. Hume",
+   "Tom Dowd"
+  ],
+  "tags": [
+   "cyberpunk",
+   "urban-fantasy",
+   "sci-fi",
+   "fantasy"
+  ],
+  "description_en": "You play shadowrunners, deniable freelancers who take dirty jobs for megacorporations in a near future where magic has returned and elves, orcs and dragons live alongside hackers and cyber-enhanced street samurai. It mixes heists, corporate intrigue and spellcasting with a gritty, streetwise tone. Runs on pools of six-sided dice, counting 5s and 6s as hits.",
+  "description_it": "Interpreti gli shadowrunner, mercenari senza nome che accettano lavori sporchi per le megacorporazioni in un futuro prossimo dove la magia è tornata e elfi, orchi e draghi convivono con hacker e samurai potenziati dalla cibernetica. Si mescolano colpi in stile heist, intrighi aziendali e incantesimi, con un tono duro e di strada. Il sistema usa riserve di dadi a sei facce, dove 5 e 6 contano come successi.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Shadowrun: Sixth World (official site)",
+    "url": "https://shadowrunsixthworld.com/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Catalyst Game Labs store: Shadowrun core rules",
+    "url": "https://store.catalystgamelabs.com/collections/shadowrun-core-rules",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Shadowrun Sixth World Core Rulebook",
+  "notes": "Italian edition not confirmed: Catalyst announced Italian localization of Sixth World in 2019, but I found no publisher or page, so name_it and italian_edition are null (earlier Italian editions probably exist). Sixth World Core Rulebook plain product page not found on Catalyst store: the Berlin City Edition and Beginner Box showed as sold out there; the standard book is sold by retailers, so in_print is set true from retailer listings (not opened). Designers from Wikidata, not re-verified. www.shadowruntabletop.com failed (certificate error); no free quickstart URL confirmed.",
+  "id": "shadowrun",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q39058240",
+  "name": "Starfinder",
+  "name_it": null,
+  "year": 2017,
+  "current_edition": "Starfinder Second Edition (2025)",
+  "in_print": true,
+  "publishers": [
+   "Paizo"
+  ],
+  "designers": [],
+  "tags": [
+   "sci-fi",
+   "space",
+   "fantasy",
+   "crunchy"
+  ],
+  "description_en": "A science-fantasy game where heroes explore the galaxy with laser guns, spells, starships and a mix of alien species. It is built on Pathfinder's rules, so characters have classes, feats and detailed tactical combat, with extra systems for starship battles and faster-than-light travel. The Second Edition shares its rules with Pathfinder Second Edition.",
+  "description_it": "Un gioco di fantascienza e fantasy in cui gli eroi esplorano la galassia con pistole laser, incantesimi, astronavi e una varietà di specie aliene. È basato sulle regole di Pathfinder, quindi ha classi, talenti e combattimenti tattici dettagliati, con sistemi in più per le battaglie tra astronavi e i viaggi superluce. La Seconda Edizione condivide le regole con Pathfinder Seconda Edizione.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Starfinder at Paizo",
+    "url": "https://paizo.com/starfinder",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Starfinder Player Core, Paizo store",
+    "url": "https://store.paizo.com/starfinder-2e-player-core/",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Starfinder 2e rules database, Archives of Nethys",
+    "url": "https://2e.aonsrd.com/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Starfinder Player Core Second Edition Paizo",
+  "notes": "Name shortened from 'Starfinder Roleplaying Game'. Designers left empty: no source I opened names them. Second Edition date (2025) from Wikipedia, whose own timeline is slightly inconsistent; Paizo store listing shows Player Core in stock. Archives of Nethys is a fan-run but Paizo-endorsed site; its page did not say it is free (it is a public database). No Italian edition found. First edition (2017) is still hosted at aonsrd.com.",
+  "id": "starfinder",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q78089496",
+  "name": "Symbaroum",
+  "name_it": null,
+  "year": 2014,
+  "current_edition": "Core Rulebook (2014)",
+  "in_print": true,
+  "publishers": [
+   "Free League Publishing",
+   "Modiphius Entertainment",
+   "Järnringen"
+  ],
+  "designers": [
+   "Mattias Johnsson Haake",
+   "Mattias Lilja",
+   "Martin Grip"
+  ],
+  "tags": [
+   "dark-fantasy",
+   "fantasy",
+   "horror"
+  ],
+  "description_en": "Dark fantasy set around the forest of Davokar, where refugees, treasure hunters and clans push into a place full of ruins and ancient danger. Magic is strong but each spell eats at your soul through Corruption, which can slowly turn you into a monster. Players roll a single d20 under their stat, and the tone is gritty and deadly.",
+  "description_it": "Dark fantasy ambientato attorno alla foresta di Davokar, dove profughi, cacciatori di tesori e clan si spingono in un territorio pieno di rovine e pericoli antichi. La magia è potente, ma ogni incantesimo consuma l'anima con la Corruzione, che può trasformarti lentamente in un mostro. I giocatori tirano un solo d20 e devono ottenere meno della loro caratteristica, e il tono è crudo e letale.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Symbaroum at Free League Publishing",
+    "url": "https://newsite.freeleaguepublishing.com/games/symbaroum/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Symbaroum Core Rulebook (Free League shop)",
+    "url": "https://newsite.freeleaguepublishing.com/shop/symbaroum/core-rulebook/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Symbaroum Core Rulebook Free League",
+  "notes": "Free League links use the newsite.freeleaguepublishing.com host because the main host returned 403 to my tool; swap once checked. A search result says a revised three-book edition was announced for a May 2026 Kickstarter, so a newer edition may exist or be coming; the Free League core rulebook page does not name an edition, so current_edition stays at 2014. An Italian edition appears to be sold by SpaceOrange42 (search result pointing to a Gumroad page), but that page was blocked by a safety hook (money page) and no other URL confirmed, so italian_edition is null. No free quickstart found.",
+  "id": "symbaroum",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q682229",
+  "name": "The Dark Eye",
+  "name_it": "Uno sguardo nel buio",
+  "year": 1984,
+  "current_edition": "5th Edition (2015; English 2016)",
+  "in_print": true,
+  "publishers": [
+   "Ulisses Spiele",
+   "Fantasy Productions",
+   "Schmidt Spiele"
+  ],
+  "designers": [
+   "Ulrich Kiesow"
+  ],
+  "tags": [
+   "fantasy",
+   "crunchy"
+  ],
+  "description_en": "The best-selling RPG in Germany, set on the continent of Aventuria. It is classic high fantasy with many professions, cultures, gods and spells, and a huge shelf of official books about every corner of the world. The fifth edition is a detailed, rules-rich game for groups who like to dig into a deep setting.",
+  "description_it": "Il gioco di ruolo più venduto in Germania, ambientato nel continente di Aventuria. È fantasy classico con tante professioni, culture, divinità e incantesimi, e una enorme collezione di libri ufficiali su ogni angolo del mondo. La quinta edizione è un gioco ricco di regole, per chi ama immergersi in un'ambientazione profonda.",
+  "italian_edition": {
+   "publisher": "La Compagnia delle Dodici Gemme",
+   "url": "https://12gemme.itch.io/uno-sguardo-nel-buio-regolamento",
+   "verified": true
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "The Dark Eye at Ulisses US",
+    "url": "https://ulisses-us.com/games/tde/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Uno sguardo nel buio, 5a edizione (Italian), on itch.io",
+    "url": "https://12gemme.itch.io/uno-sguardo-nel-buio-regolamento",
+    "verified": true
+   }
+  ],
+  "amazon_query": "The Dark Eye Core Rules 5th Edition Ulisses",
+  "notes": "Wikipedia credits 'Ulrich Kiesow et al.'; other original co-creators not confirmed. The Ulisses US page did not mention a quickstart (a free one exists per search results, unlinked). Italian: first edition by Edizioni EL (1986), 5th edition by La Compagnia delle Dodici Gemme (2020). The itch.io page is a digital rulebook at $19.99 minimum; a printed Italian edition exists (Kickstarter 2020) but its current stock is unconfirmed.",
+  "id": "the-dark-eye",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q136691424",
+  "name": "The One Ring",
+  "name_it": "L'Unico Anello",
+  "year": 2011,
+  "current_edition": "2nd Edition (2022)",
+  "in_print": true,
+  "publishers": [
+   "Free League Publishing",
+   "Cubicle 7"
+  ],
+  "designers": [
+   "Francesco Nepitello",
+   "Marco Maggi"
+  ],
+  "tags": [
+   "fantasy",
+   "narrative"
+  ],
+  "description_en": "You play heroes in Tolkien's Middle-earth, in the years between The Hobbit and The Lord of the Rings. The game alternates long journeys through dangerous lands with quiet rest periods in safe havens, and tracks the weariness and shadow that threaten your characters. The second edition is set in Eriador, the land of the Shire, and has a warm, melancholic tone.",
+  "description_it": "Interpreti eroi nella Terra di Mezzo di Tolkien, negli anni tra Lo Hobbit e Il Signore degli Anelli. Il gioco alterna lunghi viaggi attraverso terre pericolose a periodi di riposo in luoghi sicuri, e tiene traccia della stanchezza e dell'ombra che minacciano i personaggi. La seconda edizione è ambientata in Eriador, la terra della Contea, con un tono caldo e malinconico.",
+  "italian_edition": {
+   "publisher": "Need Games!",
+   "url": null
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Free League: The One Ring Core Rules",
+    "url": "https://freeleaguepublishing.com/shop/the-one-ring/core-rules-2/",
+    "verified": true
+   },
+   {
+    "type": "official",
+    "label": "Free League: The One Ring shop",
+    "url": "https://freeleaguepublishing.com/shop/the-one-ring/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "The One Ring Roleplaying Game Core Rules 2nd Edition Free League",
+  "notes": "Wikidata entry is the 2nd edition (Wikidata says 2021); sources say it was released in 2022. year is the first edition (2011, Cubicle 7). No link confirmed: freeleaguepublishing.com returned 403 and the DriveThruRPG page also 403. Need Games! as Italian publisher comes from a search snippet that the 2nd edition would be translated by them; the exact Italian 2nd edition title and release date are unconfirmed (needgames.it home only showed a news item mentioning L'Unico Anello). Some retailers list the core rules as sold out or backordered, so in_print is likely but not verified directly.",
+  "id": "the-one-ring",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q2164069",
+  "name": "Traveller",
+  "name_it": "Traveller",
+  "year": 1977,
+  "current_edition": "Mongoose 2nd Edition, Core Rulebook Update 2022 (2022)",
+  "in_print": true,
+  "publishers": [
+   "Mongoose Publishing",
+   "Game Designers' Workshop",
+   "Hobby Japan"
+  ],
+  "designers": [
+   "Marc W. Miller",
+   "Frank Chadwick",
+   "John Harshman",
+   "Loren Wiseman"
+  ],
+  "tags": [
+   "sci-fi",
+   "space",
+   "crunchy"
+  ],
+  "description_en": "A classic science fiction game of starship crews, traders and wanderers in a huge, slow, realistic galaxy with no faster-than-light radio. Characters are built by playing through a career before the game starts, which sometimes kills them. The default setting is the Third Imperium, but the rules work for almost any space campaign.",
+  "description_it": "Un classico della fantascienza: equipaggi di astronavi, mercanti e vagabondi in una galassia enorme e lenta, dove non esiste la radio più veloce della luce. I personaggi si creano vivendo una carriera prima di iniziare a giocare, e a volte non sopravvivono. L'ambientazione di base è il Terzo Impero, ma le regole vanno bene per quasi ogni campagna spaziale.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "store",
+    "label": "Mongoose Publishing: Traveller Core Rulebooks",
+    "url": "https://www.mongoosepublishing.com/collections/core-rulebooks-traveller",
+    "verified": true
+   },
+   {
+    "type": "official",
+    "label": "Mongoose Publishing: Traveller",
+    "url": "https://www.mongoosepublishing.com/collections/traveller-rpgs",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Traveller Core Rulebook Update 2022 Mongoose",
+  "notes": "Hobby Japan is from Wikidata (Japanese edition), not verified. Italian edition: Wild Boar Edizioni published a translation of Mongoose Traveller in 2008 (it.wikipedia), but I could not confirm it is still on sale or find a URL, so italian_edition is null. Traveller5 (2013, Far Future Enterprises) is a separate current ruleset. The Mongoose page did not show stock status explicitly.",
+  "id": "traveller",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q683240",
+  "name": "Tunnels & Trolls",
+  "name_it": "Tunnel e Troll",
+  "year": 1975,
+  "current_edition": "Deluxe Tunnels & Trolls (2015)",
+  "in_print": true,
+  "publishers": [
+   "Rebellion Unplugged",
+   "Flying Buffalo",
+   "Fiery Dragon Productions"
+  ],
+  "designers": [
+   "Ken St. Andre"
+  ],
+  "tags": [
+   "fantasy",
+   "osr"
+  ],
+  "description_en": "One of the oldest fantasy RPGs, made as a simpler and friendlier answer to Dungeons & Dragons. It uses only six-sided dice, eight attributes, and a magic system that spends points rather than memorised spells. It is built to work for a group, solo play with gamebook-style adventures, and play by mail.",
+  "description_it": "Uno dei più antichi giochi di ruolo fantasy, nato come risposta più semplice e più accessibile a Dungeons & Dragons. Usa solo dadi a sei facce, otto caratteristiche e una magia basata su punti da spendere invece che su incantesimi memorizzati. Funziona sia in gruppo sia da solo con avventure in stile librogame, e anche per corrispondenza.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Rebellion Unplugged: Tunnels & Trolls",
+    "url": "https://rebellionunplugged.com/tunnelsandtrolls",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Deluxe Tunnels & Trolls rulebook hardcover",
+  "notes": "Flying Buffalo's old page (flyingbuffalo.com/tandt.htm) now redirects to Rebellion Unplugged, which acquired the line in May 2023. The Rebellion page says physical and PDF copies are sold via DriveThruRPG and Kurated Korner and that a new edition is in development (Wikipedia mentions a Kickstarter, 'A New Age', due 2027); it does not mention the Deluxe edition by name, so in_print is likely but unconfirmed. DriveThruRPG and Kurated Korner links were not opened and so are omitted. Italian edition: Mondadori published the 5th edition in 1986 (it.wikipedia); out of print, so italian_edition is null.",
+  "id": "tunnels-trolls",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q495582",
+  "name": "Unknown Armies",
+  "name_it": null,
+  "year": 1998,
+  "current_edition": "Third Edition (2017)",
+  "in_print": true,
+  "publishers": [
+   "Atlas Games"
+  ],
+  "designers": [
+   "Greg Stolze",
+   "John Scott Tynes"
+  ],
+  "tags": [
+   "horror",
+   "urban-fantasy",
+   "mystery"
+  ],
+  "description_en": "An occult horror game set in our world, where magic is real but costs you something personal: your obsessions, your habits, your sanity. You play ordinary, damaged people in the hidden underground, trying to survive a secret war over the future between cults and people who became living symbols. Rules are percentile-based and the tone is dark, strange and often funny.",
+  "description_it": "Un gioco horror occulto ambientato nel nostro mondo, dove la magia esiste ma ha un prezzo molto personale: manie, abitudini, sanità mentale. Interpreti persone comuni e segnate dalla vita nel sottobosco occulto, cercando di sopravvivere a una guerra segreta per il futuro fra culti e individui diventati simboli viventi. Le regole sono basate sui dadi percentuali e il tono è cupo, strano e spesso ironico.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Unknown Armies at Atlas Games",
+    "url": "https://www.atlas-games.com/unknownarmies",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Unknown Armies Deluxe Third Edition (Atlas Games)",
+    "url": "https://www.atlas-games.com/product_tables/AG6030",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Unknown Armies Third Edition Book Two: Run (Atlas Games on itch.io)",
+    "url": "https://atlasgames.itch.io/unknown-armies-third-edition-book-two-run",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Unknown Armies 3 20-minute demo (PDF)",
+    "url": "http://atlas-games.com/pdf_storage/UA3_20min_demo.pdf",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Unknown Armies Third Edition Book One Play",
+  "notes": "No Italian edition found. Year 1998 is from Wikidata (Atlas page only dates awards to 1999). The demo PDF is listed on the Atlas page as a 20-minute demo; the file text did not render in my tool, but its metadata names it a UA3 20-minute demo. Maria in Three Parts quickstart is only free in print on Free RPG Day 2018 and $4.99 digital, so not listed as free. Original 1998 publisher was Atlas Games (with Archon Games credited by Italian Wikipedia).",
+  "id": "unknown-armies",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q110204172",
+  "name": "Vaesen",
+  "name_it": null,
+  "year": 2020,
+  "current_edition": "Revised Edition (2025)",
+  "in_print": true,
+  "publishers": [
+   "Free League Publishing"
+  ],
+  "designers": [
+   "Nils Hintze",
+   "Johan Egerkrans"
+  ],
+  "tags": [
+   "horror",
+   "mystery",
+   "mythology",
+   "historical"
+  ],
+  "description_en": "You play investigators in 19th-century Northern Europe who can see the folklore creatures, called vaesen, that ordinary people cannot. Sessions are mysteries: you find the creature, learn what it wants, and decide whether to fight it, bargain with it, or help it. It runs on a simple dice-pool system, with a shared headquarters and a gentle, melancholy tone rather than gore.",
+  "description_it": "Interpreti investigatori nell'Europa del nord dell'Ottocento, capaci di vedere le creature del folklore, i vaesen, invisibili alla gente comune. Ogni sessione è un mistero: scopri la creatura, capisci che cosa vuole e decidi se combatterla, trattare con lei o aiutarla. Usa un sistema semplice a riserva di dadi, con una sede comune per il gruppo e un tono malinconico più che sanguinoso.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Free League: Vaesen",
+    "url": "https://freeleaguepublishing.com/games/vaesen/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Free League: Vaesen Core Rulebook",
+    "url": "https://freeleaguepublishing.com/shop/vaesen-2/vaesen-nordic-horror-roleplaying/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Vaesen Nordic Horror Roleplaying Revised Edition",
+  "notes": "No links: Free League's site returned 403 on every URL tried and I never saw a Free League page, so none is linked. A revised edition released on 28 October 2025 per Gaming Trend (the book was out of stock for months before). Johan Egerkrans is credited as illustrator and co-writer on Wikipedia; Nils Hintze wrote the base game. No Italian edition announced as of the Tom's Hardware Italia reviews I found.",
+  "id": "vaesen",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q650924",
+  "name": "Vampire: The Masquerade",
+  "name_it": "Vampiri: la masquerade",
+  "year": 1991,
+  "current_edition": "5th Edition (2018)",
+  "in_print": true,
+  "publishers": [
+   "Renegade Game Studios",
+   "Modiphius Entertainment",
+   "Paradox Interactive (White Wolf)",
+   "Onyx Path Publishing",
+   "White Wolf Publishing"
+  ],
+  "designers": [
+   "Mark Rein·Hagen",
+   "Graeme Davis",
+   "Tom Dowd",
+   "Lisa Stevens",
+   "Stewart Wieck"
+  ],
+  "tags": [
+   "horror",
+   "urban-fantasy",
+   "narrative"
+  ],
+  "description_en": "You play a vampire in a modern gothic world, hiding your kind from humanity while fighting your own hunger for blood. Play is about scheming, rivalries between clans and the guilt of being a monster, far more than about fighting. The current 5th Edition uses a Hunger dice mechanic that makes losing control a regular part of the story.",
+  "description_it": "Interpreti un vampiro nel mondo moderno, nascosto agli esseri umani e in lotta con la tua stessa sete di sangue. Si gioca soprattutto di intrighi, rivalità tra clan e peso morale dell'essere un mostro, più che di combattimento. L'attuale quinta edizione usa i dadi Fame, che rendono la perdita di controllo parte della storia.",
+  "italian_edition": {
+   "publisher": "Need Games",
+   "url": "https://www.needgames.it/giochi/vampiri-la-masquerade-5a-edizione/",
+   "verified": true
+  },
+  "links": [
+   {
+    "type": "store",
+    "label": "Renegade Game Studios store: 5th Edition Core Rulebook",
+    "url": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-core-rulebook",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Need Games: Vampiri La Masquerade 5a edizione (Italian)",
+    "url": "https://www.needgames.it/giochi/vampiri-la-masquerade-5a-edizione/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Vampire: The Masquerade 5th Edition Roleplaying Game Core Rulebook",
+  "notes": "The Renegade page showed 'pre-order' status when fetched, so check stock. The Wikidata official site (white-wolf.com/vampire) was not opened, so it is not linked. Designer list is from English Wikipedia. Earlier Italian editions: Giochi dei Grandi/Das Production (1993), 21st Century Games (2000), 25 Edition (2002), per it.wikipedia.",
+  "id": "vampire-the-masquerade",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q110997485",
+  "name": "Wanderhome",
+  "name_it": null,
+  "year": 2021,
+  "current_edition": null,
+  "in_print": true,
+  "publishers": [
+   "Possum Creek Games"
+  ],
+  "designers": [
+   "Jay Dragon"
+  ],
+  "tags": [
+   "fantasy",
+   "cozy",
+   "narrative"
+  ],
+  "description_en": "A gentle game about traveling animal-folk wandering a peaceful countryside as the seasons turn, with no dice and no combat. You answer prompts about your character and the places you visit, and the story is about healing, community and the scars left by an old war. It can be played with or without a Guide, in a few hours.",
+  "description_it": "Un gioco dolce su animali antropomorfi che viaggiano di villaggio in villaggio nella campagna, mentre le stagioni cambiano, senza dadi e senza combattimenti. Si risponde a domande sul proprio personaggio e sui luoghi visitati, e la storia parla di guarigione, comunità e delle ferite lasciate da una vecchia guerra. Si può giocare con o senza Guida, in poche ore.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Wanderhome at Possum Creek Games",
+    "url": "https://possumcreekgames.com/pages/wanderhome",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Wanderhome (PDF and print) on itch.io",
+    "url": "https://possumcreekgames.itch.io/wanderhome",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Wanderhome free PDF printouts (character sheets)",
+    "url": "https://possumcreekgames.com/products/wanderhome-pdf-printouts",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Wanderhome RPG Possum Creek Games",
+  "notes": "Search results mention a '3rd Edition' hardcover (2025) at retailers, but Wikipedia and the publisher pages do not name any edition, so current_edition is null. The free link is only printable character sheets, not a full quickstart (I did not open that product page; it was seen on the official page as 'PDF Printouts $0.00'). Physical copies are said to be via softcover/hardcover on itch.io. No Italian edition found.",
+  "id": "wanderhome",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q5490",
+  "name": "Warhammer Fantasy Roleplay",
+  "name_it": "Martelli da guerra",
+  "year": 1986,
+  "current_edition": "4th Edition (2018)",
+  "in_print": true,
+  "publishers": [
+   "Cubicle 7",
+   "Fantasy Flight Games",
+   "Black Industries",
+   "Hogshead Publishing",
+   "Games Workshop"
+  ],
+  "designers": [
+   "Richard Halliwell",
+   "Rick Priestley",
+   "Graeme Davis",
+   "Jim Bambra",
+   "Phil Gallagher"
+  ],
+  "tags": [
+   "dark-fantasy",
+   "crunchy"
+  ],
+  "description_en": "You play ordinary people in the Empire, a grimy, war-torn take on late medieval Europe, where rats, cultists and corrupt nobles are as dangerous as monsters. Characters start as rat-catchers, clerks or grave robbers, not heroes, and a lucky sword blow can kill them. The tone is dark and darkly funny, and the d100 rules reward careful play and survival.",
+  "description_it": "Interpreti gente comune nell'Impero, una versione sporca e devastata dalla guerra dell'Europa tardo medievale, dove ratti, cultisti e nobili corrotti fanno quasi più paura dei mostri. Si comincia come cacciatore di topi, scrivano o profanatore di tombe, non come eroe, e un colpo fortunato può uccidere. Il tono è cupo e con una vena di umorismo nero, e le regole a percentuali premiano la prudenza.",
+  "italian_edition": null,
+  "links": [
+   {
+    "type": "official",
+    "label": "Warhammer Fantasy Roleplay on Cubicle 7",
+    "url": "https://www.cubicle7games.com/our-games/warhammer-fantasy-roleplay",
+    "verified": false
+   }
+  ],
+  "amazon_query": "Warhammer Fantasy Roleplay 4th Edition Rulebook",
+  "notes": "Wikidata name had '(rpg family)', removed. Cubicle 7 announced a 5th Edition for 2026 (PDF first, print pre-orders later); I could not confirm it is on sale, so current_edition stays 4th Edition. Cubicle 7 product and download pages returned 403, so only the game page (read through a text proxy) is linked; no store or free link confirmed. 'Martelli da guerra' was Nexus's Italian title for the 1st edition (it.wikipedia); later Italian editions kept the English title. No current Italian edition found, so italian_edition is null.",
+  "id": "warhammer-fantasy-roleplay",
+  "checked": "2026-10-16"
+ },
+ {
+  "wikidata": "Q2142180",
+  "name": "Werewolf: The Apocalypse",
+  "name_it": "Werewolf: L'Apocalisse",
+  "year": 1992,
+  "current_edition": "5th Edition (2023)",
+  "in_print": true,
+  "publishers": [
+   "Renegade Game Studios",
+   "Paradox Interactive (White Wolf)",
+   "Onyx Path Publishing",
+   "White Wolf Publishing"
+  ],
+  "designers": [
+   "Mark Rein·Hagen"
+  ],
+  "tags": [
+   "horror",
+   "urban-fantasy",
+   "narrative"
+  ],
+  "description_en": "You play a Garou, a shapeshifting werewolf warrior, defending the natural world against corporate and spiritual corruption. It mixes savage action with rage that can take over your character, and with the politics of tribes that do not always agree. The tone is angry and tragic, closer to eco-activism with claws than to a monster hunt.",
+  "description_it": "Interpreti un Garou, un guerriero mutaforma che difende la natura dalla corruzione spirituale e industriale. Alterna azione feroce, una rabbia che può prendere il controllo del personaggio e le liti politiche tra tribù che non vanno mai d'accordo. Il tono è furioso e tragico, più vicino a un ecoattivismo con gli artigli che a una caccia ai mostri.",
+  "italian_edition": {
+   "publisher": "Need Games",
+   "url": "https://www.needgames.it/giochi/werewolf-lapocalisse/",
+   "verified": true
+  },
+  "links": [
+   {
+    "type": "official",
+    "label": "Renegade Game Studios: Werewolf: The Apocalypse 5th Edition (UK)",
+    "url": "https://uk.renegadegamestudios.com/werewolf-the-apocalypse/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Renegade Game Studios store: 5th Edition Core Rulebook",
+    "url": "https://renegadegamestudios.com/werewolf-the-apocalypse-5th-edition-core-rulebook",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Need Games: Werewolf L'Apocalisse (Italian)",
+    "url": "https://www.needgames.it/giochi/werewolf-lapocalisse/",
+    "verified": true
+   }
+  ],
+  "amazon_query": "Werewolf: The Apocalypse 5th Edition Roleplaying Game Core Rulebook",
+  "notes": "The UK Renegade line page did not list the core rulebook itself (only the free Primer and supplements), but the US store page does. Older Italian edition used the title 'Licantropi: l'apocalisse' (20th Anniversary edition via Raven Distribution per it.wikipedia). Release year of the 5th Edition core book (2023) comes from retailer listings; English Wikipedia also gives 1991/1992 for the original, I used 1992. The 'Primer' free link was not opened, so it is omitted.",
+  "id": "werewolf-the-apocalypse",
+  "checked": "2026-10-16"
+ }
+]

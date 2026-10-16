@@ -1,0 +1,291 @@
+[
+  {
+    "wikidata": "Q1027121",
+    "name": "Call of Cthulhu",
+    "name_it": "Il richiamo di Cthulhu",
+    "year": 1981,
+    "current_edition": "7th Edition (2014, hardcover 2016)",
+    "in_print": true,
+    "publishers": ["Chaosium", "Games Workshop (UK hardcover editions, 1983-1987)"],
+    "designers": ["Sandy Petersen"],
+    "tags": ["cosmic-horror", "horror", "historical", "mystery"],
+    "description_en": "You play ordinary investigators who dig into strange events and slowly learn that the universe holds things far bigger and crueler than people. Most scenarios are set in the 1920s, though other eras are supported. The d100 rules make characters fragile, and a loss of sanity is as dangerous as a wound, so the fun comes from clues and dread, not from winning fights.",
+    "description_it": "Interpreti investigatori comuni che indagano su fatti inspiegabili e scoprono, un indizio alla volta, che l'universo nasconde creature immensamente più grandi e crudeli di noi. Le avventure sono per lo più ambientate negli anni Venti, ma ci sono anche altre epoche. Con il sistema a percentuali i personaggi sono fragili e perdere la sanità mentale è pericoloso quanto ferirsi: si gioca per scoprire la verità e per la tensione, non per vincere gli scontri.",
+    "italian_edition": {
+      "publisher": "Raven Distribution",
+      "url": "https://www.ravendistribution.it/il-richiamo-di-cthulhu-manuale-base-7a-edizione-2/"
+    },
+    "links": [
+      {"type": "official", "label": "Call of Cthulhu RPG on Chaosium", "url": "https://www.chaosium.com/call-of-cthulhu-rpg"},
+      {"type": "store", "label": "Starter Set (Chaosium shop)", "url": "https://www.chaosium.com/call-of-cthulhu-starter-set/"},
+      {"type": "store", "label": "Keeper Rulebook, hardcover (Chaosium shop)", "url": "https://www.chaosium.com/call-of-cthulhu-keeper-rulebook-hardcover/"}
+    ],
+    "amazon_query": "Call of Cthulhu 7th Edition Keeper Rulebook",
+    "sources": [
+      "https://www.chaosium.com/call-of-cthulhu-rpg",
+      "https://www.chaosium.com/call-of-cthulhu-starter-set/",
+      "https://www.chaosium.com/call-of-cthulhu-keeper-rulebook-hardcover/",
+      "https://en.wikipedia.org/wiki/Call_of_Cthulhu_(role-playing_game)",
+      "https://it.wikipedia.org/wiki/Il_richiamo_di_Cthulhu_(gioco_di_ruolo)",
+      "https://www.ravendistribution.it/tag/il-richiamo-di-cthulhu/",
+      "https://www.ravendistribution.it/il-richiamo-di-cthulhu-manuale-base-7a-edizione-2/"
+    ],
+    "notes": "Chaosium pages show a blank stock count; in_print inferred from active price listing and Chaosium's print-on-demand option. 7th edition release year differs by source (2014 Kickstarter/PDF, print 2016). Italian URL is Raven's download page for the 7th edition base book (free Italian resources), not a shop page. Free Chaosium adventure/quickstart pages were listed but not opened, so left out."
+  },
+  {
+    "wikidata": "Q680176",
+    "name": "Pathfinder Roleplaying Game",
+    "name_it": "Pathfinder GdR",
+    "year": 2009,
+    "current_edition": "Second Edition Remaster (2023)",
+    "in_print": true,
+    "publishers": ["Paizo"],
+    "designers": ["Jason Bulmahn"],
+    "tags": ["fantasy", "crunchy"],
+    "description_en": "A heroic fantasy game where you build a character from a large menu of classes, ancestries and feats, then fight, explore and cast spells in adventures run by a game master. Each turn you get three actions to spend how you like, which makes combat tactical and flexible. It started as an improved version of older d20 Dungeons & Dragons rules and is now a separate, very complete system.",
+    "description_it": "Un gioco fantasy eroico in cui costruisci il tuo personaggio scegliendo tra tante classi, stirpi e talenti, poi combatti, esplori e lanci incantesimi in avventure guidate da un master. A ogni turno hai tre azioni da spendere come preferisci, quindi gli scontri sono tattici e variegati. Nasce come evoluzione delle vecchie regole d20 di Dungeons & Dragons ed è oggi un sistema autonomo e molto completo.",
+    "italian_edition": {
+      "publisher": "Giochi Uniti",
+      "url": "https://www.giochiuniti.it/pathfinder-2-remaster-l-ululato-della-natura.html"
+    },
+    "links": [
+      {"type": "official", "label": "Pathfinder on Paizo", "url": "https://paizo.com/pathfinder"},
+      {"type": "free", "label": "Archives of Nethys (online rules reference)", "url": "https://2e.aonprd.com/"}
+    ],
+    "amazon_query": "Pathfinder Second Edition Remaster Player Core",
+    "sources": [
+      "https://paizo.com/pathfinder",
+      "https://2e.aonprd.com/",
+      "https://en.wikipedia.org/wiki/Pathfinder_Roleplaying_Game",
+      "https://it.wikipedia.org/wiki/Pathfinder_(gioco_di_ruolo)",
+      "https://www.giochiuniti.it/",
+      "https://www.giochiuniti.it/giochi-di-ruolo.html",
+      "https://www.giochiuniti.it/pathfinder-2-remaster-l-ululato-della-natura.html"
+    ],
+    "notes": "First edition (Pathfinder RPG) was 2009; open playtest in 2008. Second Edition is 2019, Remaster core books 2023-2024. The Italian URL is a Giochi Uniti Pathfinder 2 Remaster product page (a supplement), because I could not find a page for the Italian Player Core. it.wikipedia says Italian Remaster core books came out in January 2026 (not verified on the shop). No Paizo shop URL was opened, so no store link. Archives of Nethys page did not itself state it is free."
+  },
+  {
+    "wikidata": "Q5490",
+    "name": "Warhammer Fantasy Roleplay",
+    "name_it": "Martelli da guerra",
+    "year": 1986,
+    "current_edition": "4th Edition (2018)",
+    "in_print": true,
+    "publishers": ["Cubicle 7", "Fantasy Flight Games", "Black Industries", "Hogshead Publishing", "Games Workshop"],
+    "designers": ["Richard Halliwell", "Rick Priestley", "Graeme Davis", "Jim Bambra", "Phil Gallagher"],
+    "tags": ["dark-fantasy", "crunchy"],
+    "description_en": "You play ordinary people in the Empire, a grimy, war-torn take on late medieval Europe, where rats, cultists and corrupt nobles are as dangerous as monsters. Characters start as rat-catchers, clerks or grave robbers, not heroes, and a lucky sword blow can kill them. The tone is dark and darkly funny, and the d100 rules reward careful play and survival.",
+    "description_it": "Interpreti gente comune nell'Impero, una versione sporca e devastata dalla guerra dell'Europa tardo medievale, dove ratti, cultisti e nobili corrotti fanno quasi più paura dei mostri. Si comincia come cacciatore di topi, scrivano o profanatore di tombe, non come eroe, e un colpo fortunato può uccidere. Il tono è cupo e con una vena di umorismo nero, e le regole a percentuali premiano la prudenza.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Warhammer Fantasy Roleplay on Cubicle 7", "url": "https://www.cubicle7games.com/our-games/warhammer-fantasy-roleplay"}
+    ],
+    "amazon_query": "Warhammer Fantasy Roleplay 4th Edition Rulebook",
+    "sources": [
+      "https://www.cubicle7games.com/our-games/warhammer-fantasy-roleplay",
+      "https://en.wikipedia.org/wiki/Warhammer_Fantasy_Roleplay",
+      "https://it.wikipedia.org/wiki/Warhammer_Fantasy_Roleplay",
+      "https://frontlinegaming.org/2026/08/18/warhammer-fantasy-roleplay-fifth-edition-begins-its-grim-road-ahead/"
+    ],
+    "notes": "Wikidata name had '(rpg family)', removed. Cubicle 7 announced a 5th Edition for 2026 (PDF first, print pre-orders later); I could not confirm it is on sale, so current_edition stays 4th Edition. Cubicle 7 product and download pages returned 403, so only the game page (read through a text proxy) is linked; no store or free link confirmed. 'Martelli da guerra' was Nexus's Italian title for the 1st edition (it.wikipedia); later Italian editions kept the English title. No current Italian edition found, so italian_edition is null."
+  },
+  {
+    "wikidata": "Q270118",
+    "name": "7th Sea",
+    "name_it": "7th Sea",
+    "year": 1999,
+    "current_edition": "Second Edition (2016)",
+    "in_print": true,
+    "publishers": ["Chaosium", "John Wick Presents", "Alderac Entertainment Group"],
+    "designers": ["John Wick", "Jennifer Mahr", "Kevin Wilson"],
+    "tags": ["fantasy", "historical", "narrative"],
+    "description_en": "A swashbuckling game set in Theah, a fantasy version of 17th century Europe full of pirates, musketeers, secret societies and sorcery. You play daring heroes who duel, scheme and sail for glory. The rules focus on stories and big cinematic moments, so players get to describe how they pull off stunts and heroic risks.",
+    "description_it": "Un gioco di cappa e spada ambientato a Théah, un'Europa fantasy del Seicento piena di pirati, moschettieri, società segrete e magia. Interpreti eroi spavaldi che duellano, tramano e solcano i mari in cerca di gloria. Le regole puntano sulle storie e sulle scene da film: i giocatori raccontano come compiono imprese audaci e rischi epici.",
+    "italian_edition": {
+      "publisher": "Need Games",
+      "url": "https://www.needgames.it/prodotto/7th-sea-manuale-base/"
+    },
+    "links": [
+      {"type": "official", "label": "7th Sea on Chaosium", "url": "https://www.chaosium.com/7th-sea/"},
+      {"type": "store", "label": "Second Edition Core Rulebook (Chaosium shop)", "url": "https://chaosium.com/7th-sea-core-rulebook-second-edition-hardcover"},
+      {"type": "free", "label": "Getting started page (mentions free Quickstart)", "url": "https://www.chaosium.com/7th-sea-getting-started/"},
+      {"type": "free", "label": "Quickstart in Italian (Need Games)", "url": "https://www.needgames.it/prodotto/7th-sea-quickstart-pdf/"}
+    ],
+    "amazon_query": "7th Sea Second Edition Core Rulebook",
+    "sources": [
+      "https://www.chaosium.com/7th-sea/",
+      "https://chaosium.com/7th-sea-core-rulebook-second-edition-hardcover",
+      "https://www.chaosium.com/7th-sea-getting-started/",
+      "https://en.wikipedia.org/wiki/7th_Sea_(role-playing_game)",
+      "https://www.needgames.it/prodotto-categoria/7th-sea/",
+      "https://www.needgames.it/prodotto/7th-sea-manuale-base/",
+      "https://www.needgames.it/prodotto/7th-sea-quickstart-pdf/"
+    ],
+    "notes": "Wikidata says 1998; en.wikipedia says the first edition was released by AEG in 1999, used 1999. Second edition was made by John Wick Presents (2016) and the line moved to Chaosium in 2019. Chaosium's own free quickstart link (free-stuff page) returned 404, so I linked the getting-started page that mentions it; the direct file is unconfirmed. Italian price EUR 49.90 listed as available."
+  },
+  {
+    "wikidata": "Q5467",
+    "name": "Exalted",
+    "name_it": "Exalted",
+    "year": 2001,
+    "current_edition": "Third Edition (2016); streamlined Exalted: Essence (2023)",
+    "in_print": true,
+    "publishers": ["Onyx Path Publishing", "White Wolf Publishing"],
+    "designers": ["Robert Hatch", "Justin Achilli", "Stephan Wieck"],
+    "tags": ["fantasy", "mythology", "crunchy"],
+    "description_en": "You play Exalted, chosen mortals who become demigod-like heroes in a fantasy world of jade palaces, gods and decaying empires. Characters can leap rooftops, shatter armies and reshape kingdoms with special powers called Charms. It is big, over-the-top mythic action with a lot of detail, plus a lighter Essence book that simplifies the rules.",
+    "description_it": "Interpreti gli Exalted, mortali scelti che diventano eroi quasi divini in un mondo fantasy di palazzi di giada, divinità e imperi in rovina. I personaggi saltano sui tetti, spezzano eserciti e cambiano il destino dei regni grazie a poteri speciali chiamati Charm. È azione mitica eccessiva e ricca di dettagli, con anche un manuale Essence che semplifica le regole.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Exalted on Onyx Path", "url": "https://theonyxpath.com/category/worlds/exalted/"},
+      {"type": "official", "label": "Exalted products list (Onyx Path)", "url": "https://theonyxpath.com/exalted-products/"}
+    ],
+    "amazon_query": "Exalted Essence Core Rulebook Onyx Path",
+    "sources": [
+      "https://theonyxpath.com/category/worlds/exalted/",
+      "https://theonyxpath.com/exalted-products/",
+      "https://theonyxpath.com/exalted-essences-products/",
+      "https://en.wikipedia.org/wiki/Exalted_(role-playing_game)",
+      "https://it.wikipedia.org/wiki/Exalted"
+    ],
+    "notes": "No store link: the DriveThruRPG and Indie Press Revolution product links on Onyx Path's page returned 403 or were not opened. in_print is based on Onyx Path listing 3rd Edition and Essence as current products (mostly PDF and print on demand); print format availability not confirmed. Italian edition existed in the past (BBPublishing 2002, then Wild Boar Edizioni from 2005, per it.wikipedia); no current Italian edition found. Wikidata link http://theonyxpath.com/category/worlds/exalted was used as the official page."
+  },
+  {
+    "wikidata": "Q16000545",
+    "name": "13th Age",
+    "name_it": "13th Age",
+    "year": 2013,
+    "current_edition": "Second Edition (2025)",
+    "in_print": true,
+    "publishers": ["Pelgrane Press"],
+    "designers": ["Rob Heinsoo", "Jonathan Tweet"],
+    "tags": ["fantasy", "narrative"],
+    "description_en": "A d20 fantasy game by two of the people behind Dungeons & Dragons 3rd and 4th edition, mixing classic dungeon play with story tools. Each hero is tied to powerful figures called Icons, and a one-line backgrounds system replaces long skill lists. It keeps fights fast and easy to run while leaving room for the players to invent the world.",
+    "description_it": "Un gioco fantasy basato sul d20, creato da due dei progettisti di Dungeons & Dragons 3a e 4a edizione, che unisce l'esplorazione classica dei sotterranei a strumenti narrativi. Ogni eroe ha legami con figure potentissime dette Icone, e i background in una riga sostituiscono le lunghe liste di abilità. Gli scontri sono rapidi e facili da gestire, e ai giocatori resta molto spazio per inventare il mondo.",
+    "italian_edition": null,
+    "links": [
+      {"type": "free", "label": "13th Age SRD (free online rules)", "url": "https://www.13thagesrd.com/"}
+    ],
+    "amazon_query": "13th Age Second Edition Heroes' Handbook",
+    "sources": [
+      "https://en.wikipedia.org/wiki/13th_Age",
+      "https://it.wikipedia.org/wiki/13th_Age",
+      "https://13th-age-2e.backerkit.com/hosted_preorders/project_updates?page=3",
+      "https://www.13thagesrd.com/",
+      "https://www.belloflostsouls.net/2024/05/the-13th-age-2nd-edition-launches-on-kickstarter-funds-in-an-hour.html"
+    ],
+    "notes": "pelgranepress.com returned 403 on every page, so no official or store link could be confirmed. Second Edition print shipped around December 2025 according to search results (not opened on the publisher site), so in_print is likely but unconfirmed. The SRD linked is a 1st-edition-era SRD; the page itself did not state the edition. it.wikipedia says Wyrd Edizioni published an Italian 13th Age, but I could not confirm it on Wyrd's site (blocked), so italian_edition is null and name_it is just the English title."
+  },
+  {
+    "wikidata": "Q110998799",
+    "name": "Mothership",
+    "name_it": null,
+    "year": 2018,
+    "current_edition": "1st Edition (2024)",
+    "in_print": true,
+    "publishers": ["Tuesday Knight Games"],
+    "designers": ["Sean McCoy"],
+    "tags": ["sci-fi", "space", "horror"],
+    "description_en": "A sci-fi horror game in the style of Alien and similar films: you play ordinary space workers stuck on a ship, station or planet where something terrible lurks. Characters are fragile and stress can make them panic at the worst moment. The game master runs a mystery that unfolds as you explore, and the tone is lonely, tense and bleak.",
+    "description_it": "Un gioco di fantascienza horror nello stile di Alien: interpreti lavoratori comuni dello spazio bloccati su un'astronave, una stazione o un pianeta dove si nasconde qualcosa di terribile. I personaggi sono fragili e lo stress può farli andare nel panico nel momento peggiore. Il master guida un mistero che si svela con l'esplorazione, in un'atmosfera solitaria, tesa e cupa.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Mothership RPG on Tuesday Knight Games", "url": "https://www.tuesdayknightgames.com/pages/mothership-rpg"}
+    ],
+    "amazon_query": "Mothership RPG Core Set",
+    "sources": [
+      "https://www.mothershiprpg.com/",
+      "https://www.tuesdayknightgames.com/pages/mothership-rpg",
+      "https://en.wikipedia.org/wiki/Mothership_(role-playing_game)"
+    ],
+    "notes": "mothershiprpg.com redirects to the Tuesday Knight Games page. The publisher page does not name a designer; Sean McCoy comes from en.wikipedia. The 2018 release was the original Player's Survival Guide (later called 0th Edition); the 1st Edition boxed set is 2024 per en.wikipedia. The page links to Core Set and Deluxe Set but I did not open those product pages. No official Italian edition found (only unofficial fan material); no confirmed free link."
+  },
+  {
+    "wikidata": "Q110997466",
+    "name": "Mörk Borg",
+    "name_it": "Mörk Borg",
+    "year": 2019,
+    "current_edition": "Core Rulebook (2019)",
+    "in_print": true,
+    "publishers": ["Free League Publishing", "Stockholm Kartell"],
+    "designers": ["Pelle Nilsson", "Johan Nohr"],
+    "tags": ["dark-fantasy", "post-apocalyptic", "osr"],
+    "description_en": "A short, bleak fantasy game set in a world that is ending and cannot be saved. You play doomed scum robbing tombs and ruins, and the rules are light and fast, with high lethality and dark chaotic randomness. It is known for its loud black, yellow and pink metal-inspired art and for being easy to run in one evening.",
+    "description_it": "Un breve gioco fantasy cupissimo, ambientato in un mondo che sta per finire e non si può salvare. Interpreti disperati che saccheggiano tombe e rovine, con regole leggere e veloci, molta letalità e un caos spesso crudele. È famoso per la grafica rumorosa in nero, giallo e rosa ispirata al metal e per la facilità con cui si gioca una partita in una sera.",
+    "italian_edition": {
+      "publisher": "Need Games",
+      "url": "https://www.needgames.it/prodotto/mork-borg/"
+    },
+    "links": [
+      {"type": "official", "label": "Official site, with free Bare Bones edition", "url": "https://morkborg.com/"}
+    ],
+    "amazon_query": "Mörk Borg RPG Core Rulebook",
+    "sources": [
+      "https://morkborg.com/",
+      "https://en.wikipedia.org/wiki/M%C3%B6rk_Borg",
+      "https://www.needgames.it/prodotto/mork-borg/",
+      "https://gamelegends.it/geek/mork-borg-arrivera-in-italiano-grazie-a-need-games-a-lucca-2025/"
+    ],
+    "notes": "Official site morkborg.com says the game is made by Pelle Nilsson (Ockult Ortmastare Games) and Johan Nohr (Stockholm Kartell) and published by Free League Publishing. The free Bare Bones edition is on that same page; Free League's own page returned 403. Sources disagree on 2019 vs 2020 for the original release; used 2019 (English edition). Italian edition by Need Games (88 page A5 hardcover, EUR 34.90, in stock), presented at Lucca 2025. No store URL confirmed for the English book."
+  },
+  {
+    "wikidata": "Q16382540",
+    "name": "Apocalypse World",
+    "name_it": "Il mondo dell'Apocalisse",
+    "year": 2010,
+    "current_edition": "2nd Edition (2016)",
+    "in_print": true,
+    "publishers": ["Lumpley Games"],
+    "designers": ["D. Vincent Baker", "Meguey Baker"],
+    "tags": ["post-apocalyptic", "narrative"],
+    "description_en": "A game about survivors in a broken, dangerous world, where the game master (the MC) asks questions and builds the setting with the players as you go. Each player picks a playbook such as the Battlebabe or the Brainer, with its own moves. It is the original game of the Powered by the Apocalypse family, which many other games, like Dungeon World, are based on.",
+    "description_it": "Un gioco su sopravvissuti in un mondo distrutto e pericoloso, dove il master (l'MC) fa domande e costruisce l'ambientazione insieme ai giocatori mentre si gioca. Ognuno sceglie un manuale di personaggio, come la Battlebabe o il Brainer, con le proprie mosse. È il capostipite della famiglia Powered by the Apocalypse, su cui si basano molti altri giochi, tra cui Dungeon World.",
+    "italian_edition": {
+      "publisher": "Narrattiva",
+      "url": "https://narrattiva.it/it/shop/fantasy/awii-il-mondo-dellapocalisse-ii/"
+    },
+    "links": [
+      {"type": "store", "label": "Apocalypse World 2nd Edition (Lumpley Games on itch.io)", "url": "https://lumpley.itch.io/apocalypse-world"}
+    ],
+    "amazon_query": "Apocalypse World 2nd Edition Vincent Baker Meguey Baker",
+    "sources": [
+      "https://lumpley.itch.io/apocalypse-world",
+      "https://en.wikipedia.org/wiki/Apocalypse_World",
+      "https://it.wikipedia.org/wiki/Il_mondo_dell%27apocalisse",
+      "https://narrattiva.it/it/shop/fantasy/awii-il-mondo-dellapocalisse-ii/"
+    ],
+    "notes": "The itch.io page sells PDFs only (USD 20 minimum); a print edition on Amazon and retailers is likely but I did not open a print listing. The Italian page is listed in the 'fantasy' category on Narrattiva's site (looks like a category mix-up) but is clearly Apocalypse World II. No official game website found, so no 'official' link."
+  },
+  {
+    "wikidata": "Q15221892",
+    "name": "Dungeon World",
+    "name_it": "Dungeon World",
+    "year": 2012,
+    "current_edition": "1st Edition (2012); Dungeon World 2 in open beta (v3, October 2026)",
+    "in_print": false,
+    "publishers": ["Phinlos LLC", "Sage Kobold Productions", "RNDM Games"],
+    "designers": ["Sage LaTorra", "Adam Koebel"],
+    "tags": ["fantasy", "narrative"],
+    "description_en": "A fantasy adventure game that keeps the classic feel of dungeon crawling but runs on fast, story-first rules. Players pick a class like the Fighter or Wizard and roll two dice when they do something risky, and a failed roll gives the game master a chance to make things worse in an interesting way. Rules are light, so it works well for improvised games with a quick start.",
+    "description_it": "Un gioco di avventura fantasy che mantiene lo spirito classico dei sotterranei, ma usa regole veloci che mettono la storia al primo posto. Si sceglie una classe come Guerriero o Mago e si tirano due dadi quando si fa qualcosa di rischioso; se il tiro va male il master può complicare le cose in modo interessante. Le regole sono leggere e si comincia subito, quindi è ottimo per partite improvvisate.",
+    "italian_edition": {
+      "publisher": "Narrattiva",
+      "url": "https://narrattiva.it/it/shop/fantasy/dungeon-world-3-5/"
+    },
+    "links": [
+      {"type": "official", "label": "Dungeon World official site (includes DW2 beta)", "url": "https://www.dungeon-world.com/"},
+      {"type": "free", "label": "Free downloads (play kit, adventures)", "url": "https://www.dungeon-world.com/downloads/"},
+      {"type": "free", "label": "Dungeon World SRD (CC-BY 3.0)", "url": "https://www.dungeonworldsrd.com/"}
+    ],
+    "amazon_query": "Dungeon World Sage LaTorra Adam Koebel",
+    "sources": [
+      "https://www.dungeon-world.com/",
+      "https://www.dungeon-world.com/beta/",
+      "https://www.dungeon-world.com/downloads/",
+      "https://www.dungeonworldsrd.com/",
+      "https://en.wikipedia.org/wiki/Dungeon_World",
+      "https://narrattiva.it/it/shop/fantasy/dungeon-world-3-5/"
+    ],
+    "notes": "I could not check whether the first edition is still on sale in English: the official shop page was blocked by my tools, and the Wikipedia/search results did not say. So in_print is false (unconfirmed), though the Italian edition is listed in stock at Narrattiva (EUR 39.70, revised reprint, 576 pages). The official site now belongs to Phinlos LLC and promotes Dungeon World 2 (designers include Luke Crane, John Dimatos), which is in beta, not a finished edition. No store link because the buy page was blocked."
+  }
+]

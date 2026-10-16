@@ -1,30 +1,36 @@
 # STATUS: rpgArchive
 
-_Updated: 2026-10-15 · commit e5541c2_
+_Updated: 2026-10-16 · commit 4ffa05c_
 
 <!-- Rewrite this file in place. Never append. History belongs in DEVLOG.md. Keep under 60 lines. -->
 
-**What this is:** A worldwide directory of tabletop RPGs, built and updated by AI agents, with direct links to publishers or Amazon.
+**What this is:** A worldwide directory of tabletop RPGs, built and updated by AI agents, with direct links to publishers, shops and Amazon.
 
-**Right now:** Goal and approach decided. No code or data yet. Seed list found on Wikidata (1,720 games).
+**Right now:** Pilot works on this Mac: 50 games, 48 with verified links, searchable website in English and Italian. Not online yet.
 
 ## Feature areas
 | Area | State | Note |
 |---|---|---|
-| Project setup | ✅ working | git, CLAUDE.md, DEVLOG.md, STATUS.md |
-| Game data format | 🚧 building | not designed yet |
-| Agent research pipeline | 🚧 building | Wikidata seed, agents add links |
-| Link checker | 🚧 building | every link verified live |
-| Website | 🚧 building | static HTML/CSS/JS on GitHub Pages |
-| Scheduled auto-update | 🚧 building | after the full catalog exists |
+| Seed list from Wikidata | ✅ working | 1,425 games in `data/seed.json` |
+| Agent research | ✅ working | 50 of 1,425 games done |
+| Link checker | ✅ working | drops dead links, verifies agent suggestions |
+| Website | ✅ working | `docs/`, search, filters, EN/IT, phone layout |
+| Going online (GitHub Pages) | 🚧 building | needs a GitHub repo |
+| Full catalog run | 🚧 building | about 16k agent tokens per game |
+| Games missing from Wikidata | 🚧 building | e.g. Fabula Ultima |
+| Scheduled auto-update | 🚧 building | after the full run |
 
 ## Next up
-1. Pilot: 50 games end to end
-2. Full run on all Wikidata games
-3. Website with search and filters
+1. Create GitHub repo, turn on Pages
+2. Full run on the remaining 1,375 games
+3. Discovery agent for games not on Wikidata
 4. Scheduled agent for new releases
 
+## Known bugs
+- DriveThruRPG and Palladium block every automated visitor, so their links can't be verified
+- Rifts and Inferno have no working link
+
 ## Blocked on you
-- Go-ahead for the 50-game pilot
-- Create a GitHub repo (needed for GitHub Pages and cloud scheduling)
+- OK to create a public GitHub repo for the site
+- OK to spend about 23M agent tokens on the full run
 - Later: Amazon Associates account for affiliate links

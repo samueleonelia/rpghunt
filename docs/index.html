@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RPG Archive</title>
+  <meta name="description" content="A directory of tabletop role-playing games, with direct links to publishers and shops.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-row">
+      <a class="brand" href="./">RPG <span>Archive</span></a>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="it">IT</button>
+      </div>
+    </div>
+    <div class="wrap">
+      <p class="tagline" data-t="tagline"></p>
+      <div class="controls">
+        <input id="q" type="search" autocomplete="off" data-t-placeholder="search">
+        <select id="sort" aria-label="Sort">
+          <option value="name" data-t="sortName"></option>
+          <option value="new" data-t="sortNew"></option>
+          <option value="old" data-t="sortOld"></option>
+        </select>
+        <label class="check"><input id="itOnly" type="checkbox"> <span data-t="itOnly"></span></label>
+        <label class="check"><input id="printOnly" type="checkbox"> <span data-t="printOnly"></span></label>
+      </div>
+      <div id="tags" class="tags" aria-label="Filter by genre"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p id="count" class="count"></p>
+    <div id="grid" class="grid"></div>
+    <p id="empty" class="empty" hidden data-t="empty"></p>
+  </main>
+
+  <footer class="wrap foot">
+    <p data-t="footer"></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

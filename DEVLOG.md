@@ -37,3 +37,32 @@
 
 **Next**
 - Pilot: 50 games end to end, to test data quality and cost before the full run.
+
+## 2026-10-16: Pilot, 50 games end to end
+
+**Status:** pilot works locally, merged to `main`, tag `v0.1-pilot`. No GitHub remote yet.
+
+**Done**
+- `scripts/fetch_seed.py`: 1,425 RPGs from Wikidata into `data/seed.json`.
+- `agents/research-brief.md`: the instruction sheet every research agent follows.
+- 5 Sonnet agents researched 10 games each (descriptions EN + IT, edition, in print, Italian edition, links).
+- `scripts/build_data.py`: merges agent output, opens every link with a real browser identity, drops dead ones, writes `docs/data/games.json` and `data/link-report.json`.
+- Website in `docs/` (plain HTML/CSS/JS): search, genre filters, "available in Italian", "in print", EN/IT switch, Amazon.com/.it search links. Tested in the browser pane, desktop and phone.
+
+**Results**
+- 48 of 50 games have at least one working link; 110 links verified, 3 kept but unverified (bot protection).
+- 23 of 50 games have an Italian edition.
+- Cost: about 810k agent tokens for 50 games (about 16k per game), about 10 minutes with 5 agents in parallel.
+
+**Key learnings**
+- Many shops (Free League, DriveThruRPG, Palladium, Pelgrane) block the agents' web reader. Free League opens fine for the Python checker; DriveThruRPG and Palladium block everything automated.
+- The user's money-page safety hook blocks agents from opening "buy" pages. Respected, not bypassed.
+- Fix adopted: agents may suggest `candidate_links` copied from search results; the checker keeps them only if the page loads and names the game.
+- Python 3.9 needs a manual 308-redirect handler and an Accept header (Kult's site returned 406 without it).
+- Wikidata `name_it` is often wrong (old or fan titles); agents correct it.
+
+**Next**
+- Create the GitHub repo and turn on GitHub Pages (site goes live).
+- Full run on the remaining 1,375 Wikidata games, with candidate links from the start.
+- Discovery agent for games missing from Wikidata (e.g. Fabula Ultima).
+- Scheduled agent for new releases.

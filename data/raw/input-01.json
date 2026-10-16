@@ -1,0 +1,171 @@
+[
+ {
+  "wikidata": "Q1375",
+  "name": "Dungeons & Dragons",
+  "name_it": "Dungeons & Dragons",
+  "year": 1974,
+  "publishers": [
+   "Wizards of the Coast"
+  ],
+  "designers": [
+   "Gary Gygax"
+  ],
+  "genres": [
+   "fantasy"
+  ],
+  "official_sites": [
+   "https://www.dndbeyond.com"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons",
+  "popularity": 65
+ },
+ {
+  "wikidata": "Q1047814",
+  "name": "Generic Universal Role Playing System",
+  "name_it": "GURPS",
+  "year": 1986,
+  "publishers": [
+   "Steve Jackson Games"
+  ],
+  "designers": [
+   "Steve Jackson"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "http://www.sjgames.com/gurps/"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/GURPS",
+  "popularity": 19
+ },
+ {
+  "wikidata": "Q5473",
+  "name": "Middle-Earth Role Playing",
+  "name_it": "Gioco di Ruolo del Signore degli Anelli",
+  "year": 1984,
+  "publishers": [
+   "Iron Crown Enterprises"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Middle-earth_Role_Playing",
+  "popularity": 13
+ },
+ {
+  "wikidata": "Q5453",
+  "name": "Ars Magica",
+  "name_it": "Ars Magica",
+  "year": 1987,
+  "publishers": [
+   "Lion Rampant"
+  ],
+  "designers": [
+   "Jonathan Tweet",
+   "Mark Rein·Hagen"
+  ],
+  "genres": [
+   "multiple perspectives role-playing",
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Ars_Magica",
+  "popularity": 10
+ },
+ {
+  "wikidata": "Q1180909",
+  "name": "Deadlands",
+  "name_it": "Deadlands",
+  "year": 1996,
+  "publishers": [
+   "Pinnacle Entertainment Group"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Deadlands",
+  "popularity": 8
+ },
+ {
+  "wikidata": "Q1336480",
+  "name": "Rifts",
+  "name_it": "Rifts",
+  "year": 1990,
+  "publishers": [
+   "Palladium Books"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Rifts_(role-playing_game)",
+  "popularity": 6
+ },
+ {
+  "wikidata": "Q39045543",
+  "name": "Blades in the Dark",
+  "name_it": null,
+  "year": 2017,
+  "publishers": [
+   "One Seven Design",
+   "Evil Hat Productions"
+  ],
+  "designers": [
+   "John Harper"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Blades_in_the_Dark",
+  "popularity": 4
+ },
+ {
+  "wikidata": "Q679735",
+  "name": "Kata Kumbas",
+  "name_it": "Kata Kumbas",
+  "year": 1984,
+  "publishers": [],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": null,
+  "popularity": 1
+ },
+ {
+  "wikidata": "Q77272478",
+  "name": "Monster of the Week",
+  "name_it": "Il mostro della settimana",
+  "year": 2012,
+  "publishers": [
+   "Evil Hat Productions"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Monster_of_the_Week",
+  "popularity": 2
+ },
+ {
+  "wikidata": "Q136691424",
+  "name": "The One Ring (2nd edition)",
+  "name_it": null,
+  "year": 2021,
+  "publishers": [],
+  "designers": [],
+  "genres": [],
+  "official_sites": [],
+  "wikipedia": null,
+  "popularity": 0
+ }
+]
