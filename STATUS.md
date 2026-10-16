@@ -1,36 +1,37 @@
 # STATUS: rpgArchive
 
-_Updated: 2026-10-16 · commit 4ffa05c_
+_Updated: 2026-10-16 · commit 5cca462_
 
 <!-- Rewrite this file in place. Never append. History belongs in DEVLOG.md. Keep under 60 lines. -->
 
-**What this is:** A worldwide directory of tabletop RPGs, built and updated by AI agents, with direct links to publishers, shops and Amazon.
+**What this is:** A daily list of tabletop RPG deals, collected and verified by AI agents, English first, with a catalog of games behind it.
 
-**Right now:** Pilot works on this Mac: 50 games, 48 with verified links, searchable website in English and Italian. Not online yet.
+**Right now:** Direction just changed from archive to deals. The archive pilot works locally (50 games). No deals data or deals page yet. Name undecided.
 
 ## Feature areas
 | Area | State | Note |
 |---|---|---|
-| Seed list from Wikidata | ✅ working | 1,425 games in `data/seed.json` |
-| Agent research | ✅ working | 50 of 1,425 games done |
+| Game catalog (archive) | ✅ working | 50 of 1,425 games researched |
 | Link checker | ✅ working | drops dead links, verifies agent suggestions |
-| Website | ✅ working | `docs/`, search, filters, EN/IT, phone layout |
-| Going online (GitHub Pages) | 🚧 building | needs a GitHub repo |
-| Full catalog run | 🚧 building | about 16k agent tokens per game |
-| Games missing from Wikidata | 🚧 building | e.g. Fabula Ultima |
-| Scheduled auto-update | 🚧 building | after the full run |
+| Archive website | ✅ working | `docs/`, will become the catalog section |
+| Impeccable design skill | ✅ working | installed, PRODUCT.md written |
+| Deal data format | 🚧 building | not designed yet |
+| Deal-finding agent | 🚧 building | 4 deal types: digital, bundles, physical, free |
+| Deals home page | 🚧 building | design with Impeccable |
+| Going online (GitHub Pages) | 🚧 building | needs a GitHub repo and a name |
+| Daily scheduled run | 🚧 building | after the deals pilot |
 
 ## Next up
-1. Create GitHub repo, turn on Pages
-2. Full run on the remaining 1,375 games
-3. Discovery agent for games not on Wikidata
-4. Scheduled agent for new releases
+1. Design deal data format
+2. Pilot: one day of deals found by agents
+3. Deals home page with Impeccable
+4. GitHub repo and Pages
 
 ## Known bugs
-- DriveThruRPG and Palladium block every automated visitor, so their links can't be verified
-- Rifts and Inferno have no working link
+- DriveThruRPG and Palladium block every automated visitor
+- Site design: cramped labels, faint search placeholder (Impeccable scan)
 
 ## Blocked on you
-- OK to create a public GitHub repo for the site
-- OK to spend about 23M agent tokens on the full run
-- Later: Amazon Associates account for affiliate links
+- Pick the product name (rpgpromo.com is taken by an active RPG site)
+- OK to create a public GitHub repo
+- Later: Amazon Associates and DriveThruRPG affiliate accounts

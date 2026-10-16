@@ -1,19 +1,21 @@
 # rpgArchive
 
 ## What this is
-A worldwide directory of tabletop RPGs (GdR), like Goodreads but for RPGs.
-Built and kept up to date by AI agents. Each game links straight to the
-publisher's site or Amazon.
+A daily list of tabletop RPG deals (sales, bundles, discounted books, free
+giveaways), collected and verified by AI agents, English first. Each deal links
+straight to the shop and to the game's page in a catalog of RPGs behind it.
+Product truth lives in `PRODUCT.md` (written by Impeccable init).
 
-## Decisions (2026-10-15)
-- Scope: every RPG worldwide.
-- Agents fill the catalog and auto-update it on a schedule.
+## Decisions
+- 2026-10-16: pivot from pure archive to deals site, archive kept as the catalog behind the deals. English first, Italian later.
+- 2026-10-16: name undecided. "rpgpromo" rejected for now: rpgpromo.com is an active indie RPG promo site.
+- 2026-10-15: catalog scope is every RPG worldwide; agents fill it and auto-update on a schedule.
 - Links: plain links now, Amazon affiliate later (needs an Amazon Associates account).
 - First version: plain HTML/CSS/JS site reading a JSON file, hosted on GitHub Pages.
 - Seed list: Wikidata (free, CC0 license), ~1,720 RPGs. Do not copy RPGGeek's database (their terms forbid it).
 
 ## Stack
-Planned: static HTML/CSS/JS + one JSON data file. No code yet.
+Static HTML/CSS/JS in `docs/` reading `docs/data/*.json`; Python 3.9 stdlib scripts in `scripts/`; agent instructions in `agents/`. Preview: `.claude/launch.json` ("site", port 8420).
 
 ## Design tool
 Impeccable v4.6.0 (impeccable.style) is installed in this project only:

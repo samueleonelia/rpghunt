@@ -66,3 +66,27 @@
 - Full run on the remaining 1,375 Wikidata games, with candidate links from the start.
 - Discovery agent for games missing from Wikidata (e.g. Fabula Ultima).
 - Scheduled agent for new releases.
+
+## 2026-10-16: Impeccable installed, pivot to deals site
+
+**Status:** branch `main`, pilot site still the archive. Direction changed, no deals code yet.
+
+**Done**
+- Installed Impeccable v4.6.0 (design skill) in this project only, no hooks, telemetry off, engine binary gitignored. First scan of the site: 10 issues (cramped label padding, cream background, faint search placeholder).
+- Researched two alternatives: daily RPG deals vs "Product Hunt for RPGs".
+- Wrote `PRODUCT.md` via Impeccable init.
+
+**Findings**
+- RPG deals happen daily (DriveThruRPG sales incl. one-day deals, Bundle of Holding, Humble Bundle, itch.io, publisher sales). Only aggregator found: EN World's weekly hand-made roundup. No daily one, nothing in Italian.
+- Product Hunt for RPGs needs a voting community that agents cannot create; Product Hunt already has an RPG topic (mostly apps).
+- rpgpromo.com is taken by an active indie RPG promo site; .net and .io free.
+
+**Decisions**
+- Deals site on top of the archive. English first.
+- Track all 4 deal types: digital sales, bundles, physical book discounts, free giveaways.
+- Main visitor: active players and GMs.
+- Name undecided.
+
+**Next**
+- Design the deal data format and a deal-finding agent; pilot one day of deals.
+- Run `/impeccable` new-work for the deals home page.
