@@ -90,3 +90,8 @@
 **Next**
 - Design the deal data format and a deal-finding agent; pilot one day of deals.
 - Run `/impeccable` new-work for the deals home page.
+
+## 2026-10-16: Name chosen
+
+- Name: **RPG Hunt**, domain rpghunt.com. Checked: .com/.net/.io unregistered, no existing site or brand with that name (only small itch.io games called "Hunt"). Not bought yet; the user buys it.
+- Site title and logo text updated. Folder and repo name stay `rpgArchive` for now.

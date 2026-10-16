@@ -1,4 +1,4 @@
-# STATUS: rpgArchive
+# STATUS: RPG Hunt (rpgArchive)
 
 _Updated: 2026-10-16 · commit 5cca462_
 
@@ -6,7 +6,7 @@ _Updated: 2026-10-16 · commit 5cca462_
 
 **What this is:** A daily list of tabletop RPG deals, collected and verified by AI agents, English first, with a catalog of games behind it.
 
-**Right now:** Direction just changed from archive to deals. The archive pilot works locally (50 games). No deals data or deals page yet. Name undecided.
+**Right now:** Direction just changed from archive to deals. The archive pilot works locally (50 games). No deals data or deals page yet. Name: RPG Hunt (rpghunt.com, not bought yet).
 
 ## Feature areas
 | Area | State | Note |
@@ -18,7 +18,7 @@ _Updated: 2026-10-16 · commit 5cca462_
 | Deal data format | 🚧 building | not designed yet |
 | Deal-finding agent | 🚧 building | 4 deal types: digital, bundles, physical, free |
 | Deals home page | 🚧 building | design with Impeccable |
-| Going online (GitHub Pages) | 🚧 building | needs a GitHub repo and a name |
+| Going online (GitHub Pages) | 🚧 building | needs a GitHub repo, then the domain |
 | Daily scheduled run | 🚧 building | after the deals pilot |
 
 ## Next up
@@ -32,6 +32,6 @@ _Updated: 2026-10-16 · commit 5cca462_
 - Site design: cramped labels, faint search placeholder (Impeccable scan)
 
 ## Blocked on you
-- Pick the product name (rpgpromo.com is taken by an active RPG site)
+- Buy rpghunt.com (about $10 to $15 a year, any registrar)
 - OK to create a public GitHub repo
 - Later: Amazon Associates and DriveThruRPG affiliate accounts

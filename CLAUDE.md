@@ -1,4 +1,4 @@
-# rpgArchive
+# RPG Hunt (folder: rpgArchive)
 
 ## What this is
 A daily list of tabletop RPG deals (sales, bundles, discounted books, free
@@ -8,7 +8,7 @@ Product truth lives in `PRODUCT.md` (written by Impeccable init).
 
 ## Decisions
 - 2026-10-16: pivot from pure archive to deals site, archive kept as the catalog behind the deals. English first, Italian later.
-- 2026-10-16: name undecided. "rpgpromo" rejected for now: rpgpromo.com is an active indie RPG promo site.
+- 2026-10-16: name is **RPG Hunt**, domain rpghunt.com (free when checked, not bought yet). "rpgpromo" rejected: rpgpromo.com is an active indie RPG promo site.
 - 2026-10-15: catalog scope is every RPG worldwide; agents fill it and auto-update on a schedule.
 - Links: plain links now, Amazon affiliate later (needs an Amazon Associates account).
 - First version: plain HTML/CSS/JS site reading a JSON file, hosted on GitHub Pages.
