@@ -149,3 +149,23 @@
 - Fixed Impeccable scan findings: label padding (3px to 4-5px), faint search placeholder. Themed selection, focus ring, caret and scrollbar.
 - Fixed phone header on the games page (logo, menu and EN/IT switch overflowed): menu moves to its own row under 560px.
 - Impeccable detector: 0 findings on both pages (was 10).
+
+## 2026-10-16: Deals page redesign (cover images, ochre, sans)
+
+**Status:** live, branch `main`.
+
+**Done**
+- Ran Impeccable's direction round (roll: "Hunter's Notice Board", pick: "Module Loot Table", challenger: "Tabbed Manual", plus the standard). The user steered in chat instead of picking: ochre accent, images required, no serif, shop named once. Applied as a refinement of the existing layout; no new visual world, so no DESIGN.md yet.
+- `build_deals.py` now saves each deal's share image (og:image, forced to https): 26 of 28 deals have a cover. Deals without one show the game name.
+- Best deals first: free, then biggest discount. The top deal leads at double width with its cover beside the details.
+- One shop mention per card, as small text under the button ("at Modiphius · PRINT"); shop prefixes stripped from titles ("Bundle of Holding: X" becomes "X").
+- Font: Archivo (sans, Google Fonts) everywhere, tabular figures. Accent ochre #d9a033 (8:1 contrast); urgent hue #ff7a59 only for "ends soon".
+- Fixed a checker bug: itch.io rate-limited us (HTTP 429) and 9 deals were wrongly dropped. Now one request at a time per site, 1.5 s apart, retry after 429.
+- Impeccable detector: 0 findings on both pages.
+
+**Ideas raised by the user**
+- Aggregate reviews from other sites: plan is scores where public (itch.io stars, RPGGeek API needs approval) plus 2-3 linked reviews per game with a one-line summary in our own words. No copied review text.
+
+**Next**
+- Daily scheduled run.
+- Review aggregation.

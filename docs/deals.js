@@ -44,29 +44,46 @@ function endsText(ends) {
   return [`Until ${new Date(ends + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" })}`, false];
 }
 
-function card(d) {
+function cover(d) {
+  const box = el("div", { class: "deal-cover" });
+  const fallback = () => box.replaceChildren(el("div", { class: "fallback" }, d.game || d.title), kind);
+  const kind = el("span", { class: "deal-kind" }, TYPE_LABEL[d.type] || d.type);
+  if (d.image) {
+    const img = el("img", { src: d.image, alt: `Cover of ${d.title}`, loading: "lazy", referrerpolicy: "no-referrer" });
+    img.addEventListener("error", fallback);
+    box.append(img, kind);
+  } else {
+    fallback();
+  }
+  return box;
+}
+
+function card(d, lead) {
   const now = money(d.price_now, d.currency);
   const was = d.price_was && d.price_was !== d.price_now ? money(d.price_was, d.currency) : null;
   const ends = endsText(d.ends);
-  return el("article", { class: "card" },
-    el("div", { class: "deal-type" }, TYPE_LABEL[d.type] || d.type),
-    el("h2", {}, d.title),
-    el("div", { class: "meta" }, [d.shop, d.format && d.format.toUpperCase()].filter(Boolean).join(" · ")),
-    now ? el("div", { class: "deal-price" },
-      el("span", { class: "now" }, now),
-      was ? el("span", { class: "was" }, was) : null,
-      d.discount_pct ? el("span", { class: "off" }, `-${d.discount_pct}%`) : null) : null,
-    d.summary ? el("p", { class: "desc" }, d.summary) : null,
-    ends ? el("div", { class: "ends" + (ends[1] ? " soon" : "") }, ends[0]) : null,
-    el("div", { class: "links" },
-      el("a", { class: "btn primary", href: d.url, target: "_blank", rel: "noopener" }, `Get it at ${d.shop}`),
-      d.game_id ? el("a", { class: "btn", href: `games.html#${encodeURIComponent(d.game_id)}` }, `About ${d.game}`) : null),
+  const shopName = (d.shop || "").split(" (")[0];
+  return el("article", { class: "card deal" + (lead ? " lead" : "") },
+    cover(d),
+    el("div", { class: "deal-body" },
+      el("h2", {}, d.title),
+      now ? el("div", { class: "deal-price" },
+        el("span", { class: "now" }, now),
+        was ? el("span", { class: "was" }, was) : null,
+        d.discount_pct ? el("span", { class: "off" }, `-${d.discount_pct}%`) : null) : null,
+      d.summary ? el("p", { class: "desc" }, d.summary) : null,
+      ends ? el("div", { class: "ends" + (ends[1] ? " soon" : "") }, ends[0]) : null,
+      el("div", { class: "deal-actions" },
+        el("a", { class: "btn primary", href: d.url, target: "_blank", rel: "noopener" }, d.type === "free" ? "Get it free" : "Get the deal"),
+        d.game_id ? el("a", { class: "btn", href: `games.html#${encodeURIComponent(d.game_id)}` }, `About ${d.game}`) : null),
+      el("p", { class: "deal-source" }, [`at ${shopName}`, d.format && d.format.toUpperCase()].filter(Boolean).join(" · ")),
+    ),
   );
 }
 
 function render() {
   const list = deals.filter((d) => filter === "all" || d.type === filter);
-  $("#grid").replaceChildren(...list.map(card));
+  $("#grid").replaceChildren(...list.map((d, i) => card(d, i === 0)));
   $("#count").textContent = `${list.length} deal${list.length === 1 ? "" : "s"}`;
   $("#empty").hidden = list.length > 0;
 }

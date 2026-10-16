@@ -6,12 +6,14 @@
   --ink: #f0ebe2;
   --muted: #aea596;
   --line: #332f29;
-  --accent: #f07a5a;
-  --accent-ink: #1a0d08;
+  --accent: #d9a033;
+  --accent-ink: #1a1205;
+  --urgent: #ff7a59;
   --chip: #2a2620;
   --ok: #8ccf98;
   --radius: 12px;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: "Archivo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-variant-numeric: tabular-nums;
 }
 
 * { box-sizing: border-box; }
@@ -26,7 +28,7 @@ input, select { caret-color: var(--accent); }
 
 .top { border-bottom: 1px solid var(--line); padding: 18px 0 14px; background: var(--card); }
 .top-row { display: flex; align-items: center; justify-content: space-between; }
-.brand { font-family: Georgia, "Times New Roman", serif; font-size: 1.6rem; font-weight: 700; text-decoration: none; letter-spacing: .3px; }
+.brand { font-size: 1.6rem; font-weight: 800; font-stretch: 112%; text-decoration: none; letter-spacing: -.01em; }
 .brand span { color: var(--accent); }
 .tagline { color: var(--muted); margin: 4px 0 14px; }
 
@@ -46,7 +48,7 @@ input, select { caret-color: var(--accent); }
 .count { color: var(--muted); font-size: .9rem; margin: 18px 0 10px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: flex; flex-direction: column; gap: 8px; }
-.card h2 { font-family: Georgia, "Times New Roman", serif; font-size: 1.2rem; margin: 0; line-height: 1.25; }
+.card h2 { font-size: 1.15rem; font-weight: 700; margin: 0; line-height: 1.25; text-wrap: balance; }
 .card .alt { color: var(--muted); font-size: .85rem; font-style: italic; }
 .meta { color: var(--muted); font-size: .85rem; }
 .desc { margin: 0; font-size: .93rem; }
@@ -68,13 +70,32 @@ input, select { caret-color: var(--accent); }
 .card.focus { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
 
 /* Deals */
-.deal-price { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
-.deal-price .now { font-size: 1.4rem; font-weight: 700; }
+.deals { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.deal { padding: 0; overflow: hidden; gap: 0; }
+.deal-cover { position: relative; aspect-ratio: 4 / 3; background: var(--chip); display: grid; place-items: center; overflow: hidden; }
+.deal-cover img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.deal-cover .fallback { padding: 20px; text-align: center; font-weight: 800; font-stretch: 75%; font-size: 1.5rem; line-height: 1.1; color: var(--muted); }
+.deal-kind { position: absolute; left: 10px; top: 10px; background: rgba(20, 18, 15, .85); color: var(--ink); font-size: .75rem; font-weight: 600; padding: 4px 9px; border-radius: 6px; }
+.deal-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.deal-price { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.deal-price .now { font-size: 1.6rem; font-weight: 800; font-stretch: 85%; line-height: 1; }
 .deal-price .was { color: var(--muted); text-decoration: line-through; }
-.deal-price .off { background: var(--accent); color: var(--accent-ink); font-weight: 700; font-size: .8rem; padding: 4px 8px; border-radius: 6px; }
-.deal-type { text-transform: uppercase; letter-spacing: .06em; font-size: .7rem; font-weight: 700; color: var(--accent); }
+.deal-price .off { background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: .85rem; padding: 4px 8px; border-radius: 6px; }
+.deal .desc { color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .ends { font-size: .82rem; color: var(--muted); }
-.ends.soon { color: var(--accent); font-weight: 600; }
+.ends.soon { color: var(--urgent); font-weight: 600; }
+.deal-actions { margin-top: auto; padding-top: 6px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.deal-actions .btn.primary { font-weight: 700; }
+.deal-source { font-size: .78rem; color: var(--muted); margin: 2px 0 0; }
+
+/* The best deal of the day leads at double width, cover beside the details. */
+@media (min-width: 640px) {
+  .deal.lead { grid-column: span 2; flex-direction: row; }
+  .deal.lead .deal-cover { flex: 0 0 50%; aspect-ratio: auto; min-height: 300px; }
+  .deal.lead h2 { font-size: 1.5rem; }
+  .deal.lead .deal-price .now { font-size: 2.2rem; }
+  .deal.lead .desc { -webkit-line-clamp: 5; }
+}
 
 /* Narrow screens: logo + language switch on one row, page menu on the next. */
 .brand, .nav a { white-space: nowrap; }

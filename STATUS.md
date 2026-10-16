@@ -1,6 +1,6 @@
 # STATUS: RPG Hunt (rpgArchive)
 
-_Updated: 2026-10-16 · commit 44bf430_
+_Updated: 2026-10-16 · commit e27d526_
 
 <!-- Rewrite this file in place. Never append. History belongs in DEVLOG.md. Keep under 60 lines. -->
 
@@ -14,7 +14,7 @@ _Updated: 2026-10-16 · commit 44bf430_
 | Live site (GitHub Pages) | ✅ working | every push to `main` republishes |
 | Deal-finding agents | ✅ working | 4 agents, about 515k tokens per day |
 | Deal checker | ✅ working | drops expired, dead, wrong-page, unseen-price deals |
-| Deals home page | ⚠️ partial | works, dark theme, 0 scanner issues; full redesign later |
+| Deals home page | ✅ working | covers, ochre, best deal first, 0 scanner issues |
 | Daily scheduled run | 🚧 building | not set up; live deals go stale |
 | Amazon deals | ❌ broken | robot pages; needs Amazon API (Associates account) |
 | DriveThruRPG deals | ⚠️ partial | blocked; only dated deals with end date survive |
@@ -24,7 +24,7 @@ _Updated: 2026-10-16 · commit 44bf430_
 
 ## Next up
 1. Daily scheduled run
-2. Redesign deals home page with Impeccable
+2. Review aggregation (scores + linked reviews)
 3. rpghunt.com pointed at GitHub Pages
 4. Amazon API and DriveThruRPG affiliate feed
 

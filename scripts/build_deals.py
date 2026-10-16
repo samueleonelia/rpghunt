@@ -13,6 +13,7 @@ import json
 import pathlib
 import re
 import sys
+import time
 import unicodedata
 import urllib.error
 import urllib.parse
@@ -44,8 +45,24 @@ def key_words(deal):
     return words
 
 
+IMG_RE = [
+    re.compile(r'<meta[^>]+(?:property|name)=["\'](?:og:image|twitter:image)(?::src)?["\'][^>]*content=["\']([^"\']+)', re.I),
+    re.compile(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\'](?:og:image|twitter:image)', re.I),
+]
+
+
+def share_image(html, page_url):
+    """The product image the shop publishes for social sharing (og:image), as https."""
+    for rx in IMG_RE:
+        m = rx.search(html)
+        if m:
+            url = urllib.parse.urljoin(page_url, m.group(1).replace("&amp;", "&"))
+            return "https://" + url[len("http://"):] if url.startswith("http://") else url
+    return None
+
+
 def fetch(url):
-    """Return (status, reason, page_text). status: ok | blocked | dead."""
+    """Return (status, reason, page_text, image_url). status: ok | blocked | dead."""
     req = urllib.request.Request(url, headers={
         "User-Agent": UA,
         "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
@@ -56,14 +73,14 @@ def fetch(url):
             body = resp.read(800_000).decode("utf-8", "ignore")
             low = body.lower()
             if "captcha" in low and ("robot" in low or "automated access" in low):
-                return "blocked", "robot check page", ""
-            return "ok", "", plain(body + " " + resp.geturl())
+                return "blocked", "robot check page", "", None
+            return "ok", "", plain(body + " " + resp.geturl()), share_image(body, resp.geturl())
     except urllib.error.HTTPError as e:
         if e.code in BLOCKED:
-            return "blocked", f"HTTP {e.code} (bot protection)", ""
-        return "dead", f"HTTP {e.code}", ""
+            return "blocked", f"HTTP {e.code} (bot protection)", "", None
+        return "dead", f"HTTP {e.code}", "", None
     except Exception as e:  # DNS failure, timeout, SSL error
-        return "dead", type(e).__name__, ""
+        return "dead", type(e).__name__, "", None
 
 
 def price_on_page(price, text):
@@ -98,12 +115,36 @@ def main():
 
     report = {"kept": 0, "expired": [], "dead": [], "wrong_page": [], "blocked_dropped": [], "price_not_seen": []}
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
-        fetched = list(pool.map(lambda d: fetch(d["url"]), deals))
+    # One request at a time per site, with a pause, so shops like itch.io do not
+    # rate-limit us (HTTP 429); different sites still run in parallel.
+    def polite(url, tries=3):
+        for attempt in range(tries):
+            result = fetch(url)
+            if not result[1].startswith("HTTP 429"):
+                return result
+            time.sleep(15 * (attempt + 1))
+        return result
+
+    by_host = {}
+    for i, d in enumerate(deals):
+        by_host.setdefault(urllib.parse.urlsplit(d["url"]).netloc, []).append(i)
+
+    def crawl(indices):
+        out = []
+        for i in indices:
+            out.append((i, polite(deals[i]["url"])))
+            time.sleep(1.5)
+        return out
+
+    fetched = [None] * len(deals)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        for chunk in pool.map(crawl, by_host.values()):
+            for i, result in chunk:
+                fetched[i] = result
 
     catalog = {slugify(g["name"]): g["id"] for g in json.loads(GAMES.read_text())}
     out = []
-    for d, (status, reason, text) in zip(deals, fetched):
+    for d, (status, reason, text, image) in zip(deals, fetched):
         entry = {"title": d["title"], "shop": d.get("shop"), "url": d["url"], "reason": reason}
         ends = d.get("ends")
         if ends and datetime.date.fromisoformat(ends) < today:
@@ -138,13 +179,18 @@ def main():
 
         if d.get("price_now") is not None and d.get("price_was") and not d.get("discount_pct"):
             d["discount_pct"] = round(100 * (1 - d["price_now"] / d["price_was"]))
+        d["image"] = image
+        # The shop is shown once on the card; do not repeat it in the title.
+        shop = (d.get("shop") or "").split(" (")[0]
+        if shop and d["title"].lower().startswith(shop.lower() + ":"):
+            d["title"] = d["title"][len(shop) + 1:].strip()
         d["game_id"] = catalog.get(slugify(d["game"])) if d.get("game") else None
         d["id"] = slugify(f"{d.get('shop', '')} {d['title']}")[:80]
         d.pop("found_via", None)
         out.append(d)
 
-    order = {"bundle": 0, "free": 1, "sale": 2, "physical": 3}
-    out.sort(key=lambda d: (order[d["type"]], -(d.get("discount_pct") or 0)))
+    # Best deals first: free, then biggest discount; deals with no known discount last.
+    out.sort(key=lambda d: (d["type"] != "free", -(d.get("discount_pct") or 0)))
     OUT.write_text(json.dumps({"date": day, "deals": out}, ensure_ascii=False, indent=1))
     report["kept"] = len(out)
     (RAW.parent / f"report-{day}.json").write_text(json.dumps(report, ensure_ascii=False, indent=1))
@@ -156,7 +202,8 @@ def main():
     by_type = {}
     for d in out:
         by_type[d["type"]] = by_type.get(d["type"], 0) + 1
-    print("by type:", by_type, "| linked to catalog:", sum(1 for d in out if d["game_id"]))
+    print("by type:", by_type, "| linked to catalog:", sum(1 for d in out if d["game_id"]),
+          "| with image:", sum(1 for d in out if d["image"]))
 
 
 if __name__ == "__main__":
