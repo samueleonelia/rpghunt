@@ -1,0 +1,185 @@
+[
+ {
+  "wikidata": "Q1034675",
+  "name": "Cyberpunk 2020",
+  "name_it": "Cyberpunk 2020",
+  "year": 1990,
+  "publishers": [
+   "R. Talsorian Games"
+  ],
+  "designers": [
+   "Mike Pondsmith"
+  ],
+  "genres": [
+   "tabletop role-playing game",
+   "cyberpunk"
+  ],
+  "official_sites": [
+   "https://talsorianstore.com/collections/cyberpunk"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Cyberpunk_(role-playing_game)",
+  "popularity": 24
+ },
+ {
+  "wikidata": "Q681338",
+  "name": "RuneQuest",
+  "name_it": "RuneQuest",
+  "year": 1978,
+  "publishers": [
+   "Chaosium"
+  ],
+  "designers": [
+   "Greg Stafford",
+   "Steve Henderson",
+   "Steve Perrin",
+   "Warren James",
+   "Ray Turney"
+  ],
+  "genres": [
+   "tabletop role-playing game",
+   "fantasy"
+  ],
+  "official_sites": [
+   "http://www.chaosium.com/runequest"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/RuneQuest",
+  "popularity": 16
+ },
+ {
+  "wikidata": "Q680764",
+  "name": "Rolemaster",
+  "name_it": "Rolemaster",
+  "year": 1980,
+  "publishers": [
+   "Iron Crown Enterprises"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Rolemaster",
+  "popularity": 11
+ },
+ {
+  "wikidata": "Q1350935",
+  "name": "Fate",
+  "name_it": "Fate",
+  "year": 2003,
+  "publishers": [
+   "Evil Hat Productions"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Fate_(role-playing_game_system)",
+  "popularity": 9
+ },
+ {
+  "wikidata": "Q682229",
+  "name": "The Dark Eye",
+  "name_it": "Uno sguardo nel buio",
+  "year": 1984,
+  "publishers": [
+   "Ulisses Spiele"
+  ],
+  "designers": [
+   "Ulrich Kiesow"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Dark_Eye_(role-playing_game)",
+  "popularity": 7
+ },
+ {
+  "wikidata": "Q3224019",
+  "name": "Legend of the Five Rings Roleplaying Game",
+  "name_it": "La leggenda dei cinque anelli",
+  "year": 1997,
+  "publishers": [
+   "Alderac Entertainment Group"
+  ],
+  "designers": [
+   "John Wick"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "http://www.l5r.com/rpg"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Legend_of_the_Five_Rings_Roleplaying_Game",
+  "popularity": 5
+ },
+ {
+  "wikidata": "Q135031073",
+  "name": "Daggerheart",
+  "name_it": null,
+  "year": 2025,
+  "publishers": [
+   "Darrington Press"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "https://www.daggerheart.com/"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Daggerheart",
+  "popularity": 3
+ },
+ {
+  "wikidata": "Q110997125",
+  "name": "Alien: The Role-Playing Game",
+  "name_it": null,
+  "year": 2019,
+  "publishers": [
+   "Free League Publishing"
+  ],
+  "designers": [],
+  "genres": [
+   "science fiction horror role-playing game",
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Alien:_The_Roleplaying_Game",
+  "popularity": 2
+ },
+ {
+  "wikidata": "Q115732642",
+  "name": "Cyberpunk RED",
+  "name_it": null,
+  "year": 2020,
+  "publishers": [
+   "R. Talsorian Games"
+  ],
+  "designers": [],
+  "genres": [],
+  "official_sites": [],
+  "wikipedia": null,
+  "popularity": 0
+ },
+ {
+  "wikidata": "Q39058240",
+  "name": "Starfinder Roleplaying Game",
+  "name_it": null,
+  "year": 2017,
+  "publishers": [
+   "Paizo Publishing"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "https://paizo.com/starfinder"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Starfinder_Roleplaying_Game",
+  "popularity": 4
+ }
+]

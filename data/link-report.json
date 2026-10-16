@@ -1,0 +1,26 @@
+{
+ "dead": [],
+ "unverified": [
+  {
+   "game": "Warhammer Fantasy Roleplay",
+   "url": "https://www.cubicle7games.com/our-games/warhammer-fantasy-roleplay",
+   "reason": "HTTP 403 (bot protection)"
+  },
+  {
+   "game": "Legend of the Five Rings Roleplaying Game",
+   "url": "https://www.legendofthefiverings.com/products/roleplaying-games/",
+   "reason": "HTTP 403 (bot protection)"
+  },
+  {
+   "game": "Legend of the Five Rings Roleplaying Game",
+   "url": "http://www.edge-studio.net/games/l5r-core-rulebook",
+   "reason": "HTTP 403 (bot protection)"
+  },
+  {
+   "game": "Savage Worlds",
+   "url": "https://shop.peginc.com/products/savage-worlds-adventure-edition-core-rules-swade-pdf",
+   "reason": "HTTP 429 (bot protection)"
+  }
+ ],
+ "rejected_candidates": []
+}

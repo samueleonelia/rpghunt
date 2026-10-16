@@ -1,0 +1,37 @@
+[
+ {"wikidata": "Q5473", "candidate_links": [
+  {"type": "official", "label": "Iron Crown Enterprises: MERP page", "url": "http://ironcrown.com/middle-earth-role-playing/"}
+ ]},
+ {"wikidata": "Q1336480", "candidate_links": [
+  {"type": "official", "label": "Palladium Books: Rifts Ultimate Edition", "url": "https://palladiumbooks.com/shop/futuristic/rifts-rpg/rifts-core-books/rifts-ultimate-edition/"},
+  {"type": "store", "label": "DriveThruRPG: Rifts Ultimate Edition (PDF)", "url": "https://www.drivethrurpg.com/en/product/181928/rifts-ultimate-edition-rpg"}
+ ]},
+ {"wikidata": "Q679735", "candidate_links": [
+  {"type": "store", "label": "SpaceOrange42: Kata Kumbas (Savage Worlds)", "url": "https://spaceorange42.gumroad.com/l/KataKumbas"}
+ ]},
+ {"wikidata": "Q136691424", "candidate_links": [
+  {"type": "official", "label": "Free League: The One Ring Core Rules", "url": "https://freeleaguepublishing.com/shop/the-one-ring/core-rules-2/"},
+  {"type": "store", "label": "DriveThruRPG: The One Ring Core Rules (PDF)", "url": "https://www.drivethrurpg.com/en/product/370267/The-One-RingTM-Core-Rules"},
+  {"type": "official", "label": "Free League: The One Ring shop", "url": "https://freeleaguepublishing.com/shop/the-one-ring/"}
+ ]},
+ {"wikidata": "Q110997125", "candidate_links": [
+  {"type": "official", "label": "Free League: ALIEN The Roleplaying Game", "url": "https://freeleaguepublishing.com/games/alien/"},
+  {"type": "store", "label": "DriveThruRPG: ALIEN RPG Core Rulebook", "url": "https://www.drivethrurpg.com/en/product/293976/alien-rpg-core-rulebook"},
+  {"type": "store", "label": "Free League: Evolved Edition Starter Set", "url": "https://freeleaguepublishing.com/shop/alien-rpg-2/evolved-edition-starter-set/"}
+ ]},
+ {"wikidata": "Q1883961", "candidate_links": [
+  {"type": "store", "label": "DriveThruRPG: Mage 20th Anniversary Edition", "url": "https://www.drivethrurpg.com/en/product/149562/mage-the-ascension-20th-anniversary-edition"},
+  {"type": "official", "label": "Onyx Path: Mage: The Ascension products", "url": "https://theonyxpath.com/mage-the-ascension-products/"}
+ ]},
+ {"wikidata": "Q110204172", "candidate_links": [
+  {"type": "official", "label": "Free League: Vaesen", "url": "https://freeleaguepublishing.com/games/vaesen/"},
+  {"type": "store", "label": "Free League: Vaesen Core Rulebook", "url": "https://freeleaguepublishing.com/shop/vaesen-2/vaesen-nordic-horror-roleplaying/"},
+  {"type": "store", "label": "DriveThruRPG: Vaesen core book", "url": "https://www.drivethrurpg.com/en/product/319119/vaesen-nordic-horror-roleplaying"}
+ ]},
+ {"wikidata": "Q104821877", "candidate_links": []},
+ {"wikidata": "Q1392276", "candidate_links": [
+  {"type": "official", "label": "KULT: Divinity Lost official site", "url": "https://kultdivinitylost.com/"},
+  {"type": "store", "label": "Modiphius: KULT Divinity Lost core rules", "url": "https://modiphius.net/en-us/products/kult-divinity-lost-4th-edition-of-kult"},
+  {"type": "free", "label": "Modiphius: Together Unto Death (free PDF)", "url": "https://modiphius.net/en-us/products/kult-divinity-lost-together-unto-death-free-pdf"}
+ ]}
+]

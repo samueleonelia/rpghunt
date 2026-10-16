@@ -1,0 +1,176 @@
+[
+ {
+  "wikidata": "Q650924",
+  "name": "Vampire: The Masquerade",
+  "name_it": "Vampiri: la masquerade",
+  "year": 1991,
+  "publishers": [
+   "White Wolf Publishing"
+  ],
+  "designers": [
+   "Mark Rein·Hagen"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "http://www.white-wolf.com/vampire"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Vampire:_The_Masquerade",
+  "popularity": 22
+ },
+ {
+  "wikidata": "Q2164069",
+  "name": "Traveller",
+  "name_it": "Traveller",
+  "year": 1977,
+  "publishers": [
+   "Hobby Japan",
+   "Game Designers' Workshop"
+  ],
+  "designers": [
+   "Marc W. Miller"
+  ],
+  "genres": [
+   "tabletop role-playing game",
+   "science fiction"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Traveller_(role-playing_game)",
+  "popularity": 13
+ },
+ {
+  "wikidata": "Q2142180",
+  "name": "Werewolf: The Apocalypse",
+  "name_it": "Licantropi: l'apocalisse",
+  "year": 1992,
+  "publishers": [
+   "White Wolf Publishing"
+  ],
+  "designers": [
+   "Mark Rein·Hagen"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Werewolf:_The_Apocalypse",
+  "popularity": 10
+ },
+ {
+  "wikidata": "Q1883961",
+  "name": "Mage: The Ascension",
+  "name_it": "Mage: The Ascension",
+  "year": 1993,
+  "publishers": [
+   "White Wolf Publishing"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Mage:_The_Ascension",
+  "popularity": 9
+ },
+ {
+  "wikidata": "Q683240",
+  "name": "Tunnels & Trolls",
+  "name_it": "Tunnel e Troll",
+  "year": 1975,
+  "publishers": [
+   "Flying Buffalo"
+  ],
+  "designers": [
+   "Ken St. Andre"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "http://www.flyingbuffalo.com/tandt.htm"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Tunnels_%26_Trolls",
+  "popularity": 7
+ },
+ {
+  "wikidata": "Q680553",
+  "name": "Pendragon",
+  "name_it": "Pendragon",
+  "year": 1985,
+  "publishers": [
+   "Chaosium"
+  ],
+  "designers": [
+   "Greg Stafford"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Pendragon_(role-playing_game)",
+  "popularity": 5
+ },
+ {
+  "wikidata": "Q110106831",
+  "name": "Brancalonia",
+  "name_it": "Brancalonia",
+  "year": 2021,
+  "publishers": [
+   "Acheron Books"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": null,
+  "popularity": 0
+ },
+ {
+  "wikidata": "Q110204172",
+  "name": "Vaesen",
+  "name_it": null,
+  "year": 2020,
+  "publishers": [
+   "Free League Publishing"
+  ],
+  "designers": [
+   "Nils Hintze"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Vaesen_(role-playing_game)",
+  "popularity": 4
+ },
+ {
+  "wikidata": "Q124281093",
+  "name": "Lancer",
+  "name_it": null,
+  "year": 2019,
+  "publishers": [],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "https://massif-press.itch.io/"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Lancer_(role-playing_game)",
+  "popularity": 1
+ },
+ {
+  "wikidata": "Q104821877",
+  "name": "Inferno (role-playing game)",
+  "name_it": null,
+  "year": null,
+  "publishers": [],
+  "designers": [],
+  "genres": [],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Inferno_(role-playing_game)",
+  "popularity": 1
+ }
+]

@@ -1,0 +1,186 @@
+[
+ {
+  "wikidata": "Q1027121",
+  "name": "Call of Cthulhu",
+  "name_it": "Il richiamo di Cthulhu",
+  "year": 1981,
+  "publishers": [
+   "Chaosium"
+  ],
+  "designers": [
+   "Sandy Petersen"
+  ],
+  "genres": [
+   "Lovecraftian horror"
+  ],
+  "official_sites": [
+   "http://www.chaosium.com/call-of-cthulhu-rpg"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Call_of_Cthulhu_(role-playing_game)",
+  "popularity": 24
+ },
+ {
+  "wikidata": "Q680176",
+  "name": "Pathfinder Roleplaying Game",
+  "name_it": "Pathfinder gioco di ruolo",
+  "year": 2009,
+  "publishers": [
+   "Paizo Publishing"
+  ],
+  "designers": [],
+  "genres": [
+   "fantasy"
+  ],
+  "official_sites": [
+   "http://paizo.com/pathfinder"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Pathfinder_Roleplaying_Game",
+  "popularity": 17
+ },
+ {
+  "wikidata": "Q5490",
+  "name": "Warhammer Fantasy Roleplay (rpg family)",
+  "name_it": "Martelli da guerra",
+  "year": 1986,
+  "publishers": [
+   "Games Workshop"
+  ],
+  "designers": [
+   "Richard Halliwell"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Warhammer_Fantasy_Roleplay",
+  "popularity": 12
+ },
+ {
+  "wikidata": "Q270118",
+  "name": "7th Sea",
+  "name_it": "7th sea",
+  "year": 1998,
+  "publishers": [
+   "Alderac Entertainment Group"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/7th_Sea_(role-playing_game)",
+  "popularity": 9
+ },
+ {
+  "wikidata": "Q5467",
+  "name": "Exalted",
+  "name_it": "Exalted",
+  "year": 2001,
+  "publishers": [
+   "White Wolf Publishing"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "http://theonyxpath.com/category/worlds/exalted"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Exalted_(role-playing_game)",
+  "popularity": 8
+ },
+ {
+  "wikidata": "Q16000545",
+  "name": "13th Age",
+  "name_it": "13th Age",
+  "year": 2013,
+  "publishers": [
+   "Pelgrane Press"
+  ],
+  "designers": [
+   "Rob Heinsoo",
+   "Jonathan Tweet"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "http://site.pelgranepress.com/index.php/category/products/13th-age/"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/13th_Age",
+  "popularity": 5
+ },
+ {
+  "wikidata": "Q110998799",
+  "name": "Mothership",
+  "name_it": null,
+  "year": 2018,
+  "publishers": [
+   "Tuesday Knight Games"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "https://www.mothershiprpg.com/"
+  ],
+  "wikipedia": null,
+  "popularity": 0
+ },
+ {
+  "wikidata": "Q110997466",
+  "name": "Mörk Borg",
+  "name_it": null,
+  "year": 2019,
+  "publishers": [
+   "Free League Publishing"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/M%C3%B6rk_Borg",
+  "popularity": 2
+ },
+ {
+  "wikidata": "Q16382540",
+  "name": "Apocalypse World",
+  "name_it": "Il mondo dell'apocalisse",
+  "year": 2010,
+  "publishers": [
+   "Lumpley Games"
+  ],
+  "designers": [
+   "Vincent Baker"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Apocalypse_World",
+  "popularity": 4
+ },
+ {
+  "wikidata": "Q15221892",
+  "name": "Dungeon World",
+  "name_it": "Dungeon World",
+  "year": 2012,
+  "publishers": [
+   "Sage Kobold Productions"
+  ],
+  "designers": [
+   "Sage LaTorra",
+   "Adam Koebel"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "http://www.dungeon-world.com/"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Dungeon_World",
+  "popularity": 4
+ }
+]

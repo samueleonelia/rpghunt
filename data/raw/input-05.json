@@ -1,0 +1,184 @@
+[
+ {
+  "wikidata": "Q1042442",
+  "name": "Shadowrun",
+  "name_it": "Shadowrun",
+  "year": 1989,
+  "publishers": [
+   "Catalyst Game Labs",
+   "FanPro LLC",
+   "FASA Corporation"
+  ],
+  "designers": [
+   "Robert N. Charrette",
+   "Paul Hume",
+   "Tom Dowd"
+  ],
+  "genres": [
+   "dystopian fiction",
+   "science fantasy",
+   "biopunk",
+   "tabletop role-playing game",
+   "cyberpunk",
+   "fantasy"
+  ],
+  "official_sites": [
+   "http://www.shadowruntabletop.com"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Shadowrun",
+  "popularity": 19
+ },
+ {
+  "wikidata": "Q1042398",
+  "name": "Paranoia",
+  "name_it": "Paranoia",
+  "year": 1984,
+  "publishers": [],
+  "designers": [
+   "Dan Gelber",
+   "Eric Goldberg",
+   "Ken Rolston",
+   "Greg Costikyan"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Paranoia_(role-playing_game)",
+  "popularity": 13
+ },
+ {
+  "wikidata": "Q1392276",
+  "name": "Kult",
+  "name_it": "Kult",
+  "year": 1991,
+  "publishers": [],
+  "designers": [
+   "Gunilla Jonsson",
+   "Michael Petersén"
+  ],
+  "genres": [
+   "horror fiction",
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Kult_(role-playing_game)",
+  "popularity": 10
+ },
+ {
+  "wikidata": "Q916623",
+  "name": "Savage Worlds",
+  "name_it": "Savage Worlds",
+  "year": 2003,
+  "publishers": [
+   "Pinnacle Entertainment Group"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Savage_Worlds",
+  "popularity": 8
+ },
+ {
+  "wikidata": "Q5464",
+  "name": "Earthdawn",
+  "name_it": "Earthdawn",
+  "year": 1993,
+  "publishers": [],
+  "designers": [
+   "Greg Gorden"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Earthdawn",
+  "popularity": 7
+ },
+ {
+  "wikidata": "Q495582",
+  "name": "Unknown Armies",
+  "name_it": "Unknown Armies",
+  "year": 1998,
+  "publishers": [
+   "Atlas Games"
+  ],
+  "designers": [
+   "Greg Stolze",
+   "John Scott Tynes"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [
+   "http://www.unknown-armies.com"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Unknown_Armies",
+  "popularity": 5
+ },
+ {
+  "wikidata": "Q679867",
+  "name": "Lex Arcana",
+  "name_it": "Lex Arcana",
+  "year": 1993,
+  "publishers": [
+   "Dal Negro"
+  ],
+  "designers": [
+   "Leo Colovini",
+   "Dario De Toffoli"
+  ],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": null,
+  "popularity": 1
+ },
+ {
+  "wikidata": "Q104854077",
+  "name": "Forbidden Lands",
+  "name_it": null,
+  "year": 2018,
+  "publishers": [],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": null,
+  "popularity": 0
+ },
+ {
+  "wikidata": "Q110997485",
+  "name": "Wanderhome",
+  "name_it": null,
+  "year": 2021,
+  "publishers": [],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Wanderhome",
+  "popularity": 1
+ },
+ {
+  "wikidata": "Q78089496",
+  "name": "Symbaroum",
+  "name_it": null,
+  "year": 2015,
+  "publishers": [
+   "Free League Publishing"
+  ],
+  "designers": [],
+  "genres": [
+   "tabletop role-playing game"
+  ],
+  "official_sites": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Symbaroum",
+  "popularity": 1
+ }
+]

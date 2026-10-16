@@ -1,0 +1,130 @@
+[
+ {
+  "wikidata": "Q5473",
+  "name": "Middle-earth Role Playing",
+  "name_it": "Il Gioco di Ruolo del Signore degli Anelli",
+  "year": 1984,
+  "current_edition": "Second Edition (1986)",
+  "publishers": [
+   "Iron Crown Enterprises"
+  ],
+  "in_print": false,
+  "italian_edition": {
+   "publisher": "Stratelibri",
+   "url": null
+  }
+ },
+ {
+  "wikidata": "Q1336480",
+  "name": "Rifts",
+  "name_it": null,
+  "year": 1990,
+  "current_edition": "Ultimate Edition (2005)",
+  "publishers": [
+   "Palladium Books"
+  ],
+  "in_print": true,
+  "italian_edition": null
+ },
+ {
+  "wikidata": "Q679735",
+  "name": "Kata Kumbas",
+  "name_it": "Kata Kumbas",
+  "year": 1984,
+  "current_edition": "Savage Worlds edition (2015)",
+  "publishers": [
+   "GG Studio (now Space Orange)",
+   "Edizioni E.Elle",
+   "Orion Edizioni"
+  ],
+  "in_print": false,
+  "italian_edition": {
+   "publisher": "GG Studio (now Space Orange), Savage Worlds edition 2015",
+   "url": null
+  }
+ },
+ {
+  "wikidata": "Q136691424",
+  "name": "The One Ring",
+  "name_it": "L'Unico Anello",
+  "year": 2011,
+  "current_edition": "2nd Edition (2022)",
+  "publishers": [
+   "Free League Publishing",
+   "Cubicle 7"
+  ],
+  "in_print": true,
+  "italian_edition": {
+   "publisher": "Need Games!",
+   "url": null
+  }
+ },
+ {
+  "wikidata": "Q110997125",
+  "name": "Alien: The Role-Playing Game",
+  "name_it": null,
+  "year": 2019,
+  "current_edition": "Evolved Edition (2025)",
+  "publishers": [
+   "Free League Publishing"
+  ],
+  "in_print": true,
+  "italian_edition": {
+   "publisher": "Wyrd Edizioni",
+   "url": null
+  }
+ },
+ {
+  "wikidata": "Q1883961",
+  "name": "Mage: The Ascension",
+  "name_it": null,
+  "year": 1993,
+  "current_edition": "20th Anniversary Edition (2015)",
+  "publishers": [
+   "Onyx Path Publishing",
+   "White Wolf Publishing"
+  ],
+  "in_print": true,
+  "italian_edition": null
+ },
+ {
+  "wikidata": "Q110204172",
+  "name": "Vaesen",
+  "name_it": null,
+  "year": 2020,
+  "current_edition": "Revised Edition (2025)",
+  "publishers": [
+   "Free League Publishing"
+  ],
+  "in_print": true,
+  "italian_edition": null
+ },
+ {
+  "wikidata": "Q104821877",
+  "name": "Inferno",
+  "name_it": null,
+  "year": 1994,
+  "current_edition": null,
+  "publishers": [
+   "Death's Edge Games"
+  ],
+  "in_print": false,
+  "italian_edition": null
+ },
+ {
+  "wikidata": "Q1392276",
+  "name": "Kult",
+  "name_it": null,
+  "year": 1991,
+  "current_edition": "4th Edition, Kult: Divinity Lost (2018)",
+  "publishers": [
+   "Helmgast",
+   "Modiphius Entertainment",
+   "Metropolis Ltd",
+   "Target Games",
+   "Äventyrsspel"
+  ],
+  "in_print": true,
+  "italian_edition": null
+ }
+]

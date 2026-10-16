@@ -1,0 +1,267 @@
+[
+  {
+    "wikidata": "Q1042442",
+    "name": "Shadowrun",
+    "name_it": null,
+    "year": 1989,
+    "current_edition": "Sixth World (2019)",
+    "in_print": true,
+    "publishers": ["Catalyst Game Labs", "FanPro LLC", "FASA Corporation"],
+    "designers": ["Robert N. Charrette", "Paul R. Hume", "Tom Dowd"],
+    "tags": ["cyberpunk", "urban-fantasy", "sci-fi", "fantasy"],
+    "description_en": "You play shadowrunners, deniable freelancers who take dirty jobs for megacorporations in a near future where magic has returned and elves, orcs and dragons live alongside hackers and cyber-enhanced street samurai. It mixes heists, corporate intrigue and spellcasting with a gritty, streetwise tone. Runs on pools of six-sided dice, counting 5s and 6s as hits.",
+    "description_it": "Interpreti gli shadowrunner, mercenari senza nome che accettano lavori sporchi per le megacorporazioni in un futuro prossimo dove la magia è tornata e elfi, orchi e draghi convivono con hacker e samurai potenziati dalla cibernetica. Si mescolano colpi in stile heist, intrighi aziendali e incantesimi, con un tono duro e di strada. Il sistema usa riserve di dadi a sei facce, dove 5 e 6 contano come successi.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Shadowrun: Sixth World (official site)", "url": "https://shadowrunsixthworld.com/"},
+      {"type": "store", "label": "Catalyst Game Labs store: Shadowrun core rules", "url": "https://store.catalystgamelabs.com/collections/shadowrun-core-rules"}
+    ],
+    "amazon_query": "Shadowrun Sixth World Core Rulebook",
+    "sources": [
+      "https://shadowrunsixthworld.com/",
+      "https://store.catalystgamelabs.com/collections/shadowrun-core-rules",
+      "https://store.catalystgamelabs.com/products/shadowrun-sixth-world-core-rulebook-city-edition-berlin-1",
+      "https://store.catalystgamelabs.com/products/shadowrun-sixth-world-beginner-box-1",
+      "https://tabletopgaming.co.uk/news/seminal-sci-fi-rpg-shadowrun-marks-its-30th-anniversary-with-a-sixth",
+      "https://en.wikipedia.org/wiki/Shadowrun"
+    ],
+    "notes": "Italian edition not confirmed: Catalyst announced Italian localization of Sixth World in 2019, but I found no publisher or page, so name_it and italian_edition are null (earlier Italian editions probably exist). Sixth World Core Rulebook plain product page not found on Catalyst store: the Berlin City Edition and Beginner Box showed as sold out there; the standard book is sold by retailers, so in_print is set true from retailer listings (not opened). Designers from Wikidata, not re-verified. www.shadowruntabletop.com failed (certificate error); no free quickstart URL confirmed."
+  },
+  {
+    "wikidata": "Q1042398",
+    "name": "Paranoia",
+    "name_it": null,
+    "year": 1984,
+    "current_edition": "The All New Shiny Edition (2023)",
+    "in_print": true,
+    "publishers": ["Mongoose Publishing", "West End Games"],
+    "designers": ["Greg Costikyan", "Dan Gelber", "Eric Goldberg"],
+    "tags": ["sci-fi", "comedy"],
+    "description_en": "You are a clone-citizen of Alpha Complex, a domed city ruled by an insane, all-seeing computer that executes anyone for the smallest slip. Everyone has secret treason, mutant powers and hidden agendas, so a mission turns into a farce of backstabbing and bad luck. It is meant to be funny and deadly, and players are expected to lose several clones per session.",
+    "description_it": "Sei un cittadino clonato di Alpha Complex, una città sotto cupola governata da un computer folle che vede tutto e condanna a morte per un nonnulla. Ognuno ha segreti, poteri da mutante e piani nascosti, quindi ogni missione si trasforma in una farsa di tradimenti e sfortuna. Il tono è comico e letale, e a ogni sessione ci si aspetta di perdere più di un clone.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Paranoia at Mongoose Publishing", "url": "https://www.mongoosepublishing.com/collections/paranoia"},
+      {"type": "store", "label": "Paranoia Core Book (Mongoose shop)", "url": "https://www.mongoosepublishing.com/products/paranoia-core-book"}
+    ],
+    "amazon_query": "Paranoia RPG Core Book Mongoose Publishing",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paranoia_(role-playing_game)",
+      "https://www.mongoosepublishing.com/collections/paranoia",
+      "https://www.mongoosepublishing.com/products/paranoia-core-book"
+    ],
+    "notes": "Mongoose core book page does not name the edition or year; All New Shiny Edition (22 Sept 2023) comes from Wikipedia and Mongoose's collection menu. Original 1984 designers per Wikipedia (Ken Rolston helped rewrite). Italian edition not confirmed (none found). No free quickstart URL confirmed."
+  },
+  {
+    "wikidata": "Q1392276",
+    "name": "Kult",
+    "name_it": null,
+    "year": 1991,
+    "current_edition": "4th Edition, Kult: Divinity Lost (2018)",
+    "in_print": true,
+    "publishers": ["Helmgast", "Modiphius Entertainment", "Metropolis Ltd", "Target Games", "Äventyrsspel"],
+    "designers": ["Gunilla Jonsson", "Michael Petersén"],
+    "tags": ["horror", "urban-fantasy", "dark-fantasy"],
+    "description_en": "A modern horror game where the world you see is a lie built by a false god, and the truth behind it is full of nightmares. You play troubled people whose grip on reality starts to slip, and the story goes to dark, disturbing places. The current edition moves the setting to the 2010s and uses a rules engine from Powered by the Apocalypse games.",
+    "description_it": "Un gioco horror moderno in cui il mondo che vedi è un'illusione creata da un falso dio, e dietro c'è una realtà piena di incubi. Interpreti persone fragili che perdono pian piano il contatto con la realtà, e le storie arrivano in territori cupi e disturbanti. L'edizione attuale è ambientata negli anni 2010 e usa un sistema derivato dai giochi Powered by the Apocalypse.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Kult at Helmgast", "url": "https://www.helmgast.se/en/kult"}
+    ],
+    "amazon_query": "Kult Divinity Lost Core Rulebook",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kult_(role-playing_game)",
+      "https://www.helmgast.se/en/kult"
+    ],
+    "notes": "Helmgast webshop URL (webshop.helmgast.se/kult/) is listed on the official page but returned empty when fetched, so left out; in_print inferred from the page's 'Buy in shop' link. Wikipedia says an Italian edition was published by Raven Distribution (older editions), not confirmed with a page, so name_it and italian_edition are null. Publisher order (Helmgast current; Modiphius listed as English publisher in retailer results) is not fully verified. No free quickstart confirmed."
+  },
+  {
+    "wikidata": "Q916623",
+    "name": "Savage Worlds",
+    "name_it": null,
+    "year": 2003,
+    "current_edition": "Adventure Edition, SWADE (2018)",
+    "in_print": true,
+    "publishers": ["Pinnacle Entertainment Group"],
+    "designers": ["Shane Lacy Hensley"],
+    "tags": ["generic", "crunchy"],
+    "description_en": "A rules toolkit meant to run any genre, from pulp adventure to space opera, with fast and loose combat. You roll a die sized to your skill, plus a spare d6 for heroes, and high rolls explode for more. Cards decide who acts first and tokens called bennies let you reroll, so games feel cinematic and quick. It is the rules engine behind Deadlands.",
+    "description_it": "Un sistema di regole pensato per qualsiasi genere, dall'avventura pulp allo space opera, con combattimenti veloci e spicci. Tira un dado legato alla tua abilità, più un d6 extra per gli eroi, e i risultati massimi esplodono per tiri ulteriori. Le carte decidono chi agisce per primo e i gettoni detti bennie permettono di ritirare, così le partite risultano rapide e cinematografiche. È il motore alla base di Deadlands.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Savage Worlds at Pinnacle Entertainment", "url": "https://peginc.com/savage-settings/savage-worlds/"},
+      {"type": "store", "label": "Savage Worlds Adventure Edition Core Rules PDF", "url": "https://shop.peginc.com/products/savage-worlds-adventure-edition-core-rules-swade-pdf"},
+      {"type": "free", "label": "Savage Worlds Test Drive (Deadlands, free PDF)", "url": "https://shop.peginc.com/products/deadlands-the-weird-west-blood-on-the-range-savage-worlds-test-drive-swade"}
+    ],
+    "amazon_query": "Savage Worlds Adventure Edition Core Rules",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Savage_Worlds",
+      "https://peginc.com/savage-settings/savage-worlds/",
+      "https://shop.peginc.com/products/savage-worlds-adventure-edition-core-rules-swade-pdf",
+      "https://shop.peginc.com/products/deadlands-the-weird-west-blood-on-the-range-savage-worlds-test-drive-swade",
+      "https://www.tomshw.it/culturapop/savage-worlds-la-nuova-edizione-al-modena-play-2019"
+    ],
+    "notes": "A web search summary of a Tom's Hardware Italia article says SpaceOrange42 launched the Italian Adventure Edition at Modena Play 2019, but the article fetch returned 403 and I found no verified product URL, so italian_edition and name_it are null. Release year of SWADE: Wikipedia says 2018 (the Kickstarter shipped in 2017). The free Test Drive is a Deadlands one-shot, not the generic core rules. Rules summary uses Wikipedia."
+  },
+  {
+    "wikidata": "Q5464",
+    "name": "Earthdawn",
+    "name_it": null,
+    "year": 1993,
+    "current_edition": "Fourth Edition (2015)",
+    "in_print": true,
+    "publishers": ["FASA Games, Inc.", "Vagrant Workshop", "RedBrick", "Living Room Games", "FASA Corporation"],
+    "designers": ["Greg Gorden"],
+    "tags": ["fantasy", "mythology"],
+    "description_en": "High fantasy in Barsaive, a land recovering after four centuries spent hiding underground from monstrous Horrors. You play adepts who follow magical Disciplines, and your abilities grow as you build bonds with enchanted items and deeds. The tone is heroic and hopeful, with a lot of attention to a consistent world and its magic.",
+    "description_it": "Alta fantasia a Barsaive, una terra che si rialza dopo quattro secoli passati nascosta sottoterra per sfuggire agli Orrori. Interpreti adepti che seguono Discipline magiche e crescono legandoti a oggetti incantati e alle tue imprese. Il tono è eroico e speranzoso, con grande cura per la coerenza del mondo e della sua magia.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Earthdawn at FASA Games", "url": "https://fasagames.com/earthdawn"},
+      {"type": "store", "label": "Earthdawn Player's Guide, 4th Edition (FASA Games shop)", "url": "https://shop.fasagames.com/index.php?main_page=product_info&products_id=1330"},
+      {"type": "free", "label": "Earthdawn Fourth Edition Quick Start Guide", "url": "https://shop.fasagames.com/index.php?main_page=product_info&cPath=1_102_128&products_id=1329"}
+    ],
+    "amazon_query": "Earthdawn Fourth Edition Player's Guide",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Earthdawn",
+      "https://fasagames.com/earthdawn",
+      "https://fasagames.com/earthdawn-whatis/earthdawn/",
+      "https://fasagames.com/earthdawn-whatis/",
+      "https://shop.fasagames.com/index.php?main_page=product_info&products_id=1330",
+      "https://shop.fasagames.com/index.php?main_page=product_info&cPath=1_102_128&products_id=1329"
+    ],
+    "notes": "No Italian edition found. Wikipedia lists a later 'Age of Legend Edition' (Vagrant Workshop, 2016) after the 4th edition; FASA Games' site treats 4th edition as current, so that is used. The 'free' Quick Start page shows $0.00 for the PDF and $5 for print. Original design credit is Greg Gorden per Wikipedia (other staff contributed)."
+  },
+  {
+    "wikidata": "Q495582",
+    "name": "Unknown Armies",
+    "name_it": null,
+    "year": 1998,
+    "current_edition": "Third Edition (2017)",
+    "in_print": true,
+    "publishers": ["Atlas Games"],
+    "designers": ["Greg Stolze", "John Scott Tynes"],
+    "tags": ["horror", "urban-fantasy", "mystery"],
+    "description_en": "An occult horror game set in our world, where magic is real but costs you something personal: your obsessions, your habits, your sanity. You play ordinary, damaged people in the hidden underground, trying to survive a secret war over the future between cults and people who became living symbols. Rules are percentile-based and the tone is dark, strange and often funny.",
+    "description_it": "Un gioco horror occulto ambientato nel nostro mondo, dove la magia esiste ma ha un prezzo molto personale: manie, abitudini, sanità mentale. Interpreti persone comuni e segnate dalla vita nel sottobosco occulto, cercando di sopravvivere a una guerra segreta per il futuro fra culti e individui diventati simboli viventi. Le regole sono basate sui dadi percentuali e il tono è cupo, strano e spesso ironico.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Unknown Armies at Atlas Games", "url": "https://www.atlas-games.com/unknownarmies"},
+      {"type": "store", "label": "Unknown Armies Deluxe Third Edition (Atlas Games)", "url": "https://www.atlas-games.com/product_tables/AG6030"},
+      {"type": "store", "label": "Unknown Armies Third Edition Book Two: Run (Atlas Games on itch.io)", "url": "https://atlasgames.itch.io/unknown-armies-third-edition-book-two-run"},
+      {"type": "free", "label": "Unknown Armies 3 20-minute demo (PDF)", "url": "http://atlas-games.com/pdf_storage/UA3_20min_demo.pdf"}
+    ],
+    "amazon_query": "Unknown Armies Third Edition Book One Play",
+    "sources": [
+      "https://www.atlas-games.com/unknownarmies",
+      "https://www.atlas-games.com/product_tables/AG6030",
+      "https://atlasgames.itch.io/unknown-armies-third-edition-book-two-run",
+      "https://www.atlas-games.com/product_tables/AG6045",
+      "https://en.wikipedia.org/wiki/Unknown_Armies"
+    ],
+    "notes": "No Italian edition found. Year 1998 is from Wikidata (Atlas page only dates awards to 1999). The demo PDF is listed on the Atlas page as a 20-minute demo; the file text did not render in my tool, but its metadata names it a UA3 20-minute demo. Maria in Three Parts quickstart is only free in print on Free RPG Day 2018 and $4.99 digital, so not listed as free. Original 1998 publisher was Atlas Games (with Archon Games credited by Italian Wikipedia)."
+  },
+  {
+    "wikidata": "Q679867",
+    "name": "Lex Arcana",
+    "name_it": "Lex Arcana",
+    "year": 1993,
+    "current_edition": "Second Edition (2018)",
+    "in_print": true,
+    "publishers": ["Acheron Games", "Quality Games", "Need Games", "Dal Negro"],
+    "designers": ["Leo Colovini", "Dario De Toffoli", "Marco Maggi", "Francesco Nepitello"],
+    "tags": ["historical", "mythology", "dark-fantasy"],
+    "description_en": "An alternate history where the Roman Empire never fell, and the Emperor keeps a special unit to deal with magic, monsters and cults. You play a member of that unit, called the Cohors Arcana, investigating mysteries and hunting threats from legend. The look and rules are full of classical flavor, with Latin skill names and virtues from ancient philosophy.",
+    "description_it": "Una storia alternativa in cui l'Impero Romano non è mai caduto e l'Imperatore ha un reparto speciale per occuparsi di magia, mostri e culti. Interpreti un membro di questa unità, la Cohors Arcana, che indaga su misteri e dà la caccia alle minacce uscite dalle leggende. Aspetto e regole sono pieni di sapore classico, con abilità dai nomi latini e virtù prese dalla filosofia antica.",
+    "italian_edition": null,
+    "links": [
+      {"type": "store", "label": "Lex Arcana Core Rulebook (Acheron Games on itch.io)", "url": "https://acheron-games.itch.io/lex-arcana-core-rulebook"}
+    ],
+    "amazon_query": "Lex Arcana Core Rulebook Acheron",
+    "sources": [
+      "https://it.wikipedia.org/wiki/Lex_Arcana",
+      "https://karavansara.live/2018/07/31/the-return-of-lex-arcana/",
+      "https://acheron-games.itch.io/lex-arcana-core-rulebook"
+    ],
+    "notes": "Only one link confirmed. Acheron's own site (acheronbooks.com) refused connection and Ares Games returned 403. In_print is true from search results showing the Acheron store selling the book (not opened); itch.io page confirms the book is released. Year 1993 and the designers list come from Italian Wikipedia and a 2018 article; other sources suggest the first Dal Negro edition may be later, so treat year as uncertain. Wikipedia gives 2018 or 2020 for the second edition; itch page does not state an edition. Italian edition exists (Need Games! until 2021, then Quality Games/Acheron) but no URL confirmed, so italian_edition is null."
+  },
+  {
+    "wikidata": "Q104854077",
+    "name": "Forbidden Lands",
+    "name_it": null,
+    "year": 2018,
+    "current_edition": "Core Boxed Set (2018)",
+    "in_print": true,
+    "publishers": ["Free League Publishing"],
+    "designers": ["Tomas Härenstam"],
+    "tags": ["fantasy", "dark-fantasy", "osr"],
+    "description_en": "A sandbox fantasy game where you are raiders and drifters exploring a cursed, ruined land. Play is about travel, survival, looting old tombs and eventually building your own stronghold, with hunger, thirst and cold as real dangers. It has the feel of classic dungeon crawling but with modern, simple rules.",
+    "description_it": "Un gioco fantasy sandbox in cui sei un predone o un vagabondo che esplora una terra maledetta e in rovina. Si gioca tra viaggi, sopravvivenza, saccheggio di vecchie tombe e infine la costruzione di una propria fortezza, con fame, sete e freddo come pericoli concreti. Ha il sapore dell'esplorazione dei dungeon di una volta, ma con regole moderne e semplici.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Forbidden Lands at Free League Publishing", "url": "https://newsite.freeleaguepublishing.com/games/forbidden-lands/"},
+      {"type": "store", "label": "Forbidden Lands Core Boxed Set (Free League shop)", "url": "https://newsite.freeleaguepublishing.com/shop/forbidden-lands/core-boxed-set/"},
+      {"type": "free", "label": "Forbidden Lands free Quickstart PDF", "url": "https://newsite.freeleaguepublishing.com/shop/forbidden-lands/free-quickstart-pdf/"}
+    ],
+    "amazon_query": "Forbidden Lands Core Boxed Set Free League",
+    "sources": [
+      "https://newsite.freeleaguepublishing.com/games/forbidden-lands/",
+      "https://newsite.freeleaguepublishing.com/shop/forbidden-lands/core-boxed-set/",
+      "https://newsite.freeleaguepublishing.com/shop/forbidden-lands/free-quickstart-pdf/",
+      "https://stargazersworld.com/?p=14418"
+    ],
+    "notes": "Free League links use the newsite.freeleaguepublishing.com host because the main freeleaguepublishing.com host returned 403 to my tool; swap the host to freeleaguepublishing.com once checked. Designers: only Tomas Härenstam confirmed (as original creator); a co-designer may be missing. Release year 2018 from Free League press and search results. No Italian edition found (a 2020 Tom's Hardware Italia review said English only)."
+  },
+  {
+    "wikidata": "Q110997485",
+    "name": "Wanderhome",
+    "name_it": null,
+    "year": 2021,
+    "current_edition": null,
+    "in_print": true,
+    "publishers": ["Possum Creek Games"],
+    "designers": ["Jay Dragon"],
+    "tags": ["fantasy", "cozy", "narrative"],
+    "description_en": "A gentle game about traveling animal-folk wandering a peaceful countryside as the seasons turn, with no dice and no combat. You answer prompts about your character and the places you visit, and the story is about healing, community and the scars left by an old war. It can be played with or without a Guide, in a few hours.",
+    "description_it": "Un gioco dolce su animali antropomorfi che viaggiano di villaggio in villaggio nella campagna, mentre le stagioni cambiano, senza dadi e senza combattimenti. Si risponde a domande sul proprio personaggio e sui luoghi visitati, e la storia parla di guarigione, comunità e delle ferite lasciate da una vecchia guerra. Si può giocare con o senza Guida, in poche ore.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Wanderhome at Possum Creek Games", "url": "https://possumcreekgames.com/pages/wanderhome"},
+      {"type": "store", "label": "Wanderhome (PDF and print) on itch.io", "url": "https://possumcreekgames.itch.io/wanderhome"},
+      {"type": "free", "label": "Wanderhome free PDF printouts (character sheets)", "url": "https://possumcreekgames.com/products/wanderhome-pdf-printouts"}
+    ],
+    "amazon_query": "Wanderhome RPG Possum Creek Games",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wanderhome",
+      "https://possumcreekgames.com/pages/wanderhome",
+      "https://possumcreekgames.itch.io/wanderhome"
+    ],
+    "notes": "Search results mention a '3rd Edition' hardcover (2025) at retailers, but Wikipedia and the publisher pages do not name any edition, so current_edition is null. The free link is only printable character sheets, not a full quickstart (I did not open that product page; it was seen on the official page as 'PDF Printouts $0.00'). Physical copies are said to be via softcover/hardcover on itch.io. No Italian edition found."
+  },
+  {
+    "wikidata": "Q78089496",
+    "name": "Symbaroum",
+    "name_it": null,
+    "year": 2014,
+    "current_edition": "Core Rulebook (2014)",
+    "in_print": true,
+    "publishers": ["Free League Publishing", "Modiphius Entertainment", "Järnringen"],
+    "designers": ["Mattias Johnsson Haake", "Mattias Lilja", "Martin Grip"],
+    "tags": ["dark-fantasy", "fantasy", "horror"],
+    "description_en": "Dark fantasy set around the forest of Davokar, where refugees, treasure hunters and clans push into a place full of ruins and ancient danger. Magic is strong but each spell eats at your soul through Corruption, which can slowly turn you into a monster. Players roll a single d20 under their stat, and the tone is gritty and deadly.",
+    "description_it": "Dark fantasy ambientato attorno alla foresta di Davokar, dove profughi, cacciatori di tesori e clan si spingono in un territorio pieno di rovine e pericoli antichi. La magia è potente, ma ogni incantesimo consuma l'anima con la Corruzione, che può trasformarti lentamente in un mostro. I giocatori tirano un solo d20 e devono ottenere meno della loro caratteristica, e il tono è crudo e letale.",
+    "italian_edition": null,
+    "links": [
+      {"type": "official", "label": "Symbaroum at Free League Publishing", "url": "https://newsite.freeleaguepublishing.com/games/symbaroum/"},
+      {"type": "store", "label": "Symbaroum Core Rulebook (Free League shop)", "url": "https://newsite.freeleaguepublishing.com/shop/symbaroum/core-rulebook/"}
+    ],
+    "amazon_query": "Symbaroum Core Rulebook Free League",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Symbaroum",
+      "https://newsite.freeleaguepublishing.com/games/symbaroum/",
+      "https://newsite.freeleaguepublishing.com/shop/symbaroum/core-rulebook/",
+      "https://www.uberstrategist.com/press-releases/symbaroum-marks-10th-anniversary-with-revised-core-books-and-a-new-campaign-setting"
+    ],
+    "notes": "Free League links use the newsite.freeleaguepublishing.com host because the main host returned 403 to my tool; swap once checked. A search result says a revised three-book edition was announced for a May 2026 Kickstarter, so a newer edition may exist or be coming; the Free League core rulebook page does not name an edition, so current_edition stays at 2014. An Italian edition appears to be sold by SpaceOrange42 (search result pointing to a Gumroad page), but that page was blocked by a safety hook (money page) and no other URL confirmed, so italian_edition is null. No free quickstart found."
+  }
+]
