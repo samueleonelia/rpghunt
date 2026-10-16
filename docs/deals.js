@@ -44,6 +44,13 @@ function endsText(ends) {
   return [`Until ${new Date(ends + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" })}`, false];
 }
 
+// "store.paizo.com" -> "paizo.com", "blackwellwriter.itch.io" -> "itch.io"
+function siteName(url) {
+  const parts = new URL(url).hostname.split(".");
+  const keep = /^(co|com|org|net)\.[a-z]{2}$/.test(parts.slice(-2).join(".")) ? 3 : 2;
+  return parts.slice(-keep).join(".");
+}
+
 function cover(d) {
   const box = el("div", { class: "deal-cover" });
   const fallback = () => box.replaceChildren(el("div", { class: "fallback" }, d.game || d.title), kind);
@@ -62,7 +69,6 @@ function card(d) {
   const now = money(d.price_now, d.currency);
   const was = d.price_was && d.price_was !== d.price_now ? money(d.price_was, d.currency) : null;
   const ends = endsText(d.ends);
-  const shopName = (d.shop || "").split(" (")[0];
   return el("article", { class: "card deal" },
     cover(d),
     el("div", { class: "deal-body" },
@@ -76,7 +82,7 @@ function card(d) {
       el("div", { class: "deal-actions" },
         el("a", { class: "btn primary", href: d.url, target: "_blank", rel: "noopener" }, d.type === "free" ? "Get it free" : "Get the deal"),
         d.game_id ? el("a", { class: "btn", href: `games.html#${encodeURIComponent(d.game_id)}` }, `About ${d.game}`) : null),
-      el("p", { class: "deal-source" }, shopName),
+      el("p", { class: "deal-source" }, siteName(d.url)),
     ),
   );
 }
