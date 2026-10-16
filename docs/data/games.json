@@ -117,7 +117,20 @@
    "publisher": "Wyrd Edizioni",
    "url": null
   },
-  "links": [],
+  "links": [
+   {
+    "type": "official",
+    "label": "Free League: ALIEN The Roleplaying Game",
+    "url": "https://freeleaguepublishing.com/games/alien/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Free League: Evolved Edition Starter Set",
+    "url": "https://freeleaguepublishing.com/shop/alien-rpg-2/evolved-edition-starter-set/",
+    "verified": true
+   }
+  ],
   "amazon_query": "ALIEN The Roleplaying Game Evolved Edition Core Rulebook Free League",
   "notes": "NO LINKS: freeleaguepublishing.com returned 403 to every fetch, so no Free League URL was opened. Candidate URLs found in search (not opened): https://freeleaguepublishing.com/games/alien/ and https://freeleaguepublishing.com/shop/alien-rpg-2/evolved-edition-core-rulebook/. Evolved Edition released 18 Nov 2025 per press coverage. Designer name from an Italian interview headline only; Wikipedia page could not be fetched. Italian name of the book not confirmed; Italian edition (Wyrd Edizioni) covers the original 2019 core book, not the Evolved Edition.",
   "id": "alien-the-role-playing-game",
@@ -899,7 +912,14 @@
    "publisher": "GG Studio (now Space Orange), Savage Worlds edition 2015",
    "url": null
   },
-  "links": [],
+  "links": [
+   {
+    "type": "store",
+    "label": "SpaceOrange42: Kata Kumbas (Savage Worlds)",
+    "url": "https://spaceorange42.gumroad.com/l/KataKumbas",
+    "verified": true
+   }
+  ],
   "amazon_query": "Kata Kumbas gioco di ruolo",
   "notes": "in_print unconfirmed, set to false. The 2015 Savage Worlds edition (GG Studio, product code GGSW0901, per search snippet) may still be sold by Space Orange via a Gumroad page, but that page was blocked by the environment's money-page guard and was not opened, so no link. Designer spelling differs: Carocci (it.wikipedia) vs Carrocci (Goodreads). Publisher history from it.wikipedia: Orion Edizioni 1984 (distributed by Bero Toys), Edizioni E.Elle 1988, Savage Worlds version 2015 written by Umberto Pignatelli; the Savage Worlds publisher (GG Studio) comes from search snippets. goodreads and rpggeek were used from search snippets only.",
   "id": "kata-kumbas",
@@ -936,6 +956,24 @@
     "type": "official",
     "label": "Kult at Helmgast",
     "url": "https://www.helmgast.se/en/kult",
+    "verified": true
+   },
+   {
+    "type": "official",
+    "label": "KULT: Divinity Lost official site",
+    "url": "https://kultdivinitylost.com/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Modiphius: KULT Divinity Lost core rules",
+    "url": "https://modiphius.net/en-us/products/kult-divinity-lost-4th-edition-of-kult",
+    "verified": true
+   },
+   {
+    "type": "free",
+    "label": "Modiphius: Together Unto Death (free PDF)",
+    "url": "https://modiphius.net/en-us/products/kult-divinity-lost-together-unto-death-free-pdf",
     "verified": true
    }
   ],
@@ -1109,7 +1147,14 @@
   "description_en": "You play an awakened person who can bend reality with belief, in a modern world where every group has its own idea of what reality should be. Magic is freeform: you describe the effect you want and the Storyteller judges it against your knowledge of nine 'Spheres', and bold magic risks Paradox backlash. It is a game of ideas and philosophy as much as spellcasting, and it is famously dense.",
   "description_it": "Interpreti una persona risvegliata che piega la realtà con la forza delle proprie convinzioni, in un mondo moderno dove ogni gruppo ha una sua idea di come la realtà dovrebbe funzionare. La magia è libera: descrivi l'effetto che vuoi e il Narratore lo valuta in base alle tue conoscenze nelle nove Sfere, e gli incantesimi audaci rischiano il contraccolpo del Paradosso. È un gioco di idee e di filosofia tanto quanto di incantesimi, e ha fama di essere molto denso.",
   "italian_edition": null,
-  "links": [],
+  "links": [
+   {
+    "type": "official",
+    "label": "Onyx Path: Mage: The Ascension products",
+    "url": "https://theonyxpath.com/mage-the-ascension-products/",
+    "verified": true
+   }
+  ],
   "amazon_query": "Mage: The Ascension 20th Anniversary Edition",
   "notes": "No links: DriveThruRPG (the Onyx Path store listing for the 20th Anniversary Edition) returned 403 and I could not open it, so nothing is linked. The in_print flag is based on a DriveThruRPG search result showing PDF plus hardcover/print-on-demand options; stock was not confirmed. I found no announcement of a Mage 5th Edition in my searches, but my results were old, so it is worth a recheck. it.wikipedia says Mage: The Ascension was never translated into Italian; a 2019 Fantasy Magazine item mentions a delayed Italian 'Maghi: L'Ascensione' via Raven Distribution that I could not confirm, so name_it is null. Designer list is from English Wikipedia and is not a clean single-designer credit.",
   "id": "mage-the-ascension",
@@ -1138,7 +1183,14 @@
    "publisher": "Stratelibri",
    "url": null
   },
-  "links": [],
+  "links": [
+   {
+    "type": "official",
+    "label": "Iron Crown Enterprises: MERP page",
+    "url": "http://ironcrown.com/middle-earth-role-playing/",
+    "verified": true
+   }
+  ],
   "amazon_query": "Middle-earth Role Playing MERP rulebook Iron Crown",
   "notes": "No link confirmed: ironcrown.co.uk lists MERP only in a menu with no product page. Out of print since the license was revoked in 1999 (Wikipedia). Italian edition by Stratelibri is from a single search-result snippet (220-page softcover), not verified by fetching; year unknown. A collector's second edition appeared in 1993. Wikidata listed no designer; Wikipedia credits Coleman Charlton.",
   "id": "middle-earth-role-playing",
@@ -1534,7 +1586,7 @@
     "type": "store",
     "label": "Savage Worlds Adventure Edition Core Rules PDF",
     "url": "https://shop.peginc.com/products/savage-worlds-adventure-edition-core-rules-swade-pdf",
-    "verified": false
+    "verified": true
    },
    {
     "type": "free",
@@ -1752,7 +1804,20 @@
    "publisher": "Need Games!",
    "url": null
   },
-  "links": [],
+  "links": [
+   {
+    "type": "official",
+    "label": "Free League: The One Ring Core Rules",
+    "url": "https://freeleaguepublishing.com/shop/the-one-ring/core-rules-2/",
+    "verified": true
+   },
+   {
+    "type": "official",
+    "label": "Free League: The One Ring shop",
+    "url": "https://freeleaguepublishing.com/shop/the-one-ring/",
+    "verified": true
+   }
+  ],
   "amazon_query": "The One Ring Roleplaying Game Core Rules 2nd Edition Free League",
   "notes": "Wikidata entry is the 2nd edition (Wikidata says 2021); sources say it was released in 2022. year is the first edition (2011, Cubicle 7). No link confirmed: freeleaguepublishing.com returned 403 and the DriveThruRPG page also 403. Need Games! as Italian publisher comes from a search snippet that the 2nd edition would be translated by them; the exact Italian 2nd edition title and release date are unconfirmed (needgames.it home only showed a news item mentioning L'Unico Anello). Some retailers list the core rules as sold out or backordered, so in_print is likely but not verified directly.",
   "id": "the-one-ring",
@@ -1914,7 +1979,20 @@
   "description_en": "You play investigators in 19th-century Northern Europe who can see the folklore creatures, called vaesen, that ordinary people cannot. Sessions are mysteries: you find the creature, learn what it wants, and decide whether to fight it, bargain with it, or help it. It runs on a simple dice-pool system, with a shared headquarters and a gentle, melancholy tone rather than gore.",
   "description_it": "Interpreti investigatori nell'Europa del nord dell'Ottocento, capaci di vedere le creature del folklore, i vaesen, invisibili alla gente comune. Ogni sessione è un mistero: scopri la creatura, capisci che cosa vuole e decidi se combatterla, trattare con lei o aiutarla. Usa un sistema semplice a riserva di dadi, con una sede comune per il gruppo e un tono malinconico più che sanguinoso.",
   "italian_edition": null,
-  "links": [],
+  "links": [
+   {
+    "type": "official",
+    "label": "Free League: Vaesen",
+    "url": "https://freeleaguepublishing.com/games/vaesen/",
+    "verified": true
+   },
+   {
+    "type": "store",
+    "label": "Free League: Vaesen Core Rulebook",
+    "url": "https://freeleaguepublishing.com/shop/vaesen-2/vaesen-nordic-horror-roleplaying/",
+    "verified": true
+   }
+  ],
   "amazon_query": "Vaesen Nordic Horror Roleplaying Revised Edition",
   "notes": "No links: Free League's site returned 403 on every URL tried and I never saw a Free League page, so none is linked. A revised edition released on 28 October 2025 per Gaming Trend (the book was out of stock for months before). Johan Egerkrans is credited as illustrator and co-writer on Wikipedia; Nils Hintze wrote the base game. No Italian edition announced as of the Tom's Hardware Italia reviews I found.",
   "id": "vaesen",
