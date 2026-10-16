@@ -14,7 +14,7 @@ _Updated: 2026-10-16 · commit 44bf430_
 | Live site (GitHub Pages) | ✅ working | every push to `main` republishes |
 | Deal-finding agents | ✅ working | 4 agents, about 515k tokens per day |
 | Deal checker | ✅ working | drops expired, dead, wrong-page, unseen-price deals |
-| Deals home page | ⚠️ partial | works, plain design; Impeccable redesign next |
+| Deals home page | ⚠️ partial | works, dark theme, 0 scanner issues; full redesign later |
 | Daily scheduled run | 🚧 building | not set up; live deals go stale |
 | Amazon deals | ❌ broken | robot pages; needs Amazon API (Associates account) |
 | DriveThruRPG deals | ⚠️ partial | blocked; only dated deals with end date survive |
@@ -27,9 +27,6 @@ _Updated: 2026-10-16 · commit 44bf430_
 2. Redesign deals home page with Impeccable
 3. rpghunt.com pointed at GitHub Pages
 4. Amazon API and DriveThruRPG affiliate feed
-
-## Known bugs
-- Archive page: cramped labels, faint search placeholder (Impeccable scan)
 
 ## Blocked on you
 - Buy rpghunt.com (about $10 to $15 a year)

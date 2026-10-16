@@ -142,3 +142,10 @@
 - Daily scheduled run, otherwise the live deals go stale.
 - Buy rpghunt.com and point it at GitHub Pages.
 - Redesign with Impeccable.
+
+## 2026-10-16: Dark theme
+
+- Site is now always dark (user request). Palette checked for contrast: every text/background pair at 6:1 or better.
+- Fixed Impeccable scan findings: label padding (3px to 4-5px), faint search placeholder. Themed selection, focus ring, caret and scrollbar.
+- Fixed phone header on the games page (logo, menu and EN/IT switch overflowed): menu moves to its own row under 560px.
+- Impeccable detector: 0 findings on both pages (was 10).
