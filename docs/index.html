@@ -11,21 +11,44 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="top">
-    <div class="wrap top-row">
+  <div class="announce" id="announce" hidden></div>
+
+  <header class="site-head">
+    <div class="wrap head-row">
       <a class="brand" href="./">RPG <span>Hunt</span></a>
-      <nav class="nav"><a href="./" aria-current="page">Today's deals</a> <a href="games.html">All games</a></nav>
-    </div>
-    <div class="wrap">
-      <p class="tagline">Today's tabletop RPG deals, checked by our agents. <span id="checked"></span></p>
-      <div id="types" class="tags" aria-label="Filter by deal type"></div>
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <span class="sr-only">Search deals</span>
+        <input id="q" type="search" autocomplete="off" placeholder="Search deals, games, shops">
+      </label>
+      <nav class="nav" id="nav" aria-label="Deals"></nav>
     </div>
   </header>
 
-  <main class="wrap">
-    <p id="count" class="count"></p>
-    <div id="grid" class="grid deals"></div>
-    <p id="empty" class="empty" hidden>No deals of this kind today.</p>
+  <main>
+    <div id="home">
+      <section class="hero wrap">
+        <h1>Tabletop RPG deals, checked every day.</h1>
+        <p>Sales, bundles and discounted books from shops across the web, found and checked by our agents.</p>
+        <p class="checked" id="checked"></p>
+      </section>
+      <ul class="trust wrap">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Every link opened and checked</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12V4h8l8 8-8 8z"/><circle cx="8.5" cy="8.5" r="1.5"/></svg>Straight to the shop, no middleman</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>Reviews from independent sites</li>
+      </ul>
+      <div id="sections"></div>
+    </div>
+
+    <section id="results" class="wrap results" hidden>
+      <div class="section-head">
+        <h2 id="results-title"></h2>
+        <button type="button" class="btn" id="back">All deals</button>
+      </div>
+      <p id="count" class="count"></p>
+      <div id="grid" class="grid deals"></div>
+      <p id="empty" class="empty" hidden>No deals match. Try another word.</p>
+    </section>
   </main>
 
   <footer class="wrap foot">

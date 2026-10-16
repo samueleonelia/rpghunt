@@ -194,3 +194,11 @@
 
 **Next**
 - Daily scheduled run (deals + reviews for new deals only).
+
+## 2026-10-16: Home page on an AppSumo-style layout
+
+- User asked for appsumo.com as the layout reference. Studied it (declined its non-essential cookies) and rebuilt the deals home on the same structure, in our own dark/ochre/sans style; no AppSumo branding or copy.
+- Structure: ochre announcement bar (deal ending soonest), header with search and section links, headline, 3 honest trust points, "Top 9 deals" ranked by discount, rows of 4 (Ending soon, Bundles, Free, Digital sales, Print deals) with "View all", results grid for search and "View all". Skipped AppSumo's email signup (no newsletter exists).
+- Phone: header scrolls away (was 193px sticky), nav scrolls sideways without a scrollbar.
+- Impeccable detector: 0 findings (faint rank numerals raised to 3.3:1).
+- User idea: a short, easy-to-say brand word like "sumo" instead of "Hunt". Not done yet.
