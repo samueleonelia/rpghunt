@@ -1,5 +1,5 @@
 {
- "kept": 27,
+ "kept": 28,
  "expired": [],
  "dead": [],
  "wrong_page": [],
@@ -26,12 +26,6 @@
    "title": "Marvel Multiverse Role-Playing Game: Core Rulebook",
    "shop": "Amazon US",
    "url": "https://www.amazon.com/dp/1302927833",
-   "reason": "robot check page, no end date"
-  },
-  {
-   "title": "Dungeons & Dragons Worlds & Realms: Adventures from Greyhawk to Faerun and Beyond",
-   "shop": "Amazon US",
-   "url": "https://www.amazon.com/dp/0593835506",
    "reason": "robot check page, no end date"
   },
   {

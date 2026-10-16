@@ -63,7 +63,7 @@ function card(d, lead) {
   const was = d.price_was && d.price_was !== d.price_now ? money(d.price_was, d.currency) : null;
   const ends = endsText(d.ends);
   const shopName = (d.shop || "").split(" (")[0];
-  return el("article", { class: "card deal" + (lead ? " lead" : "") },
+  return el("article", { class: "card deal" },
     cover(d),
     el("div", { class: "deal-body" },
       el("h2", {}, d.title),
@@ -74,9 +74,9 @@ function card(d, lead) {
       d.summary ? el("p", { class: "desc" }, d.summary) : null,
       ends ? el("div", { class: "ends" + (ends[1] ? " soon" : "") }, ends[0]) : null,
       el("div", { class: "deal-actions" },
-        el("a", { class: "btn primary", href: d.url, target: "_blank", rel: "noopener" }, d.type === "free" ? "Get it free" : "Get the deal"),
+        el("a", { class: "btn primary" + (lead ? " try-red" : ""), href: d.url, target: "_blank", rel: "noopener" }, d.type === "free" ? "Get it free" : "Get the deal"),
         d.game_id ? el("a", { class: "btn", href: `games.html#${encodeURIComponent(d.game_id)}` }, `About ${d.game}`) : null),
-      el("p", { class: "deal-source" }, [`at ${shopName}`, d.format && d.format.toUpperCase()].filter(Boolean).join(" · ")),
+      el("p", { class: "deal-source" }, `at ${shopName}`),
     ),
   );
 }

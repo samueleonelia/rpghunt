@@ -88,14 +88,8 @@ input, select { caret-color: var(--accent); }
 .deal-actions .btn.primary { font-weight: 700; }
 .deal-source { font-size: .78rem; color: var(--muted); margin: 2px 0 0; }
 
-/* The best deal of the day leads at double width, cover beside the details. */
-@media (min-width: 640px) {
-  .deal.lead { grid-column: span 2; flex-direction: row; }
-  .deal.lead .deal-cover { flex: 0 0 50%; aspect-ratio: auto; min-height: 300px; }
-  .deal.lead h2 { font-size: 1.5rem; }
-  .deal.lead .deal-price .now { font-size: 2.2rem; }
-  .deal.lead .desc { -webkit-line-clamp: 5; }
-}
+/* Accent test: a more reddish primary button on the first deal only. */
+.btn.primary.try-red { background: #d9653a; border-color: #d9653a; color: #1a0d08; }
 
 /* Narrow screens: logo + language switch on one row, page menu on the next. */
 .brand, .nav a { white-space: nowrap; }
