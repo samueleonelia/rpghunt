@@ -1,0 +1,63 @@
+{
+ "kept": 27,
+ "expired": [],
+ "dead": [],
+ "wrong_page": [],
+ "blocked_dropped": [
+  {
+   "title": "Month of Darkness: World of Darkness and Chronicles of Darkness PDFs",
+   "shop": "DriveThruRPG",
+   "url": "https://www.drivethrurpg.com/en/browse?filter=1000223&src=WoDBlogMoD26",
+   "reason": "HTTP 403 (bot protection), no end date"
+  },
+  {
+   "title": "Shadow of the Weird Wizard (PDF) and the Weird Wizard line",
+   "shop": "DriveThruRPG",
+   "url": "https://www.drivethrurpg.com/browse/pub/8782/Schwalb-Entertainment",
+   "reason": "low confidence"
+  },
+  {
+   "title": "Daggerheart Core Set (hardcover)",
+   "shop": "Amazon US",
+   "url": "https://www.amazon.com/dp/B0DWLWMRK1",
+   "reason": "robot check page, no end date"
+  },
+  {
+   "title": "Marvel Multiverse Role-Playing Game: Core Rulebook",
+   "shop": "Amazon US",
+   "url": "https://www.amazon.com/dp/1302927833",
+   "reason": "robot check page, no end date"
+  },
+  {
+   "title": "Dungeons & Dragons Worlds & Realms: Adventures from Greyhawk to Faerun and Beyond",
+   "shop": "Amazon US",
+   "url": "https://www.amazon.com/dp/0593835506",
+   "reason": "robot check page, no end date"
+  },
+  {
+   "title": "The Game Master's Book of Random Encounters",
+   "shop": "Amazon US",
+   "url": "https://www.amazon.com/dp/1948174375",
+   "reason": "robot check page, no end date"
+  },
+  {
+   "title": "The Game Master's Book of Legendary Dragons (5e)",
+   "shop": "Amazon US",
+   "url": "https://www.amazon.com/dp/1956403051",
+   "reason": "robot check page, no end date"
+  },
+  {
+   "title": "Power Rangers Roleplaying Game Core Rulebook",
+   "shop": "Renegade Game Studios webstore",
+   "url": "https://renegadegamestudios.com/power-rangers-roleplaying-game-core-rulebook/",
+   "reason": "robot check page, no end date"
+  },
+  {
+   "title": "Vampire: The Masquerade 5th Edition Roll20 titles (40% off)",
+   "shop": "Roll20 Marketplace",
+   "url": "https://marketplace.roll20.net/browse/publisher/1661/renegade-game-studios",
+   "reason": "low confidence"
+  }
+ ],
+ "price_not_seen": []
+}
