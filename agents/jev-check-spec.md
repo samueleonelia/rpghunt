@@ -21,7 +21,7 @@ One request per batch of 20 deals. State: `{"products": [{"title", "shop", "prod
 Policy (code): p >= 0.70 RPG; p < 0.30 drop; between: stage B decides with the page (ask again with page text).
 
 ## Stage B: deal check
-For every deal that is RPG or unsure after stage A. Deals from the shop's own data feed (`source` in `shopify-api`, `woocommerce-api`, `itch-data`, `bundle-page`) skip the page questions 2 and 3; their prices are the shop's own data. Deals from page reading (`jsonld`, `page-markup`, `recipe`) or any lead/agent source get all questions.
+For every deal that is RPG or unsure after stage A. Deals from the shop's own data feed (`source` in `shopify-api`, `woocommerce-api`, `itch-data`, `drivethrurpg-api`, `bundle-page`) skip the page questions 2 and 3; their prices are the shop's own data. Deals from page reading (`jsonld`, `page-markup`, `recipe`) or any lead/agent source get all questions.
 
 State: `{"claimed_deal": {title, shop, price_now, price_was, currency, ends, type}, "shop_data": {product_type, tags, categories}, "price_history": {"days_seen": n, "lowest_before": x, "usual_price": y}, "page": {"url", "title", "text", "price_candidates": ["$12.95", "$53.00", ...]}}`
 

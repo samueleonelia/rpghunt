@@ -1,0 +1,1055 @@
+{
+ "links": {
+  "self": "/api/vBeta/products?onSale=1&pageSize=50&page=1",
+  "next": "/api/vBeta/products?onSale=1&pageSize=50&page=2"
+ },
+ "meta": {
+  "itemsPerPage": 50,
+  "currentPage": 1
+ },
+ "data": [
+  {
+   "id": "/api/vBeta/products/2013/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "62/2013.jpg",
+    "thumbnail": "62/2013-thumb140.jpg",
+    "thumbnail200": "62/2013-thumb200.webp",
+    "thumbnail100": "62/2013-thumb100.jpg",
+    "thumbnail80": "62/2013-thumb80.jpg",
+    "thumbnail40": "62/2013-thumb40.jpg",
+    "price": 3.96,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 0,
+    "publisherId": 62,
+    "specialPrice": 0,
+    "sku": "BPI3501",
+    "authors": [
+     "Jonathan M. Thompson"
+    ],
+    "artists": [
+     "Brent Chumley (Cover)",
+     "Richard Spake (Interior)"
+    ],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 2,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 3.96,
+    "lowestPrintPrice": null,
+    "lowestAnyPrice": 3.96,
+    "dateCreated": "2005-03-06T00:00:00-06:00",
+    "productId": 2013,
+    "description": {
+     "name": "Eric Flint's 1632 Resource Guide and Role Playing Game (Flaws and All edition)",
+     "slug": "eric-flint-s-1632-resource-guide-and-role-playing-game-flaws-and-all-edition",
+     "shortDescription": "In anticipation for the 2008 release of the new edition of the 1632 RPG we present our \"Flaws and All\" edition of 1632. This book contains no corrections, eratta or additional materials. All of the above will be presented in a new package sometime this year.  In the year 1632 things couldn't get much worse in northern Germany. There was no food. Disease was rampant. For over a decade religious war had ravaged the land and the people. Catholic and Protestant armies marched and countermarched..."
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 1305,
+      "optionId": 1,
+      "optionValueId": 1,
+      "optionValueName": "Watermarked PDF",
+      "description": "Watermarked PDF",
+      "type": "digital",
+      "price": 3.96,
+      "priceToAdd": "0.0000",
+      "msrp": "4.9500",
+      "enabled": 1,
+      "taxClassId": 0
+     }
+    ],
+    "ranking": {
+     "humanName": "silver",
+     "imageUrl": "medals/silver.png"
+    },
+    "ratingCount": "2",
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/62"
+     }
+    }
+   }
+  },
+  {
+   "id": "/api/vBeta/products/2526/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "62/2526.jpg",
+    "thumbnail": "62/2526-thumb140.jpg",
+    "thumbnail200": "62/2526-thumb200.webp",
+    "thumbnail100": "62/2526-thumb100.jpg",
+    "thumbnail80": "62/2526-thumb80.jpg",
+    "thumbnail40": "62/2526-thumb40.jpg",
+    "price": 0,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 10,
+    "publisherId": 62,
+    "specialPrice": 0,
+    "sku": "BPI9501",
+    "authors": [
+     "Christopher Helton"
+    ],
+    "artists": [],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 3.3,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 2.728,
+    "lowestPrintPrice": null,
+    "lowestAnyPrice": 2.728,
+    "dateCreated": "2005-01-07T00:00:00-06:00",
+    "productId": 2526,
+    "description": {
+     "name": "Beyond Mortal Men",
+     "slug": "beyond-mortal-men",
+     "shortDescription": "This is the first in our set of Variant rules for the Action! System, and the Action! System Core Rulebook is required to make use of this book. With the Action! System Core Rules, and these power creation rules you can run anything that your imagination can dream up for the Action! System. 54 pages in length (including covers).Written by Christopher Helton."
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 2200,
+      "optionId": 1,
+      "optionValueId": 1,
+      "optionValueName": "Watermarked PDF",
+      "description": "Watermarked PDF",
+      "type": "digital",
+      "price": 2.73,
+      "priceToAdd": "2.7280",
+      "msrp": "3.4100",
+      "enabled": 1,
+      "taxClassId": 0
+     }
+    ],
+    "ranking": {
+     "humanName": "copper",
+     "imageUrl": "medals/copper.png"
+    },
+    "ratingCount": "3",
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/62"
+     }
+    }
+   }
+  },
+  {
+   "id": "/api/vBeta/products/3222/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "119/3222.jpg",
+    "thumbnail": "119/3222-thumb140.jpg",
+    "thumbnail200": "15895/3222-thumb200.webp",
+    "thumbnail100": "119/3222-thumb100.jpg",
+    "thumbnail80": "119/3222-thumb80.jpg",
+    "thumbnail40": "119/3222-thumb40.jpg",
+    "price": 10,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 5,
+    "publisherId": 15895,
+    "specialPrice": 0,
+    "sku": "ASP1010",
+    "authors": [
+     "Mark Smylie"
+    ],
+    "artists": [],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 4.5,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 10,
+    "lowestPrintPrice": null,
+    "lowestAnyPrice": 10,
+    "dateCreated": "2005-12-26T00:00:00-06:00",
+    "productId": 3222,
+    "description": {
+     "name": "Artesia: Adventures in the Known World",
+     "slug": "artesia-adventures-in-the-known-world",
+     "shortDescription": "ORIGINS AWARD WINNER for 2005 ROLEPLAYING GAME OF THE YEAR. 6 ENNie Nominations, including Best Art, Interior; Best Production Value; Best Writing; Best Campaign Setting/Setting Supplement; Best Game; and Best Product.\nBest Production, 2005 from the Indie RPG Awards.\nThe award-winning graphic novel Artesia comes to life in the Adventures in the Known World RPG, using a modified and easy-to-use Fuzion™-based roleplaying system to plunge players into the strife-riven realms of the Known World,..."
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 2890,
+      "optionId": 1,
+      "optionValueId": 1,
+      "optionValueName": "Watermarked PDF",
+      "description": "Watermarked PDF",
+      "type": "digital",
+      "price": 10,
+      "priceToAdd": "0.0000",
+      "msrp": "19.9900",
+      "enabled": 1,
+      "taxClassId": 0
+     }
+    ],
+    "ranking": {
+     "humanName": "platinum",
+     "imageUrl": "medals/platinum.png"
+    },
+    "ratingCount": "31",
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/15895"
+     }
+    }
+   }
+  },
+  {
+   "id": "/api/vBeta/products/15815/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "119/15815.jpg",
+    "thumbnail": "119/15815-thumb140.jpg",
+    "thumbnail200": "15895/15815-thumb200.webp",
+    "thumbnail100": "119/15815-thumb100.jpg",
+    "thumbnail80": "119/15815-thumb80.jpg",
+    "thumbnail40": "119/15815-thumb40.jpg",
+    "price": 2.995,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 1,
+    "publisherId": 15895,
+    "specialPrice": 0,
+    "sku": "",
+    "authors": [
+     "Mark Smylie"
+    ],
+    "artists": [
+     "Mark Smylie"
+    ],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 4.5,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 4.495,
+    "lowestPrintPrice": 19.99,
+    "lowestAnyPrice": 4.495,
+    "dateCreated": "2006-09-20T00:00:00-05:00",
+    "productId": 15815,
+    "description": {
+     "name": "Artesia: The Book of Dooms Volume 1",
+     "slug": "artesia-the-book-of-dooms-volume-1",
+     "shortDescription": "The Highlands of Daradja are dotted with ancient citadels and castles, held by petty kings and clans that war against each other and the brigand bands that plague the bleak mountains and valleys. Artesia, once a concubine to King Branimir of the Citadel of Dara Dess, has in time risen to become one of his chief war captains; a priestess to dread goddesses; and a magician like her mother once was, controlling warlike spirits.\nShe and her captains carry the cause of their king against his..."
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 1373315,
+      "optionId": 1,
+      "optionValueId": 1,
+      "optionValueName": "Watermarked PDF",
+      "description": "Watermarked PDF",
+      "type": "digital",
+      "price": 4.5,
+      "priceToAdd": "1.5000",
+      "msrp": "8.9900",
+      "enabled": 1,
+      "taxClassId": 0
+     },
+     {
+      "productAttributeId": 1964633,
+      "optionId": 2,
+      "optionValueId": 64,
+      "optionValueName": "Softcover, Standard Color Book",
+      "description": "Softcover, Standard Color Book",
+      "type": "book",
+      "price": 19.99,
+      "priceToAdd": "16.9950",
+      "msrp": 0,
+      "enabled": 1,
+      "taxClassId": 1
+     }
+    ],
+    "ranking": {
+     "humanName": "gold",
+     "imageUrl": "medals/gold.png"
+    },
+    "ratingCount": "23",
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/15895"
+     }
+    }
+   }
+  },
+  {
+   "id": "/api/vBeta/products/17776/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "502/17776.png",
+    "thumbnail": "502/17776-thumb140.png",
+    "thumbnail200": "502/17776-thumb200.webp",
+    "thumbnail100": "502/17776-thumb100.png",
+    "thumbnail80": "502/17776-thumb80.png",
+    "thumbnail40": "502/17776-thumb40.png",
+    "price": 3.45,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 0,
+    "publisherId": 502,
+    "specialPrice": 0,
+    "sku": "CRF2001",
+    "authors": [
+     "Chris Weedin"
+    ],
+    "artists": [
+     "Chris Caprile"
+    ],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 4.6,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 3.45,
+    "lowestPrintPrice": null,
+    "lowestAnyPrice": 3.45,
+    "dateCreated": "2003-10-02T00:00:00-05:00",
+    "productId": 17776,
+    "description": {
+     "name": "Horror Rules, The Simply Horrible Role-Playing Game",
+     "slug": "horror-rules-the-simply-horrible-role-playing-game",
+     "shortDescription": "We Put the \"Ho Ho Ho\" In Horror\nYou'll laugh, you'll cry, you'll scream, you'll jump... okay, you'll die - a lot. Based on your favorite contemporary horror movies and books, Horror Rules recreates those classic moments of creepiness that make you squeal like a little girl, but with a decidedly tongue-in-cheek twist. The rules are light and flexible and expertly tweaked to bring out the creepy and the comic in every situation. Mom always warned you that you'd shoot your eye out - in Horror..."
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 16849,
+      "optionId": 1,
+      "optionValueId": 8,
+      "optionValueName": "PDF",
+      "description": "PDF",
+      "type": "digital",
+      "price": 3.45,
+      "priceToAdd": "0.0000",
+      "msrp": "5.0000",
+      "enabled": 1,
+      "taxClassId": 0
+     }
+    ],
+    "ranking": {
+     "humanName": "gold",
+     "imageUrl": "medals/gold.png"
+    },
+    "ratingCount": "17",
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/502"
+     }
+    }
+   }
+  },
+  {
+   "id": "/api/vBeta/products/20661/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "502/20661.jpg",
+    "thumbnail": "502/20661-thumb140.jpg",
+    "thumbnail200": "502/20661-thumb200.webp",
+    "thumbnail100": "502/20661-thumb100.jpg",
+    "thumbnail80": "502/20661-thumb80.jpg",
+    "thumbnail40": "502/20661-thumb40.jpg",
+    "price": 2.245,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 15,
+    "publisherId": 502,
+    "specialPrice": 0,
+    "sku": "HR-BBG1",
+    "authors": [
+     "Chris Weedin"
+    ],
+    "artists": [],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 0,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 2.245,
+    "lowestPrintPrice": null,
+    "lowestAnyPrice": 2.245,
+    "dateCreated": "2006-08-07T00:00:00-05:00",
+    "productId": 20661,
+    "description": {
+     "name": "Horror Rules Book of Bad Guys #1",
+     "slug": "horror-rules-book-of-bad-guys-1",
+     "shortDescription": "Meet Some Brand New Bad Guys...\r\nSure you love to terrorize and destroy your players (who doesn't?!). But sometimes do you find that the zip of mass mayhem isn't quite as zippy? Well, fear not! We know EXACTLY what you need - BRAND NEW BAD GUYS!!\r\nThe first installment in a long-awaited line of supplements for Horror Rules, the Simply Horrible Roleplaying Game, the Book of Bad Guys #1 is a big, bold collection of ten completely original, brand-spanking-new Bad Guys ready to crawl up out of..."
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 1326148,
+      "optionId": 1,
+      "optionValueId": 8,
+      "optionValueName": "PDF",
+      "description": "PDF",
+      "type": "digital",
+      "price": 2.25,
+      "priceToAdd": "0.0000",
+      "msrp": "4.4900",
+      "enabled": 1,
+      "taxClassId": 0
+     }
+    ],
+    "ranking": {
+     "humanName": "copper",
+     "imageUrl": "medals/copper.png"
+    },
+    "ratingCount": 0,
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/502"
+     }
+    }
+   }
+  },
+  {
+   "id": "/api/vBeta/products/64385/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "62/64385.jpg",
+    "thumbnail": "62/64385-thumb140.jpg",
+    "thumbnail200": "62/64385-thumb200.webp",
+    "thumbnail100": "62/64385-thumb100.jpg",
+    "thumbnail80": "62/64385-thumb80.jpg",
+    "thumbnail40": "62/64385-thumb40.jpg",
+    "price": 3.3,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 99,
+    "publisherId": 62,
+    "specialPrice": 0,
+    "sku": "BPI9010",
+    "authors": [
+     "Brandon Blackmoor",
+     "Susan Blackmoor"
+    ],
+    "artists": [],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 4.4,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 3.3,
+    "lowestPrintPrice": null,
+    "lowestAnyPrice": 3.3,
+    "dateCreated": "2009-09-11T13:26:43-05:00",
+    "productId": 64385,
+    "description": {
+     "name": "Legacy: Basic Edition",
+     "slug": "legacy-basic-edition",
+     "shortDescription": "Battlefield Press is proud to present the first step in the return of this classic adventure game of urban fantasy: Legacy: War of Ages. Originally created in the 90s, Legacy is a game where players play immortals in a dark, modern world gone mad. This Basic edition of the classic game features a streamlined version of the setting but all of the robust rules that will allow for hours and hours of play in a modern world of magic, passion and intrigue.\nFrom the original book:\n\"Within these..."
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 1318591,
+      "optionId": 1,
+      "optionValueId": 8,
+      "optionValueName": "PDF",
+      "description": "PDF",
+      "type": "digital",
+      "price": 3.3,
+      "priceToAdd": "0.0000",
+      "msrp": "4.7800",
+      "enabled": 1,
+      "taxClassId": 0
+     }
+    ],
+    "ranking": {
+     "humanName": "silver",
+     "imageUrl": "medals/silver.png"
+    },
+    "ratingCount": "5",
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/62"
+     }
+    }
+   }
+  },
+  {
+   "id": "/api/vBeta/products/79842/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "62/79842.jpg",
+    "thumbnail": "62/79842-thumb140.jpg",
+    "thumbnail200": "62/79842-thumb200.webp",
+    "thumbnail100": "62/79842-thumb100.jpg",
+    "thumbnail80": "62/79842-thumb80.jpg",
+    "thumbnail40": "62/79842-thumb40.jpg",
+    "price": 0,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 9999,
+    "publisherId": 62,
+    "specialPrice": 0,
+    "sku": "BPI1161",
+    "authors": [
+     "Stephen J. Miller"
+    ],
+    "artists": [],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 4.2,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 0,
+    "lowestPrintPrice": null,
+    "lowestAnyPrice": 0,
+    "dateCreated": "2010-03-19T22:54:12-05:00",
+    "productId": 79842,
+    "description": {
+     "name": "Gaslight Calender Pack: 1888 Edition",
+     "slug": "gaslight-calender-pack-1888-edition",
+     "shortDescription": "A calander pack for the year 1888 for use with the Gaslight Victorian Fantasy RPG. This book has no cover."
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 1359302,
+      "optionId": 1,
+      "optionValueId": 8,
+      "optionValueName": "PDF",
+      "description": "PDF",
+      "type": "digital",
+      "price": 0,
+      "priceToAdd": "0.0000",
+      "msrp": 0,
+      "enabled": 1,
+      "taxClassId": 0
+     }
+    ],
+    "ranking": null,
+    "ratingCount": "16",
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/62"
+     }
+    }
+   }
+  },
+  {
+   "id": "/api/vBeta/products/81232/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "62/81232.gif",
+    "thumbnail": "62/81232-thumb140.gif",
+    "thumbnail200": "62/81232-thumb200.webp",
+    "thumbnail100": "62/81232-thumb100.gif",
+    "thumbnail80": "62/81232-thumb80.gif",
+    "thumbnail40": "62/81232-thumb40.gif",
+    "price": 1.2,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 6,
+    "publisherId": 62,
+    "specialPrice": 0,
+    "sku": "BPI8501",
+    "authors": [
+     "Ewen Cluney",
+     "Christopher Helton",
+     "Jonathan M. Thompson"
+    ],
+    "artists": [],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 3.6,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 1.2,
+    "lowestPrintPrice": 16,
+    "lowestAnyPrice": 1.2,
+    "dateCreated": "2010-05-17T11:00:04-05:00",
+    "productId": 81232,
+    "description": {
+     "name": "Open Anime",
+     "slug": "open-anime",
+     "shortDescription": "The Open Core System returns with a new multi genre game that supports all your favorite Manga and Anime. Open Anime is effects-based to help you create that 'perfect' character using attributes, skills, abilities, and disabilities. Open Anime is 'classless,' a point-based system that can allow players and GMs to create a wide variety of characters and world. Open Anime uses a simple, time-proven base mechanic: 3d6 + Attribute + Skill VS. Target Number. Variant rules for other dice (1d20,..."
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 1361156,
+      "optionId": 1,
+      "optionValueId": 8,
+      "optionValueName": "PDF",
+      "description": "PDF",
+      "type": "digital",
+      "price": 1.2,
+      "priceToAdd": "0.0000",
+      "msrp": "9.9500",
+      "enabled": 1,
+      "taxClassId": 0
+     },
+     {
+      "productAttributeId": 1361157,
+      "optionId": 2,
+      "optionValueId": 71,
+      "optionValueName": "Softcover, B&W Book",
+      "description": "Softcover, B&W Book",
+      "type": "book",
+      "price": 16,
+      "priceToAdd": "14.8000",
+      "msrp": "22.0000",
+      "enabled": 1,
+      "taxClassId": 1
+     }
+    ],
+    "ranking": {
+     "humanName": "silver",
+     "imageUrl": "medals/silver.png"
+    },
+    "ratingCount": "9",
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/62"
+     }
+    }
+   }
+  },
+  {
+   "id": "/api/vBeta/products/91331/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "3675/91331.png",
+    "thumbnail": "3675/91331-thumb140.png",
+    "thumbnail200": "3675/91331-thumb200.webp",
+    "thumbnail100": "3675/91331-thumb100.png",
+    "thumbnail80": "3675/91331-thumb80.png",
+    "thumbnail40": "3675/91331-thumb40.png",
+    "price": 2.25,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 2205,
+    "publisherId": 3675,
+    "specialPrice": 0,
+    "sku": "8515",
+    "authors": [
+     "Andrew Cowley"
+    ],
+    "artists": [
+     "Andrew Hepworth"
+    ],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 4.3,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 2.25,
+    "lowestPrintPrice": null,
+    "lowestAnyPrice": 2.25,
+    "dateCreated": "2011-05-06T07:47:59-05:00",
+    "productId": 91331,
+    "description": {
+     "name": "Anderia",
+     "slug": "anderia",
+     "shortDescription": "Further explore the world introduced in \"The Dragon Reaches of Marakush\".  Enter the region of Anderia, partake of the lush and verdant geography, marvel at the inhabitants and their Machiavellian politics.\nIntended for use with Chivalry and Sorcery and all other fantasy role-playing games.\n "
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 1380940,
+      "optionId": 1,
+      "optionValueId": 1,
+      "optionValueName": "Watermarked PDF",
+      "description": "Watermarked PDF",
+      "type": "digital",
+      "price": 2.25,
+      "priceToAdd": "0.0000",
+      "msrp": "14.9500",
+      "enabled": 1,
+      "taxClassId": 0
+     }
+    ],
+    "ranking": {
+     "humanName": "electrum",
+     "imageUrl": "medals/electrum.png"
+    },
+    "ratingCount": "8",
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/3675"
+     }
+    }
+   }
+  },
+  {
+   "id": "/api/vBeta/products/91629/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "3675/91629.png",
+    "thumbnail": "3675/91629-thumb140.png",
+    "thumbnail200": "3675/91629-thumb200.webp",
+    "thumbnail100": "3675/91629-thumb100.png",
+    "thumbnail80": "3675/91629-thumb80.png",
+    "thumbnail40": "3675/91629-thumb40.png",
+    "price": 3,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 420,
+    "publisherId": 3675,
+    "specialPrice": 0,
+    "sku": "3000",
+    "authors": [
+     "Paul \"Wiggy\" Wade-Williams"
+    ],
+    "artists": [
+     "Andrew Hepworth"
+    ],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 4.7,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 3,
+    "lowestPrintPrice": 14.99,
+    "lowestAnyPrice": 3,
+    "dateCreated": "2011-05-17T05:56:47-05:00",
+    "productId": 91629,
+    "description": {
+     "name": "Dwarves' Companion",
+     "slug": "dwarves-companion",
+     "shortDescription": "Amidst the sagas are tales which tell of a forgotten race known to mankind as the Dwarves.  Now the truth can be told, for within these pages myths are laid to rest and the reality behind the stories of the Dwarves can be revealed.\nInside this book is the story of how the Dwarven race was first conceived, its early history, its trials and tribulations with both Elvenkind and Mankind.  The story of the sundering of the Dwarven race, the children of Durin, Ptah and Lothgaringen and the secret..."
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 1381302,
+      "optionId": 1,
+      "optionValueId": 1,
+      "optionValueName": "Watermarked PDF",
+      "description": "Watermarked PDF",
+      "type": "digital",
+      "price": 3,
+      "priceToAdd": "0.0000",
+      "msrp": "15.9500",
+      "enabled": 1,
+      "taxClassId": 0
+     },
+     {
+      "productAttributeId": 1737102,
+      "optionId": 2,
+      "optionValueId": 71,
+      "optionValueName": "Softcover, B&W Book",
+      "description": "Softcover, B&W Book",
+      "type": "book",
+      "price": 14.99,
+      "priceToAdd": "11.9900",
+      "msrp": "15.9500",
+      "enabled": 1,
+      "taxClassId": 1
+     }
+    ],
+    "ranking": {
+     "humanName": "gold",
+     "imageUrl": "medals/gold.png"
+    },
+    "ratingCount": "10",
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/3675"
+     }
+    }
+   }
+  },
+  {
+   "id": "/api/vBeta/products/91650/search",
+   "type": "ProductSummary",
+   "attributes": {
+    "image": "3675/91650.png",
+    "thumbnail": "3675/91650-thumb140.png",
+    "thumbnail200": "3675/91650-thumb200.webp",
+    "thumbnail100": "3675/91650-thumb100.png",
+    "thumbnail80": "3675/91650-thumb80.png",
+    "thumbnail40": "3675/91650-thumb40.png",
+    "price": 3,
+    "dateAvailable": "1969-12-31T18:00:00-06:00",
+    "status": 1,
+    "workflowStatus": "created",
+    "sortPriority": 430,
+    "publisherId": 3675,
+    "specialPrice": 0,
+    "sku": "3100",
+    "authors": [
+     "Paul \"Wiggy\" Wade-Williams"
+    ],
+    "artists": [
+     "Andrew Hepworth"
+    ],
+    "editors": [],
+    "contributors": [],
+    "promoText": "",
+    "contentRating": 0,
+    "rating": 4.6,
+    "isAudio": false,
+    "isVideo": false,
+    "isPwyw": false,
+    "isCommunityContent": false,
+    "isAi": false,
+    "isHandmade": true,
+    "isGiftCert": false,
+    "lowestDigitalPrice": 3,
+    "lowestPrintPrice": 15.95,
+    "lowestAnyPrice": 3,
+    "dateCreated": "2011-05-17T07:24:46-05:00",
+    "productId": 91650,
+    "description": {
+     "name": "Elves' Companion",
+     "slug": "elves-companion",
+     "shortDescription": "Welcome to the Elves Companion, the supplement that blows away the veils that hide the truth behiind the Blight infecting the Elves.\nDiscover the cultures of the Wood Elves, Great Elves and True Elves, their fall from the realms of Faerie and the reasons behind their self-imposed exile. Within this volume find out why the Elvish Longbow is so important and learn its true place within Elven Society, along with information on their religious beliefs, and additions to the bestiary.\nBring the..."
+    },
+    "onSale": true,
+    "options": [
+     {
+      "productAttributeId": 1381323,
+      "optionId": 1,
+      "optionValueId": 1,
+      "optionValueName": "Watermarked PDF",
+      "description": "Watermarked PDF",
+      "type": "digital",
+      "price": 3,
+      "priceToAdd": "0.0000",
+      "msrp": "15.9500",
+      "enabled": 1,
+      "taxClassId": 0
+     },
+     {
+      "productAttributeId": 1984816,
+      "optionId": 2,
+      "optionValueId": 71,
+      "optionValueName": "Softcover, B&W Book",
+      "description": "Softcover, B&W Book",
+      "type": "book",
+      "price": 15.95,
+      "priceToAdd": "12.9500",
+      "msrp": 0,
+      "enabled": 1,
+      "taxClassId": 1
+     }
+    ],
+    "ranking": {
+     "humanName": "gold",
+     "imageUrl": "medals/gold.png"
+    },
+    "ratingCount": "10",
+    "storefrontPrimaryFilterValues": [],
+    "isBundle": false,
+    "oneTimeCode": null
+   },
+   "relationships": {
+    "publisher": {
+     "data": {
+      "type": "Publisher",
+      "id": "/api/vBeta/publishers/3675"
+     }
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "id": "/api/vBeta/publishers/62",
+   "type": "Publisher",
+   "attributes": {
+    "name": "Battlefield Press",
+    "publisherId": 62,
+    "slug": "battlefield-press",
+    "averageRating": null
+   }
+  },
+  {
+   "id": "/api/vBeta/publishers/15895",
+   "type": "Publisher",
+   "attributes": {
+    "name": "Aegis & Gorgon",
+    "publisherId": 15895,
+    "slug": "aegis-gorgon",
+    "averageRating": null
+   }
+  },
+  {
+   "id": "/api/vBeta/publishers/502",
+   "type": "Publisher",
+   "attributes": {
+    "name": "Crucifiction Games",
+    "publisherId": 502,
+    "slug": "crucifiction-games",
+    "averageRating": null
+   }
+  },
+  {
+   "id": "/api/vBeta/publishers/3675",
+   "type": "Publisher",
+   "attributes": {
+    "name": "Brittannia Game Designs Ltd",
+    "publisherId": 3675,
+    "slug": "brittannia-game-designs-ltd",
+    "averageRating": null
+   }
+  }
+ ]
+}

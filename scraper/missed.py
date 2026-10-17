@@ -24,7 +24,8 @@ import json
 import re
 import urllib.parse
 
-from scraper.common import RAW, ROOT, FetchError, fetch_json, is_discount, load_shops, make_deal, money, norm_url
+from scraper.common import (RAW, ROOT, FetchError, drivethru_product_id, fetch_json, is_discount, load_shops,
+                            make_deal, money, norm_url)
 from scraper.readers import generic, shopify
 from scraper.score import host as alias_host
 from scraper.score import words
@@ -60,6 +61,9 @@ def match_key(url):
     """Comparable form of a product URL: alias host (modiphius.us = modiphius.net), no collections prefix."""
     p = urllib.parse.urlsplit(url)
     host = alias_host(url)
+    dtrpg = drivethru_product_id(url)
+    if dtrpg is not None:       # DriveThruRPG: the product id is the key, the slug and /en/ may differ
+        return f"{host}/product/{dtrpg}"
     path = _COLLECTION_PREFIX.sub("", p.path).rstrip("/")
     return host + path.lower()
 
@@ -170,6 +174,9 @@ def triage(leads, shops, raw, scrape_rows):
             m.update(reason="shop_blocked", detail="the shop cannot be read automatically")
         elif not product:
             m.update(reason="not_a_product_page", detail="the link goes to a home, blog or collection page")
+        elif shop.get("platform") == "drivethrurpg":
+            # The API lists every product on sale; www.drivethrurpg.com is a bot wall we never fetch.
+            m.update(reason="not_on_sale_anymore", detail="not on sale in the DriveThruRPG API today (website not fetched)")
         misses.append(m)
     return misses, matched
 

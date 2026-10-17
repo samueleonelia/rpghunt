@@ -571,7 +571,7 @@
     "https://www.nobleknight.com/sales"
    ]
   },
-  "recipe_confirmed": null,
+  "recipe_confirmed": "2026-10-17",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://www.nobleknight.com/sales",
@@ -717,15 +717,16 @@
  {
   "id": "drivethrurpg",
   "name": "DriveThruRPG",
-  "store_url": "https://www.drivethrurpg.com/",
-  "platform": "unknown",
-  "status": "blocked",
-  "currency": null,
+  "store_url": "https://api.drivethrurpg.com/",
+  "platform": "drivethrurpg",
+  "status": "active",
+  "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": null,
+  "recipe_confirmed": "2026-10-17",
   "added": "2026-10-17",
   "added_via": "seed list",
-  "notes": "blocked: https://www.drivethrurpg.com/ HTTP 403"
+  "notes": "Read from the public JSON API at api.drivethrurpg.com (robots.txt allows all); the website www.drivethrurpg.com is a Cloudflare bot wall and is never fetched (hard block in scraper.common.fetch). The API has no sale end dates and some products have been marked down for years, so everyday_discounts is on: old markdowns only publish when our price history sees a real drop, or on day one when a trusted roundup lead (EN World) names the same product id. Currency is not in the API; USD assumed (site default).",
+  "everyday_discounts": true
  },
  {
   "id": "dungeon-masters-guild",

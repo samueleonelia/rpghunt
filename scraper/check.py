@@ -21,13 +21,14 @@ import re
 import threading
 import urllib.parse
 
-from scraper.common import RAW, ROOT, TESTSET, FetchError, fetch, load_shops, norm_url, plain
+from scraper.common import RAW, ROOT, TESTSET, FetchError, drivethru_product_id, fetch, load_shops, norm_url, plain
 from scraper.history import History
 from scraper.jev import MODEL, FakeJev, Jev, JevError, load_env_key, request_chars
 from scraper.score import matches as testset_matches
 from scraper.trim import normalize_money, prices_in, trim
 
 REPORTS = ROOT / "data" / "deals"
+TRUSTED_LEAD_FEEDS = {"enworld"}      # roundups whose links count as "a person saw this on sale today"
 FIXTURES = TESTSET / "fixtures"
 
 # All tunable numbers live here (tuned in step 2.3; these are the spec's start values).
@@ -42,7 +43,8 @@ THRESHOLDS = {
     "everyday_no_history": "wait",  # what an everyday deal without a history drop becomes: "wait" or "needs_agent"
     "batch_size": 1,            # stage A products per request
 }
-FEED_SOURCES = {"shopify-api", "woocommerce-api", "itch-data", "bundle-page"}   # the shop's own data feed
+FEED_SOURCES = {"shopify-api", "woocommerce-api", "itch-data", "bundle-page",
+                "drivethrurpg-api"}   # the shop's own data feed
 COST_PER_M_INPUT = 0.042        # dollars per million input tokens (output tokens not priced here)
 WORKERS = 8
 # dry-run assumptions (only used where the real number needs Jev answers or page fetches)
@@ -219,8 +221,29 @@ def _same(pick, value):
     return v is not None and value is not None and abs(v - float(value)) < 0.005
 
 
-def decide(deal, rpg_p, answers, page, facts, T=THRESHOLDS):
+def lead_key(url):
+    """Comparable product key for matching a lead to a deal: DriveThruRPG by product id (the slug and
+    /en/ may differ between a roundup link and the API), everything else by norm_url."""
+    pid = drivethru_product_id(url)
+    return f"drivethrurpg:{pid}" if pid is not None else norm_url(url)
+
+
+def load_trusted_leads(date):
+    """{lead_key: lead url} for today's leads from trusted roundup feeds (data/deals/leads-<date>.json)."""
+    path = REPORTS / f"leads-{date}.json"
+    try:
+        doc = json.loads(path.read_text()) if path.exists() else {}
+    except ValueError:
+        return {}
+    return {lead_key(l["url"]): l["url"] for l in doc.get("leads", [])
+            if l.get("feed") in TRUSTED_LEAD_FEEDS and l.get("url")}
+
+
+def decide(deal, rpg_p, answers, page, facts, T=THRESHOLDS, lead=None):
     """-> (decision, reasons, check). decision: publish | drop | needs_agent | wait.
+
+    lead: the url of a trusted roundup lead for this same product today (or None). On the very first
+    day of a shop's history it stands in for the price drop we cannot have seen yet.
 
     answers: Jev's stage B answers (None when no Jev call was made); page: the trimmed page or None.
     Drop beats everything; then anything missing goes to needs_agent; an everyday price with no
@@ -276,6 +299,8 @@ def decide(deal, rpg_p, answers, page, facts, T=THRESHOLDS):
                 blockers.append(f"offer_unsure: everyday ({conf:.2f})")
             elif facts.get("days_seen", 0) >= T["history_min_days"] and usual is not None and deal["price_now"] < usual:
                 check["history_drop"] = True
+            elif lead and facts.get("days_seen", 0) == 0:
+                check["lead_drop"] = lead      # first day of history: a trusted roundup lists it as a sale
             else:
                 wait.append("everyday_no_drop: everyday price with no drop in our price history")
         else:
@@ -298,8 +323,10 @@ def decide(deal, rpg_p, answers, page, facts, T=THRESHOLDS):
 
 # ---------------------------------------------------------------- the run
 
-def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers=WORKERS):
-    """Run both stages. -> (results, stats). results[i] = {"decision", "stage", "reasons", "check"}."""
+def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers=WORKERS, leads=None):
+    """Run both stages. -> (results, stats). results[i] = {"decision", "stage", "reasons", "check"}.
+    leads: {lead_key: url} from load_trusted_leads(date); used only for everyday_discounts shops."""
+    leads = leads or {}
     results = [None] * len(deals)
     stats = collections.Counter()
     lock = threading.Lock()
@@ -354,6 +381,7 @@ def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers
         status = rpg_status(p_a, T)
         page_sourced = is_page_sourced(d)
         facts = history.facts(d, date)
+        lead = leads.get(lead_key(d["url"])) if everyday_shop(d) else None
         page = None
         if page_sourced or status == "unsure":
             try:
@@ -369,7 +397,7 @@ def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers
                     return
         state, questions = build_stage_b(d, facts, page, ask_rpg=(status == "unsure"), ask_page=page_sourced)
         if not questions:  # a publisher's own sale, clearly an RPG: nothing left for Jev to judge
-            decision, reasons, check = decide(d, p_a, {}, page, facts, T)
+            decision, reasons, check = decide(d, p_a, {}, page, facts, T, lead)
             check["rpg_stage_a"] = round(p_a, 3)
             put(i, decision, "B", reasons, check)
             return
@@ -381,7 +409,7 @@ def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers
         with lock:
             stats["stage_b_requests"] += 1
         rpg_p = ans["rpg"]["noul"] if "rpg" in ans else p_a
-        decision, reasons, check = decide(d, rpg_p, ans, page, facts, T)
+        decision, reasons, check = decide(d, rpg_p, ans, page, facts, T, lead)
         check["rpg_stage_a"] = round(p_a, 3)
         put(i, decision, "B", reasons, check)
 
@@ -571,7 +599,7 @@ def main(argv=None):
             return 2
         jev, label, suffix = Jev(), "real", ""
 
-    results, stats = check_deals(deals, args.date, jev, history)
+    results, stats = check_deals(deals, args.date, jev, history, leads=load_trusted_leads(args.date))
     report = build_report(args.date, label, deals, results, stats, jev, THRESHOLDS)
     published = [dict(d, check={**results[i]["check"], "decision": "publish", "checked_on": args.date,
                                 "model": MODEL, "fake_jev": label == "fake"})

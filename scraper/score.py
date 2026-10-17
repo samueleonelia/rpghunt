@@ -11,7 +11,8 @@ import re
 from scraper.common import RAW, ROOT, TESTSET, load_shops, norm_url, plain
 
 STOP = {"the", "and", "for", "with", "of", "a", "an", "in", "to", "pdf", "edition"}
-ALIASES = {"modiphius.us": "modiphius.net"}  # sister domains, one shop
+# sister domains, one shop (the DriveThruRPG API reader lives on api., its product links on www.)
+ALIASES = {"modiphius.us": "modiphius.net", "api.drivethrurpg.com": "drivethrurpg.com"}
 
 
 def host(url):

@@ -21,8 +21,13 @@ SHOPS = ROOT / "data" / "shops" / "shops.json"
 RAW = ROOT / "data" / "deals" / "raw"
 TESTSET = ROOT / "data" / "testset"
 
-UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+# Honest bot name, the only place it is defined. The page explains who we are and how to ask us to stop
+# (text in agents/bot-page.md). robotparser matches the part before the "/", so a shop's robots.txt
+# rules for "RPGHuntBot" apply to us.
+UA = "RPGHuntBot/1.0 (+https://samueleonelia.github.io/rpghunt/bot.html)"
+# Hosts we never request, whatever the caller asks: DriveThruRPG's website sits behind a bot wall we do not
+# try to pass. Its data comes from api.drivethrurpg.com only (scraper/readers/drivethrurpg.py).
+NEVER_FETCH = {"www.drivethrurpg.com", "drivethrurpg.com"}
 DELAY = 1.5          # seconds between two requests to the same site
 BLOCKED = {401, 403, 406, 503}
 TYPES = {"sale", "bundle", "physical", "free"}
@@ -82,9 +87,11 @@ def fetch(url, tries=3):
     Respects robots.txt, waits DELAY between requests to one site, backs off on HTTP 429.
     Raises FetchError when the page is blocked, gone, or disallowed.
     """
+    host = _host(url)
+    if host in NEVER_FETCH:
+        raise FetchError("blocked", url, "never fetched: this host serves a bot wall")
     if not _allowed(url):
         raise FetchError("robots", url, "disallowed by robots.txt")
-    host = _host(url)
     with _guard:
         lock = _host_locks.setdefault(host, threading.Lock())
     with lock:
@@ -127,6 +134,20 @@ def norm_url(url):
     return host + p.path.rstrip("/")
 
 
+_DTRPG_PRODUCT = re.compile(r"^/(?:[a-z]{2}/)?product/(\d+)(?:/|$)")
+
+
+def drivethru_product_id(url):
+    """Product id from a www.drivethrurpg.com product link (/product/<id>/<slug>, also /en/product/...);
+    None for anything else. The API reader and EN World links both carry this id, the slug may differ."""
+    p = urllib.parse.urlsplit(url or "")
+    host = p.netloc.lower().split(":")[0]
+    if host not in ("drivethrurpg.com", "www.drivethrurpg.com"):
+        return None
+    m = _DTRPG_PRODUCT.match(p.path)
+    return int(m.group(1)) if m else None
+
+
 def money(value, minor_unit=None):
     """'12.50', 1250 (with minor_unit=2) or 12.5 -> 12.5; None when missing or not a number."""
     if value in (None, ""):
@@ -143,7 +164,7 @@ def make_deal(*, shop, type, title, url, price_now, price_was, currency, source,
     """One deal in the raw format build_deals.py reads.
 
     shop: the shop entry from shops.json (its id and name are copied).
-    source: which reader saw it (shopify-api, woocommerce-api, itch-data, bundle-page, jsonld, recipe).
+    source: which reader saw it (shopify-api, woocommerce-api, itch-data, drivethrurpg-api, bundle-page, jsonld, recipe).
     hints: free facts for later checks (product type, tags, variant name...). Never a verdict.
     Prices come only from the shop's own data; a reader never guesses them.
     """
