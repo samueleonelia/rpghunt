@@ -253,3 +253,31 @@
 
 **Next**
 - Phase 2: Jev check. Needs the TypeSafe API key in `.env`.
+
+## 2026-10-17: Scraper phases 2 to 4 done, merged to main (v0.3-scraper)
+
+**Status:** new scraper merged to `main`, tag `v0.3-scraper`. The live site still shows the 2026-10-16 deals: going live with the new deals is the user's call.
+
+**Done**
+- Phase 2 (Jev check): `check.py` (RPG triage, then page questions for page-read deals), `trim.py` (visible text only, price candidates), `history.py` (120-day price record, local), `jev.py` (typesafe-sdk with answer cache). Code owns every number, date and the final decision.
+- Phase 3 (escalation): `fetchpage.py` (the agent's only way to open pages), `agent.py` (headless browsing agent, user's hooks active, only fetchpage allowed), `escalate.py` (rechecks and recipe jobs; unsettled items go to `needs-owner-<date>.json`), `alarm.py` (break alarm when a shop's deals collapse with no error). First agent recipe: Chaosium.
+- Phase 4 (discovery): `discover.py` (EN World leads; new shops detected and added), `missed.py` (leads vs run), `publish.py` (site preview, never `docs/` unless asked), `daily.py` (whole day in one command + plain report).
+- Gates: Gate 2 (all 5 fakes rejected, 28/29 test deals published), Gate 3 (break tests in unit tests; Chaosium recipe live), Gate 4 (full day ran end to end: 46 shops, 2,250 raw deals, 1,073 in the preview, 28/29 test deals published, Jev about $0.06).
+
+**Decisions**
+- A publisher's own sale price in its own shop data counts as the promotion; only page-read deals, retailers flagged `everyday_discounts` and free items need the offer question.
+- Jev triages one product per request (batching made answers depend on neighbours) and sees description, genre and where the item was listed.
+- Safety rules in code: 95%+ discounts go to the agent; products the shop names "free" are permanently free, not deals; only real money amounts are prices ("save 20%" is not).
+- Bundle of Holding is `rpg_only` (skips triage). Leisure Games reads only its "reduced" collection.
+- Price history (`data/prices/`), raw run output, checked output and site preview are gitignored; reports are committed.
+
+**Learnings**
+- Jev from inside this sandboxed session needed Python's standard certificate check (the SDK default failed); fixed in `jev.py`.
+- Scrapling's browser impersonation made Shopify hide sale prices; turned off.
+- Reddit refuses robots (feeds skipped). Most EN World sale links point at DriveThruRPG (blocked).
+- Browsing-agent jobs can't start their own sandbox when launched from inside a sandboxed Claude session; they answered "unsure" instead of working around it. They need a run from a normal terminal or a scheduled task.
+
+**Next**
+- User: run the daily command once from a normal terminal to confirm the browsing agent works there.
+- User decision: put the new deals live (writes `docs/data/deals.json`).
+- Then: daily scheduled run; recipes for CoolStuffInc, Noble Knight, Massif, Roll20; GameNerdz, Demiplane, Fanatical are JavaScript-only.
