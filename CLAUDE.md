@@ -17,6 +17,11 @@ Product truth lives in `PRODUCT.md` (written by Impeccable init).
 ## Stack
 Static HTML/CSS/JS in `docs/` reading `docs/data/*.json`; Python 3.9 stdlib scripts in `scripts/`; agent instructions in `agents/`. Preview: `.claude/launch.json` ("site", port 8420).
 
+## Python environment
+Venv at `.venv` (Python 3.14, Homebrew, gitignored). Install with
+`.venv/bin/pip install -r requirements.txt` (Scrapling 0.4.15, `[fetchers]` extra).
+Scrapling's browser fetchers are not installed yet (`scrapling install` not run; needs OK first).
+
 ## Design tool
 Impeccable v4.6.0 (impeccable.style) is installed in this project only:
 `.claude/skills/impeccable` + `.claude/agents/impeccable-*`. Use `/impeccable <command>`
