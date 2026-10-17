@@ -25,7 +25,7 @@ def feed_deal(**kw):
 
 def page_deal(**kw):
     d = feed_deal(url="https://shop.example/p/ember", title="Ember Hollow Core Book", price_now=24.0, price_was=30.0,
-                  source="jsonld", hints={})
+                  source="jsonld", hints={}, shop_id="publisher")
     d.update(kw)
     return d
 
@@ -73,7 +73,7 @@ class Base(unittest.TestCase):
 
 class FeedDeals(Base):
     def test_promotion_is_published_without_page_fetch(self):
-        (r,), stats = self.run_check([feed_deal()], script(**{"p*": 0.95, "offer_kind": "promotion"}))
+        (r,), stats = self.run_check([feed_deal(shop_id="publisher")], script(**{"p*": 0.95, "offer_kind": "promotion"}))
         self.assertEqual((r["decision"], r["reasons"]), ("publish", ["ok"]))
         self.assertEqual(stats["page_fetches"], 0)
         self.assertEqual(stats["stage_a_requests"], 1)
@@ -86,7 +86,7 @@ class FeedDeals(Base):
         self.assertEqual(jev.usage["requests"], 1)
 
     def test_unsure_rpg_reads_the_page_and_the_page_decides(self):
-        (r,), stats = self.run_check([feed_deal()], script(**{"p*": 0.5, "rpg": 0.9, "offer_kind": "clearance"}))
+        (r,), stats = self.run_check([feed_deal(shop_id="publisher")], script(**{"p*": 0.5, "rpg": 0.9, "offer_kind": "clearance"}))
         self.assertEqual(r["decision"], "publish")
         self.assertEqual(stats["page_fetches"], 1)
         (r,), _ = self.run_check([feed_deal()], script(**{"p*": 0.5, "rpg": 0.1, "offer_kind": "clearance"}))
@@ -131,7 +131,7 @@ class FeedDeals(Base):
         rs, _ = self.run_check([feed_deal(ends="2026-10-16"), feed_deal(price_now=30.0)], jev)
         self.assertEqual([(r["decision"], r["stage"]) for r in rs], [("drop", "code")] * 2)
         self.assertEqual(jev.usage["requests"], 0)
-        (r,), _ = self.run_check([feed_deal(ends=DATE)], script(**{"p*": 0.95, "offer_kind": "promotion"}))
+        (r,), _ = self.run_check([feed_deal(ends=DATE, shop_id="publisher")], script(**{"p*": 0.95, "offer_kind": "promotion"}))
         self.assertEqual(r["decision"], "publish")      # ends today is still on
 
     def test_jev_error_goes_to_needs_agent(self):
@@ -157,6 +157,13 @@ class PublisherFeedDeals(Base):
     def test_publisher_deal_still_dropped_when_not_rpg(self):
         (r,), _ = self.run_check([feed_deal(shop_id="publisher")], script(**{"p*": 0.1}))
         self.assertEqual(r["decision"], "drop")
+
+
+class EverydayShops(Base):
+    def test_promotion_wording_alone_does_not_publish_an_everyday_shop_deal(self):
+        # shop "shop" is flagged everyday_discounts in Base.setUp; no history, no lead
+        (r,), _ = self.run_check([feed_deal()], script(**{"p*": 0.95, "offer_kind": "promotion"}))
+        self.assertEqual(r["decision"], "wait")
 
 
 class SafetyRules(Base):

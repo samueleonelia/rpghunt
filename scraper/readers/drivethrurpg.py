@@ -20,6 +20,10 @@ PAGE_SIZE = 50          # the API caps it at 50
 MAX_PAGES = 80          # the sale list was ~49 pages on 2026-10-17; this is the safety cap
 
 
+# DriveThruRPG's image server. The API gives only relative paths ("62/2727.jpg"); this base
+# served them as real images when checked on 2026-10-17 (it is a CDN, not the bot-walled site).
+IMAGE_BASE = "https://d1vzi28wh99zvq.cloudfront.net/images/"
+
 def _plain_text(text):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", text or ""))).strip()
 
@@ -97,7 +101,7 @@ def parse_product(shop, item, publishers=None):
         "product_id": a["productId"],
         "rating": a.get("rating"),
         "rating_count": money(a.get("ratingCount")),
-        "image": None,   # the API gives only a relative path ("402/1.jpg"), no image base
+        "image": (IMAGE_BASE + a["image"]) if a.get("image") else None,
     }
     return make_deal(
         shop=shop, type=kind, title=title, url=product_url(a["productId"], desc.get("slug")),

@@ -290,12 +290,15 @@ def decide(deal, rpg_p, answers, page, facts, T=THRESHOLDS, lead=None):
     if off:
         check["offer_kind"] = {"choice": off["choice"], "confidence": round(off["confidence"], 3)}
         kind, conf = off["choice"], off["confidence"]
-        if kind in ("promotion", "clearance"):
-            if conf < T["offer_conf"]:
-                blockers.append(f"offer_unsure: {kind} ({conf:.2f})")
-        elif kind == "everyday":
+        if kind in ("promotion", "clearance") and conf < T["offer_conf"]:
+            blockers.append(f"offer_unsure: {kind} ({conf:.2f})")
+        elif kind in ("promotion", "clearance") and not everyday_shop(deal):
+            pass
+        elif kind in ("promotion", "clearance", "everyday"):
+            # Shops with everyday markdowns (DriveThruRPG, retailers): wording alone never
+            # proves a deal; it needs a drop we saw ourselves or a trusted roundup naming it.
             usual = facts.get("usual_price")
-            if conf < T["offer_conf"]:
+            if kind == "everyday" and conf < T["offer_conf"]:
                 blockers.append(f"offer_unsure: everyday ({conf:.2f})")
             elif facts.get("days_seen", 0) >= T["history_min_days"] and usual is not None and deal["price_now"] < usual:
                 check["history_drop"] = True

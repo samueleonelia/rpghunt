@@ -65,7 +65,7 @@ class Deals(unittest.TestCase):
         self.assertEqual(d["hints"]["vendor"], "Battlefield Press")
         self.assertEqual(d["hints"]["option"], "Watermarked PDF")
         self.assertEqual(d["hints"]["product_id"], 2013)
-        self.assertIsNone(d["hints"]["image"])
+        self.assertEqual(d["hints"]["image"], "https://d1vzi28wh99zvq.cloudfront.net/images/62/2013.jpg")
         self.assertFalse(d["hints"]["is_ai"])
         self.assertIsNone(d["hints"]["date_available"])                # 1969-12-31 means "never set"
         self.assertLessEqual(len(d["hints"]["description"]), 300)
