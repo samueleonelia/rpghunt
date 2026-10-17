@@ -27,6 +27,11 @@ PRODUCT_PATH = re.compile(r"/(products?|p|item|items|shop/p)/[^/?#]+", re.I)
 _SKIP_PATH = re.compile(r"/(cart|checkout|account|login|search|collections?|category|categories|blog|tag)(/|$)", re.I)
 _HIDDEN_STYLE = re.compile(r"display\s*:\s*none|visibility\s*:\s*hidden", re.I)
 _NUM = re.compile(r"\d[\d.,   ]*")
+# A money amount, not just any number: a currency sign or code next to it, or cents ("12.50").
+# Keeps "save 20%", "3 issues" or "2026" from ever being read as a price.
+_MONEY = re.compile(r"(?:US\$|[$£€¥]|\b(?:USD|EUR|GBP|CAD|AUD)\b)\s?\d[\d,]*(?:\.\d{1,2})?(?![\d%])"
+                    r"|\d[\d.,]*\s?(?:[$£€]|\b(?:USD|EUR|GBP|CAD|AUD)\b)"
+                    r"|\b\d{1,3}(?:[.,]\d{3})*[.,]\d{2}\b(?!\s*%)")
 
 # was-price candidates: (css, what it means). Order = most specific first.
 WAS_CSS = [
@@ -60,6 +65,10 @@ def parse_amount(text):
     t = text.strip()
     if re.fullmatch(r"(?i)free", t):
         return 0.0
+    m = _MONEY.search(t)
+    if not m:  # a bare number or a percentage is never a price
+        return None
+    t = m.group(0)
     m = _NUM.search(t)
     if not m:
         return None
@@ -236,7 +245,7 @@ def _price_boxes(el):
 
 
 def _amounts(text):
-    return [a for a in (parse_amount(m.group(0)) for m in _NUM.finditer(text)) if a is not None]
+    return [a for a in (parse_amount(m.group(0)) for m in _MONEY.finditer(text)) if a is not None]
 
 
 def _markup_prices(sel, ld_now):
@@ -363,6 +372,8 @@ def product_links(sel, page_url, recipe=None):
 
     if recipe.get("product_link"):
         for a in sel.css(recipe["product_link"]):
+            if hidden(a):
+                continue
             add(a.attrib.get("href") or (a.css("a")[0].attrib.get("href") if a.css("a") else None))
         return out
     for a in sel.css("a[href]"):

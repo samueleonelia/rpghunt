@@ -146,3 +146,20 @@ class ExaltedFuneralOptIn(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class MoneyOnly(unittest.TestCase):
+    """A percentage, a count or a year is never read as a price."""
+
+    def test_non_money_numbers_are_not_prices(self):
+        from scraper.readers.generic import parse_amount, _amounts
+        for t in ("save 20%", "20%", "3 issues", "2026"):
+            self.assertIsNone(parse_amount(t), t)
+        self.assertEqual(_amounts("Save 20% today: was $25.00 now $20.00, 3 books"), [25.0, 20.0])
+
+    def test_money_formats(self):
+        from scraper.readers.generic import parse_amount
+        cases = {"$1,299.00": 1299.0, "12,50 €": 12.5, "US$17.95": 17.95, "£5.00": 5.0, "$20": 20.0,
+                 "Price: 59.99": 59.99, "€12,50": 12.5, "Free": 0.0}
+        for t, v in cases.items():
+            self.assertEqual(parse_amount(t), v, t)

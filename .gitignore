@@ -48,3 +48,6 @@ data/deals/check-report-*-FAKE.json
 data/deals/raw/*-checked.json
 # Price history: local for now (about 0.3 MB rewritten a day); decide where it lives when the daily run is set up
 data/prices/
+# Escalation test-double output
+data/deals/escalation-*-FAKE.json
+data/deals/needs-owner-*-FAKE.json

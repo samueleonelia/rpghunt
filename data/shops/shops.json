@@ -120,11 +120,22 @@
   "platform": "generic",
   "status": "active",
   "currency": null,
-  "recipe": {},
-  "recipe_confirmed": null,
+  "recipe": {
+   "sale_pages": [
+    "https://www.chaosium.com/call-of-cthulhu-rpg/",
+    "https://www.chaosium.com/runequest-rpg/",
+    "https://www.chaosium.com/basic-roleplaying/",
+    "https://www.chaosium.com/pendragon-rpg/",
+    "https://www.chaosium.com/other-rpgs/"
+   ],
+   "product_link": "article.card figure.card-figure > a",
+   "price_now": ".productView-price span.price--withoutTax",
+   "price_was": ".productView-price span.price--non-sale"
+  },
+  "recipe_confirmed": "2026-10-17",
   "added": "2026-10-17",
   "added_via": "seed list",
-  "notes": null
+  "notes": "recipe by browsing agent 2026-10-17"
  },
  {
   "id": "pelgrane-press",

@@ -15,6 +15,7 @@ import importlib
 import json
 import time
 
+from scraper import alarm
 from scraper.common import RAW, ROOT, FetchError, load_shops, norm_url, save_shops
 
 REPORTS = ROOT / "data" / "deals"
@@ -119,7 +120,9 @@ def main(argv=None):
         if key not in seen:
             seen.add(key)
             all_deals.append(d)
-    rows = sorted(kept_rows + [results[sid][1] for sid in ran], key=lambda r: r["id"])
+    new_rows = [results[sid][1] for sid in ran]
+    flagged = alarm.apply(new_rows, args.date)      # break alarm: deals gone with no error
+    rows = sorted(kept_rows + new_rows, key=lambda r: r["id"])
     report = {
         "date": args.date,
         "shops": rows,
@@ -130,6 +133,7 @@ def main(argv=None):
             "error": sum(r["status"] == "error" for r in rows),
             "deals_raw": sum(r["deals"] for r in rows),
             "deals_unique": len(all_deals),
+            "break_alarms": sum(1 for r in rows if r.get("break_alarm")),
         },
     }
     raw_path.write_text(json.dumps(all_deals, ensure_ascii=False, indent=1) + "\n")
@@ -146,6 +150,9 @@ def main(argv=None):
     save_shops(fresh)
 
     t = report["totals"]
+    for sid in flagged:
+        r = next(r for r in rows if r["id"] == sid)
+        print(f"  BREAK ALARM {sid}: {r['deals']} deals, recent average {r['alarm_average']}")
     print(f"{len(ran)} shops run: {t['ok']} ok, {t['blocked']} blocked, {t['error']} error; "
           f"{len(all_deals)} deals in {raw_path.relative_to(ROOT)}")
     return 0
