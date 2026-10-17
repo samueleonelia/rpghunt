@@ -18,7 +18,7 @@
    "items_read": 800,
    "deals": 336,
    "errors": [],
-   "seconds": 11.4,
+   "seconds": 10.7,
    "pages": 4
   },
   {
@@ -28,7 +28,7 @@
    "items_read": null,
    "deals": 4,
    "errors": [],
-   "seconds": 24.6
+   "seconds": 23.9
   },
   {
    "id": "catalyst-game-labs",
@@ -37,7 +37,7 @@
    "items_read": 1469,
    "deals": 53,
    "errors": [],
-   "seconds": 16.5,
+   "seconds": 14.2,
    "pages": 6
   },
   {
@@ -47,7 +47,7 @@
    "items_read": 60,
    "deals": 1,
    "errors": [],
-   "seconds": 137.6,
+   "seconds": 137.8,
    "sale_pages": 5,
    "links_found": 60,
    "failed_pages": 0
@@ -59,7 +59,7 @@
    "items_read": 12,
    "deals": 0,
    "errors": [],
-   "seconds": 34.5,
+   "seconds": 33.6,
    "sale_pages": 1,
    "links_found": 12,
    "failed_pages": 0
@@ -71,7 +71,7 @@
    "items_read": 96,
    "deals": 6,
    "errors": [],
-   "seconds": 4.7,
+   "seconds": 5.2,
    "pages": 1
   },
   {
@@ -81,7 +81,7 @@
    "items_read": 0,
    "deals": 0,
    "errors": [],
-   "seconds": 2.8,
+   "seconds": 3.0,
    "pages": 0,
    "skipped_variant_only": 0
   },
@@ -102,7 +102,7 @@
    "items_read": 1065,
    "deals": 3,
    "errors": [],
-   "seconds": 14.0,
+   "seconds": 11.4,
    "pages": 5
   },
   {
@@ -112,7 +112,7 @@
    "items_read": 26,
    "deals": 25,
    "errors": [],
-   "seconds": 9.2,
+   "seconds": 12.0,
    "pages": 1,
    "skipped_variant_only": 1
   },
@@ -123,7 +123,7 @@
    "items_read": 1340,
    "deals": 379,
    "errors": [],
-   "seconds": 18.5,
+   "seconds": 19.8,
    "pages": 6
   },
   {
@@ -143,7 +143,7 @@
    "items_read": 392,
    "deals": 1,
    "errors": [],
-   "seconds": 6.6,
+   "seconds": 6.2,
    "pages": 2
   },
   {
@@ -153,7 +153,7 @@
    "items_read": 96,
    "deals": 1,
    "errors": [],
-   "seconds": 4.6,
+   "seconds": 4.1,
    "pages": 1
   },
   {
@@ -163,7 +163,7 @@
    "items_read": 0,
    "deals": 0,
    "errors": [],
-   "seconds": 11.9,
+   "seconds": 13.3,
    "sale_pages": 1,
    "links_found": 0,
    "failed_pages": 0
@@ -175,7 +175,7 @@
    "items_read": 36,
    "deals": 2,
    "errors": [],
-   "seconds": 4.3,
+   "seconds": 4.5,
    "pages": 1
   },
   {
@@ -185,7 +185,7 @@
    "items_read": 6,
    "deals": 6,
    "errors": [],
-   "seconds": 5.1,
+   "seconds": 5.3,
    "pages": 1,
    "skipped_variant_only": 0
   },
@@ -196,7 +196,7 @@
    "items_read": 780,
    "deals": 43,
    "errors": [],
-   "seconds": 11.5,
+   "seconds": 11.2,
    "pages": 4
   },
   {
@@ -206,7 +206,7 @@
    "items_read": 656,
    "deals": 98,
    "errors": [],
-   "seconds": 9.3,
+   "seconds": 8.7,
    "pages": 3
   },
   {
@@ -216,7 +216,7 @@
    "items_read": null,
    "deals": 23,
    "errors": [],
-   "seconds": 61.3
+   "seconds": 63.4
   },
   {
    "id": "itch",
@@ -225,7 +225,7 @@
    "items_read": null,
    "deals": 65,
    "errors": [],
-   "seconds": 263.9
+   "seconds": 494.8
   },
   {
    "id": "kobold-press",
@@ -234,7 +234,7 @@
    "items_read": 22,
    "deals": 22,
    "errors": [],
-   "seconds": 8.2,
+   "seconds": 10.2,
    "pages": 1,
    "skipped_variant_only": 0
   },
@@ -245,7 +245,7 @@
    "items_read": 703,
    "deals": 697,
    "errors": [],
-   "seconds": 8.3,
+   "seconds": 9.2,
    "pages": 3
   },
   {
@@ -265,7 +265,7 @@
    "items_read": 9,
    "deals": 9,
    "errors": [],
-   "seconds": 9.7,
+   "seconds": 11.0,
    "pages": 1,
    "skipped_variant_only": 0
   },
@@ -276,7 +276,7 @@
    "items_read": 167,
    "deals": 5,
    "errors": [],
-   "seconds": 6.6,
+   "seconds": 9.0,
    "pages": 1
   },
   {
@@ -296,7 +296,7 @@
    "items_read": 49,
    "deals": 8,
    "errors": [],
-   "seconds": 4.3,
+   "seconds": 4.4,
    "pages": 1
   },
   {
@@ -306,7 +306,7 @@
    "items_read": 1783,
    "deals": 291,
    "errors": [],
-   "seconds": 22.8,
+   "seconds": 23.1,
    "pages": 8
   },
   {
@@ -316,7 +316,7 @@
    "items_read": 1662,
    "deals": 0,
    "errors": [],
-   "seconds": 16.4,
+   "seconds": 15.7,
    "pages": 7
   },
   {
@@ -326,7 +326,7 @@
    "items_read": 781,
    "deals": 0,
    "errors": [],
-   "seconds": 10.3,
+   "seconds": 9.4,
    "pages": 4
   },
   {
@@ -356,7 +356,7 @@
    "items_read": 84,
    "deals": 0,
    "errors": [],
-   "seconds": 4.1,
+   "seconds": 4.7,
    "pages": 1
   },
   {
@@ -366,7 +366,7 @@
    "items_read": 0,
    "deals": 0,
    "errors": [],
-   "seconds": 16.1,
+   "seconds": 16.9,
    "sale_pages": 1,
    "links_found": 2,
    "failed_pages": 2
@@ -378,7 +378,7 @@
    "items_read": 60,
    "deals": 60,
    "errors": [],
-   "seconds": 138.2,
+   "seconds": 137.5,
    "sale_pages": 1,
    "links_found": 60,
    "failed_pages": 0
@@ -390,7 +390,7 @@
    "items_read": 16,
    "deals": 16,
    "errors": [],
-   "seconds": 8.1,
+   "seconds": 8.9,
    "pages": 1,
    "skipped_variant_only": 0
   },
@@ -401,7 +401,7 @@
    "items_read": 1499,
    "deals": 1,
    "errors": [],
-   "seconds": 13.8,
+   "seconds": 14.2,
    "pages": 6
   },
   {
@@ -411,7 +411,7 @@
    "items_read": 13,
    "deals": 1,
    "errors": [],
-   "seconds": 4.2,
+   "seconds": 4.3,
    "pages": 1
   },
   {
@@ -421,7 +421,7 @@
    "items_read": 139,
    "deals": 1,
    "errors": [],
-   "seconds": 4.6,
+   "seconds": 4.4,
    "pages": 1
   },
   {
@@ -431,7 +431,7 @@
    "items_read": 56,
    "deals": 56,
    "errors": [],
-   "seconds": 130.5,
+   "seconds": 134.0,
    "sale_pages": 1,
    "links_found": 56,
    "failed_pages": 0
@@ -453,7 +453,7 @@
    "items_read": 20,
    "deals": 0,
    "errors": [],
-   "seconds": 9.5,
+   "seconds": 7.9,
    "pages": 1,
    "skipped_variant_only": 1
   },
@@ -464,7 +464,7 @@
    "items_read": 2739,
    "deals": 19,
    "errors": [],
-   "seconds": 24.0,
+   "seconds": 23.6,
    "pages": 11
   },
   {
@@ -474,7 +474,7 @@
    "items_read": 393,
    "deals": 16,
    "errors": [],
-   "seconds": 7.0,
+   "seconds": 7.5,
    "pages": 2
   }
  ],

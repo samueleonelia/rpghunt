@@ -1,0 +1,216 @@
+[
+ {
+  "kind": "shop",
+  "key": "recipe:coolstuffinc",
+  "url": "https://www.coolstuffinc.com/",
+  "title": "CoolStuffInc",
+  "shop": "CoolStuffInc",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "unsure",
+   "notes": "I could not open any page. The sandbox failed to start (EPERM when creating its socket under /tmp/claude-501/), so the fetch command never ran. I tried it twice and got the same error. I did not try to get around the sandbox. I looked at no CoolStuffInc pages and can't say why the reader returned 0 deals. The existing recipe still points at https://www.coolstuffinc.com/main_saleItems.php. Re-run this job once the sandbox works.",
+   "failed_checks": [
+    "agent_result: unsure"
+   ]
+  },
+  "question": "The scraper cannot read CoolStuffInc's sales (reader returned 0 deals). Open https://www.coolstuffinc.com/ and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:demiplane",
+  "url": "https://app.demiplane.com/",
+  "title": "Demiplane",
+  "shop": "Demiplane",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "blocked",
+   "notes": "I could not open any page. The sandbox failed to start (EPERM on listen '/tmp/claude-501/srt-mux-68166-N.sock'), and the fetch command was refused twice. I made no guesses about selectors. Restarting the session should clear this, and the job can be run again then. Demiplane is also a JavaScript app (app.demiplane.com), so the result may end up as blocked with 'javascript' in the notes, but I have not checked that.",
+   "failed_checks": [
+    "agent_result: blocked"
+   ]
+  },
+  "question": "The scraper cannot read Demiplane's sales (no sale page). Open https://app.demiplane.com/ and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:fanatical",
+  "url": "https://www.fanatical.com/en/",
+  "title": "Fanatical",
+  "shop": "Fanatical",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "unsure",
+   "notes": "Could not open any page. The sandbox failed to start (EPERM on listen '/tmp/claude-501/srt-mux-68636-N.sock', two attempts), so fetchpage never ran. No selectors were tested and nothing was learned about the shop. Retry after the sandbox is restarted.",
+   "failed_checks": [
+    "agent_result: unsure"
+   ]
+  },
+  "question": "The scraper cannot read Fanatical's sales (no sale page). Open https://www.fanatical.com/en/ and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:gamenerdz",
+  "url": "https://www.gamenerdz.com/roleplaying",
+  "title": "GameNerdz",
+  "shop": "GameNerdz",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "unsure",
+   "notes": "I could not open any page. The sandbox failed to start (EPERM on listen '/tmp/claude-501/srt-mux-69142-N.sock'), so the fetch command never ran. I tried twice. I did not look at https://www.gamenerdz.com/deals, so I have no selectors or prices to report. Restart the session and run this job again.",
+   "failed_checks": [
+    "agent_result: unsure"
+   ]
+  },
+  "question": "The scraper cannot read GameNerdz's sales (reader returned 0 deals). Open https://www.gamenerdz.com/roleplaying and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:massif-press",
+  "url": "https://massifpress.com/shop",
+  "title": "Massif Press",
+  "shop": "Massif Press",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "unsure",
+   "notes": "I could not open any page. The Bash sandbox failed to start (EPERM on listen '/tmp/claude-501/srt-mux-69634-*.sock'), so the fetchpage command never ran. I tried twice and got the same error. I did not try to get around the sandbox. No selectors were tested and no shop pages were read. Restart the session and run this job again.",
+   "failed_checks": [
+    "agent_result: unsure"
+   ]
+  },
+  "question": "The scraper cannot read Massif Press's sales (no sale page). Open https://massifpress.com/shop and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:noble-knight-games",
+  "url": "https://www.nobleknight.com/main-category/role-playing-games",
+  "title": "Noble Knight Games",
+  "shop": "Noble Knight Games",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "unsure",
+   "notes": "Could not open any page. The sandbox failed to start (EPERM on listen '/tmp/claude-501/srt-mux-70104-N.sock'), so every Bash call was refused, including the fetchpage command. I tried twice. I did not look at the shop, so I have no selectors to propose. Restarting the session or fixing the sandbox socket permission should let this job run again.",
+   "failed_checks": [
+    "agent_result: unsure"
+   ]
+  },
+  "question": "The scraper cannot read Noble Knight Games's sales (reader returned 0 deals). Open https://www.nobleknight.com/main-category/role-playing-games and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:roll20-marketplace",
+  "url": "https://marketplace.roll20.net/",
+  "title": "Roll20 Marketplace",
+  "shop": "Roll20 Marketplace",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "blocked",
+   "notes": "Could not open any page. The Bash sandbox failed to start (EPERM on listen '/tmp/claude-501/srt-mux-70580-N.sock'), so fetchpage never ran, and I tried twice. I looked at nothing on marketplace.roll20.net, so this says nothing about the shop itself. Retry once the sandbox is restarted.",
+   "failed_checks": [
+    "agent_result: blocked"
+   ]
+  },
+  "question": "The scraper cannot read Roll20 Marketplace's sales (no sale page). Open https://marketplace.roll20.net/ and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "deal",
+  "key": "https://shop.atlas-games.com/products/character-sheets-magical-kitties-2e-outlet",
+  "url": "https://shop.atlas-games.com/products/character-sheets-magical-kitties-2e-outlet",
+  "title": "Character Sheets (Magical Kitties 2E) [Outlet]",
+  "shop": "Atlas Games",
+  "price_now": 4.0,
+  "price_was": 9.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.54"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": null,
+   "reason": "I could not open the page myself because the sandbox failed to start, so I did not check the page or the product.",
+   "failed_checks": [
+    "agent_unsure: I could not open the page myself because the sandbox failed to start, so I did not check the page or the product."
+   ]
+  },
+  "question": "Does this page show Character Sheets (Magical Kitties 2E) [Outlet] at 4.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://shop.atlas-games.com/products/ag3119-kitty-cards-magical-kitties-2e-restock",
+  "url": "https://shop.atlas-games.com/products/ag3119-kitty-cards-magical-kitties-2e-restock",
+  "title": "AG3119 Kitty Cards (Magical Kitties 2E) [Restock]",
+  "shop": "Atlas Games",
+  "price_now": 9.98,
+  "price_was": 19.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.39"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": null,
+   "reason": "I could not open the page because the sandbox failed to start, and the supplied page text alone does not show whether Kitty Cards is an RPG product or a sale.",
+   "failed_checks": [
+    "agent_unsure: I could not open the page because the sandbox failed to start, and the supplied page text alone does not show whether Kitty Cards is an RPG product or a sale."
+   ]
+  },
+  "question": "Does this page show AG3119 Kitty Cards (Magical Kitties 2E) [Restock] at 9.98 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://shop.atlas-games.com/products/ag3112-character-sheets-magical-kitties-2e-restock",
+  "url": "https://shop.atlas-games.com/products/ag3112-character-sheets-magical-kitties-2e-restock",
+  "title": "AG3112 Character Sheets (Magical Kitties 2E) [Restock]",
+  "shop": "Atlas Games",
+  "price_now": 4.98,
+  "price_was": 9.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.51"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": null,
+   "reason": "I could not open the page because the sandbox failed to start, so I could not check it myself.",
+   "failed_checks": [
+    "agent_unsure: I could not open the page because the sandbox failed to start, so I could not check it myself."
+   ]
+  },
+  "question": "Does this page show AG3112 Character Sheets (Magical Kitties 2E) [Restock] at 4.98 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ }
+]

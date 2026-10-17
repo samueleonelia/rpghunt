@@ -17,6 +17,7 @@ import collections
 import concurrent.futures
 import datetime
 import json
+import re
 import threading
 import urllib.parse
 
@@ -39,7 +40,7 @@ THRESHOLDS = {
     "offer_conf": 0.60,         # promotion / clearance / everyday need this confidence
     "history_min_days": 1,      # days of earlier history needed before an everyday price may count as a drop
     "everyday_no_history": "wait",  # what an everyday deal without a history drop becomes: "wait" or "needs_agent"
-    "batch_size": 20,           # stage A products per request
+    "batch_size": 1,            # stage A products per request
 }
 FEED_SOURCES = {"shopify-api", "woocommerce-api", "itch-data", "bundle-page"}   # the shop's own data feed
 COST_PER_M_INPUT = 0.042        # dollars per million input tokens (output tokens not priced here)
@@ -87,7 +88,8 @@ def product_row(deal):
     return {"title": deal["title"], "shop": deal["shop"], "product_type": h.get("product_type"),
             "tags": _list(h.get("tags"), 12), "categories": _list(h.get("categories"), 8),
             "vendor": h.get("vendor"), "format": deal.get("format"),
-            "description": (h.get("description") or h.get("blurb") or h.get("short_blurb") or "")[:300] or None}
+            "description": (h.get("description") or h.get("blurb") or h.get("short_blurb") or "")[:300] or None,
+            "listed_in": h.get("feed") or deal.get("found_via")}
 
 
 def rpg_question(subject, extra=""):
@@ -190,6 +192,10 @@ def code_check(deal, date):
     ends = (deal.get("ends") or "")[:10]
     if ends and ends < date:
         return f"ended: ends {ends} is before {date}"
+    # A product the shop itself names "free" (e.g. "Quickstart (Free PDF)") is free for good,
+    # not a limited-time giveaway, whatever compare-at price the shop data carries.
+    if now == 0 and re.search(r"\bfree\b", deal.get("title") or "", re.I):
+        return "permanently_free: the shop names this product free"
     return None
 
 
@@ -329,7 +335,7 @@ def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers
         except (JevError, KeyError) as e:
             return batch, None, f"jev_error: stage A {type(e).__name__} {e}"[:200]
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=min(4, max(1, len(batches)))) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(8, max(1, len(batches)))) as pool:
         for batch, ps, err in pool.map(run_a, batches):
             stats["stage_a_requests"] += 1
             for k, i in enumerate(batch):

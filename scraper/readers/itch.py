@@ -95,7 +95,14 @@ def utc_iso(end_date):
 def parse_game_page(page):
     """Game page HTML -> {title, now, was, currency, rate, ends_raw, seller_name} (missing parts are None)."""
     out = {"title": None, "now": None, "was": None, "currency": None, "rate": None,
-           "ends_raw": None, "seller_name": None}
+           "ends_raw": None, "seller_name": None, "description": None, "genre": None}
+    m = re.search(r'<meta[^>]+(?:name|property)=["\'](?:og:)?description["\'][^>]*content=["\']([^"\']*)', page, re.I)
+    if m:
+        out["description"] = html.unescape(m.group(1)).strip()[:300] or None
+    # itch's own "More information" table: Genre / Tags rows (the seller's own labels)
+    m = re.search(r'<td>\s*Genre\s*</td>\s*<td>(.*?)</td>', page, re.S | re.I)
+    if m:
+        out["genre"] = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", m.group(1)))).strip() or None
     for raw in _LD_RE.findall(page):
         try:
             ld = json.loads(raw)
@@ -184,6 +191,7 @@ def _sale_deal(shop, item, gd, facts):
     ends, ends_utc = utc_iso(ends_src)
     url = item["url"]
     hints = {"seller": _subdomain(url), "seller_name": facts["seller_name"], "feed": item["feed"],
+             "description": facts.get("description"), "categories": [facts["genre"]] if facts.get("genre") else [],
              "ends_utc": ends_utc, "sale_rate": facts["rate"] if facts["rate"] is not None else (gd or {}).get("rate")}
     if gd and gd.get("sale_title"):
         hints["sale_title"] = gd["sale_title"]

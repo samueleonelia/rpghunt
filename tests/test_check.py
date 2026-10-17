@@ -141,10 +141,11 @@ class FeedDeals(Base):
         self.assertEqual((r["decision"], r["stage"]), ("needs_agent", "A"))
         self.assertIn("jev_error", r["reasons"][0])
 
-    def test_batches_of_twenty(self):
+    def test_one_product_per_triage_request(self):
+        # One product per request: a product's answer must not depend on its neighbours in a batch.
         deals = [feed_deal(url=f"https://shop.example/products/{i}") for i in range(45)]
         _, stats = self.run_check(deals, script(**{"p*": 0.95, "offer_kind": "promotion"}))
-        self.assertEqual((stats["stage_a_requests"], stats["stage_b_requests"]), (3, 45))
+        self.assertEqual((stats["stage_a_requests"], stats["stage_b_requests"]), (45, 45))
 
 
 class PublisherFeedDeals(Base):
@@ -164,6 +165,12 @@ class SafetyRules(Base):
                                  script(**{"p*": 0.95}))
         self.assertEqual(r["decision"], "needs_agent")
         self.assertTrue(r["reasons"][0].startswith("suspect_discount"))
+
+    def test_product_named_free_is_not_a_giveaway(self):
+        deal = feed_deal(shop_id="publisher", type="free", price_now=0.0, price_was=5.99,
+                         title="Some RPG Quickstart (Free PDF)")
+        (r,), _ = self.run_check([deal], script(**{"p*": 0.95, "offer_kind": "promotion"}))
+        self.assertEqual((r["decision"], r["reasons"][0].split(":")[0]), ("drop", "permanently_free"))
 
     def test_free_from_shop_data_must_prove_it_is_limited(self):
         deal = feed_deal(shop_id="publisher", type="free", price_now=0.0, price_was=5.99)
@@ -279,7 +286,7 @@ class SelectAndEstimate(Base):
     def test_estimate_counts_requests(self):
         deals = [feed_deal(url=f"https://shop.example/products/{i}") for i in range(41)] + [page_deal()]
         e = check.estimate(deals, DATE, T, self.hist)
-        self.assertEqual(e["stage_a_requests"], 3)
+        self.assertEqual(e["stage_a_requests"], 42)
         self.assertEqual(e["stage_b_requests"], 42)
         self.assertEqual(e["page_fetches_certain"], 1)
         self.assertGreater(e["input_tokens_estimate"], 0)
