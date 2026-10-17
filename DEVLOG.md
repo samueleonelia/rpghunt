@@ -281,3 +281,22 @@
 - User: run the daily command once from a normal terminal to confirm the browsing agent works there.
 - User decision: put the new deals live (writes `docs/data/deals.json`).
 - Then: daily scheduled run; recipes for CoolStuffInc, Noble Knight, Massif, Roll20; GameNerdz, Demiplane, Fanatical are JavaScript-only.
+
+## 2026-10-17: DriveThruRPG added, honest bot name
+
+**Status:** `main` (dc29537), pushed. Live site still shows the 2026-10-16 deals.
+
+**Done**
+- DriveThruRPG via its public data server `api.drivethrurpg.com` (its robots.txt: `Allow: /`); `www.drivethrurpg.com` (bot wall) is never fetched, enforced in `fetch()`. 1,708 on-sale products, 1,616 deals, under 2 minutes. Pictures from its image server.
+- Bot renamed to `RPGHuntBot/1.0` with a bot page link; no shop started blocking it. Bot page text in `agents/bot-page.md` (needs a contact email before publishing).
+- Reddit removed from lead feeds (not a shop; its robots refuse us).
+- Browsing agent tested from the user's terminal: it starts, but Claude's own network filter blocks shop sites, so it answered "unsure" on all 6 jobs. Waiting on the user's choice: allow shop domains, or have Python fetch for it.
+
+**Decisions**
+- Shops with everyday markdowns (DriveThruRPG, retailers) publish only on a price drop we saw ourselves or a trusted roundup (EN World) naming the deal; Jev's "promotion" wording alone is not enough. Day 1 of DriveThruRPG history: 1,114 deals wait; real drops show from the next run.
+- Unsure deals on bot-walled sites are judged from shop data, not the page.
+- Legal note given to the user: facts and prices are low risk; EU database right, shop terms and images are gray areas; honest bot, opt-out, affiliate feeds and a lawyer before monetizing.
+
+**Next**
+- User: agent network choice; contact email for the bot page; go-live decision.
+- Daily scheduled run (needed for DriveThruRPG price drops to appear).

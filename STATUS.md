@@ -1,12 +1,12 @@
 # STATUS: RPG Hunt (rpgArchive)
 
-_Updated: 2026-10-17 · branch main · tag v0.3-scraper_
+_Updated: 2026-10-17 · branch main · commit dc29537_
 
 <!-- Rewrite this file in place. Never append. History belongs in DEVLOG.md. Keep under 60 lines. -->
 
 **What this is:** A daily list of tabletop RPG deals, collected and verified by AI agents, English first, with a catalog of games behind it.
 
-**Right now:** The new scraper is built and merged: one command (`.venv/bin/python -m scraper.daily`) reads 46 shops, checks every deal with Jev, and writes a site preview of about 1,000 deals for about $0.06 a day. The live site still shows the 2026-10-16 deals until you decide to go live. Plan doc: https://claude.ai/code/artifact/0bd90157-4e2b-4098-95e8-b66a7a3fb090
+**Right now:** The new scraper is built and merged: one command (`.venv/bin/python -m scraper.daily`) reads 47 shops (DriveThruRPG included), checks every deal with Jev, and writes a site preview of about 1,000 deals for about $0.06 a day. The live site still shows the 2026-10-16 deals until you decide to go live. Plan doc: https://claude.ai/code/artifact/0bd90157-4e2b-4098-95e8-b66a7a3fb090
 
 ## Feature areas
 | Area | State | Note |
@@ -14,12 +14,13 @@ _Updated: 2026-10-17 · branch main · tag v0.3-scraper_
 | Live site (GitHub Pages) | ✅ working | every push to `main` republishes; still old deals |
 | Shop readers (46 shops) | ✅ working | Shopify, WooCommerce, itch.io, bundles, generic; about 8 min |
 | Jev check | ✅ working | 5/5 fakes rejected, 28/29 test deals published, about $0.06 a day |
-| Browsing agent (Claude) | ⚠️ partial | works from a normal terminal; blocked inside a sandboxed session |
-| New shops and missed deals | ✅ working | EN World leads; Reddit refuses robots |
+| Browsing agent (Claude) | ⚠️ partial | starts from your terminal; network filter blocks shop sites (your choice pending) |
+| New shops and missed deals | ✅ working | EN World leads (Reddit removed) |
 | Break alarm | ✅ working | unit-tested; needs 3 runs of history |
 | Site preview + daily report | ✅ working | `data/deals/site-preview-<date>.json`, `daily-report-<date>.md` |
 | Daily scheduled run | 🚧 building | not set up |
-| Amazon, DriveThruRPG deals | ❌ broken | need official feeds (accounts) |
+| DriveThruRPG | ✅ working | public data server; deals appear on real price drops from day 2 |
+| Amazon deals | ❌ broken | needs Amazon API (Associates account) |
 | JavaScript-only shops | ❌ broken | GameNerdz, Demiplane, Fanatical need a browser |
 | Reviews and ratings | ✅ working | ratings from itch.io pages |
 | Game catalog | ✅ working | 50 of 1,425 games |
@@ -37,6 +38,8 @@ _Updated: 2026-10-17 · branch main · tag v0.3-scraper_
 - Humble Bundle "worth" figures are inflated; those bundles go to the agent.
 
 ## Blocked on you
+- Browsing agent network: shop sites only (1) or Python fetches for it (2)
+- Contact email for the bot page
 - Decide: go live with the new deals
 - Buy rpghunt.com
-- Amazon Associates and DriveThruRPG affiliate accounts
+- Amazon Associates account; DriveThruRPG affiliate account (commission)
