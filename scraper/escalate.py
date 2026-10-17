@@ -44,7 +44,15 @@ def recipe_candidates(shops, scrape_report, attempts, date, retry=False):
     """-> list of (shop, why). Active generic shops with no sale page / 0 deals, and any shop with a break alarm."""
     by_id = {s["id"]: s for s in shops}
     out = []
+
+    def recent_attempt(shop):
+        last = attempts.get(shop["id"])
+        return bool(last and not retry and
+                    (datetime.date.fromisoformat(date) - datetime.date.fromisoformat(last["date"])).days < RETRY_DAYS)
+
+    ran = set()
     for row in scrape_report.get("shops", []):
+        ran.add(row["id"])
         shop = by_id.get(row["id"])
         if not shop or shop.get("status") != "active":
             continue
@@ -53,11 +61,15 @@ def recipe_candidates(shops, scrape_report, attempts, date, retry=False):
                          and row["status"] in ("ok", "error") and row.get("errors") != ["no reader"])
         if not (alarm or generic_empty):
             continue
-        last = attempts.get(shop["id"])
-        if last and not retry and (datetime.date.fromisoformat(date) - datetime.date.fromisoformat(last["date"])).days < RETRY_DAYS:
+        if recent_attempt(shop):
             continue
         why = "break alarm" if alarm else "no sale page" if row.get("no_sale_page") else "reader returned 0 deals"
         out.append((shop, why))
+    # shops found through a lead (scraper.discover) that today's run has not read yet
+    for shop in shops:
+        if (shop.get("needs_recipe") and shop.get("status") == "active" and shop["platform"] == "generic"
+                and shop["id"] not in ran and not recent_attempt(shop)):
+            out.append((shop, "new shop"))
     out.sort(key=lambda x: x[1] != "break alarm")      # alarms first
     return out
 

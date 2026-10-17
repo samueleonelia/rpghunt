@@ -1,0 +1,54 @@
+{
+ "about": "Lead feeds: places where people post RPG sales. scraper/discover.py reads them, pulls every outbound link, and sorts the links by shop. Add a feed by adding an object to `feeds`. A feed can be RSS or Atom (detected automatically).",
+ "max_age_days": 14,
+ "max_new_shops_per_day": 10,
+ "max_detect_per_day": 25,
+ "max_article_fetches_per_feed": 6,
+ "article_title_patterns": [
+  "freebies,? sales",
+  "charity bundles?",
+  "\\bsales?\\b",
+  "\\bbundles?\\b",
+  "\\bdeals?\\b",
+  "\\bdiscounts?\\b",
+  "\\d+\\s?% off"
+ ],
+ "feeds": [
+  {
+   "id": "reddit-rpg-search",
+   "url": "https://www.reddit.com/r/rpg/search.rss?q=sale+OR+bundle+OR+discount+OR+deal&restrict_sr=1&sort=new&t=week",
+   "enabled": true,
+   "fetch_articles": false
+  },
+  {
+   "id": "reddit-rpg-new",
+   "url": "https://www.reddit.com/r/rpg/new/.rss",
+   "enabled": true,
+   "fetch_articles": false
+  },
+  {
+   "id": "enworld",
+   "url": "https://www.enworld.org/ewr-porta/index.rss",
+   "enabled": true,
+   "fetch_articles": true,
+   "article_selector": ".message-body .bbWrapper"
+  }
+ ],
+ "deny_domains": [
+  "reddit.com", "redd.it", "redditmedia.com", "redditstatic.com",
+  "imgur.com", "gfycat.com", "giphy.com",
+  "youtube.com", "youtu.be", "twitch.tv", "vimeo.com", "tiktok.com", "spotify.com", "apple.com",
+  "wikipedia.org", "wikimedia.org", "wikidata.org", "archive.org",
+  "twitter.com", "x.com", "t.co", "bsky.app", "bsky.social", "facebook.com", "fb.com", "fb.me",
+  "instagram.com", "threads.net", "linkedin.com", "pinterest.com", "tumblr.com", "mastodon.social",
+  "discord.com", "discord.gg", "discordapp.com", "patreon.com", "ko-fi.com", "buymeacoffee.com",
+  "kickstarter.com", "backerkit.com", "gamefound.com", "indiegogo.com", "gofundme.com",
+  "google.com", "goo.gl", "googleusercontent.com", "gstatic.com", "github.com", "github.io",
+  "amzn.to", "a.co", "amzn.com", "amzn.eu",
+  "bit.ly", "tinyurl.com", "ow.ly", "buff.ly", "is.gd", "linktr.ee",
+  "wordpress.com", "blogspot.com", "medium.com", "substack.com",
+  "sjv.io", "awin1.com", "shareasale.com", "tidd.ly", "dpbolvw.net", "anrdoezrs.net", "jdoqocy.com", "kqzyfj.com", "tkqlhce.com", "linksynergy.com", "redirectingat.com",
+  "enworld.org", "xenforo.com", "gravatar.com", "w3.org", "schema.org"
+ ],
+ "deny_extensions": [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".mp4", ".mp3", ".zip", ".ico"]
+}

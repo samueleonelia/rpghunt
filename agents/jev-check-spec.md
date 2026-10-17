@@ -16,7 +16,7 @@ One request per batch of 20 deals. State: `{"products": [{"title", "shop", "prod
 
 - instructions: "Is `products[i]` a tabletop roleplaying game product?"
 - criteria.true: "A rulebook, core book, adventure, campaign, supplement, setting book, bestiary, zine, quickstart, starter set, or a bundle of these, in print, PDF or as a VTT module, used to play a tabletop roleplaying game."
-- criteria.false: "Anything else: miniatures and wargame models or rules, board games, card games, dice, dice trays, GM screens, maps, tokens, card decks, apparel, pins, posters, art books, novels and fiction, video games, STL files, gift cards, software, or books about other subjects."
+- criteria.false: "Anything else: miniatures and wargame models or rules, board games, card games, dice, dice trays, GM screens, maps, tokens, card decks, notebooks, journals and stationery, apparel, pins, posters, art books, novels and fiction, video games, STL files, gift cards, software, or books about other subjects."
 
 Policy (code): p >= 0.70 RPG; p < 0.30 drop; between: stage B decides with the page (ask again with page text).
 

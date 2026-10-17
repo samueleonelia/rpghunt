@@ -50,8 +50,18 @@ def _host(url):
     return urllib.parse.urlsplit(url).netloc.lower()
 
 
+_robots_locks = {}
+
+
 def _allowed(url):
     host = _host(url)
+    with _guard:
+        lock = _robots_locks.setdefault(host, threading.Lock())
+    with lock:  # one robots.txt fetch per site, even when many threads start at once
+        return _allowed_locked(url, host)
+
+
+def _allowed_locked(url, host):
     with _guard:
         rp = _robots.get(host)
     if rp is None:

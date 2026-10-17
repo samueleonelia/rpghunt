@@ -158,6 +158,19 @@ class PublisherFeedDeals(Base):
         self.assertEqual(r["decision"], "drop")
 
 
+class SafetyRules(Base):
+    def test_implausible_discount_goes_to_the_agent(self):
+        (r,), _ = self.run_check([feed_deal(shop_id="publisher", price_now=5.0, price_was=500.0)],
+                                 script(**{"p*": 0.95}))
+        self.assertEqual(r["decision"], "needs_agent")
+        self.assertTrue(r["reasons"][0].startswith("suspect_discount"))
+
+    def test_free_from_shop_data_must_prove_it_is_limited(self):
+        deal = feed_deal(shop_id="publisher", type="free", price_now=0.0, price_was=5.99)
+        (r,), _ = self.run_check([deal], script(**{"p*": 0.95, "offer_kind": "everyday"}))
+        self.assertNotEqual(r["decision"], "publish")
+
+
 class PageDeals(Base):
     def answers(self, **kw):
         base = {"p*": 0.95, "support": "supports", "price_now_pick": "$24.00", "price_was_pick": "$30.00",

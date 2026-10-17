@@ -98,7 +98,8 @@
   "recipe_confirmed": "2026-10-17",
   "added": "2026-10-17",
   "added_via": "seed list",
-  "notes": null
+  "notes": null,
+  "rpg_only": true
  },
  {
   "id": "humble-bundle",
@@ -570,7 +571,7 @@
     "https://www.nobleknight.com/sales"
    ]
   },
-  "recipe_confirmed": "2026-10-17",
+  "recipe_confirmed": null,
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://www.nobleknight.com/sales",
@@ -750,6 +751,19 @@
   "recipe_confirmed": null,
   "added": "2026-10-17",
   "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "enpublishingrpg",
+  "name": "enpublishingrpg.com",
+  "store_url": "https://enpublishingrpg.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "GBP",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "lead enworld 2026-10-17",
   "notes": null
  }
 ]

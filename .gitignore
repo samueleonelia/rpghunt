@@ -51,3 +51,7 @@ data/prices/
 # Escalation test-double output
 data/deals/escalation-*-FAKE.json
 data/deals/needs-owner-*-FAKE.json
+# Phase 4 test-double output and fetch caches
+data/deals/site-preview-*-FAKE.json
+data/deals/daily-report-*-FAKE.md
+data/deals/page-meta-cache.json

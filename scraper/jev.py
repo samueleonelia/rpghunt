@@ -105,8 +105,13 @@ class Jev(_Tally):
                 from typesafe_sdk import RetryPolicy, TypeSafeClient
                 load_env_key()
                 try:
+                    # Python's standard certificate check: the SDK's default (macOS native
+                    # trust) fails inside sandboxed shells; this one works everywhere.
+                    import ssl
+                    import httpx2
+                    http = httpx2.Client(verify=ssl.create_default_context(), timeout=60.0)
                     self._client = TypeSafeClient(
-                        model=self.model,
+                        model=self.model, http_client=http,
                         retry=RetryPolicy(max_retries=4, backoff_initial=1.0, backoff_max=20.0, timeout=60.0))
                 except Exception as e:
                     raise JevError(f"cannot start the client: {type(e).__name__}") from None

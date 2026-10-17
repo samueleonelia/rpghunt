@@ -3,6 +3,7 @@
 Prices in the Store API are minor units (currency_minor_unit decimals).
 """
 import html
+import re
 
 from scraper.common import FetchError, fetch_json, is_discount, make_deal, money
 
@@ -39,7 +40,10 @@ def parse_product(shop, product):
     title = html.unescape(product["name"])
     cats, tags = _names(product.get("categories")), _names(product.get("tags"))
     kind = "free" if now == 0 else guess_type(title, cats, tags)
-    hints = {"categories": cats, "tags": tags, "type": product.get("type"),
+    desc = product.get("short_description") or product.get("description") or ""
+    desc = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", desc))).strip()[:300] or None
+    image = ((product.get("images") or [{}])[0] or {}).get("src")
+    hints = {"categories": cats, "tags": tags, "type": product.get("type"), "description": desc, "image": image,
              "type_guess": kind != "free"}
     deal = make_deal(
         shop=shop, type=kind, title=title, url=product["permalink"],

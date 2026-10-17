@@ -32,7 +32,7 @@ FIXTURES = TESTSET / "fixtures"
 # All tunable numbers live here (tuned in step 2.3; these are the spec's start values).
 THRESHOLDS = {
     "rpg_yes": 0.70,            # stage A / rpg question: p >= this is an RPG product
-    "rpg_no": 0.30,             # p < this is dropped; between the two is "unsure"
+    "rpg_no": 0.20,             # p < this is dropped; between the two is "unsure"
     "support_conf": 0.80,       # `supports` needs this confidence to publish
     "contradict_conf": 0.80,    # `contradicts` at this confidence drops the deal
     "pick_conf": 0.60,          # a price pick that disagrees with the claim drops the deal at this confidence
@@ -53,9 +53,10 @@ FETCH_SECONDS = 2.2             # 1.5 s polite delay + about 0.7 s for the reque
 RPG_CRITERIA = {
     "true": ("A rulebook, core book, adventure, campaign, supplement, setting book, bestiary, zine, "
              "quickstart, starter set, or a bundle of these, in print, PDF or as a VTT module, used to "
-             "play a tabletop roleplaying game."),
+             "play a tabletop roleplaying game. A bundle that is mainly such books still counts when it "
+             "also includes dice or other extras."),
     "false": ("Anything else: miniatures and wargame models or rules, board games, card games, dice, "
-              "dice trays, GM screens, maps, tokens, card decks, apparel, pins, posters, art books, "
+              "dice trays, GM screens, maps, tokens, card decks, notebooks, journals and stationery, apparel, pins, posters, art books, "
               "novels and fiction, video games, STL files, gift cards, software, or books about other "
               "subjects."),
 }
@@ -85,7 +86,8 @@ def product_row(deal):
     h = deal.get("hints") or {}
     return {"title": deal["title"], "shop": deal["shop"], "product_type": h.get("product_type"),
             "tags": _list(h.get("tags"), 12), "categories": _list(h.get("categories"), 8),
-            "vendor": h.get("vendor"), "format": deal.get("format")}
+            "vendor": h.get("vendor"), "format": deal.get("format"),
+            "description": (h.get("description") or h.get("blurb") or h.get("short_blurb") or "")[:300] or None}
 
 
 def rpg_question(subject, extra=""):
@@ -174,7 +176,8 @@ def everyday_shop(deal):
 def needs_offer_check(deal):
     """A publisher's own sale price in its own shop data is the promotion itself. Only page-read
     deals and retailers with everyday below-list prices need Jev's offer_kind (and history)."""
-    return is_page_sourced(deal) or everyday_shop(deal)
+    # A price of 0 in shop data is often a permanently free PDF, not a limited-time giveaway.
+    return is_page_sourced(deal) or everyday_shop(deal) or deal.get("type") == "free"
 
 
 # ---------------------------------------------------------------- decisions (pure code)
@@ -187,6 +190,17 @@ def code_check(deal, date):
     ends = (deal.get("ends") or "")[:10]
     if ends and ends < date:
         return f"ended: ends {ends} is before {date}"
+    return None
+
+
+SUSPECT_DISCOUNT = 95   # % off at or above this, with a price above 0, looks like a made-up normal price
+
+
+def suspect_price(deal):
+    """Reason when the claimed discount is implausible (e.g. a bundle 'worth' 500x its price)."""
+    now, was = deal.get("price_now"), deal.get("price_was")
+    if now and was and 100 * (1 - now / was) >= SUSPECT_DISCOUNT:
+        return f"suspect_discount: {now} vs {was} is {round(100 * (1 - now / was))}% off"
     return None
 
 
@@ -263,6 +277,10 @@ def decide(deal, rpg_p, answers, page, facts, T=THRESHOLDS):
     elif not drops and needs_offer_check(deal):
         blockers.append("offer_not_asked")
 
+    sus = suspect_price(deal)
+    if sus:
+        blockers.append(sus)
+
     if drops:
         return "drop", drops, check
     if blockers:
@@ -291,10 +309,17 @@ def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers
         else:
             todo.append(i)
 
+    # Shops that sell only tabletop RPGs (shops.json `rpg_only`) skip the triage: p = 1.
+    rpg_only = {s["id"] for s in load_shops() if s.get("rpg_only")}
+    stage_p = {}
+    for i in list(todo):
+        if deals[i].get("shop_id") in rpg_only:
+            stage_p[i] = 1.0
+    todo_a = [i for i in todo if i not in stage_p]
+
     # ---- stage A: triage in batches, no page fetch
     size = T["batch_size"]
-    batches = [todo[k:k + size] for k in range(0, len(todo), size)]
-    stage_p = {}
+    batches = [todo_a[k:k + size] for k in range(0, len(todo_a), size)]
 
     def run_a(batch):
         state, questions = build_stage_a([deals[i] for i in batch])

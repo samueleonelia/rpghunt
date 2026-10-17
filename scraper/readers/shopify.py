@@ -2,6 +2,8 @@
 
 A product is a deal when any variant has compare_at_price above price.
 """
+import html
+import re
 import urllib.parse
 
 from scraper.common import FetchError, fetch_json, is_discount, make_deal, money
@@ -9,6 +11,18 @@ from scraper.common import FetchError, fetch_json, is_discount, make_deal, money
 PAGE_LIMIT = 250
 MAX_PAGES = 40
 MAX_PAGE_PRICE_CHECKS = 100   # opt-in recipe.page_prices: product pages read per shop
+
+
+def _plain_text(markup):
+    """Shop description HTML -> plain text (for the RPG check's evidence)."""
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", markup or ""))).strip()
+
+
+def _https(url):
+    """Shopify image URLs can be protocol-relative (//cdn.shopify.com/...); the site needs https."""
+    if not url:
+        return None
+    return "https:" + url if url.startswith("//") else "https://" + url[7:] if url.startswith("http://") else url
 
 
 def _origin(shop):
@@ -54,6 +68,8 @@ def parse_product(shop, product, origin=None):
         "tags": product.get("tags") or [],
         "vendor": product.get("vendor") or None,
         "variant": None if vtitle in (None, "Default Title") else vtitle,
+        "description": _plain_text(product.get("body_html"))[:300] or None,
+        "image": _https(((product.get("images") or [{}])[0] or {}).get("src")),
     }
     return make_deal(
         shop=shop, type=kind, title=product["title"],

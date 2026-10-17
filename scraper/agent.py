@@ -336,6 +336,7 @@ def save_recipe(shop_id, recipe, date):
             s["platform"] = "generic"
             s["recipe"] = recipe
             s["recipe_confirmed"] = date
+            s.pop("needs_recipe", None)          # set by scraper.discover for shops found through a lead
             note = f"recipe by browsing agent {date}"
             s["notes"] = f"{s['notes']}; {note}" if s.get("notes") and note not in s["notes"] else (s.get("notes") or note)
             save_shops(shops)
