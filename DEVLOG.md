@@ -227,3 +227,29 @@
 
 **Next**
 - Phase 1: collectors (shop list and recipe formats, seed list, Shopify/WooCommerce/itch/bundle readers, generic reader). Gate: run over the seed list, score against the test set.
+
+## 2026-10-17: Scraper phase 1 done (collectors)
+
+**Status:** branch `scraper-v2`, phase 1 of 5 done (commit 826a2c5). Gate 1 passed.
+
+**Done**
+- `scraper/`: readers for Shopify (`products.json`), WooCommerce (Store API), itch.io (feeds + `data.json` + game page), Bundle of Holding, Humble, and a generic reader (product data in the page, sale-page markup, recipe selectors). Plus `detect.py` (platform finder), `run.py` (parallel runner, run report), `score.py` (test-set scorer). 56 unit tests with saved fixtures.
+- Seed list of 60 shops (`data/shops/seed-2026-10-17.json`) by the Researcher; 53 detected into `data/shops/shops.json`: about 25 Shopify, 8 WooCommerce, 10 generic, 9 blocked.
+- Built by: Lead (spec, `common.py`, fixes), Builder A (Shopify, WooCommerce, detect, run, score), Builder B (itch, bundles), Builder C (generic), Researcher (seed list).
+
+**Gate 1 results**
+- Full run: 45 shops, 0 errors, 6.4 minutes, about 2,250 raw deals.
+- Test set: 29 of 29 real deals found (itch 10, Shopify 8, bundle sites 6, WooCommerce 5).
+- Fakes: wrong-price fake kept out (run shows the real price); not-an-RPG fake (Modiphius dice tray) still in, as expected until phase 2.
+- Old checker (`build_deals.py`) on a 40-deal sample: 36 kept, 0 dead or wrong pages, 4 dropped because it can't spot some prices on the page (likely "$1,099" formatting). Dropping is safe.
+
+**Decisions and learnings**
+- Browser impersonation is off: with it, Shopify served Exalted Funeral without compare-at prices (0 sale items instead of 213).
+- Modiphius and Exalted Funeral read their full catalog; Leisure Games (retailer) only its "reduced price" collection.
+- itch reads 3 feeds; "0% off" items never become deals.
+- Raw daily output (about 2 MB) is gitignored; run report and score are committed.
+- Precision is the next problem: about 2,250 raw deals include miniatures, board games, dice and retailers' everyday below-list prices. Phase 2 must filter: Jev "is this an RPG?" and "limited-time or normal price?", plus a price-history check (a real deal is a drop from the price we saw before).
+- Generic shops with no usable sale page (Chaosium, Noble Knight, GameNerdz, CoolStuffInc, Roll20, Demiplane, Fanatical, Massif) need recipes from the phase 3 agent.
+
+**Next**
+- Phase 2: Jev check. Needs the TypeSafe API key in `.env`.
