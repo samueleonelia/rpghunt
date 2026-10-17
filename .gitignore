@@ -40,3 +40,11 @@ downloads/
 
 # Daily scraper output (about 2 MB a day; the run report and score are kept)
 data/deals/raw/*-scraper.json
+
+# Jev answer cache (re-runs and tuning cost nothing; rebuilt on demand) and test-double output
+data/jev-cache/
+data/deals/raw/*-checked-FAKE.json
+data/deals/check-report-*-FAKE.json
+data/deals/raw/*-checked.json
+# Price history: local for now (about 0.3 MB rewritten a day); decide where it lives when the daily run is set up
+data/prices/

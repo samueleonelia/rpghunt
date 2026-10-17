@@ -1,1 +1,2 @@
 scrapling[fetchers]==0.4.15
+typesafe-sdk==0.7.5

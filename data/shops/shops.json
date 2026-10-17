@@ -562,7 +562,8 @@
   "recipe_confirmed": "2026-10-17",
   "added": "2026-10-17",
   "added_via": "seed list",
-  "notes": "sale page: https://www.nobleknight.com/sales"
+  "notes": "sale page: https://www.nobleknight.com/sales",
+  "everyday_discounts": true
  },
  {
   "id": "indie-press-revolution",
@@ -575,7 +576,8 @@
   "recipe_confirmed": null,
   "added": "2026-10-17",
   "added_via": "seed list",
-  "notes": "robots: https://www.indiepressrevolution.com/xcart/ disallowed by robots.txt; sale page: https://www.indiepressrevolution.com/xcart/Deals-and-Specials.html"
+  "notes": "robots: https://www.indiepressrevolution.com/xcart/ disallowed by robots.txt; sale page: https://www.indiepressrevolution.com/xcart/Deals-and-Specials.html",
+  "everyday_discounts": true
  },
  {
   "id": "miniature-market",
@@ -588,7 +590,8 @@
   "recipe_confirmed": null,
   "added": "2026-10-17",
   "added_via": "seed list",
-  "notes": "robots: https://www.miniaturemarket.com/products.json?limit=1 disallowed by robots.txt; sale page: https://www.miniaturemarket.com/last-chance/rpg"
+  "notes": "robots: https://www.miniaturemarket.com/products.json?limit=1 disallowed by robots.txt; sale page: https://www.miniaturemarket.com/last-chance/rpg",
+  "everyday_discounts": true
  },
  {
   "id": "coolstuffinc",
@@ -605,7 +608,8 @@
   "recipe_confirmed": "2026-10-17",
   "added": "2026-10-17",
   "added_via": "seed list",
-  "notes": "sale page: https://www.coolstuffinc.com/main_saleItems.php"
+  "notes": "sale page: https://www.coolstuffinc.com/main_saleItems.php",
+  "everyday_discounts": true
  },
  {
   "id": "gamenerdz",
@@ -622,7 +626,8 @@
   "recipe_confirmed": null,
   "added": "2026-10-17",
   "added_via": "seed list",
-  "notes": "sale page: https://www.gamenerdz.com/deals"
+  "notes": "sale page: https://www.gamenerdz.com/deals",
+  "everyday_discounts": true
  },
  {
   "id": "leisure-games",
@@ -639,7 +644,8 @@
   "recipe_confirmed": "2026-10-17",
   "added": "2026-10-17",
   "added_via": "seed list",
-  "notes": "Retailer: most items sit below list price every day, so read only its \"reduced price\" collection. Full catalog is over 10,000 items."
+  "notes": "Retailer: most items sit below list price every day, so read only its \"reduced price\" collection. Full catalog is over 10,000 items.",
+  "everyday_discounts": true
  },
  {
   "id": "gms-tabletop-games",
@@ -654,7 +660,8 @@
   "recipe_confirmed": "2026-10-17",
   "added": "2026-10-17",
   "added_via": "seed list",
-  "notes": "sale page: https://gmstabletopgames.com/product-category/offers/"
+  "notes": "sale page: https://gmstabletopgames.com/product-category/offers/",
+  "everyday_discounts": true
  },
  {
   "id": "roll20-marketplace",
