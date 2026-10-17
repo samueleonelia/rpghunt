@@ -395,9 +395,12 @@ def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers
                 with lock:
                     stats["page_failures"] += 1
                 kind = getattr(e, "kind", type(e).__name__)
-                if page_sourced or status == "unsure":
+                # A feed deal whose page we may not open (a bot wall such as DriveThruRPG's):
+                # the RPG question is asked again without the page, using the shop's own data.
+                if page_sourced or kind != "blocked":
                     put(i, "needs_agent", "B", [f"page_unreadable: {kind}"], {"rpg_p": round(p_a, 3), "history": facts})
                     return
+                page = None
         state, questions = build_stage_b(d, facts, page, ask_rpg=(status == "unsure"), ask_page=page_sourced)
         if not questions:  # a publisher's own sale, clearly an RPG: nothing left for Jev to judge
             decision, reasons, check = decide(d, p_a, {}, page, facts, T, lead)

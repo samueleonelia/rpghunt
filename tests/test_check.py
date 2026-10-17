@@ -95,9 +95,10 @@ class FeedDeals(Base):
         self.assertEqual((r["decision"], r["reasons"][0].split(":")[0]), ("needs_agent", "rpg_unsure"))
 
     def test_unsure_rpg_with_unreadable_page_goes_to_needs_agent(self):
-        self.page_html = FetchError("blocked", "u")
+        # a page that is gone or errors (not a bot wall): the agent looks at it
+        self.page_html = FetchError("dead", "u")
         (r,), _ = self.run_check([feed_deal()], script(**{"p*": 0.5}))
-        self.assertEqual((r["decision"], r["reasons"][0]), ("needs_agent", "page_unreadable: blocked"))
+        self.assertEqual((r["decision"], r["reasons"][0]), ("needs_agent", "page_unreadable: dead"))
 
     def test_everyday_without_history_is_not_published(self):
         (r,), _ = self.run_check([feed_deal()], script(**{"p*": 0.95, "offer_kind": "everyday"}))
@@ -164,6 +165,14 @@ class EverydayShops(Base):
         # shop "shop" is flagged everyday_discounts in Base.setUp; no history, no lead
         (r,), _ = self.run_check([feed_deal()], script(**{"p*": 0.95, "offer_kind": "promotion"}))
         self.assertEqual(r["decision"], "wait")
+
+
+class BlockedPages(Base):
+    def test_unsure_feed_deal_on_a_bot_walled_site_is_judged_without_the_page(self):
+        from scraper.common import FetchError
+        self.page_html = FetchError("blocked", "https://www.drivethrurpg.com/product/1/x")
+        (r,), _ = self.run_check([feed_deal(shop_id="publisher")], script(**{"p*": 0.5, "rpg": 0.9}))
+        self.assertEqual(r["decision"], "publish")
 
 
 class SafetyRules(Base):
