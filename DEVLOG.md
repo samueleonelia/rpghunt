@@ -202,3 +202,28 @@
 - Phone: header scrolls away (was 193px sticky), nav scrolls sideways without a scrollbar.
 - Impeccable detector: 0 findings (faint rank numerals raised to 3.3:1).
 - User idea: a short, easy-to-say brand word like "sumo" instead of "Hunt". Not done yet.
+
+## 2026-10-17: Scraper rebuild planned, phase 0 done
+
+**Status:** branch `scraper-v2`, phase 0 of 5 done. `main` untouched.
+
+**Plan** (doc: https://claude.ai/code/artifact/0bd90157-4e2b-4098-95e8-b66a7a3fb090)
+- Replace the 4 web-searching agents (about 515k tokens a day) with a ladder: code reads shop data (Shopify, WooCommerce, itch.io, bundle sites, product data in pages), Scrapling reads other pages with a saved per-shop recipe, Jev (TypeSafe) checks every deal, a browsing Claude agent steps in only when code fails or Jev is unsure, and the user decides when Claude is still unsure.
+- Shop list grows by itself from Reddit, EN World, bundles, itch.io and catalog publishers. A daily missed-deal check adds shops we missed.
+- Build: 5 phases with gates. Lead = main session (Opus 5.5); Builder = executor-sonnet-high; Researcher = researcher-high.
+
+**Done (phase 0)**
+- `.venv` with Python 3.14 (Homebrew) and `scrapling[fetchers]==0.4.15` (`requirements.txt`). No browsers downloaded yet.
+- Test set `data/testset/2026-10-17.json`: 29 hand-verified live deals (itch 10, Shopify 8, bundle sites 6, WooCommerce 5), plus 5 planted fakes (wrong price, not an RPG, normal price, expired, hidden AI instruction) with 2 local fixture pages.
+
+**Decisions**
+- Scrapling's anti-bot bypass stays off; blocked shops (DriveThruRPG, Amazon) go through official feeds.
+- Claude's verdicts must still pass code checks and can't overrule a Jev "contradicts".
+
+**Learnings**
+- Store APIs work: Modiphius and Exalted Funeral (Shopify), Evil Hat and Kobold (WooCommerce, Kobold under `/kpstore/wp-json/`). Pelgrane, Goodman Games, Cubicle 7: HTTP 403.
+- Traps for the scraper: itch feed lists "0% off" items; sale collections mix in minis, board games, dice; feed and page lists disagree; currency follows the visitor (GBP, EUR).
+- The user's safety guard blocked the first Researcher pass on price pages, and blocks commands that mention it by name.
+
+**Next**
+- Phase 1: collectors (shop list and recipe formats, seed list, Shopify/WooCommerce/itch/bundle readers, generic reader). Gate: run over the seed list, score against the test set.

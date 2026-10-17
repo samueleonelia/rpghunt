@@ -1,35 +1,42 @@
 # STATUS: RPG Hunt (rpgArchive)
 
-_Updated: 2026-10-16 · commit 32c5a96_
+_Updated: 2026-10-17 · branch scraper-v2_
 
 <!-- Rewrite this file in place. Never append. History belongs in DEVLOG.md. Keep under 60 lines. -->
 
 **What this is:** A daily list of tabletop RPG deals, collected and verified by AI agents, English first, with a catalog of games behind it.
 
-**Right now:** Live at https://samueleonelia.github.io/rpghunt/ with the 27 deals from 2026-10-16. Deals are not refreshed yet: the page hides ended deals, so the list shrinks day by day.
+**Right now:** Rebuilding the deal scraper on branch `scraper-v2` (phase 0 of 5 done). The live site still shows the 2026-10-16 deals. Plan doc: https://claude.ai/code/artifact/0bd90157-4e2b-4098-95e8-b66a7a3fb090
 
 ## Feature areas
 | Area | State | Note |
 |---|---|---|
 | Live site (GitHub Pages) | ✅ working | every push to `main` republishes |
-| Deal-finding agents | ✅ working | 4 agents, about 515k tokens per day |
+| Old deal-finding agents | ✅ working | 4 agents, about 515k tokens per run; being replaced |
+| New scraper: setup + test set | ✅ working | Python 3.14 venv, Scrapling 0.4.15, 29 real deals + 5 fakes |
+| New scraper: collectors (phase 1) | 🚧 building | Shopify, WooCommerce, itch.io, bundles, generic reader |
+| New scraper: Jev check (phase 2) | 🚧 building | needs TypeSafe API key |
+| New scraper: escalation (phase 3) | 🚧 building | Claude agent, then "Needs your check" list |
+| New scraper: discovery + missed deals (phase 4) | 🚧 building | self-growing shop list |
 | Deal checker | ✅ working | drops expired, dead, wrong-page, unseen-price deals |
-| Deals home page | ✅ working | covers, ochre, best deal first, 0 scanner issues |
+| Deals home page | ✅ working | AppSumo-style layout |
 | Daily scheduled run | 🚧 building | not set up; live deals go stale |
-| Amazon deals | ❌ broken | robot pages; needs Amazon API (Associates account) |
-| DriveThruRPG deals | ⚠️ partial | blocked; only dated deals with end date survive |
-| Free giveaways | 🚧 building | none found on the pilot day |
-| Reviews and ratings | ✅ working | 17 of 28 deals have reviews, 8 have star ratings |
+| Amazon, DriveThruRPG deals | ❌ broken | need official feeds (accounts) |
+| Reviews and ratings | ✅ working | 17 of 28 deals have reviews |
 | Game catalog | ✅ working | 50 of 1,425 games |
 | Custom domain | 🚧 building | rpghunt.com not bought |
 
 ## Next up
-1. Daily scheduled run
-2. Reviews for games without any (RPGGeek API needs approval)
-3. rpghunt.com pointed at GitHub Pages
-4. Amazon API and DriveThruRPG affiliate feed
+1. Phase 1: collectors, scored against the test set
+2. Phase 2: Jev check gate
+3. Phase 3: escalation (Claude, then you)
+4. Phase 4: self-growing shop list and missed-deal check
+
+## Known issues
+- `docs/deals.js`, `docs/games.html`, `docs/index.html`, `docs/style.css` have uncommitted changes from an earlier session; left untouched.
+- Your safety guard may block price-reading commands; it blocked one Researcher pass today.
 
 ## Blocked on you
-- Buy rpghunt.com (about $10 to $15 a year)
-- Amazon Associates account (unlocks real Amazon deals and affiliate income)
-- DriveThruRPG affiliate account
+- TypeSafe API key in `.env` (before phase 2)
+- Buy rpghunt.com
+- Amazon Associates and DriveThruRPG affiliate accounts
