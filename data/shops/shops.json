@@ -1,0 +1,737 @@
+[
+ {
+  "id": "modiphius",
+  "name": "Modiphius Entertainment",
+  "store_url": "https://modiphius.net/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "GBP",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://modiphius.net/collections/warehouse-clearance-sale Full catalog read (about 17 s): finds ~290 sale items vs ~160 in the clearance collection alone."
+ },
+ {
+  "id": "exalted-funeral",
+  "name": "Exalted Funeral",
+  "store_url": "https://www.exaltedfuneral.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "Full catalog read. Sale prices only show without browser impersonation (fixed in common.py)."
+ },
+ {
+  "id": "magpie-games",
+  "name": "Magpie Games",
+  "store_url": "https://magpiegames.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://magpiegames.com/collections/clearance"
+ },
+ {
+  "id": "evil-hat",
+  "name": "Evil Hat Productions",
+  "store_url": "https://evilhat.com/",
+  "platform": "woocommerce",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {
+   "api_base": "https://evilhat.com/wp-json/wc/store/v1"
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://evilhat.com/on-sale/"
+ },
+ {
+  "id": "kobold-press",
+  "name": "Kobold Press",
+  "store_url": "https://koboldpress.com/kpstore/",
+  "platform": "woocommerce",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {
+   "api_base": "https://koboldpress.com/kpstore/wp-json/wc/store/v1"
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://koboldpress.com/kpstore/on-sale/"
+ },
+ {
+  "id": "itch",
+  "name": "itch.io",
+  "store_url": "https://itch.io/",
+  "platform": "itch",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {
+   "feeds": [
+    "https://itch.io/physical-games/on-sale/tag-ttrpg.xml",
+    "https://itch.io/physical-games/on-sale/genre-rpg.xml",
+    "https://itch.io/games/on-sale/tag-ttrpg.xml"
+   ]
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://itch.io/physical-games/on-sale/tag-ttrpg"
+ },
+ {
+  "id": "bundle-of-holding",
+  "name": "Bundle of Holding",
+  "store_url": "https://bundleofholding.com/",
+  "platform": "bundleofholding",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "humble-bundle",
+  "name": "Humble Bundle",
+  "store_url": "https://www.humblebundle.com/books",
+  "platform": "humble",
+  "status": "active",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "prices follow visitor location; currency read from the page by the reader"
+ },
+ {
+  "id": "chaosium",
+  "name": "Chaosium",
+  "store_url": "https://www.chaosium.com/",
+  "platform": "generic",
+  "status": "active",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "pelgrane-press",
+  "name": "Pelgrane Press",
+  "store_url": "https://pelgranepress.com/shop/",
+  "platform": "unknown",
+  "status": "blocked",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "blocked: https://pelgranepress.com/shop/ HTTP 403"
+ },
+ {
+  "id": "paizo",
+  "name": "Paizo",
+  "store_url": "https://store.paizo.com",
+  "platform": "generic",
+  "status": "active",
+  "currency": null,
+  "recipe": {
+   "sale_pages": [
+    "https://store.paizo.com/fall-clearance-sale/"
+   ]
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://store.paizo.com/sales/"
+ },
+ {
+  "id": "modiphius-us",
+  "name": "Modiphius US",
+  "store_url": "https://modiphius.us/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "GBP",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://modiphius.us/collections/warehouse-clearance-sale"
+ },
+ {
+  "id": "arc-dream-publishing",
+  "name": "Arc Dream Publishing",
+  "store_url": "https://shop.arcdream.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "necrotic-gnome",
+  "name": "Necrotic Gnome",
+  "store_url": "https://necroticgnome.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "monte-cook-games",
+  "name": "Monte Cook Games",
+  "store_url": "https://www.montecookgames.com/store/",
+  "platform": "woocommerce",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {
+   "api_base": "https://www.montecookgames.com/store/wp-json/wc/store/v1"
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "renegade-game-studios",
+  "name": "Renegade Game Studios",
+  "store_url": "https://renegadegamestudios.com/shop-all/",
+  "platform": "generic",
+  "status": "active",
+  "currency": null,
+  "recipe": {
+   "sale_pages": [
+    "https://renegadegamestudios.com/sale/"
+   ]
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://renegadegamestudios.com/sale/"
+ },
+ {
+  "id": "mongoose-publishing",
+  "name": "Mongoose Publishing",
+  "store_url": "https://www.mongoosepublishing.com/collections/all",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "GBP",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "atlas-games",
+  "name": "Atlas Games",
+  "store_url": "https://shop.atlas-games.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://shop.atlas-games.com/collections/atlas-games-warehouse-outlet/"
+ },
+ {
+  "id": "pinnacle-entertainment-group",
+  "name": "Pinnacle Entertainment Group",
+  "store_url": "https://shop.peginc.com",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "green-ronin-publishing",
+  "name": "Green Ronin Publishing",
+  "store_url": "https://greenroninstore.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "frog-god-games",
+  "name": "Frog God Games",
+  "store_url": "https://www.froggodgames.com/collections/all",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "mcdm-productions",
+  "name": "MCDM Productions",
+  "store_url": "https://shop.mcdmproductions.com",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "darrington-press",
+  "name": "Darrington Press",
+  "store_url": "https://darringtonpress.com/shop/",
+  "platform": "woocommerce",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {
+   "api_base": "https://darringtonpress.com/wp-json/wc/store/v1"
+  },
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "hit-point-press",
+  "name": "Hit Point Press",
+  "store_url": "https://hitpointpress.com/collections/all",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://hitpointpress.com/collections/deals"
+ },
+ {
+  "id": "tuesday-knight-games",
+  "name": "Tuesday Knight Games",
+  "store_url": "https://www.tuesdayknightgames.com/collections/all",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "osprey-games",
+  "name": "Osprey Games",
+  "store_url": "https://www.ospreypublishing.com/uk/",
+  "platform": "unknown",
+  "status": "blocked",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "robots: https://www.ospreypublishing.com/products.json?limit=1 disallowed by robots.txt"
+ },
+ {
+  "id": "games-omnivorous",
+  "name": "Games Omnivorous",
+  "store_url": "https://gamesomnivorous.com/pages/store",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "EUR",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "rowan-rook-and-decard",
+  "name": "Rowan, Rook and Decard",
+  "store_url": "https://rowanrookanddecard.com/shop",
+  "platform": "woocommerce",
+  "status": "active",
+  "currency": "EUR",
+  "recipe": {
+   "api_base": "https://rowanrookanddecard.com/wp-json/wc/store/v1"
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "gallant-knight-games",
+  "name": "Gallant Knight Games",
+  "store_url": "https://gallantknightgames.com/collections/all",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "possum-creek-games",
+  "name": "Possum Creek Games",
+  "store_url": "https://possumcreekgames.com/collections/shop",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "monkey-s-paw-games",
+  "name": "Monkey's Paw Games",
+  "store_url": "https://monkeys-paw-games.itch.io",
+  "platform": "itch",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "massif-press",
+  "name": "Massif Press",
+  "store_url": "https://massifpress.com/shop",
+  "platform": "generic",
+  "status": "active",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "critical-kit",
+  "name": "Critical Kit",
+  "store_url": "https://www.criticalkit.co.uk/collections/all-ttrpg-solo-indie-multiplayer-and-5e-one-shot-adventures",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "GBP",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "loot-the-room",
+  "name": "Loot the Room",
+  "store_url": "https://loottheroom.uk/shop",
+  "platform": "woocommerce",
+  "status": "active",
+  "currency": "GBP",
+  "recipe": {
+   "api_base": "https://loottheroom.uk/wp-json/wc/store/v1"
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "leyline-press",
+  "name": "Leyline Press",
+  "store_url": "https://leyline.press/collections/all",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "GBP",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "r-talsorian-games",
+  "name": "R. Talsorian Games",
+  "store_url": "https://talsorianstore.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "catalyst-game-labs",
+  "name": "Catalyst Game Labs",
+  "store_url": "https://store.catalystgamelabs.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://store.catalystgamelabs.com/collections/on-sale"
+ },
+ {
+  "id": "steve-jackson-games-warehouse-23",
+  "name": "Steve Jackson Games (Warehouse 23)",
+  "store_url": "https://warehouse23.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://warehouse23.com/collections/sales"
+ },
+ {
+  "id": "palladium-books",
+  "name": "Palladium Books",
+  "store_url": "https://palladiumbooks.com/shop/",
+  "platform": "woocommerce",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {
+   "api_base": "https://palladiumbooks.com/wp-json/wc/store/v1"
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://palladiumbooks.com/sale-items/"
+ },
+ {
+  "id": "ulisses-spiele-f-shop",
+  "name": "Ulisses Spiele (F-Shop)",
+  "store_url": "https://www.ulissesf-shop.com/",
+  "platform": "unknown",
+  "status": "blocked",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "blocked: https://www.ulissesf-shop.com/ HTTP 503"
+ },
+ {
+  "id": "noble-knight-games",
+  "name": "Noble Knight Games",
+  "store_url": "https://www.nobleknight.com/main-category/role-playing-games",
+  "platform": "generic",
+  "status": "active",
+  "currency": null,
+  "recipe": {
+   "sale_pages": [
+    "https://www.nobleknight.com/sales"
+   ]
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://www.nobleknight.com/sales"
+ },
+ {
+  "id": "indie-press-revolution",
+  "name": "Indie Press Revolution",
+  "store_url": "https://www.indiepressrevolution.com/xcart/",
+  "platform": "unknown",
+  "status": "blocked",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "robots: https://www.indiepressrevolution.com/xcart/ disallowed by robots.txt; sale page: https://www.indiepressrevolution.com/xcart/Deals-and-Specials.html"
+ },
+ {
+  "id": "miniature-market",
+  "name": "Miniature Market",
+  "store_url": "https://www.miniaturemarket.com/tabletop-role-playing-games.html",
+  "platform": "unknown",
+  "status": "blocked",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "robots: https://www.miniaturemarket.com/products.json?limit=1 disallowed by robots.txt; sale page: https://www.miniaturemarket.com/last-chance/rpg"
+ },
+ {
+  "id": "coolstuffinc",
+  "name": "CoolStuffInc",
+  "store_url": "https://www.coolstuffinc.com/",
+  "platform": "generic",
+  "status": "active",
+  "currency": null,
+  "recipe": {
+   "sale_pages": [
+    "https://www.coolstuffinc.com/main_saleItems.php"
+   ]
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://www.coolstuffinc.com/main_saleItems.php"
+ },
+ {
+  "id": "gamenerdz",
+  "name": "GameNerdz",
+  "store_url": "https://www.gamenerdz.com/roleplaying",
+  "platform": "generic",
+  "status": "active",
+  "currency": null,
+  "recipe": {
+   "sale_pages": [
+    "https://www.gamenerdz.com/deals"
+   ]
+  },
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://www.gamenerdz.com/deals"
+ },
+ {
+  "id": "leisure-games",
+  "name": "Leisure Games",
+  "store_url": "https://leisuregames.com/collections/all",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "GBP",
+  "recipe": {
+   "collections": [
+    "reduced-price-1"
+   ]
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "Retailer: most items sit below list price every day, so read only its \"reduced price\" collection. Full catalog is over 10,000 items."
+ },
+ {
+  "id": "gms-tabletop-games",
+  "name": "GMS Tabletop Games",
+  "store_url": "https://gmstabletopgames.com/shop/",
+  "platform": "woocommerce",
+  "status": "active",
+  "currency": "GBP",
+  "recipe": {
+   "api_base": "https://gmstabletopgames.com/wp-json/wc/store/v1"
+  },
+  "recipe_confirmed": "2026-10-17",
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "sale page: https://gmstabletopgames.com/product-category/offers/"
+ },
+ {
+  "id": "roll20-marketplace",
+  "name": "Roll20 Marketplace",
+  "store_url": "https://marketplace.roll20.net/",
+  "platform": "generic",
+  "status": "active",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "demiplane",
+  "name": "Demiplane",
+  "store_url": "https://app.demiplane.com/",
+  "platform": "generic",
+  "status": "active",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ },
+ {
+  "id": "foundry-vtt-marketplace",
+  "name": "Foundry VTT Marketplace",
+  "store_url": "https://www.foundryvtt.store/",
+  "platform": "unknown",
+  "status": "blocked",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "blocked: https://www.foundryvtt.store/wp-json/wc/store/v1/products?per_page=1 HTTP 403; sale page: https://www.foundryvtt.store/bundles"
+ },
+ {
+  "id": "drivethrurpg",
+  "name": "DriveThruRPG",
+  "store_url": "https://www.drivethrurpg.com/",
+  "platform": "unknown",
+  "status": "blocked",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "blocked: https://www.drivethrurpg.com/ HTTP 403"
+ },
+ {
+  "id": "dungeon-masters-guild",
+  "name": "Dungeon Masters Guild",
+  "store_url": "https://www.dmsguild.com/",
+  "platform": "unknown",
+  "status": "blocked",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": "blocked: https://www.dmsguild.com/ HTTP 403"
+ },
+ {
+  "id": "fanatical",
+  "name": "Fanatical",
+  "store_url": "https://www.fanatical.com/en/",
+  "platform": "generic",
+  "status": "active",
+  "currency": null,
+  "recipe": {},
+  "recipe_confirmed": null,
+  "added": "2026-10-17",
+  "added_via": "seed list",
+  "notes": null
+ }
+]

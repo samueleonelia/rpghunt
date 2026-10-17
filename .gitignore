@@ -37,3 +37,6 @@ downloads/
 .impeccable/live/sessions/
 .impeccable/live/inject-journal.json
 .impeccable/live/roots.json
+
+# Daily scraper output (about 2 MB a day; the run report and score are kept)
+data/deals/raw/*-scraper.json

@@ -1,0 +1,108 @@
+{
+ "products": [
+  {
+   "id": 7994076987562,
+   "title": "Fallout: Miniatures - Survivors - Foundation Authority",
+   "handle": "fallout-miniatures-survivors-foundation-authority",
+   "published_at": "2024-07-04T16:34:18+01:00",
+   "created_at": "2024-07-04T04:17:24+01:00",
+   "updated_at": "2026-10-17T14:32:29+01:00",
+   "vendor": "Modiphius Entertainment",
+   "product_type": "Fallout: Miniatures",
+   "tags": [
+    "Clearance 2026",
+    "Fallout All Brands",
+    "Fallout Faction_Raiders",
+    "Fallout Wave_10: The Wilds of Appalachia",
+    "Fallout: Miniatures",
+    "Fallout: Miniatures_All Products",
+    "Fallout: Miniatures_Raiders",
+    "Fallout: Wasteland Warfare",
+    "Fallout_All Products",
+    "Fallout_Miniatures",
+    "Miniatures",
+    "physical",
+    "wholesale"
+   ],
+   "variants": [
+    {
+     "id": 46119995932842,
+     "title": "Default Title",
+     "requires_shipping": true,
+     "available": true,
+     "price": "9.95",
+     "compare_at_price": "36.95",
+     "position": 1,
+     "product_id": 7994076987562
+    }
+   ]
+  },
+  {
+   "id": 7993870778538,
+   "title": "Fallout: Miniatures - Raiders - Crater Warlords",
+   "handle": "fallout-miniatures-raiders-crater-warlords",
+   "published_at": "2024-07-04T16:34:18+01:00",
+   "created_at": "2024-07-03T15:56:25+01:00",
+   "updated_at": "2026-10-17T14:32:29+01:00",
+   "vendor": "Modiphius Entertainment",
+   "product_type": "Fallout: Miniatures",
+   "tags": [
+    "Clearance 2026",
+    "Fallout All Brands",
+    "Fallout Faction_Raiders",
+    "Fallout Wave_10: The Wilds of Appalachia",
+    "Fallout: Miniatures",
+    "Fallout: Miniatures_All Products",
+    "Fallout: Miniatures_Raiders",
+    "Fallout: Wasteland Warfare",
+    "Fallout_All Products",
+    "Fallout_Miniatures",
+    "Miniatures",
+    "physical",
+    "wholesale"
+   ],
+   "variants": [
+    {
+     "id": 46118999326890,
+     "title": "Default Title",
+     "requires_shipping": true,
+     "available": true,
+     "price": "9.95",
+     "compare_at_price": "36.95",
+     "position": 1,
+     "product_id": 7993870778538
+    }
+   ]
+  },
+  {
+   "id": 15422512005222,
+   "title": "Hellboy: The Roleplaying Game Kickstarter Edition Team Leader Bundle",
+   "handle": "hellboy-the-roleplaying-game-kickstarter-edition-team-leader-bundle",
+   "published_at": "2026-10-14T16:44:58-06:00",
+   "created_at": "2026-10-14T15:39:44-06:00",
+   "updated_at": "2026-10-17T07:32:28-06:00",
+   "vendor": "Mantic",
+   "product_type": "Book",
+   "tags": [
+    "5E",
+    "Comic",
+    "hell",
+    "new",
+    "occult",
+    "warehousefind26"
+   ],
+   "variants": [
+    {
+     "id": 67709392126054,
+     "title": "Default Title",
+     "requires_shipping": true,
+     "available": false,
+     "price": "180.00",
+     "compare_at_price": null,
+     "position": 1,
+     "product_id": 15422512005222
+    }
+   ]
+  }
+ ]
+}

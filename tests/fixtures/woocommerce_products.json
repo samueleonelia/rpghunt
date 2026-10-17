@@ -1,0 +1,171 @@
+[
+ {
+  "id": 71663,
+  "name": "Zine by Moonlight",
+  "slug": "zine-by-moonlight",
+  "type": "variable",
+  "permalink": "https://evilhat.com/product/zine-by-moonlight/",
+  "on_sale": true,
+  "prices": {
+   "price": "1000",
+   "regular_price": "1200",
+   "sale_price": "1000",
+   "price_range": {
+    "min_amount": "1000",
+    "max_amount": "1799"
+   },
+   "currency_code": "USD",
+   "currency_symbol": "$",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "$",
+   "currency_suffix": ""
+  },
+  "categories": [
+   {
+    "id": 36,
+    "name": "Forged in the Dark",
+    "slug": "forged-in-the-dark"
+   },
+   {
+    "id": 27,
+    "name": "RPGs",
+    "slug": "rpgs"
+   }
+  ],
+  "tags": [
+   {
+    "id": 202,
+    "name": "core forged",
+    "slug": "core-forged"
+   }
+  ]
+ },
+ {
+  "id": 60282,
+  "name": "Apocalypse Keys Special Edition",
+  "slug": "apocalypse-keys-special-edition",
+  "type": "variable",
+  "permalink": "https://evilhat.com/product/apocalypse-keys-special-edition/",
+  "on_sale": true,
+  "prices": {
+   "price": "6000",
+   "regular_price": "7500",
+   "sale_price": "6000",
+   "price_range": null,
+   "currency_code": "USD",
+   "currency_symbol": "$",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "$",
+   "currency_suffix": ""
+  },
+  "categories": [
+   {
+    "id": 179,
+    "name": "Apocalypse Keys",
+    "slug": "apocalypse-keys"
+   },
+   {
+    "id": 37,
+    "name": "Powered by the Apocalypse",
+    "slug": "powered-by-the-apocalypse"
+   },
+   {
+    "id": 27,
+    "name": "RPGs",
+    "slug": "rpgs"
+   }
+  ],
+  "tags": []
+ },
+ {
+  "id": 921,
+  "name": "Fate Accessibility Toolkit",
+  "slug": "fate-accessibility-toolkit",
+  "type": "variable",
+  "permalink": "https://evilhat.com/product/fate-accessibility-toolkit/",
+  "on_sale": true,
+  "prices": {
+   "price": "750",
+   "regular_price": "750",
+   "sale_price": "750",
+   "price_range": {
+    "min_amount": "750",
+    "max_amount": "1000"
+   },
+   "currency_code": "USD",
+   "currency_symbol": "$",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "$",
+   "currency_suffix": ""
+  },
+  "categories": [
+   {
+    "id": 35,
+    "name": "Fate",
+    "slug": "fate"
+   },
+   {
+    "id": 45,
+    "name": "Fate Toolkits",
+    "slug": "fate-toolkits"
+   },
+   {
+    "id": 27,
+    "name": "RPGs",
+    "slug": "rpgs"
+   }
+  ],
+  "tags": [
+   {
+    "id": 186,
+    "name": "ENnie Nominee",
+    "slug": "ennie-nominee"
+   },
+   {
+    "id": 187,
+    "name": "ENnie Winner",
+    "slug": "ennie-winner"
+   }
+  ]
+ },
+ {
+  "id": 668535,
+  "name": "Tome of Beasts 2 Pawn Bundle",
+  "slug": "tome-of-beasts-2-pawn-bundle",
+  "type": "simple",
+  "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-pawn-bundle/",
+  "on_sale": true,
+  "prices": {
+   "price": "7999",
+   "regular_price": "9498",
+   "sale_price": "7999",
+   "price_range": null,
+   "currency_code": "USD",
+   "currency_symbol": "$",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "$",
+   "currency_suffix": ""
+  },
+  "categories": [
+   {
+    "id": 200,
+    "name": "Hardcover",
+    "slug": "hardcover"
+   },
+   {
+    "id": 343,
+    "name": "Pawns",
+    "slug": "pawns"
+   }
+  ],
+  "tags": []
+ }
+]

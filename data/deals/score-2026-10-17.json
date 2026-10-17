@@ -1,0 +1,34 @@
+{
+ "date": "2026-10-17",
+ "testset": "/Users/samueleonelia/claudeCode/personal/rpgArchive/data/testset/2026-10-17.json",
+ "found": 29,
+ "total": 29,
+ "per_platform": {
+  "itch": {
+   "found": 10,
+   "missed": 0
+  },
+  "bundle-site": {
+   "found": 6,
+   "missed": 0
+  },
+  "shopify": {
+   "found": 8,
+   "missed": 0
+  },
+  "woocommerce": {
+   "found": 5,
+   "missed": 0
+  }
+ },
+ "missed": [],
+ "fakes_present_in_run": [
+  {
+   "id": "fake-not-rpg-homeworld-dice-tray",
+   "fake_kind": "not_rpg",
+   "url": "https://www.modiphius.net/products/homeworld-fleet-command-dice-tray"
+  }
+ ],
+ "run_deals_total": 2246,
+ "run_deals_not_in_testset": 2217
+}

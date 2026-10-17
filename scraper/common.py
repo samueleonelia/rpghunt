@@ -26,8 +26,11 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 "
 DELAY = 1.5          # seconds between two requests to the same site
 BLOCKED = {401, 403, 406, 503}
 TYPES = {"sale", "bundle", "physical", "free"}
-# Plain requests: our own User-Agent, no made-up Google referer, retries handled in fetch().
-_OPTS = {"headers": {"User-Agent": UA}, "stealthy_headers": False, "retries": 1, "timeout": 30}
+# Plain requests: our own User-Agent, no made-up Google referer, no browser impersonation,
+# retries handled in fetch(). Impersonation is off on purpose: with it, Shopify served
+# Exalted Funeral's products.json without compare-at prices (0 sale items instead of 213).
+_OPTS = {"headers": {"User-Agent": UA}, "stealthy_headers": False, "impersonate": None,
+         "retries": 1, "timeout": 30}
 
 
 class FetchError(Exception):
