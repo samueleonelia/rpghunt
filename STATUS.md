@@ -1,6 +1,6 @@
 # STATUS: RPG Hunt (rpgArchive)
 
-_Updated: 2026-10-17 · branch main · commit dc29537_
+_Updated: 2026-10-18 · branch main_
 
 <!-- Rewrite this file in place. Never append. History belongs in DEVLOG.md. Keep under 60 lines. -->
 
@@ -14,7 +14,7 @@ _Updated: 2026-10-17 · branch main · commit dc29537_
 | Live site (GitHub Pages) | ✅ working | every push to `main` republishes; still old deals |
 | Shop readers (46 shops) | ✅ working | Shopify, WooCommerce, itch.io, bundles, generic; about 8 min |
 | Jev check | ✅ working | 5/5 fakes rejected, 28/29 test deals published, about $0.06 a day |
-| Browsing agent (Claude) | ⚠️ partial | starts from your terminal; network filter blocks shop sites (your choice pending) |
+| Browsing agent (Claude) | ✅ working | shop sites only; about $0.08 a job, capped at 20 a day; run from your terminal |
 | New shops and missed deals | ✅ working | EN World leads (Reddit removed) |
 | Break alarm | ✅ working | unit-tested; needs 3 runs of history |
 | Site preview + daily report | ✅ working | `data/deals/site-preview-<date>.json`, `daily-report-<date>.md` |
@@ -38,7 +38,6 @@ _Updated: 2026-10-17 · branch main · commit dc29537_
 - Humble Bundle "worth" figures are inflated; those bundles go to the agent.
 
 ## Blocked on you
-- Browsing agent network: shop sites only (1) or Python fetches for it (2)
 - Contact email for the bot page
 - Decide: go live with the new deals
 - Buy rpghunt.com

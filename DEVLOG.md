@@ -300,3 +300,10 @@
 **Next**
 - User: agent network choice; contact email for the bot page; go-live decision.
 - Daily scheduled run (needed for DriveThruRPG price drops to appear).
+
+## 2026-10-18: Browsing agent working (shop sites only)
+
+- User chose option 1: the agent may reach only the shop sites. `agent.py` writes a per-run settings file (`data/shops/agent-sandbox.json`, gitignored, rebuilt from `shops.json` every run): sandbox on, `allowUnsandboxedCommands: false`, `strictAllowlist: true`, about 84 shop hosts. The user's own settings are untouched; `www.drivethrurpg.com` is never allowed.
+- Test from the user's terminal: 8 rechecks: 2 published (Malleus Monstrorum slipcase $59.99 vs $89.99, Dolmenwood Maps Book $16 vs $20, both confirmed on the page by code), 4 dropped (picture book, USB key, no real discount, price mismatch), 2 to the owner (grab bag, coloring book). About $0.08 per job.
+- Cost note: the agent is the expensive part. `daily` caps it at 20 jobs a day (about $1.60). The 360 stuck DriveThruRPG items are fixed (judged from shop data), so the daily queue should be far smaller.
+- Open: "My Jam" mismatch: our reader took the cheapest on-sale variant; the page shows another variant's price. Variant deals may need the variant in the title.
