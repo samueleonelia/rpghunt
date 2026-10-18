@@ -295,13 +295,377 @@
     "error": null,
     "hook_blocked": false
    }
+  },
+  {
+   "job": "recheck",
+   "key": "https://shop.atlas-games.com/products/unknown-armies-1-complete-digital-bundle-20-off",
+   "title": "Unknown Armies 1 Complete Digital Bundle - 20% Off",
+   "shop": "Atlas Games",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: I could not open the page because the sandbox denied network access to shop.atlas-games.com, so I could not check the sale myself."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": null,
+    "price_was_seen": null,
+    "ends_seen": null,
+    "reason": "I could not open the page because the sandbox denied network access to shop.atlas-games.com, so I could not check the sale myself.",
+    "notes": "fetchpage failed 4 times with a 403 on the proxy tunnel, and the sandbox reported the connection as user denied. I did not try another way in. The trimmed page text in the input shows Regular price $104.65 and Sale price $83.72 for 'Unknown Armies 1 Complete Digital Bundle - 20% Off'. Unknown Armies is a tabletop RPG, but I could not confirm that the sale is running today. The page also says 'Please log in to add to your cart.' No instructions aimed at AI were seen. The owner should check this one by hand, or allow the host and rerun the recheck.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 14.1,
+    "turns": 2,
+    "cost_usd": 0.08248359999999999,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://shop.atlas-games.com/products/enigma-complete-digital-bundle-20-off",
+   "title": "Enigma Complete Digital Bundle - 20% Off",
+   "shop": "Atlas Games",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: I could not open the page myself because the network sandbox denied shop.atlas-games.com, so I could not check it directly."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": null,
+    "price_was_seen": null,
+    "ends_seen": null,
+    "reason": "I could not open the page myself because the network sandbox denied shop.atlas-games.com, so I could not check it directly.",
+    "notes": "The trimmed page text in the input shows Regular price $19.84 and Sale price $15.87, which match the claim. It does not say what the product is, and the title is the only hint that it is an RPG product. It also shows no sale end date. The Jev check was unsure about RPG status (p=0.48). The page text contained no instructions aimed at AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 12.0,
+    "turns": 2,
+    "cost_usd": 0.059794799999999995,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://shop.atlas-games.com/products/feng-shui-2-complete-digital-bundle-20-off",
+   "title": "Feng Shui 2 Complete Digital Bundle - 20% Off",
+   "shop": "Atlas Games",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: I could not open the page because the sandbox denied network access to shop.atlas-games.com, so I could not check the deal myself."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": null,
+    "price_was_seen": null,
+    "ends_seen": null,
+    "reason": "I could not open the page because the sandbox denied network access to shop.atlas-games.com, so I could not check the deal myself.",
+    "notes": "The trimmed page text in the input shows Regular price $68.64 and Sale price $54.91, which match the claim. That text does not say the product is a tabletop RPG, and it does not say the sale is running today. The title suggests a Feng Shui 2 digital bundle from Atlas Games, but I did not confirm that. No instructions aimed at AI were seen in the input text.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 12.5,
+    "turns": 2,
+    "cost_usd": 0.0599352,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://shop.atlas-games.com/products/planegea-complete-digital-bundle-20-off",
+   "title": "Planegea Complete Digital Bundle - 20% Off",
+   "shop": "Atlas Games",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: I could not open the page because the network blocked shop.atlas-games.com (403, denied by the sandbox), so I could not check the product, the prices or whether the sale is running today."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": null,
+    "price_was_seen": null,
+    "ends_seen": null,
+    "reason": "I could not open the page because the network blocked shop.atlas-games.com (403, denied by the sandbox), so I could not check the product, the prices or whether the sale is running today.",
+    "notes": "The trimmed page text in the input shows Regular price $60.95 and Sale price $48.76, but that is not my own check. It has no description, so it does not settle the Jev rpg_unsure (p=0.66). No page text contained instructions addressed to AI. Allow shop.atlas-games.com in the sandbox and re-run this recheck.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 13.1,
+    "turns": 2,
+    "cost_usd": 0.0601076,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://shop.atlas-games.com/products/ag2707-blowing-up-the-movies-restock",
+   "title": "AG2707 Blowing Up the Movies [Restock]",
+   "shop": "Atlas Games",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: I could not open the page myself because the network was denied for shop.atlas-games.com, so I could not confirm today that the sale is running."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": null,
+    "price_was_seen": null,
+    "ends_seen": null,
+    "reason": "I could not open the page myself because the network was denied for shop.atlas-games.com, so I could not confirm today that the sale is running.",
+    "notes": "The fetch failed with a 403 on the connection tunnel, and the sandbox reported the host as denied. The page text supplied in the input shows Regular price $15.00 and Sale price $7.50. It describes a book of essays by Robin D. Laws for GMs and players of tabletop RPGs, and it is a companion to Feng Shui. That looks like an RPG supplement, but I did not verify any of it on the live page. I did not try to get around the block. The page text contained no instructions addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 13.8,
+    "turns": 2,
+    "cost_usd": 0.06505520000000001,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://shop.atlas-games.com/products/ag2706-goodnight-azathoth-mini-mythos-restock",
+   "title": "AG2706 Goodnight Azathoth (Mini Mythos) [Restock]",
+   "shop": "Atlas Games",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: I could not open the page because the sandbox blocked network access to shop.atlas-games.com, and the trimmed page text in the input shows the item as 'Sold out' with no visible regular price."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": null,
+    "price_was_seen": null,
+    "ends_seen": null,
+    "reason": "I could not open the page because the sandbox blocked network access to shop.atlas-games.com, and the trimmed page text in the input shows the item as 'Sold out' with no visible regular price.",
+    "notes": "fetchpage failed with a 403 on the proxy tunnel (sandbox denied shop.atlas-games.com:443), so nothing was checked live. The input text shows 'Sale price $9.98' but the 'Regular price' line is empty and the item is sold out. The product is a Call of Cthulhu-style mini game, and Jev's RPG score is 0.35. The owner should check it by hand.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 11.0,
+    "turns": 2,
+    "cost_usd": 0.0596514,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://shop.atlas-games.com/products/ag2704-the-antarctic-express-mini-mythos-restock",
+   "title": "AG2704 The Antarctic Express (Mini Mythos) [Restock]",
+   "shop": "Atlas Games",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The price is a real discount ($19.95 down to $9.98), but the product is a 32-page illustrated Lovecraft parody picture book, which is fiction and not a tabletop RPG product."
+   ],
+   "agent": {
+    "verdict": "drop",
+    "price_now_seen": "$9.98",
+    "price_was_seen": "$19.95",
+    "ends_seen": null,
+    "reason": "The price is a real discount ($19.95 down to $9.98), but the product is a 32-page illustrated Lovecraft parody picture book, which is fiction and not a tabletop RPG product.",
+    "notes": "The page has no RPG game text: no rules, no system, no adventure. It describes a children's-book parody and mentions the Mini Mythos series. No sale end date is shown. No text on the page was addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.2,
+    "turns": 2,
+    "cost_usd": 0.08671179999999999,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://store.catalystgamelabs.com/products/battletech-masters-minions-the-starcorps-dossiers-pdf",
+   "title": "BattleTech: Masters & Minions: The StarCorps Dossiers",
+   "shop": "Catalyst Game Labs",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page shows $7.99 with no higher normal price (the struck-through $7.99 is the regular price itself and the sale slot reads $0.00), and the product is sold out, so the claimed $19.99 vs $39.99 does not match."
+   ],
+   "agent": {
+    "verdict": "drop",
+    "price_now_seen": "$7.99 USD",
+    "price_was_seen": null,
+    "ends_seen": null,
+    "reason": "The page shows $7.99 with no higher normal price (the struck-through $7.99 is the regular price itself and the sale slot reads $0.00), and the product is sold out, so the claimed $19.99 vs $39.99 does not match.",
+    "notes": "The page is a sold-out PDF/Book+PDF variant of a BattleTech sourcebook. No discount is shown and the claimed prices do not appear on the page. No AI-directed text was found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 8.1,
+    "turns": 2,
+    "cost_usd": 0.0770084,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.chaosium.com/malleus-monstrorum-cthulhu-mythos-bestiary-slipcase-set/",
+   "title": "Malleus Monstrorum - Cthulhu Mythos Bestiary - Slipcase Set",
+   "shop": "Chaosium",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$59.99",
+    "price_was_seen": "$89.99",
+    "ends_seen": null,
+    "reason": "The product page shows this Call of Cthulhu bestiary slipcase set at $59.99 beside a struck-through $89.99 (the shop's own non-sale price element), with no end date shown.",
+    "notes": "The page labels no promotion and gives no end date, so the sale is judged only from the struck-through price. The Current Stock field is blank. The 'Is Physical Available: [N]' line sits under the PDF settings block in the page's internal configuration text and is not a stock statement for this product. No text addressed to AI was found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 15.2,
+    "turns": 4,
+    "cost_usd": 0.10501100000000001,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://evilhat.com/product/apocalypse-keys-1gb-usb-key-drive-pdf-included/",
+   "title": "Apocalypse Keys 1GB USB Key Drive",
+   "shop": "Evil Hat Productions",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product is a physical USB key drive filed under 'Dice & Accessories', not a rulebook, adventure or supplement, so it is outside RPG Hunt's scope even though the $25 to $15 price is real."
+   ],
+   "agent": {
+    "verdict": "drop",
+    "price_now_seen": "$15.00",
+    "price_was_seen": "$25.00",
+    "ends_seen": null,
+    "reason": "The product is a physical USB key drive filed under 'Dice & Accessories', not a rulebook, adventure or supplement, so it is outside RPG Hunt's scope even though the $25 to $15 price is real.",
+    "notes": "The page shows the Sale! price correctly. The PDF of Apocalypse Keys is only a bonus with the USB drive. No AI-directed text found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.3,
+    "turns": 2,
+    "cost_usd": 0.0631874,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/dolmenwood-maps-book",
+   "title": "Dolmenwood Maps Book",
+   "shop": "Exalted Funeral",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$16.00",
+    "price_was_seen": "$20.00",
+    "ends_seen": null,
+    "reason": "The page shows the Dolmenwood Maps Book, a 64-page hardcover RPG supplement for the Referee, at a sale price of $16.00 USD. The struck-through regular price is $20.00 USD, and the price block is marked as on sale.",
+    "notes": "The page's price block is marked 'price--on-sale', and the shop's menu links a 'Halloween Horror Sale'. No end date is shown. The first 'Regular price' element also reads $16.00, which looks like a theme quirk and not a second price. No text on the page was addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 9.3,
+    "turns": 2,
+    "cost_usd": 0.0829628,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/hell-in-the-cell-damaged-surprise-grab-bag",
+   "title": "Random Fighter Grab Bag",
+   "shop": "Exalted Funeral",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows $15.00 against a struck-through $25.00, but the bag is a mystery grab bag of one book and two zines, so the page does not confirm that the contents are tabletop RPG products."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$15.00",
+    "price_was_seen": "$25.00",
+    "ends_seen": null,
+    "reason": "The page shows $15.00 against a struck-through $25.00, but the bag is a mystery grab bag of one book and two zines, so the page does not confirm that the contents are tabletop RPG products.",
+    "notes": "The shop is an RPG publisher and retailer, and the bag's text mentions TSR, Wizards, \"damaged zines\" and clearing the warehouse. It never says the contents are RPG books. A few items on the page (\"Low Stock - 1 available\", \"Some material may show wear\") point to a damaged-stock clearance. No end date is shown. The page contains no instructions aimed at AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 9.3,
+    "turns": 2,
+    "cost_usd": 0.0851874,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/planar-compass-coloring-book",
+   "title": "Planar Compass Coloring Book",
+   "shop": "Exalted Funeral",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a $10.00 regular price struck out and a $6.00 sale price, but the product is a black-and-white coloring book of art from the Planar Compass RPG zine, with no rules or adventure content, so it may not count as an RPG product."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$6.00 USD",
+    "price_was_seen": "$10.00 USD",
+    "ends_seen": null,
+    "reason": "The page shows a $10.00 regular price struck out and a $6.00 sale price, but the product is a black-and-white coloring book of art from the Planar Compass RPG zine, with no rules or adventure content, so it may not count as an RPG product.",
+    "notes": "The markup is a little odd: a struck-out 'Regular price $6.00' also appears next to the struck-out $10.00. The sale badge (price--on-sale) and the 'Sale price $6.00 USD' element support the discount. No end date is shown. The shop's nav lists a Halloween Horror Sale and Clearance collection, but the page does not link this product to either. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.3,
+    "turns": 2,
+    "cost_usd": 0.080011,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/my-jam-pdf",
+   "title": "My Jam",
+   "shop": "Exalted Funeral",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page shows a sale price of $15.00 (was $25.00), not the claimed $9.00 (was $15.00), so the claimed price does not match."
+   ],
+   "agent": {
+    "verdict": "drop",
+    "price_now_seen": "$15.00 USD",
+    "price_was_seen": "$25.00 USD",
+    "ends_seen": null,
+    "reason": "The page shows a sale price of $15.00 (was $25.00), not the claimed $9.00 (was $15.00), so the claimed price does not match.",
+    "notes": "The product is a larp (a 52-page printed zine that includes a PDF), so it may not count as a tabletop RPG. No AI-addressed text found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 9.3,
+    "turns": 2,
+    "cost_usd": 0.0825144,
+    "error": null,
+    "hook_blocked": false
+   }
   }
  ],
  "counts": {
-  "jobs_found": 128,
-  "already_done": 0,
-  "run_now": 10,
-  "published_by_agent": 0,
-  "needs_owner": 10
+  "jobs_found": 522,
+  "already_done": 16,
+  "run_now": 8,
+  "published_by_agent": 2,
+  "needs_owner": 18
  }
 }

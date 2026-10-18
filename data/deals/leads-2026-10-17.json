@@ -2,26 +2,6 @@
  "date": "2026-10-17",
  "feeds": [
   {
-   "id": "reddit-rpg-search",
-   "url": "https://www.reddit.com/r/rpg/search.rss?q=sale+OR+bundle+OR+discount+OR+deal&restrict_sr=1&sort=new&t=week",
-   "status": "blocked",
-   "entries": 0,
-   "in_window": 0,
-   "articles_read": 0,
-   "links": 0,
-   "error": "robots: https://www.reddit.com/r/rpg/search.rss?q=sale+OR+bundle+OR+discount+OR+deal&restrict_sr=1&sort=new&t=week disallowed by robots.txt"
-  },
-  {
-   "id": "reddit-rpg-new",
-   "url": "https://www.reddit.com/r/rpg/new/.rss",
-   "status": "blocked",
-   "entries": 0,
-   "in_window": 0,
-   "articles_read": 0,
-   "links": 0,
-   "error": "robots: https://www.reddit.com/r/rpg/new/.rss disallowed by robots.txt"
-  },
-  {
    "id": "enworld",
    "url": "https://www.enworld.org/ewr-porta/index.rss",
    "status": "ok",
@@ -34,8 +14,8 @@
  ],
  "counts": {
   "leads": 84,
-  "known_shop": 2,
-  "blocked_shop": 81,
+  "known_shop": 80,
+  "blocked_shop": 3,
   "new_shop": 1,
   "new_shops_added": 1,
   "per_feed": {
@@ -66,9 +46,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587463/ars-magica-definitive-edition-markdown-text?affiliate_id=36142",
@@ -79,9 +59,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586797/your-first-spellbook-free-spellbook-creation?affiliate_id=36142",
@@ -92,9 +72,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586950/astrology-in-kengir?affiliate_id=36142",
@@ -105,9 +85,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586951/kengir-origin-feats?affiliate_id=36142",
@@ -118,9 +98,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586952/omens-and-prophecies-in-kengir?affiliate_id=36142",
@@ -131,9 +111,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586908/way-of-the-divine-statues-monk-subclass?affiliate_id=36142",
@@ -144,9 +124,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586905/warden-of-the-caravans-ranger-subclass?affiliate_id=36142",
@@ -157,9 +137,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/575688/the-veil?affiliate_id=36142",
@@ -170,9 +150,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586903/the-perfumer-alchemist-artificer-subclass?affiliate_id=36142",
@@ -183,9 +163,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586901/school-of-the-astrologer-wizard-subclass?affiliate_id=36142",
@@ -196,9 +176,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/575697/purity-in-kengir?affiliate_id=36142",
@@ -209,9 +189,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586912/path-of-the-storm-god-barbarian-subclass?affiliate_id=36142",
@@ -222,9 +202,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586909/pact-of-the-underworld-warlock-subclass?affiliate_id=36142",
@@ -235,9 +215,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586911/oath-of-the-tablet-keeper-paladin-subclass?affiliate_id=36142",
@@ -248,9 +228,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/575686/kengir-names?affiliate_id=36142",
@@ -261,9 +241,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587357/the-mercenary-fighter-subclass?affiliate_id=36142",
@@ -274,9 +254,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586910/college-of-lamentations-bard-subclass?affiliate_id=36142",
@@ -287,9 +267,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587089/ziqqitum-resatim-spirit-of-passion-new-monster?affiliate_id=36142",
@@ -300,9 +280,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587087/uznu-lemnu-the-scapegoat-new-monster?affiliate_id=36142",
@@ -313,9 +293,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587086/daughters-of-the-wind-new-monsters-ardat-lili-and-lilitu?affiliate_id=36142",
@@ -326,9 +306,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586904/isippu-priest-cleric-subclass?affiliate_id=36142",
@@ -339,9 +319,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/575689/injuries-that-matter-in-kengir?affiliate_id=36142",
@@ -352,9 +332,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586907/circle-of-the-twin-rivers-druid-subclass?affiliate_id=36142",
@@ -365,9 +345,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586900/asipu-priest-cleric-subclass?affiliate_id=36142",
@@ -378,9 +358,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587157/swordbearer?affiliate_id=36142",
@@ -391,9 +371,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587108/dragonblood-valley-adventure-u1-for-uncharted-realms-rpg?affiliate_id=36142",
@@ -404,9 +384,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587434/freight-night?affiliate_id=36142",
@@ -417,9 +397,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585965/the-devil-in-fleurant?affiliate_id=36142",
@@ -430,9 +410,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586676/lair-of-the-spider-priestess?affiliate_id=36142",
@@ -443,9 +423,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586480/dance-with-danger-shadowdark?affiliate_id=36142",
@@ -456,9 +436,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586445/the-silent-threshold-dnd-one-shot?affiliate_id=36142",
@@ -469,9 +449,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586441/a-hoard-of-dragons?affiliate_id=36142",
@@ -482,9 +462,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587027/curiosity-strange-worlds-of-the-imperium?affiliate_id=36142",
@@ -495,9 +475,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587010/the-gates-of-winter?affiliate_id=36142",
@@ -508,9 +488,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587007/spanish-las-puertas-del-invierno?affiliate_id=36142",
@@ -521,9 +501,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586019/detective-banjo-extinguished-at-excordant-tower?affiliate_id=36142",
@@ -534,9 +514,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585901/starship-sarcophagus?affiliate_id=36142",
@@ -547,9 +527,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586746/cold-steel?affiliate_id=36142",
@@ -560,9 +540,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586638/the-vault?affiliate_id=36142",
@@ -573,9 +553,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/582880/the-hurricane-dungeon-level-6-the-chambers-of-woe?affiliate_id=36142",
@@ -586,9 +566,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/582881/the-hurricane-dungeon-level-7-the-cursed-caverns?affiliate_id=36142",
@@ -599,9 +579,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585950/the-last-ecstasy?affiliate_id=36142",
@@ -612,9 +592,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585326/cult-of-the-mad-wyrm?affiliate_id=36142",
@@ -625,9 +605,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585841/wired-for-oppression?affiliate_id=36142",
@@ -638,9 +618,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585221/the-chalice-of-fury?affiliate_id=36142",
@@ -651,9 +631,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585580/hostility?affiliate_id=36142",
@@ -664,9 +644,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585359/the-island-cairn?affiliate_id=36142",
@@ -677,9 +657,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.dmsguild.com/product/586602/sleeping-sands?affiliate_id=36142",
@@ -703,9 +683,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://fantasynpcs.com/product-tour/",
@@ -730,9 +710,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585656/introduction-to-deeds?affiliate_id=36142",
@@ -743,9 +723,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585645/spooky-sweets-10-high-contrast-monochrome-item-cards-prop?affiliate_id=36142",
@@ -756,9 +736,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585360/the-hamlet-of-tellos?affiliate_id=36142",
@@ -769,9 +749,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585909/i-search-the-corridor-again?affiliate_id=36142",
@@ -782,9 +762,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586520/instant-herbalist-store-names-4?affiliate_id=36142",
@@ -795,9 +775,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586503/pickpockets-friend-20-things-found-in-a-dead-adventurers-pack-1?affiliate_id=36142",
@@ -808,9 +788,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587533/instant-paladin-names-8?affiliate_id=36142",
@@ -821,9 +801,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586482/way-of-the-unbroken-chain?affiliate_id=36142",
@@ -834,9 +814,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586919/101-npcs-of-falkenreich-random-npcs-for-shadowdark-rpg?affiliate_id=36142",
@@ -847,9 +827,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587554/101-rumors-of-falkenreich-random-rumors-for-shadowdark-rpg?affiliate_id=36142",
@@ -860,9 +840,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587243/free-ttrpg-battle-map-crashed-ship-day-night?affiliate_id=36142",
@@ -873,9 +853,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587191/expanded-rules-for-weapons-armor?affiliate_id=36142",
@@ -886,9 +866,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/587189/expanderade-regler-foer-vapen-rustningar?affiliate_id=36142",
@@ -899,9 +879,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586971/mishmash?affiliate_id=36142",
@@ -912,9 +892,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586884/excalibur-a-scaling-item-from-arthurian-mythology?affiliate_id=36142",
@@ -925,9 +905,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/584645/zeebo-s-little-guide-to-village-jobs?affiliate_id=36142",
@@ -938,9 +918,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/584644/zeebo-s-little-guide-to-village-festivals?affiliate_id=36142",
@@ -951,9 +931,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586576/wrestler-class-for-shadowdark-rpg?affiliate_id=36142",
@@ -964,9 +944,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586601/golden-company?affiliate_id=36142",
@@ -977,9 +957,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586512/autumn-road?affiliate_id=36142",
@@ -990,9 +970,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585477/historical-port-royal-mini-guide?affiliate_id=36142",
@@ -1003,9 +983,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/584988/bone-littered-monster-cave-clearing?affiliate_id=36142",
@@ -1016,9 +996,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/585522/print-paste-textures-high-elf-buildings?affiliate_id=36142",
@@ -1029,9 +1009,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.dmsguild.com/product/587337/the-5-5e-scholar-an-intelligence-based-class-for-low-magic-settings?affiliate_id=36142",
@@ -1081,9 +1061,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/en/browse?promo=1000223&src=mod26rpg&affiliate_id=36142",
@@ -1094,9 +1074,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/en/publisher/8782/schwalb-entertainment/category/46428/shadow-of-the-weird-wizard&affiliate_id=36142",
@@ -1107,9 +1087,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://modiphius.us/collections/warehouse-clearance-sale",
@@ -1133,9 +1113,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   },
   {
    "url": "https://www.drivethrurpg.com/product/586885/cosmere-rpg-mistborn-scenarios-cross-platform-bundle?affiliate_id=36142",
@@ -1146,9 +1126,9 @@
    "published": "2026-10-05",
    "via": "article",
    "mentions": 1,
-   "class": "blocked_shop",
+   "class": "known_shop",
    "shop_id": "drivethrurpg",
-   "shop_status": "blocked"
+   "shop_status": "active"
   }
  ]
 }

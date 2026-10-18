@@ -212,5 +212,221 @@
   },
   "question": "Does this page show AG3112 Character Sheets (Magical Kitties 2E) [Restock] at 4.98 USD on sale today? Open the link and tell me yes or no.",
   "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://shop.atlas-games.com/products/unknown-armies-1-complete-digital-bundle-20-off",
+  "url": "https://shop.atlas-games.com/products/unknown-armies-1-complete-digital-bundle-20-off",
+  "title": "Unknown Armies 1 Complete Digital Bundle - 20% Off",
+  "shop": "Atlas Games",
+  "price_now": 83.72,
+  "price_was": 104.65,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": null,
+   "reason": "I could not open the page because the sandbox denied network access to shop.atlas-games.com, so I could not check the sale myself.",
+   "failed_checks": [
+    "agent_unsure: I could not open the page because the sandbox denied network access to shop.atlas-games.com, so I could not check the sale myself."
+   ]
+  },
+  "question": "Does this page show Unknown Armies 1 Complete Digital Bundle - 20% Off at 83.72 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://shop.atlas-games.com/products/enigma-complete-digital-bundle-20-off",
+  "url": "https://shop.atlas-games.com/products/enigma-complete-digital-bundle-20-off",
+  "title": "Enigma Complete Digital Bundle - 20% Off",
+  "shop": "Atlas Games",
+  "price_now": 15.87,
+  "price_was": 19.84,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.48"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": null,
+   "reason": "I could not open the page myself because the network sandbox denied shop.atlas-games.com, so I could not check it directly.",
+   "failed_checks": [
+    "agent_unsure: I could not open the page myself because the network sandbox denied shop.atlas-games.com, so I could not check it directly."
+   ]
+  },
+  "question": "Does this page show Enigma Complete Digital Bundle - 20% Off at 15.87 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://shop.atlas-games.com/products/feng-shui-2-complete-digital-bundle-20-off",
+  "url": "https://shop.atlas-games.com/products/feng-shui-2-complete-digital-bundle-20-off",
+  "title": "Feng Shui 2 Complete Digital Bundle - 20% Off",
+  "shop": "Atlas Games",
+  "price_now": 54.91,
+  "price_was": 68.64,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": null,
+   "reason": "I could not open the page because the sandbox denied network access to shop.atlas-games.com, so I could not check the deal myself.",
+   "failed_checks": [
+    "agent_unsure: I could not open the page because the sandbox denied network access to shop.atlas-games.com, so I could not check the deal myself."
+   ]
+  },
+  "question": "Does this page show Feng Shui 2 Complete Digital Bundle - 20% Off at 54.91 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://shop.atlas-games.com/products/planegea-complete-digital-bundle-20-off",
+  "url": "https://shop.atlas-games.com/products/planegea-complete-digital-bundle-20-off",
+  "title": "Planegea Complete Digital Bundle - 20% Off",
+  "shop": "Atlas Games",
+  "price_now": 48.76,
+  "price_was": 60.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.66"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": null,
+   "reason": "I could not open the page because the network blocked shop.atlas-games.com (403, denied by the sandbox), so I could not check the product, the prices or whether the sale is running today.",
+   "failed_checks": [
+    "agent_unsure: I could not open the page because the network blocked shop.atlas-games.com (403, denied by the sandbox), so I could not check the product, the prices or whether the sale is running today."
+   ]
+  },
+  "question": "Does this page show Planegea Complete Digital Bundle - 20% Off at 48.76 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://shop.atlas-games.com/products/ag2707-blowing-up-the-movies-restock",
+  "url": "https://shop.atlas-games.com/products/ag2707-blowing-up-the-movies-restock",
+  "title": "AG2707 Blowing Up the Movies [Restock]",
+  "shop": "Atlas Games",
+  "price_now": 7.5,
+  "price_was": 15.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.20"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": null,
+   "reason": "I could not open the page myself because the network was denied for shop.atlas-games.com, so I could not confirm today that the sale is running.",
+   "failed_checks": [
+    "agent_unsure: I could not open the page myself because the network was denied for shop.atlas-games.com, so I could not confirm today that the sale is running."
+   ]
+  },
+  "question": "Does this page show AG2707 Blowing Up the Movies [Restock] at 7.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://shop.atlas-games.com/products/ag2706-goodnight-azathoth-mini-mythos-restock",
+  "url": "https://shop.atlas-games.com/products/ag2706-goodnight-azathoth-mini-mythos-restock",
+  "title": "AG2706 Goodnight Azathoth (Mini Mythos) [Restock]",
+  "shop": "Atlas Games",
+  "price_now": 9.98,
+  "price_was": 19.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.35"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": null,
+   "reason": "I could not open the page because the sandbox blocked network access to shop.atlas-games.com, and the trimmed page text in the input shows the item as 'Sold out' with no visible regular price.",
+   "failed_checks": [
+    "agent_unsure: I could not open the page because the sandbox blocked network access to shop.atlas-games.com, and the trimmed page text in the input shows the item as 'Sold out' with no visible regular price."
+   ]
+  },
+  "question": "Does this page show AG2706 Goodnight Azathoth (Mini Mythos) [Restock] at 9.98 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.exaltedfuneral.com/products/hell-in-the-cell-damaged-surprise-grab-bag",
+  "url": "https://www.exaltedfuneral.com/products/hell-in-the-cell-damaged-surprise-grab-bag",
+  "title": "Random Fighter Grab Bag",
+  "shop": "Exalted Funeral",
+  "price_now": 15.0,
+  "price_was": 25.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.43"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$15.00",
+   "reason": "The page shows $15.00 against a struck-through $25.00, but the bag is a mystery grab bag of one book and two zines, so the page does not confirm that the contents are tabletop RPG products.",
+   "failed_checks": [
+    "agent_unsure: The page shows $15.00 against a struck-through $25.00, but the bag is a mystery grab bag of one book and two zines, so the page does not confirm that the contents are tabletop RPG products."
+   ]
+  },
+  "question": "Does this page show Random Fighter Grab Bag at 15.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.exaltedfuneral.com/products/planar-compass-coloring-book",
+  "url": "https://www.exaltedfuneral.com/products/planar-compass-coloring-book",
+  "title": "Planar Compass Coloring Book",
+  "shop": "Exalted Funeral",
+  "price_now": 6.0,
+  "price_was": 10.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$6.00 USD",
+   "reason": "The page shows a $10.00 regular price struck out and a $6.00 sale price, but the product is a black-and-white coloring book of art from the Planar Compass RPG zine, with no rules or adventure content, so it may not count as an RPG product.",
+   "failed_checks": [
+    "agent_unsure: The page shows a $10.00 regular price struck out and a $6.00 sale price, but the product is a black-and-white coloring book of art from the Planar Compass RPG zine, with no rules or adventure content, so it may not count as an RPG product."
+   ]
+  },
+  "question": "Does this page show Planar Compass Coloring Book at 6.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
  }
 ]

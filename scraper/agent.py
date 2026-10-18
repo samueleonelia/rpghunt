@@ -29,6 +29,36 @@ MAX_BUDGET_USD = "1.50"      # this claude version has no --max-turns; budget + 
 ALLOWED_TOOL = "Bash(.venv/bin/python -m scraper.fetchpage:*)"
 TRIAL_MAX_PRODUCTS = 60      # product pages read when a proposed recipe is tried
 MAX_SELECTOR_CHARS = 200
+SANDBOX_SETTINGS = ROOT / "data" / "shops" / "agent-sandbox.json"   # rebuilt before every run
+# Hosts the agent may reach besides the shops' own: none. www.drivethrurpg.com (bot wall) is never added.
+NEVER_ALLOW = {"www.drivethrurpg.com", "drivethrurpg.com"}
+
+
+def shop_domains(shops=None):
+    """The agent's network allowlist: every active shop's store host (and its www twin),
+    plus *.itch.io for itch sellers. Rebuilt from shops.json, so new shops are included."""
+    hosts = set()
+    for s in shops if shops is not None else load_shops():
+        if s.get("status") != "active" or not s.get("store_url"):
+            continue
+        host = urllib.parse.urlsplit(s["store_url"]).netloc.lower()
+        if not host:
+            continue
+        bare = host.removeprefix("www.")
+        hosts |= {bare, "www." + bare} if bare.count(".") == 1 else {host}
+        if bare == "itch.io" or bare.endswith(".itch.io"):
+            hosts |= {"itch.io", "*.itch.io"}
+    return sorted(hosts - NEVER_ALLOW)
+
+
+def write_sandbox_settings(path=SANDBOX_SETTINGS, shops=None):
+    """Settings for the agent's runs only (claude --settings): the sandbox stays on, commands
+    can't leave it, and the network reaches only the shop hosts; anything else is refused."""
+    settings = {"sandbox": {"enabled": True, "allowUnsandboxedCommands": False,
+                            "network": {"allowedDomains": shop_domains(shops), "strictAllowlist": True}}}
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(settings, indent=1) + "\n")
+    return path
 
 
 # ---------------------------------------------------------------- reading the answer
@@ -63,7 +93,7 @@ class Result:
                 "error": self.error, "hook_blocked": self.hook_blocked}
 
 
-def claude_command(brief_text):
+def claude_command(brief_text, settings_path=None):
     """The exact argument list (the prompt itself goes on stdin).
     --tools Bash: the only built-in tool; --allowedTools: only the fetchpage command in it;
     --permission-mode dontAsk: anything else is refused, never asked; --strict-mcp-config with no
@@ -72,7 +102,8 @@ def claude_command(brief_text):
             "--append-system-prompt", brief_text,
             "--tools", "Bash", "--allowedTools", ALLOWED_TOOL,
             "--permission-mode", "dontAsk", "--strict-mcp-config", "--disable-slash-commands",
-            "--no-session-persistence", "--max-budget-usd", MAX_BUDGET_USD]
+            "--no-session-persistence", "--max-budget-usd", MAX_BUDGET_USD] + (
+            ["--settings", str(settings_path)] if settings_path else [])
 
 
 def job_prompt(job, today):
@@ -90,7 +121,7 @@ class ClaudeAgent:
 
     def run(self, job, today=None):
         today = today or datetime.date.today().isoformat()
-        cmd = claude_command(BRIEF.read_text())
+        cmd = claude_command(BRIEF.read_text(), write_sandbox_settings())
         self.last_command = cmd
         start = time.monotonic()
         try:

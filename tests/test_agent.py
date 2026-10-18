@@ -1,3 +1,4 @@
+import json
 import pathlib
 import unittest
 from unittest import mock
@@ -216,3 +217,28 @@ class RecipeValidation(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SandboxAllowlist(unittest.TestCase):
+    def test_only_active_shop_hosts_and_never_the_bot_wall(self):
+        shops = [{"status": "active", "store_url": "https://modiphius.net/collections/all"},
+                 {"status": "active", "store_url": "https://store.paizo.com"},
+                 {"status": "active", "store_url": "https://itch.io/physical-games"},
+                 {"status": "active", "store_url": "https://api.drivethrurpg.com/"},
+                 {"status": "blocked", "store_url": "https://www.drivethrurpg.com/"},
+                 {"status": "blocked", "store_url": "https://goodman-games.com/"}]
+        hosts = agent.shop_domains(shops)
+        self.assertEqual(hosts, ["*.itch.io", "api.drivethrurpg.com", "itch.io", "modiphius.net",
+                                 "store.paizo.com", "www.itch.io", "www.modiphius.net"])
+
+    def test_settings_keep_the_sandbox_on_and_strict(self):
+        import tempfile, pathlib
+        path = agent.write_sandbox_settings(pathlib.Path(tempfile.mkdtemp()) / "s.json",
+                                            [{"status": "active", "store_url": "https://evilhat.com/"}])
+        sb = json.loads(path.read_text())["sandbox"]
+        self.assertTrue(sb["enabled"])
+        self.assertFalse(sb["allowUnsandboxedCommands"])
+        self.assertTrue(sb["network"]["strictAllowlist"])
+        self.assertEqual(sb["network"]["allowedDomains"], ["evilhat.com", "www.evilhat.com"])
+        cmd = agent.claude_command("BRIEF", path)
+        self.assertEqual(cmd[-2:], ["--settings", str(path)])
