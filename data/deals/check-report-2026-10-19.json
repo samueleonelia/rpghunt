@@ -1,0 +1,12 @@
+{
+ "date": "2026-10-19",
+ "mode": "baseline",
+ "counts": {
+  "deals_in": 3918,
+  "baseline": 3918,
+  "published": 0,
+  "needs_agent": 0
+ },
+ "needs_agent": [],
+ "deals": []
+}
