@@ -1,6 +1,6 @@
 """Jev check (phase 2): which raw deals are real, current, tabletop RPG deals?
 
-python -m scraper.check [--date D] [--fake | --dry-run] [--limit N] [--include-fakes] [--fetch-pages]
+python -m scraper.check [--date D] [--fake | --dry-run | --baseline] [--limit N] [--include-fakes] [--fetch-pages]
 
 Spec: agents/jev-check-spec.md. Jev only judges meaning (RPG or not, does the page back the
 claim, which amount on the page is the current price). Code keeps every number, date and the
@@ -10,6 +10,8 @@ Input   data/deals/raw/<date>-scraper.json
 Memory  data/deals/check-memory.json             verdicts by link and prices (local, gitignored). A deal seen
                                                  before at the same link and prices keeps its verdict with no
                                                  Jev call; only new or changed deals are checked.
+--baseline: the first day. Every deal on sale today is saved as "already seen" (decision `baseline`) with no
+Jev call, and never published while it stays unchanged. Only deals that appear or change later are checked.
 Output  data/deals/raw/<date>-checked.json         published deals (+ a "check" block)
         data/deals/check-report-<date>.json        counts, per-deal reasons, needs_agent, Jev tokens
 With --fake the files get a -FAKE suffix: FakeJev is a keyword test double, never for publishing.
@@ -356,6 +358,18 @@ def remember(memory, deal, date, result):
                                 "check": result["check"]}
 
 
+def baseline(memory, deals, date):
+    """Mark every deal not already remembered as seen before we started watching. -> how many were added."""
+    added = 0
+    for d in deals:
+        if d.get("_fake") or memory.get(memory_key(d)):
+            continue
+        remember(memory, d, date, {"decision": "baseline", "reasons": ["baseline: on sale before RPG Hunt started watching"],
+                                   "check": {}})
+        added += 1
+    return added
+
+
 def prune(memory, date):
     today = datetime.date.fromisoformat(date)
     return {k: m for k, m in memory.items()
@@ -627,6 +641,8 @@ def main(argv=None):
     mode = ap.add_mutually_exclusive_group()
     mode.add_argument("--fake", action="store_true", help="FakeJev keyword test double instead of real Jev")
     mode.add_argument("--dry-run", action="store_true", help="no Jev calls; print requests, tokens and cost")
+    mode.add_argument("--baseline", action="store_true",
+                      help="first day only: save every deal as already seen, no Jev calls, nothing published")
     ap.add_argument("--limit", type=int, default=0, help="check only N deals (test-set deals first, then an even sample)")
     ap.add_argument("--include-fakes", action="store_true", help="also run the planted fakes through the checker")
     ap.add_argument("--fetch-pages", action="store_true", help="with --dry-run: really fetch the page-sourced pages")
@@ -643,6 +659,19 @@ def main(argv=None):
     if args.include_fakes:
         deals += load_fakes(args.date)
     print(f"{len(raw)} raw deals, {len(deals)} to check")
+
+    if args.baseline:
+        memory_path = REPORTS / "check-memory.json"
+        memory = json.loads(memory_path.read_text()) if memory_path.exists() else {}
+        added = baseline(memory, raw, args.date)
+        memory_path.write_text(json.dumps(memory, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
+        rep = REPORTS / f"check-report-{args.date}.json"
+        rep.write_text(json.dumps({"date": args.date, "mode": "baseline",
+                                   "counts": {"deals_in": len(raw), "baseline": added, "published": 0, "needs_agent": 0},
+                                   "needs_agent": [], "deals": []}, indent=1) + "\n")
+        (RAW / f"{args.date}-checked.json").write_text("[]\n")
+        print(f"baseline: {added} deals saved as already seen ({len(memory)} in memory); no Jev calls, nothing published")
+        return 0
 
     if args.dry_run:
         for k, v in estimate(deals, args.date, THRESHOLDS, history, args.fetch_pages).items():

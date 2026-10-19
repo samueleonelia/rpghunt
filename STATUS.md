@@ -6,7 +6,7 @@ _Updated: 2026-10-19 · branch main_
 
 **What this is:** A daily list of tabletop RPG deals, collected and verified by AI agents, English first, with a catalog of games behind it.
 
-**Right now:** The scraper reads all 47 shops in full every day with no caps, but pays for checks only on new or changed deals; unchanged deals keep their verdict. The report warns when a day costs more than $5. The live site still shows the 2026-10-16 deals. The homepage redesign sits uncommitted in `docs/`.
+**Right now:** Baseline saved on 2026-10-19: 3,918 deals already on sale count as "seen" and won't be published while unchanged. From 2026-10-20 each daily run reads all 47 shops (about 10 minutes) and pays only for new or changed deals. The report warns when a day costs more than $5. The live site still shows the 2026-10-16 deals. The homepage redesign sits uncommitted in `docs/`.
 
 ## Feature areas
 | Area | State | Note |
@@ -28,15 +28,15 @@ _Updated: 2026-10-19 · branch main_
 | Custom domain | 🚧 building | rpghunt.com not bought |
 
 ## Next up
-1. Run the daily command 2 days in a row: day 1 full cost, day 2 savings
+1. 2026-10-20: run `.venv/bin/python -m scraper.daily` (no flags): first real day, new deals only
 2. Finish the redesign (remove localhost script, email form decision)
 3. Paging or stronger ranking for about 1,000 deals a day
 4. Go live with the new deals (your OK)
 5. Daily scheduled run
 
 ## Known issues
-- Real cost and run time without caps are unknown until the first full run.
-- About 1,100 DriveThruRPG deals on sale before our first run wait forever (no price drop seen).
+- Real daily cost is unknown until the 2026-10-20 run.
+- Deals already on sale on 2026-10-19 (baseline) are never shown unless their price changes or EN World names them.
 - About 1,000 deals a day is far more than the 27 the site was designed for.
 - Humble Bundle "worth" figures are inflated; those bundles go to the agent.
 - Variant deals ("My Jam"): our reader takes the cheapest on-sale variant; the page may show another.

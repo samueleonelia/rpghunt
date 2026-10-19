@@ -346,3 +346,22 @@
 **Next**
 - Run the daily command 2 days in a row: day 1 shows the full cost, day 2 the savings.
 - Open gap: about 1,100 DriveThruRPG deals already on sale before our first run wait forever (no price drop seen). Possible fix: judge "limited-time sale or everyday price" from the shop's own signals.
+
+## 2026-10-19 (evening): First uncapped read, baseline saved
+
+**Status:** `baseline` merged into `main`. The baseline is saved locally in `data/deals/check-memory.json` (gitignored). Live site unchanged.
+
+**Done**
+- First full run without caps, stopped before the paid checks: 47 shops, 0 errors, 0 safety limits hit, 3,918 possible deals (was about 2,250 with caps). Reading took about 10 minutes; Paizo was slowest at about 9.
+- Baseline mode (`check --baseline`, `daily --baseline`): every deal on sale today saved as "already seen", with no Jev or agent calls and nothing published. 3,918 deals saved.
+- Tests: 274 pass.
+
+**Decisions**
+- User chose option B for day 1: deals already on sale before RPG Hunt started watching are not published while unchanged. A baseline deal is checked only if its price changes or an EN World roundup names it. Only deals that appear from 2026-10-20 on are checked.
+- Why: with empty memory, "check only new deals" counts all 3,918 as new on day 1, and the agent cost for those is unknown.
+
+**Learnings**
+- I explained this badly at first (said "let it run", then stopped it; guessed Paizo time wrong). The point I failed to say clearly: on the first day every deal counts as new.
+
+**Next**
+- 2026-10-20: run `python -m scraper.daily` (no flags). It reads everything and pays only for new or changed deals.
