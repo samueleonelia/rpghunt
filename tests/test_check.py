@@ -217,6 +217,18 @@ class Memory(Base):
         self.assertEqual(check.baseline(mem, [feed_deal(shop_id="publisher"), page_deal()], DATE), 1)
         self.assertEqual(mem[check.memory_key(feed_deal())]["decision"], "publish")
 
+    def test_list_new_shows_exactly_what_a_real_check_would_pay_for(self):
+        mem = {}
+        check.baseline(mem, [feed_deal(), page_deal()], DATE)
+        new = feed_deal(url="https://shop.example/products/new-one")
+        rows = check.list_new(mem, [feed_deal(), page_deal(price_now=20.0), new])
+        self.assertEqual([(r["why"], r["url"]) for r in rows],
+                         [("price_changed", page_deal()["url"]), ("new", new["url"])])
+        self.assertEqual(rows[0]["before"]["price_now"], 24.0)
+        lead = {check.lead_key(feed_deal()["url"]): "https://enworld.example/post"}
+        self.assertEqual([r["why"] for r in check.list_new(mem, [feed_deal()], lead)], ["lead"])
+        self.assertEqual(check.list_new(mem, [feed_deal(price_was=31.0)]), [])   # only the "was" price moved
+
     def test_deals_gone_for_a_week_are_forgotten(self):
         mem = {"a": {"last_seen": "2026-10-10"}, "b": {"last_seen": "2026-10-12"}}
         self.assertEqual(list(check.prune(mem, DATE)), ["b"])

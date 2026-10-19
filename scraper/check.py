@@ -1,17 +1,19 @@
 """Jev check (phase 2): which raw deals are real, current, tabletop RPG deals?
 
-python -m scraper.check [--date D] [--fake | --dry-run | --baseline] [--limit N] [--include-fakes] [--fetch-pages]
+python -m scraper.check [--date D] [--fake | --dry-run | --baseline | --list-new] [--limit N] [--include-fakes] [--fetch-pages]
 
 Spec: agents/jev-check-spec.md. Jev only judges meaning (RPG or not, does the page back the
 claim, which amount on the page is the current price). Code keeps every number, date and the
 final decision.
 
 Input   data/deals/raw/<date>-scraper.json
-Memory  data/deals/check-memory.json             verdicts by link and prices (local, gitignored). A deal seen
-                                                 before at the same link and prices keeps its verdict with no
+Memory  data/deals/check-memory.json             verdicts by link and selling price (local, gitignored). A deal
+                                                 seen before at the same link and price keeps its verdict with no
                                                  Jev call; only new or changed deals are checked.
 --baseline: the first day. Every deal on sale today is saved as "already seen" (decision `baseline`) with no
 Jev call, and never published while it stays unchanged. Only deals that appear or change later are checked.
+--list-new: free preview. Lists the deals a real check would pay for (new, price changed, or reopened by a
+roundup lead) in data/deals/new-deals-<date>.json. No Jev, no memory or history change.
 Output  data/deals/raw/<date>-checked.json         published deals (+ a "check" block)
         data/deals/check-report-<date>.json        counts, per-deal reasons, needs_agent, Jev tokens
 With --fake the files get a -FAKE suffix: FakeJev is a keyword test double, never for publishing.
@@ -337,12 +339,17 @@ def memory_key(deal):
     return norm_url(deal["url"])
 
 
+def same_price(deal, m):
+    """Same selling price and currency. The crossed-out "was" price is ignored: shops nudge it
+    (Hit Point Press moved several by $1 within an hour) without the deal changing."""
+    return (deal.get("price_now"), deal.get("currency")) == (m.get("price_now"), m.get("currency"))
+
+
 def recall(memory, deal, lead=None):
-    """-> the remembered result for this deal at these exact prices, or None (new or changed deal).
+    """-> the remembered result for this deal at this selling price, or None (new or changed deal).
     A trusted roundup lead is new information, so it reopens anything not already published."""
     m = memory.get(memory_key(deal))
-    if not m or (deal.get("price_now"), deal.get("price_was"), deal.get("currency")) != \
-            (m.get("price_now"), m.get("price_was"), m.get("currency")):
+    if not m or not same_price(deal, m):
         return None
     if lead and m["decision"] != "publish":
         return None
@@ -368,6 +375,24 @@ def baseline(memory, deals, date):
                                    "check": {}})
         added += 1
     return added
+
+
+def list_new(memory, deals, leads=None):
+    """-> rows for every deal a real check would look at: {"why": new | price_changed | lead, ...deal fields}."""
+    leads = leads or {}
+    rows = []
+    for d in deals:
+        lead = leads.get(lead_key(d["url"])) if everyday_shop(d) else None
+        if recall(memory, d, lead):
+            continue
+        m = memory.get(memory_key(d))
+        why = "new" if not m else "lead" if lead and same_price(d, m) else "price_changed"
+        row = {"why": why, "shop": d["shop"], "title": d["title"], "url": d["url"], "price_now": d.get("price_now"),
+               "price_was": d.get("price_was"), "currency": d.get("currency"), "type": d.get("type")}
+        if m and why == "price_changed":
+            row["before"] = {"price_now": m.get("price_now"), "price_was": m.get("price_was"), "seen": m.get("last_seen")}
+        rows.append(row)
+    return rows
 
 
 def prune(memory, date):
@@ -641,6 +666,8 @@ def main(argv=None):
     mode = ap.add_mutually_exclusive_group()
     mode.add_argument("--fake", action="store_true", help="FakeJev keyword test double instead of real Jev")
     mode.add_argument("--dry-run", action="store_true", help="no Jev calls; print requests, tokens and cost")
+    mode.add_argument("--list-new", action="store_true",
+                      help="free preview: list the deals a real check would pay for; changes nothing")
     mode.add_argument("--baseline", action="store_true",
                       help="first day only: save every deal as already seen, no Jev calls, nothing published")
     ap.add_argument("--limit", type=int, default=0, help="check only N deals (test-set deals first, then an even sample)")
@@ -653,6 +680,20 @@ def main(argv=None):
         print(f"missing {raw_path.relative_to(ROOT)}; run: python -m scraper.run --date {args.date}")
         return 1
     raw = json.loads(raw_path.read_text())
+    if args.list_new:
+        memory_path = REPORTS / "check-memory.json"
+        memory = json.loads(memory_path.read_text()) if memory_path.exists() else {}
+        rows = list_new(memory, raw, load_trusted_leads(args.date))
+        out = REPORTS / f"new-deals-{args.date}.json"
+        out.write_text(json.dumps(rows, ensure_ascii=False, indent=1) + "\n")
+        by_why = collections.Counter(r["why"] for r in rows)
+        by_shop = collections.Counter(r["shop"] for r in rows)
+        print(f"{len(raw)} deals on sale, {len(memory)} remembered; {len(rows)} would be checked: "
+              + (", ".join(f"{n} {w}" for w, n in by_why.most_common()) or "none"))
+        for shop, n in by_shop.most_common():
+            print(f"  {shop}: {n}")
+        print(f"wrote {out.relative_to(ROOT)} (nothing paid, nothing changed)")
+        return 0
     history = History()
     history.record(raw, args.date)          # every raw deal, every run (idempotent per date)
     deals = select(raw, args.date, args.limit)
