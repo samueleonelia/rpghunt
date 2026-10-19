@@ -39,6 +39,10 @@ Update with `npx impeccable update`.
 - `STATUS.md`: current state, rewritten in place
 
 ## Rules
-TBD
+- **The deal list must be as complete as possible.** We may not find every deal, but never limit
+  deal finding on purpose (no job caps, page caps or daily quotas to save money or time). Cost is
+  watched with an alarm in the daily report (`--cost-alarm`, default $5), never with a cap.
+  A safety limit that only stops a runaway loop is allowed, set very high, and must be reported
+  in the daily report when hit ("Safety limits hit"). Decided 2026-10-19.
 
 ## Remember

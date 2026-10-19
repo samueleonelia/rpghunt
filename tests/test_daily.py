@@ -10,7 +10,7 @@ DATE = "2026-10-17"
 
 
 def ctx(**kw):
-    return types.SimpleNamespace(**{"date": DATE, "fake": False, "skip_run": False, "max_agent_jobs": 20, **kw})
+    return types.SimpleNamespace(**{"date": DATE, "fake": False, "skip_run": False, "max_agent_jobs": None, **kw})
 
 
 def stubs(log, fail=None, raise_in=None):
@@ -107,6 +107,34 @@ class Report(unittest.TestCase):
                        "Lost Thing", "Odd Deal", "Is it on sale?", "Total: 9.0 s", "$0.12", "1000 tokens in",
                        "1 more deal(s) are waiting"):
             self.assertIn(needle.replace("a: 0", "**a**: 0"), text)
+
+    def test_agent_runs_every_job_by_default(self):
+        seen = {}
+        orig = daily.escalate.main
+        daily.escalate.main = lambda args: seen.setdefault("args", args) and 0
+        try:
+            daily.stage_escalate(ctx())
+        finally:
+            daily.escalate.main = orig
+        self.assertEqual(seen["args"], ["--date", DATE])
+        self.assertIsNone(daily.missed.MAX_FETCHES)
+
+    def test_cost_alarm_and_safety_limits_in_report(self):
+        tmp = pathlib.Path(tempfile.mkdtemp())
+        (tmp / f"scrape-report-{DATE}.json").write_text(json.dumps({"shops": [
+            {"id": "bigshop", "deals": 3, "stopped_early": "stopped at the 500-page safety limit"},
+            {"id": "fine", "deals": 2}]}))
+        (tmp / f"check-report-{DATE}.json").write_text(json.dumps({"jev": {"estimated_cost_usd": 0.5}}))
+        (tmp / f"escalation-{DATE}.json").write_text(json.dumps(
+            {"jobs": [{"job": "recheck", "agent_run": {"cost_usd": 3.0}}] * 2}))
+        text = daily.build_report(ctx(cost_alarm=5.0), {}, tmp)
+        self.assertIn("1 shop(s) hit a safety limit", text)
+        self.assertIn("**bigshop**: stopped at the 500-page safety limit.", text)
+        self.assertIn("Cost alarm: today cost about $6.50", text)
+        self.assertIn("Day total: about $6.50", text)
+        quiet = daily.build_report(ctx(cost_alarm=10.0), {}, tmp)
+        self.assertNotIn("Cost alarm", quiet)
+        self.assertNotIn("waiting for the browsing agent", quiet)
 
     def test_empty_day_does_not_crash(self):
         text = daily.build_report(ctx(), {}, pathlib.Path(tempfile.mkdtemp()))

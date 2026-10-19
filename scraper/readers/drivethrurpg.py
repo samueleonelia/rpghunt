@@ -17,7 +17,7 @@ from scraper.common import FetchError, fetch_json, is_discount, make_deal, money
 API = "https://api.drivethrurpg.com/api/vBeta/products"
 SITE = "https://www.drivethrurpg.com"
 PAGE_SIZE = 50          # the API caps it at 50
-MAX_PAGES = 80          # the sale list was ~49 pages on 2026-10-17; this is the safety cap
+MAX_PAGES = 500         # only stops a runaway loop (the sale list was ~49 pages on 2026-10-17); reported when hit
 
 
 # DriveThruRPG's image server. The API gives only relative paths ("62/2727.jpg"); this base
@@ -143,6 +143,8 @@ def read_with_stats(shop):
     stats = {"items_read": items, "pages": pages,
              "community_content": sum(d["hints"]["is_community_content"] for d in deals),
              "ai_flagged": sum(d["hints"]["is_ai"] for d in deals)}
+    if url and pages >= MAX_PAGES:
+        stats["stopped_early"] = f"stopped at the {MAX_PAGES}-page safety limit; more sale pages exist"
     return deals, stats
 
 

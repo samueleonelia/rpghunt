@@ -19,8 +19,8 @@ from scrapling.parser import Selector
 from scraper.common import FetchError, fetch, is_discount, load_shops, make_deal, money, save_shops
 
 _shops_lock = threading.Lock()   # shops run in parallel threads; shops.json is one file
-MAX_PAGES = 5            # sale-page pagination
-MAX_PRODUCTS = 150       # per shop
+MAX_PAGES = 500          # sale-page pagination; only stops a runaway loop, reported when hit
+MAX_PRODUCTS = 5000      # per shop; only stops a runaway loop, reported when hit
 END_WINDOW_DAYS = 120    # a valid-until further away than this is a default, not a sale end
 
 PRODUCT_PATH = re.compile(r"/(products?|p|item|items|shop/p)/[^/?#]+", re.I)
@@ -447,7 +447,7 @@ def read_with_stats(shop):
     if not pages:
         return [], {"items_read": 0, "no_sale_page": True}
 
-    links, listing_errors = [], []
+    links, listing_errors, stopped = [], [], []
     for start in pages:
         url, seen_pages = start, set()
         for _ in range(MAX_PAGES):
@@ -470,6 +470,10 @@ def read_with_stats(shop):
             url = next_page(sel, url)
             if not url:
                 break
+        else:
+            stopped.append(f"stopped at the {MAX_PAGES}-page safety limit on {start}; more sale pages may exist")
+    if len(links) >= MAX_PRODUCTS:
+        stopped.append(f"stopped at the {MAX_PRODUCTS}-product safety limit; some products may not be checked")
     links = links[:MAX_PRODUCTS]
 
     deals, checked, failed = [], 0, 0
@@ -494,6 +498,8 @@ def read_with_stats(shop):
     stats = {"items_read": checked, "sale_pages": len(pages), "links_found": len(links), "failed_pages": failed}
     if listing_errors:
         stats["listing_errors"] = listing_errors[:3]
+    if stopped:
+        stats["stopped_early"] = "; ".join(stopped)
     return deals, stats
 
 

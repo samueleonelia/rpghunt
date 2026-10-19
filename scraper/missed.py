@@ -31,7 +31,7 @@ from scraper.score import host as alias_host
 from scraper.score import words
 
 DEALS = ROOT / "data" / "deals"
-MAX_FETCHES = 60            # lead pages fetched per day
+MAX_FETCHES = None          # lead pages fetched per day: no limit (finding deals is never capped on purpose)
 WORKERS = 8
 
 _PRODUCT = re.compile(
@@ -185,9 +185,10 @@ def read_pages(misses, shops, page_info, today, max_fetches=MAX_FETCHES):
     """Fetch the page of every miss that still needs it; sets reason / detail / candidate. -> candidates."""
     by_id = {s["id"]: s for s in shops}
     todo = [m for m in misses if m["reason"] is None]
-    for m in todo[max_fetches:]:
-        m.update(reason="fetch_cap", detail=f"more than {max_fetches} lead pages today")
-    todo = todo[:max_fetches]
+    if max_fetches is not None:                       # tests only; the daily run reads every page
+        for m in todo[max_fetches:]:
+            m.update(reason="fetch_cap", detail=f"more than {max_fetches} lead pages today")
+        todo = todo[:max_fetches]
 
     def one(m):
         shop = by_id[m["shop_id"]]
