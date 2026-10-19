@@ -11,6 +11,10 @@ Writes   data/deals/escalation-<date>.json       every job: agent answer summary
          data/deals/needs-owner-<date>.json      everything still unsettled, one line question each
          data/shops/shops.json                   accepted recipes (via scraper.agent.save_recipe)
          data/shops/recipe-attempts.json         last recipe attempt per shop (no new try for 7 days)
+         data/deals/agent-memory.json            the agent's recheck verdicts by link and price (local, gitignored)
+Agent memory: a deal the agent already judged at the same link and the same prices in the last
+MEMORY_DAYS days gets that verdict again without a new agent job (no cost). A price change, an older
+verdict or an agent failure means a fresh job.
 --fake: FakeAgent (answers `unsure`), reads the -FAKE check report, every output gets a -FAKE suffix, and
 shops.json / recipe-attempts.json are left alone.
 Re-running a date skips jobs that already ended in a final outcome (so it costs nothing twice); --retry
@@ -27,6 +31,8 @@ from scraper.trim import trim
 REPORTS = ROOT / "data" / "deals"
 ATTEMPTS = ROOT / "data" / "shops" / "recipe-attempts.json"
 RETRY_DAYS = 7
+MEMORY_DAYS = 7          # an agent verdict is reused this long while the link and prices stay the same
+MEMORY_OUTCOMES = {"publish", "drop", "needs_owner"}
 FINAL = {"publish", "drop", "needs_owner", "accepted", "rejected"}   # not final: "error" (agent failed to run)
 DEAL_FIELDS = ("title", "shop", "url", "price_now", "price_was", "currency", "ends", "type", "found_via", "source")
 
@@ -113,6 +119,39 @@ def owner_shop_item(shop, why, detail):
     }
 
 
+# ---------------------------------------------------------------- agent memory
+
+def memory_key(deal):
+    return norm_url(deal["url"])
+
+
+def _same_prices(deal, m):
+    return (deal.get("price_now"), deal.get("price_was"), deal.get("currency")) == \
+           (m.get("price_now"), m.get("price_was"), m.get("currency"))
+
+
+def _age_days(date, then):
+    return (datetime.date.fromisoformat(date) - datetime.date.fromisoformat(then)).days
+
+
+def recall(memory, deal, date):
+    """-> the remembered verdict for this deal at these prices, or None (new, changed, too old)."""
+    m = memory.get(memory_key(deal)) if deal else None
+    if not m or m.get("outcome") not in MEMORY_OUTCOMES or not _same_prices(deal, m):
+        return None
+    return m if 0 <= _age_days(date, m["date"]) < MEMORY_DAYS else None
+
+
+def remember(memory, deal, date, res):
+    memory[memory_key(deal)] = {"date": date, "price_now": deal.get("price_now"), "price_was": deal.get("price_was"),
+                                "currency": deal.get("currency"), "outcome": res["outcome"],
+                                "reasons": res.get("reasons") or [], "agent": res.get("agent") or {}}
+
+
+def prune(memory, date):
+    return {k: m for k, m in memory.items() if _age_days(date, m["date"]) < MEMORY_DAYS}
+
+
 # ---------------------------------------------------------------- the run
 
 def run(date, ag, fake=False, max_jobs=None, retry=False, load=agent_mod.load_page_html,
@@ -123,6 +162,8 @@ def run(date, ag, fake=False, max_jobs=None, retry=False, load=agent_mod.load_pa
     raw = {norm_url(d["url"]): d for d in _read(RAW / f"{date}-scraper.json", [])}
     esc_path = REPORTS / f"escalation-{date}{suffix}.json"
     owner_path = REPORTS / f"needs-owner-{date}{suffix}.json"
+    memory_path = REPORTS / f"agent-memory{suffix}.json"
+    memory = _read(memory_path, {})
     checked_path = RAW / f"{date}-checked{suffix}.json"
     esc = _read(esc_path, {"date": date, "fake": fake, "jobs": []})
     owner = {i["key"]: i for i in _read(owner_path, [])}
@@ -135,6 +176,10 @@ def run(date, ag, fake=False, max_jobs=None, retry=False, load=agent_mod.load_pa
     jobs += [("recheck", n, None) for n in check_rep.get("needs_agent", [])]
     todo = [j for j in jobs if (f"recipe:{j[1]['id']}" if j[0] == "recipe" else j[1]["url"]) not in done]
     skipped_done = len(jobs) - len(todo)
+    reuse = [(j, recall(memory, raw.get(norm_url(j[1]["url"])), date)) for j in todo if j[0] == "recheck"]
+    reuse = [(j, m) for j, m in reuse if m]
+    reused_keys = {j[1]["url"] for j, _ in reuse}
+    todo = [j for j in todo if not (j[0] == "recheck" and j[1]["url"] in reused_keys)]
     if max_jobs is not None:
         todo = todo[:max_jobs]
 
@@ -142,6 +187,29 @@ def run(date, ag, fake=False, max_jobs=None, retry=False, load=agent_mod.load_pa
 
     def put(row):
         esc["jobs"] = [j for j in esc["jobs"] if j["key"] != row["key"]] + [row]
+
+    def settle(rec, row, res, jev_check, jev_reasons, extra=None):
+        """Apply a recheck outcome (fresh or remembered) to the checked file and the owner list."""
+        if res["outcome"] == "publish":
+            new_checked.append(dict(rec, check={**jev_check, "decision": "publish", "via": "agent",
+                                                "checked_on": date, "model": agent_mod.MODEL, "fake_agent": fake,
+                                                "jev_reasons": jev_reasons, "agent": res["agent"], **(extra or {})}))
+            owner.pop(row["key"], None)
+        elif res["outcome"] == "needs_owner":
+            owner[row["key"]] = owner_deal_item(rec, jev_reasons, jev_check, res, "needs_owner")
+        else:
+            owner.pop(row["key"], None)
+
+    for (_, item, _), m in reuse:                 # remembered verdicts: no agent job, no cost
+        rec = raw[norm_url(item["url"])]
+        jev_entry = jev_by_url.get(norm_url(item["url"])) or {}
+        res = {"outcome": m["outcome"], "reasons": m["reasons"], "agent": m["agent"]}
+        row = {"job": "recheck", "key": item["url"], "title": item["title"], "shop": item["shop"],
+               "outcome": m["outcome"], "reasons": m["reasons"], "agent": m["agent"], "agent_run": None,
+               "reused_from": m["date"]}
+        settle(rec, row, res, jev_entry.get("check") or {}, item.get("reasons") or [], {"reused_from": m["date"]})
+        put(row)
+        counts["recheck"]["reused"] = counts["recheck"].get("reused", 0) + 1
 
     for kind, item, why in todo:
         if kind == "recheck":
@@ -167,15 +235,8 @@ def run(date, ag, fake=False, max_jobs=None, retry=False, load=agent_mod.load_pa
                     continue
                 res = agent_mod.validate_recheck(rec, r.answer, jev_check, date, load)
                 row.update(outcome=res["outcome"], reasons=res["reasons"], agent=res["agent"], agent_run=r.meta())
-            if res["outcome"] == "publish":
-                new_checked.append(dict(rec, check={**jev_check, "decision": "publish", "via": "agent",
-                                                    "checked_on": date, "model": agent_mod.MODEL, "fake_agent": fake,
-                                                    "jev_reasons": jev_reasons, "agent": res["agent"]}))
-                owner.pop(row["key"], None)
-            elif res["outcome"] == "needs_owner":
-                owner[row["key"]] = owner_deal_item(rec, jev_reasons, jev_check, res, "needs_owner")
-            else:
-                owner.pop(row["key"], None)
+                remember(memory, rec, date, res)      # only verdicts the agent was paid for
+            settle(rec, row, res, jev_check, jev_reasons)
             put(row)
             counts["recheck"][row["outcome"]] = counts["recheck"].get(row["outcome"], 0) + 1
         else:
@@ -206,10 +267,12 @@ def run(date, ag, fake=False, max_jobs=None, retry=False, load=agent_mod.load_pa
 
     if write:
         esc["counts"] = {"jobs_found": len(jobs), "already_done": skipped_done, "run_now": len(todo),
+                         "reused_from_memory": len(reuse),
                          "published_by_agent": sum(1 for j in esc["jobs"] if j["job"] == "recheck" and j["outcome"] == "publish"),
                          "needs_owner": len(owner)}
         esc_path.write_text(json.dumps(esc, ensure_ascii=False, indent=1) + "\n")
         owner_path.write_text(json.dumps(list(owner.values()), ensure_ascii=False, indent=1) + "\n")
+        memory_path.write_text(json.dumps(prune(memory, date), ensure_ascii=False, indent=1, sort_keys=True) + "\n")
         if not fake:
             ATTEMPTS.write_text(json.dumps(attempts, indent=1, sort_keys=True) + "\n")
         if new_checked:
@@ -230,7 +293,8 @@ def main(argv=None):
     ag = agent_mod.FakeAgent() if args.fake else agent_mod.ClaudeAgent()
     esc, owner, new_checked, counts = run(args.date, ag, args.fake, args.max_jobs, args.retry)
     c = esc["counts"]
-    print(f"jobs found {c['jobs_found']}, already done {c['already_done']}, run now {c['run_now']}")
+    print(f"jobs found {c['jobs_found']}, already done {c['already_done']}, "
+          f"reused from memory {c['reused_from_memory']}, run now {c['run_now']}")
     print(f"recheck: {counts['recheck'] or 'none'}; recipe: {counts['recipe'] or 'none'}")
     print(f"published by agent {len(new_checked)}; needs owner {c['needs_owner']}")
     return 0

@@ -57,3 +57,4 @@ data/deals/daily-report-*-FAKE.md
 data/deals/page-meta-cache.json
 data/deals/site-preview-*.json
 data/shops/agent-sandbox.json
+data/deals/agent-memory*.json

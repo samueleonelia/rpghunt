@@ -179,6 +179,7 @@ def build_report(ctx, results, folder=REPORTS):
              f"{cc.get('needs_agent', 0)} sent to the agent, {cc.get('wait', 0)} waiting for price history.")
     ec = esc.get("counts", {})
     L.append(f"5. **Browsing agent:** {ec.get('jobs_found', 0)} jobs found, {ec.get('run_now', 0)} run now, "
+             f"{ec.get('reused_from_memory', 0)} answered from memory (same link and price, no cost), "
              f"{ec.get('published_by_agent', 0)} deals it published.")
     L.append(f"6. **Site file:** {len(deals)} deals "
              f"({sum(1 for d in deals if d.get('image'))} with a picture, {sum(1 for d in deals if d.get('game_id'))} linked to the game list).")
