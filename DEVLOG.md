@@ -365,3 +365,16 @@
 
 **Next**
 - 2026-10-20: run `python -m scraper.daily` (no flags). It reads everything and pays only for new or changed deals.
+
+## 2026-10-19 (night): Free test run (--preview)
+
+**Status:** `preview-new` merged into `main`. Live site unchanged. A separate session is removing the All games page in `docs/` (uncommitted).
+
+**Done**
+- `python -m scraper.daily --preview` (or `check --list-new`): reads the shops and lists in `data/deals/new-deals-<date>.json` every deal a real run would pay for (new, new selling price, or reopened by an EN World lead). No Jev, no agent, nothing published, memory unchanged. The daily report lists them.
+- First test on real data, 30 minutes after the baseline: 3,916 on sale, 4 flagged, all Hit Point Press items whose crossed-out price moved by $1 with the same selling price.
+- Fix: a change now means a new selling price or currency; the "was" price alone is ignored (check and agent memory). After the fix: 0 flagged, as expected.
+- Tests: 276 pass.
+
+**Next**
+- 2026-10-20: run `--preview` first, check the new-deals list against the shops, then the real run.

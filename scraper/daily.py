@@ -1,6 +1,6 @@
 """The whole scraper day, in order (phase 4).
 
-python -m scraper.daily [--date D] [--fake] [--skip-run] [--baseline] [--max-agent-jobs N] [--cost-alarm USD]
+python -m scraper.daily [--date D] [--fake] [--skip-run] [--baseline | --preview] [--max-agent-jobs N] [--cost-alarm USD]
 
   1. run        every active shop's reader                      (scraper.run)
   2. discover   lead feeds -> links by shop, new shops           (scraper.discover; new shops are read at once)
@@ -15,6 +15,8 @@ A stage that fails is written down in the report and the day goes on with the ne
 --skip-run  reuse today's raw file instead of reading the shops again.
 --baseline  first day only: every deal on sale is saved as already seen (no Jev, no agent, nothing
             published). From the next run only new or changed deals are checked.
+--preview   test run: read the shops and list what a real run would pay for (new-deals-<date>.json);
+            no Jev, no agent, nothing published, memory unchanged.
 
 Rule: finding deals is never capped on purpose. The agent runs every job; the cost alarm only
 warns in the report. Safety limits that stop a runaway loop are reported when hit.
@@ -81,18 +83,24 @@ def stage_missed(ctx):
 def stage_check(ctx):
     if getattr(ctx, "baseline", False):
         return _rc(check.main(["--date", ctx.date, "--baseline"]), "the baseline")
+    if getattr(ctx, "preview", False):
+        return _rc(check.main(["--date", ctx.date, "--list-new"]), "the new-deals list")
     return _rc(check.main(["--date", ctx.date] + (["--fake"] if ctx.fake else [])), "the Jev check")
 
 
 def stage_escalate(ctx):
     if getattr(ctx, "baseline", False):
         return {"status": "skipped", "note": "--baseline: no agent on the first day"}
+    if getattr(ctx, "preview", False):
+        return {"status": "skipped", "note": "--preview: test run, nothing paid"}
     args = ["--date", ctx.date] + (["--max-jobs", str(ctx.max_agent_jobs)] if ctx.max_agent_jobs is not None else []) \
         + (["--fake"] if ctx.fake else [])
     return _rc(escalate.main(args), "the browsing agent")
 
 
 def stage_publish(ctx):
+    if getattr(ctx, "preview", False):
+        return {"status": "skipped", "note": "--preview: test run, nothing published"}
     publish.LAST_STATS.clear()
     res = _rc(publish.main(["--date", ctx.date] + (["--fake"] if ctx.fake else [])), "publish")
     st = publish.LAST_STATS
@@ -153,6 +161,21 @@ def build_report(ctx, results, folder=REPORTS):
     L = []
 
     L.append(f"# RPG Hunt daily report, {date}")
+    if getattr(ctx, "preview", False):
+        new = _read(folder / f"new-deals-{date}.json", [])
+        by_shop, by_why = {}, {}
+        for r in new:
+            by_shop[r["shop"]] = by_shop.get(r["shop"], 0) + 1
+            by_why[r["why"]] = by_why.get(r["why"], 0) + 1
+        L += ["", f"**TEST RUN (--preview): nothing was paid or published.** {len(new)} deal(s) are new or changed "
+                  f"since the last check and would be checked by a real run "
+                  f"({', '.join(f'{n} {w}' for w, n in by_why.items()) or 'none'}).", ""]
+        L += [f"- {s}: {n}" for s, n in sorted(by_shop.items(), key=lambda kv: -kv[1])]
+        L += ["", "Full list: `data/deals/new-deals-" + date + ".json`. First 30:", ""]
+        for r in new[:30]:
+            was = f" (was {r['before']['price_now']})" if r.get("before") else ""
+            L.append(f"- [{r['title']}]({r['url']}) at {r['shop']}: {r['price_now']} {r.get('currency') or ''}{was}, {r['why']}")
+        return "\n".join(L) + "\n"
     if is_baseline:
         L += ["", f"**Baseline day: {cc.get('baseline', 0)} deals on sale today were saved as already seen, with no paid "
                   f"checks and nothing published. From the next run, only new or changed deals are checked.**"]
@@ -306,12 +329,15 @@ def main(argv=None):
     ap.add_argument("--skip-run", action="store_true", help="reuse today's raw file instead of reading the shops")
     ap.add_argument("--baseline", action="store_true",
                     help="first day only: save every deal as already seen; no Jev, no agent, nothing published")
+    ap.add_argument("--preview", action="store_true",
+                    help="test run: read the shops and list the new deals; no Jev, no agent, nothing published")
     ap.add_argument("--max-agent-jobs", type=int, default=None,
                     help="for tests by hand only: most browsing-agent jobs (default: every job; 0 = none)")
     ap.add_argument("--cost-alarm", type=float, default=COST_ALARM_USD,
                     help=f"warn in the report when the day costs more than this many dollars (default {COST_ALARM_USD}); nothing is stopped")
     args = ap.parse_args(argv)
     ctx = types.SimpleNamespace(date=args.date, fake=args.fake, skip_run=args.skip_run, baseline=args.baseline,
+                                preview=args.preview,
                                 max_agent_jobs=args.max_agent_jobs, cost_alarm=args.cost_alarm)
     results, path = run_day(ctx)
     total = round(sum(r["seconds"] for r in results.values()), 1)

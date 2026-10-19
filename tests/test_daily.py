@@ -119,6 +119,17 @@ class Report(unittest.TestCase):
         self.assertEqual(seen["args"], ["--date", DATE])
         self.assertIsNone(daily.missed.MAX_FETCHES)
 
+    def test_preview_pays_and_publishes_nothing(self):
+        c = ctx(preview=True)
+        self.assertEqual(daily.stage_escalate(c)["status"], "skipped")
+        self.assertEqual(daily.stage_publish(c)["status"], "skipped")
+        tmp = pathlib.Path(tempfile.mkdtemp())
+        (tmp / f"new-deals-{DATE}.json").write_text(json.dumps([
+            {"why": "new", "shop": "S", "title": "Fresh", "url": "https://s/f", "price_now": 5, "currency": "USD"}]))
+        text = daily.build_report(c, {}, tmp)
+        self.assertIn("TEST RUN", text)
+        self.assertIn("[Fresh](https://s/f)", text)
+
     def test_baseline_skips_the_agent(self):
         self.assertEqual(daily.stage_escalate(ctx(baseline=True))["status"], "skipped")
 

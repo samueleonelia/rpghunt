@@ -126,8 +126,8 @@ def memory_key(deal):
 
 
 def _same_prices(deal, m):
-    return (deal.get("price_now"), deal.get("price_was"), deal.get("currency")) == \
-           (m.get("price_now"), m.get("price_was"), m.get("currency"))
+    """Same selling price and currency; a nudged "was" price is not a change (see check.same_price)."""
+    return (deal.get("price_now"), deal.get("currency")) == (m.get("price_now"), m.get("currency"))
 
 
 def _age_days(date, then):
