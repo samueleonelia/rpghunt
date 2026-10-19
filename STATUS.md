@@ -28,11 +28,12 @@ _Updated: 2026-10-19 · branch main_
 | Custom domain | 🚧 building | rpghunt.com not bought |
 
 ## Next up
-1. 2026-10-20: run `.venv/bin/python -m scraper.daily` (no flags): first real day, new deals only
-2. Finish the redesign (remove localhost script, email form decision)
-3. Paging or stronger ranking for about 1,000 deals a day
-4. Go live with the new deals (your OK)
-5. Daily scheduled run
+1. 2026-10-20: test run `.venv/bin/python -m scraper.daily --preview` (free), check `data/deals/new-deals-2026-10-20.json` against the shops
+2. Then the real run: `.venv/bin/python -m scraper.daily` (no flags)
+3. Finish the redesign (remove localhost script, email form decision)
+4. Paging or stronger ranking for about 1,000 deals a day
+5. Go live with the new deals (your OK)
+6. Daily scheduled run
 
 ## Known issues
 - Real daily cost is unknown until the 2026-10-20 run.
