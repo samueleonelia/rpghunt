@@ -134,17 +134,18 @@ class Run(unittest.TestCase):
         self.assertEqual(len(self.rechecks(ag)), 1)
         self.assertIn(URL, owner)
 
-    def test_price_change_or_old_verdict_means_a_new_job(self):
+    def test_price_change_means_a_new_job_but_age_alone_does_not(self):
         ag = FakeAgent(lambda job: self.good_recheck(job) if job["job"] == "recheck" else None)
         self.go(ag)
         self.day("2026-10-18", dict(RAW_DEAL, price_now=20.0))
         escalate.run("2026-10-18", ag, load=self.load, shops=SHOPS)
         self.assertEqual(len(self.rechecks(ag)), 2)                  # price changed
-        self.day("2026-10-26", dict(RAW_DEAL, price_now=20.0))
-        escalate.run("2026-10-26", ag, load=self.load, shops=SHOPS)
-        self.assertEqual(len(self.rechecks(ag)), 3)                  # 8 days old
-        memory = json.loads((self.tmp / "agent-memory.json").read_text())
-        self.assertEqual(memory[escalate.memory_key(RAW_DEAL)]["date"], "2026-10-26")
+        for date in ("2026-10-22", "2026-10-26", "2026-10-30"):      # still on sale, same price: no new job
+            self.day(date, dict(RAW_DEAL, price_now=20.0))
+            escalate.run(date, ag, load=self.load, shops=SHOPS)
+        self.assertEqual(len(self.rechecks(ag)), 2)
+        m = json.loads((self.tmp / "agent-memory.json").read_text())[escalate.memory_key(RAW_DEAL)]
+        self.assertEqual((m["date"], m["last_seen"]), ("2026-10-18", "2026-10-30"))
 
     def test_failed_agent_run_is_not_remembered(self):
         self.go(FakeAgent(lambda job: None))                          # every job fails to run

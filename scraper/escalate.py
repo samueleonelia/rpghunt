@@ -12,9 +12,9 @@ Writes   data/deals/escalation-<date>.json       every job: agent answer summary
          data/shops/shops.json                   accepted recipes (via scraper.agent.save_recipe)
          data/shops/recipe-attempts.json         last recipe attempt per shop (no new try for 7 days)
          data/deals/agent-memory.json            the agent's recheck verdicts by link and price (local, gitignored)
-Agent memory: a deal the agent already judged at the same link and the same prices in the last
-MEMORY_DAYS days gets that verdict again without a new agent job (no cost). A price change, an older
-verdict or an agent failure means a fresh job.
+Agent memory: a deal the agent already judged at the same link and the same prices keeps that verdict
+without a new agent job (no cost), for as long as it stays on sale unchanged. A price change or an agent
+failure means a fresh job. A deal not seen for MEMORY_DAYS days is forgotten.
 --fake: FakeAgent (answers `unsure`), reads the -FAKE check report, every output gets a -FAKE suffix, and
 shops.json / recipe-attempts.json are left alone.
 Re-running a date skips jobs that already ended in a final outcome (so it costs nothing twice); --retry
@@ -31,7 +31,7 @@ from scraper.trim import trim
 REPORTS = ROOT / "data" / "deals"
 ATTEMPTS = ROOT / "data" / "shops" / "recipe-attempts.json"
 RETRY_DAYS = 7
-MEMORY_DAYS = 7          # an agent verdict is reused this long while the link and prices stay the same
+MEMORY_DAYS = 7          # a remembered deal not seen for this long has left the sale: forgotten
 MEMORY_OUTCOMES = {"publish", "drop", "needs_owner"}
 FINAL = {"publish", "drop", "needs_owner", "accepted", "rejected"}   # not final: "error" (agent failed to run)
 DEAL_FIELDS = ("title", "shop", "url", "price_now", "price_was", "currency", "ends", "type", "found_via", "source")
@@ -135,21 +135,22 @@ def _age_days(date, then):
 
 
 def recall(memory, deal, date):
-    """-> the remembered verdict for this deal at these prices, or None (new, changed, too old)."""
+    """-> the remembered verdict for this deal at these prices, or None (new or changed deal)."""
     m = memory.get(memory_key(deal)) if deal else None
     if not m or m.get("outcome") not in MEMORY_OUTCOMES or not _same_prices(deal, m):
         return None
-    return m if 0 <= _age_days(date, m["date"]) < MEMORY_DAYS else None
+    m["last_seen"] = date
+    return m
 
 
 def remember(memory, deal, date, res):
-    memory[memory_key(deal)] = {"date": date, "price_now": deal.get("price_now"), "price_was": deal.get("price_was"),
+    memory[memory_key(deal)] = {"date": date, "last_seen": date, "price_now": deal.get("price_now"), "price_was": deal.get("price_was"),
                                 "currency": deal.get("currency"), "outcome": res["outcome"],
                                 "reasons": res.get("reasons") or [], "agent": res.get("agent") or {}}
 
 
 def prune(memory, date):
-    return {k: m for k, m in memory.items() if _age_days(date, m["date"]) < MEMORY_DAYS}
+    return {k: m for k, m in memory.items() if _age_days(date, m.get("last_seen", m["date"])) < MEMORY_DAYS}
 
 
 # ---------------------------------------------------------------- the run

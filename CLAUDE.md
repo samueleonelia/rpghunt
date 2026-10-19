@@ -44,5 +44,10 @@ Update with `npx impeccable update`.
   watched with an alarm in the daily report (`--cost-alarm`, default $5), never with a cap.
   A safety limit that only stops a runaway loop is allowed, set very high, and must be reported
   in the daily report when hit ("Safety limits hit"). Decided 2026-10-19.
+- **Daily run: read everything, check only what's new.** The site lists every deal still on sale.
+  Every shop is read in full each day, but only new or changed deals (new link, or new price) get
+  paid checks (Jev, agent); an unchanged deal keeps its earlier verdict for as long as it stays on
+  sale. Do not filter by "sale started in the last 24 hours": shops rarely say when a sale started.
+  Decided 2026-10-19.
 
 ## Remember
