@@ -202,6 +202,21 @@ class Memory(Base):
         (r,), _ = self.run_check([feed_deal()], script(**{"p*": 0.95, "offer_kind": "promotion"}), memory=mem, leads=lead)
         self.assertNotEqual(r["stage"], "memory")
 
+    def test_baseline_deal_stays_quiet_until_it_changes(self):
+        mem = {}
+        self.assertEqual(check.baseline(mem, [feed_deal(shop_id="publisher")], DATE), 1)
+        jev = script(**{"p*": 0.95, "offer_kind": "promotion"})
+        (r,), _ = self.run_check([feed_deal(shop_id="publisher")], jev, memory=mem)
+        self.assertEqual((r["decision"], r["stage"], jev.usage["requests"]), ("baseline", "memory", 0))
+        (r,), _ = self.run_check([feed_deal(shop_id="publisher", price_now=9.0)], jev, memory=mem)
+        self.assertEqual(r["decision"], "publish")                    # a new price drop is a new deal
+
+    def test_baseline_keeps_existing_verdicts(self):
+        mem = {}
+        self.run_check([feed_deal(shop_id="publisher")], script(**{"p*": 0.95, "offer_kind": "promotion"}), memory=mem)
+        self.assertEqual(check.baseline(mem, [feed_deal(shop_id="publisher"), page_deal()], DATE), 1)
+        self.assertEqual(mem[check.memory_key(feed_deal())]["decision"], "publish")
+
     def test_deals_gone_for_a_week_are_forgotten(self):
         mem = {"a": {"last_seen": "2026-10-10"}, "b": {"last_seen": "2026-10-12"}}
         self.assertEqual(list(check.prune(mem, DATE)), ["b"])

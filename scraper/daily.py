@@ -1,6 +1,6 @@
 """The whole scraper day, in order (phase 4).
 
-python -m scraper.daily [--date D] [--fake] [--skip-run] [--max-agent-jobs N] [--cost-alarm USD]
+python -m scraper.daily [--date D] [--fake] [--skip-run] [--baseline] [--max-agent-jobs N] [--cost-alarm USD]
 
   1. run        every active shop's reader                      (scraper.run)
   2. discover   lead feeds -> links by shop, new shops           (scraper.discover; new shops are read at once)
@@ -13,6 +13,8 @@ python -m scraper.daily [--date D] [--fake] [--skip-run] [--max-agent-jobs N] [-
 A stage that fails is written down in the report and the day goes on with the next one.
 --fake   FakeJev and FakeAgent: every output gets a -FAKE name (report included); new shops are not saved.
 --skip-run  reuse today's raw file instead of reading the shops again.
+--baseline  first day only: every deal on sale is saved as already seen (no Jev, no agent, nothing
+            published). From the next run only new or changed deals are checked.
 
 Rule: finding deals is never capped on purpose. The agent runs every job; the cost alarm only
 warns in the report. Safety limits that stop a runaway loop are reported when hit.
@@ -77,10 +79,14 @@ def stage_missed(ctx):
 
 
 def stage_check(ctx):
+    if getattr(ctx, "baseline", False):
+        return _rc(check.main(["--date", ctx.date, "--baseline"]), "the baseline")
     return _rc(check.main(["--date", ctx.date] + (["--fake"] if ctx.fake else [])), "the Jev check")
 
 
 def stage_escalate(ctx):
+    if getattr(ctx, "baseline", False):
+        return {"status": "skipped", "note": "--baseline: no agent on the first day"}
     args = ["--date", ctx.date] + (["--max-jobs", str(ctx.max_agent_jobs)] if ctx.max_agent_jobs is not None else []) \
         + (["--fake"] if ctx.fake else [])
     return _rc(escalate.main(args), "the browsing agent")
@@ -131,6 +137,7 @@ def build_report(ctx, results, folder=REPORTS):
     owner = _read(folder / f"needs-owner-{date}{sfx}.json", [])
     site = _read(folder / f"site-preview-{date}{sfx}.json")
     st, cc = scrape.get("totals", {}), chk.get("counts", {})
+    is_baseline = chk.get("mode") == "baseline"
     deals = site.get("deals", [])
     by_type = {}
     for d in deals:
@@ -146,6 +153,9 @@ def build_report(ctx, results, folder=REPORTS):
     L = []
 
     L.append(f"# RPG Hunt daily report, {date}")
+    if is_baseline:
+        L += ["", f"**Baseline day: {cc.get('baseline', 0)} deals on sale today were saved as already seen, with no paid "
+                  f"checks and nothing published. From the next run, only new or changed deals are checked.**"]
     if ctx.fake:
         L += ["", "**This is a TEST run with fake checkers (a keyword stand-in for Jev, a stand-in for the agent). "
                   "The numbers show that the pipes work, not how good the answers are. Do not publish anything from it.**"]
@@ -294,12 +304,14 @@ def main(argv=None):
     ap.add_argument("--date", default=datetime.date.today().isoformat())
     ap.add_argument("--fake", action="store_true", help="fake Jev and fake agent; every output gets a -FAKE name")
     ap.add_argument("--skip-run", action="store_true", help="reuse today's raw file instead of reading the shops")
+    ap.add_argument("--baseline", action="store_true",
+                    help="first day only: save every deal as already seen; no Jev, no agent, nothing published")
     ap.add_argument("--max-agent-jobs", type=int, default=None,
                     help="for tests by hand only: most browsing-agent jobs (default: every job; 0 = none)")
     ap.add_argument("--cost-alarm", type=float, default=COST_ALARM_USD,
                     help=f"warn in the report when the day costs more than this many dollars (default {COST_ALARM_USD}); nothing is stopped")
     args = ap.parse_args(argv)
-    ctx = types.SimpleNamespace(date=args.date, fake=args.fake, skip_run=args.skip_run,
+    ctx = types.SimpleNamespace(date=args.date, fake=args.fake, skip_run=args.skip_run, baseline=args.baseline,
                                 max_agent_jobs=args.max_agent_jobs, cost_alarm=args.cost_alarm)
     results, path = run_day(ctx)
     total = round(sum(r["seconds"] for r in results.values()), 1)

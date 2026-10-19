@@ -119,6 +119,9 @@ class Report(unittest.TestCase):
         self.assertEqual(seen["args"], ["--date", DATE])
         self.assertIsNone(daily.missed.MAX_FETCHES)
 
+    def test_baseline_skips_the_agent(self):
+        self.assertEqual(daily.stage_escalate(ctx(baseline=True))["status"], "skipped")
+
     def test_cost_alarm_and_safety_limits_in_report(self):
         tmp = pathlib.Path(tempfile.mkdtemp())
         (tmp / f"scrape-report-{DATE}.json").write_text(json.dumps({"shops": [
