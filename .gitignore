@@ -58,3 +58,4 @@ data/deals/page-meta-cache.json
 data/deals/site-preview-*.json
 data/shops/agent-sandbox.json
 data/deals/agent-memory*.json
+data/deals/check-memory*.json

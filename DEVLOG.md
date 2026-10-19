@@ -328,3 +328,21 @@
 **Next**
 - Run the daily command once from the user's terminal to see the real uncapped cost and time.
 - Finish the homepage redesign (remove the localhost Impeccable script, connect or remove the email form), then go live.
+
+## 2026-10-19 (later): Check only new or changed deals
+
+**Status:** `check-new-only` merged into `main`. Live site unchanged (old deals); redesign still uncommitted in `docs/`.
+
+**Done**
+- Check memory (`data/deals/check-memory.json`, gitignored): every verdict saved by link, price, old price and currency. Next run, an unchanged deal keeps its decision with no Jev call (stage "memory"). A price change, a new EN World lead on a non-published deal, or a failed check means a fresh check.
+- Agent memory: the 7-day re-check is gone; a verdict lasts while the deal stays on sale unchanged.
+- Both memories forget a deal not seen for 7 days (it left the sale).
+- Reports show how many verdicts were reused. Tests: 271 pass.
+
+**Decisions**
+- User: the site lists every active deal; only deals new in the last 24 to 48 hours get paid checks. Built as "new or changed since we last saw it" instead of a date filter, because shops rarely say when a sale started, and a missed day would otherwise lose deals.
+- Why Jev's own cache didn't help: its question includes "days seen", which changes every day.
+
+**Next**
+- Run the daily command 2 days in a row: day 1 shows the full cost, day 2 the savings.
+- Open gap: about 1,100 DriveThruRPG deals already on sale before our first run wait forever (no price drop seen). Possible fix: judge "limited-time sale or everyday price" from the shop's own signals.

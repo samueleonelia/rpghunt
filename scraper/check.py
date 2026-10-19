@@ -7,6 +7,9 @@ claim, which amount on the page is the current price). Code keeps every number, 
 final decision.
 
 Input   data/deals/raw/<date>-scraper.json
+Memory  data/deals/check-memory.json             verdicts by link and prices (local, gitignored). A deal seen
+                                                 before at the same link and prices keeps its verdict with no
+                                                 Jev call; only new or changed deals are checked.
 Output  data/deals/raw/<date>-checked.json         published deals (+ a "check" block)
         data/deals/check-report-<date>.json        counts, per-deal reasons, needs_agent, Jev tokens
 With --fake the files get a -FAKE suffix: FakeJev is a keyword test double, never for publishing.
@@ -30,6 +33,8 @@ from scraper.trim import normalize_money, prices_in, trim
 REPORTS = ROOT / "data" / "deals"
 TRUSTED_LEAD_FEEDS = {"enworld"}      # roundups whose links count as "a person saw this on sale today"
 FIXTURES = TESTSET / "fixtures"
+MEMORY_KEEP_DAYS = 7                  # a remembered deal not seen for this long has left the sale: forgotten
+NOT_REMEMBERED = ("jev_error", "page_unreadable", "no_page")   # failures are tried again next run
 
 # All tunable numbers live here (tuned in step 2.3; these are the spec's start values).
 THRESHOLDS = {
@@ -324,11 +329,46 @@ def decide(deal, rpg_p, answers, page, facts, T=THRESHOLDS, lead=None):
     return "publish", ["ok"], check
 
 
+# ---------------------------------------------------------------- memory
+
+def memory_key(deal):
+    return norm_url(deal["url"])
+
+
+def recall(memory, deal, lead=None):
+    """-> the remembered result for this deal at these exact prices, or None (new or changed deal).
+    A trusted roundup lead is new information, so it reopens anything not already published."""
+    m = memory.get(memory_key(deal))
+    if not m or (deal.get("price_now"), deal.get("price_was"), deal.get("currency")) != \
+            (m.get("price_now"), m.get("price_was"), m.get("currency")):
+        return None
+    if lead and m["decision"] != "publish":
+        return None
+    return m
+
+
+def remember(memory, deal, date, result):
+    if any(r.startswith(NOT_REMEMBERED) for r in result["reasons"]):
+        return
+    memory[memory_key(deal)] = {"date": date, "last_seen": date, "price_now": deal.get("price_now"),
+                                "price_was": deal.get("price_was"), "currency": deal.get("currency"),
+                                "decision": result["decision"], "reasons": result["reasons"],
+                                "check": result["check"]}
+
+
+def prune(memory, date):
+    today = datetime.date.fromisoformat(date)
+    return {k: m for k, m in memory.items()
+            if (today - datetime.date.fromisoformat(m["last_seen"])).days < MEMORY_KEEP_DAYS}
+
+
 # ---------------------------------------------------------------- the run
 
-def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers=WORKERS, leads=None):
+def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers=WORKERS, leads=None, memory=None):
     """Run both stages. -> (results, stats). results[i] = {"decision", "stage", "reasons", "check"}.
-    leads: {lead_key: url} from load_trusted_leads(date); used only for everyday_discounts shops."""
+    leads: {lead_key: url} from load_trusted_leads(date); used only for everyday_discounts shops.
+    memory: {memory_key: remembered result} (see recall); updated in place. A remembered deal is not
+    checked again (stage "memory"); every new or changed deal is checked and remembered."""
     leads = leads or {}
     results = [None] * len(deals)
     stats = collections.Counter()
@@ -342,6 +382,13 @@ def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers
         why = code_check(d, date)
         if why:
             put(i, "drop", "code", [why])
+            continue
+        lead = leads.get(lead_key(d["url"])) if everyday_shop(d) else None
+        m = recall(memory, d, lead) if memory is not None and not d.get("_fake") else None
+        if m:
+            m["last_seen"] = date
+            put(i, m["decision"], "memory", m["reasons"], {**m["check"], "reused_from": m["date"]})
+            stats["reused_from_memory"] += 1
         else:
             todo.append(i)
 
@@ -422,6 +469,10 @@ def check_deals(deals, date, jev, history, load=load_page, T=THRESHOLDS, workers
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
         list(pool.map(run_b, pending))
     stats["stage_b_deals"] = len(pending)
+    if memory is not None:
+        for i in todo:
+            if not deals[i].get("_fake"):
+                remember(memory, deals[i], date, results[i])
     return results, stats
 
 
@@ -473,6 +524,7 @@ def build_report(date, mode, deals, results, stats, jev, T):
             "dropped_by_code": by_stage_drop["code"],
             "rpg_dropped_stage_a": by_stage_drop["A"],
             "stage_b_deals": stats["stage_b_deals"],
+            "reused_from_memory": stats["reused_from_memory"],
             "published": sum(results[i]["decision"] == "publish" for i in real),
             "dropped_total": sum(results[i]["decision"] == "drop" for i in real),
             "needs_agent": sum(results[i]["decision"] == "needs_agent" for i in real),
@@ -605,7 +657,12 @@ def main(argv=None):
             return 2
         jev, label, suffix = Jev(), "real", ""
 
-    results, stats = check_deals(deals, args.date, jev, history, leads=load_trusted_leads(args.date))
+    memory_path = REPORTS / f"check-memory{suffix}.json"
+    memory = json.loads(memory_path.read_text()) if memory_path.exists() else {}
+    results, stats = check_deals(deals, args.date, jev, history, leads=load_trusted_leads(args.date), memory=memory)
+    if not args.limit:                      # a partial check must not make the full run forget deals
+        memory = prune(memory, args.date)
+    memory_path.write_text(json.dumps(memory, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
     report = build_report(args.date, label, deals, results, stats, jev, THRESHOLDS)
     published = [dict(d, check={**results[i]["check"], "decision": "publish", "checked_on": args.date,
                                 "model": MODEL, "fake_jev": label == "fake"})
@@ -616,7 +673,8 @@ def main(argv=None):
     rep.write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n")
 
     c, j = report["counts"], report["jev"]
-    print(f"in {c['deals_in']}: code-dropped {c['dropped_by_code']}, not RPG {c['rpg_dropped_stage_a']}, "
+    print(f"in {c['deals_in']}: {c['reused_from_memory']} unchanged (verdict from memory), "
+          f"code-dropped {c['dropped_by_code']}, not RPG {c['rpg_dropped_stage_a']}, "
           f"dropped total {c['dropped_total']}, published {c['published']}, needs_agent {c['needs_agent']}, wait {c['wait']}")
     print(f"requests: A {stats['stage_a_requests']}, B {stats['stage_b_requests']}, pages {stats['page_fetches']} "
           f"({stats['page_failures']} failed); Jev tokens in {j['input_tokens']} out {j['output_tokens']}, "

@@ -174,7 +174,8 @@ def build_report(ctx, results, folder=REPORTS):
              f"{lc.get('new_shop', 0)} on unknown sites).")
     mc = miss.get("counts", {})
     L.append(f"3. **Misses:** {mc.get('misses', 0)} leads were not in today's run; {mc.get('candidates', 0)} turned into candidate deals.")
-    L.append(f"4. **Jev check:** {cc.get('deals_in', 0)} deals in, {cc.get('dropped_by_code', 0)} dropped by plain rules "
+    L.append(f"4. **Jev check:** {cc.get('deals_in', 0)} deals in, {cc.get('reused_from_memory', 0)} unchanged since an earlier run "
+             f"(verdict reused, no cost), {cc.get('dropped_by_code', 0)} dropped by plain rules "
              f"(not a discount, ended), {cc.get('rpg_dropped_stage_a', 0)} dropped as not RPG, {cc.get('published', 0)} passed, "
              f"{cc.get('needs_agent', 0)} sent to the agent, {cc.get('wait', 0)} waiting for price history.")
     ec = esc.get("counts", {})

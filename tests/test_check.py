@@ -167,6 +167,46 @@ class EverydayShops(Base):
         self.assertEqual(r["decision"], "wait")
 
 
+class Memory(Base):
+    def test_unchanged_deal_keeps_its_verdict_with_no_jev_call(self):
+        mem = {}
+        (r,), _ = self.run_check([feed_deal(shop_id="publisher")], script(**{"p*": 0.95, "offer_kind": "promotion"}), memory=mem)
+        self.assertEqual(r["decision"], "publish")
+        jev = script(**{"p*": 0.05})                         # would drop it if it were asked
+        results, stats = check.check_deals([feed_deal(shop_id="publisher")], "2026-10-18", jev, self.hist,
+                                           load=self.load, memory=mem)
+        self.assertEqual((results[0]["decision"], results[0]["stage"]), ("publish", "memory"))
+        self.assertEqual(results[0]["check"]["reused_from"], DATE)
+        self.assertEqual((jev.usage["requests"], stats["reused_from_memory"]), (0, 1))
+        self.assertEqual(mem[check.memory_key(feed_deal())]["last_seen"], "2026-10-18")
+
+    def test_price_change_is_a_new_deal_and_is_checked(self):
+        mem = {}
+        self.run_check([feed_deal(shop_id="publisher")], script(**{"p*": 0.95, "offer_kind": "promotion"}), memory=mem)
+        jev = script(**{"p*": 0.05})
+        (r,), _ = self.run_check([feed_deal(shop_id="publisher", price_now=12.0)], jev, memory=mem)
+        self.assertEqual((r["decision"], r["stage"]), ("drop", "A"))
+        self.assertEqual(jev.usage["requests"], 1)
+
+    def test_failures_are_not_remembered(self):
+        mem = {}
+        self.page_html = FetchError("dead", "u")
+        self.run_check([page_deal()], script(), memory=mem)
+        self.assertEqual(mem, {})
+
+    def test_a_new_roundup_lead_reopens_a_waiting_deal(self):
+        mem = {}
+        (r,), _ = self.run_check([feed_deal()], script(**{"p*": 0.95, "offer_kind": "promotion"}), memory=mem)
+        self.assertEqual(r["decision"], "wait")
+        lead = {check.lead_key(feed_deal()["url"]): "https://enworld.example/post"}
+        (r,), _ = self.run_check([feed_deal()], script(**{"p*": 0.95, "offer_kind": "promotion"}), memory=mem, leads=lead)
+        self.assertNotEqual(r["stage"], "memory")
+
+    def test_deals_gone_for_a_week_are_forgotten(self):
+        mem = {"a": {"last_seen": "2026-10-10"}, "b": {"last_seen": "2026-10-12"}}
+        self.assertEqual(list(check.prune(mem, DATE)), ["b"])
+
+
 class BlockedPages(Base):
     def test_unsure_feed_deal_on_a_bot_walled_site_is_judged_without_the_page(self):
         from scraper.common import FetchError

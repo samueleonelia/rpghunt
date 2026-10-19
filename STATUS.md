@@ -6,7 +6,7 @@ _Updated: 2026-10-19 · branch main_
 
 **What this is:** A daily list of tabletop RPG deals, collected and verified by AI agents, English first, with a catalog of games behind it.
 
-**Right now:** The scraper reads 47 shops with no caps on deal finding. The agent checks every unsure deal, remembers its answers for 7 days, and the report warns when a day costs more than $5. The live site still shows the 2026-10-16 deals. The homepage redesign sits uncommitted in `docs/`.
+**Right now:** The scraper reads all 47 shops in full every day with no caps, but pays for checks only on new or changed deals; unchanged deals keep their verdict. The report warns when a day costs more than $5. The live site still shows the 2026-10-16 deals. The homepage redesign sits uncommitted in `docs/`.
 
 ## Feature areas
 | Area | State | Note |
@@ -14,8 +14,8 @@ _Updated: 2026-10-19 · branch main_
 | Live site (GitHub Pages) | ✅ working | every push to `main` republishes; still old deals |
 | Homepage redesign + email form | 🚧 building | uncommitted; loads a localhost script; form not connected (Kit suggested) |
 | Shop readers (47 shops) | ✅ working | limits only stop runaway loops; hits shown in the report |
-| Jev check | ✅ working | about $0.06 a day; answers cached |
-| Browsing agent (Claude) | ✅ working | no job cap; 7-day memory by link and price |
+| Jev check | ✅ working | only new or changed deals; others keep their verdict |
+| Browsing agent (Claude) | ✅ working | no job cap; verdict kept while link and price unchanged |
 | Cost alarm | ✅ working | warns over $5 a day (`--cost-alarm`) |
 | New shops and missed deals | ✅ working | EN World leads, no page limit |
 | Break alarm | ✅ working | needs 3 runs of history |
@@ -28,7 +28,7 @@ _Updated: 2026-10-19 · branch main_
 | Custom domain | 🚧 building | rpghunt.com not bought |
 
 ## Next up
-1. Run the daily command once from your terminal: real uncapped cost and time
+1. Run the daily command 2 days in a row: day 1 full cost, day 2 savings
 2. Finish the redesign (remove localhost script, email form decision)
 3. Paging or stronger ranking for about 1,000 deals a day
 4. Go live with the new deals (your OK)
@@ -36,6 +36,7 @@ _Updated: 2026-10-19 · branch main_
 
 ## Known issues
 - Real cost and run time without caps are unknown until the first full run.
+- About 1,100 DriveThruRPG deals on sale before our first run wait forever (no price drop seen).
 - About 1,000 deals a day is far more than the 27 the site was designed for.
 - Humble Bundle "worth" figures are inflated; those bundles go to the agent.
 - Variant deals ("My Jam"): our reader takes the cheapest on-sale variant; the page may show another.
