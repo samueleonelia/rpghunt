@@ -9,8 +9,8 @@ import urllib.parse
 from scraper.common import FetchError, fetch_json, is_discount, make_deal, money
 
 PAGE_LIMIT = 250
-MAX_PAGES = 40
-MAX_PAGE_PRICE_CHECKS = 100   # opt-in recipe.page_prices: product pages read per shop
+MAX_PAGES = 500               # only stops a runaway loop; reported when hit
+MAX_PAGE_PRICE_CHECKS = 5000  # opt-in recipe.page_prices: product pages read per shop; reported when hit
 
 
 def _plain_text(markup):
@@ -114,7 +114,7 @@ def read_with_stats(shop):
     pages = 0
     recipe = shop.get("recipe") or {}
     page_check = bool(recipe.get("page_prices") and recipe.get("collections"))
-    checks = 0
+    checks, stopped = 0, []
     for feed in feed_urls(shop):
         for page in range(1, MAX_PAGES + 1):
             try:
@@ -135,7 +135,11 @@ def read_with_stats(shop):
                 deal = parse_product(shop, p, origin)
                 if deal:
                     deals.append(deal)
-                elif page_check and checks < MAX_PAGE_PRICE_CHECKS:
+                elif page_check and checks >= MAX_PAGE_PRICE_CHECKS:
+                    msg = f"stopped at the {MAX_PAGE_PRICE_CHECKS}-product-page safety limit; some products were not checked"
+                    if msg not in stopped:
+                        stopped.append(msg)
+                elif page_check:
                     checks += 1
                     try:
                         deal = parse_product_from_page(shop, p, origin)
@@ -143,7 +147,11 @@ def read_with_stats(shop):
                         continue
                     if deal:
                         deals.append(deal)
+        else:
+            stopped.append(f"stopped at the {MAX_PAGES}-page safety limit on {feed}; more products may exist")
     stats = {"items_read": items, "pages": pages}
+    if stopped:
+        stats["stopped_early"] = "; ".join(stopped)
     if page_check:
         stats["page_price_checks"] = checks
     return deals, stats

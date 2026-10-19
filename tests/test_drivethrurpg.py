@@ -152,6 +152,7 @@ class Paging(unittest.TestCase):
                 mock.patch.object(dt, "MAX_PAGES", 5):
             _, stats = dt.read_with_stats(SHOP)
         self.assertEqual(stats["pages"], 5)
+        self.assertIn("5-page safety limit", stats["stopped_early"])
 
     def test_never_follows_a_link_to_another_host(self):
         calls = []

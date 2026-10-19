@@ -1,18 +1,21 @@
 """The whole scraper day, in order (phase 4).
 
-python -m scraper.daily [--date D] [--fake] [--skip-run] [--max-agent-jobs N]
+python -m scraper.daily [--date D] [--fake] [--skip-run] [--max-agent-jobs N] [--cost-alarm USD]
 
   1. run        every active shop's reader                      (scraper.run)
   2. discover   lead feeds -> links by shop, new shops           (scraper.discover; new shops are read at once)
                 + misses: leads our readers did not find        (scraper.missed; their candidates join the raw file)
   3. check      Jev check on run deals + candidates              (scraper.check)
-  4. escalate   browsing agent for what Jev could not settle     (scraper.escalate, at most N jobs)
+  4. escalate   browsing agent for what Jev could not settle     (scraper.escalate, every job)
   5. publish    the site's deals file, as a PREVIEW              (scraper.publish; never docs/data/deals.json)
   6. report     data/deals/daily-report-<date>.md, plain English
 
 A stage that fails is written down in the report and the day goes on with the next one.
 --fake   FakeJev and FakeAgent: every output gets a -FAKE name (report included); new shops are not saved.
 --skip-run  reuse today's raw file instead of reading the shops again.
+
+Rule: finding deals is never capped on purpose. The agent runs every job; the cost alarm only
+warns in the report. Safety limits that stop a runaway loop are reported when hit.
 """
 import argparse
 import datetime
@@ -25,6 +28,7 @@ from scraper import run as run_mod
 from scraper.common import ROOT
 
 REPORTS = ROOT / "data" / "deals"
+COST_ALARM_USD = 5.0     # the report warns when a day costs more than this; nothing is stopped
 STAGE_ORDER = ["run", "discover", "missed", "check", "escalate", "publish"]
 STAGE_LABEL = {"run": "Read the shops", "discover": "Find leads and new shops", "missed": "Look for misses",
                "check": "Jev check", "escalate": "Browsing agent", "publish": "Build the site file"}
@@ -77,7 +81,8 @@ def stage_check(ctx):
 
 
 def stage_escalate(ctx):
-    args = ["--date", ctx.date, "--max-jobs", str(ctx.max_agent_jobs)] + (["--fake"] if ctx.fake else [])
+    args = ["--date", ctx.date] + (["--max-jobs", str(ctx.max_agent_jobs)] if ctx.max_agent_jobs is not None else []) \
+        + (["--fake"] if ctx.fake else [])
     return _rc(escalate.main(args), "the browsing agent")
 
 
@@ -135,6 +140,9 @@ def build_report(ctx, results, folder=REPORTS):
     runs = [j["agent_run"] for j in jobs if j.get("agent_run")]
     agent_cost = sum(r.get("cost_usd") or 0 for r in runs)
     jev = chk.get("jev", {})
+    day_cost = (jev.get("estimated_cost_usd") or 0) + agent_cost
+    alarm_usd = getattr(ctx, "cost_alarm", COST_ALARM_USD)
+    stopped = [r for r in scrape.get("shops", []) if r.get("stopped_early")]
     L = []
 
     L.append(f"# RPG Hunt daily report, {date}")
@@ -150,6 +158,11 @@ def build_report(ctx, results, folder=REPORTS):
           f"- {len(scrape.get('shops', []))} shops read; {len(miss.get('misses', []))} sale links in the lead posts "
           f"were not found by our readers.",
           ("- Everything ran." if not failed else "- These steps failed: " + ", ".join(STAGE_LABEL[n] for n in failed) + ".")]
+    if stopped:
+        L.append(f"- **{len(stopped)} shop(s) hit a safety limit and may be missing deals** (see below).")
+    if not ctx.fake and day_cost > alarm_usd:
+        L.append(f"- **Cost alarm: today cost about {_money(day_cost)}, over the {_money(alarm_usd)} alarm.** "
+                 f"Nothing was stopped; check the Cost section.")
 
     L += ["", "## Numbers by step", ""]
     L.append(f"1. **Shops:** {st.get('shops', 0)} shops, {st.get('ok', 0)} read fine, {st.get('blocked', 0)} blocked us, "
@@ -166,6 +179,7 @@ def build_report(ctx, results, folder=REPORTS):
              f"{cc.get('needs_agent', 0)} sent to the agent, {cc.get('wait', 0)} waiting for price history.")
     ec = esc.get("counts", {})
     L.append(f"5. **Browsing agent:** {ec.get('jobs_found', 0)} jobs found, {ec.get('run_now', 0)} run now, "
+             f"{ec.get('reused_from_memory', 0)} answered from memory (same link and price, no cost), "
              f"{ec.get('published_by_agent', 0)} deals it published.")
     L.append(f"6. **Site file:** {len(deals)} deals "
              f"({sum(1 for d in deals if d.get('image'))} with a picture, {sum(1 for d in deals if d.get('game_id'))} linked to the game list).")
@@ -196,6 +210,13 @@ def build_report(ctx, results, folder=REPORTS):
     else:
         L.append("None.")
 
+    L += ["", "## Safety limits hit", ""]
+    if stopped:
+        for r in stopped:
+            L.append(f"- **{r['id']}**: {r['stopped_early']}.")
+    else:
+        L.append("None. Every shop was read to the end.")
+
     L += ["", "## Misses", ""]
     ms = miss.get("misses", [])
     if ms:
@@ -218,8 +239,8 @@ def build_report(ctx, results, folder=REPORTS):
             L.append(f"  Question: {o['question']}")
     else:
         L.append("Nothing.")
-    if waiting > 0:
-        L.append(f"\n{waiting} more deal(s) are waiting for the browsing agent (job limit was {ctx.max_agent_jobs}).")
+    if waiting > 0 and ctx.max_agent_jobs is not None:
+        L.append(f"\n{waiting} more deal(s) are waiting for the browsing agent (job limit was {ctx.max_agent_jobs}, set by hand).")
 
     L += ["", "## Time per step", ""]
     total = 0.0
@@ -239,6 +260,7 @@ def build_report(ctx, results, folder=REPORTS):
     else:
         L.append("- Jev: not run.")
     L.append(f"- Browsing agent{' (FAKE)' if ctx.fake else ''}: {len(runs)} job(s), {_money(agent_cost) if runs else '$0.00'}.")
+    L.append(f"- **Day total: about {_money(day_cost)}** (alarm at {_money(alarm_usd)}).")
     return "\n".join(L) + "\n"
 
 
@@ -271,9 +293,13 @@ def main(argv=None):
     ap.add_argument("--date", default=datetime.date.today().isoformat())
     ap.add_argument("--fake", action="store_true", help="fake Jev and fake agent; every output gets a -FAKE name")
     ap.add_argument("--skip-run", action="store_true", help="reuse today's raw file instead of reading the shops")
-    ap.add_argument("--max-agent-jobs", type=int, default=20, help="most browsing-agent jobs to run (default 20; 0 = none)")
+    ap.add_argument("--max-agent-jobs", type=int, default=None,
+                    help="for tests by hand only: most browsing-agent jobs (default: every job; 0 = none)")
+    ap.add_argument("--cost-alarm", type=float, default=COST_ALARM_USD,
+                    help=f"warn in the report when the day costs more than this many dollars (default {COST_ALARM_USD}); nothing is stopped")
     args = ap.parse_args(argv)
-    ctx = types.SimpleNamespace(date=args.date, fake=args.fake, skip_run=args.skip_run, max_agent_jobs=args.max_agent_jobs)
+    ctx = types.SimpleNamespace(date=args.date, fake=args.fake, skip_run=args.skip_run,
+                                max_agent_jobs=args.max_agent_jobs, cost_alarm=args.cost_alarm)
     results, path = run_day(ctx)
     total = round(sum(r["seconds"] for r in results.values()), 1)
     print(f"\nreport: {path.relative_to(ROOT)} (total {total} s)")

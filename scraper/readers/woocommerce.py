@@ -8,7 +8,7 @@ import re
 from scraper.common import FetchError, fetch_json, is_discount, make_deal, money
 
 PER_PAGE = 100
-MAX_PAGES = 40
+MAX_PAGES = 500         # only stops a runaway loop; reported when hit
 PHYSICAL_WORDS = ("hardcover", "hardback", "softcover", "paperback", "print", "boxed", "box set",
                   "miniature", "dice")
 
@@ -58,6 +58,7 @@ def read_with_stats(shop):
     """-> (deals, stats). stats: items_read, pages, skipped_variant_only."""
     base = shop["recipe"]["api_base"].rstrip("/")
     deals, seen, items, skipped, pages = [], set(), 0, 0, 0
+    stopped = None
     for page in range(1, MAX_PAGES + 1):
         try:
             data = fetch_json(f"{base}/products?on_sale=true&per_page={PER_PAGE}&page={page}")
@@ -78,7 +79,12 @@ def read_with_stats(shop):
                 deals.append(deal)
             elif variant_only:
                 skipped += 1
-    return deals, {"items_read": items, "pages": pages, "skipped_variant_only": skipped}
+    else:
+        stopped = f"stopped at the {MAX_PAGES}-page safety limit; more sale pages may exist"
+    stats = {"items_read": items, "pages": pages, "skipped_variant_only": skipped}
+    if stopped:
+        stats["stopped_early"] = stopped
+    return deals, stats
 
 
 def read(shop):

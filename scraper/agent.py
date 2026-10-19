@@ -277,7 +277,7 @@ def clean_recipe(shop, recipe):
         problems.append("sale_page_off_site: a sale page is not on the shop's own site")
     if not good:
         problems.append("no_sale_pages")
-    out = {"sale_pages": good[:5]}
+    out = {"sale_pages": good[:20]}
     for key in ("product_link", "price_now", "price_was", "ends"):
         v = recipe.get(key)
         if v in (None, ""):

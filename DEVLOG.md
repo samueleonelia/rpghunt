@@ -307,3 +307,24 @@
 - Test from the user's terminal: 8 rechecks: 2 published (Malleus Monstrorum slipcase $59.99 vs $89.99, Dolmenwood Maps Book $16 vs $20, both confirmed on the page by code), 4 dropped (picture book, USB key, no real discount, price mismatch), 2 to the owner (grab bag, coloring book). About $0.08 per job.
 - Cost note: the agent is the expensive part. `daily` caps it at 20 jobs a day (about $1.60). The 360 stuck DriveThruRPG items are fixed (judged from shop data), so the daily queue should be far smaller.
 - Open: "My Jam" mismatch: our reader took the cheapest on-sale variant; the page shows another variant's price. Variant deals may need the variant in the title.
+
+## 2026-10-19: No caps on deal finding, agent memory
+
+**Status:** `no-caps` merged into `main`. Live site still shows the 2026-10-16 deals. The homepage redesign (hero with email signup) is still uncommitted in `docs/`.
+
+**Done**
+- New project rule (CLAUDE.md): never limit deal finding on purpose; watch cost with an alarm, not a cap; runaway-loop limits must be very high and reported when hit.
+- Browsing agent: the 20-jobs-a-day cap is gone; it runs every job. `--max-agent-jobs` stays for tests by hand only.
+- Cost alarm: the daily report shows the day total and warns above `--cost-alarm` (default $5). Nothing is stopped.
+- Shop readers: page limits raised to 500 (DriveThruRPG, Shopify, WooCommerce, generic sale pages), generic products to 5,000, Shopify product-page checks to 5,000. A hit is saved as `stopped_early` and listed in the report under "Safety limits hit".
+- Missed-lead pages: no daily limit. Agent recipes may list up to 20 sale pages (was 5).
+- Agent memory (`data/deals/agent-memory.json`, gitignored): a verdict the agent was paid for is reused for 7 days while the link, price, old price and currency stay the same. A price change, an older verdict or a failed run means a fresh job. The report shows "answered from memory".
+- Side session: the hero email form works locally but was never committed; it collects nothing until it's connected to an email service (Kit suggested).
+- Tests: 266 pass.
+
+**Decisions**
+- "Only deals created in the last 24 hours" rejected: most shops don't expose a sale start date, and missed deals would never come back. Instead: read everything daily, pay only for new or changed deals.
+
+**Next**
+- Run the daily command once from the user's terminal to see the real uncapped cost and time.
+- Finish the homepage redesign (remove the localhost Impeccable script, connect or remove the email form), then go live.
