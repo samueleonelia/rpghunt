@@ -29,6 +29,7 @@ import types
 
 from scraper import check, discover, escalate, missed, publish
 from scraper import run as run_mod
+from scraper import common
 from scraper.common import ROOT
 
 REPORTS = ROOT / "data" / "deals"
@@ -134,6 +135,21 @@ def _price(d):
     return f"{d['price_now']} {cur}{was}{pct}".replace("  ", " ").strip()
 
 
+def blocked_section(date, path=None):
+    """-> report lines: sites that blocked us today (new ones first), and the size of the whole list."""
+    sites = _read(path or common.BLOCKED_SITES)
+    today = {h: r for h, r in sites.items() if r.get("last_seen") == date}
+    L = ["", "## Sites that block us", ""]
+    if not today:
+        L.append("None today.")
+    for h, r in sorted(today.items(), key=lambda kv: (kv[1]["first_seen"] != date, kv[0])):
+        why = "; ".join(k for k, v in r["reasons"].items() if v == date)
+        L.append(f"- {'**NEW** ' if r['first_seen'] == date else ''}**{h}**: {why}. Example: {r.get('example_url')}")
+    L.append(f"\nAll sites that ever blocked us: {len(sites)} (`data/shops/blocked-sites.json`). "
+             "We never get around a block (good-bot rule).")
+    return L
+
+
 def build_report(ctx, results, folder=REPORTS):
     """-> the daily report as Markdown text. Reads the day's output files from `folder`."""
     date, sfx = ctx.date, "-FAKE" if ctx.fake else ""
@@ -163,6 +179,7 @@ def build_report(ctx, results, folder=REPORTS):
     L.append(f"# RPG Hunt daily report, {date}")
     if getattr(ctx, "preview", False):
         new = _read(folder / f"new-deals-{date}.json", [])
+        blocked = blocked_section(date)
         by_shop, by_why = {}, {}
         for r in new:
             by_shop[r["shop"]] = by_shop.get(r["shop"], 0) + 1
@@ -175,7 +192,7 @@ def build_report(ctx, results, folder=REPORTS):
         for r in new[:30]:
             was = f" (was {r['before']['price_now']})" if r.get("before") else ""
             L.append(f"- [{r['title']}]({r['url']}) at {r['shop']}: {r['price_now']} {r.get('currency') or ''}{was}, {r['why']}")
-        return "\n".join(L) + "\n"
+        return "\n".join(L + blocked) + "\n"
     if is_baseline:
         L += ["", f"**Baseline day: {cc.get('baseline', 0)} deals on sale today were saved as already seen, with no paid "
                   f"checks and nothing published. From the next run, only new or changed deals are checked.**"]
@@ -243,6 +260,8 @@ def build_report(ctx, results, folder=REPORTS):
             L.append(f"- **{r['id']}**: {r['deals']} deals today, usually about {r.get('alarm_average')}. Its reader may have stopped working.")
     else:
         L.append("None.")
+
+    L += blocked_section(date)
 
     L += ["", "## Safety limits hit", ""]
     if stopped:

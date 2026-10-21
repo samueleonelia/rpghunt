@@ -130,6 +130,17 @@ class Report(unittest.TestCase):
         self.assertIn("TEST RUN", text)
         self.assertIn("[Fresh](https://s/f)", text)
 
+    def test_sites_that_block_us_are_listed_new_first(self):
+        path = pathlib.Path(tempfile.mkdtemp()) / "blocked.json"
+        path.write_text(json.dumps({
+            "old.example": {"first_seen": "2026-10-01", "last_seen": DATE, "reasons": {"HTTP 403": DATE}, "example_url": "u1"},
+            "new.example": {"first_seen": DATE, "last_seen": DATE, "reasons": {"robots.txt disallows us": DATE}, "example_url": "u2"},
+            "gone.example": {"first_seen": "2026-10-01", "last_seen": "2026-10-02", "reasons": {"HTTP 403": "2026-10-02"}}}))
+        text = "\n".join(daily.blocked_section(DATE, path))
+        self.assertLess(text.index("**NEW** **new.example**"), text.index("**old.example**"))
+        self.assertNotIn("gone.example", text.split("All sites")[0])
+        self.assertIn("All sites that ever blocked us: 3", text)
+
     def test_baseline_skips_the_agent(self):
         self.assertEqual(daily.stage_escalate(ctx(baseline=True))["status"], "skipped")
 
