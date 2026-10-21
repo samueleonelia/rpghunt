@@ -49,5 +49,11 @@ Update with `npx impeccable update`.
   paid checks (Jev, agent); an unchanged deal keeps its earlier verdict for as long as it stays on
   sale. Do not filter by "sale started in the last 24 hours": shops rarely say when a sale started.
   Decided 2026-10-19.
+- **Good bot: never bypass a block.** The goal is a good relationship with the shops (future
+  partners and affiliate programs). The scraper names itself (`RPGHuntBot`), obeys `robots.txt`,
+  and never gets around a bot wall (no fake browser identity, no unblocker services, no proxies to
+  hide). Reading a JavaScript page with a real browser is fine; that is not a block. Every site
+  that blocks us is recorded in `data/shops/blocked-sites.json` and listed in the daily report.
+  Decided by the user 2026-10-21 ("for now"; revisit case by case if a big shop blocks us).
 
 ## Remember

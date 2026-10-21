@@ -378,3 +378,25 @@
 
 **Next**
 - 2026-10-20: run `--preview` first, check the new-deals list against the shops, then the real run.
+
+## 2026-10-21: Preview test, good-bot rule, blocked-sites list
+
+**Status:** `blocked-sites` merged into `main`. Live site unchanged. `docs/` still holds the uncommitted redesign plus the All games page removal.
+
+**Done**
+- Preview on 2026-10-21 (2 days after the baseline): 3,877 on sale, 167 new or changed (159 new, 8 price changes). DriveThruRPG 142 (mostly one publisher's sale: Hellfrost, Sundered Skies, Daring Tales, Necropolis 2350), itch.io 10, Hit Point Press 8, Kobold Press 3, Humble 2 (not RPGs), Bundle of Holding 1, Pinnacle 1. All 47 shops read, 0 errors, 0 safety limits. Cost $0.
+- The 37 unmatched EN World links were checked: new releases and free items, not missed sales.
+- Good-bot rule written in CLAUDE.md as the user's decision.
+- `data/shops/blocked-sites.json`: `fetch()` records every block (HTTP 401/403/406/503, robots.txt, known bot wall, rate limit after retries, bot-wall page) per host with first/last seen and an example. Seeded with the 9 known blocks. Daily report section "Sites that block us", new ones first.
+- A bot-wall page served with HTTP 200 (Cloudflare, Amazon robot check) now counts as a block instead of a page with no deals.
+- Tests: 280 pass.
+
+**Decisions**
+- User: keep the good-bot rule "for now"; the goal is good relationships with shops. Earlier sessions had applied it without the user asking; now it is the user's rule.
+- treg reviewed: worth it for JavaScript-only shops (GameNerdz first) and maybe Amazon; its unblocker is ruled out by the good-bot rule.
+- Hit Point Press lowers prices by $1 daily: about 8 rechecks a day, accepted.
+
+**Next**
+- Spot-check 2 links from the preview, then the paid run: `daily --skip-run` for 2026-10-21.
+- Try GameNerdz with treg's page reader (under 1 cent test).
+- Check whether DMsGuild deals are on the DriveThruRPG data server.

@@ -20,6 +20,9 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 SHOPS = ROOT / "data" / "shops" / "shops.json"
 RAW = ROOT / "data" / "deals" / "raw"
 TESTSET = ROOT / "data" / "testset"
+# Every site that blocks us (good-bot rule: we never get around a block, we write it down).
+# Updated by fetch() as blocks happen; the daily report lists it.
+BLOCKED_SITES = ROOT / "data" / "shops" / "blocked-sites.json"
 
 # Honest bot name, the only place it is defined. The page explains who we are and how to ask us to stop
 # (text in agents/bot-page.md). robotparser matches the part before the "/", so a shop's robots.txt
@@ -30,6 +33,10 @@ UA = "RPGHuntBot/1.0 (+https://samueleonelia.github.io/rpghunt/bot.html)"
 NEVER_FETCH = {"www.drivethrurpg.com", "drivethrurpg.com"}
 DELAY = 1.5          # seconds between two requests to the same site
 BLOCKED = {401, 403, 406, 503}
+# A bot-wall page served with HTTP 200 (Amazon robot check, Cloudflare challenge), judged by its <title>.
+BOT_WALL_TITLES = ("robot check", "just a moment", "attention required", "are you a robot",
+                   "access denied", "verify you are human")
+_TITLE = re.compile(rb"<title[^>]*>(.*?)</title>", re.I | re.S)
 TYPES = {"sale", "bundle", "physical", "free"}
 # Plain requests: our own User-Agent, no made-up Google referer, no browser impersonation,
 # retries handled in fetch(). Impersonation is off on purpose: with it, Shopify served
@@ -43,6 +50,34 @@ class FetchError(Exception):
     def __init__(self, kind, url, detail=""):
         super().__init__(f"{kind}: {url} {detail}".strip())
         self.kind, self.url, self.detail = kind, url, detail
+
+
+_blocks_lock = threading.Lock()
+
+
+def note_block(url, reason, today=None):
+    """Write down that a site blocked us: data/shops/blocked-sites.json, one row per host.
+    Never raises: a failed note must not stop a read."""
+    host = _host(url).removeprefix("www.")
+    today = today or datetime.date.today().isoformat()
+    try:
+        with _blocks_lock:
+            sites = json.loads(BLOCKED_SITES.read_text()) if BLOCKED_SITES.exists() else {}
+            row = sites.setdefault(host, {"first_seen": today, "reasons": {}})
+            row["last_seen"] = today
+            row["reasons"][reason] = today
+            row["example_url"] = url
+            BLOCKED_SITES.parent.mkdir(parents=True, exist_ok=True)
+            BLOCKED_SITES.write_text(json.dumps(dict(sorted(sites.items())), indent=1) + "\n")
+    except (OSError, ValueError):
+        pass
+
+
+def bot_wall_title(body):
+    """-> the page title when an HTML body is a bot-wall page, else None."""
+    m = _TITLE.search(body[:20000] if isinstance(body, bytes) else b"")
+    title = m.group(1).decode("utf-8", "ignore").strip().lower() if m else ""
+    return title if any(t in title for t in BOT_WALL_TITLES) else None
 
 
 # One lock and one clock per site, so a site never gets two requests at once
@@ -89,8 +124,10 @@ def fetch(url, tries=3):
     """
     host = _host(url)
     if host in NEVER_FETCH:
+        note_block(url, "bot wall (known, never fetched)")
         raise FetchError("blocked", url, "never fetched: this host serves a bot wall")
     if not _allowed(url):
+        note_block(url, "robots.txt disallows us")
         raise FetchError("robots", url, "disallowed by robots.txt")
     with _guard:
         lock = _host_locks.setdefault(host, threading.Lock())
@@ -111,10 +148,16 @@ def fetch(url, tries=3):
                 time.sleep(15 * (attempt + 1))
                 continue
             if resp.status in BLOCKED:
+                note_block(url, f"HTTP {resp.status}")
                 raise FetchError("blocked", url, f"HTTP {resp.status}")
             if resp.status >= 400:
                 raise FetchError("dead", url, f"HTTP {resp.status}")
+            wall = bot_wall_title(resp.body)
+            if wall:
+                note_block(url, f"bot wall page ({wall[:40]})")
+                raise FetchError("blocked", url, f"bot wall page: {wall[:60]}")
             return resp
+        note_block(url, "rate limit (HTTP 429 after retries)")
         raise FetchError("blocked", url, "HTTP 429 after retries")
 
 

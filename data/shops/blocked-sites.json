@@ -1,0 +1,74 @@
+{
+ "dmsguild.com": {
+  "first_seen": "2026-10-17",
+  "reasons": {
+   "HTTP 403": "2026-10-17"
+  },
+  "last_seen": "2026-10-17",
+  "example_url": "https://www.dmsguild.com/"
+ },
+ "drivethrurpg.com": {
+  "first_seen": "2026-10-17",
+  "reasons": {
+   "bot wall (known, never fetched)": "2026-10-17"
+  },
+  "last_seen": "2026-10-17",
+  "example_url": "https://www.drivethrurpg.com/"
+ },
+ "foundryvtt.store": {
+  "first_seen": "2026-10-17",
+  "reasons": {
+   "HTTP 403": "2026-10-17"
+  },
+  "last_seen": "2026-10-17",
+  "example_url": "https://www.foundryvtt.store/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "indiepressrevolution.com": {
+  "first_seen": "2026-10-17",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-17"
+  },
+  "last_seen": "2026-10-17",
+  "example_url": "https://www.indiepressrevolution.com/xcart/"
+ },
+ "miniaturemarket.com": {
+  "first_seen": "2026-10-17",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-17"
+  },
+  "last_seen": "2026-10-17",
+  "example_url": "https://www.miniaturemarket.com/products.json?limit=1"
+ },
+ "ospreypublishing.com": {
+  "first_seen": "2026-10-17",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-17"
+  },
+  "last_seen": "2026-10-17",
+  "example_url": "https://www.ospreypublishing.com/products.json?limit=1"
+ },
+ "pelgranepress.com": {
+  "first_seen": "2026-10-17",
+  "reasons": {
+   "HTTP 403": "2026-10-17"
+  },
+  "last_seen": "2026-10-17",
+  "example_url": "https://pelgranepress.com/shop/"
+ },
+ "reddit.com": {
+  "first_seen": "2026-10-17",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-17"
+  },
+  "last_seen": "2026-10-17",
+  "example_url": "https://www.reddit.com/r/rpg/"
+ },
+ "ulissesf-shop.com": {
+  "first_seen": "2026-10-17",
+  "reasons": {
+   "HTTP 503": "2026-10-17"
+  },
+  "last_seen": "2026-10-17",
+  "example_url": "https://www.ulissesf-shop.com/"
+ }
+}
