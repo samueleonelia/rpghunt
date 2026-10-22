@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RPGHuntBot · RPG Hunt</title>
+  <meta name="description" content="Who RPGHuntBot is, what it reads, how politely, and how to ask it to stop.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap">
+  <link rel="stylesheet" href="style.css?v=20261022">
+  <style>
+    .bot { max-width: 68ch; padding-top: 40px; padding-bottom: 24px; }
+    .bot h1 { font-size: clamp(1.8rem, 5vw, 2.4rem); font-stretch: 112%; line-height: 1.1; margin: 0 0 12px; }
+    .bot h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+    .bot p, .bot li { color: var(--ink); }
+    .bot ul { padding-left: 1.2em; display: grid; gap: 6px; }
+    .bot code, .bot pre { font-family: ui-monospace, Menlo, monospace; font-size: .88rem; background: var(--card); border: 1px solid var(--line); border-radius: 6px; }
+    .bot code { padding: 1px 6px; }
+    .bot pre { padding: 12px 14px; overflow-x: auto; }
+    .bot a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap head-row">
+      <a class="brand" href="./">RPG <span>Hunt</span></a>
+    </div>
+  </header>
+
+  <main class="wrap bot">
+    <h1>RPGHuntBot</h1>
+    <p>RPGHuntBot belongs to <a href="./">RPG Hunt</a>, a free daily list of tabletop RPG deals: sales, bundles, discounted books and free giveaways. Every deal on our site links straight to the shop that sells it. We send shoppers to you; we don't resell anything.</p>
+    <p>Our bot's name in your logs is:</p>
+    <pre>RPGHuntBot/1.0 (+https://samueleonelia.github.io/rpghunt/bot.html)</pre>
+
+    <h2>What we read</h2>
+    <ul>
+      <li>Public product data: title, current price, normal price and the product link. Usually that's a shop's public product feed (a Shopify <code>/products.json</code>, a WooCommerce store API, an itch.io feed or a public product API), or the public product page when there is no feed.</li>
+      <li>Nothing behind a login. No carts, no checkout, no customer data, no forms.</li>
+      <li>We never try to get around bot walls, CAPTCHAs or blocks. If a shop blocks us, we leave it alone.</li>
+    </ul>
+
+    <h2>How politely</h2>
+    <ul>
+      <li>We read your <code>robots.txt</code> first and follow it. If it disallows us, by the name <code>RPGHuntBot</code> or <code>*</code>, we don't fetch those pages.</li>
+      <li>One request at a time per site, at most one every 1.5 seconds.</li>
+      <li>We stop and back off when a site answers "429 Too Many Requests".</li>
+      <li>We read each shop about once a day.</li>
+    </ul>
+
+    <h2>Ask us to stop</h2>
+    <p>Block us in your <code>robots.txt</code> and we'll stop at our next visit:</p>
+    <pre>User-agent: RPGHuntBot
+Disallow: /</pre>
+    <p>Or <a href="https://github.com/samueleonelia/rpghunt/issues/new?title=Please%20stop%20reading%20my%20shop">open a request on our project page</a> with your shop's address, and we'll stop reading it and remove it from our list. Use the same page if we read too much, too often, or something looks wrong in your logs.</p>
+  </main>
+
+  <footer class="wrap foot">
+    <p><a href="./">Back to today's deals</a></p>
+  </footer>
+</body>
+</html>

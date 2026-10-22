@@ -52,22 +52,42 @@ function siteName(url) {
   return parts.slice(-keep).join(".");
 }
 
-function ratingLine(d) {
-  if (!d.rating) return null;
-  return el("div", { class: "rating" },
-    el("span", { class: "stars", "aria-hidden": "true" }, "★"),
-    ` ${d.rating.value.toFixed(1)} from ${d.rating.count.toLocaleString("en-US")} ratings`);
+// A reviewer's own score converted to 5 stars. Only scores with a scale count
+// ("8.5/10", "4 out of 5"); a bare "4.5" could mean anything, so it is skipped.
+function criticStars(score) {
+  const m = /([0-9]+(?:\.[0-9]+)?)\s*(?:\/|out of)\s*([0-9]+)/i.exec(score || "");
+  return m && Number(m[2]) > 0 ? (Number(m[1]) / Number(m[2])) * 5 : null;
 }
 
-function reviewList(d) {
-  const reviews = d.reviews || [];
-  if (!reviews.length) return null;
-  return el("details", { class: "reviews" },
-    el("summary", {}, `${reviews.length} review${reviews.length === 1 ? "" : "s"}`),
-    el("ul", {}, ...reviews.map((r) => el("li", {},
-      el("a", { href: r.url, target: "_blank", rel: "noopener" }, r.source),
-      r.score ? el("span", { class: "score" }, ` ${r.score}`) : null,
-      el("p", {}, r.verdict)))));
+// One rating per deal: every shop rating and every scored review counts as one vote.
+function aggregate(d) {
+  let sum = 0;
+  let count = 0;
+  if (d.rating) {
+    sum += d.rating.value * d.rating.count;
+    count += d.rating.count;
+  }
+  for (const r of d.reviews || []) {
+    const stars = criticStars(r.score);
+    if (stars != null) {
+      sum += stars;
+      count += 1;
+    }
+  }
+  return count ? { value: sum / count, count } : null;
+}
+
+function ratingLine(d) {
+  const agg = aggregate(d);
+  // Every card gets a star row so cards line up; unrated deals say so instead of looking badly rated.
+  if (!agg) {
+    return el("div", { class: "rating none", "aria-label": "No ratings yet" },
+      el("span", { class: "stars", "aria-hidden": "true", style: "--fill: 0%" }, "★★★★★"), " No ratings yet");
+  }
+  const value = Math.round(agg.value * 10) / 10;
+  return el("div", { class: "rating", "aria-label": `Rated ${value.toFixed(1)} out of 5 from ${agg.count} ratings` },
+    el("span", { class: "stars", "aria-hidden": "true", style: `--fill: ${(agg.value / 5) * 100}%` }, "★★★★★"),
+    ` ${value.toFixed(1)} from ${agg.count.toLocaleString("en-US")} rating${agg.count === 1 ? "" : "s"}`);
 }
 
 function cover(d) {
@@ -84,25 +104,20 @@ function cover(d) {
   return box;
 }
 
+// Every card has the same slots in the same order, even when a slot is empty,
+// so titles, prices, stars, text and buttons line up across a row.
 function card(d) {
-  const now = money(d.price_now, d.currency);
-  const was = d.price_was && d.price_was !== d.price_now ? money(d.price_was, d.currency) : null;
   const ends = endsText(d.ends);
   return el("article", { class: "card deal" },
     cover(d),
     el("div", { class: "deal-body" },
-      el("h3", {}, d.title),
-      now ? el("div", { class: "deal-price" },
-        el("span", { class: "now" }, now),
-        was ? el("span", { class: "was" }, was) : null,
-        d.discount_pct ? el("span", { class: "off" }, `-${d.discount_pct}%`) : null) : null,
+      el("h3", { title: d.title }, d.title),
+      priceRow(d),
       ratingLine(d),
-      d.summary ? el("p", { class: "desc" }, d.summary) : null,
-      reviewList(d),
-      ends ? el("div", { class: "ends" + (ends[1] ? " soon" : "") }, ends[0]) : null,
+      el("p", { class: "desc" }, d.summary || ""),
+      el("div", { class: "ends" + (ends && ends[1] ? " soon" : "") }, ends ? ends[0] : ""),
       el("div", { class: "deal-actions" },
-        el("a", { class: "btn primary", href: d.url, target: "_blank", rel: "noopener" }, d.type === "free" ? "Get it free" : "Get the deal"),
-        d.game_id ? el("a", { class: "btn", href: `games.html#${encodeURIComponent(d.game_id)}` }, `About ${d.game}`) : null),
+        el("a", { class: "btn primary", href: d.url, target: "_blank", rel: "noopener" }, d.type === "free" ? "Get it free" : "Get the deal")),
       el("p", { class: "deal-source" }, siteName(d.url)),
     ),
   );
@@ -118,12 +133,13 @@ function rowDeals(key) {
 
 function priceRow(d) {
   const now = money(d.price_now, d.currency);
-  if (!now) return null;
-  const was = d.price_was && d.price_was !== d.price_now ? money(d.price_was, d.currency) : null;
+  const was = now && d.price_was && d.price_was !== d.price_now ? money(d.price_was, d.currency) : null;
+  // Some sales are "40% off everything" with no single price: show the discount in the price slot.
+  const lead = now || (d.discount_pct ? `${d.discount_pct}% off` : "See price");
   return el("div", { class: "deal-price" },
-    el("span", { class: "now" }, now),
+    el("span", { class: "now" }, lead),
     was ? el("span", { class: "was" }, was) : null,
-    d.discount_pct ? el("span", { class: "off" }, `-${d.discount_pct}%`) : null);
+    now && d.discount_pct ? el("span", { class: "off" }, `-${d.discount_pct}%`) : null);
 }
 
 // Ranked list of the 9 biggest discounts, like a top-sellers board.
@@ -163,6 +179,23 @@ function renderHome() {
 }
 
 let current = null;
+// Results grid: 24 cards at a time, "Show more" adds the next 24 (best discounts first).
+const PAGE = 24;
+let shown = [];
+
+function updateMore() {
+  const grid = $("#grid");
+  const left = shown.length - grid.children.length;
+  const more = $("#more");
+  more.hidden = left <= 0;
+  more.textContent = `Show ${Math.min(PAGE, left)} more (${left} left)`;
+}
+
+function showMore() {
+  const grid = $("#grid");
+  grid.append(...shown.slice(grid.children.length, grid.children.length + PAGE).map(card));
+  updateMore();
+}
 
 function showResults(key, query = "") {
   current = key;
@@ -179,7 +212,9 @@ function showResults(key, query = "") {
   $("#home").hidden = true;
   $("#results").hidden = false;
   $("#results-title").textContent = title;
-  $("#grid").replaceChildren(...list.map(card));
+  shown = list;
+  $("#grid").replaceChildren(...list.slice(0, PAGE).map(card));
+  updateMore();
   $("#count").textContent = `${list.length} deal${list.length === 1 ? "" : "s"}`;
   $("#empty").hidden = list.length > 0;
   document.querySelectorAll("#nav button").forEach((b) => b.setAttribute("aria-current", String(!query && b.dataset.key === key)));
@@ -200,7 +235,16 @@ function renderNav() {
     b.addEventListener("click", () => showResults(r.key));
     return b;
   });
-  $("#nav").replaceChildren(...buttons, el("a", { href: "games.html" }, "All games"));
+  $("#nav").replaceChildren(...buttons);
+}
+
+// Hero background: a wall of today's deal covers, repeated to fill 18 tiles.
+function renderWall() {
+  const wall = $("#hero-wall");
+  const images = deals.map((d) => d.image).filter(Boolean);
+  if (!wall || !images.length) return; // decoration only: never block the deals
+  const tiles = Array.from({ length: 18 }, (_, i) => images[i % images.length]);
+  wall.replaceChildren(...tiles.map((src) => el("img", { src, alt: "", loading: "lazy", referrerpolicy: "no-referrer" })));
 }
 
 // Thin bar on top: the deal that ends soonest.
@@ -225,9 +269,38 @@ async function init() {
   dataDate = data.date;
   $("#checked").textContent = `${deals.length} deals · last checked ${new Date(dataDate + "T12:00:00").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })}.`;
   renderAnnounce();
+  renderWall();
   renderNav();
   renderHome();
   $("#back").addEventListener("click", showHome);
+  $("#more").addEventListener("click", showMore);
+  // Deal alerts: Kit form 10082554 (public form id, no key). If the background request fails,
+  // the form posts normally and Kit shows its own confirmation page.
+  $("#signup")?.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const email = $("#signup-email");
+    const note = $("#signup-note");
+    const button = form.querySelector("button");
+    if (!email.checkValidity()) {
+      note.textContent = "Please enter a valid email address.";
+      email.focus();
+      return;
+    }
+    button.disabled = true;
+    note.textContent = "Signing you up…";
+    try {
+      const res = await fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok || (body.status && body.status !== "success")) throw new Error(body.status || res.status);
+      form.reset();
+      note.textContent = "Almost done: check your inbox and confirm your email to get deal alerts.";
+    } catch {
+      form.submit();
+    } finally {
+      button.disabled = false;
+    }
+  });
   $("#q").addEventListener("input", (e) => (e.target.value.trim() ? showResults(null, e.target.value.trim()) : showHome()));
 }
 

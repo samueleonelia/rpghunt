@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20261022">
 </head>
 <body>
   <div class="announce" id="announce" hidden></div>
@@ -27,10 +27,21 @@
 
   <main>
     <div id="home">
-      <section class="hero wrap">
-        <h1>Tabletop RPG deals, checked every day.</h1>
-        <p>Sales, bundles and discounted books from shops across the web, found and checked by our agents.</p>
-        <p class="checked" id="checked"></p>
+      <section class="hero hero-wall">
+        <div class="wall" id="hero-wall" aria-hidden="true"></div>
+        <div class="inner wrap">
+          <div class="hero-card">
+            <h1>Loot the best tabletop RPG deals</h1>
+            <p class="sub">Sales, bundles and discounted books from shops across the web</p>
+            <form class="signup" id="signup" action="https://app.kit.com/forms/10082554/subscriptions" method="post" novalidate>
+              <label class="sr-only" for="signup-email">Email address</label>
+              <input id="signup-email" name="email_address" type="email" placeholder="Your email" autocomplete="email" required>
+              <button type="submit" class="btn primary">Get deal alerts</button>
+            </form>
+            <p class="signup-note" id="signup-note" aria-live="polite">New deals in your inbox. Unsubscribe anytime.</p>
+          </div>
+          <p class="checked" id="checked"></p>
+        </div>
       </section>
       <ul class="trust wrap">
         <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Every link opened and checked</li>
@@ -47,14 +58,15 @@
       </div>
       <p id="count" class="count"></p>
       <div id="grid" class="grid deals"></div>
+      <div class="more-row"><button type="button" class="btn" id="more" hidden>Show more</button></div>
       <p id="empty" class="empty" hidden>No deals match. Try another word.</p>
     </section>
   </main>
 
   <footer class="wrap foot">
-    <p>Deals found and checked by AI agents. Prices can change at any time: the shop's price is the real one. Links are not affiliate links.</p>
+    <p>Deals found and checked by AI agents. Prices can change at any time: the shop's price is the real one. Links are not affiliate links. <a href="bot.html">About our bot</a>.</p>
   </footer>
 
-  <script src="deals.js"></script>
+  <script src="deals.js?v=20261022"></script>
 </body>
 </html>
