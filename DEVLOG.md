@@ -400,3 +400,27 @@
 - Spot-check 2 links from the preview, then the paid run: `daily --skip-run` for 2026-10-21.
 - Try GameNerdz with treg's page reader (under 1 cent test).
 - Check whether DMsGuild deals are on the DriveThruRPG data server.
+
+## 2026-10-22: Live with 230 deals, new-sale rule, go-live and alerts
+
+**Status:** `main`, pushed. Live site shows 230 checked deals from 22 Oct. The launchd schedule files (`scripts/daily-scheduled.sh`, `scripts/com.samueleonelia.rpghunt-daily.plist`) are written but NOT installed or committed: auto mode refused it as unattended persistence, so it waits for the user's OK.
+
+**Done**
+- First paid daily run (from the user's terminal, so the browsing agent works): 47 shops, 0 errors, about $0.45, 11 minutes.
+- New-sale rule: price history now tells, per deal, whether the shop's previous read had it on sale; if not, its discount started since and it publishes (`check.new_on_sale`). Guard: a previous read under half today's size counts as partial. The 206 waiting DriveThruRPG deals (a Triple Ace Games sale) re-checked: 230 deals ready, 0 waiting.
+- Site: new homepage committed (hero, deal-alerts form wired to Kit form 10082554, no key in the site), All games page removed, localhost design-tool script removed, "Show more" paging (24 at a time) for View all and search, `docs/bot.html` with a GitHub-issue contact route (no email published).
+- Went live: 230 deals pushed; checked on GitHub Pages (bot.html 200, no localhost, Kit form present).
+- `daily --go-live` (copy, commit, push; refused on a failed step, not on main, or a deal-count collapse), alerts at the top of the report, `--notify` Mac notification.
+- `.env.example` (key names only); `KIT_API_KEY` slot appended to `.env` without reading it. A Kit check that would have opened `.env` was blocked by the user's guard hook, correctly.
+- DMsGuild: `api.dmsguild.com` serves the same catalog as DriveThruRPG (144 of 150 identical, no community content): nothing new to add. Closed.
+- GameNerdz: the deals grid is drawn by JavaScript (no products in the HTML; its `/api/mcp` is a 404). Needs a real browser (Scrapling browser download, needs the user's OK) or a third-party reader (breaks the good-bot name rule).
+- Launch checklist artifact: https://claude.ai/artifact/UYzdxWJQE8Z2cbNRbFUrX3 (Claude ticks items as they're done).
+- Tests: 288 pass.
+
+**Decisions**
+- User: work through the checklist without asking; stop only when truly stuck, after a sub-agent confirms.
+- Bot page contact: GitHub issue instead of an email, so no address is published.
+- Daily schedule: Mac launchd job at 07:30 (runs on wake if asleep), same pattern as the user's other `com.samueleonelia.*` jobs.
+
+**Next**
+- User: OK to install the daily schedule; OK (or not) to download Scrapling's browser for GameNerdz; one real test signup on the live form.
