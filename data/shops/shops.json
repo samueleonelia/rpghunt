@@ -627,18 +627,16 @@
   "id": "gamenerdz",
   "name": "GameNerdz",
   "store_url": "https://www.gamenerdz.com/roleplaying",
-  "platform": "generic",
+  "platform": "bigcommerce",
   "status": "active",
-  "currency": null,
+  "currency": "USD",
   "recipe": {
-   "sale_pages": [
-    "https://www.gamenerdz.com/deals"
-   ]
+   "deals_url": "https://www.gamenerdz.com/deals"
   },
-  "recipe_confirmed": null,
+  "recipe_confirmed": "2026-10-22",
   "added": "2026-10-17",
   "added_via": "seed list",
-  "notes": "sale page: https://www.gamenerdz.com/deals",
+  "notes": "BigCommerce. The deals grid is drawn by JavaScript, but the plain HTML of /deals?page=N carries the listing's data (window.bodl, base64 JSON): read by scraper/readers/bigcommerce.py, no browser. Items marked '(Add to cart to see price)' hide their price behind the cart (robots.txt disallows cart.php): counted as hidden_price, never published. Retailer with everyday markdowns.",
   "everyday_discounts": true
  },
  {
