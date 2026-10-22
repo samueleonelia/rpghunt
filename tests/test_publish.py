@@ -173,3 +173,29 @@ class Guard(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Summary(unittest.TestCase):
+    def test_first_sentence_of_the_shop_text(self):
+        d = {"hints": {"description": "Even the mightiest wizard once cast his very first spell. Second sentence here."}}
+        self.assertEqual(publish.shop_summary(d), "Even the mightiest wizard once cast his very first spell.")
+
+    def test_long_text_without_a_full_stop_is_cut_at_a_word(self):
+        d = {"hints": {"description": "word " * 60}}
+        s = publish.shop_summary(d)
+        self.assertTrue(s.endswith("…") and len(s) <= publish.SUMMARY_CHARS + 1 and "  " not in s)
+
+    def test_itch_blurb_and_no_text(self):
+        self.assertEqual(publish.shop_summary({"hints": {"blurb": "A tiny horror zine"}}), "A tiny horror zine")
+        self.assertIsNone(publish.shop_summary({"hints": {}}))
+
+
+class FactsSummary(unittest.TestCase):
+    def test_lines_from_shop_facts_when_there_is_no_text(self):
+        self.assertEqual(publish.shop_summary({"hints": {"bundle_slug": "X", "level_up_price": "30.67"}}),
+                         "PDF bundle. Pay $30.67 or more to add the bonus collection.")
+        self.assertEqual(publish.shop_summary({"hints": {"sale_title": "Spooky Sale", "seller_name": "BlackwellWriter"}}),
+                         "Spooky Sale by BlackwellWriter.")
+        self.assertEqual(publish.shop_summary({"hints": {"categories": "['5.5E', '5th Edition', 'Classes', 'Maps']"}}),
+                         "5.5E, 5th Edition, Classes.")
+        self.assertIsNone(publish.shop_summary({"hints": {"categories": "not a list"}}))

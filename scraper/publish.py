@@ -16,6 +16,7 @@ are cached in data/deals/page-meta-cache.json for 14 days). The helper functions
 are imported, not copied.
 """
 import argparse
+import ast
 import concurrent.futures
 import datetime
 import json
@@ -151,6 +152,52 @@ def dedupe(deals):
     return out
 
 
+SUMMARY_CHARS = 160      # the card shows about two lines
+
+
+def _categories(value):
+    if isinstance(value, list):
+        return [str(c) for c in value]
+    try:
+        parsed = ast.literal_eval(value) if isinstance(value, str) else []
+    except (ValueError, SyntaxError):
+        return []
+    return [str(c) for c in parsed] if isinstance(parsed, (list, tuple)) else []
+
+
+def facts_summary(d):
+    """A plain line built from what the shop's data does say, for deals that come with no text."""
+    h = d.get("hints") or {}
+    if h.get("bundle_slug"):
+        up = h.get("level_up_price")
+        return (f"PDF bundle. Pay ${up} or more to add the bonus collection." if up else "PDF bundle of RPG books.")
+    if h.get("sale_title") and (h.get("seller_name") or h.get("seller")):
+        return f"{h['sale_title']} by {h.get('seller_name') or h['seller']}."
+    cats = [c for c in _categories(h.get("categories")) if c.lower() not in ("uncategorized", "deals", "sale")]
+    if cats:
+        return ", ".join(cats[:3]) + "."
+    who = h.get("seller_name") or h.get("vendor") or h.get("seller")
+    if who:
+        return f"By {who}."
+    return None
+
+
+def shop_summary(d):
+    """A short card description from the shop's own product text: its first sentence, or a cut at a word
+    boundary near SUMMARY_CHARS. None when the shop gave no text."""
+    h = d.get("hints") or {}
+    text = re.sub(r"\s+", " ", h.get("description") or h.get("blurb") or h.get("short_blurb") or "").strip()
+    if not text:
+        return facts_summary(d)
+    m = re.match(r"(.{40,%d}?[.!?])(\s|$)" % SUMMARY_CHARS, text)
+    if m:
+        return m.group(1)
+    if len(text) <= SUMMARY_CHARS:
+        return text
+    cut = text[:SUMMARY_CHARS].rsplit(" ", 1)[0].rstrip(",;:-")
+    return cut + "…"
+
+
 def site_deal(d, games, catalog, reviews, meta):
     """One checked scraper deal -> one entry in the site's deals file (exactly SITE_KEYS)."""
     chk = d.get("check") or {}
@@ -169,7 +216,7 @@ def site_deal(d, games, catalog, reviews, meta):
     out = {
         "type": d["type"], "title": title, "game": game, "shop": shop, "url": d["url"],
         "price_now": d["price_now"], "price_was": d.get("price_was"), "currency": d.get("currency"),
-        "discount_pct": pct, "format": d.get("format"), "ends": d.get("ends"), "summary": d.get("summary"),
+        "discount_pct": pct, "format": d.get("format"), "ends": d.get("ends"), "summary": d.get("summary") or shop_summary(d),
         "confidence": d.get("confidence", "high"), "notes": d.get("notes"),
         "verified": "page" if page_seen else "source", "price_seen": True if page_seen else None,
         "image": meta.get("image") or (d.get("hints") or {}).get("image"), "rating": meta.get("rating"),
