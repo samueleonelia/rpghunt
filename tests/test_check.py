@@ -166,6 +166,13 @@ class EverydayShops(Base):
         (r,), _ = self.run_check([feed_deal()], script(**{"p*": 0.95, "offer_kind": "promotion"}))
         self.assertEqual(r["decision"], "wait")
 
+    def test_a_deal_new_since_the_last_read_is_a_new_sale(self):
+        self.hist.record([feed_deal(url=f"https://shop.example/products/o{i}") for i in range(3)], "2026-10-15")
+        self.hist.record([feed_deal()] + [feed_deal(url=f"https://shop.example/products/o{i}") for i in range(3)], DATE)
+        (r,), _ = self.run_check([feed_deal()], script(**{"p*": 0.95, "offer_kind": "everyday"}))
+        self.assertEqual(r["decision"], "publish")
+        self.assertEqual(r["check"]["new_on_sale"], "2026-10-15")
+
 
 class Memory(Base):
     def test_unchanged_deal_keeps_its_verdict_with_no_jev_call(self):

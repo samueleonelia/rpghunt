@@ -311,6 +311,9 @@ def decide(deal, rpg_p, answers, page, facts, T=THRESHOLDS, lead=None):
                 blockers.append(f"offer_unsure: everyday ({conf:.2f})")
             elif facts.get("days_seen", 0) >= T["history_min_days"] and usual is not None and deal["price_now"] < usual:
                 check["history_drop"] = True
+            elif facts.get("new_on_sale"):
+                check["new_on_sale"] = facts.get("last_run")   # not among the shop's deals on its last read
+            # a lead stands in for a drop on a shop's first day only
             elif lead and facts.get("days_seen", 0) == 0:
                 check["lead_drop"] = lead      # first day of history: a trusted roundup lists it as a sale
             else:
