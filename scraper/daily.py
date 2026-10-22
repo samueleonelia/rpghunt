@@ -17,6 +17,10 @@ A stage that fails is written down in the report and the day goes on with the ne
             published). From the next run only new or changed deals are checked.
 --preview   test run: read the shops and list what a real run would pay for (new-deals-<date>.json);
             no Jev, no agent, nothing published, memory unchanged.
+--go-live   after a clean day, copy the site file to docs/data/deals.json, commit the day's files
+            and push (GitHub Pages republishes). Refused when a step failed, when not on `main`, or
+            when the deal count collapses (under half of what is live). The scheduled run uses it.
+--notify    a Mac notification at the end: the alerts, or a one-line summary.
 
 Rule: finding deals is never capped on purpose. The agent runs every job; the cost alarm only
 warns in the report. Safety limits that stop a runaway loop are reported when hit.
@@ -24,6 +28,8 @@ warns in the report. Safety limits that stop a runaway loop are reported when hi
 import argparse
 import datetime
 import json
+import shutil
+import subprocess
 import time
 import types
 
@@ -33,10 +39,14 @@ from scraper import common
 from scraper.common import ROOT
 
 REPORTS = ROOT / "data" / "deals"
+LIVE = ROOT / "docs" / "data" / "deals.json"
 COST_ALARM_USD = 5.0     # the report warns when a day costs more than this; nothing is stopped
-STAGE_ORDER = ["run", "discover", "missed", "check", "escalate", "publish"]
+GOLIVE_MIN_SHARE = 0.5   # go-live refuses a site file with fewer deals than this share of what is live
+GOLIVE_MIN_LIVE = 20     # ...but only once the live site has at least this many deals
+STAGE_ORDER = ["run", "discover", "missed", "check", "escalate", "publish", "golive"]
 STAGE_LABEL = {"run": "Read the shops", "discover": "Find leads and new shops", "missed": "Look for misses",
-               "check": "Jev check", "escalate": "Browsing agent", "publish": "Build the site file"}
+               "check": "Jev check", "escalate": "Browsing agent", "publish": "Build the site file",
+               "golive": "Put the deals on the site"}
 REASON_LABEL = {
     "shop_blocked": "the shop blocks robots (cannot be checked automatically)",
     "not_a_product_page": "the link is a home, blog or collection page",
@@ -111,8 +121,96 @@ def stage_publish(ctx):
     return res
 
 
+def _git(*args):
+    return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, timeout=120)
+
+
+def golive_refusal(ctx, results, site, live, branch):
+    """-> why go-live must not happen today, or None."""
+    if ctx.fake or getattr(ctx, "preview", False) or getattr(ctx, "baseline", False):
+        return "not a real run (fake, preview or baseline)"
+    failed = [n for n in STAGE_ORDER if n != "golive" and results.get(n, {}).get("status") == "error"]
+    if failed:
+        return "these steps failed: " + ", ".join(STAGE_LABEL[n] for n in failed)
+    if branch != "main":
+        return f"the project is on branch '{branch}', not main"
+    new, old = len(site.get("deals", [])), len(live.get("deals", []))
+    if not new:
+        return "the site file has no deals"
+    if old >= GOLIVE_MIN_LIVE and new < GOLIVE_MIN_SHARE * old:
+        return f"only {new} deals today against {old} live: looks like a broken run"
+    return None
+
+
+def stage_golive(ctx, results=None, folder=REPORTS, live_path=None):
+    if not getattr(ctx, "go_live", False):
+        return {"status": "skipped", "note": "not asked (--go-live)"}
+    live_path = live_path or LIVE
+    site_path = folder / f"site-preview-{ctx.date}.json"
+    branch = _git("rev-parse", "--abbrev-ref", "HEAD").stdout.strip()
+    why = golive_refusal(ctx, results or {}, _read(site_path), _read(live_path), branch)
+    if why:
+        return {"status": "refused", "note": why}
+    shutil.copyfile(site_path, live_path)
+    return {"status": "ok", "note": f"{len(_read(live_path).get('deals', []))} deals copied to the site file"}
+
+
+def commit_and_push(date):
+    """Commit the live deals and the day's tracked files, then push. -> (ok, note)."""
+    _git("add", "-A", "--", "docs/data/deals.json", "data/deals", "data/shops")
+    if not _git("diff", "--cached", "--quiet").returncode:
+        return True, "nothing new to commit"
+    c = _git("commit", "-m", f"Daily run {date}: deals and reports\n\nCommitted by scraper.daily --go-live.")
+    if c.returncode:
+        return False, "commit failed: " + (c.stderr or c.stdout).strip()[:200]
+    p = _git("push", "origin", "main")
+    if p.returncode:
+        return False, "push failed: " + (p.stderr or p.stdout).strip()[:200]
+    return True, "committed and pushed; GitHub Pages republishes in about a minute"
+
+
+def alerts(ctx, results, folder=REPORTS, blocked_path=None):
+    """-> lines that need the owner's attention today (empty list = nothing)."""
+    date, sfx = ctx.date, "-FAKE" if ctx.fake else ""
+    out = []
+    failed = [n for n in STAGE_ORDER if results.get(n, {}).get("status") == "error"]
+    if failed:
+        out.append("Steps failed: " + ", ".join(STAGE_LABEL[n] for n in failed) + ".")
+    gl = results.get("golive", {})
+    if gl.get("status") in ("refused", "error"):
+        out.append(f"Deals NOT put on the site: {gl.get('note')}.")
+    scrape = _read(folder / f"scrape-report-{date}.json")
+    broken = [r["id"] for r in scrape.get("shops", []) if r.get("break_alarm") == date]
+    if broken:
+        out.append("Shops that look broken (deals collapsed): " + ", ".join(broken) + ".")
+    limits = [r["id"] for r in scrape.get("shops", []) if r.get("stopped_early")]
+    if limits:
+        out.append("Shops that hit a safety limit (may be missing deals): " + ", ".join(limits) + ".")
+    sites = _read(blocked_path or common.BLOCKED_SITES)
+    new_blocks = [h for h, r in sites.items() if r.get("first_seen") == date]
+    if new_blocks:
+        out.append("New sites blocking us: " + ", ".join(new_blocks) + ".")
+    chk, esc = _read(folder / f"check-report-{date}{sfx}.json"), _read(folder / f"escalation-{date}{sfx}.json")
+    cost = (chk.get("jev", {}).get("estimated_cost_usd") or 0) + sum(
+        (j.get("agent_run") or {}).get("cost_usd") or 0 for j in esc.get("jobs", []))
+    alarm = getattr(ctx, "cost_alarm", COST_ALARM_USD)
+    if not ctx.fake and cost > alarm:
+        out.append(f"Cost alarm: about ${cost:.2f} today (alarm at ${alarm:.2f}).")
+    return out
+
+
+def notify(title, text):
+    """A Mac notification; silently nothing elsewhere."""
+    esc = lambda s: s.replace("\\", "\\\\").replace('"', '\\"')
+    try:
+        subprocess.run(["osascript", "-e", f'display notification "{esc(text[:230])}" with title "{esc(title)}"'],
+                       capture_output=True, timeout=10)
+    except (OSError, subprocess.SubprocessError):
+        pass
+
+
 DEFAULT_STAGES = {"run": stage_run, "discover": stage_discover, "missed": stage_missed, "check": stage_check,
-                  "escalate": stage_escalate, "publish": stage_publish}
+                  "escalate": stage_escalate, "publish": stage_publish, "golive": stage_golive}
 
 
 # ---------------------------------------------------------------- the report
@@ -177,6 +275,9 @@ def build_report(ctx, results, folder=REPORTS):
     L = []
 
     L.append(f"# RPG Hunt daily report, {date}")
+    al = alerts(ctx, results, folder)
+    if al:
+        L += ["", "## Alerts", ""] + [f"- **{a}**" for a in al]
     if getattr(ctx, "preview", False):
         new = _read(folder / f"new-deals-{date}.json", [])
         blocked = blocked_section(date)
@@ -327,7 +428,8 @@ def run_day(ctx, stages=None, folder=REPORTS, clock=time.monotonic):
         print(f"\n== {STAGE_LABEL[name]} ==")
         start = clock()
         try:
-            res = dict(stages[name](ctx) or {})
+            res = dict((stages[name](ctx, results) if name == "golive" and stages[name] is stage_golive
+                        else stages[name](ctx)) or {})
         except (Exception, SystemExit) as e:          # one broken step must not stop the day
             res = {"status": "error", "note": f"{type(e).__name__}: {e}"[:300]}
         res.setdefault("status", "ok")
@@ -350,17 +452,35 @@ def main(argv=None):
                     help="first day only: save every deal as already seen; no Jev, no agent, nothing published")
     ap.add_argument("--preview", action="store_true",
                     help="test run: read the shops and list the new deals; no Jev, no agent, nothing published")
+    ap.add_argument("--go-live", action="store_true",
+                    help="after a clean day: copy the deals to the live site file, commit and push")
+    ap.add_argument("--notify", action="store_true", help="Mac notification at the end (alerts or a summary)")
     ap.add_argument("--max-agent-jobs", type=int, default=None,
                     help="for tests by hand only: most browsing-agent jobs (default: every job; 0 = none)")
     ap.add_argument("--cost-alarm", type=float, default=COST_ALARM_USD,
                     help=f"warn in the report when the day costs more than this many dollars (default {COST_ALARM_USD}); nothing is stopped")
     args = ap.parse_args(argv)
     ctx = types.SimpleNamespace(date=args.date, fake=args.fake, skip_run=args.skip_run, baseline=args.baseline,
-                                preview=args.preview,
+                                preview=args.preview, go_live=args.go_live,
                                 max_agent_jobs=args.max_agent_jobs, cost_alarm=args.cost_alarm)
     results, path = run_day(ctx)
     total = round(sum(r["seconds"] for r in results.values()), 1)
     print(f"\nreport: {path.relative_to(ROOT)} (total {total} s)")
+    pushed = None
+    if results.get("golive", {}).get("status") == "ok":
+        ok, note = commit_and_push(ctx.date)
+        pushed = (ok, note)
+        print(f"go-live: {note}")
+        if not ok:
+            with path.open("a") as fh:
+                fh.write(f"\n## Alerts (after the report)\n\n- **Deals copied but not published: {note}**\n")
+    if args.notify:
+        al = alerts(ctx, results)
+        if pushed and not pushed[0]:
+            al.append(f"Not published: {pushed[1]}")
+        live = len(_read(LIVE).get("deals", [])) if pushed and pushed[0] else None
+        summary = f"{live} deals live" if live is not None else "run finished, site not updated"
+        notify("RPG Hunt: needs you" if al else "RPG Hunt", " ".join(al) if al else f"Daily run done: {summary}.")
     return 0 if all(r["status"] != "error" for r in results.values()) else 1
 
 

@@ -31,7 +31,7 @@ class Order(unittest.TestCase):
     def test_stages_run_in_the_documented_order_then_the_report(self):
         log = []
         results, path = daily.run_day(ctx(), stubs(log), self.tmp)
-        self.assertEqual(log, ["run", "discover", "missed", "check", "escalate", "publish"])
+        self.assertEqual(log, ["run", "discover", "missed", "check", "escalate", "publish", "golive"])
         self.assertEqual(daily.STAGE_ORDER, log)
         self.assertTrue(path.exists())
         self.assertEqual(path.name, f"daily-report-{DATE}.md")
@@ -40,7 +40,7 @@ class Order(unittest.TestCase):
     def test_a_failing_or_crashing_stage_does_not_stop_the_day(self):
         log = []
         results, path = daily.run_day(ctx(), stubs(log, fail="check", raise_in="missed"), self.tmp)
-        self.assertEqual(len(log), 6)
+        self.assertEqual(len(log), 7)
         self.assertEqual((results["check"]["status"], results["missed"]["status"]), ("error", "error"))
         self.assertIn("RuntimeError", results["missed"]["note"])
         text = path.read_text()
@@ -54,7 +54,39 @@ class Order(unittest.TestCase):
     def test_timing_uses_the_clock(self):
         ticks = iter(range(0, 1000, 5))
         results, _ = daily.run_day(ctx(), stubs([]), self.tmp, clock=lambda: next(ticks))
-        self.assertEqual([r["seconds"] for r in results.values()], [5.0] * 6)
+        self.assertEqual([r["seconds"] for r in results.values()], [5.0] * 7)
+
+
+class GoLive(unittest.TestCase):
+    OK = {n: {"status": "ok"} for n in daily.STAGE_ORDER}
+
+    def refusal(self, results=None, site=60, live=100, branch="main", **kw):
+        return daily.golive_refusal(ctx(**kw), results or self.OK, {"deals": [{}] * site},
+                                    {"deals": [{}] * live}, branch)
+
+    def test_clean_day_goes_live(self):
+        self.assertIsNone(self.refusal())
+        self.assertIsNone(self.refusal(site=5, live=10))          # small site: no collapse check yet
+
+    def test_refused_when_something_looks_wrong(self):
+        self.assertIn("failed", self.refusal({**self.OK, "check": {"status": "error"}}))
+        self.assertIn("branch", self.refusal(branch="auto-daily"))
+        self.assertIn("broken run", self.refusal(site=40, live=100))
+        self.assertIn("no deals", self.refusal(site=0))
+        self.assertIn("not a real run", self.refusal(preview=True))
+        self.assertIn("not a real run", self.refusal(fake=True))
+
+    def test_not_asked_means_skipped(self):
+        self.assertEqual(daily.stage_golive(ctx())["status"], "skipped")
+
+    def test_refused_go_live_is_an_alert(self):
+        tmp = pathlib.Path(tempfile.mkdtemp())
+        blocked = tmp / "blocked.json"
+        blocked.write_text(json.dumps({"new.example": {"first_seen": DATE, "last_seen": DATE, "reasons": {}}}))
+        al = daily.alerts(ctx(), {**self.OK, "golive": {"status": "refused", "note": "only 3 deals"}}, tmp, blocked)
+        self.assertTrue(any("NOT put on the site: only 3 deals" in a for a in al))
+        self.assertTrue(any("new.example" in a for a in al))
+        self.assertEqual(daily.alerts(ctx(), self.OK, tmp, tmp / "none.json"), [])
 
 
 class Wiring(unittest.TestCase):
@@ -104,7 +136,7 @@ class Report(unittest.TestCase):
         results = {n: {"status": "ok", "seconds": 1.5} for n in daily.STAGE_ORDER}
         text = daily.build_report(ctx(max_agent_jobs=1), results, tmp)
         for needle in ("Top 10 deals", "[Free One](https://s/f)", "New Shop", "needs a recipe", "a: 0 deals today",
-                       "Lost Thing", "Odd Deal", "Is it on sale?", "Total: 9.0 s", "$0.12", "1000 tokens in",
+                       "Lost Thing", "Odd Deal", "Is it on sale?", "Total: 10.5 s", "$0.12", "1000 tokens in",
                        "1 more deal(s) are waiting"):
             self.assertIn(needle.replace("a: 0", "**a**: 0"), text)
 
