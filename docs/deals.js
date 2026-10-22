@@ -260,7 +260,7 @@ function renderAnnounce() {
 }
 
 async function init() {
-  const res = await fetch("data/deals.json");
+  const res = await fetch("data/deals.json", { cache: "no-cache" }); // always ask the server: the daily run replaces this file
   const data = await res.json();
   // Until the daily run exists, the data can be days old: hide deals that have ended since.
   const d = new Date();
