@@ -425,3 +425,4 @@
 **Next**
 - User: OK to install the daily schedule; OK (or not) to download Scrapling's browser for GameNerdz; one real test signup on the live form.
 - GameNerdz (later the same day): a helper agent found the listing's product data embedded in the plain HTML (`window.bodl`, base64 JSON). New `scraper/readers/bigcommerce.py`: 28 pages, 823 items, about 135 visible deals; 624 "(Add to cart to see price)" items skipped (cart is robots-disallowed). No browser download needed. Its first day counts as its baseline.
+- Schedule installed with the user's OK: `~/Library/LaunchAgents/com.samueleonelia.rpghunt-daily.plist` (copy of `scripts/`), loaded with launchctl. Test run through launchd: 47 shops plus GameNerdz, 311 deals, go-live committed and pushed by itself (commit "Daily run 2026-10-22"), 10.4 minutes, exit 0. 32 items in "Needs your check" (unsure DriveThruRPG deals; the agent cannot open that website).

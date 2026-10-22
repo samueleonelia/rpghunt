@@ -6,19 +6,19 @@ _Updated: 2026-10-22 · branch main_
 
 **What this is:** A daily list of tabletop RPG deals, collected and verified by AI agents, English first.
 
-**Right now:** Live at https://samueleonelia.github.io/rpghunt/ with 230 checked deals from 22 Oct. The daily run can publish by itself (`--go-live`) but is not scheduled yet: waiting on your OK. Launch checklist: https://claude.ai/artifact/UYzdxWJQE8Z2cbNRbFUrX3
+**Right now:** Live at https://samueleonelia.github.io/rpghunt/ with 311 checked deals. A Mac background job runs the whole day at 07:30 (on wake if asleep): reads, checks, publishes, pushes, notifies you. Launch checklist: https://claude.ai/artifact/UYzdxWJQE8Z2cbNRbFUrX3
 
 ## Feature areas
 | Area | State | Note |
 |---|---|---|
-| Live site | ✅ working | new homepage, paging, bot page; 230 deals |
+| Live site | ✅ working | new homepage, paging, bot page; 311 deals |
 | Deal alerts form | 🚧 building | wired to Kit form 10082554; needs one real test signup |
 | Shop readers (47 shops) | ✅ working | about 11 min; limits reported when hit |
 | New-sale rule | ✅ working | not on sale at the last read = new sale; partial-read guard |
 | Jev check + memory | ✅ working | only new or changed deals are paid for |
 | Browsing agent | ✅ working | runs from a normal terminal or launchd, not inside Claude |
 | Go-live + alerts | ✅ working | `daily --go-live --notify` |
-| Daily schedule | ⏸ blocked | launchd files written in `scripts/`, not installed (your OK) |
+| Daily schedule | ✅ working | launchd `com.samueleonelia.rpghunt-daily` 07:30; log `~/claudeCode/logs/rpghunt-daily.log` |
 | Sites that block us | ✅ working | `data/shops/blocked-sites.json`, never bypassed |
 | GameNerdz | ✅ working | embedded listing data, no browser; hidden cart prices skipped |
 | DMsGuild | ❌ closed | its API is DriveThruRPG's catalog; own deals unreachable without bypassing |
@@ -26,8 +26,8 @@ _Updated: 2026-10-22 · branch main_
 | Custom domain | 🚧 building | rpghunt.com not bought |
 
 ## Next up
-1. Install the daily schedule (your OK)
-2. Test signup on the live form with your email; confirm it lands in Kit
+1. Test signup on the live form with your email; confirm it lands in Kit
+2. Check tomorrow's 07:30 run: notification and `~/claudeCode/logs/rpghunt-daily.log`
 
 ## Known issues
 - About 20 unsure DriveThruRPG deals a day go to "Needs your check" (the agent can't open the DriveThruRPG website).
@@ -35,5 +35,4 @@ _Updated: 2026-10-22 · branch main_
 - Deals on sale before 19 Oct (baseline) show only if their price changes or EN World names them.
 
 ## Blocked on you
-- OK to install the launchd daily job
 - Buy rpghunt.com; Amazon Associates and DriveThruRPG affiliate accounts
