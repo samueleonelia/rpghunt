@@ -595,5 +595,365 @@
   },
   "question": "Does this page show BUNDLE: Animated Spells Level 6-9 - 5e 2014 D&D (Reference Cards) at 129.0 USD on sale today? Open the link and tell me yes or no.",
   "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/228546/potion-generator",
+  "url": "https://www.drivethrurpg.com/product/228546/potion-generator",
+  "title": "Potion Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.75,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.44"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Potion Generator at 0.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/230432/book-generator",
+  "url": "https://www.drivethrurpg.com/product/230432/book-generator",
+  "title": "Book Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.75,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Book Generator at 0.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+  "url": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+  "title": "Prophecy Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.75,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.48"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Prophecy Generator at 0.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/446518/frigorifique",
+  "url": "https://www.drivethrurpg.com/product/446518/frigorifique",
+  "title": "Frigorifique",
+  "shop": "DriveThruRPG",
+  "price_now": 5.28,
+  "price_was": 7.03,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.61"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Frigorifique at 5.28 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+  "url": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+  "title": "Space Bar Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.34"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Space Bar Generator at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/480483/sandbox-generator-francais",
+  "url": "https://www.drivethrurpg.com/product/480483/sandbox-generator-francais",
+  "title": "Sandbox Generator (français)",
+  "shop": "DriveThruRPG",
+  "price_now": 9.0,
+  "price_was": 12.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (français) at 9.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/489696/sandbox-generator-polski",
+  "url": "https://www.drivethrurpg.com/product/489696/sandbox-generator-polski",
+  "title": "Sandbox Generator (polski)",
+  "shop": "DriveThruRPG",
+  "price_now": 9.0,
+  "price_was": 12.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.61"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (polski) at 9.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/495880/sandbox-generator-polski-roszerzenie-terenow",
+  "url": "https://www.drivethrurpg.com/product/495880/sandbox-generator-polski-roszerzenie-terenow",
+  "title": "Sandbox Generator (polski) - Roszerzenie Terenow",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.62"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (polski) - Roszerzenie Terenow at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/497505/sandbox-generator-francais-extension-biomes",
+  "url": "https://www.drivethrurpg.com/product/497505/sandbox-generator-francais-extension-biomes",
+  "title": "Sandbox Generator (français) - Extension Biomes",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.44"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (français) - Extension Biomes at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/511224/sandbox-generator-francais-extension-factions",
+  "url": "https://www.drivethrurpg.com/product/511224/sandbox-generator-francais-extension-factions",
+  "title": "Sandbox Generator (français) - Extension Factions",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.67"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (français) - Extension Factions at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/557672/sandbox-generator-urban-expansion",
+  "url": "https://www.drivethrurpg.com/product/557672/sandbox-generator-urban-expansion",
+  "title": "Sandbox Generator - Urban Expansion",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.63"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator - Urban Expansion at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/572468/sandbox-generator-francais-extension-points-de-repere",
+  "url": "https://www.drivethrurpg.com/product/572468/sandbox-generator-francais-extension-points-de-repere",
+  "title": "Sandbox Generator (français) - Extension Points de repère",
+  "shop": "DriveThruRPG",
+  "price_now": 1.88,
+  "price_was": 2.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (français) - Extension Points de repère at 1.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
  }
 ]

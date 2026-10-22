@@ -340,14 +340,146 @@
     "error": null,
     "hook_blocked": false
    }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/228546/potion-generator",
+   "title": "Potion Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/230432/book-generator",
+   "title": "Book Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+   "title": "Prophecy Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/446518/frigorifique",
+   "title": "Frigorifique",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+   "title": "Space Bar Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/480483/sandbox-generator-francais",
+   "title": "Sandbox Generator (français)",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/489696/sandbox-generator-polski",
+   "title": "Sandbox Generator (polski)",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/495880/sandbox-generator-polski-roszerzenie-terenow",
+   "title": "Sandbox Generator (polski) - Roszerzenie Terenow",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/497505/sandbox-generator-francais-extension-biomes",
+   "title": "Sandbox Generator (français) - Extension Biomes",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/511224/sandbox-generator-francais-extension-factions",
+   "title": "Sandbox Generator (français) - Extension Factions",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/557672/sandbox-generator-urban-expansion",
+   "title": "Sandbox Generator - Urban Expansion",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/572468/sandbox-generator-francais-extension-points-de-repere",
+   "title": "Sandbox Generator (français) - Extension Points de repère",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
   }
  ],
  "counts": {
-  "jobs_found": 24,
+  "jobs_found": 36,
   "already_done": 24,
-  "run_now": 0,
+  "run_now": 12,
   "reused_from_memory": 0,
   "published_by_agent": 1,
-  "needs_owner": 20
+  "needs_owner": 32
  }
 }
