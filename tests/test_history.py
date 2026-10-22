@@ -17,13 +17,36 @@ class HistoryTests(unittest.TestCase):
 
     def test_no_history(self):
         self.assertEqual(self.h.facts(deal(10), "2026-10-17"),
-                         {"days_seen": 0, "lowest_before": None, "usual_price": None})
+                         {"days_seen": 0, "lowest_before": None, "usual_price": None,
+                          "last_run": None, "new_on_sale": False})
 
     def test_usual_price_and_lowest_before(self):
         for day, price in [("2026-10-10", 20.0), ("2026-10-11", 20.0), ("2026-10-12", 18.0), ("2026-10-13", 20.0)]:
             self.h.record([deal(price)], day)
         f = self.h.facts(deal(15), "2026-10-17")
-        self.assertEqual(f, {"days_seen": 4, "lowest_before": 18.0, "usual_price": 20.0})
+        self.assertEqual(f, {"days_seen": 4, "lowest_before": 18.0, "usual_price": 20.0,
+                             "last_run": "2026-10-13", "new_on_sale": False})
+
+    def test_new_on_sale_when_absent_from_the_last_read(self):
+        other = [deal(5.0, url=f"https://s.example/p/o{i}") for i in range(4)]
+        self.h.record(other + [deal(9.0, url="https://s.example/p/back")], "2026-10-17")
+        self.h.record(other, "2026-10-19")                                   # "back" left the sale
+        new, back = deal(12.0, url="https://s.example/p/new"), deal(9.0, url="https://s.example/p/back")
+        self.h.record(other + [new, back], "2026-10-22")
+        self.assertTrue(self.h.facts(new, "2026-10-22")["new_on_sale"])      # never seen before
+        self.assertTrue(self.h.facts(back, "2026-10-22")["new_on_sale"])     # on sale again
+        self.assertFalse(self.h.facts(other[0], "2026-10-22")["new_on_sale"])
+        self.assertEqual(self.h.facts(new, "2026-10-22")["last_run"], "2026-10-19")
+
+    def test_first_day_of_a_shop_is_never_new_on_sale(self):
+        self.h.record([deal(5.0)], "2026-10-22")
+        self.assertFalse(self.h.facts(deal(5.0), "2026-10-22")["new_on_sale"])
+
+    def test_partial_last_read_does_not_fake_new_sales(self):
+        self.h.record([deal(5.0, url="https://s.example/p/x")], "2026-10-19")      # broken read: 1 deal
+        today = [deal(5.0, url=f"https://s.example/p/t{i}") for i in range(10)]
+        self.h.record(today, "2026-10-22")
+        self.assertFalse(self.h.facts(today[0], "2026-10-22")["new_on_sale"])
 
     def test_usual_price_tie_takes_the_lower(self):
         self.h.record([deal(20.0)], "2026-10-10")

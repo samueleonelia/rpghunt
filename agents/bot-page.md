@@ -1,6 +1,7 @@
 # RPGHuntBot (text for https://samueleonelia.github.io/rpghunt/bot.html)
 
-The Lead publishes this as `docs/bot.html`. Replace `CONTACT_EMAIL` with the real address first.
+Published as `docs/bot.html` on 2026-10-22. Contact route: a GitHub issue on the public repo
+(no email on the page yet; swap one in when the user picks a public address).
 
 ---
 
