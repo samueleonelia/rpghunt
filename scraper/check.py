@@ -53,7 +53,7 @@ THRESHOLDS = {
     "batch_size": 1,            # stage A products per request
 }
 FEED_SOURCES = {"shopify-api", "woocommerce-api", "itch-data", "bundle-page",
-                "drivethrurpg-api"}   # the shop's own data feed
+                "drivethrurpg-api", "bigcommerce-data"}   # the shop's own data feed
 COST_PER_M_INPUT = 0.042        # dollars per million input tokens (output tokens not priced here)
 WORKERS = 8
 # dry-run assumptions (only used where the real number needs Jev answers or page fetches)

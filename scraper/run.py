@@ -29,6 +29,7 @@ READERS = {
     "humble": ("bundles", ("read_humble",)),
     "generic": ("generic", ("read_with_stats", "read")),
     "drivethrurpg": ("drivethrurpg", ("read_with_stats", "read")),
+    "bigcommerce": ("bigcommerce", ("read_with_stats", "read")),
 }
 
 
