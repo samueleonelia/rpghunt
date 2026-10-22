@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.samueleonelia.rpghunt-daily</string>
+
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/Users/samueleonelia/.local/bin</string>
+	</dict>
+
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/zsh</string>
+		<string>/Users/samueleonelia/claudeCode/personal/rpgArchive/scripts/daily-scheduled.sh</string>
+	</array>
+
+	<!-- Every day at 07:30. If the Mac is asleep then, launchd runs it once when the Mac wakes. -->
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>7</integer>
+		<key>Minute</key>
+		<integer>30</integer>
+	</dict>
+
+	<key>StandardOutPath</key>
+	<string>/Users/samueleonelia/claudeCode/logs/rpghunt-daily.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/samueleonelia/claudeCode/logs/rpghunt-daily.err</string>
+
+	<key>WorkingDirectory</key>
+	<string>/Users/samueleonelia/claudeCode/personal/rpgArchive</string>
+</dict>
+</plist>
