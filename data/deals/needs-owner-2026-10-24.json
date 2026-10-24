@@ -1,0 +1,827 @@
+[
+ {
+  "kind": "deal",
+  "key": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9",
+  "url": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9",
+  "title": "BUNDLE: Animated Spells Level 6-9 - 5e 2014 D&D (Reference Cards)",
+  "shop": "Hit Point Press",
+  "price_now": 129.0,
+  "price_was": 172.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.27"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$129.00 CAD",
+   "reason": "The page shows a real 25% sale ($129.00 CAD, was $172.00 CAD), but the product is a set of animated 5e spell reference cards, which may count as an accessory rather than a book or supplement, and the prices are in CAD while the deal says USD.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 25% sale ($129.00 CAD, was $172.00 CAD), but the product is a set of animated 5e spell reference cards, which may count as an accessory rather than a book or supplement, and the prices are in CAD while the deal says USD."
+   ]
+  },
+  "question": "Does this page show BUNDLE: Animated Spells Level 6-9 - 5e 2014 D&D (Reference Cards) at 129.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:coolstuffinc",
+  "url": "https://www.coolstuffinc.com/",
+  "title": "CoolStuffInc",
+  "shop": "CoolStuffInc",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "no_sales_found",
+   "notes": "The saved sale page (https://www.coolstuffinc.com/main_saleItems.php, the Daily Sale) lists 690 items across 23 pages. The first page is all Magic: The Gathering singles, shown as 'Was $X Sale $Y'. This is why the reader found 0 RPG deals. I did not check the other 22 pages, so I can't rule out RPG items there. The site has no RPG-only sale listing that I could find. The RPG Books page (https://www.coolstuffinc.com/page/8692/?sb=stock%7C1) shows only normal prices with no struck-through price or sale label. The page's price markup (span.red for the sale price, strike for the old price) is only useful if RPG items show up on the Daily Sale. No page text addressed to AI was seen.",
+   "failed_checks": [
+    "agent_result: no_sales_found"
+   ]
+  },
+  "question": "The scraper cannot read CoolStuffInc's sales (reader returned 0 deals). Open https://www.coolstuffinc.com/ and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:demiplane",
+  "url": "https://app.demiplane.com/",
+  "title": "Demiplane",
+  "shop": "Demiplane",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "blocked",
+   "notes": "javascript: https://app.demiplane.com/ returned status 200 (redirected to /home) with empty text, no prices and no links. The shop builds its pages with JavaScript, so no selectors can be proposed.",
+   "failed_checks": [
+    "agent_result: blocked"
+   ]
+  },
+  "question": "The scraper cannot read Demiplane's sales (no sale page). Open https://app.demiplane.com/ and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:fanatical",
+  "url": "https://www.fanatical.com/en/",
+  "title": "Fanatical",
+  "shop": "Fanatical",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "blocked",
+   "notes": "javascript. The Fanatical front page (https://www.fanatical.com/en/) returned status 200 but no text, no prices and no links, so the shop builds its pages with JavaScript and I did not guess selectors. I also opened https://www.fanatical.com/en/pick-and-mix. I wrote that URL myself instead of taking it from a page or from the input, which breaks the brief. It was empty too, so nothing was learned from it. No instructions aimed at AI were seen.",
+   "failed_checks": [
+    "agent_result: blocked"
+   ]
+  },
+  "question": "The scraper cannot read Fanatical's sales (no sale page). Open https://www.fanatical.com/en/ and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:massif-press",
+  "url": "https://massifpress.com/shop",
+  "title": "Massif Press",
+  "shop": "Massif Press",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "no_sales_found",
+   "notes": "https://massifpress.com/shop is a small catalog of Lancer books with no sale, deals or clearance section. The only visible price is the Lancer Core Book hardcover at 60.00, with no struck-through normal price. The other items link out to 'THE MASSIF ONLINE STORE' and 'download' buttons, and the page lists no same-site product pages. The site nav has only Lancer, Lore, Artwork, shop and Legal. Nothing on the page was addressed to AI.",
+   "failed_checks": [
+    "agent_result: no_sales_found"
+   ]
+  },
+  "question": "The scraper cannot read Massif Press's sales (no sale page). Open https://massifpress.com/shop and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:noble-knight-games",
+  "url": "https://www.nobleknight.com/main-category/role-playing-games",
+  "title": "Noble Knight Games",
+  "shop": "Noble Knight Games",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "blocked",
+   "notes": "javascript. https://www.nobleknight.com/sales and https://www.nobleknight.com/main-category/role-playing-games show no products and no prices in the fetchpage output. The only price text is the free-shipping banner. The links are navigation menus only, with no product links and no RPG-only sale listing. The product list is probably built with JavaScript, so I did not guess selectors. The saved recipe (sale_pages: /sales) cannot yield deals with the generic reader, which explains the 0 deals. No text addressed to AI was found.",
+   "failed_checks": [
+    "agent_result: blocked"
+   ]
+  },
+  "question": "The scraper cannot read Noble Knight Games's sales (reader returned 0 deals). Open https://www.nobleknight.com/main-category/role-playing-games and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:roll20-marketplace",
+  "url": "https://marketplace.roll20.net/",
+  "title": "Roll20 Marketplace",
+  "shop": "Roll20 Marketplace",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "blocked",
+   "notes": "javascript. The front page shows sale rows (\"Up To 31% Off During Halloween's Horror Sale!\", \"40% Off During the Month of Darkness!\"). Their \"view all\" links go to search pages (e.g. https://marketplace.roll20.net/browse/search?tag=Unique%20Status:Halloween26 and ...Unique%20Status:MoDarkness26). Those search pages show only the filter menu and no products or prices, so the product list is built with JavaScript. The front page cards show a current price (span.card-price.sale-price) but no struck-through normal price (struck=false on every price), so a discount can't be confirmed from it. No selectors were proposed. No instructions aimed at AI were seen on the pages.",
+   "failed_checks": [
+    "agent_result: blocked"
+   ]
+  },
+  "question": "The scraper cannot read Roll20 Marketplace's sales (no sale page). Open https://marketplace.roll20.net/ and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/56587/sundered-skies-figure-flats",
+  "url": "https://www.drivethrurpg.com/product/56587/sundered-skies-figure-flats",
+  "title": "Sundered Skies - Figure Flats",
+  "shop": "DriveThruRPG",
+  "price_now": 2.99,
+  "price_was": 4.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.43"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sundered Skies - Figure Flats at 2.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/56789/daring-tales-of-adventure-figure-flats",
+  "url": "https://www.drivethrurpg.com/product/56789/daring-tales-of-adventure-figure-flats",
+  "title": "Daring Tales of Adventure: Figure Flats",
+  "shop": "DriveThruRPG",
+  "price_now": 1.79,
+  "price_was": 2.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.41"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Daring Tales of Adventure: Figure Flats at 1.79 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/60232/tabletop-heroes-age-of-piracy-british-sailors",
+  "url": "https://www.drivethrurpg.com/product/60232/tabletop-heroes-age-of-piracy-british-sailors",
+  "title": "Tabletop Heroes: Age of Piracy - British Sailors",
+  "shop": "DriveThruRPG",
+  "price_now": 4.19,
+  "price_was": 6.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.66"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Tabletop Heroes: Age of Piracy - British Sailors at 4.19 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/86582/hellfrost-calendar",
+  "url": "https://www.drivethrurpg.com/product/86582/hellfrost-calendar",
+  "title": "Hellfrost Calendar",
+  "shop": "DriveThruRPG",
+  "price_now": 0.59,
+  "price_was": 0.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.57"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Hellfrost Calendar at 0.59 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/138998/hellfrost-action-deck",
+  "url": "https://www.drivethrurpg.com/product/138998/hellfrost-action-deck",
+  "title": "Hellfrost Action Deck",
+  "shop": "DriveThruRPG",
+  "price_now": 4.2,
+  "price_was": 7.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.26"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Hellfrost Action Deck at 4.2 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/188204/daring-tales-of-adventure-codex",
+  "url": "https://www.drivethrurpg.com/product/188204/daring-tales-of-adventure-codex",
+  "title": "Daring Tales of Adventure Codex",
+  "shop": "DriveThruRPG",
+  "price_now": 14.99,
+  "price_was": 24.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.68"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Daring Tales of Adventure Codex at 14.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/248969/dream-generator",
+  "url": "https://www.drivethrurpg.com/product/248969/dream-generator",
+  "title": "Dream Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.88,
+  "price_was": 1.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.61"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Dream Generator at 0.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/251291/foe-generator",
+  "url": "https://www.drivethrurpg.com/product/251291/foe-generator",
+  "title": "Foe Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.88,
+  "price_was": 1.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Foe Generator at 0.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/292918/remnant-rpg-tools-all-in-one",
+  "url": "https://www.drivethrurpg.com/product/292918/remnant-rpg-tools-all-in-one",
+  "title": "Remnant RPG Tools, All-in-One",
+  "shop": "DriveThruRPG",
+  "price_now": 3.49,
+  "price_was": 9.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.41"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Remnant RPG Tools, All-in-One at 3.49 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/395940/ironclads-british-fleet-manual",
+  "url": "https://www.drivethrurpg.com/product/395940/ironclads-british-fleet-manual",
+  "title": "Ironclads British Fleet Manual",
+  "shop": "DriveThruRPG",
+  "price_now": 5.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.62"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Ironclads British Fleet Manual at 5.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/395941/ironclads-american-fleet-manual",
+  "url": "https://www.drivethrurpg.com/product/395941/ironclads-american-fleet-manual",
+  "title": "Ironclads American Fleet Manual",
+  "shop": "DriveThruRPG",
+  "price_now": 5.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.58"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Ironclads American Fleet Manual at 5.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/395942/ironclads-german-fleet-manual",
+  "url": "https://www.drivethrurpg.com/product/395942/ironclads-german-fleet-manual",
+  "title": "Ironclads German Fleet Manual",
+  "shop": "DriveThruRPG",
+  "price_now": 5.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.58"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Ironclads German Fleet Manual at 5.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/399250/generateur-de-pointcrawl-exterieurs",
+  "url": "https://www.drivethrurpg.com/product/399250/generateur-de-pointcrawl-exterieurs",
+  "title": "Générateur de Pointcrawl - Extérieurs",
+  "shop": "DriveThruRPG",
+  "price_now": 1.88,
+  "price_was": 2.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.27"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Générateur de Pointcrawl - Extérieurs at 1.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+  "url": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+  "title": "Prophecy Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.75,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.48"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Prophecy Generator at 0.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/446518/frigorifique",
+  "url": "https://www.drivethrurpg.com/product/446518/frigorifique",
+  "title": "Frigorifique",
+  "shop": "DriveThruRPG",
+  "price_now": 5.28,
+  "price_was": 7.03,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.61"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Frigorifique at 5.28 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+  "url": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+  "title": "Space Bar Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.34"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Space Bar Generator at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/480483/sandbox-generator-francais",
+  "url": "https://www.drivethrurpg.com/product/480483/sandbox-generator-francais",
+  "title": "Sandbox Generator (français)",
+  "shop": "DriveThruRPG",
+  "price_now": 9.0,
+  "price_was": 12.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (français) at 9.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/489696/sandbox-generator-polski",
+  "url": "https://www.drivethrurpg.com/product/489696/sandbox-generator-polski",
+  "title": "Sandbox Generator (polski)",
+  "shop": "DriveThruRPG",
+  "price_now": 9.0,
+  "price_was": 12.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.61"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (polski) at 9.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/511224/sandbox-generator-francais-extension-factions",
+  "url": "https://www.drivethrurpg.com/product/511224/sandbox-generator-francais-extension-factions",
+  "title": "Sandbox Generator (français) - Extension Factions",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.67"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (français) - Extension Factions at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/515448/landscapes-of-the-lost-soul",
+  "url": "https://www.drivethrurpg.com/product/515448/landscapes-of-the-lost-soul",
+  "title": "Landscapes of the Lost Soul",
+  "shop": "DriveThruRPG",
+  "price_now": 6.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Landscapes of the Lost Soul at 6.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/531552/the-pirate-queen-s-wrath",
+  "url": "https://www.drivethrurpg.com/product/531552/the-pirate-queen-s-wrath",
+  "title": "The Pirate Queen's Wrath",
+  "shop": "DriveThruRPG",
+  "price_now": 0.99,
+  "price_was": 2.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Pirate Queen's Wrath at 0.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://hitpointpress.com/products/animated-spells-master-collection-for-roll20-vtt",
+  "url": "https://hitpointpress.com/products/animated-spells-master-collection-for-roll20-vtt",
+  "title": "DIGITAL Animated Spells Master Collection - (Roll20 Key, VTT)",
+  "shop": "Hit Point Press",
+  "price_now": 50.0,
+  "price_was": 122.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$50.00 CAD",
+   "reason": "The page shows a struck-through $122.00 CAD and a sale price of $50.00 CAD (59% off) on a Roll20 VTT card and token pack, but the deal record says USD while the page says CAD, and the price has sat near $50 for 4 days with no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a struck-through $122.00 CAD and a sale price of $50.00 CAD (59% off) on a Roll20 VTT card and token pack, but the deal record says USD while the page says CAD, and the price has sat near $50 for 4 days with no end date."
+   ]
+  },
+  "question": "Does this page show DIGITAL Animated Spells Master Collection - (Roll20 Key, VTT) at 50.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://oakhaven.itch.io/curators-vault",
+  "url": "https://oakhaven.itch.io/curators-vault",
+  "title": "Curator's Vault",
+  "shop": "itch.io",
+  "price_now": 29.75,
+  "price_was": 35.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.34"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$29.75 USD",
+   "reason": "The page shows a real 15% Halloween Sale discount ($35.00 to $29.75), but the product is a bundle of printable GM tracker and ledger sheets, which may count as accessories rather than a rulebook, adventure or supplement, so I can't tell if it is in scope.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 15% Halloween Sale discount ($35.00 to $29.75), but the product is a bundle of printable GM tracker and ledger sheets, which may count as accessories rather than a rulebook, adventure or supplement, so I can't tell if it is in scope."
+   ]
+  },
+  "question": "Does this page show Curator's Vault at 29.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ }
+]
