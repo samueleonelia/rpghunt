@@ -1,42 +1,54 @@
 # RPG Hunt daily report, 2026-10-27
 
+## Alerts
+
+- **New sites blocking us: 8bitdo.com, abhack-paperclip.itch.io, creative-commons-shop.fourthwall.com, cubicle7games.com, elancharan.itch.io, entertainmentearth.com, etsy.com, fanpro.com, freeleaguepublishing.com, go.skimresources.com, goodman-games.com, imagecomics.threadless.com, link.amazon, loungefly.com, lp.constantcontactpages.com, mindstormlabs.com, mutualdocs.com, mymagazinesub.co.uk, newsroom.hasbro.com, onebookshelf.com, paramountplus.qflm.net, pigames.net, pixabay.com, pokebeach.com, pubads.g.doubleclick.net, sealedstories.com, skimlinks.com, soundcloud.com, steelseries.prf.hn, store.epicgames.com, themetalcarrotdev.itch.io, threads.com, trolllord.com, ttgm.mymagazinesub.co.uk, wargamer.com, xreal.com.**
+- **Cost alarm: about $9.14 today (alarm at $5.00).**
+
 ## The short version
 
-- 455 deals would go on the site (442 sale, 7 physical, 6 bundle).
-- 58 deals were left for the browsing agent; it handled 58 of them today.
-- 51 item(s) need your check.
-- 47 shops read; 37 sale links in the lead posts were not found by our readers.
+- 1939 deals would go on the site (1710 sale, 213 physical, 11 bundle, 5 free).
+- 176 deals were left for the browsing agent; it handled 188 of them today.
+- 103 item(s) need your check.
+- 54 shops read; 37 sale links in the lead posts were not found by our readers.
 - Everything ran.
+- **Cost alarm: today cost about $9.14, over the $5.00 alarm.** Nothing was stopped; check the Cost section.
 
 ## Numbers by step
 
-1. **Shops:** 47 shops, 47 read fine, 0 blocked us, 0 had errors. They gave 6516 possible deals.
-2. **Leads:** 37 shop links from 1 of 1 feeds (34 on shops we read, 3 on shops that block robots, 0 on unknown sites).
+1. **Shops:** 54 shops, 54 read fine, 0 blocked us, 0 had errors. They gave 10452 possible deals.
+2. **Leads and new sellers:** 250 links from 18 of 18 sources (61 on shops we read, 6 on shops that block robots, 183 on unknown sites). 140 unknown sites, 140 checked today (the rest were checked in the last 30 days), 7 new shops added.
 3. **Misses:** 37 leads were not in today's run; 0 turned into candidate deals.
-4. **Jev check:** 6516 deals in, 6310 unchanged since an earlier run (verdict reused, no cost), 4 dropped by plain rules (not a discount, ended), 29 dropped as not RPG, 457 passed, 58 sent to the agent, 18 waiting for price history.
-5. **Browsing agent:** 58 jobs found, 53 run now, 5 answered from memory (same link and price, no cost), 3 deals it published.
-6. **Site file:** 455 deals (452 with a picture, 19 linked to the game list).
+4. **Jev check:** 10452 deals in, 6530 unchanged since an earlier run (verdict reused, no cost), 22 dropped by plain rules (not a discount, ended), 2298 dropped as not RPG, 1892 passed, 176 sent to the agent, 18 waiting for price history.
+5. **Browsing agent:** 176 jobs found, 128 run now, 2 answered from memory (same link and price, no cost), 69 deals it published.
+6. **Site file:** 1939 deals (1930 with a picture, 112 linked to the game list).
 
 ## Published by type
 
-sale: 442, physical: 7, bundle: 6
+sale: 1710, physical: 213, bundle: 11, free: 5
 
 ## Top 10 deals
 
-1. [Fantasy Prix the Dragon Racing TTRPG](https://www.drivethrurpg.com/product/539443/fantasy-prix-the-dragon-racing-ttrpg) at DriveThruRPG: 1.67 USD, was 22.22, 92% off
-2. [Beneath Zahram](https://www.drivethrurpg.com/product/582709/beneath-zahram) at DriveThruRPG: 1.0 USD, was 5.0, 80% off
-3. [Cohors Cthulhu](https://bundleofholding.com/presents/CohorsCthulhu) at Bundle of Holding: 14.95 USD, was 62.0, 76% off
-4. [Mushroom Realty](https://www.drivethrurpg.com/product/432236/mushroom-realty) at DriveThruRPG: 1.11 USD, was 4.44, 75% off
-5. [So You Want to Design an Adventure...](https://www.drivethrurpg.com/product/472094/so-you-want-to-design-an-adventure) at DriveThruRPG: 0.99 USD, was 3.99, 75% off
-6. [Buggy Juice Bar](https://www.drivethrurpg.com/product/512160/buggy-juice-bar) at DriveThruRPG: 1.11 USD, was 4.44, 75% off
-7. [Airship Amour](https://www.drivethrurpg.com/product/512163/airship-amour) at DriveThruRPG: 2.78 USD, was 11.11, 75% off
-8. [Scifinosaur Rumble](https://www.drivethrurpg.com/product/539444/scifinosaur-rumble) at DriveThruRPG: 1.39 USD, was 5.55, 75% off
-9. [Pollen and Power](https://www.drivethrurpg.com/product/540187/pollen-and-power) at DriveThruRPG: 1.67 USD, was 6.66, 75% off
-10. [Goblin Potluck](https://www.drivethrurpg.com/product/540188/goblin-potluck) at DriveThruRPG: 0.28 USD, was 1.11, 75% off
+1. [The Siege on Harrowfen Keep](https://triple-games-online.itch.io/harrowfen-keep) at itch.io: 0.0 GBP, was 2.99, 100% off
+2. [The Crypts of Voryndral](https://triple-games-online.itch.io/crypts-of-voryndral) at itch.io: 0.0 GBP, was 2.99, 100% off
+3. [Tsukimora Adventure One - Voyage of the Black Horizon](https://black-horizon.itch.io/voyage-of-the-black-horizon) at itch.io: 0.0 USD, was 4.99, 100% off
+4. [Antisanctum of Var’halekh](https://triple-games-online.itch.io/antisactum-of-varhalekh) at itch.io: 0.0 GBP, was 5.0, 100% off
+5. [Asking Workplace Qs ? TTRPG](https://supamanager.itch.io/askingworkplaceqs) at itch.io: 0.0 USD, was 4.5, 100% off
+6. [RONIN 47 (ACE Gamebooks #7)](https://www.drivethrurpg.com/product/410174/ronin-47-ace-gamebooks-7) at DriveThruRPG: 1.32 USD, was 22.45, 94% off
+7. [The Wicked Wizard of Oz - The Wicked Witch & The Wizard](https://www.drivethrurpg.com/product/347136/the-wicked-wizard-of-oz-the-wicked-witch-the-wizard) at DriveThruRPG: 1.32 USD, was 18.91, 93% off
+8. [Fantasy Prix the Dragon Racing TTRPG](https://www.drivethrurpg.com/product/539443/fantasy-prix-the-dragon-racing-ttrpg) at DriveThruRPG: 1.67 USD, was 22.22, 92% off
+9. [Carillon - A Trophy Dark Incursion](https://k-ramstack.itch.io/carillon) at itch.io: 0.5 USD, was 5.0, 90% off
+10. [Gull Squad](https://k-ramstack.itch.io/gull-squad) at itch.io: 0.5 USD, was 5.0, 90% off
 
 ## New shops
 
-None today.
+- **shop.slyflourish.com** (shopify, active): https://shop.slyflourish.com/ (found via slyflourish)
+- **tabletopgaming.shop** (shopify, active): https://tabletopgaming.shop/ (found via tabletopgaming)
+- **shop.critrole.com** (shopify, active): https://shop.critrole.com/ (found via wikipedia-rpg-publishers)
+- **kenzerco.com** (woocommerce, active): http://www.kenzerco.com/ (found via wikipedia-rpg-publishers)
+- **paradigmconcepts.com** (woocommerce, active): http://www.paradigmconcepts.com/ (found via wikipedia-rpg-publishers)
+- **bullypulpitgames.com** (shopify, active): http://www.bullypulpitgames.com/ (found via wikipedia-rpg-publishers)
+- **daemoneditora.com.br** (woocommerce, active): https://daemoneditora.com.br/product/astrologia-hermetica/ (found via wikipedia-rpg-designers)
 
 ## Shops that look broken
 
@@ -44,9 +56,45 @@ None.
 
 ## Sites that block us
 
-- **drivethrurpg.com**: bot wall (known, never fetched). Example: https://www.drivethrurpg.com/product/588434/the-ones-who-hound-him-in-the-dark
+- **NEW** **8bitdo.com**: robots.txt disallows us. Example: https://www.8bitdo.com/wp-json/wc/store/v1/products?per_page=1
+- **NEW** **abhack-paperclip.itch.io**: rate limit (HTTP 429 after retries). Example: https://abhack-paperclip.itch.io/lantern-lane
+- **NEW** **creative-commons-shop.fourthwall.com**: HTTP 403. Example: https://creative-commons-shop.fourthwall.com/products.json?limit=1
+- **NEW** **cubicle7games.com**: HTTP 403. Example: http://www.cubicle7games.com/
+- **NEW** **elancharan.itch.io**: rate limit (HTTP 429 after retries). Example: https://elancharan.itch.io/jamma
+- **NEW** **entertainmentearth.com**: HTTP 403. Example: https://www.entertainmentearth.com/
+- **NEW** **etsy.com**: HTTP 403. Example: https://www.etsy.com/
+- **NEW** **fanpro.com**: HTTP 403. Example: http://www.fanpro.com/
+- **NEW** **freeleaguepublishing.com**: HTTP 403. Example: https://freeleaguepublishing.com/
+- **NEW** **go.skimresources.com**: robots.txt disallows us. Example: https://go.skimresources.com/
+- **NEW** **goodman-games.com**: HTTP 403. Example: http://www.goodman-games.com/
+- **NEW** **imagecomics.threadless.com**: HTTP 403. Example: https://imagecomics.threadless.com/
+- **NEW** **link.amazon**: HTTP 403. Example: https://link.amazon/
+- **NEW** **loungefly.com**: HTTP 403. Example: https://loungefly.com/products.json?limit=1
+- **NEW** **lp.constantcontactpages.com**: HTTP 403. Example: https://lp.constantcontactpages.com/
+- **NEW** **mindstormlabs.com**: HTTP 406. Example: http://www.mindstormlabs.com/products.json?limit=1
+- **NEW** **mutualdocs.com**: robots.txt disallows us. Example: https://mutualdocs.com/
+- **NEW** **mymagazinesub.co.uk**: HTTP 403. Example: https://www.mymagazinesub.co.uk/
+- **NEW** **newsroom.hasbro.com**: HTTP 403. Example: https://newsroom.hasbro.com/
+- **NEW** **onebookshelf.com**: HTTP 403. Example: https://www.onebookshelf.com/
+- **NEW** **paramountplus.qflm.net**: robots.txt disallows us. Example: https://paramountplus.qflm.net/
+- **NEW** **pigames.net**: robots.txt disallows us. Example: https://www.pigames.net/store/advanced_search.php
+- **NEW** **pixabay.com**: HTTP 403. Example: https://pixabay.com/
+- **NEW** **pokebeach.com**: HTTP 403. Example: https://www.pokebeach.com/
+- **NEW** **pubads.g.doubleclick.net**: robots.txt disallows us. Example: https://pubads.g.doubleclick.net/
+- **NEW** **sealedstories.com**: HTTP 403. Example: http://www.sealedstories.com/wp-json/wc/store/v1/products?per_page=1
+- **NEW** **skimlinks.com**: HTTP 401. Example: https://www.skimlinks.com/wp-json/wc/store/v1/products?per_page=1
+- **NEW** **soundcloud.com**: robots.txt disallows us. Example: https://soundcloud.com/products.json?limit=1
+- **NEW** **steelseries.prf.hn**: HTTP 403. Example: https://steelseries.prf.hn/products.json?limit=1
+- **NEW** **store.epicgames.com**: HTTP 403. Example: https://store.epicgames.com/
+- **NEW** **themetalcarrotdev.itch.io**: rate limit (HTTP 429 after retries). Example: https://themetalcarrotdev.itch.io/celestial-under-the-retro-skies
+- **NEW** **threads.com**: robots.txt disallows us. Example: https://www.threads.com/
+- **NEW** **trolllord.com**: HTTP 403. Example: http://trolllord.com/
+- **NEW** **ttgm.mymagazinesub.co.uk**: HTTP 403. Example: https://ttgm.mymagazinesub.co.uk/
+- **NEW** **wargamer.com**: robots.txt disallows us. Example: https://www.wargamer.com/wp-json/wc/store/v1/products?per_page=1
+- **NEW** **xreal.com**: HTTP 403. Example: https://www.xreal.com/wp-json/wc/store/v1/products?per_page=1
+- **drivethrurpg.com**: bot wall (known, never fetched). Example: https://www.drivethrurpg.com/product/506200/the-box-of-delights-the-roleplaying-game
 
-All sites that ever blocked us: 9 (`data/shops/blocked-sites.json`). We never get around a block (good-bot rule).
+All sites that ever blocked us: 45 (`data/shops/blocked-sites.json`). We never get around a block (good-bot rule).
 
 ## Safety limits hit
 
@@ -166,20 +214,124 @@ Why we missed them: 31 x the page shows no discount; 3 x the shop blocks robots 
   Question: Does this page show The Ones Who Hound Him in the Dark at 1.33 USD on sale today? Open the link and tell me yes or no.
 - **DIGITAL Animated Spells Master Collection - (Roll20 Key, VTT)** (Hit Point Press): https://hitpointpress.com/products/animated-spells-master-collection-for-roll20-vtt
   Question: Does this page show DIGITAL Animated Spells Master Collection - (Roll20 Key, VTT) at 51.0 USD on sale today? Open the link and tell me yes or no.
+- **Curator's Vault** (itch.io): https://oakhaven.itch.io/curators-vault
+  Question: Does this page show Curator's Vault at 29.75 USD on sale today? Open the link and tell me yes or no.
+- **NEVERLAND - Here Be Monsters! (ACE Gamebooks #3)** (DriveThruRPG): https://www.drivethrurpg.com/product/346946/neverland-here-be-monsters-ace-gamebooks-3
+  Question: Does this page show NEVERLAND - Here Be Monsters! (ACE Gamebooks #3) at 1.32 USD on sale today? Open the link and tell me yes or no.
+- **Beowulf Beastslayer (ACE Gamebooks #4)** (DriveThruRPG): https://www.drivethrurpg.com/product/346948/beowulf-beastslayer-ace-gamebooks-4
+  Question: Does this page show Beowulf Beastslayer (ACE Gamebooks #4) at 1.32 USD on sale today? Open the link and tell me yes or no.
+- **Christmas in July** (DriveThruRPG): https://www.drivethrurpg.com/product/363706/christmas-in-july
+  Question: Does this page show Christmas in July at 1.32 USD on sale today? Open the link and tell me yes or no.
+- **HEOROT – Roleplaying in the World of Beowulf Beastslayer (Core Rulebook)** (DriveThruRPG): https://www.drivethrurpg.com/product/436256/heorot-roleplaying-in-the-world-of-beowulf-beastslayer-core-rulebook
+  Question: Does this page show HEOROT – Roleplaying in the World of Beowulf Beastslayer (Core Rulebook) at 1.32 USD on sale today? Open the link and tell me yes or no.
+- **Galaxy Builder Decks: Spooky Set** (DriveThruRPG): https://www.drivethrurpg.com/product/473527/galaxy-builder-decks-spooky-set
+  Question: Does this page show Galaxy Builder Decks: Spooky Set at 0.5 USD on sale today? Open the link and tell me yes or no.
+- **The Box of Delights - The Roleplaying Game** (DriveThruRPG): https://www.drivethrurpg.com/product/506200/the-box-of-delights-the-roleplaying-game
+  Question: Does this page show The Box of Delights - The Roleplaying Game at 1.32 USD on sale today? Open the link and tell me yes or no.
+- **Murder at Morsley Manor** (itch.io): https://capacle.itch.io/murder
+  Question: Does this page show Murder at Morsley Manor at 3.43 USD on sale today? Open the link and tell me yes or no.
+- **Detangle** (itch.io): https://barcstravis.itch.io/detangle
+  Question: Does this page show Detangle at 1.0 USD on sale today? Open the link and tell me yes or no.
+- **Wrapping Mapping** (itch.io): https://tallywinkle.itch.io/wrapping-mapping
+  Question: Does this page show Wrapping Mapping at 1.87 USD on sale today? Open the link and tell me yes or no.
+- **Go Do Be At** (itch.io): https://ranarh.itch.io/go-do-be-at
+  Question: Does this page show Go Do Be At at 1.0 USD on sale today? Open the link and tell me yes or no.
+- **Quest Character Sheets** (itch.io): https://gurkenlabs.itch.io/quest-character-sheets
+  Question: Does this page show Quest Character Sheets at 1.2 USD on sale today? Open the link and tell me yes or no.
+- **Printable DnD Character Journal + DnD 2024 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet** (itch.io): https://onegoodeveningdnd.itch.io/dnd-player-kit-2024
+  Question: Does this page show Printable DnD Character Journal + DnD 2024 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet at 18.17 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Warlock Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Warlock Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Ranger Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Ranger Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Warlock Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Warlock Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **D&D Monster Stat Cards | Printable PDF | Dungeons and Dragons 5e | 2014 and 2024 Editions** (itch.io): https://onegoodeveningdnd.itch.io/dnd-monster-cards
+  Question: Does this page show D&D Monster Stat Cards | Printable PDF | Dungeons and Dragons 5e | 2014 and 2024 Editions at 13.81 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Ranger Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Ranger Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **Printable DnD Character Journal + DnD 2014 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet** (itch.io): https://onegoodeveningdnd.itch.io/dnd-player-kit
+  Question: Does this page show Printable DnD Character Journal + DnD 2014 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet at 18.17 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Rogue Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-rogue-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Rogue Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Monk Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-monk-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Monk Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Paladin Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-paladin-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Paladin Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **Worldbuilders Guidebook: Big Book of Templates** (itch.io): https://worldbuildersrunesmiths.itch.io/worldbuilders-work
+  Question: Does this page show Worldbuilders Guidebook: Big Book of Templates at 11.25 USD on sale today? Open the link and tell me yes or no.
+- **Party of Four - AI Game Master for Claude, solo or with friends** (itch.io): https://radixitchio.itch.io/party-of-four
+  Question: Does this page show Party of Four - AI Game Master for Claude, solo or with friends at 2.44 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Barbarian Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-barbarian-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Barbarian Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Rogue Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-rogue-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Rogue Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD Bundle, 5e, 2024, All 12 Classes, DnD Cheat Sheet, DnD Character Sheet, Dungeons and Dragons, Dungeon Master Gift** (itch.io): https://onegoodeveningdnd.itch.io/dnd-character-sheet-bundle-2024
+  Question: Does this page show DnD Bundle, 5e, 2024, All 12 Classes, DnD Cheat Sheet, DnD Character Sheet, Dungeons and Dragons, Dungeon Master Gift at 14.53 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Druid Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-druid-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Druid Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Fighter Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Fighter Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Wizard Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-wizard-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Wizard Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Cleric Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Cleric Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Sorcerer Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Sorcerer Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Cleric Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Cleric Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Fighter Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Fighter Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **Dark Academia DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory** (itch.io): https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-dark-academia
+  Question: Does this page show Dark Academia DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory at 6.53 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Bard Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-bard-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Bard Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD Card Bundle 5e 2014 | Printable Spell, Monster and Magic Item Cards, Dungeon Master Tools | Digital Download** (itch.io): https://onegoodeveningdnd.itch.io/dnd-cards-bundle
+  Question: Does this page show DnD Card Bundle 5e 2014 | Printable Spell, Monster and Magic Item Cards, Dungeon Master Tools | Digital Download at 26.89 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Sorcerer Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Sorcerer Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Paladin Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-paladin-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Paladin Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Druid Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-druid-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Druid Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Barbarian Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-barbarian-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Barbarian Printable and Fillable PDF D&D 5e at 3.26 USD on sale today? Open the link and tell me yes or no.
+- **Dialogue & Voice Sheet — Game Master Utility Series (GU-001)** (itch.io): https://oakhaven.itch.io/dialogue-voice-sheet-game-master-utility-series-gu-001
+  Question: Does this page show Dialogue & Voice Sheet — Game Master Utility Series (GU-001) at 2.97 USD on sale today? Open the link and tell me yes or no.
+- **Reputation Tracker — Game Master Utility Series (GU-002)** (itch.io): https://oakhaven.itch.io/reputation-tracker-game-master-utility-series-gu-002
+  Question: Does this page show Reputation Tracker — Game Master Utility Series (GU-002) at 2.97 USD on sale today? Open the link and tell me yes or no.
+- **Faction Member Index — Game Master Utility Series (GU-004)** (itch.io): https://oakhaven.itch.io/faction-member-index-game-master-utility-series-gu-004
+  Question: Does this page show Faction Member Index — Game Master Utility Series (GU-004) at 2.97 USD on sale today? Open the link and tell me yes or no.
+- **Logic Ledger — Game Master Utility Series (GU-005)** (itch.io): https://oakhaven.itch.io/logic-ledger-game-master-utility-series-gu-005
+  Question: Does this page show Logic Ledger — Game Master Utility Series (GU-005) at 2.97 USD on sale today? Open the link and tell me yes or no.
+- **Treasure & Loot Ledger — Game Master Utility Series (GU-008)** (itch.io): https://oakhaven.itch.io/treasure-loot-ledger-game-master-utility-series-gu-008
+  Question: Does this page show Treasure & Loot Ledger — Game Master Utility Series (GU-008) at 2.97 USD on sale today? Open the link and tell me yes or no.
+- **Interrogation Record — Game Master Utility Series (GU-003)** (itch.io): https://oakhaven.itch.io/interrogation-record-game-master-utility-series-gu-003
+  Question: Does this page show Interrogation Record — Game Master Utility Series (GU-003) at 2.97 USD on sale today? Open the link and tell me yes or no.
+- **Finger Bang** (itch.io): https://drmhigginson.itch.io/finger-bang
+  Question: Does this page show Finger Bang at 0.0 USD on sale today? Open the link and tell me yes or no.
+- **CHARCUTERIE IV** (itch.io): https://rathayibacter.itch.io/charcuterie-vol-4
+  Question: Does this page show CHARCUTERIE IV at 6.9 USD on sale today? Open the link and tell me yes or no.
+- **Diviner le Mythe** (itch.io): https://oraecle.itch.io/diviner
+  Question: Does this page show Diviner le Mythe at 0.5 USD on sale today? Open the link and tell me yes or no.
+- **BattleTech Gothic Role Playing Game/Miniatures** (tabletopgaming.shop): https://tabletopgaming.shop/products/battletech-gothic-miniatures
+  Question: Does this page show BattleTech Gothic Role Playing Game/Miniatures at 94.99 GBP on sale today? Open the link and tell me yes or no.
+- **Stormlight Plot Decks Role Playing Game** (tabletopgaming.shop): https://tabletopgaming.shop/products/stormlight-plot-decks-role-playing-game
+  Question: Does this page show Stormlight Plot Decks Role Playing Game at 11.49 GBP on sale today? Open the link and tell me yes or no.
 
 ## Time per step
 
-- Read the shops: 560.2 s (ok)
-- Find leads and new shops: 3.5 s (ok): 37 leads, 0 new shops
-- Look for misses: 0.5 s (ok): 37 misses, 0 became candidate deals
-- Jev check: 29.7 s (ok)
-- Browsing agent: 50.2 s (ok)
-- Build the site file: 8.2 s (ok): 455 deals; pages opened 34, from cache 5
-- Put the deals on the site: 0.0 s (ok): 455 deals copied to the site file
-- **Total: 652.3 s (10.9 min)**
+- Read the shops: 2292.5 s (ok)
+- Find leads and new shops: 1024.3 s (ok): 250 leads, 7 new shops; read 7 new shop(s) at once
+- Look for misses: 0.6 s (ok): 37 misses, 0 became candidate deals
+- Jev check: 1489.5 s (ok)
+- Browsing agent: 2023.0 s (ok)
+- Build the site file: 916.4 s (ok): 1939 deals; pages opened 1244, from cache 67, 7 left for the next run
+- Put the deals on the site: 0.0 s (ok): 1939 deals copied to the site file
+- **Total: 7746.3 s (129.1 min)**
 
 ## Cost
 
-- Jev: 280 requests, 211590 tokens in, 9837 tokens out, 81 answers reused from cache, about $0.01.
-- Browsing agent: 4 job(s), $0.33.
-- **Day total: about $0.34** (alarm at $5.00).
+- Jev: 4829 requests, 3819000 tokens in, 101963 tokens out, 5 answers reused from cache, about $0.16.
+- Browsing agent: 126 job(s), $8.98.
+- **Day total: about $9.14** (alarm at $5.00).

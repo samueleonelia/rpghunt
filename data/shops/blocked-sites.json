@@ -1,4 +1,36 @@
 {
+ "8bitdo.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://www.8bitdo.com/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "abhack-paperclip.itch.io": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://abhack-paperclip.itch.io/lantern-lane"
+ },
+ "creative-commons-shop.fourthwall.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://creative-commons-shop.fourthwall.com/products.json?limit=1"
+ },
+ "cubicle7games.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "http://www.cubicle7games.com/"
+ },
  "dmsguild.com": {
   "first_seen": "2026-10-17",
   "reasons": {
@@ -13,7 +45,39 @@
    "bot wall (known, never fetched)": "2026-10-27"
   },
   "last_seen": "2026-10-27",
-  "example_url": "https://www.drivethrurpg.com/product/588434/the-ones-who-hound-him-in-the-dark"
+  "example_url": "https://www.drivethrurpg.com/product/506200/the-box-of-delights-the-roleplaying-game"
+ },
+ "elancharan.itch.io": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://elancharan.itch.io/jamma"
+ },
+ "entertainmentearth.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://www.entertainmentearth.com/"
+ },
+ "etsy.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://www.etsy.com/"
+ },
+ "fanpro.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "http://www.fanpro.com/"
  },
  "foundryvtt.store": {
   "first_seen": "2026-10-17",
@@ -23,6 +87,38 @@
   "last_seen": "2026-10-17",
   "example_url": "https://www.foundryvtt.store/wp-json/wc/store/v1/products?per_page=1"
  },
+ "freeleaguepublishing.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://freeleaguepublishing.com/"
+ },
+ "go.skimresources.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://go.skimresources.com/"
+ },
+ "goodman-games.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "http://www.goodman-games.com/"
+ },
+ "imagecomics.threadless.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://imagecomics.threadless.com/"
+ },
  "indiepressrevolution.com": {
   "first_seen": "2026-10-17",
   "reasons": {
@@ -30,6 +126,38 @@
   },
   "last_seen": "2026-10-17",
   "example_url": "https://www.indiepressrevolution.com/xcart/"
+ },
+ "link.amazon": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://link.amazon/"
+ },
+ "loungefly.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://loungefly.com/products.json?limit=1"
+ },
+ "lp.constantcontactpages.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://lp.constantcontactpages.com/"
+ },
+ "mindstormlabs.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 406": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "http://www.mindstormlabs.com/products.json?limit=1"
  },
  "miniaturemarket.com": {
   "first_seen": "2026-10-17",
@@ -39,6 +167,38 @@
   "last_seen": "2026-10-17",
   "example_url": "https://www.miniaturemarket.com/products.json?limit=1"
  },
+ "mutualdocs.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://mutualdocs.com/"
+ },
+ "mymagazinesub.co.uk": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://www.mymagazinesub.co.uk/"
+ },
+ "newsroom.hasbro.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://newsroom.hasbro.com/"
+ },
+ "onebookshelf.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://www.onebookshelf.com/"
+ },
  "ospreypublishing.com": {
   "first_seen": "2026-10-17",
   "reasons": {
@@ -46,6 +206,14 @@
   },
   "last_seen": "2026-10-17",
   "example_url": "https://www.ospreypublishing.com/products.json?limit=1"
+ },
+ "paramountplus.qflm.net": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://paramountplus.qflm.net/"
  },
  "pelgranepress.com": {
   "first_seen": "2026-10-17",
@@ -55,6 +223,38 @@
   "last_seen": "2026-10-17",
   "example_url": "https://pelgranepress.com/shop/"
  },
+ "pigames.net": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://www.pigames.net/store/advanced_search.php"
+ },
+ "pixabay.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://pixabay.com/"
+ },
+ "pokebeach.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://www.pokebeach.com/"
+ },
+ "pubads.g.doubleclick.net": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://pubads.g.doubleclick.net/"
+ },
  "reddit.com": {
   "first_seen": "2026-10-17",
   "reasons": {
@@ -63,6 +263,78 @@
   "last_seen": "2026-10-17",
   "example_url": "https://www.reddit.com/r/rpg/"
  },
+ "sealedstories.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "http://www.sealedstories.com/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "skimlinks.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 401": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://www.skimlinks.com/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "soundcloud.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://soundcloud.com/products.json?limit=1"
+ },
+ "steelseries.prf.hn": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://steelseries.prf.hn/products.json?limit=1"
+ },
+ "store.epicgames.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://store.epicgames.com/"
+ },
+ "themetalcarrotdev.itch.io": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://themetalcarrotdev.itch.io/celestial-under-the-retro-skies"
+ },
+ "threads.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://www.threads.com/"
+ },
+ "trolllord.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "http://trolllord.com/"
+ },
+ "ttgm.mymagazinesub.co.uk": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://ttgm.mymagazinesub.co.uk/"
+ },
  "ulissesf-shop.com": {
   "first_seen": "2026-10-17",
   "reasons": {
@@ -70,5 +342,21 @@
   },
   "last_seen": "2026-10-17",
   "example_url": "https://www.ulissesf-shop.com/"
+ },
+ "wargamer.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://www.wargamer.com/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "xreal.com": {
+  "first_seen": "2026-10-27",
+  "reasons": {
+   "HTTP 403": "2026-10-27"
+  },
+  "last_seen": "2026-10-27",
+  "example_url": "https://www.xreal.com/wp-json/wc/store/v1/products?per_page=1"
  }
 }

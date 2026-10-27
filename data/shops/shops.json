@@ -764,5 +764,102 @@
   "added": "2026-10-17",
   "added_via": "lead enworld 2026-10-17",
   "notes": null
+ },
+ {
+  "id": "shop-slyflourish",
+  "name": "shop.slyflourish.com",
+  "store_url": "https://shop.slyflourish.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-27",
+  "added": "2026-10-27",
+  "added_via": "lead slyflourish 2026-10-27",
+  "notes": "found by discovery: 10 of 14 products name RPG words"
+ },
+ {
+  "id": "tabletopgaming",
+  "name": "tabletopgaming.shop",
+  "store_url": "https://tabletopgaming.shop/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "GBP",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-27",
+  "added": "2026-10-27",
+  "added_via": "lead tabletopgaming 2026-10-27",
+  "notes": "found by discovery: 172 of 250 products name RPG words"
+ },
+ {
+  "id": "shop-critrole",
+  "name": "shop.critrole.com",
+  "store_url": "https://shop.critrole.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-27",
+  "added": "2026-10-27",
+  "added_via": "lead wikipedia-rpg-publishers 2026-10-27",
+  "notes": "found by discovery: 15 of 250 products name RPG words"
+ },
+ {
+  "id": "kenzerco",
+  "name": "kenzerco.com",
+  "store_url": "http://www.kenzerco.com/",
+  "platform": "woocommerce",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {
+   "api_base": "https://kenzerco.com/wp-json/wc/store/v1"
+  },
+  "recipe_confirmed": null,
+  "added": "2026-10-27",
+  "added_via": "lead wikipedia-rpg-publishers 2026-10-27",
+  "notes": "found by discovery: 16 of 100 products name RPG words"
+ },
+ {
+  "id": "paradigmconcepts",
+  "name": "paradigmconcepts.com",
+  "store_url": "http://www.paradigmconcepts.com/",
+  "platform": "woocommerce",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {
+   "api_base": "https://paradigmconcepts.com/wp-json/wc/store/v1"
+  },
+  "recipe_confirmed": null,
+  "added": "2026-10-27",
+  "added_via": "lead wikipedia-rpg-publishers 2026-10-27",
+  "notes": "found by discovery: 67 of 100 products name RPG words"
+ },
+ {
+  "id": "bullypulpitgames",
+  "name": "bullypulpitgames.com",
+  "store_url": "http://www.bullypulpitgames.com/",
+  "platform": "shopify",
+  "status": "active",
+  "currency": "USD",
+  "recipe": {},
+  "recipe_confirmed": "2026-10-27",
+  "added": "2026-10-27",
+  "added_via": "lead wikipedia-rpg-publishers 2026-10-27",
+  "notes": "found by discovery: 22 of 34 products name RPG words"
+ },
+ {
+  "id": "daemoneditora-com",
+  "name": "daemoneditora.com.br",
+  "store_url": "https://daemoneditora.com.br/product/astrologia-hermetica/",
+  "platform": "woocommerce",
+  "status": "active",
+  "currency": "BRL",
+  "recipe": {
+   "api_base": "https://daemoneditora.com.br/wp-json/wc/store/v1"
+  },
+  "recipe_confirmed": "2026-10-27",
+  "added": "2026-10-27",
+  "added_via": "lead wikipedia-rpg-designers 2026-10-27",
+  "notes": "found by discovery: 3 of 100 products name RPG words"
  }
 ]

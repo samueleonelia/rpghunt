@@ -1,10 +1,570 @@
 {
+ "2dsansfaces.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "8bitdo.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "a5e.tools": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "addtoany.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "ajitageorge.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "akismet.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "alderac.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "aspyr.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "avalanchepress.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "beholder.hu": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "bill-bridges.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "blendcotastudios.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "booksofm.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "bullypulpitgames.com": {
+  "date": "2026-10-27",
+  "result": "added"
+ },
+ "cakebreadandwalton.co.uk": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "columbiagames.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "company.wizards.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "corporate.asmodee.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "creativecommons.org": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "critrole.com": {
+  "date": "2026-10-27",
+  "result": "added"
+ },
+ "cryptozoic.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "cubicle7games.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "darkhorse.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "darkhorsedirect.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "dbrand.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "decipher.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "deldebbio.com.br": {
+  "date": "2026-10-27",
+  "result": "added"
+ },
+ "devgameclub.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "dice.camp": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "dimensionaldoubleshift.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "donperrin.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "edenstudios.net": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "edhealy.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
  "enpublishingrpg.com": {
   "date": "2026-10-17",
   "result": "added"
  },
+ "entertainmentearth.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "eos-sama.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "etsy.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "eveonline.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "fanbrix.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "fanpro.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "fantasyflightgames.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
  "fantasynpcs.com": {
   "date": "2026-10-17",
   "result": "not a shop"
+ },
+ "fave.co": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "figgyz.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "flyingbuffalo.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "forgottenfutures.co.uk": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "freeleaguepublishing.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "fspacerpg.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "fudgerpg.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "full.life": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "funko.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "gamescience.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "gauntlet-rpg.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "gear.tombraider.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "go.skimresources.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "goodman-games.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "googletagmanager.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "grcogman.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "groupsne.co.jp": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "gunnar.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "hauntedrpg.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "history.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "hoasite.netlify.app": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "iconiqstudios.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "icv2.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "imagecomics.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "ironcrown.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "jeeyonshim.games": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "jobsimulatorgame.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "kenzerco.com": {
+  "date": "2026-10-27",
+  "result": "added"
+ },
+ "landing.figgyz.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "limitedrungames.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "link.amazon": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "lisasmedman.wixsite.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "loungefly.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "lp.constantcontactpages.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "ludonarrativedissidents.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "magic.wizards.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "margaretweis.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "meta.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "mindstormlabs.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "morrus.podbean.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "mutualdocs.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "mymagazinesub.co.uk": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "nagademon.org": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "newsroom.hasbro.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "nightfall.games": {
+  "date": "2026-10-27",
+  "result": "known store"
+ },
+ "nikke-en.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "nimblenomicon.pages.dev": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "nottshobbies.co.uk": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "onebookshelf.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "onemanandhisblog.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "owlchemylabs.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "pantslesstables.tv": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "paradigmconcepts.com": {
+  "date": "2026-10-27",
+  "result": "added"
+ },
+ "paramountplus.qflm.net": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "pigames.net": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "pixabay.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "planetarcana.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "pokebeach.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "privateerpress.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "pubads.g.doubleclick.net": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "rascal.news": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "replayable.net": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "rockpapershotgun.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "rtalsoriangames.com": {
+  "date": "2026-10-27",
+  "result": "known store"
+ },
+ "sealedstories.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "sharkrobot.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "sjgames.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "sllswrd.games": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "slyflourish.podbean.com": {
+  "date": "2026-10-27",
+  "result": "added"
+ },
+ "soundcloud.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "starfleetgames.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "steelseries.prf.hn": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "stitcher.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "store.epicgames.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "store.steampowered.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "sword-sorcery.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "syntilay.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "tabletopgaming.shop": {
+  "date": "2026-10-27",
+  "result": "added"
+ },
+ "terrypratchettbooks.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "thearmypainter.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "theonyxpath.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "threads.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "thuleanperspective.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "timelineltdcom.godaddysites.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "tritacgames.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "trolllord.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "ttgm.mymagazinesub.co.uk": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "ttrp.gg": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "tubbz.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "upperdeck.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "vacationsimulatorgame.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "vajraenterprises.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "vr-rock.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "wargamer.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "warhammer.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "warnersgroup.co.uk": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "white-wolf.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "wyrd-games.net": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "xreal.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "zmangames.com": {
+  "date": "2026-10-27",
+  "result": "not a seller"
  }
 }

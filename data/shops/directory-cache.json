@@ -1,0 +1,316 @@
+{
+ "wikipedia-rpg-designers": {
+  "date": "2026-10-27",
+  "sites": [
+   {
+    "label": "Genevieve Cogman",
+    "site": "http://grcogman.com"
+   },
+   {
+    "label": "Marcelo Del Debbio",
+    "site": "http://deldebbio.com.br"
+   },
+   {
+    "label": "Daniel D. Fox",
+    "site": "https://sllswrd.games/"
+   },
+   {
+    "label": "Ajit George",
+    "site": "https://ajitageorge.com/"
+   },
+   {
+    "label": "Ed Healy",
+    "site": "http://edhealy.com"
+   },
+   {
+    "label": "Grant Howitt",
+    "site": "https://rowanrookanddecard.com/"
+   },
+   {
+    "label": "Russ Morrissey",
+    "site": "http://www.enworld.org/"
+   },
+   {
+    "label": "Don Perrin",
+    "site": "http://donperrin.com"
+   },
+   {
+    "label": "Terry Pratchett",
+    "site": "http://terrypratchettbooks.com"
+   },
+   {
+    "label": "Marcus L. Rowland",
+    "site": "http://www.forgottenfutures.co.uk"
+   },
+   {
+    "label": "Jeeyon Shim",
+    "site": "https://jeeyonshim.games/"
+   },
+   {
+    "label": "Lisa Smedman",
+    "site": "http://lisasmedman.wixsite.com/author"
+   },
+   {
+    "label": "Adam Tinworth",
+    "site": "https://onemanandhisblog.com"
+   },
+   {
+    "label": "Monica Valentinelli",
+    "site": "http://www.booksofm.com/"
+   },
+   {
+    "label": "Varg Vikernes",
+    "site": "http://thuleanperspective.com"
+   },
+   {
+    "label": "Jessica Hammer",
+    "site": "http://replayable.net"
+   },
+   {
+    "label": "Bill Bridges (game designer)",
+    "site": "http://bill-bridges.com/"
+   }
+  ]
+ },
+ "wikipedia-rpg-publishers": {
+  "date": "2026-10-27",
+  "sites": [
+   {
+    "label": "2 Dés Sans Faces",
+    "site": "http://www.2dsansfaces.com"
+   },
+   {
+    "label": "Alderac Entertainment Group",
+    "site": "http://www.alderac.com/"
+   },
+   {
+    "label": "Amarillo Design Bureau",
+    "site": "http://www.starfleetgames.com/"
+   },
+   {
+    "label": "Arc Dream Publishing",
+    "site": "http://www.arcdream.com"
+   },
+   {
+    "label": "Asmodee",
+    "site": "https://corporate.asmodee.com/"
+   },
+   {
+    "label": "Avalanche Press",
+    "site": "http://avalanchepress.com"
+   },
+   {
+    "label": "Beholder Kft.",
+    "site": "http://www.beholder.hu/"
+   },
+   {
+    "label": "Cakebread & Walton",
+    "site": "http://cakebreadandwalton.co.uk/"
+   },
+   {
+    "label": "Columbia Games",
+    "site": "http://www.columbiagames.com"
+   },
+   {
+    "label": "Critical Role Productions",
+    "site": "https://critrole.com/"
+   },
+   {
+    "label": "Cryptozoic Entertainment",
+    "site": "https://www.cryptozoic.com/"
+   },
+   {
+    "label": "Cubicle 7",
+    "site": "http://www.cubicle7games.com"
+   },
+   {
+    "label": "Decipher, Inc.",
+    "site": "http://www.decipher.com/"
+   },
+   {
+    "label": "Eden Studios (game publisher)",
+    "site": "http://www.edenstudios.net/"
+   },
+   {
+    "label": "Eos Press",
+    "site": "http://eos-sama.com"
+   },
+   {
+    "label": "Evil Hat Productions",
+    "site": "http://www.evilhat.com/"
+   },
+   {
+    "label": "Fantasy Flight Games",
+    "site": "http://fantasyflightgames.com"
+   },
+   {
+    "label": "Fantasy Productions",
+    "site": "http://www.fanpro.com/"
+   },
+   {
+    "label": "FASA",
+    "site": "https://web.archive.org/web/20010713055048/http://www.fasa.com/"
+   },
+   {
+    "label": "Flying Buffalo",
+    "site": "http://www.flyingbuffalo.com"
+   },
+   {
+    "label": "FSpace Publications",
+    "site": "https://www.fspacerpg.com/"
+   },
+   {
+    "label": "Games Workshop",
+    "site": "https://www.warhammer.com"
+   },
+   {
+    "label": "Gamescience",
+    "site": "http://www.gamescience.com"
+   },
+   {
+    "label": "Goodman Games",
+    "site": "http://www.goodman-games.com/"
+   },
+   {
+    "label": "Grey Ghost Press",
+    "site": "http://www.fudgerpg.com/"
+   },
+   {
+    "label": "Group SNE",
+    "site": "http://groupsne.co.jp"
+   },
+   {
+    "label": "InMediaRes Productions",
+    "site": "https://web.archive.org/web/20120205035954/http://imrpro.com"
+   },
+   {
+    "label": "Issaries, Inc.",
+    "site": "https://web.archive.org/web/20120131152320/http://www.issaries.com/"
+   },
+   {
+    "label": "Itch.io",
+    "site": "https://itch.io"
+   },
+   {
+    "label": "Steve Jackson Games",
+    "site": "http://www.sjgames.com"
+   },
+   {
+    "label": "Kenzer & Company",
+    "site": "http://www.kenzerco.com/"
+   },
+   {
+    "label": "Kobold Press",
+    "site": "https://www.koboldpress.com/"
+   },
+   {
+    "label": "Margaret Weis Productions",
+    "site": "http://www.margaretweis.com/"
+   },
+   {
+    "label": "Mind Storm Labs",
+    "site": "http://www.mindstormlabs.com"
+   },
+   {
+    "label": "Mjolnir LLC",
+    "site": "http://www.ironcrown.com"
+   },
+   {
+    "label": "Modiphius Entertainment",
+    "site": "https://www.modiphius.net/"
+   },
+   {
+    "label": "Mongoose Publishing",
+    "site": "https://www.mongoosepublishing.com/"
+   },
+   {
+    "label": "Nightfall Games",
+    "site": "http://nightfall.games"
+   },
+   {
+    "label": "Onyx Path Publishing",
+    "site": "http://www.theonyxpath.com/"
+   },
+   {
+    "label": "Palladium Books",
+    "site": "http://palladiumbooks.com"
+   },
+   {
+    "label": "Paradigm Concepts",
+    "site": "http://www.paradigmconcepts.com/"
+   },
+   {
+    "label": "Precis Intermedia Gaming",
+    "site": "http://www.pigames.net/"
+   },
+   {
+    "label": "Privateer Press",
+    "site": "http://privateerpress.com"
+   },
+   {
+    "label": "R. Talsorian Games",
+    "site": "https://rtalsoriangames.com/"
+   },
+   {
+    "label": "Renegade Game Studios",
+    "site": "http://renegadegamestudios.com"
+   },
+   {
+    "label": "Sword and Sorcery Studios",
+    "site": "http://www.sword-sorcery.com"
+   },
+   {
+    "label": "Timeline Ltd.",
+    "site": "http://timelineltdcom.godaddysites.com"
+   },
+   {
+    "label": "Tri Tac Games",
+    "site": "http://www.tritacgames.com/"
+   },
+   {
+    "label": "Troll Lord Games",
+    "site": "http://trolllord.com"
+   },
+   {
+    "label": "Vajra Enterprises",
+    "site": "http://www.vajraenterprises.com/"
+   },
+   {
+    "label": "White Wolf Publishing",
+    "site": "http://www.white-wolf.com/"
+   },
+   {
+    "label": "Wizards of the Coast",
+    "site": "https://company.wizards.com/en"
+   },
+   {
+    "label": "Wolves of Freeport",
+    "site": "https://www.onebookshelf.com/"
+   },
+   {
+    "label": "Wyrd (company)",
+    "site": "http://www.wyrd-games.net/"
+   },
+   {
+    "label": "Z-Man Games",
+    "site": "http://zmangames.com"
+   },
+   {
+    "label": "Bully Pulpit Games",
+    "site": "http://www.bullypulpitgames.com"
+   },
+   {
+    "label": "Free League Publishing",
+    "site": "https://freeleaguepublishing.com"
+   },
+   {
+    "label": "The Gauntlet (tabletop games producer)",
+    "site": "https://www.gauntlet-rpg.com/"
+   },
+   {
+    "label": "Indie Press Revolution",
+    "site": "http://indiepressrevolution.com"
+   }
+  ]
+ }
+}
