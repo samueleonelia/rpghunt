@@ -1,0 +1,1526 @@
+[
+ {
+  "kind": "deal",
+  "key": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9",
+  "url": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9",
+  "title": "BUNDLE: Animated Spells Level 6-9 - 5e 2014 D&D (Reference Cards)",
+  "shop": "Hit Point Press",
+  "price_now": 129.0,
+  "price_was": 172.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.27"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$129.00 CAD",
+   "reason": "The page shows a real 25% sale ($129.00 CAD, was $172.00 CAD), but the product is a set of animated 5e spell reference cards, which may count as an accessory rather than a book or supplement, and the prices are in CAD while the deal says USD.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 25% sale ($129.00 CAD, was $172.00 CAD), but the product is a set of animated 5e spell reference cards, which may count as an accessory rather than a book or supplement, and the prices are in CAD while the deal says USD."
+   ]
+  },
+  "question": "Does this page show BUNDLE: Animated Spells Level 6-9 - 5e 2014 D&D (Reference Cards) at 129.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/12531/rappan-athuk-reloaded-map-book",
+  "url": "https://www.drivethrurpg.com/product/12531/rappan-athuk-reloaded-map-book",
+  "title": "Rappan Athuk Reloaded Map Book",
+  "shop": "DriveThruRPG",
+  "price_now": 8.0,
+  "price_was": 15.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.49"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Rappan Athuk Reloaded Map Book at 8.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/56587/sundered-skies-figure-flats",
+  "url": "https://www.drivethrurpg.com/product/56587/sundered-skies-figure-flats",
+  "title": "Sundered Skies - Figure Flats",
+  "shop": "DriveThruRPG",
+  "price_now": 2.99,
+  "price_was": 4.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.43"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sundered Skies - Figure Flats at 2.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/56789/daring-tales-of-adventure-figure-flats",
+  "url": "https://www.drivethrurpg.com/product/56789/daring-tales-of-adventure-figure-flats",
+  "title": "Daring Tales of Adventure: Figure Flats",
+  "shop": "DriveThruRPG",
+  "price_now": 1.79,
+  "price_was": 2.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.41"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Daring Tales of Adventure: Figure Flats at 1.79 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/60232/tabletop-heroes-age-of-piracy-british-sailors",
+  "url": "https://www.drivethrurpg.com/product/60232/tabletop-heroes-age-of-piracy-british-sailors",
+  "title": "Tabletop Heroes: Age of Piracy - British Sailors",
+  "shop": "DriveThruRPG",
+  "price_now": 4.19,
+  "price_was": 6.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.66"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Tabletop Heroes: Age of Piracy - British Sailors at 4.19 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/86582/hellfrost-calendar",
+  "url": "https://www.drivethrurpg.com/product/86582/hellfrost-calendar",
+  "title": "Hellfrost Calendar",
+  "shop": "DriveThruRPG",
+  "price_now": 0.59,
+  "price_was": 0.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.57"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Hellfrost Calendar at 0.59 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/138998/hellfrost-action-deck",
+  "url": "https://www.drivethrurpg.com/product/138998/hellfrost-action-deck",
+  "title": "Hellfrost Action Deck",
+  "shop": "DriveThruRPG",
+  "price_now": 4.2,
+  "price_was": 7.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.26"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Hellfrost Action Deck at 4.2 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/188204/daring-tales-of-adventure-codex",
+  "url": "https://www.drivethrurpg.com/product/188204/daring-tales-of-adventure-codex",
+  "title": "Daring Tales of Adventure Codex",
+  "shop": "DriveThruRPG",
+  "price_now": 14.99,
+  "price_was": 24.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.68"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Daring Tales of Adventure Codex at 14.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/228546/potion-generator",
+  "url": "https://www.drivethrurpg.com/product/228546/potion-generator",
+  "title": "Potion Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.75,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.44"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Potion Generator at 0.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/230432/book-generator",
+  "url": "https://www.drivethrurpg.com/product/230432/book-generator",
+  "title": "Book Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.75,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Book Generator at 0.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/236789/the-synthetics-1",
+  "url": "https://www.drivethrurpg.com/product/236789/the-synthetics-1",
+  "title": "The Synthetics #1",
+  "shop": "DriveThruRPG",
+  "price_now": 2.0,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.66"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Synthetics #1 at 2.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/247783/rappan-athuk-map-folio",
+  "url": "https://www.drivethrurpg.com/product/247783/rappan-athuk-map-folio",
+  "title": "Rappan Athuk Map Folio",
+  "shop": "DriveThruRPG",
+  "price_now": 11.5,
+  "price_was": 22.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.30"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Rappan Athuk Map Folio at 11.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/248969/dream-generator",
+  "url": "https://www.drivethrurpg.com/product/248969/dream-generator",
+  "title": "Dream Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.88,
+  "price_was": 1.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.61"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Dream Generator at 0.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/251291/foe-generator",
+  "url": "https://www.drivethrurpg.com/product/251291/foe-generator",
+  "title": "Foe Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.88,
+  "price_was": 1.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Foe Generator at 0.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/292918/remnant-rpg-tools-all-in-one",
+  "url": "https://www.drivethrurpg.com/product/292918/remnant-rpg-tools-all-in-one",
+  "title": "Remnant RPG Tools, All-in-One",
+  "shop": "DriveThruRPG",
+  "price_now": 3.49,
+  "price_was": 9.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.41"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Remnant RPG Tools, All-in-One at 3.49 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/304446/tegel-manor-deed",
+  "url": "https://www.drivethrurpg.com/product/304446/tegel-manor-deed",
+  "title": "Tegel Manor Deed",
+  "shop": "DriveThruRPG",
+  "price_now": 0.5,
+  "price_was": 0.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Tegel Manor Deed at 0.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/318479/hudson-brand-flats",
+  "url": "https://www.drivethrurpg.com/product/318479/hudson-brand-flats",
+  "title": "Hudson & Brand Flats",
+  "shop": "DriveThruRPG",
+  "price_now": 0.7,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.63"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Hudson & Brand Flats at 0.7 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/345769/tome-of-horrors-2020-cards-deck-one",
+  "url": "https://www.drivethrurpg.com/product/345769/tome-of-horrors-2020-cards-deck-one",
+  "title": "Tome of Horrors 2020 Cards Deck ONE",
+  "shop": "DriveThruRPG",
+  "price_now": 8.49,
+  "price_was": 16.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Tome of Horrors 2020 Cards Deck ONE at 8.49 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/345772/tome-of-horrors-2020-cards-deck-two",
+  "url": "https://www.drivethrurpg.com/product/345772/tome-of-horrors-2020-cards-deck-two",
+  "title": "Tome of Horrors 2020 Cards Deck TWO",
+  "shop": "DriveThruRPG",
+  "price_now": 8.49,
+  "price_was": 16.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Tome of Horrors 2020 Cards Deck TWO at 8.49 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/345900/tome-of-horrors-2020-cards-deck-three",
+  "url": "https://www.drivethrurpg.com/product/345900/tome-of-horrors-2020-cards-deck-three",
+  "title": "Tome of Horrors 2020 Cards Deck THREE",
+  "shop": "DriveThruRPG",
+  "price_now": 8.49,
+  "price_was": 16.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.21"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Tome of Horrors 2020 Cards Deck THREE at 8.49 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/364432/the-tessellation-1",
+  "url": "https://www.drivethrurpg.com/product/364432/the-tessellation-1",
+  "title": "The Tessellation #1",
+  "shop": "DriveThruRPG",
+  "price_now": 1.5,
+  "price_was": 2.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Tessellation #1 at 1.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/385181/necropolis-virtual-tabletop-maps-and-tokens-vtt",
+  "url": "https://www.drivethrurpg.com/product/385181/necropolis-virtual-tabletop-maps-and-tokens-vtt",
+  "title": "Necropolis Virtual Tabletop Maps And Tokens (VTT)",
+  "shop": "DriveThruRPG",
+  "price_now": 15.0,
+  "price_was": 29.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.27"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Necropolis Virtual Tabletop Maps And Tokens (VTT) at 15.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/395940/ironclads-british-fleet-manual",
+  "url": "https://www.drivethrurpg.com/product/395940/ironclads-british-fleet-manual",
+  "title": "Ironclads British Fleet Manual",
+  "shop": "DriveThruRPG",
+  "price_now": 5.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.62"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Ironclads British Fleet Manual at 5.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/395941/ironclads-american-fleet-manual",
+  "url": "https://www.drivethrurpg.com/product/395941/ironclads-american-fleet-manual",
+  "title": "Ironclads American Fleet Manual",
+  "shop": "DriveThruRPG",
+  "price_now": 5.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.58"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Ironclads American Fleet Manual at 5.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/395942/ironclads-german-fleet-manual",
+  "url": "https://www.drivethrurpg.com/product/395942/ironclads-german-fleet-manual",
+  "title": "Ironclads German Fleet Manual",
+  "shop": "DriveThruRPG",
+  "price_now": 5.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.58"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Ironclads German Fleet Manual at 5.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/399250/generateur-de-pointcrawl-exterieurs",
+  "url": "https://www.drivethrurpg.com/product/399250/generateur-de-pointcrawl-exterieurs",
+  "title": "Générateur de Pointcrawl - Extérieurs",
+  "shop": "DriveThruRPG",
+  "price_now": 1.88,
+  "price_was": 2.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.27"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Générateur de Pointcrawl - Extérieurs at 1.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/414424/constructing-fight-scenes-for-rpg-gamemasters",
+  "url": "https://www.drivethrurpg.com/product/414424/constructing-fight-scenes-for-rpg-gamemasters",
+  "title": "Constructing Fight Scenes for RPG Gamemasters",
+  "shop": "DriveThruRPG",
+  "price_now": 4.89,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.60"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Constructing Fight Scenes for RPG Gamemasters at 4.89 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+  "url": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+  "title": "Prophecy Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.75,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.48"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Prophecy Generator at 0.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/446518/frigorifique",
+  "url": "https://www.drivethrurpg.com/product/446518/frigorifique",
+  "title": "Frigorifique",
+  "shop": "DriveThruRPG",
+  "price_now": 5.28,
+  "price_was": 7.03,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.61"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Frigorifique at 5.28 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+  "url": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+  "title": "Space Bar Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.34"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Space Bar Generator at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/470605/nemot-rising-1",
+  "url": "https://www.drivethrurpg.com/product/470605/nemot-rising-1",
+  "title": "Nemot Rising #1",
+  "shop": "DriveThruRPG",
+  "price_now": 2.0,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.55"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Nemot Rising #1 at 2.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/480483/sandbox-generator-francais",
+  "url": "https://www.drivethrurpg.com/product/480483/sandbox-generator-francais",
+  "title": "Sandbox Generator (français)",
+  "shop": "DriveThruRPG",
+  "price_now": 9.0,
+  "price_was": 12.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (français) at 9.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/483574/nemot-rising-3",
+  "url": "https://www.drivethrurpg.com/product/483574/nemot-rising-3",
+  "title": "Nemot Rising #3",
+  "shop": "DriveThruRPG",
+  "price_now": 2.0,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.66"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Nemot Rising #3 at 2.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/489696/sandbox-generator-polski",
+  "url": "https://www.drivethrurpg.com/product/489696/sandbox-generator-polski",
+  "title": "Sandbox Generator (polski)",
+  "shop": "DriveThruRPG",
+  "price_now": 9.0,
+  "price_was": 12.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.61"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (polski) at 9.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/495880/sandbox-generator-polski-roszerzenie-terenow",
+  "url": "https://www.drivethrurpg.com/product/495880/sandbox-generator-polski-roszerzenie-terenow",
+  "title": "Sandbox Generator (polski) - Roszerzenie Terenow",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.62"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (polski) - Roszerzenie Terenow at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/497505/sandbox-generator-francais-extension-biomes",
+  "url": "https://www.drivethrurpg.com/product/497505/sandbox-generator-francais-extension-biomes",
+  "title": "Sandbox Generator (français) - Extension Biomes",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.44"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (français) - Extension Biomes at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/511224/sandbox-generator-francais-extension-factions",
+  "url": "https://www.drivethrurpg.com/product/511224/sandbox-generator-francais-extension-factions",
+  "title": "Sandbox Generator (français) - Extension Factions",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.67"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (français) - Extension Factions at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/515448/landscapes-of-the-lost-soul",
+  "url": "https://www.drivethrurpg.com/product/515448/landscapes-of-the-lost-soul",
+  "title": "Landscapes of the Lost Soul",
+  "shop": "DriveThruRPG",
+  "price_now": 6.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Landscapes of the Lost Soul at 6.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/517645/northwest-nightmares",
+  "url": "https://www.drivethrurpg.com/product/517645/northwest-nightmares",
+  "title": "Northwest Nightmares",
+  "shop": "DriveThruRPG",
+  "price_now": 3.0,
+  "price_was": 7.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.68"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Northwest Nightmares at 3.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/523852/battlewords-crafting-vivid-combat-for-rpg-gamemasters",
+  "url": "https://www.drivethrurpg.com/product/523852/battlewords-crafting-vivid-combat-for-rpg-gamemasters",
+  "title": "Battlewords: Crafting Vivid Combat for RPG Gamemasters",
+  "shop": "DriveThruRPG",
+  "price_now": 8.39,
+  "price_was": 14.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.53"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Battlewords: Crafting Vivid Combat for RPG Gamemasters at 8.39 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/531552/the-pirate-queen-s-wrath",
+  "url": "https://www.drivethrurpg.com/product/531552/the-pirate-queen-s-wrath",
+  "title": "The Pirate Queen's Wrath",
+  "shop": "DriveThruRPG",
+  "price_now": 0.99,
+  "price_was": 2.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Pirate Queen's Wrath at 0.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/540415/mistress-of-the-woods",
+  "url": "https://www.drivethrurpg.com/product/540415/mistress-of-the-woods",
+  "title": "Mistress of the Woods",
+  "shop": "DriveThruRPG",
+  "price_now": 4.89,
+  "price_was": 6.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.68"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Mistress of the Woods at 4.89 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/557672/sandbox-generator-urban-expansion",
+  "url": "https://www.drivethrurpg.com/product/557672/sandbox-generator-urban-expansion",
+  "title": "Sandbox Generator - Urban Expansion",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.63"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator - Urban Expansion at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/563068/which-came-first",
+  "url": "https://www.drivethrurpg.com/product/563068/which-came-first",
+  "title": "Which Came First?",
+  "shop": "DriveThruRPG",
+  "price_now": 2.41,
+  "price_was": 4.01,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.61"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Which Came First? at 2.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/567215/martian-comics-36",
+  "url": "https://www.drivethrurpg.com/product/567215/martian-comics-36",
+  "title": "Martian Comics #36",
+  "shop": "DriveThruRPG",
+  "price_now": 1.5,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.26"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Martian Comics #36 at 1.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/572468/sandbox-generator-francais-extension-points-de-repere",
+  "url": "https://www.drivethrurpg.com/product/572468/sandbox-generator-francais-extension-points-de-repere",
+  "title": "Sandbox Generator (français) - Extension Points de repère",
+  "shop": "DriveThruRPG",
+  "price_now": 1.88,
+  "price_was": 2.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator (français) - Extension Points de repère at 1.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/574578/helix-dust",
+  "url": "https://www.drivethrurpg.com/product/574578/helix-dust",
+  "title": "Helix Dust",
+  "shop": "DriveThruRPG",
+  "price_now": 19.99,
+  "price_was": 24.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Helix Dust at 19.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/578275/the-horizons-of-khera-1",
+  "url": "https://www.drivethrurpg.com/product/578275/the-horizons-of-khera-1",
+  "title": "The Horizons of Khera #1",
+  "shop": "DriveThruRPG",
+  "price_now": 1.5,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Horizons of Khera #1 at 1.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms",
+  "url": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms",
+  "title": "Big Damn Sci-Fi Field Forms",
+  "shop": "DriveThruRPG",
+  "price_now": 0.98,
+  "price_was": 1.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.67"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Big Damn Sci-Fi Field Forms at 0.98 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/588434/the-ones-who-hound-him-in-the-dark",
+  "url": "https://www.drivethrurpg.com/product/588434/the-ones-who-hound-him-in-the-dark",
+  "title": "The Ones Who Hound Him in the Dark",
+  "shop": "DriveThruRPG",
+  "price_now": 1.33,
+  "price_was": 1.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.64"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Ones Who Hound Him in the Dark at 1.33 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://hitpointpress.com/products/animated-spells-master-collection-for-roll20-vtt",
+  "url": "https://hitpointpress.com/products/animated-spells-master-collection-for-roll20-vtt",
+  "title": "DIGITAL Animated Spells Master Collection - (Roll20 Key, VTT)",
+  "shop": "Hit Point Press",
+  "price_now": 51.0,
+  "price_was": 122.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.21"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$51.00 CAD",
+   "reason": "The page shows a real sale (58% off, regular price struck through) on a Roll20 VTT card and token bundle for D&D 5e, but both prices are in CAD and the deal record says USD.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real sale (58% off, regular price struck through) on a Roll20 VTT card and token bundle for D&D 5e, but both prices are in CAD and the deal record says USD."
+   ]
+  },
+  "question": "Does this page show DIGITAL Animated Spells Master Collection - (Roll20 Key, VTT) at 51.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ }
+]

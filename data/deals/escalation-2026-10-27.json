@@ -1,0 +1,762 @@
+{
+ "date": "2026-10-27",
+ "fake": false,
+ "jobs": [
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/bundle-animated-townsfolks-illusions-conditions-spellcraft",
+   "title": "BUNDLE: Animated Townsfolk, Illusions, Conditions & Spellcraft - 5e 2014 D&D (Reference Cards)",
+   "shop": "Hit Point Press",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: This is a bundle of animated D&D reference cards, which is a play accessory and not a rulebook, adventure or supplement. The page prices are in CAD, not the claimed USD, and the price history shows $130 as the usual price, so the 25% off is not a real drop."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page has a 25% off label and a struck-through $172.00 CAD. Price history in the input shows a usual price of 130.0, so the struck-through price looks inflated. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$129.00 CAD",
+    "price_was_seen": "$172.00 CAD",
+    "reason": "This is a bundle of animated D&D reference cards, which is a play accessory and not a rulebook, adventure or supplement. The page prices are in CAD, not the claimed USD, and the price history shows $130 as the usual price, so the 25% off is not a real drop.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-22"
+  },
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9-conditions-illusions-townsfolk-spellcraft",
+   "title": "BUNDLE: Animated Spells Level 6-9, Conditions, Illusions, Townsfolk & Spellcraft - 5e 2014 D&D (Reference Cards)",
+   "shop": "Hit Point Press",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: This is a bundle of physical animated spell reference cards, which counts as a gaming accessory and not a rulebook, adventure or supplement. The page also prices it in CAD, but the deal claims USD."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does show a 25% discount, from $344.00 CAD to $258.00 CAD. Jev's history shows the usual price was already about 259 over 2 days, so the sale may be the permanent price. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$258.00 CAD",
+    "price_was_seen": "$344.00 CAD",
+    "reason": "This is a bundle of physical animated spell reference cards, which counts as a gaming accessory and not a rulebook, adventure or supplement. The page also prices it in CAD, but the deal claims USD.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-22"
+  },
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9",
+   "title": "BUNDLE: Animated Spells Level 6-9 - 5e 2014 D&D (Reference Cards)",
+   "shop": "Hit Point Press",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 25% sale ($129.00 CAD, was $172.00 CAD), but the product is a set of animated 5e spell reference cards, which may count as an accessory rather than a book or supplement, and the prices are in CAD while the deal says USD."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Price history shows a usual price of about 130 (2 days seen), so the $172 regular price may be inflated. The page shows no end date. No AI-directed instructions were found on the page.",
+    "price_now_seen": "$129.00 CAD",
+    "price_was_seen": "$172.00 CAD",
+    "reason": "The page shows a real 25% sale ($129.00 CAD, was $172.00 CAD), but the product is a set of animated 5e spell reference cards, which may count as an accessory rather than a book or supplement, and the prices are in CAD while the deal says USD.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-22"
+  },
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/complete-set-of-animated-spells-level-0-5-things",
+   "title": "BUNDLE: Animated Spells Level 0-5 + Things - 5e 2014 D&D (Reference Cards)",
+   "shop": "Hit Point Press",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: This is a set of animated D&D spell reference cards, which is an accessory and not a rulebook, adventure or supplement; the page prices are in CAD, not the claimed USD; and the usual price in history is about 317, so the 27% off is not a real discount."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Page text is plain product info with no instructions aimed at AI. No end date is shown.",
+    "price_now_seen": "$315.00 CAD",
+    "price_was_seen": "$430.00 CAD",
+    "reason": "This is a set of animated D&D spell reference cards, which is an accessory and not a rulebook, adventure or supplement; the page prices are in CAD, not the claimed USD; and the usual price in history is about 317, so the 27% off is not a real discount.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-22"
+  },
+  {
+   "job": "recheck",
+   "key": "https://koboldpress.com/kpstore/product/cities-towns-complete-bundle/",
+   "title": "Cities & Towns Complete Bundle",
+   "shop": "Kobold Press",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date. The price text was in the page's screen-reader spans, not a struck-through element. The page contained no text addressed to AI.",
+    "price_now_seen": "$74.99",
+    "price_was_seen": "$98.89",
+    "reason": "The Kobold Press store page shows a Sale! badge, with the original price at $98.89 and the current price at $74.99. It is filed under Dungeons & Dragons 5.5E, Tales of the Valiant, Player Options and Maps, so it is a tabletop RPG supplement bundle.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-22"
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/12531/rappan-athuk-reloaded-map-book",
+   "title": "Rappan Athuk Reloaded Map Book",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/56587/sundered-skies-figure-flats",
+   "title": "Sundered Skies - Figure Flats",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/56789/daring-tales-of-adventure-figure-flats",
+   "title": "Daring Tales of Adventure: Figure Flats",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/60232/tabletop-heroes-age-of-piracy-british-sailors",
+   "title": "Tabletop Heroes: Age of Piracy - British Sailors",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/86582/hellfrost-calendar",
+   "title": "Hellfrost Calendar",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/138998/hellfrost-action-deck",
+   "title": "Hellfrost Action Deck",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/188204/daring-tales-of-adventure-codex",
+   "title": "Daring Tales of Adventure Codex",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/228546/potion-generator",
+   "title": "Potion Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/230432/book-generator",
+   "title": "Book Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/236789/the-synthetics-1",
+   "title": "The Synthetics #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/247783/rappan-athuk-map-folio",
+   "title": "Rappan Athuk Map Folio",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/248969/dream-generator",
+   "title": "Dream Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/251291/foe-generator",
+   "title": "Foe Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/292918/remnant-rpg-tools-all-in-one",
+   "title": "Remnant RPG Tools, All-in-One",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/304446/tegel-manor-deed",
+   "title": "Tegel Manor Deed",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/318479/hudson-brand-flats",
+   "title": "Hudson & Brand Flats",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/345769/tome-of-horrors-2020-cards-deck-one",
+   "title": "Tome of Horrors 2020 Cards Deck ONE",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/345772/tome-of-horrors-2020-cards-deck-two",
+   "title": "Tome of Horrors 2020 Cards Deck TWO",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/345900/tome-of-horrors-2020-cards-deck-three",
+   "title": "Tome of Horrors 2020 Cards Deck THREE",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/364432/the-tessellation-1",
+   "title": "The Tessellation #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/385181/necropolis-virtual-tabletop-maps-and-tokens-vtt",
+   "title": "Necropolis Virtual Tabletop Maps And Tokens (VTT)",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/395940/ironclads-british-fleet-manual",
+   "title": "Ironclads British Fleet Manual",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/395941/ironclads-american-fleet-manual",
+   "title": "Ironclads American Fleet Manual",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/395942/ironclads-german-fleet-manual",
+   "title": "Ironclads German Fleet Manual",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/399250/generateur-de-pointcrawl-exterieurs",
+   "title": "Générateur de Pointcrawl - Extérieurs",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/414424/constructing-fight-scenes-for-rpg-gamemasters",
+   "title": "Constructing Fight Scenes for RPG Gamemasters",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+   "title": "Prophecy Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/446518/frigorifique",
+   "title": "Frigorifique",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+   "title": "Space Bar Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/470605/nemot-rising-1",
+   "title": "Nemot Rising #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/480483/sandbox-generator-francais",
+   "title": "Sandbox Generator (français)",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/483574/nemot-rising-3",
+   "title": "Nemot Rising #3",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/489696/sandbox-generator-polski",
+   "title": "Sandbox Generator (polski)",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/495880/sandbox-generator-polski-roszerzenie-terenow",
+   "title": "Sandbox Generator (polski) - Roszerzenie Terenow",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/497505/sandbox-generator-francais-extension-biomes",
+   "title": "Sandbox Generator (français) - Extension Biomes",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/511224/sandbox-generator-francais-extension-factions",
+   "title": "Sandbox Generator (français) - Extension Factions",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/515448/landscapes-of-the-lost-soul",
+   "title": "Landscapes of the Lost Soul",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/517645/northwest-nightmares",
+   "title": "Northwest Nightmares",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/523852/battlewords-crafting-vivid-combat-for-rpg-gamemasters",
+   "title": "Battlewords: Crafting Vivid Combat for RPG Gamemasters",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/531552/the-pirate-queen-s-wrath",
+   "title": "The Pirate Queen's Wrath",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/540415/mistress-of-the-woods",
+   "title": "Mistress of the Woods",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/557672/sandbox-generator-urban-expansion",
+   "title": "Sandbox Generator - Urban Expansion",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/563068/which-came-first",
+   "title": "Which Came First?",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/567215/martian-comics-36",
+   "title": "Martian Comics #36",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/572468/sandbox-generator-francais-extension-points-de-repere",
+   "title": "Sandbox Generator (français) - Extension Points de repère",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/574578/helix-dust",
+   "title": "Helix Dust",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/578275/the-horizons-of-khera-1",
+   "title": "The Horizons of Khera #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms",
+   "title": "Big Damn Sci-Fi Field Forms",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/588434/the-ones-who-hound-him-in-the-dark",
+   "title": "The Ones Who Hound Him in the Dark",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/animated-spells-master-collection-for-roll20-vtt",
+   "title": "DIGITAL Animated Spells Master Collection - (Roll20 Key, VTT)",
+   "shop": "Hit Point Press",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real sale (58% off, regular price struck through) on a Roll20 VTT card and token bundle for D&D 5e, but both prices are in CAD and the deal record says USD."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$51.00 CAD",
+    "price_was_seen": "$122.00 CAD",
+    "ends_seen": null,
+    "reason": "The page shows a real sale (58% off, regular price struck through) on a Roll20 VTT card and token bundle for D&D 5e, but both prices are in CAD and the deal record says USD.",
+    "notes": "The product is a digital VTT asset pack, which is in scope, though it is not a rulebook. The sale has no end date. The currency is the problem: publishing it as USD would overstate the price by roughly a third. If the record is corrected to CAD, this should be publishable. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 14.5,
+    "turns": 2,
+    "cost_usd": 0.1183896,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://mouseholepress.itch.io/the-slow-knife",
+   "title": "The Slow Knife",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$6.00",
+    "price_was_seen": "$12.00",
+    "ends_seen": null,
+    "reason": "The page calls itself a roleplaying game (Genre: Role Playing) and shows '50% Off' with $12.00 struck to $6.00 under the 'Halloween Sale 2026' banner; the sale end date of 2026-11-04 is not shown on the page.",
+    "notes": "The Slow Knife is a card-based story game, which the page describes as 'a roleplaying game'. The 'Role Playing' genre tag and the rules-lite, GM-less format make it a tabletop RPG, though a borderline one. The page offers it as a digital download. The physical copy is sold out. The 'Get this game and 1 more for $12.00' bundle line is separate from the single-game price. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 9.4,
+    "turns": 2,
+    "cost_usd": 0.07086809999999999,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://longgames.itch.io/24-hour-crime-scene",
+   "title": "24 Hour Crime Scene",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$6.60",
+    "price_was_seen": "$11.00",
+    "ends_seen": null,
+    "reason": "The page shows a tabletop role-playing game (genre Role Playing, 1-4 players, pens and cards needed) at $6.60 against $11.00 under 'On Sale! 40% Off' in the Halloween Sale 2026.",
+    "notes": "The page shows no end date; the claimed end date 2026-11-04 is not confirmed by the page. The Halloween Sale 2026 bundle link is shown on the page. No text addressed to AI was found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 12.5,
+    "turns": 2,
+    "cost_usd": 0.0717332,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://pizzapranks.itch.io/indiepocalypse-35",
+   "title": "Indiepocalypse #35",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page confirms a 34% off sale from $15.00 to $9.90, but the product is a mixed indie video game and zine bundle (Windows downloads, with only two tabletop RPG items out of ten), so it is not a tabletop RPG product."
+   ],
+   "agent": {
+    "verdict": "drop",
+    "price_now_seen": "$9.90",
+    "price_was_seen": "$15.00",
+    "ends_seen": null,
+    "reason": "The page confirms a 34% off sale from $15.00 to $9.90, but the product is a mixed indie video game and zine bundle (Windows downloads, with only two tabletop RPG items out of ten), so it is not a tabletop RPG product.",
+    "notes": "Genre is listed as Adventure and the platform is Windows. The page does not show the sale end date of 2026-11-04. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.5,
+    "turns": 2,
+    "cost_usd": 0.0683972,
+    "error": null,
+    "hook_blocked": false
+   }
+  }
+ ],
+ "counts": {
+  "jobs_found": 58,
+  "already_done": 0,
+  "run_now": 53,
+  "reused_from_memory": 5,
+  "published_by_agent": 3,
+  "needs_owner": 51
+ }
+}
