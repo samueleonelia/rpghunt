@@ -8,18 +8,24 @@ A game with no sale, or a sale rate of 0 ("[0% Off]" in the feed), is NOT a deal
 A 0% game that sits inside an itch sale page (/s/<id>/...) is read as one bundle deal
 ("Buy everything for $X! Regularly $Y"), once per sale id.
 """
+import concurrent.futures
 import html
 import json
 import logging
 import re
+import threading
 import urllib.parse
 import xml.etree.ElementTree as ET
 
-from scraper.common import FetchError, fetch, fetch_json, is_discount, make_deal, money, norm_url
+from scraper.common import ROOT, FetchError, fetch, fetch_json, is_discount, make_deal, money, norm_url
 
 log = logging.getLogger(__name__)
 
 SOURCE = "itch-data"
+WORKERS = 8           # games read at once (different creator sites)
+# A game's page facts (was price, currency, seller) are kept while its sale and price stay the same, so an
+# unchanged game costs one small data.json call a day instead of two. Games no longer in the feeds drop out.
+PAGE_CACHE = ROOT / "data" / "deals" / "itch-pages.json"
 CURRENCY_SYMBOLS = {"$": "USD", "€": "EUR", "£": "GBP"}
 
 _LD_RE = re.compile(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', re.S)
@@ -165,21 +171,39 @@ def _subdomain(url):
     return host.split(".")[0] if host.endswith(".itch.io") else host
 
 
-def _feed_items(shop):
-    """All feed items, de-duplicated across feeds, in first-seen order."""
-    seen, items = set(), []
+MAX_FEED_PAGES = 500     # per feed: a runaway guard only (itch has ~40 pages of TTRPG sales); reported when hit
+
+
+def _feed_items(shop, stats=None):
+    """All feed items over every page of every feed (?page=2, 3... until a page is empty or repeats),
+    de-duplicated across feeds, in first-seen order."""
+    stats = {} if stats is None else stats
+    seen, items, stopped = set(), [], []
     for feed in (shop.get("recipe") or {}).get("feeds") or []:
-        try:
-            parsed = parse_feed(fetch(feed).body)
-        except (FetchError, ET.ParseError) as e:
-            log.warning("itch feed failed: %s (%s)", feed, e)
-            continue
-        for it in parsed:
-            key = norm_url(it["url"])
-            if key not in seen:
-                seen.add(key)
-                it["feed"] = feed
-                items.append(it)
+        for page in range(1, MAX_FEED_PAGES + 1):
+            url = feed if page == 1 else f"{feed}{'&' if '?' in feed else '?'}page={page}"
+            try:
+                parsed = parse_feed(fetch(url).body)
+            except (FetchError, ET.ParseError) as e:
+                log.warning("itch feed failed: %s (%s)", url, e)
+                if page > 1 and not (isinstance(e, FetchError) and e.kind == "dead"):
+                    stopped.append(f"{feed} page {page} could not be read; later pages were skipped")
+                break
+            fresh = 0
+            for it in parsed:
+                key = norm_url(it["url"])
+                if key not in seen:
+                    seen.add(key)
+                    it["feed"] = feed
+                    items.append(it)
+                    fresh += 1
+            if not fresh:                    # an empty page (or one that repeats) is the end of the listing
+                break
+        else:
+            stopped.append(f"{feed} stopped at the {MAX_FEED_PAGES}-page safety limit; more pages may exist")
+    if stopped:
+        stats["stopped_early"] = "; ".join(stopped)
+    stats["items_read"] = len(items)
     return items
 
 
@@ -220,9 +244,34 @@ def _bundle_deal(shop, sale_url, sale_id, end_date, currency, game_item, bundle)
 
 
 def read(shop):
-    deals = []
+    return read_with_stats(shop)[0]
+
+
+def read_with_stats(shop):
+    """-> (deals, stats). stats: items_read (games in the sale feeds), stopped_early when a limit was hit.
+    Games are read WORKERS at a time: each creator is its own *.itch.io site, and fetch() keeps every
+    site polite. Deals keep the feed order."""
+    stats = {}
+    items = _feed_items(shop, stats)
+    try:
+        cache = json.loads(PAGE_CACHE.read_text())
+    except (OSError, ValueError):
+        cache = {}
+    fresh_cache = {}
     sale_state = {}     # sale id -> "done", or the number of failed tries (a 429 gets one more try from the next game)
-    for item in _feed_items(shop):
+    lock = threading.Lock()
+
+    def claim(sale_id):
+        """True when this thread should read the sale page for sale_id (one at a time per sale)."""
+        with lock:
+            state = sale_state.get(sale_id, 0)
+            if state == "done" or state == "busy" or state >= 2:
+                return False
+            sale_state[sale_id] = "busy"
+            sale_state[f"{sale_id}:tries"] = state + 1
+            return True
+
+    def one(item):
         url = item["url"].rstrip("/")
         try:
             gd = None
@@ -233,28 +282,43 @@ def read(shop):
             page = None
             if gd is not None:
                 if not gd["sale_id"]:
-                    continue                                   # no sale at all
+                    return None                                # no sale at all
                 if gd["rate"] == 0:                            # "[0% Off]": only discounted inside a bundle/sale page
-                    state = sale_state.get(gd["sale_id"], 0)
-                    if state == "done" or state >= 2:
-                        continue
-                    sale_state[gd["sale_id"]] = state + 1      # counts as a failed try until it finishes
-                    page = _text(url)
-                    link = find_sale_link(page, gd["sale_id"])
-                    if link:
-                        bundle = parse_bundle_page(_text(link))
-                        if bundle:
-                            d = _bundle_deal(shop, link, gd["sale_id"], gd["end_date"],
-                                             parse_game_page(page)["currency"], item, bundle)
-                            if d:
-                                deals.append(d)
-                    sale_state[gd["sale_id"]] = "done"
-                    continue
-            page = page or _text(url)
-            facts = parse_game_page(page)
-            d = _sale_deal(shop, item, gd, facts)
-            if d:
-                deals.append(d)
+                    if not claim(gd["sale_id"]):
+                        return None
+                    done = False
+                    try:
+                        page = _text(url)
+                        link = find_sale_link(page, gd["sale_id"])
+                        d = None
+                        if link:
+                            bundle = parse_bundle_page(_text(link))
+                            if bundle:
+                                d = _bundle_deal(shop, link, gd["sale_id"], gd["end_date"],
+                                                 parse_game_page(page)["currency"], item, bundle)
+                        done = True
+                        return d
+                    finally:
+                        with lock:                             # a failed try lets a later game retry the sale
+                            sale_state[gd["sale_id"]] = "done" if done else sale_state[f"{gd['sale_id']}:tries"]
+            hit = cache.get(url)
+            if page is None and gd and hit and hit["sale_id"] == gd["sale_id"] and hit["price"] == gd["price"]:
+                facts = hit["facts"]                           # same sale, same price: the page has not changed
+            else:
+                facts = parse_game_page(page or _text(url))
+            if gd and gd["sale_id"]:
+                with lock:
+                    fresh_cache[url] = {"sale_id": gd["sale_id"], "price": gd["price"], "facts": facts}
+            return _sale_deal(shop, item, gd, facts)
         except FetchError as e:
             log.warning("itch item failed: %s (%s)", url, e)
-    return deals
+            return None
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, min(WORKERS, len(items)))) as pool:
+        deals = [d for d in pool.map(one, items) if d]
+    stats["pages_from_cache"] = sum(1 for u, v in fresh_cache.items() if cache.get(u) == v)
+    try:
+        PAGE_CACHE.write_text(json.dumps(fresh_cache, ensure_ascii=False) + "\n")
+    except OSError:
+        pass
+    return deals, stats

@@ -1,38 +1,41 @@
 # STATUS: RPG Hunt (rpgArchive)
 
-_Updated: 2026-10-22 · branch main_
+_Updated: 2026-10-27 · branch main_
 
 <!-- Rewrite this file in place. Never append. History belongs in DEVLOG.md. Keep under 60 lines. -->
 
-**What this is:** A daily list of tabletop RPG deals, collected and verified by AI agents, English first.
+**What this is:** A daily list of tabletop RPG deals, collected and verified by AI agents, English products only for now.
 
-**Right now:** Live at https://samueleonelia.github.io/rpghunt/ with 311 checked deals. A Mac background job runs the whole day at 07:30 (on wake if asleep): reads, checks, publishes, pushes, notifies you. Launch checklist: https://claude.ai/artifact/UYzdxWJQE8Z2cbNRbFUrX3
+**Right now:** Live at https://samueleonelia.github.io/rpghunt/ with 455 checked deals (27 Oct). From 28 Oct the 07:30 run also looks for new sellers by itself (news feeds and Wikipedia) and reads every itch.io sale page (about 1,500 deals instead of 94).
 
 ## Feature areas
 | Area | State | Note |
 |---|---|---|
-| Live site | ✅ working | new homepage, paging, bot page; 311 deals |
-| Deal alerts form | 🚧 building | wired to Kit form 10082554; needs one real test signup |
-| Shop readers (47 shops) | ✅ working | about 11 min; limits reported when hit |
-| New-sale rule | ✅ working | not on sale at the last read = new sale; partial-read guard |
-| Jev check + memory | ✅ working | only new or changed deals are paid for |
-| Browsing agent | ✅ working | runs from a normal terminal or launchd, not inside Claude |
-| Go-live + alerts | ✅ working | `daily --go-live --notify` |
-| Daily schedule | ✅ working | launchd `com.samueleonelia.rpghunt-daily` 07:30; log `~/claudeCode/logs/rpghunt-daily.log` |
+| Live site | ✅ working | paging, bot page; 455 deals |
+| Finding new sellers | 🚧 first real day 28 Oct | 15 English RPG news feeds + Wikipedia RPG publishers/designers; no daily cap |
+| Shop readers | ✅ working | 47 shops + new ones found daily |
+| itch.io (indie authors) | 🚧 first real day 28 Oct | all sale pages, page cache; ~40 min on day 1 |
+| English-only rule | ✅ working | non-English titles dropped |
+| New-sale rule, Jev check, memory | ✅ working | only new or changed deals are paid for |
+| Browsing agent | ✅ working | runs from launchd |
+| Daily schedule | ✅ working | launchd 07:30; start-up catch-up written, not installed |
 | Sites that block us | ✅ working | `data/shops/blocked-sites.json`, never bypassed |
-| GameNerdz | ✅ working | embedded listing data, no browser; hidden cart prices skipped |
-| DMsGuild | ❌ closed | its API is DriveThruRPG's catalog; own deals unreachable without bypassing |
+| Deal alerts form | 🚧 building | Kit form; needs one real test signup |
+| DMsGuild | ❌ closed | same catalog as DriveThruRPG |
 | Amazon deals | ❌ broken | needs Amazon API (Associates account) |
 | Custom domain | 🚧 building | rpghunt.com not bought |
 
 ## Next up
-1. Test signup on the live form with your email; confirm it lands in Kit
-2. Check tomorrow's 07:30 run: notification and `~/claudeCode/logs/rpghunt-daily.log`
+1. Check the 28 Oct report: "Leads and new sellers", "New shops", cost, run time
+2. Stores on other platforms (BigCommerce, Squarespace, custom carts): found but not readable yet
+3. Remember answers to "Needs your check" (the same questions come back daily)
 
 ## Known issues
-- About 20 unsure DriveThruRPG deals a day go to "Needs your check" (the agent can't open the DriveThruRPG website).
-- Hit Point Press lowers prices by $1 daily: about 8 re-checks a day.
-- Deals on sale before 19 Oct (baseline) show only if their price changes or EN World names them.
+- Same "Needs your check" questions every day (about 30 to 50, mostly DriveThruRPG, which the agent cannot open).
+- 5 shops read nothing daily (Demiplane, Fanatical, Massif Press, Roll20, Monkey's Paw); weekly recipe retries fail.
+- Modiphius US is set to GBP (it sells in USD).
+- A day the Mac is off at 07:30 has no run until the new LaunchAgent is installed.
 
 ## Blocked on you
+- OK to reinstall the LaunchAgent with the start-up catch-up
 - Buy rpghunt.com; Amazon Associates and DriveThruRPG affiliate accounts

@@ -426,3 +426,34 @@
 - User: OK to install the daily schedule; OK (or not) to download Scrapling's browser for GameNerdz; one real test signup on the live form.
 - GameNerdz (later the same day): a helper agent found the listing's product data embedded in the plain HTML (`window.bodl`, base64 JSON). New `scraper/readers/bigcommerce.py`: 28 pages, 823 items, about 135 visible deals; 624 "(Add to cart to see price)" items skipped (cart is robots-disallowed). No browser download needed. Its first day counts as its baseline.
 - Schedule installed with the user's OK: `~/Library/LaunchAgents/com.samueleonelia.rpghunt-daily.plist` (copy of `scripts/`), loaded with launchctl. Test run through launchd: 47 shops plus GameNerdz, 311 deals, go-live committed and pushed by itself (commit "Daily run 2026-10-22"), 10.4 minutes, exit 0. 32 items in "Needs your check" (unsure DriveThruRPG deals; the agent cannot open that website).
+
+## 2026-10-23 to 2026-10-27: Monitor reports
+
+**Status:** daily runs healthy on 23, 24, 25 and 27 Oct (313, 286, 332, 455 deals; $0.00 to $0.68). No run on 26 Oct: the Mac was switched off at 07:30 (launchd catches up after sleep, not after shutdown).
+- Found: the same "Needs your check" questions come back every day (answers are not remembered); 5 shops read 0 items every day; Modiphius US set to GBP; 53 of 54 shops typed in by hand; the shop finder read only EN World and was capped at 10 new shops a day.
+
+## 2026-10-27: RPG Hunt finds sellers by itself
+
+**Status:** branch `shop-discovery` merged into `main`, not pushed by hand: the 07:30 run pushes it with the day's deals. The new LaunchAgent (catch-up at start-up) is written in `scripts/` but NOT installed: waits for the user's OK.
+
+**Done**
+- Goal from the user: every day RPG Hunt looks for shops, publishers and authors, reads their deals, and shows them. "I don't want a set list of shops." English products only for now.
+- Discovery (`scraper/discover.py`, sources in `data/shops/lead-feeds.json`): 15 English RPG news feeds (every post of the last 3 days is opened, its outbound links become seller leads) plus English Wikipedia's RPG publisher and designer categories (each article's infobox website; cached 30 days in `data/shops/directory-cache.json`).
+- A seller lead is added only when it leads to a web store (Shopify, WooCommerce, itch) selling English tabletop RPGs (`detect.find_seller`, `detect.rpg_store`): a home page is searched for its shop link; sellers who only use DriveThruRPG or itch are already covered; at least 3 RPG products and 10% of the catalogue (1 product and 2% for listed RPG publishers); video games, comics, clothing, paints and merch do not count.
+- No daily caps: the 10-shops and 25-probes a day limits are gone; one safety limit of 20,000 probes, reported in the daily report when hit. 8 sites probed at once.
+- Seller leads never count as missed deals (`missed.py` reads only sale roundups).
+- itch.io: every page of the sale feeds (was page 1 only): 1,542 deals instead of 94 in a test read (42 min). Games read 8 at a time; a game's page is cached while its sale and price stay the same (`data/deals/itch-pages.json`, gitignored), so later days cost one small call per game.
+- English only: `check.not_english` drops titles in another language (14 of 6,516 deals today, all correct; 5 were on the site).
+- Daily report: "Leads and new sellers" line (sources, unknown sites, checked, added) and the discovery safety limit.
+- Schedule: `scripts/daily-scheduled.sh` skips when today's "Daily run" commit exists; the plist adds RunAtLoad so a day the Mac was off at 07:30 runs at start-up.
+- Trial (no saving): 18 sources, 136 unknown sites checked in 18 min (Wikipedia read once), 4 RPG stores accepted (Sly Flourish, Tabletop Gaming, Paradigm Concepts, Bully Pulpit Games); The Army Painter, Limited Run Games, Dark Horse, Margaret Weis (novels) rejected.
+- Tests: 310 pass.
+
+**Decisions**
+- Wikidata not used: its robots.txt disallows bots on the query service and the API (good-bot rule). Reddit's robots.txt blocks all bots too.
+- Italian side session stopped by the user (a hand list of Italian shops is still a set list).
+
+**Next**
+- 2026-10-28 07:30: first real day with discovery and the full itch read. Expect about 1 hour and many new itch deals; check the report's "Leads and new sellers", "New shops" and cost.
+- User: OK to reinstall the LaunchAgent with the start-up catch-up.
+- Later: stores on other platforms (BigCommerce, Squarespace, custom carts) are found but not readable yet (62 "no web store found" in the trial); Gumroad as a seller marketplace.

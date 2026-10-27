@@ -2,7 +2,8 @@
 
 python -m scraper.missed [--date D] [--no-fetch]
 
-Takes the leads from data/deals/leads-<date>.json that sit on a shop we know, keeps the ones that look
+Takes the sale-roundup leads (purpose "deals"; seller leads from RPG news and directories are only for
+finding new shops) from data/deals/leads-<date>.json that sit on a shop we know, keeps the ones that look
 like a product or bundle page, and compares them with today's raw run (data/deals/raw/<date>-scraper.json):
 same URL (collections prefix and www ignored), or same shop and the link text's words all in a deal title.
 A lead with no match is a miss and gets a reason guess:
@@ -160,6 +161,8 @@ def triage(leads, shops, raw, scrape_rows):
     by_key, by_host = index_raw(raw)
     misses, matched = [], 0
     for lead in leads:
+        if lead.get("purpose", "deals") != "deals":
+            continue                                      # a seller lead: news mention, not a sale claim
         shop = by_id.get(lead.get("shop_id"))
         if shop is None:
             continue                                      # an unknown site: nothing to compare with

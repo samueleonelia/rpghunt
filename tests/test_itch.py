@@ -1,6 +1,7 @@
 """itch reader: parsing on saved pages, and read() with the network replaced by fixtures."""
 import json
 import pathlib
+import tempfile
 import unittest
 from unittest import mock
 
@@ -19,6 +20,20 @@ BUNDLE = "https://itch.io/s/204632/weird-science-bundle"
 
 def read_fix(name):
     return (FIX / name).read_text()
+
+
+_cache_patch = None
+
+
+def setUpModule():
+    """Tests never touch the real page cache in data/deals/."""
+    global _cache_patch
+    _cache_patch = mock.patch.object(itch, "PAGE_CACHE", pathlib.Path(tempfile.mkdtemp()) / "itch-pages.json")
+    _cache_patch.start()
+
+
+def tearDownModule():
+    _cache_patch.stop()
 
 
 class FakeResp:
@@ -134,3 +149,53 @@ class ReadTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PagingTests(unittest.TestCase):
+    """itch shows 36 games per feed page: every page is read until one is empty or only repeats."""
+
+    def feed(self, *slugs):
+        items = "".join(f"<item><title>{s} [20% Off] [$1.00]</title><link>https://a.itch.io/{s}</link></item>" for s in slugs)
+        return f'<?xml version="1.0"?><rss version="2.0"><channel>{items}</channel></rss>'
+
+    def test_all_pages_are_read(self):
+        feed = "https://itch.io/physical-games/on-sale/tag-ttrpg.xml"
+        pages = {feed: self.feed("one", "two"), feed + "?page=2": self.feed("three"), feed + "?page=3": self.feed()}
+        calls = []
+
+        def fetch(url):
+            calls.append(url)
+            return FakeResp(pages[url])
+        stats = {}
+        with mock.patch.object(itch, "fetch", fetch):
+            items = itch._feed_items({"recipe": {"feeds": [feed]}}, stats)
+        self.assertEqual([i["url"] for i in items], [f"https://a.itch.io/{s}" for s in ("one", "two", "three")])
+        self.assertEqual(calls, [feed, feed + "?page=2", feed + "?page=3"])
+        self.assertEqual(stats, {"items_read": 3})
+
+    def test_safety_limit_is_reported(self):
+        feed = "https://itch.io/x.xml"
+        n = iter(range(10 ** 6))
+        with mock.patch.object(itch, "fetch", lambda url: FakeResp(self.feed(f"g{next(n)}"))), \
+                mock.patch.object(itch, "MAX_FEED_PAGES", 3):
+            stats = {}
+            items = itch._feed_items({"recipe": {"feeds": [feed]}}, stats)
+        self.assertEqual(len(items), 3)
+        self.assertIn("safety limit", stats["stopped_early"])
+
+
+class PageCacheTests(unittest.TestCase):
+    def test_unchanged_game_skips_its_page_the_next_day(self):
+        pages = []
+
+        def counting_fetch(url):
+            pages.append(url)
+            return fake_fetch(url)
+        with mock.patch.object(itch, "fetch", counting_fetch), mock.patch.object(itch, "fetch_json", fake_fetch_json):
+            first = itch.read_with_stats(SHOP)
+            n = pages.count(WITCH)
+            second = itch.read_with_stats(SHOP)
+        self.assertEqual(n, 1)
+        self.assertEqual(pages.count(WITCH), 1)                     # day 2: data.json only, page from cache
+        self.assertEqual([d["price_was"] for d in first[0]], [d["price_was"] for d in second[0]])
+        self.assertGreaterEqual(second[1]["pages_from_cache"], 1)
