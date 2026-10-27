@@ -17,12 +17,15 @@ import threading
 import urllib.parse
 import xml.etree.ElementTree as ET
 
-from scraper.common import FetchError, fetch, fetch_json, is_discount, make_deal, money, norm_url
+from scraper.common import ROOT, FetchError, fetch, fetch_json, is_discount, make_deal, money, norm_url
 
 log = logging.getLogger(__name__)
 
 SOURCE = "itch-data"
 WORKERS = 8           # games read at once (different creator sites)
+# A game's page facts (was price, currency, seller) are kept while its sale and price stay the same, so an
+# unchanged game costs one small data.json call a day instead of two. Games no longer in the feeds drop out.
+PAGE_CACHE = ROOT / "data" / "deals" / "itch-pages.json"
 CURRENCY_SYMBOLS = {"$": "USD", "€": "EUR", "£": "GBP"}
 
 _LD_RE = re.compile(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', re.S)
@@ -250,6 +253,11 @@ def read_with_stats(shop):
     site polite. Deals keep the feed order."""
     stats = {}
     items = _feed_items(shop, stats)
+    try:
+        cache = json.loads(PAGE_CACHE.read_text())
+    except (OSError, ValueError):
+        cache = {}
+    fresh_cache = {}
     sale_state = {}     # sale id -> "done", or the number of failed tries (a 429 gets one more try from the next game)
     lock = threading.Lock()
 
@@ -293,12 +301,24 @@ def read_with_stats(shop):
                     finally:
                         with lock:                             # a failed try lets a later game retry the sale
                             sale_state[gd["sale_id"]] = "done" if done else sale_state[f"{gd['sale_id']}:tries"]
-            page = page or _text(url)
-            return _sale_deal(shop, item, gd, parse_game_page(page))
+            hit = cache.get(url)
+            if page is None and gd and hit and hit["sale_id"] == gd["sale_id"] and hit["price"] == gd["price"]:
+                facts = hit["facts"]                           # same sale, same price: the page has not changed
+            else:
+                facts = parse_game_page(page or _text(url))
+            if gd and gd["sale_id"]:
+                with lock:
+                    fresh_cache[url] = {"sale_id": gd["sale_id"], "price": gd["price"], "facts": facts}
+            return _sale_deal(shop, item, gd, facts)
         except FetchError as e:
             log.warning("itch item failed: %s (%s)", url, e)
             return None
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, min(WORKERS, len(items)))) as pool:
         deals = [d for d in pool.map(one, items) if d]
+    stats["pages_from_cache"] = sum(1 for u, v in fresh_cache.items() if cache.get(u) == v)
+    try:
+        PAGE_CACHE.write_text(json.dumps(fresh_cache, ensure_ascii=False) + "\n")
+    except OSError:
+        pass
     return deals, stats

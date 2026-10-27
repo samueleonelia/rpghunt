@@ -17,6 +17,11 @@
 		<string>/Users/samueleonelia/claudeCode/personal/rpgArchive/scripts/daily-scheduled.sh</string>
 	</array>
 
+	<!-- Also when the Mac starts up (or the job is loaded): a day the Mac was off at 07:30 still runs.
+	     The script skips when today's run is already committed. -->
+	<key>RunAtLoad</key>
+	<true/>
+
 	<!-- Every day at 07:30. If the Mac is asleep then, launchd runs it once when the Mac wakes. -->
 	<key>StartCalendarInterval</key>
 	<dict>

@@ -1,6 +1,7 @@
 """itch reader: parsing on saved pages, and read() with the network replaced by fixtures."""
 import json
 import pathlib
+import tempfile
 import unittest
 from unittest import mock
 
@@ -19,6 +20,20 @@ BUNDLE = "https://itch.io/s/204632/weird-science-bundle"
 
 def read_fix(name):
     return (FIX / name).read_text()
+
+
+_cache_patch = None
+
+
+def setUpModule():
+    """Tests never touch the real page cache in data/deals/."""
+    global _cache_patch
+    _cache_patch = mock.patch.object(itch, "PAGE_CACHE", pathlib.Path(tempfile.mkdtemp()) / "itch-pages.json")
+    _cache_patch.start()
+
+
+def tearDownModule():
+    _cache_patch.stop()
 
 
 class FakeResp:
@@ -167,3 +182,20 @@ class PagingTests(unittest.TestCase):
             items = itch._feed_items({"recipe": {"feeds": [feed]}}, stats)
         self.assertEqual(len(items), 3)
         self.assertIn("safety limit", stats["stopped_early"])
+
+
+class PageCacheTests(unittest.TestCase):
+    def test_unchanged_game_skips_its_page_the_next_day(self):
+        pages = []
+
+        def counting_fetch(url):
+            pages.append(url)
+            return fake_fetch(url)
+        with mock.patch.object(itch, "fetch", counting_fetch), mock.patch.object(itch, "fetch_json", fake_fetch_json):
+            first = itch.read_with_stats(SHOP)
+            n = pages.count(WITCH)
+            second = itch.read_with_stats(SHOP)
+        self.assertEqual(n, 1)
+        self.assertEqual(pages.count(WITCH), 1)                     # day 2: data.json only, page from cache
+        self.assertEqual([d["price_was"] for d in first[0]], [d["price_was"] for d in second[0]])
+        self.assertGreaterEqual(second[1]["pages_from_cache"], 1)

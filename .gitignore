@@ -59,4 +59,5 @@ data/deals/site-preview-*.json
 data/shops/agent-sandbox.json
 data/deals/agent-memory*.json
 data/deals/check-memory*.json
+data/deals/itch-pages.json
 !.env.example
