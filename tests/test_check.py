@@ -384,3 +384,17 @@ class SelectAndEstimate(Base):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class EnglishOnly(unittest.TestCase):
+    def test_other_languages_are_dropped_by_plain_rules(self):
+        for t in ("Sandbox Generator (polski)", "Sandbox Generator (français) - Extension Biomes",
+                  "Neon Goons of the Toxic Wasteland, version française", "Agonía: Guía del cazador",
+                  "Générateur de Pointcrawl - Extérieurs", "ドラゴン TRPG ルールブック"):
+            self.assertTrue(check.not_english(t), t)
+
+    def test_english_titles_with_odd_letters_stay(self):
+        for t in ("Mörk Borg Cult: Heretic", "Pokémon Tabletop Adventures", "Déjà Vu in the Dungeon",
+                  "The Ghosting of Lady Quay (5e)", "Rappan Athuk Expansion: Volume 1 (Swords and Wizardry)",
+                  "Café of the Damned", "Die Trying: A Solo Journal"):
+            self.assertIsNone(check.not_english(t), t)

@@ -1,9 +1,7 @@
 {
- "about": "Lead feeds: places where people post RPG sales. scraper/discover.py reads them, pulls every outbound link, and sorts the links by shop. Add a feed by adding an object to `feeds`. A feed can be RSS or Atom (detected automatically).",
+ "about": "Where RPG Hunt looks for deals and for new sellers. scraper/discover.py reads them every day. feeds: RSS/Atom; purpose 'deals' = sale roundups (also used to spot deals our readers missed), purpose 'sellers' = English RPG news and blogs whose outbound links may be shops or publishers we do not know yet. fetch_articles: true = open roundup posts only, 'all' = open every recent post (the RSS holds only a summary). directories: lists of RPG sellers (Wikidata SPARQL returning ?site and ?label). No daily caps: safety_max_probes_per_day and max_article_fetches_per_feed are runaway guards only, reported when hit.",
  "max_age_days": 14,
- "max_new_shops_per_day": 10,
- "max_detect_per_day": 25,
- "max_article_fetches_per_feed": 6,
+ "max_article_fetches_per_feed": 200,
  "article_title_patterns": [
   "freebies,? sales",
   "charity bundles?",
@@ -19,7 +17,143 @@
    "url": "https://www.enworld.org/ewr-porta/index.rss",
    "enabled": true,
    "fetch_articles": true,
+   "article_selector": ".message-body .bbWrapper",
+   "purpose": "deals"
+  },
+  {
+   "id": "enworld-news",
+   "url": "https://www.enworld.org/ewr-porta/index.rss",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
    "article_selector": ".message-body .bbWrapper"
+  },
+  {
+   "id": "rascal",
+   "url": "https://www.rascal.news/rss/",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "geeknative",
+   "url": "https://feeds.feedburner.com/GeekNative",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "tribality",
+   "url": "https://www.tribality.com/feed/",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "ttrpgkids",
+   "url": "https://www.ttrpgkids.com/feed/",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "gnomestew",
+   "url": "https://gnomestew.com/feed/",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "cannibal-halfling",
+   "url": "https://cannibalhalflinggaming.com/feed/",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "tenfootpole",
+   "url": "https://tenfootpole.org/ironspike/?feed=rss2",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "tabletopgaming",
+   "url": "https://www.tabletopgaming.co.uk/feed/",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "icv2",
+   "url": "https://icv2.com/rss",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "wargamer",
+   "url": "https://www.wargamer.com/mainrss.xml",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "gamingtrend",
+   "url": "https://gamingtrend.com/rss/",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "questingbeast",
+   "url": "https://questingbeast.substack.com/feed",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 7,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "boardgamewire",
+   "url": "https://boardgamewire.com/index.php/feed/",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 3,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
+  },
+  {
+   "id": "slyflourish",
+   "url": "https://slyflourish.com/index.xml",
+   "enabled": true,
+   "purpose": "sellers",
+   "fetch_articles": "all",
+   "max_age_days": 7,
+   "article_selector": "article .entry-content, .entry-content, .post-content, .article-content, .td-post-content, .gh-content, article, main"
   }
  ],
  "deny_domains": [
@@ -114,5 +248,36 @@
   ".mp3",
   ".zip",
   ".ico"
+ ],
+ "safety_max_probes_per_day": 20000,
+ "directories": [
+  {
+   "id": "wikidata-rpg-publishers",
+   "name": "Wikidata: publishers and developers of tabletop RPGs",
+   "type": "wikidata",
+   "enabled": true,
+   "query": "SELECT DISTINCT ?site ?label WHERE { ?game wdt:P31/wdt:P279* wd:Q1643932 . { ?game wdt:P123 ?org } UNION { ?game wdt:P178 ?org } ?org wdt:P856 ?site . OPTIONAL { ?org rdfs:label ?label FILTER(LANG(?label) = \"en\") } }"
+  },
+  {
+   "id": "wikidata-rpg-book-publishers",
+   "name": "Wikidata: publishers of RPG books and supplements",
+   "type": "wikidata",
+   "enabled": true,
+   "query": "SELECT DISTINCT ?site ?label WHERE { ?w wdt:P31/wdt:P279* wd:Q1137109 . ?w wdt:P123 ?org . ?org wdt:P856 ?site . OPTIONAL { ?org rdfs:label ?label FILTER(LANG(?label) = \"en\") } }"
+  },
+  {
+   "id": "wikidata-rpg-designers",
+   "name": "Wikidata: designers and authors of tabletop RPGs",
+   "type": "wikidata",
+   "enabled": true,
+   "query": "SELECT DISTINCT ?site ?label WHERE { ?game wdt:P31/wdt:P279* wd:Q1643932 . ?game wdt:P287|wdt:P50 ?p . ?p wdt:P856 ?site . OPTIONAL { ?p rdfs:label ?label FILTER(LANG(?label) = \"en\") } }"
+  },
+  {
+   "id": "wikidata-rpg-industry",
+   "name": "Wikidata: companies in the role-playing game industry",
+   "type": "wikidata",
+   "enabled": true,
+   "query": "SELECT DISTINCT ?site ?label WHERE { ?org wdt:P452 wd:Q1643932 . ?org wdt:P856 ?site . OPTIONAL { ?org rdfs:label ?label FILTER(LANG(?label) = \"en\") } }"
+  }
  ]
 }

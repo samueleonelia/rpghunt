@@ -195,6 +195,30 @@ def needs_offer_check(deal):
 
 # ---------------------------------------------------------------- decisions (pure code)
 
+# English products only for now (decided by the user 2026-10-27). Plain rules on the title, kept narrow so
+# an English title with a name like "Mörk Borg" or "Pokémon" stays in.
+_LANG_TAG = re.compile(
+    r"[\(\[]\s*(?:fran[cç]ais|french|deutsch|german|espa[nñ]ol|spanish|castellano|italiano|italian|polski|polish|"
+    r"portugu[eê]s|portuguese|brazilian|nederlands|dutch|svenska|swedish|norsk|dansk|suomi|русский|russian|"
+    r"japanese|日本語|ελληνικά|greek|catal[aà]|čeština|czech)\s*[\)\]]|"
+    r"\b(?:[ée]dition fran[cç]aise|version fran[cç]aise|deutsche ausgabe|edici[oó]n en espa[nñ]ol|edizione italiana)\b", re.I)
+_FOREIGN_WORDS = re.compile(r"\b(?:de|des|du|la|le|les|et|el|los|las|del|y|di|della|il|und|der|die|das|für|och|og)\b", re.I)
+_ACCENTS = "àâäáãåçéèêëíìîïñóòôöõúùûüœæß"
+
+
+def not_english(title):
+    """Reason when the title is clearly not English, else None."""
+    t = title or ""
+    if _LANG_TAG.search(t):
+        return f"not_english: the title names another language ({_LANG_TAG.search(t).group(0).strip()})"
+    letters = [c for c in t if c.isalpha()]
+    if letters and sum(ord(c) > 0x24F for c in letters) > 0.3 * len(letters):
+        return "not_english: the title is not in the Latin alphabet"
+    if sum(t.lower().count(a) for a in _ACCENTS) >= 2 and _FOREIGN_WORDS.search(t):
+        return "not_english: accented title with non-English words"
+    return None
+
+
 def code_check(deal, date):
     """Reason string when plain code already rejects the deal, else None."""
     now, was = deal.get("price_now"), deal.get("price_was")
@@ -207,7 +231,7 @@ def code_check(deal, date):
     # not a limited-time giveaway, whatever compare-at price the shop data carries.
     if now == 0 and re.search(r"\bfree\b", deal.get("title") or "", re.I):
         return "permanently_free: the shop names this product free"
-    return None
+    return not_english(deal.get("title"))
 
 
 SUSPECT_DISCOUNT = 95   # % off at or above this, with a price above 0, looks like a made-up normal price

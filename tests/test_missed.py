@@ -72,6 +72,10 @@ class Triage(unittest.TestCase):
         self.assertEqual(matched, 0)
         self.assertEqual([(m["reason"]) for m in misses], ["shop_blocked", "not_a_product_page", None])
 
+    def test_seller_leads_from_news_are_not_misses(self):
+        news = dict(lead("https://modiphius.net/products/something-new", "Something New", "modiphius"), purpose="sellers")
+        self.assertEqual(self.go([news]), ([], 0))
+
 
 class Pages(unittest.TestCase):
     def read(self, leads, page_info, **kw):

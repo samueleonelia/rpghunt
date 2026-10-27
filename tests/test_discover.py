@@ -204,12 +204,16 @@ class NewShops(unittest.TestCase):
                                               self.detector("unknown", "blocked"))
         self.assertEqual((added[0]["platform"], added[0]["status"]), ("unknown", "blocked"))
 
-    def test_cap_and_seen_and_id_clash(self):
+    def test_no_daily_cap_only_a_reported_safety_limit_and_seen_and_id_clash(self):
         leads = [self.lead(f"https://s{i}.example.com/products/x") for i in range(14)]
-        added, notes, seen = discover.find_new_shops(leads, SHOPS, {**CONFIG, "max_new_shops_per_day": 3}, DATE,
-                                                     self.detector("shopify"))
+        added, _, _ = discover.find_new_shops(leads, SHOPS, CONFIG, DATE, self.detector("shopify"))
+        self.assertEqual(len(added), 14)                     # no quota on new shops
+        stats = {}
+        added, notes, seen = discover.find_new_shops(leads, SHOPS, {**CONFIG, "safety_max_probes_per_day": 3}, DATE,
+                                                     self.detector("shopify"), stats=stats)
         self.assertEqual(len(added), 3)
-        self.assertTrue(any("cap" in n for n in notes.values()))
+        self.assertTrue(any("safety limit" in n for n in notes.values()))
+        self.assertEqual(stats["safety_limit_hit"], "3 probes a day")
         # a host judged "not a shop" yesterday is not probed again
         calls = []
 
@@ -270,3 +274,98 @@ class Run(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Sellers(unittest.TestCase):
+    """Seller leads (RPG news links, directory websites) must lead to a store that sells English RPGs."""
+
+    def lead(self, url, feed="wikidata-rpg-publishers"):
+        return {"url": url, "class": "new_shop", "feed": feed, "purpose": "sellers"}
+
+    def entry(self, url, platform):
+        host = url.split("//")[1].split("/")[0]
+        return {"id": host.split(".")[0], "name": host, "store_url": url, "platform": platform, "status": "active",
+                "currency": None, "recipe": {"api_base": url + "wp-json/wc/store/v1"} if platform == "woocommerce" else {},
+                "recipe_confirmed": None, "added": "x", "added_via": "seed list", "notes": None}
+
+    def test_store_links_on_a_home_page(self):
+        from scraper import detect
+        page = ('<a href="/about">About</a><a href="https://shop.acme-games.com/">Shop</a>'
+                '<a href="/store/">Buy our books</a><a href="https://www.drivethrurpg.com/browse/pub/1">PDFs</a>'
+                '<a href="https://twitter.com/acme">Twitter</a>')
+        links = detect.store_links(page, "https://acme-games.com")
+        self.assertEqual(links[0], "https://shop.acme-games.com/")
+        self.assertIn("https://acme-games.com/store/", links)
+        self.assertEqual(links[-1], "https://www.drivethrurpg.com/browse/pub/1")
+        self.assertNotIn("https://acme-games.com/about", links)
+
+    def test_rpg_store_needs_english_rpg_products(self):
+        from scraper import detect
+        shop = self.entry("https://acme.example.com/", "shopify")
+        rpg = {"products": [{"title": t, "product_type": "", "tags": []} for t in
+                            ("Core Rulebook", "Bestiary of the Deep", "GM Screen", "T-shirt", "Mug")]}
+        self.assertTrue(detect.rpg_store(shop, lambda u: rpg)[0])
+        socks = {"products": [{"title": t, "product_type": "Apparel", "tags": []} for t in ("Socks", "Hat", "Scarf")]}
+        self.assertFalse(detect.rpg_store(shop, lambda u: socks)[0])
+        japanese = {"products": [{"title": "ドラゴン TRPG ルールブック", "product_type": "", "tags": []}] * 5}
+        self.assertEqual(detect.rpg_store(shop, lambda u: japanese), (False, "products are not in English"))
+
+    def test_home_page_leads_to_its_shop(self):
+        from scraper import detect
+        products = {"products": [{"title": t, "product_type": "", "tags": []} for t in ("Core Rulebook", "Bestiary", "Quickstart")]}
+
+        def detector(url):
+            return self.entry(url, "shopify" if "shop." in url else "generic")
+        entry, why = detect.find_seller(detector("https://acme-games.com/"), "https://acme-games.com", detector,
+                                        get_json=lambda u: products,
+                                        get_page=lambda u: '<a href="https://shop.acme-games.com/">Shop</a>')
+        self.assertEqual(entry["store_url"], "https://shop.acme-games.com/")
+        self.assertIn("found by discovery", entry["notes"])
+
+    def test_seller_on_a_marketplace_we_read_is_not_added(self):
+        from scraper import detect
+        detector = lambda url: self.entry(url, "generic")
+        entry, why = detect.find_seller(detector("https://author.example.com/"), "https://author.example.com", detector,
+                                        get_page=lambda u: '<a href="https://www.drivethrurpg.com/browse/pub/9">Buy</a>')
+        self.assertIsNone(entry)
+        self.assertIn("drivethrurpg.com", why)
+
+    def test_find_new_shops_uses_the_seller_check(self):
+        calls = []
+
+        def seller(entry, origin, detector):
+            calls.append(origin)
+            return (entry, "3 of 3 products name RPG words") if "good" in origin else (None, "not an RPG store")
+        detector = lambda url: self.entry(url, "shopify")
+        added, notes, seen = discover.find_new_shops([self.lead("https://good.example.com/"), self.lead("https://bad.example.com/")],
+                                                     SHOPS, CONFIG, DATE, detector, seller=seller)
+        self.assertEqual([s["id"] for s in added], ["good"])
+        self.assertEqual(seen["bad.example.com"]["result"], "not a seller")
+        self.assertIn("not an RPG store", notes["bad.example.com"])
+        self.assertEqual(sorted(calls), ["https://bad.example.com", "https://good.example.com"])
+
+    def test_directory_rows_become_seller_leads(self):
+        body = json.dumps({"results": {"bindings": [
+            {"site": {"value": "https://acme-games.com/"}, "label": {"value": "Acme Games"}},
+            {"site": {"value": "https://www.youtube.com/acme"}},
+            {"site": {"value": "ftp://old.example.com"}}]}}).encode()
+        config = {**CONFIG, "directories": [{"id": "wd", "type": "wikidata", "query": "SELECT ?site WHERE {}"}]}
+        leads, rows = discover.collect_directories(config, DATE, lambda u: body)
+        self.assertEqual([(l["url"], l["link_text"], l["purpose"]) for l in leads], [("https://acme-games.com/", "Acme Games", "sellers")])
+        self.assertEqual(rows[0]["status"], "ok")
+
+    def test_dedupe_keeps_deals_purpose(self):
+        out = discover.dedupe([{"url": "https://a.example.com/products/x", "purpose": "sellers"},
+                               {"url": "https://a.example.com/products/x", "purpose": "deals"}])
+        self.assertEqual(out[0]["purpose"], "deals")
+
+
+class SellerFeeds(unittest.TestCase):
+    def test_a_news_site_links_to_itself_are_not_leads(self):
+        rss = ('<?xml version="1.0"?><rss version="2.0"><channel><item><title>New zine out</title>'
+               '<link>https://news.example.com/2026/10/zine</link><pubDate>Tue, 27 Oct 2026 08:00:00 GMT</pubDate>'
+               '<description>&lt;a href="https://news.example.com/tag/zines"&gt;more&lt;/a&gt; '
+               '&lt;a href="https://acme-games.com/shop/zine"&gt;buy&lt;/a&gt;</description></item></channel></rss>')
+        config = {**CONFIG, "feeds": [{"id": "news", "url": "https://news.example.com/feed/", "purpose": "sellers"}]}
+        leads, rows = discover.collect(config, "2026-10-27", lambda u: rss.encode())
+        self.assertEqual([(l["url"], l["purpose"]) for l in leads], [("https://acme-games.com/shop/zine", "sellers")])

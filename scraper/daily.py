@@ -184,6 +184,8 @@ def alerts(ctx, results, folder=REPORTS, blocked_path=None):
     if broken:
         out.append("Shops that look broken (deals collapsed): " + ", ".join(broken) + ".")
     limits = [r["id"] for r in scrape.get("shops", []) if r.get("stopped_early")]
+    if _read(folder / f"leads-{date}.json").get("safety_limit_hit"):
+        limits.append("finding new shops")
     if limits:
         out.append("Shops that hit a safety limit (may be missing deals): " + ", ".join(limits) + ".")
     sites = _read(blocked_path or common.BLOCKED_SITES)
@@ -320,9 +322,10 @@ def build_report(ctx, results, folder=REPORTS):
              f"{st.get('error', 0)} had errors. They gave {st.get('deals_unique', 0)} possible deals.")
     lc = leads.get("counts", {})
     feeds = leads.get("feeds", [])
-    L.append(f"2. **Leads:** {lc.get('leads', 0)} shop links from {len([f for f in feeds if f['status'] == 'ok'])} of "
-             f"{len(feeds)} feeds ({lc.get('known_shop', 0)} on shops we read, {lc.get('blocked_shop', 0)} on shops that block robots, "
-             f"{lc.get('new_shop', 0)} on unknown sites).")
+    L.append(f"2. **Leads and new sellers:** {lc.get('leads', 0)} links from {len([f for f in feeds if f['status'] == 'ok'])} of "
+             f"{len(feeds)} sources ({lc.get('known_shop', 0)} on shops we read, {lc.get('blocked_shop', 0)} on shops that block robots, "
+             f"{lc.get('new_shop', 0)} on unknown sites). {lc.get('new_sites', 0)} unknown sites, {lc.get('sites_probed', 0)} checked today "
+             f"(the rest were checked in the last 30 days), {lc.get('new_shops_added', 0)} new shops added.")
     mc = miss.get("counts", {})
     L.append(f"3. **Misses:** {mc.get('misses', 0)} leads were not in today's run; {mc.get('candidates', 0)} turned into candidate deals.")
     L.append(f"4. **Jev check:** {cc.get('deals_in', 0)} deals in, {cc.get('reused_from_memory', 0)} unchanged since an earlier run "
@@ -350,7 +353,8 @@ def build_report(ctx, results, folder=REPORTS):
     new = leads.get("new_shops", [])
     if new:
         for s in new:
-            L.append(f"- **{s['name']}** ({s['platform']}, {s['status']}){', needs a recipe' if s.get('needs_recipe') else ''}: {s['store_url']}")
+            L.append(f"- **{s['name']}** ({s['platform']}, {s['status']}){', needs a recipe' if s.get('needs_recipe') else ''}: "
+                     f"{s['store_url']}" + (f" (found via {s['added_via'].split()[1]})" if len(s.get("added_via", "").split()) > 1 else ""))
     else:
         L.append("None today.")
 
@@ -365,9 +369,11 @@ def build_report(ctx, results, folder=REPORTS):
     L += blocked_section(date)
 
     L += ["", "## Safety limits hit", ""]
-    if stopped:
+    if stopped or leads.get("safety_limit_hit"):
         for r in stopped:
             L.append(f"- **{r['id']}**: {r['stopped_early']}.")
+        if leads.get("safety_limit_hit"):
+            L.append(f"- **Finding new shops**: stopped at {leads['safety_limit_hit']}; the other sites wait for tomorrow.")
     else:
         L.append("None. Every shop was read to the end.")
 
