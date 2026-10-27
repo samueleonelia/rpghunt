@@ -244,8 +244,9 @@ class Run(unittest.TestCase):
                  "https://e/feed": (FIX / "enworld_rss.xml").read_bytes(),
                  "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-october-16-2026.1/":
                      (FIX / "enworld_article.html").read_bytes()}
-        config = {**CONFIG, "feeds": [{"id": "reddit", "url": "https://r/feed", "enabled": True},
-                                      {"id": "enworld", "url": "https://e/feed", "enabled": True, "fetch_articles": True}]}
+        config = {**CONFIG, "directories": [],
+                  "feeds": [{"id": "reddit", "url": "https://r/feed", "enabled": True},
+                            {"id": "enworld", "url": "https://e/feed", "enabled": True, "fetch_articles": True}]}
 
         def detector(origin):
             host = origin.split("//")[1].strip("/")
@@ -307,6 +308,9 @@ class Sellers(unittest.TestCase):
         self.assertTrue(detect.rpg_store(shop, lambda u: rpg)[0])
         socks = {"products": [{"title": t, "product_type": "Apparel", "tags": []} for t in ("Socks", "Hat", "Scarf")]}
         self.assertFalse(detect.rpg_store(shop, lambda u: socks)[0])
+        few = {"products": [{"title": t, "product_type": "", "tags": []} for t in ["HackMaster Player's Handbook"] + ["Board game"] * 40]}
+        self.assertFalse(detect.rpg_store(shop, lambda u: few)[0])
+        self.assertTrue(detect.rpg_store(shop, lambda u: few, known=True)[0])      # a listed RPG publisher
         japanese = {"products": [{"title": "ドラゴン TRPG ルールブック", "product_type": "", "tags": []}] * 5}
         self.assertEqual(detect.rpg_store(shop, lambda u: japanese), (False, "products are not in English"))
 
@@ -333,7 +337,7 @@ class Sellers(unittest.TestCase):
     def test_find_new_shops_uses_the_seller_check(self):
         calls = []
 
-        def seller(entry, origin, detector):
+        def seller(entry, origin, detector, known=False):
             calls.append(origin)
             return (entry, "3 of 3 products name RPG words") if "good" in origin else (None, "not an RPG store")
         detector = lambda url: self.entry(url, "shopify")
@@ -344,15 +348,34 @@ class Sellers(unittest.TestCase):
         self.assertIn("not an RPG store", notes["bad.example.com"])
         self.assertEqual(sorted(calls), ["https://bad.example.com", "https://good.example.com"])
 
-    def test_directory_rows_become_seller_leads(self):
-        body = json.dumps({"results": {"bindings": [
-            {"site": {"value": "https://acme-games.com/"}, "label": {"value": "Acme Games"}},
-            {"site": {"value": "https://www.youtube.com/acme"}},
-            {"site": {"value": "ftp://old.example.com"}}]}}).encode()
-        config = {**CONFIG, "directories": [{"id": "wd", "type": "wikidata", "query": "SELECT ?site WHERE {}"}]}
-        leads, rows = discover.collect_directories(config, DATE, lambda u: body)
-        self.assertEqual([(l["url"], l["link_text"], l["purpose"]) for l in leads], [("https://acme-games.com/", "Acme Games", "sellers")])
-        self.assertEqual(rows[0]["status"], "ok")
+    def test_wikipedia_category_becomes_seller_leads_and_is_cached(self):
+        W = "https://en.wikipedia.org/wiki/"
+        cat = ('<div id="mw-subcategories"><a href="/wiki/Category:Indie_role-playing_game_publishing_companies">Indie</a>'
+               '<a href="/wiki/Category:Games_Workshop">GW</a></div>'
+               '<div id="mw-pages"><li><a href="/wiki/Acme_Games" title="Acme Games">Acme</a></li>'
+               '<li><a href="/wiki/No_Site_Press" title="No Site Press">x</a></li></div>')
+        indie = '<div id="mw-pages"><li><a href="/wiki/Tiny_Press" title="Tiny Press">t</a></li></div>'
+        box = lambda url: (f'<table class="infobox vcard"><tr><th>Founded</th><td>1999</td></tr><tr><th scope="row">Website</th>'
+                           f'<td><span class="url"><a rel="nofollow" class="external text" href="{url}">site</a></span></td></tr></table>')
+        table = {W + "Category:Role-playing_game_publishing_companies": cat,
+                 W + "Category:Indie_role-playing_game_publishing_companies": indie,
+                 W + "Acme_Games": box("https://acme-games.com/"), W + "Tiny_Press": box("https://tiny.example.com"),
+                 W + "No_Site_Press": "<p>no infobox</p>"}
+        calls = []
+
+        def get(url):
+            calls.append(url)
+            return table[url].encode()
+        config = {**CONFIG, "directories": [{"id": "wp", "type": "wikipedia_category", "follow": "role-playing game publishing",
+                                             "categories": ["Category:Role-playing_game_publishing_companies"]}]}
+        cache = pathlib.Path(tempfile.mkdtemp()) / "cache.json"
+        leads, rows = discover.collect_directories(config, DATE, get, cache)
+        self.assertEqual(sorted((l["url"], l["link_text"], l["purpose"]) for l in leads),
+                         [("https://acme-games.com/", "Acme Games", "sellers"), ("https://tiny.example.com", "Tiny Press", "sellers")])
+        self.assertNotIn(W + "Category:Games_Workshop", calls)          # subcategory not followed
+        n = len(calls)
+        again, rows = discover.collect_directories(config, "2026-10-20", get, cache)
+        self.assertEqual((len(again), len(calls), rows[0]["cached_from"]), (2, n, DATE))   # cached: no new fetches
 
     def test_dedupe_keeps_deals_purpose(self):
         out = discover.dedupe([{"url": "https://a.example.com/products/x", "purpose": "sellers"},

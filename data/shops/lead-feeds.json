@@ -1,5 +1,5 @@
 {
- "about": "Where RPG Hunt looks for deals and for new sellers. scraper/discover.py reads them every day. feeds: RSS/Atom; purpose 'deals' = sale roundups (also used to spot deals our readers missed), purpose 'sellers' = English RPG news and blogs whose outbound links may be shops or publishers we do not know yet. fetch_articles: true = open roundup posts only, 'all' = open every recent post (the RSS holds only a summary). directories: lists of RPG sellers (Wikidata SPARQL returning ?site and ?label). No daily caps: safety_max_probes_per_day and max_article_fetches_per_feed are runaway guards only, reported when hit.",
+ "about": "Where RPG Hunt looks for deals and for new sellers. scraper/discover.py reads them every day. feeds: RSS/Atom; purpose 'deals' = sale roundups (also used to spot deals our readers missed), purpose 'sellers' = English RPG news and blogs whose outbound links may be shops or publishers we do not know yet. fetch_articles: true = open roundup posts only, 'all' = open every recent post (the RSS holds only a summary). directories: lists of RPG sellers (English Wikipedia categories; each article's infobox website). Wikidata is not used: its robots.txt disallows bots on the query service and API. No daily caps: safety_max_probes_per_day and max_article_fetches_per_feed are runaway guards only, reported when hit.",
  "max_age_days": 14,
  "max_article_fetches_per_feed": 200,
  "article_title_patterns": [
@@ -252,32 +252,24 @@
  "safety_max_probes_per_day": 20000,
  "directories": [
   {
-   "id": "wikidata-rpg-publishers",
-   "name": "Wikidata: publishers and developers of tabletop RPGs",
-   "type": "wikidata",
+   "id": "wikipedia-rpg-publishers",
+   "name": "Wikipedia: role-playing game publishing companies",
+   "type": "wikipedia_category",
    "enabled": true,
-   "query": "SELECT DISTINCT ?site ?label WHERE { ?game wdt:P31/wdt:P279* wd:Q1643932 . { ?game wdt:P123 ?org } UNION { ?game wdt:P178 ?org } ?org wdt:P856 ?site . OPTIONAL { ?org rdfs:label ?label FILTER(LANG(?label) = \"en\") } }"
+   "categories": [
+    "Category:Role-playing_game_publishing_companies"
+   ],
+   "follow": "role-playing game publishing companies"
   },
   {
-   "id": "wikidata-rpg-book-publishers",
-   "name": "Wikidata: publishers of RPG books and supplements",
-   "type": "wikidata",
+   "id": "wikipedia-rpg-designers",
+   "name": "Wikipedia: role-playing game designers",
+   "type": "wikipedia_category",
    "enabled": true,
-   "query": "SELECT DISTINCT ?site ?label WHERE { ?w wdt:P31/wdt:P279* wd:Q1137109 . ?w wdt:P123 ?org . ?org wdt:P856 ?site . OPTIONAL { ?org rdfs:label ?label FILTER(LANG(?label) = \"en\") } }"
-  },
-  {
-   "id": "wikidata-rpg-designers",
-   "name": "Wikidata: designers and authors of tabletop RPGs",
-   "type": "wikidata",
-   "enabled": true,
-   "query": "SELECT DISTINCT ?site ?label WHERE { ?game wdt:P31/wdt:P279* wd:Q1643932 . ?game wdt:P287|wdt:P50 ?p . ?p wdt:P856 ?site . OPTIONAL { ?p rdfs:label ?label FILTER(LANG(?label) = \"en\") } }"
-  },
-  {
-   "id": "wikidata-rpg-industry",
-   "name": "Wikidata: companies in the role-playing game industry",
-   "type": "wikidata",
-   "enabled": true,
-   "query": "SELECT DISTINCT ?site ?label WHERE { ?org wdt:P452 wd:Q1643932 . ?org wdt:P856 ?site . OPTIONAL { ?org rdfs:label ?label FILTER(LANG(?label) = \"en\") } }"
+   "categories": [
+    "Category:Role-playing_game_designers"
+   ],
+   "follow": "role-playing game designers"
   }
  ]
 }

@@ -7,6 +7,10 @@ straight to the shop and to the game's page in a catalog of RPGs behind it.
 Product truth lives in `PRODUCT.md` (written by Impeccable init).
 
 ## Decisions
+- 2026-10-27: **No set list of shops.** Every day the run looks for new sellers by itself (`scraper/discover.py`):
+  English RPG news feeds and Wikidata lists of RPG publishers/designers, listed in `data/shops/lead-feeds.json`.
+  A new site is added when it is a web store selling English tabletop RPGs. Add sources there, not shops by hand.
+- 2026-10-27: **English products only, for now** (user). Non-English titles are dropped by a plain rule (`check.not_english`).
 - 2026-10-16: pivot from pure archive to deals site, archive kept as the catalog behind the deals. English first, Italian later.
 - 2026-10-16: name is **RPG Hunt**, domain rpghunt.com (free when checked, not bought yet). "rpgpromo" rejected: rpgpromo.com is an active indie RPG promo site.
 - 2026-10-15: catalog scope is every RPG worldwide; agents fill it and auto-update on a schedule.

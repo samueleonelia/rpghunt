@@ -5,7 +5,8 @@ python -m scraper.discover [--date D] [--no-new-shops]
 Two kinds of source, both listed in data/shops/lead-feeds.json:
   feeds        RSS/Atom feeds. purpose "deals" (sale roundups such as EN World) or "sellers" (RPG news and
                blogs: every shop or publisher they link to is a possible new seller).
-  directories  lists of RPG sellers, e.g. Wikidata's tabletop RPG publishers and their websites.
+  directories  lists of RPG sellers: English Wikipedia's RPG publisher categories and each article's
+               official website (re-read every 30 days, cached in data/shops/directory-cache.json).
 Every outbound link is pulled out with code (no AI), links that can never be a shop are dropped (deny
 list in the same JSON), and the rest are sorted:
   known_shop    the link is on a shop we already read
@@ -276,40 +277,115 @@ def collect(config, date, fetch_bytes=None):
     return leads, report
 
 
-WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
+DIRECTORY_CACHE = ROOT / "data" / "shops" / "directory-cache.json"
+DIRECTORY_REFRESH_DAYS = 30       # a directory changes slowly: re-read it this often, not every day
+WIKIPEDIA = "https://en.wikipedia.org"
+_WIKI_LINK = re.compile(r'<li><a href="/wiki/([^"#:?]+)" title="([^"]*)"')
+_WIKI_SUBCAT = re.compile(r'href="/wiki/(Category:[^"#?]+)"')
+_INFOBOX = re.compile(r'<table class="infobox.*?</table>', re.S)
+_WEBSITE_ROW = re.compile(r'>\s*Website\s*</th>\s*<td[^>]*>(.*?)</td>', re.S | re.I)
+_HREF_EXT = re.compile(r'href="(https?://[^"]+)"')
 
 
-def collect_directories(config, date, fetch_bytes=None):
+def wiki_category(page):
+    """Category page -> ([(article, title)], [subcategory]). Only what the page shows: the next-page link
+    lives under /w/, which robots.txt does not allow."""
+    pages_part = page.split('id="mw-pages"', 1)[1] if 'id="mw-pages"' in page else ""
+    subs_part = page.split('id="mw-subcategories"', 1)[1].split('id="mw-pages"', 1)[0] if 'id="mw-subcategories"' in page else ""
+    return _WIKI_LINK.findall(pages_part), _WIKI_SUBCAT.findall(subs_part)
+
+
+def wiki_website(page):
+    """An article's official website from its infobox ("Website" row), or None."""
+    box = _INFOBOX.search(page or "")
+    if not box:
+        return None
+    row = _WEBSITE_ROW.search(box.group(0))
+    m = _HREF_EXT.search(row.group(1)) if row else None
+    return html.unescape(m.group(1)) if m else None
+
+
+def read_wikipedia_category(d, fetch_text):
+    """-> [{site, label}] for every article in the categories (and the subcategories whose name matches
+    d["follow"]) that has an official website in its infobox."""
+    follow = re.compile(d.get("follow", "$^"), re.I)
+    todo, done, articles = list(d["categories"]), set(), {}
+    while todo:
+        cat = todo.pop(0)
+        if cat in done:
+            continue
+        done.add(cat)
+        pages, subs = wiki_category(fetch_text(f"{WIKIPEDIA}/wiki/{cat}"))
+        for slug, title in pages:
+            articles.setdefault(slug, title)
+        todo += [c for c in subs if follow.search(urllib.parse.unquote(c).replace("_", " ")) and c not in done]
+    sites = []
+    for slug, title in articles.items():
+        try:
+            site = wiki_website(fetch_text(f"{WIKIPEDIA}/wiki/{slug}"))
+        except FetchError:
+            continue
+        if site:
+            sites.append({"site": site, "label": html.unescape(title)})
+    return sites
+
+
+def collect_directories(config, date, fetch_bytes=None, cache_path=None):
     """Read every enabled directory. -> (leads, report rows). Each website listed becomes a seller lead.
-    type "wikidata": a SPARQL query returning ?site (the seller's website) and optionally ?label."""
+    type "wikipedia_category": English Wikipedia category pages and their articles' infobox websites
+    (robots.txt allows /wiki/ pages; Wikidata's query service and API are not allowed to bots).
+    A directory is re-read every DIRECTORY_REFRESH_DAYS; in between, its cached list is used."""
     fetch_bytes = fetch_bytes or (lambda u: fetch(u).body)
-    leads, report = [], []
+    fetch_text = lambda u: fetch_bytes(u).decode("utf-8", "ignore")
+    cache_path = cache_path or DIRECTORY_CACHE
+    try:
+        cache = json.loads(cache_path.read_text())
+    except (OSError, ValueError):
+        cache = {}
+    leads, report, changed = [], [], False
     for d in config.get("directories", []):
-        row = {"id": d["id"], "url": d.get("url") or WIKIDATA_SPARQL, "purpose": "sellers", "status": "ok",
-               "entries": 0, "in_window": 0, "articles_read": 0, "links": 0, "error": None, "kind": "directory"}
+        row = {"id": d["id"], "url": f"{WIKIPEDIA}/wiki/{d['categories'][0]}" if d.get("categories") else "",
+               "purpose": "sellers", "status": "ok", "entries": 0, "in_window": 0, "articles_read": 0, "links": 0,
+               "error": None, "kind": "directory"}
         report.append(row)
         if not d.get("enabled", True):
             row["status"] = "disabled"
             continue
-        try:
-            if d.get("type") != "wikidata":
-                raise ValueError(f"unknown directory type {d.get('type')!r}")
-            url = WIKIDATA_SPARQL + "?" + urllib.parse.urlencode({"query": d["query"], "format": "json"})
-            rows = json.loads(fetch_bytes(url))["results"]["bindings"]
-        except FetchError as e:
-            row.update(status="blocked" if e.kind in ("blocked", "robots") else "error", error=str(e))
-            continue
-        except (ValueError, KeyError) as e:
-            row.update(status="error", error=f"directory not readable: {e}")
-            continue
-        row["entries"] = row["in_window"] = len(rows)
-        for r in rows:
-            site = (r.get("site") or {}).get("value")
+        hit = cache.get(d["id"])
+        fresh = hit and (datetime.date.fromisoformat(date) - datetime.date.fromisoformat(hit["date"])).days < DIRECTORY_REFRESH_DAYS
+        if fresh:
+            sites, row["cached_from"] = hit["sites"], hit["date"]
+        else:
+            try:
+                if d.get("type") != "wikipedia_category":
+                    raise ValueError(f"unknown directory type {d.get('type')!r}")
+                sites = read_wikipedia_category(d, fetch_text)
+            except FetchError as e:
+                row.update(status="blocked" if e.kind in ("blocked", "robots") else "error", error=str(e))
+                if not hit:
+                    continue
+                sites = hit["sites"]                      # an old list beats none
+            except Exception as e:                       # one odd directory must not stop discovery
+                row.update(status="error", error=f"directory not readable: {type(e).__name__}: {e}")
+                if not hit:
+                    continue
+                sites = hit["sites"]
+            else:
+                cache[d["id"]] = {"date": date, "sites": sites}
+                changed = True
+        row["entries"] = row["in_window"] = len(sites)
+        for r in sites:
+            site = r.get("site")
             if not site or not site.lower().startswith(("http://", "https://")) or is_denied(site, config):
                 continue
             row["links"] += 1
-            leads.append({"url": site, "link_text": (r.get("label") or {}).get("value") or "", "post_title": d.get("name", d["id"]),
+            leads.append({"url": site, "link_text": r.get("label") or "", "post_title": d.get("name", d["id"]),
                           "post_url": None, "feed": d["id"], "published": date, "via": "directory", "purpose": "sellers"})
+    if changed:
+        try:
+            cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
+        except OSError:
+            pass
     return leads, report
 
 
@@ -381,7 +457,8 @@ def find_new_shops(leads, shops, config, date, detector=detect.detect, seen=None
         try:
             entry = detector(origin)
             if all(l.get("purpose") == "sellers" for l in group):
-                entry, why = seller(entry, origin.rstrip("/"), detector)
+                known = any(l.get("via") == "directory" for l in group)
+                entry, why = seller(entry, origin.rstrip("/"), detector, known=known)
                 return host, group, entry, why, "added" if entry else "not a seller"
         except Exception as e:          # one odd site must not stop discovery
             return host, group, None, f"probe failed: {type(e).__name__}", "probe failed"
@@ -397,8 +474,10 @@ def find_new_shops(leads, shops, config, date, detector=detect.detect, seen=None
     taken = {s["id"] for s in shops}
     added = []
     for host, group, entry, why, result in results:           # same order as `ranked`: ids stay stable
-        if entry is not None and match_shop(entry["store_url"], shops + added, shop_index(shops + added)) \
-                and host_of(entry["store_url"]) != host:
+        store_host = host_of(entry["store_url"]) if entry is not None else None
+        if entry is not None and (store_host in {host_of(s["store_url"]) for s in shops + added} or (
+                store_host != host and match_shop(entry["store_url"], shops + added, shop_index(shops + added)))):
+            # two links can lead to one store (a publisher's home page and its shop subdomain)
             notes[host] = f"not added: its store {entry['store_url']} is a shop we read already"
             seen[host] = {"date": date, "result": "known store"}
             continue

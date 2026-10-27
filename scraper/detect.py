@@ -139,9 +139,25 @@ RPG_WORDS = re.compile(
     r"game ?master|dungeon ?master|sourcebook|bestiary|core rule ?book|rulebook|quick ?start|character sheets?|"
     r"one[- ]shot|pbta|powered by the apocalypse|forged in the dark|blades in the dark|cypher system|fate core|"
     r"dungeon crawl classics|dcc|m[öo]rk borg|cairn|into the odd|year zero|tabletop adventure|adventure module|"
-    r"setting book|campaign setting|monster manual|grimoire|zine)\b", re.I)
-RPG_MIN_PRODUCTS = 3          # products whose text names RPG words
-RPG_MIN_SHARE = 0.05          # ... or this share of the store's products
+    r"setting book|campaign setting|monster manual|grimoire|zine|dm'?s|gm'?s|map packs?|adventure path|"
+    r"adventures?\b.{0,40}\b(?:pdf|maps?|digital|print)|(?:pdf|digital|print)\b.{0,40}\badventures?|"
+    # game lines whose books rarely say "RPG"
+    r"player'?s handbook|game ?handbook|core ?book|gurps|traveller|runequest|shadowrun|hackmaster|"
+    r"tunnels (?:&|and) trolls|cortex( prime)?|world of darkness|vampire: the masquerade|werewolf: the apocalypse|"
+    r"mage: the ascension|warhammer fantasy roleplay|dragonbane|alien rpg|twilight: 2000|cyberpunk red|"
+    r"genesys|fading suns|7th sea|legend of the five rings|deadlands|h[âa]rnmaster|13th age|dungeon world|"
+    r"monster of the week|lancer|fiasco|kids on bikes|delta green|paranoia|mutants (?:&|and) masterminds|"
+    r"dragon age rpg|the one ring|symbaroum|vaesen|forbidden lands|kult|numenera|tales from the loop)\b", re.I)
+# Products that name RPG words but are not tabletop RPG products (video games, comics, clothing, paints).
+NOT_TTRPG_WORDS = re.compile(
+    r"\b(ps[345]|playstation|xbox|nintendo|switch|steam|pc game|video ?game|vinyl|soundtrack|blu-?ray|dvd|"
+    r"comics?|graphic novel|manga|t-?shirts?|tee|hoodie|apparel|socks?|paints?|acrylic|brush(es)?|primer|"
+    r"miniature paint|figurine|funko|plush|mugs?|hats?|caps?|posters?|stickers?)\b", re.I)
+RPG_MIN_PRODUCTS = 3          # tabletop RPG products needed ...
+RPG_MIN_SHARE = 0.10          # ... and at least this share of the store's products
+# A seller listed as an RPG publisher or designer (a directory) is known to make RPGs: less proof needed.
+KNOWN_RPG_MIN_PRODUCTS = 1
+KNOWN_RPG_MIN_SHARE = 0.02
 ENGLISH_MIN_SHARE = 0.8       # share of Latin letters that are plain ASCII in product titles
 
 
@@ -196,8 +212,9 @@ def product_texts(entry, get_json=None):
     return None
 
 
-def rpg_store(entry, get_json=None):
-    """-> (yes, why). Does this store sell English-language tabletop RPG products?"""
+def rpg_store(entry, get_json=None, known=False):
+    """-> (yes, why). Does this store sell English-language tabletop RPG products?
+    known: the seller is listed as an RPG publisher or designer, so fewer RPG products are enough."""
     if entry["platform"] in ("itch", "bundleofholding", "humble"):
         return True, entry["platform"]
     texts = product_texts(entry, get_json)
@@ -205,17 +222,19 @@ def rpg_store(entry, get_json=None):
         return False, "products not readable"
     if not texts:
         return False, "no products"
-    hits = sum(1 for t in texts if RPG_WORDS.search(t))
-    if hits < RPG_MIN_PRODUCTS and hits < RPG_MIN_SHARE * len(texts):
+    hits = sum(1 for t in texts if RPG_WORDS.search(t) and not NOT_TTRPG_WORDS.search(t))
+    need, share = (KNOWN_RPG_MIN_PRODUCTS, KNOWN_RPG_MIN_SHARE) if known else (RPG_MIN_PRODUCTS, RPG_MIN_SHARE)
+    if hits < need or hits < share * len(texts):
         return False, f"not an RPG store ({hits} of {len(texts)} products name RPG words)"
     if not _english([t.split("  ")[0] for t in texts]):
         return False, "products are not in English"
     return True, f"{hits} of {len(texts)} products name RPG words"
 
 
-def find_seller(entry, origin, detector=None, get_json=None, get_page=None):
+def find_seller(entry, origin, detector=None, get_json=None, get_page=None, known=False):
     """A seller lead (RPG news link or directory website) -> (store entry or None, note).
-    entry is detector(origin). A home page that is not a store is searched for its shop link."""
+    entry is detector(origin). A home page that is not a store is searched for its shop link.
+    known: listed in a directory of RPG publishers/designers (see rpg_store)."""
     detector = detector or detect
     get_page = get_page or (lambda u: fetch(u).body.decode("utf-8", "ignore"))
     if entry["status"] == "blocked":
@@ -243,7 +262,7 @@ def find_seller(entry, origin, detector=None, get_json=None, get_page=None):
             return None, "no web store found" + (f" (tried {len(tried)} shop links)" if tried else "")
     for c in cands:
         if c["platform"] in STORE_PLATFORMS and c["status"] != "blocked":
-            ok, why = rpg_store(c, get_json)
+            ok, why = rpg_store(c, get_json, known)
             if ok:
                 c["notes"] = f"found by discovery: {why}"
                 return c, why
