@@ -852,7 +852,7 @@
   "name": "daemoneditora.com.br",
   "store_url": "https://daemoneditora.com.br/product/astrologia-hermetica/",
   "platform": "woocommerce",
-  "status": "active",
+  "status": "paused",
   "currency": "BRL",
   "recipe": {
    "api_base": "https://daemoneditora.com.br/wp-json/wc/store/v1"
@@ -860,6 +860,6 @@
   "recipe_confirmed": "2026-10-27",
   "added": "2026-10-27",
   "added_via": "lead wikipedia-rpg-designers 2026-10-27",
-  "notes": "found by discovery: 3 of 100 products name RPG words"
+  "notes": "found by discovery: 3 of 100 products name RPG words. Paused 2026-10-27: Portuguese products (English only for now)"
  }
 ]

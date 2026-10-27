@@ -159,6 +159,10 @@ RPG_MIN_SHARE = 0.10          # ... and at least this share of the store's produ
 KNOWN_RPG_MIN_PRODUCTS = 1
 KNOWN_RPG_MIN_SHARE = 0.02
 ENGLISH_MIN_SHARE = 0.8       # share of Latin letters that are plain ASCII in product titles
+FOREIGN_MAX_SHARE = 0.25      # share of titles with accents or non-English small words (English shops: 3% or less)
+_FOREIGN_WORDS = re.compile(r"\b(?:de|des|du|la|le|les|et|el|los|las|del|y|di|della|il|und|der|die|das|für|och|og|"
+                            r"do|dos|da|os|em|com|para|um|uma|ao)\b", re.I)
+_ACCENTED = set("àâäáãåçéèêëíìîïñóòôöõúùûüœæßª")
 
 
 def store_links(html, origin):
@@ -191,8 +195,12 @@ def store_links(html, origin):
 
 
 def _english(texts):
+    """Most letters are plain ASCII, and few titles look like another Latin-alphabet language."""
     letters = [c for t in texts for c in t if c.isalpha()]
-    return not letters or sum(c.isascii() for c in letters) / len(letters) >= ENGLISH_MIN_SHARE
+    if letters and sum(c.isascii() for c in letters) / len(letters) < ENGLISH_MIN_SHARE:
+        return False
+    foreign = sum(1 for t in texts if _FOREIGN_WORDS.search(t) or _ACCENTED & set(t.lower()))
+    return not texts or foreign / len(texts) <= FOREIGN_MAX_SHARE
 
 
 def product_texts(entry, get_json=None):

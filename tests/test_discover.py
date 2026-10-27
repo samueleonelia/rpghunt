@@ -313,6 +313,13 @@ class Sellers(unittest.TestCase):
         self.assertTrue(detect.rpg_store(shop, lambda u: few, known=True)[0])      # a listed RPG publisher
         japanese = {"products": [{"title": "ドラゴン TRPG ルールブック", "product_type": "", "tags": []}] * 5}
         self.assertEqual(detect.rpg_store(shop, lambda u: japanese), (False, "products are not in English"))
+        brazil = {"products": [{"title": t, "product_type": "", "tags": []} for t in   # Latin letters, Portuguese
+                               ("Tormenta RPG", "Guia de Itens Mágicos RPG", "Templários 4ª Edição RPG", "Abismo RPG",
+                                "Spiritum – O Reino dos Mortos RPG")]}
+        self.assertEqual(detect.rpg_store(shop, lambda u: brazil, known=True), (False, "products are not in English"))
+        accents = {"products": [{"title": t, "product_type": "", "tags": []} for t in
+                                ("Pokémon-free Core Rulebook", "Bestiary of the Deep", "GM Screen", "Adventure Module", "Map Pack")]}
+        self.assertTrue(detect.rpg_store(shop, lambda u: accents)[0])               # one accent is not a language
 
     def test_home_page_leads_to_its_shop(self):
         from scraper import detect

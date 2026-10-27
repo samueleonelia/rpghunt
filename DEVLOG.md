@@ -457,3 +457,18 @@
 - 2026-10-28 07:30: first real day with discovery and the full itch read. Expect about 1 hour and many new itch deals; check the report's "Leads and new sellers", "New shops" and cost.
 - User: OK to reinstall the LaunchAgent with the start-up catch-up.
 - Later: stores on other platforms (BigCommerce, Squarespace, custom carts) are found but not readable yet (62 "no web store found" in the trial); Gumroad as a seller marketplace.
+
+## 2026-10-27 (evening): first real run with discovery
+
+**Status:** run started by hand at 18:56 with the merged code; exit 0, 2 h 9 min, committed and pushed by go-live ("Daily run 2026-10-27"). Live site: 1,939 deals (was 455).
+
+**Done**
+- Shops read: 54 (47 + 7 found today). itch: 1,545 deals from 1,599 games (38 min). Discovery: 250 links from 18 of 18 sources, 140 unknown sites checked (17 min), 7 new shops: Sly Flourish, Tabletop Gaming shop, Critical Role shop, Kenzer & Co, Paradigm Concepts, Bully Pulpit Games, Daemon Editora.
+- Published by shop: itch 1,314, DriveThruRPG 395, Tabletop Gaming shop 204 (all real RPG books, spot-checked), Daemon Editora 11.
+- Cost about $9.14 (alarm $5): Jev $0.16, browsing agent $8.98 for 126 jobs. Day 1 had ~3,900 never-seen deals; from tomorrow only new or changed ones are paid for.
+- Fix: Daemon Editora (Brazil, Portuguese books) passed the English check, which only looked at non-ASCII letters. `detect._english` now also rejects a store when more than 25% of titles have accents or non-English small words (Daemon 63%, every English shop 3% or less). Daemon set to `paused`; its 11 deals leave the site at the next run.
+- Fix: itch answered "slow down" (HTTP 429) on 3 games, recorded in blocked sites. itch workers 8 -> 4 (good-bot rule).
+
+**Open**
+- "Sites that block us" now lists many news-post link targets that are not shops (ad and link trackers, Hasbro newsroom, Amazon short links). Noise in the report, not a real problem.
+- 103 items in "Needs your check".

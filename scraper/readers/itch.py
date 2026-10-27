@@ -22,7 +22,7 @@ from scraper.common import ROOT, FetchError, fetch, fetch_json, is_discount, mak
 log = logging.getLogger(__name__)
 
 SOURCE = "itch-data"
-WORKERS = 8           # games read at once (different creator sites)
+WORKERS = 4           # games read at once (different creator sites; 8 got itch rate limits, 2026-10-27)
 # A game's page facts (was price, currency, seller) are kept while its sale and price stay the same, so an
 # unchanged game costs one small data.json call a day instead of two. Games no longer in the feeds drop out.
 PAGE_CACHE = ROOT / "data" / "deals" / "itch-pages.json"
