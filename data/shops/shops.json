@@ -7,7 +7,7 @@
   "status": "active",
   "currency": "GBP",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://modiphius.net/collections/warehouse-clearance-sale Full catalog read (about 17 s): finds ~290 sale items vs ~160 in the clearance collection alone."
@@ -20,7 +20,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "Full catalog read. Sale prices only show without browser impersonation (fixed in common.py)."
@@ -33,7 +33,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://magpiegames.com/collections/clearance"
@@ -48,7 +48,7 @@
   "recipe": {
    "api_base": "https://evilhat.com/wp-json/wc/store/v1"
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://evilhat.com/on-sale/"
@@ -63,7 +63,7 @@
   "recipe": {
    "api_base": "https://koboldpress.com/kpstore/wp-json/wc/store/v1"
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://koboldpress.com/kpstore/on-sale/"
@@ -82,7 +82,7 @@
     "https://itch.io/games/on-sale/tag-ttrpg.xml"
    ]
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://itch.io/physical-games/on-sale/tag-ttrpg"
@@ -95,7 +95,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null,
@@ -109,7 +109,7 @@
   "status": "active",
   "currency": null,
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "prices follow visitor location; currency read from the page by the reader"
@@ -133,7 +133,7 @@
    "price_now": ".productView-price span.price--withoutTax",
    "price_was": ".productView-price span.price--non-sale"
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "recipe by browsing agent 2026-10-17"
@@ -163,7 +163,7 @@
     "https://store.paizo.com/fall-clearance-sale/"
    ]
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://store.paizo.com/sales/"
@@ -176,7 +176,7 @@
   "status": "active",
   "currency": "GBP",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://modiphius.us/collections/warehouse-clearance-sale"
@@ -189,7 +189,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -202,7 +202,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -217,7 +217,7 @@
   "recipe": {
    "api_base": "https://www.montecookgames.com/store/wp-json/wc/store/v1"
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -234,7 +234,7 @@
     "https://renegadegamestudios.com/sale/"
    ]
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://renegadegamestudios.com/sale/"
@@ -247,7 +247,7 @@
   "status": "active",
   "currency": "GBP",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -260,7 +260,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://shop.atlas-games.com/collections/atlas-games-warehouse-outlet/"
@@ -273,7 +273,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -286,7 +286,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -299,7 +299,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -312,7 +312,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -340,7 +340,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://hitpointpress.com/collections/deals"
@@ -353,7 +353,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -379,7 +379,7 @@
   "status": "active",
   "currency": "EUR",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -394,7 +394,7 @@
   "recipe": {
    "api_base": "https://rowanrookanddecard.com/wp-json/wc/store/v1"
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -407,7 +407,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -420,7 +420,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -459,7 +459,7 @@
   "status": "active",
   "currency": "GBP",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -474,7 +474,7 @@
   "recipe": {
    "api_base": "https://loottheroom.uk/wp-json/wc/store/v1"
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -487,7 +487,7 @@
   "status": "active",
   "currency": "GBP",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -500,7 +500,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": null
@@ -513,7 +513,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://store.catalystgamelabs.com/collections/on-sale"
@@ -526,7 +526,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://warehouse23.com/collections/sales"
@@ -541,7 +541,7 @@
   "recipe": {
    "api_base": "https://palladiumbooks.com/wp-json/wc/store/v1"
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://palladiumbooks.com/sale-items/"
@@ -571,7 +571,7 @@
     "https://www.nobleknight.com/sales"
    ]
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://www.nobleknight.com/sales",
@@ -617,7 +617,7 @@
     "https://www.coolstuffinc.com/main_saleItems.php"
    ]
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://www.coolstuffinc.com/main_saleItems.php",
@@ -633,7 +633,7 @@
   "recipe": {
    "deals_url": "https://www.gamenerdz.com/deals"
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "BigCommerce. The deals grid is drawn by JavaScript, but the plain HTML of /deals?page=N carries the listing's data (window.bodl, base64 JSON): read by scraper/readers/bigcommerce.py, no browser. Items marked '(Add to cart to see price)' hide their price behind the cart (robots.txt disallows cart.php): counted as hidden_price, never published. Retailer with everyday markdowns.",
@@ -651,7 +651,7 @@
     "reduced-price-1"
    ]
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "Retailer: most items sit below list price every day, so read only its \"reduced price\" collection. Full catalog is over 10,000 items.",
@@ -667,7 +667,7 @@
   "recipe": {
    "api_base": "https://gmstabletopgames.com/wp-json/wc/store/v1"
   },
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "sale page: https://gmstabletopgames.com/product-category/offers/",
@@ -720,7 +720,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "seed list",
   "notes": "Read from the public JSON API at api.drivethrurpg.com (robots.txt allows all); the website www.drivethrurpg.com is a Cloudflare bot wall and is never fetched (hard block in scraper.common.fetch). The API has no sale end dates and some products have been marked down for years, so everyday_discounts is on: old markdowns only publish when our price history sees a real drop, or on day one when a trusted roundup lead (EN World) names the same product id. Currency is not in the API; USD assumed (site default).",
@@ -760,7 +760,7 @@
   "status": "active",
   "currency": "GBP",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-17",
   "added_via": "lead enworld 2026-10-17",
   "notes": null
@@ -773,7 +773,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-27",
   "added_via": "lead slyflourish 2026-10-27",
   "notes": "found by discovery: 10 of 14 products name RPG words"
@@ -786,7 +786,7 @@
   "status": "active",
   "currency": "GBP",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-27",
   "added_via": "lead tabletopgaming 2026-10-27",
   "notes": "found by discovery: 172 of 250 products name RPG words"
@@ -799,7 +799,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-27",
   "added_via": "lead wikipedia-rpg-publishers 2026-10-27",
   "notes": "found by discovery: 15 of 250 products name RPG words"
@@ -842,7 +842,7 @@
   "status": "active",
   "currency": "USD",
   "recipe": {},
-  "recipe_confirmed": "2026-10-27",
+  "recipe_confirmed": "2026-10-28",
   "added": "2026-10-27",
   "added_via": "lead wikipedia-rpg-publishers 2026-10-27",
   "notes": "found by discovery: 22 of 34 products name RPG words"

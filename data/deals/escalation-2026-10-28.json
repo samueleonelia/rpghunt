@@ -1,0 +1,4054 @@
+{
+ "date": "2026-10-28",
+ "fake": false,
+ "jobs": [
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/animated-spells-master-collection-for-roll20-vtt",
+   "title": "DIGITAL Animated Spells Master Collection - (Roll20 Key, VTT)",
+   "shop": "Hit Point Press",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real sale (58% off, regular price struck through) on a Roll20 VTT card and token bundle for D&D 5e, but both prices are in CAD and the deal record says USD."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The product is a digital VTT asset pack, which is in scope, though it is not a rulebook. The sale has no end date. The currency is the problem: publishing it as USD would overstate the price by roughly a third. If the record is corrected to CAD, this should be publishable. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$51.00 CAD",
+    "price_was_seen": "$122.00 CAD",
+    "reason": "The page shows a real sale (58% off, regular price struck through) on a Roll20 VTT card and token bundle for D&D 5e, but both prices are in CAD and the deal record says USD.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://lostwaysclub.itch.io/the-afternoon-train",
+   "title": "The Afternoon Train Home",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed ends date of 2026-11-04 is not confirmed on the page. The price is pay-what-you-want with a $1 minimum ('$1.00 USD or more'). The page also offers a 5-game bundle for $19.50. Category is listed as 'Physical game' on itch, but the product is a downloadable PDF. No text addressed to AI was found.",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "reason": "The page shows a solo tabletop RPG (tagged Solo RPG and Tabletop role-playing game) at 50% off, $2.00 down to $1.00, in the 'Spooky Sale 2026'.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://capacle.itch.io/down-the-belly",
+   "title": "Down the Belly of the Leviathan",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed. A $43.32 figure appears in the page's price elements, but it looks like a stat box and not a price. The page contains no instructions addressed to AI.",
+    "price_now_seen": "$3.43",
+    "price_was_seen": "$4.90",
+    "reason": "The page shows this solo tabletop RPG (tagged Solo RPG and Tabletop role-playing game) at $3.43, down from $4.90, with an 'On Sale! 30% Off' label and a Halloween Sale 2026 banner.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://montfordtales.itch.io/the-art-of-sanguine-letters",
+   "title": "The Art of Sanguine Letters",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show a sale end date, so the claimed 2026-10-31 cannot be confirmed from the page. The product is an art book plus RPG prompts, and it needs one of the two base games to be used. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$4.10",
+    "price_was_seen": "$5.00",
+    "reason": "The page shows an 'On Sale! 18% Off' badge with $5.00 struck through and $4.10 current, for a supplement with play prompts for the tabletop RPGs Dead Letter Society and The Almanac of Sanguine Paths (tagged Tabletop role-playing game).",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://red-hot-bandits.itch.io/buccaneer-heroes",
+   "title": "Buccaneer Heroes",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The RPG status is borderline: it is a print-and-play roll-and-write game that also carries board-game tags, and I published it because the creator's own RPG tags and description support that. The page shows no sale end date, so the claimed end date of 2026-11-04 is unconfirmed. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.75",
+    "price_was_seen": "$15.00",
+    "reason": "The page shows an active 'On Sale! 75% Off' banner from $15.00 to $3.75, and the product is tagged 'Tabletop role-playing game' and 'Solo RPG'. The description calls it a sandbox RPG in print-and-play form.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-25"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tallywinkle.itch.io/train-tracks",
+   "title": "Train Tracks",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end date 2026-11-04 was not confirmed on the page. This is a solo journalling game, so it counts as an RPG only because of its tags. The Halloween Sale is a bundle promotion. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.75",
+    "price_was_seen": "$5.00",
+    "reason": "The page tags this as a Tabletop role-playing game and Solo RPG, and shows a 25% off Halloween Sale 2026 price of $3.75, down from a struck-through $5.00.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://notwriting.itch.io/world-maker",
+   "title": "World Maker",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show the 2026-11-01 end date, only the 'Fall Survival Sale 2026' label on the bundle. It is a solo card-based worldbuilding exercise, so whether it counts as an RPG product is borderline. Its own RPG tags and its use for running tabletop RPGs tip it towards publish. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.00",
+    "price_was_seen": "$5.00",
+    "reason": "The page shows 'On Sale! 40% Off $5.00 $3.00 USD or more' for a PDF game that the author tags 'Tabletop role-playing game' and whose genre is 'Role Playing'. It is a worldbuilding tool for GMs and players.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://longgames.itch.io/coffee-shop-novelist",
+   "title": "Coffee Shop Novelist",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date. The 2026-11-04 end date in the deal record is not on the page. The page also offers a $99 bundle of 36 games, which is a separate offer and not the claimed price. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$6.60",
+    "price_was_seen": "$11.00",
+    "reason": "The page shows a 40% Off sale (Halloween Sale 2026) at $6.60 down from $11.00 for a solo tabletop RPG, tagged 'Solo RPG' and 'Tabletop role-playing game'.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://capacle.itch.io/murder",
+   "title": "Murder at Morsley Manor",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The 30% off Halloween Sale 2026 price is shown ($4.90 to $3.43), but the product is a social-deduction game played with a standard deck of cards, so the page does not settle whether it counts as a tabletop RPG (the author's tags include 'Tabletop role-playing game')."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed end date of 2026-11-04 is not confirmed. The page has no text addressed to AI.",
+    "price_now_seen": "$3.43",
+    "price_was_seen": "$4.90",
+    "reason": "The 30% off Halloween Sale 2026 price is shown ($4.90 to $3.43), but the product is a social-deduction game played with a standard deck of cards, so the page does not settle whether it counts as a tabletop RPG (the author's tags include 'Tabletop role-playing game').",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://gm-lazarus.itch.io/sci-fi-campaign-sheets",
+   "title": "Sci-Fi Campaign Sheets",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date 2026-11-15 is not confirmed by the page. The price is pay-what-you-want with a $0.25 minimum, and the free sheets are a separate download. The product is borderline RPG: it is GM planning sheets, not a rulebook, but the tags include Tabletop role-playing game, Supplement and game-master. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$0.25",
+    "price_was_seen": "$1.00",
+    "reason": "The page tags this as a tabletop role-playing game supplement (printable GM campaign sheets for sci-fi games) and shows 'On Sale! 75% Off $1.00 $0.25 USD or more' as part of an Autumn Sale.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tallywinkle.itch.io/the-detective",
+   "title": "The Detective",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end of 2026-11-04 is not confirmed. The price is a minimum ('$9.00 USD or more'). No text addressed to AI was found.",
+    "price_now_seen": "$9.00",
+    "price_was_seen": "$12.00",
+    "reason": "The page tags it 'Tabletop role-playing game' and 'Solo RPG' (a tarot-based solo journaling RPG). It shows $9.00 against a struck-through $12.00 under the 'Halloween Sale 2026' banner with 25% Off.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://eliotcrow.itch.io/liminal-yearning",
+   "title": "Liminal Yearning",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show a sale end date, so the claimed end date 2026-11-04 is not confirmed here. $4.83 is itch's minimum price (\"or more\"). It is a small solo journaling game, but it carries the tabletop RPG tag. Part of a 16-item bundle at $67.62. No instructions addressed to AI were found on the page.",
+    "price_now_seen": "$4.83",
+    "price_was_seen": "$7.00",
+    "reason": "The page shows 31% off, $7.00 down to $4.83 USD or more, under the Halloween Sale 2026, and tags the product as a Tabletop role-playing game (a solo journaling RPG zine).",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://capacle.itch.io/marked-for-murder",
+   "title": "Marked for Murder",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed 2026-11-04 end date comes from the feed, not the page. The item is a small bookmark-sized solo RPG, so it is a borderline RPG product. The sale price is a minimum price ('or more') on a pay-what-you-want style listing.",
+    "price_now_seen": "$2.03",
+    "price_was_seen": "$2.90",
+    "reason": "The page shows 'On Sale! 30% Off $2.90 $2.03 USD or more' under a 'Halloween Sale 2026' banner, and the product is tagged 'Tabletop role-playing game' and 'Solo RPG' (a solo journaling RPG played with a bookmark).",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://eliotcrow.itch.io/into-the-fae-woods",
+   "title": "Into the Fae Woods",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed here. The page category says 'Physical game', but the files are PDFs and the game is a solo TTRPG. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.45",
+    "price_was_seen": "$5.00",
+    "reason": "The page shows a solo journaling tabletop RPG (tagged Tabletop role-playing game) at $3.45, down from $5.00, in the Halloween Sale 2026 (31% off).",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://belmonth.itch.io/a-solo-gamebook-adventure",
+   "title": "The Goblin King's Dungeon",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed end date 2027-12-21 is not confirmed by the page. The price reads \"$3.50 USD or more\", so $3.50 is the minimum price. The description says \"free preview\" but the listed files include the full PDF. It is a solo gamebook, which makes it borderline for tabletop RPG. No AI-directed text found on the page.",
+    "price_now_seen": "$3.50",
+    "price_was_seen": "$7.00",
+    "reason": "The page shows an \"On Sale! 50% Off\" banner with $7.00 struck down to $3.50 USD for a solo RPG gamebook (PDF with dice rules) that is tagged Tabletop role-playing game.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://watcherdm.itch.io/dont-play-this-game",
+   "title": "Don't Play This Game",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "It is a borderline RPG: a one-page cipher puzzle journal game that a commenter doubted was an RPG. The page does not show a sale end date, so the claimed 2026-11-04 is unverified. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "reason": "The page shows a 50% off Halloween Sale 2026 price of $1.00 (was $2.00), and the product is tagged 'Tabletop role-playing game' and 'Solo RPG', with the author calling it a journaling game / solo RPG.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://sylviethedragon.itch.io/boss-monster-academy",
+   "title": "Boss Monster Academy",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The $2.77 is a 'or more' minimum price, and the item is a solo journaling game, which makes it a borderline RPG. The page shows no sale end date; the 2026-11-04 end date comes from the feed.",
+    "price_now_seen": "$2.77",
+    "price_was_seen": "$11.11",
+    "reason": "The page shows a 75% off 'Halloween Sale 2026' with $11.11 struck down to $2.77 for a solo journaling TTRPG tagged 'Tabletop role-playing game' and 'Solo RPG'; the page shows no end date, so the claimed 2026-11-04 is not confirmed.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://sylviethedragon.itch.io/museum-of-civilizations-lost",
+   "title": "Museum of Civilizations Lost",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "It is a solo journaling game that GMs can also use for worldbuilding, so it counts as a tabletop RPG only because of those tags. The page shows no end date, so the claimed 2026-11-04 is unconfirmed. The page also links a bundle (18 items for $20.00), which I did not open. The page text contained no instructions addressed to AI.",
+    "price_now_seen": "$2.22",
+    "price_was_seen": "$8.88",
+    "reason": "The page shows a 75% off Halloween Sale 2026 from $8.88 to $2.22, and the game is tagged 'Tabletop role-playing game' and 'Solo RPG'.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://pewterbee.itch.io/out-for-delivery",
+   "title": "Out for Delivery",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date of its own; the claimed end date 2026-11-04 is not visible on it. The page also offers a 10-game bundle for $41.60. No text addressed to AI found.",
+    "price_now_seen": "$8.00",
+    "price_was_seen": "$10.00",
+    "reason": "The page tags it 'Tabletop role-playing game' (a solo journaling RPG, physical category) and shows 20% off, $10.00 down to $8.00, under the 'Halloween Sale 2026'.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://aryxymaraki.itch.io/the-untitled-runic-manuscript",
+   "title": "The Untitled Runic Manuscript",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show a sale end date, so the claimed 2026-11-04 comes from the itch feed only. The price is 'or more' (the minimum). The page also shows a separate 36-game 'Austin Mutual Aid' bundle for $20.00, which is not this deal. No text addressed to AI was found.",
+    "price_now_seen": "$2.00",
+    "price_was_seen": "$4.00",
+    "reason": "The itch.io page tags it 'Tabletop role-playing game' and describes a rune-magic system for fantasy RPGs. It shows 'On Sale! 50% Off', $4.00 struck down to $2.00 USD or more.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://ludicpen.itch.io/deck-of-many-fortunes",
+   "title": "Deck of Many Fortunes (for Ironsworn & Starforged)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-01 is not confirmed by the page. The product is a printable card deck and companion PDF used as an RPG supplement, and it is tagged Tabletop role-playing game. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$6.25",
+    "price_was_seen": "$12.50",
+    "reason": "The page shows an 'On Sale! 50% Off' banner with $12.50 cut to $6.25 for a supplement for the Ironsworn and Starforged tabletop RPGs, in the Ludic Pen Spooky Season 2026 sale.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://haunted-picnic.itch.io/strange-r",
+   "title": "Strange-R",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-10-30 is not confirmed. The price is pay-what-you-want with a $0.50 minimum. The item is an NPC pack with PDF and audio files, which counts as an RPG supplement. The page is also in a 7-game bundle for $18.00 AUD. No text on the page was addressed to AI.",
+    "price_now_seen": "$0.50 AUD",
+    "price_was_seen": "$1.00",
+    "reason": "The page shows a Sci-Fi NPC pack tagged 'Tabletop role-playing game' at $0.50 AUD, down from $1.00 (50% off), as part of the 'Halloween Half Price TableTop SALE'.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://ludicpen.itch.io/small-deck-of-many-fortunes",
+   "title": "Small Deck of Many Fortunes (for Ironsworn & Starforged)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-01 could not be confirmed here. The page also mentions a 'Ludic Pen Spooky Season 2026' bundle ($16.00 for 5 items), which is a separate offer. No text addressed to AI was found.",
+    "price_now_seen": "$3.25",
+    "price_was_seen": "$6.50",
+    "reason": "The page shows an 'On Sale! 50% Off' banner with $6.50 struck down to $3.25 USD, for an Ironsworn/Starforged RPG supplement (a card deck with a companion PDF) tagged Tabletop role-playing game.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://ranarh.itch.io/true-treasure",
+   "title": "True Treasure - A Bookmark RPG",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-04 comes only from the feed. It is a one-page bookmark RPG, so it is small and borderline, but it is a real tabletop RPG. No text addressed to AI found.",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "reason": "The page shows a '50% Off' sale with $2.00 struck through and $1.00 now, for a micro tabletop RPG (genre Role Playing, tagged tabletop role-playing game, made for the 48-words TTRPG Jam).",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://maggiefrench.itch.io/allucinalia",
+   "title": "Allucinalia",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 is not confirmed by the page. The page also lists a bundle of 8 games for $22.49 under the same sale. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$5.00",
+    "price_was_seen": "$10.00",
+    "reason": "The page shows a solo tabletop RPG (tagged 'Solo RPG' and 'Tabletop role-playing game') at $5.00, down from $10.00, marked 'On Sale! 50% Off' as part of the Halloween Sale 2026.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://barcstravis.itch.io/detangle",
+   "title": "Detangle",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a 50% off sale from $2.00 to $1.00, but the product is a solo cord-detangling activity that the creator tags 'Tabletop role-playing game', so I can't tell if it counts as a tabletop RPG."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The price is struck through in span.dollars.original_price. The page shows 'Halloween Sale 2026' but no end date, so the claimed 2026-11-04 is not confirmed. The page contains no instructions addressed to AI.",
+    "price_now_seen": "$1.00 USD",
+    "price_was_seen": "$2.00",
+    "reason": "The page confirms a 50% off sale from $2.00 to $1.00, but the product is a solo cord-detangling activity that the creator tags 'Tabletop role-playing game', so I can't tell if it counts as a tabletop RPG.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://copestylin.itch.io/and-one",
+   "title": "🏀 AND ONE - a solo basketball court rpg",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 is not confirmed on the page. It is a solo TTRPG (tags: Tabletop role-playing game, Solo RPG) listed under itch's 'Physical game' category, but the product is a downloadable PDF. No text addressed to AI was found.",
+    "price_now_seen": "$5.00",
+    "price_was_seen": "$10.00",
+    "reason": "The page shows a 49-page solo tabletop RPG handbook (PDF) marked 'On Sale! 50% Off', $10.00 down to $5.00, as part of the 'LifeRPG - Halloween Sale 2026'.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://sylviethedragon.itch.io/scifinosaur-rumble",
+   "title": "Scifinosaur Rumble!",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The sale is real (75% off, Halloween Sale 2026), but the product describes itself as a miniatures game played with toy dinosaurs, not a tabletop RPG, and it has no character-driven roleplaying rules. The only RPG signal is the 'Tabletop role-playing game' tag."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page's 'Loving my TTRPGs so far?' paragraph is the author's Discord promo and does not describe this product. The page shows no end date; the claimed end date 2026-11-04 was not confirmed. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$1.38",
+    "price_was_seen": "$5.55",
+    "reason": "The sale is real (75% off, Halloween Sale 2026), but the product describes itself as a miniatures game played with toy dinosaurs, not a tabletop RPG, and it has no character-driven roleplaying rules. The only RPG signal is the 'Tabletop role-playing game' tag.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tallywinkle.itch.io/wrapping-mapping",
+   "title": "Wrapping Mapping",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The price and the 25% off Halloween Sale are real and running, but the product is a paper-craft landscape-building game that only carries the 'Tabletop role-playing game' tag, so I can't tell if it counts as an RPG product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed end date of 2026-11-04 is unconfirmed. The page also lists a bundle ('Get this game and 11 more for $43.42 USD'), which is a separate offer. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$1.87",
+    "price_was_seen": "$2.50",
+    "reason": "The price and the 25% off Halloween Sale are real and running, but the product is a paper-craft landscape-building game that only carries the 'Tabletop role-playing game' tag, so I can't tell if it counts as an RPG product.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://belmonth.itch.io/alone-seching-for-my-human",
+   "title": "Alone Seching for my human",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date. The claimed end of 2033-06-04 comes from the itch data and is unusually far out, so the code date check should look at it. The $3.50 is a minimum price ('or more'). The page also lists a 4-item bundle for $15.99. The page contains no text addressed to AI.",
+    "price_now_seen": "$3.50",
+    "price_was_seen": "$7.00",
+    "reason": "The page tags this as a Solo RPG and tabletop role-playing game (a journaling game played with cards and a d6) and shows 'On Sale! 50% Off' at $3.50, down from $7.00.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://cannibalinteractive.itch.io/border-ender",
+   "title": "Border Ender",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show an end date, so the claimed 2026-11-04 can't be confirmed here. The product is a solo worldbuilding journaling game, which is a borderline RPG. Its only RPG signal is the itch.io 'Tabletop role-playing game' tag. The price is a pay-what-you-want minimum ('or more').",
+    "price_now_seen": "$1.50",
+    "price_was_seen": "$3.00",
+    "reason": "The page shows a 50% off Halloween Sale 2026 price of $1.50 (minimum, struck from $3.00) on a solo narrative game tagged Tabletop role-playing game.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://ranarh.itch.io/go-do-be-at",
+   "title": "Go Do Be At",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 50% off sale ($2.00 down to $1.00, part of MiaT's Halloween Sale 2026), but the product is a movement and icebreaker bookmark game that is tagged micro-rpg and LARP, so I can't tell if it counts as a tabletop RPG."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page doesn't show an end date. The claimed end date of 2026-11-04 is not on the page. The price is a pay-what-you-want minimum ('$1.00 USD or more'). The page also offers a 65-item bundle for $100.00. No text on the page was addressed to AI.",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "reason": "The page shows a real 50% off sale ($2.00 down to $1.00, part of MiaT's Halloween Sale 2026), but the product is a movement and icebreaker bookmark game that is tagged micro-rpg and LARP, so I can't tell if it counts as a tabletop RPG.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://themetalcarrotdev.itch.io/try-to-land-twice-the-wraiths",
+   "title": "Try To Land Twice: The Wraiths",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed by the page. The product is a PDF, though itch lists its category as 'Physical game'. The page also advertises a Halloween Bundle (264 games for $30.00), which I did not open.",
+    "price_now_seen": "$4.50",
+    "price_was_seen": "$5.00",
+    "reason": "The page shows a solo tabletop RPG (tagged 'Tabletop role-playing game') marked 'On Sale! 10% Off', with $5.00 struck through and $4.50 as the current price.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://themetalcarrotdev.itch.io/you-spin-the-nexus",
+   "title": "You Spin The Nexus",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed end of 2026-11-04 is not confirmed by the page. It is a 21-page PDF solo game, not a full rulebook. The page also advertises a separate Halloween Bundle (264 games for $30.00), which is not the deal being checked.",
+    "price_now_seen": "$9.00",
+    "price_was_seen": "$10.00",
+    "reason": "The page describes a solo sci-fi TTRPG (tagged 'Tabletop role-playing game' and 'Solo RPG') and shows an 'On Sale! 10% Off' banner with $10.00 struck through and $9.00 as the current price.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://themetalcarrotdev.itch.io/celestial-under-the-retro-skies",
+   "title": "Celestial Under The Retro Skies",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed end of 2026-11-04 is not confirmed. The page says 'Category: Physical game', but the files are PDFs, so it is a digital download. No text addressed to AI found.",
+    "price_now_seen": "$7.20",
+    "price_was_seen": "$8.00",
+    "reason": "The page calls it a solo TTRPG (tagged 'Tabletop role-playing game') and shows 'On Sale! 10% Off' with $8.00 struck through and $7.20 as the current price.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://themetalcarrotdev.itch.io/i-am-but-a-mouse",
+   "title": "I Am But A Mouse",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show a sale end date, so the claimed end date of 2026-11-04 could not be confirmed. The page also advertises a Halloween Bundle (264 games for $30.00), which is a separate offer. No text addressed to AI was found.",
+    "price_now_seen": "$4.50",
+    "price_was_seen": "$5.00",
+    "reason": "The page shows a solo tabletop RPG (tagged 'Tabletop role-playing game' and 'Solo RPG') marked 'On Sale! 10% Off', with $5.00 struck through and $4.50 as the current price.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://valeriolucido.itch.io/campanilismo",
+   "title": "Campanili(smo)",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The 50% off sale is real (9.99€ to 4.99€), but the whole page and the game are in Italian, and RPG Hunt lists English products only for now."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed end of 2026-10-31 is not confirmed. It is tagged 'Tabletop role-playing game' and 'italian'. It is a GM-less map-drawing storytelling game, so it is a borderline RPG. It is also part of a 6-game bundle at 14.98€. The page contained no text addressed to AI.",
+    "price_now_seen": "4.99€",
+    "price_was_seen": "9.99€",
+    "reason": "The 50% off sale is real (9.99€ to 4.99€), but the whole page and the game are in Italian, and RPG Hunt lists English products only for now.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-player-kit-2024",
+   "title": "Printable DnD Character Journal + DnD 2024 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a running Halloween Sale at 35% off, $27.96 down to $18.17. The product is printable D&D 2024 character sheets, spell cards and a journal, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it is in scope."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date in its text, although the deal record says 2026-11-04. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$18.17",
+    "price_was_seen": "$27.96",
+    "reason": "The page confirms a running Halloween Sale at 35% off, $27.96 down to $18.17. The product is printable D&D 2024 character sheets, spell cards and a journal, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it is in scope.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-monster-cards",
+   "title": "D&D Monster Stat Cards | Printable PDF | Dungeons and Dragons 5e | 2014 and 2024 Editions",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a running 35% Halloween Sale at $13.81 (was $21.25), but the product is printable D&D 5e monster stat cards, which could count as an accessory (excluded) or as a GM supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show a sale end date, so the claimed end date of 2026-11-04 is not confirmed. The page also lists a 112-item Halloween Sale bundle for $686.00. No text on the page was addressed to AI.",
+    "price_now_seen": "$13.81",
+    "price_was_seen": "$21.25",
+    "reason": "The page shows a running 35% Halloween Sale at $13.81 (was $21.25), but the product is printable D&D 5e monster stat cards, which could count as an accessory (excluded) or as a GM supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://gurkenlabs.itch.io/quest-character-sheets",
+   "title": "Quest Character Sheets",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a 40% Halloween Sale price of $1.20, down from $2.00. The product is printable character sheets for the Quest TTRPG, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it belongs on the list."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-04 is not confirmed. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$1.20 USD",
+    "price_was_seen": "$2.00",
+    "reason": "The page confirms a 40% Halloween Sale price of $1.20, down from $2.00. The product is printable character sheets for the Quest TTRPG, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it belongs on the list.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://abhack-paperclip.itch.io/lantern-lane",
+   "title": "Lantern Lane: A Solo Halloween Writing Game",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-12-01 is unconfirmed. It is a solo journaling game and its page says it was written by an AI. $4.02 is the minimum price ('or more'). A bundle of 3 games for $12.06 is also offered. The page has no text addressed to AI.",
+    "price_now_seen": "$4.02",
+    "price_was_seen": "$6.00",
+    "reason": "The page shows a 33% off sale at $4.02 (struck-through $6.00) for a game tagged Solo RPG, GM-Less and Tabletop role-playing game, played with dice and tables.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-npc-generator",
+   "title": "DnD NPC Generator: 160 Ready NPCs, DM Reference Sheets (Digital Download)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The $3.26 price is a minimum ('or more') on itch.io. The page shows no end date; the claimed end date 2026-11-04 is not on the page. The page says the text was made with AI assistance. The $686.00 figure is a bundle price, not this product's price.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a 5e NPC random-table supplement (a tabletop RPG GM aid) marked 'On Sale! 35% Off' at $3.26, down from $5.02, as part of the Halloween Sale 2026.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-random-encounter-tables",
+   "title": "Terrain Encounters D&D d100 Random Table Generator | Dungeon Master Tools | Dungeons and Dragons | Printable Product",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date. The claimed end date of 2026-11-04 could not be confirmed from the page. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.63",
+    "price_was_seen": "$5.59",
+    "reason": "The page shows a printable D&D 5e random encounter table PDF (a tabletop RPG GM supplement) at $3.63, down from $5.59, in the 'Halloween Sale 2026' with a '35% Off' label.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-card-bundle-2024",
+   "title": "DnD 2024 DM Card Bundle, 4,127 Printable Cards: Monsters, Spells, Magic Items, NPCs, Quests, Traps, Events",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-04 is not confirmed on the page. The page is a physical-game category listing, but the files are printable PDFs, not shipped goods. The page says its content was made with AI assistance. The page also links a 112-item bundle for $686.00, which I did not open. No text on the page was addressed to AI.",
+    "price_now_seen": "$54.74",
+    "price_was_seen": "$84.23",
+    "reason": "The page shows a 'Halloween Sale 2026' at 35% off, $84.23 down to $54.74. The product is a downloadable PDF of D&D 2024 monsters, NPCs, quests and spells, tagged Tabletop role-playing game, so it counts as an RPG supplement.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://hexjellyfish.itch.io/stationfall",
+   "title": "Stationfall",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page lists no end date, so the claimed 2026-11-04 end date is unconfirmed. Stationfall is a two-player tabletop RPG sold as a PDF (category 'Physical game', genre Role Playing, tag 'Tabletop role-playing game'). The page also offers a 5-game Halloween Sale bundle for $36.70. No instructions aimed at AI were found.",
+    "price_now_seen": "$2.99",
+    "price_was_seen": "$3.99",
+    "reason": "The page tags Stationfall as a tabletop role-playing game and shows a 25% off Halloween Sale, with $3.99 struck through and $2.99 as the current price.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-player-kit",
+   "title": "Printable DnD Character Journal + DnD 2014 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The 35% off Halloween Sale 2026 price is confirmed, but the product is printable character sheets, spell cards and a journal, which may count as accessories rather than a rulebook, adventure or supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-04 is not confirmed. The page also advertises a 112-item bundle for $686.00, which is a different offer. The page text contained no instructions aimed at AI.",
+    "price_now_seen": "$18.17",
+    "price_was_seen": "$27.96",
+    "reason": "The 35% off Halloween Sale 2026 price is confirmed, but the product is printable character sheets, spell cards and a journal, which may count as accessories rather than a rulebook, adventure or supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://worldbuildersrunesmiths.itch.io/worldbuilders-work",
+   "title": "Worldbuilders Guidebook: Big Book of Templates",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The 25% off Halloween Sale price of $11.25 (was $15.00) is on the page, but the product is a system-agnostic worldbuilding template book for GMs and novelists, so it is unclear whether it counts as a tabletop RPG supplement."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page is tagged 'Tabletop role-playing game' and 'game-master' and is aimed at Game Masters. It also targets novelists and creatives. The page shows no sale end date, so the claimed 2026-11-04 is unconfirmed. $11.25 is a minimum price ('or more'). No instructions aimed at AI were found. The page mentions AI tools only as part of the product description.",
+    "price_now_seen": "$11.25",
+    "price_was_seen": "$15.00",
+    "reason": "The 25% off Halloween Sale price of $11.25 (was $15.00) is on the page, but the product is a system-agnostic worldbuilding template book for GMs and novelists, so it is unclear whether it counts as a tabletop RPG supplement.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://blackfeatherforge.itch.io/the-storytellers-toolkit",
+   "title": "The Storyteller's Toolkit",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The 25% off sale is real, but the product is a printable GM screen with trackers and cards that needs the Ashcrown rulebook, so it is an accessory and not a rulebook, adventure or supplement."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the Halloween Countdown bundle is linked but no date is shown. The page text contains no instructions aimed at AI.",
+    "price_now_seen": "$15.00",
+    "price_was_seen": "$20.00",
+    "reason": "The 25% off sale is real, but the product is a printable GM screen with trackers and cards that needs the Ashcrown rulebook, so it is an accessory and not a rulebook, adventure or supplement.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://journey-mountain-studios.itch.io/galaxy-builder-decks-spooky-set",
+   "title": "Galaxy Builder Decks: Spooky Set",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The product is a GM worldbuilding tool, so it is borderline RPG content, which fits Jev's low RPG confidence (0.31). The page does not show a sale end date, so the claimed 2026-11-03 could not be confirmed. The prices match the claim. No instructions addressed to AI were found on the page.",
+    "price_now_seen": "$0.49",
+    "price_was_seen": "$2.49",
+    "reason": "The page shows an 'On Sale! 80% Off' banner with $2.49 struck through and $0.49 as the current price. It is a system-neutral printable PDF card set for GMs, tagged Tabletop role-playing game and Supplement, genre Role Playing.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://marrow-ash-press.itch.io/the-last-bell",
+   "title": "The Last Bell",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text does not show an end date, so the claimed 2026-11-04 is unconfirmed here. It is a PDF solo game that needs a card deck and a stacking tower to play. The page also advertises a 4-game bundle for $8.99, which is not the deal being checked. No text on the page was addressed to AI.",
+    "price_now_seen": "$2.49",
+    "price_was_seen": "$4.99",
+    "reason": "The page tags this solo journaling game as a Solo RPG and Tabletop role-playing game, and shows '50% Off' with $4.99 struck down to $2.49 under the 'Halloween Sale 2026' banner.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://colthack.itch.io/sick-sends",
+   "title": "Sick Sends",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed by the page. The product is a solo journaling RPG, so it is borderline on 'RPG', but its tags are explicit. No AI-directed text found.",
+    "price_now_seen": "$2.49",
+    "price_was_seen": "$4.99",
+    "reason": "The page is tagged 'Solo RPG' and 'Tabletop role-playing game', a solo dice-and-journal game. It shows a Halloween Sale 2026 at 50% off, from $4.99 (struck through) to $2.49.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet",
+   "title": "DnD 5e Character Sheet Cleric Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows $3.26 down from $5.02 in a running Halloween Sale (35% off), but the product is a fillable D&D 5e character sheet, which could count as an excluded accessory rather than a rulebook, adventure or supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 is unconfirmed. The page also mentions a $686 bundle of 112 items in the same sale. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows $3.26 down from $5.02 in a running Halloween Sale (35% off), but the product is a fillable D&D 5e character sheet, which could count as an excluded accessory rather than a rulebook, adventure or supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Sorcerer Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e Sorcerer character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the ends date 2026-11-04 in the deal record is not on the page. The page also offers a 112-item bundle at $686.00 (Halloween Sale 2026). No text addressed to AI was found.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a real 35% Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e Sorcerer character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://radixitchio.itch.io/party-of-four",
+   "title": "Party of Four - AI Game Master for Claude, solo or with friends",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The Halloween sale is real and the price matches, but the product is a Claude AI skill that acts as a game master, not a tabletop RPG rulebook, adventure or supplement, so whether it counts as an RPG product is the owner's call."
+   ],
+   "agent": {
+    "ends_seen": "Nov 4",
+    "model": "sonnet",
+    "notes": "Page is tagged 'Tabletop role-playing game' and 'Solo RPG'. The itch category is 'Physical game', but the files are a software skill zip and a PDF quick start. The page has no text addressed to AI.",
+    "price_now_seen": "$2.44",
+    "price_was_seen": "$6.99",
+    "reason": "The Halloween sale is real and the price matches, but the product is a Claude AI skill that acts as a game master, not a tabletop RPG rulebook, adventure or supplement, so whether it counts as an RPG product is the owner's call.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://elancharan.itch.io/jamma",
+   "title": "JAMMA",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end of 2026-11-04 is not confirmed. The page text carries no instructions addressed to AI.",
+    "price_now_seen": "$0.50",
+    "price_was_seen": "$1.00",
+    "reason": "The page shows JAMMA, a solo micro-RPG tagged 'Tabletop role-playing game', at 50% off ($1.00 to $0.50) in the Halloween Sale 2026.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-monk-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Monk Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The sale is real (35% off, Halloween Sale 2026), but the product is a fillable character sheet PDF, which is a play accessory and not a rulebook, adventure, supplement or module."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed 2026-11-04 end is not on the page. The itch.io price is 'or more' (a minimum price). No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The sale is real (35% off, Halloween Sale 2026), but the product is a fillable character sheet PDF, which is a play accessory and not a rulebook, adventure, supplement or module.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-barbarian-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Barbarian Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a running Halloween Sale 2026 at $3.26, down from $5.02 (35% off), but the product is a printable D&D character sheet, which could count as an accessory rather than an RPG supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date. The claimed end date of 2026-11-04 is not in the page text. The page also advertises a 112-item bundle for $686.00. No text addressed to AI was found.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page confirms a running Halloween Sale 2026 at $3.26, down from $5.02 (35% off), but the product is a printable D&D character sheet, which could count as an accessory rather than an RPG supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-paladin-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Paladin Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a running Halloween Sale at 35% off ($5.02 down to $3.26), but the product is a printable D&D character sheet, and I can't tell whether that counts as a rulebook, adventure or supplement or as an excluded accessory."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show the sale end date (2026-11-04), so that date is unconfirmed. The page text contained no instructions addressed to AI.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page confirms a running Halloween Sale at 35% off ($5.02 down to $3.26), but the product is a printable D&D character sheet, and I can't tell whether that counts as a rulebook, adventure or supplement or as an excluded accessory.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Warlock Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% Halloween Sale at $3.26 down from $5.02, but the product is a printable D&D character sheet PDF, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't settle whether it is in scope."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show a sale end date (the claimed 2026-11-04 is not visible). It also advertises a 112-item bundle for $686.00, which is not this product's price. No text addressed to AI was found.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a real 35% Halloween Sale at $3.26 down from $5.02, but the product is a printable D&D character sheet PDF, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't settle whether it is in scope.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-rogue-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Rogue Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real Halloween Sale at $3.26, down from $5.02 (35% off), but the product is a printable D&D 5e character sheet, which is a play accessory and may fall outside the scope of rulebooks, adventures and supplements. The page also shows no end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The price is a minimum ('or more') on a pay-what-you-want style itch.io listing. The page text has no instructions aimed at AI.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a real Halloween Sale at $3.26, down from $5.02 (35% off), but the product is a printable D&D 5e character sheet, which is a play accessory and may fall outside the scope of rulebooks, adventures and supplements. The page also shows no end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-bundle-2024",
+   "title": "DnD Bundle, 5e, 2024, All 12 Classes, DnD Cheat Sheet, DnD Character Sheet, Dungeons and Dragons, Dungeon Master Gift",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a running Halloween Sale at 35% off ($22.36 to $14.53), but the product is a set of fillable D&D 2024 character sheets (printable play aids), and I can't tell whether that counts as an RPG supplement or an excluded accessory."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date for the sale; the 2026-11-04 date in the claimed deal is not visible in the page text. The page also advertises a separate 112-item bundle for $686.00, which is not this deal. No text addressed to AI was found.",
+    "price_now_seen": "$14.53",
+    "price_was_seen": "$22.36",
+    "reason": "The page shows a running Halloween Sale at 35% off ($22.36 to $14.53), but the product is a set of fillable D&D 2024 character sheets (printable play aids), and I can't tell whether that counts as an RPG supplement or an excluded accessory.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-druid-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Druid Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it is in scope."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page gives no end date for the sale. The page also shows a bundle offer, 'Get this game and 111 more for $686.00 USD'. That bundle price is not this deal's price. I saw no text addressed to AI.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a real 35% Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it is in scope.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Fighter Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e Fighter character sheet PDF, which may count as a play accessory rather than a rulebook, adventure or supplement."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The sale prices match the claim. The page's visible text shows no end date; the claimed end date of 2026-11-04 is not on the page. The page offers a 112-item bundle for $686.00 as part of the Halloween Sale 2026. The page contained no instructions addressed to AI.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a real 35% Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e Fighter character sheet PDF, which may count as a play accessory rather than a rulebook, adventure or supplement.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-bard-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Bard Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed 2026-11-04 end date is not on the page text. The product is a character sheet, a borderline RPG supplement, so Jev's low RPG score (0.25) is a fair concern. The page also offers a 112-game bundle for $686.00, which is a different product. No instructions aimed at AI were found.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a D&D 5e (2024) Bard character sheet PDF, a tabletop RPG player aid, at $3.26 against $5.02 under the 'Halloween Sale 2026' banner, 35% off.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Ranger Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a running Halloween Sale at 35% off ($5.02 to $3.26), but the product is a printable D&D character sheet. That is closer to an accessory than a rulebook, adventure or supplement, so the owner should decide if it counts."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date is shown on the page (the claimed 2026-11-04 is not visible). The page also advertises a 112-item bundle for $686.00. I saw no text on the page addressed to AI.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page confirms a running Halloween Sale at 35% off ($5.02 to $3.26), but the product is a printable D&D character sheet. That is closer to an accessory than a rulebook, adventure or supplement, so the owner should decide if it counts.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-wizard-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Wizard Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a running 35% Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D character sheet, which may count as an accessory and not a rulebook, adventure or supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show a sale end date, so the claimed end of 2026-11-04 is not confirmed. The $3.26 price is a minimum price ('or more'). No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a running 35% Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D character sheet, which may count as an accessory and not a rulebook, adventure or supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-plot-hooks-and-rumor-tables",
+   "title": "DnD Tables | Digital Download | Rumors and Plot Hooks | DM Tools | Dungeons and Dragons 5E | 240 Rumors | Homebrew",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end date 2026-11-04 is not on the page. The product is a GM tool (random tables) for D&D 5E, so it counts as an RPG supplement. The text says it was made with AI assistance. The page also shows a bundle offer, 'Get this game and 111 more for $686.00', which I did not use.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a 26-page 5E rumor and plot-hook table book for GMs at $3.26, down from $5.02 (35% off), under a 'Halloween Sale 2026' banner.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Cleric Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a running Halloween Sale at 35% off ($5.02 to $3.26), but the product is a printable D&D character sheet, and it is unclear whether that counts as an RPG supplement or an accessory, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date is shown on the page, so the claimed end date 2026-11-04 is not confirmed. No text addressed to AI was found.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a running Halloween Sale at 35% off ($5.02 to $3.26), but the product is a printable D&D character sheet, and it is unclear whether that counts as an RPG supplement or an accessory, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet",
+   "title": "DnD 5e Character Sheet Warlock Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a running Halloween Sale 2026 at 35% off ($5.02 to $3.26), but the product is a printable D&D 5e character sheet, and I can't tell whether that counts as a supplement or as an excluded accessory."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end date of 2026-11-04 is not on it. No text addressed to AI found.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page confirms a running Halloween Sale 2026 at 35% off ($5.02 to $3.26), but the product is a printable D&D 5e character sheet, and I can't tell whether that counts as a supplement or as an excluded accessory.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet",
+   "title": "DND 101 | Dungeons and Dragons Beginner Character Sheet | New Player Quick Reference | Dungeons and Dragons | TTRPG",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date is shown on the page, so the claimed end date of 2026-11-04 is not confirmed. The product is a PDF player aid, not a rulebook or adventure, which is why the Jev RPG score was low. It includes rules reference content (actions, conditions, rests), so I count it as a supplement. The itch category says 'Physical game' but the product is a digital download. No text addressed to AI was found on the page.",
+    "price_now_seen": "$5.08",
+    "price_was_seen": "$7.82",
+    "reason": "The page shows a printable D&D 5e character sheet and rules quick reference (tagged Tabletop role-playing game) at $5.08, down from $7.82, in the running Halloween Sale 2026 (35% off).",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet",
+   "title": "DnD 5e Character Sheet Ranger Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a running Halloween Sale at 35% off ($5.02 to $3.26), but the product is a printable D&D 5e character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it is in scope."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 is not confirmed. It also advertises a 112-item bundle for $686.00. The page contains no text addressed to AI.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a running Halloween Sale at 35% off ($5.02 to $3.26), but the product is a printable D&D 5e character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it is in scope.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet",
+   "title": "DnD 5e Character Sheet Fighter Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e character sheet, which may count as an accessory and not a rulebook, adventure or supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end of 2026-11-04 is not on the page. The page also offers a bundle of 112 games for $686.00. No text addressed to AI was found.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a real 35% Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e character sheet, which may count as an accessory and not a rulebook, adventure or supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-dark-academia",
+   "title": "Dark Academia DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% Halloween Sale at $6.53 (was $10.05), but the product is a printable D&D 5e character sheet set, which may count as a play accessory rather than a rulebook, adventure or supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date is shown on the page; the claimed end date 2026-11-04 could not be confirmed. The page also advertises a 112-item bundle for $686.00 (Halloween Sale 2026). No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$6.53",
+    "price_was_seen": "$10.05",
+    "reason": "The page shows a real 35% Halloween Sale at $6.53 (was $10.05), but the product is a printable D&D 5e character sheet set, which may count as a play accessory rather than a rulebook, adventure or supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-gothic",
+   "title": "Gothic DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The sale is real (35% off, Halloween Sale 2026), but the product is a printable D&D character sheet set, which is a play accessory and not a rulebook, adventure, supplement or bundle."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No page text addressed to AI found. The page shows no end date; the claimed 2026-11-04 end date was not visible in the page text. The page also advertises a separate Halloween Sale bundle of 112 items for $686.00.",
+    "price_now_seen": "$6.53",
+    "price_was_seen": "$10.05",
+    "reason": "The sale is real (35% off, Halloween Sale 2026), but the product is a printable D&D character sheet set, which is a play accessory and not a rulebook, adventure, supplement or bundle.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-frostbound",
+   "title": "Frostbound DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The sale is real (35% off, Halloween Sale 2026), but the product is a printable character sheet set, which is a play accessory and not a rulebook, adventure, supplement, bundle or VTT module."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date 2026-11-04 is not confirmed on the page. The page also offers a 112-game bundle for $686.00. No text addressed to AI was found.",
+    "price_now_seen": "$6.53",
+    "price_was_seen": "$10.05",
+    "reason": "The sale is real (35% off, Halloween Sale 2026), but the product is a printable character sheet set, which is a play accessory and not a rulebook, adventure, supplement, bundle or VTT module.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-bard-character-sheet",
+   "title": "DnD 5e Character Sheet Bard Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% off Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e Bard character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page lists no end date; the deal record says 2026-11-04. The page text contains no instructions aimed at AI.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a real 35% off Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e Bard character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://halo-max.itch.io/the-house-has-one-more-room",
+   "title": "The House Has One More Room",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed here. The page also lists a bundle ('this toolkit and 1 more for $9.80'). That bundle is separate from this deal. itch.io files it under 'Physical game', but the files are a PDF, printable cards and an offline HTML tool. No instructions addressed to AI were found.",
+    "price_now_seen": "$4.20",
+    "price_was_seen": "$6.00",
+    "reason": "The page tags it 'Tabletop role-playing game' and describes a system-neutral RPG toolkit for GMs. It shows a struck-through $6.00 and $4.20 under '30% Off' in the 'Halloween Sale 2026'.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-monk-character-sheet",
+   "title": "DnD 5e Character Sheet Monk Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% off Halloween Sale at $3.26 (was $5.02), but the product is a fillable D&D 5e character sheet PDF, which may count as a play accessory (like a GM screen) and not as a rulebook, adventure or supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page did not show an end date; the claimed end date of 2026-11-04 was not confirmed on the page. The page is tagged 'Tabletop role-playing game' and 'Physical game' on itch.io. It also advertises a 112-item bundle for $686.00. No text addressed to AI was found.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a real 35% off Halloween Sale at $3.26 (was $5.02), but the product is a fillable D&D 5e character sheet PDF, which may count as a play accessory (like a GM screen) and not as a rulebook, adventure or supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-rogue-character-sheet",
+   "title": "DnD 5e Character Sheet Rogue Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a Halloween Sale at 35% off ($5.02 to $3.26), but the product is a fillable D&D 5e character sheet PDF, a player aid that may count as an accessory rather than a rulebook, adventure or supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date for the sale. It also links a 112-item bundle ($686.00) in the Halloween Sale 2026. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page confirms a Halloween Sale at 35% off ($5.02 to $3.26), but the product is a fillable D&D 5e character sheet PDF, a player aid that may count as an accessory rather than a rulebook, adventure or supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-cards-bundle",
+   "title": "DnD Card Bundle 5e 2014 | Printable Spell, Monster and Magic Item Cards, Dungeon Master Tools | Digital Download",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a running Halloween Sale (35% off, $41.38 to $26.89), but the product is a set of printable spell, monster and item cards, which could count as a GM accessory instead of a rulebook or supplement, so the owner should decide."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No instructions aimed at AI found on the page. The page shows no end date; the claimed 2026-11-04 is not visible in its text. The page also advertises a 112-game bundle for $686.00, which is a separate offer and not this deal.",
+    "price_now_seen": "$26.89",
+    "price_was_seen": "$41.38",
+    "reason": "The page confirms a running Halloween Sale (35% off, $41.38 to $26.89), but the product is a set of printable spell, monster and item cards, which could count as a GM accessory instead of a rulebook or supplement, so the owner should decide.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet",
+   "title": "DnD 5e Character Sheet Sorcerer Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% Halloween Sale at $3.26 (was $5.02), but the product is a fillable D&D 5e character sheet PDF, which may count as a play aid or accessory rather than a rulebook, adventure or supplement, so I can't tell if it belongs."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-04 is unconfirmed. The page is also part of a 112-item bundle. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a real 35% Halloween Sale at $3.26 (was $5.02), but the product is a fillable D&D 5e character sheet PDF, which may count as a play aid or accessory rather than a rulebook, adventure or supplement, so I can't tell if it belongs.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-verdant",
+   "title": "Verdant DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The sale is real (35% off, Halloween Sale 2026), but the product is a printable character sheet PDF. That is a play accessory, not a rulebook, adventure or supplement."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date. The 2026-11-04 end date is not in the page text. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$6.53",
+    "price_was_seen": "$10.05",
+    "reason": "The sale is real (35% off, Halloween Sale 2026), but the product is a printable character sheet PDF. That is a play accessory, not a rulebook, adventure or supplement.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-paladin-character-sheet",
+   "title": "DnD 5e Character Sheet Paladin Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% Halloween Sale price ($5.02 down to $3.26), but the product is a printable character sheet. That is a play aid close to the excluded accessories and GM screens, not clearly a rulebook, adventure or supplement, so the owner should decide. The page shows no end date, so the claimed 2026-11-04 is unconfirmed."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No text addressed to AI found on the page. The page also offers a 112-item bundle for $686.00 as part of the Halloween Sale 2026.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a real 35% Halloween Sale price ($5.02 down to $3.26), but the product is a printable character sheet. That is a play aid close to the excluded accessories and GM screens, not clearly a rulebook, adventure or supplement, so the owner should decide. The page shows no end date, so the claimed 2026-11-04 is unconfirmed.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-druid-character-sheet",
+   "title": "DnD 5e Character Sheet Druid Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a running Halloween Sale at 35% off ($5.02 down to $3.26), but the product is a printable D&D 5e character sheet, and I can't tell whether that counts as an RPG supplement or an accessory."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 comes from itch data only. The sale does list the bundle 'Halloween Sale 2026'. The page contained no instructions aimed at AI.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page confirms a running Halloween Sale at 35% off ($5.02 down to $3.26), but the product is a printable D&D 5e character sheet, and I can't tell whether that counts as an RPG supplement or an accessory.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-barbarian-character-sheet",
+   "title": "DnD 5e Character Sheet Barbarian Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a running 35% off Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e character sheet, which may count as an excluded accessory rather than a supplement, and the page gives no end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text has no instructions addressed to AI. The claimed end date 2026-11-04 does not appear on the page. The page also lists a 112-item bundle for $686.00, which is not this deal.",
+    "price_now_seen": "$3.26",
+    "price_was_seen": "$5.02",
+    "reason": "The page shows a running 35% off Halloween Sale at $3.26 (was $5.02), but the product is a printable D&D 5e character sheet, which may count as an excluded accessory rather than a supplement, and the page gives no end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://oakhaven.itch.io/dialogue-voice-sheet-game-master-utility-series-gu-001",
+   "title": "Dialogue & Voice Sheet — Game Master Utility Series (GU-001)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The sale is real (15% off, Halloween Sale 2026, $3.50 to $2.97), but the product is a 2-page fillable NPC voice sheet, a GM aid closer to an accessory than a rulebook, adventure or supplement, so I can't tell if it counts as an RPG product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date is shown on the page; the claimed end date 2026-11-04 is not visible there. The page also offers a 40-item bundle for $174.07. The page has a newsletter link to kit.com, which I did not open. No text addressed to AI found.",
+    "price_now_seen": "$2.97",
+    "price_was_seen": "$3.50",
+    "reason": "The sale is real (15% off, Halloween Sale 2026, $3.50 to $2.97), but the product is a 2-page fillable NPC voice sheet, a GM aid closer to an accessory than a rulebook, adventure or supplement, so I can't tell if it counts as an RPG product.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://oakhaven.itch.io/logic-ledger-game-master-utility-series-gu-005",
+   "title": "Logic Ledger — Game Master Utility Series (GU-005)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a 15% off Halloween Sale at $2.97, down from $3.50, but the product is a 2-page printable GM tracker sheet, which may count as an accessory rather than a rulebook, adventure or supplement."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end date 2026-11-04 is not visible there. The product is tagged 'Tabletop role-playing game' but is system-agnostic. The page includes a promo link to a free GM tool signup (kit.com), which is ordinary marketing and not addressed to AI. No instructions to AI found.",
+    "price_now_seen": "$2.97",
+    "price_was_seen": "$3.50",
+    "reason": "The page confirms a 15% off Halloween Sale at $2.97, down from $3.50, but the product is a 2-page printable GM tracker sheet, which may count as an accessory rather than a rulebook, adventure or supplement.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://oakhaven.itch.io/reputation-tracker-game-master-utility-series-gu-002",
+   "title": "Reputation Tracker — Game Master Utility Series (GU-002)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a Halloween Sale at 15% off ($3.50 struck through, $2.97 now), but the product is a system-agnostic printable GM tracker sheet, and I can't tell whether it counts as a tabletop RPG supplement or as an accessory."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-04 is unconfirmed. It is tagged 'Tabletop role-playing game' and 'gm-tools', and its category is 'Physical game'. The page also links a free-tool signup (kit.com), which I did not open. No text addressed to AI was found.",
+    "price_now_seen": "$2.97",
+    "price_was_seen": "$3.50",
+    "reason": "The page confirms a Halloween Sale at 15% off ($3.50 struck through, $2.97 now), but the product is a system-agnostic printable GM tracker sheet, and I can't tell whether it counts as a tabletop RPG supplement or as an accessory.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://oakhaven.itch.io/faction-member-index-game-master-utility-series-gu-004",
+   "title": "Faction Member Index — Game Master Utility Series (GU-004)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The 15% off Halloween Sale price of $2.97 (was $3.50) is shown on the page, but the product is a 2-page printable GM roster sheet, which could count as an accessory rather than an RPG supplement, so I can't tell if it belongs on the list."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show a sale end date, so the claimed 2026-11-04 is unconfirmed. The page tags it 'Tabletop role-playing game' and describes it as system-agnostic. No text on the page was addressed to AI. It has a promotional link to a kit.com newsletter signup, which I did not open.",
+    "price_now_seen": "$2.97",
+    "price_was_seen": "$3.50",
+    "reason": "The 15% off Halloween Sale price of $2.97 (was $3.50) is shown on the page, but the product is a 2-page printable GM roster sheet, which could count as an accessory rather than an RPG supplement, so I can't tell if it belongs on the list.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://oakhaven.itch.io/treasure-loot-ledger-game-master-utility-series-gu-008",
+   "title": "Treasure & Loot Ledger — Game Master Utility Series (GU-008)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a 15% Halloween Sale price of $2.97 (was $3.50), but the product is a two-page printable GM loot-tracking sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it is in scope."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end date of 2026-11-04 is not visible in the text. The page links to a 40-item bundle for $174.07 and a kit.com email signup link; neither was followed. No text addressed to AI was found.",
+    "price_now_seen": "$2.97",
+    "price_was_seen": "$3.50",
+    "reason": "The page confirms a 15% Halloween Sale price of $2.97 (was $3.50), but the product is a two-page printable GM loot-tracking sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it is in scope.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://oakhaven.itch.io/interrogation-record-game-master-utility-series-gu-003",
+   "title": "Interrogation Record — Game Master Utility Series (GU-003)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a running Halloween Sale at $2.97 (was $3.50, 15% off), but the product is a 3-page printable GM record sheet, which is closer to an accessory than a rulebook, adventure or supplement, so I can't tell whether it counts as an RPG product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed end of 2026-11-04 is not confirmed. The page also links a free newsletter sign-up at the-oakhaven-archive.kit.com, which I did not open. I found no text on the page addressed to AI.",
+    "price_now_seen": "$2.97",
+    "price_was_seen": "$3.50",
+    "reason": "The page confirms a running Halloween Sale at $2.97 (was $3.50, 15% off), but the product is a 3-page printable GM record sheet, which is closer to an accessory than a rulebook, adventure or supplement, so I can't tell whether it counts as an RPG product.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://oakhaven.itch.io/petition-for-correction-of-the-master-census-oa-cen-001",
+   "title": "Petition for Correction of the Master Census (OA-CEN-001)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 is not confirmed here. The product is a one-page printable form, a borderline supplement. The page is also a 40-item bundle offer at $174.07, which is a separate bundle price and not this item's price. The page contains no text addressed to AI.",
+    "price_now_seen": "$2.97",
+    "price_was_seen": "$3.50",
+    "reason": "The page shows a running Halloween Sale 2026 at 15% off, from a struck-through $3.50 to $2.97. The product is a printable GM-tool form for a tabletop RPG, tagged 'Tabletop role-playing game', 'gm-tools' and 'Solo RPG'.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://mouseholepress.itch.io/the-slow-knife",
+   "title": "The Slow Knife",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The Slow Knife is a card-based story game, which the page describes as 'a roleplaying game'. The 'Role Playing' genre tag and the rules-lite, GM-less format make it a tabletop RPG, though a borderline one. The page offers it as a digital download. The physical copy is sold out. The 'Get this game and 1 more for $12.00' bundle line is separate from the single-game price. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$6.00",
+    "price_was_seen": "$12.00",
+    "reason": "The page calls itself a roleplaying game (Genre: Role Playing) and shows '50% Off' with $12.00 struck to $6.00 under the 'Halloween Sale 2026' banner; the sale end date of 2026-11-04 is not shown on the page.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://drmhigginson.itch.io/finger-bang",
+   "title": "Finger Bang",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 100% off sale ($1.00 to $0.00), but the author says the game ended up 'more board or war game adjacent' than an RPG, even though it is tagged Role Playing and one-page-rpg and was made for an RPG jam."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-01 is not confirmed. It is a two-player hand-fighting game on a printable sheet. The page contains no instructions addressed to AI.",
+    "price_now_seen": "$0.00",
+    "price_was_seen": "$1.00",
+    "reason": "The page shows a real 100% off sale ($1.00 to $0.00), but the author says the game ended up 'more board or war game adjacent' than an RPG, even though it is tagged Role Playing and one-page-rpg and was made for an RPG jam.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://longgames.itch.io/24-hour-crime-scene",
+   "title": "24 Hour Crime Scene",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end date 2026-11-04 is not confirmed by the page. The Halloween Sale 2026 bundle link is shown on the page. No text addressed to AI was found.",
+    "price_now_seen": "$6.60",
+    "price_was_seen": "$11.00",
+    "reason": "The page shows a tabletop role-playing game (genre Role Playing, 1-4 players, pens and cards needed) at $6.60 against $11.00 under 'On Sale! 40% Off' in the Halloween Sale 2026.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://longgames.itch.io/killslash",
+   "title": "Killslash",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed by the page. The $6.60 is a minimum price (\"or more\"). The listing is a PDF plus an ambient MP3, although itch.io labels the category 'Physical game'. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$6.60",
+    "price_was_seen": "$11.00",
+    "reason": "The page describes a solo tabletop RPG (genre Role Playing, a journaling game played with a d6) and shows it on sale at 40% off, $11.00 down to $6.60, in the Halloween Sale 2026.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://nuclearobelisk.itch.io/pwe",
+   "title": "The Power Words Engine",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed by the page. The product is a digital PDF (itch lists it as 'Physical game' category), not a rulebook for one game, but it is a tabletop RPG supplement. No instructions addressed to AI were found on the page.",
+    "price_now_seen": "$3.50",
+    "price_was_seen": "$7.00",
+    "reason": "The page shows a 50% off sale at $3.50 (was $7.00) for a PDF toolkit that replaces the spell list of tabletop RPG systems, tagged Role Playing and Tabletop.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://longgames.itch.io/coffee-shop-screenwriter",
+   "title": "Coffee Shop Screenwriter",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text shows no end date, so the claimed 2026-11-04 is not confirmed by the page. The listing is a pay-what-you-want style 'or more' minimum price. No instructions addressed to AI were found on the page.",
+    "price_now_seen": "$6.60",
+    "price_was_seen": "$11.00",
+    "reason": "The page describes a story-telling tabletop role-playing game played with dice and pen, and shows it at 40% off ($11.00 to $6.60) in the Halloween Sale 2026.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://longgames.itch.io/soulfire-sparks",
+   "title": "Soulfire Sparks",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed on the page. The price is pay-what-you-want style ('or more' with a $6.60 minimum). No text addressed to AI was found.",
+    "price_now_seen": "$6.60",
+    "price_was_seen": "$11.00",
+    "reason": "The page describes a tabletop role-playing game (14-page PDF, played with a deck of cards, genre Role Playing) and shows $6.60 against a struck-through $11.00 under a 40% off Halloween Sale 2026 banner.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://longgames.itch.io/how-to-date-a-vampire",
+   "title": "How To Date A Vampire",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page lists the item as a 'Physical game' but sells a PDF download. The page shows no end date; the claimed end date of 2026-11-25 is not confirmed. The 'Get this game and 10 more for $50.00' bundle link is a separate offer. No text addressed to AI was found on the page.",
+    "price_now_seen": "$3.60",
+    "price_was_seen": "$6.00",
+    "reason": "The page shows a two-page tabletop RPG for one or two players (genre Role Playing, English) at $3.60, down from $6.00, as a 40% off Halloween Sale 2026 that is running now.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://sunkenrust.itch.io/thishouse",
+   "title": "You Enter This House Alone But You Are Not Alone",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed end date of 2026-11-04 is not confirmed by the page. The page text is ordinary game description with no instructions aimed at AI.",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "reason": "The itch.io page shows a '50% Off' sale, $2.00 struck through and $1.00 now, for a solo journaling tabletop RPG (tags: Role Playing, Solo RPG) played with a deck of cards.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://war-claw-games.itch.io/elder-space-pnp",
+   "title": "ELDER SPACE (PNP)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end date of 2026-11-04 was not confirmed. The product is a printable PDF card game, labelled 'Physical game' on itch.io. The page also offers a bundle (this game and 10 more for $40.00). The page contained no text addressed to AI.",
+    "price_now_seen": "$7.00",
+    "price_was_seen": "$10.00",
+    "reason": "The page shows a solo tabletop RPG (print-and-play, tagged Role Playing and Solo RPG) at $7.00, down from $10.00 (30% off), in the running Halloween Sale 2026.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://rathayibacter.itch.io/charcuterie-vol-4",
+   "title": "CHARCUTERIE IV",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The sale is real (31% off, $10.00 struck to $6.90, Rath's Halloween Sale), but the page never says the zine's games are tabletop RPGs: it is a physical-game zine of small games, stories and poems with genre 'Role Playing'."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show an end date, so the claimed 2026-11-01 is unconfirmed. No text on the page addressed AI.",
+    "price_now_seen": "$6.90 USD",
+    "price_was_seen": "$10.00",
+    "reason": "The sale is real (31% off, $10.00 struck to $6.90, Rath's Halloween Sale), but the page never says the zine's games are tabletop RPGs: it is a physical-game zine of small games, stories and poems with genre 'Role Playing'.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://zeta2391.itch.io/taller-espacial-de-erizo",
+   "title": "Taller espacial de erizo (Rol en solitario)",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The price and the 40% Halloween Sale are real, but this is a Spanish-only solo journaling game (languages: Spanish; the English version is only 'coming soon'), and RPG Hunt lists English products only."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No instructions aimed at AI were found on the page. The page does not show a sale end date, so the claimed end date of 2026-11-04 is unconfirmed. The tags include Solo RPG, so it is a tabletop RPG, and the drop is only because of the language.",
+    "price_now_seen": "$1.77",
+    "price_was_seen": "$2.95",
+    "reason": "The price and the 40% Halloween Sale are real, but this is a Spanish-only solo journaling game (languages: Spanish; the English version is only 'coming soon'), and RPG Hunt lists English products only.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://maggiefrench.itch.io/how-toys-become-real",
+   "title": "How Toys Become Real",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed on the page. The page also offers a bundle (this game and 7 more for $22.49), which is not the deal being checked. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$2.50",
+    "price_was_seen": "$5.00",
+    "reason": "The page tags it Genre Role Playing / Solo RPG and shows a Halloween Sale 2026 at 50% off, $5.00 struck through and $2.50 now.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://z051m05.itch.io/theanarchitect",
+   "title": "The Anarchitect",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date 2026-11-04 is not confirmed here. The price is pay-what-you-want style ('$2.50 USD or more'). A Community Copy is also offered free for jam participants or people who can't afford it. The page also offers a 2-game bundle for $12.50. The page contained no instructions addressed to AI.",
+    "price_now_seen": "$2.50",
+    "price_was_seen": "$5.00",
+    "reason": "The page shows The Anarchitect, a GM-less cooperative story RPG (genre Role Playing, PDF rulebook), at $2.50 with $5.00 struck out under a 50% off Halloween Sale 2026.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://zeta2391.itch.io/quick-cultures",
+   "title": "Quick cultures",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show an end date, so the claimed 2026-11-04 could not be confirmed here. $0.60 is a minimum price ('or more'). It is a small RPG tool/supplement, not a full rulebook. The page has no text addressed to AI.",
+    "price_now_seen": "$0.60",
+    "price_was_seen": "$1.00",
+    "reason": "The page shows a culture generator for tabletop fantasy RPGs (English version included) with $1.00 struck through and $0.60 now, labelled 'On Sale! 40% Off' under 'Halloween Sale 2026'.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://hulkhoquinn.itch.io/housing-crisis",
+   "title": "HOUSING / CRISIS",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show an end date, so the claimed 2026-11-04 is unconfirmed. The page text has no instructions aimed at AI.",
+    "price_now_seen": "$0.99",
+    "price_was_seen": "$1.99",
+    "reason": "The page shows a tabletop RPG (genre Role Playing, tag Tabletop, 9-page PDF) at $0.99, down from a struck-through $1.99, marked '50% Off' in Jason's Halloween Sale 2026.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://zeta2391.itch.io/el-prisionero",
+   "title": "El Prisionero",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The product is Spanish-only (Languages: Spanish; Castilian, Spanish; Latin America), so the English-only rule should drop it. The page shows no sale end date, so the claimed 2026-11-04 is not confirmed. The page also lists the item in a 47-game bundle for $12.95.",
+    "price_now_seen": "$1.77",
+    "price_was_seen": "$2.95",
+    "reason": "The page shows a solo journaling RPG (genre Role Playing, tag Solo RPG) at $1.77, down from a struck-through $2.95, under the 'Halloween Sale 2026' label with 40% Off.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://oraecle.itch.io/diviner",
+   "title": "Diviner le Mythe",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a 90% off sale from $5.00 to $0.50, but the product is a card-drawing journaling and writing-prompt game that is only loosely tagged Solo RPG, so I can't tell whether it counts as a tabletop RPG, and the page shows no sale end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No instructions aimed at AI found on the page. The page says 'Category Physical game' and 'Genre Adventure, Role Playing', but the product is a 268 kB PDF. The claimed end date 2026-11-04 does not appear anywhere on the page.",
+    "price_now_seen": "$0.50",
+    "price_was_seen": "$5.00",
+    "reason": "The page shows a 90% off sale from $5.00 to $0.50, but the product is a card-drawing journaling and writing-prompt game that is only loosely tagged Solo RPG, so I can't tell whether it counts as a tabletop RPG, and the page shows no sale end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://war-claw-games.itch.io/grim-lands-adventure",
+   "title": "Grim Lands Adventure",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date is shown on the page, so the claimed 2026-11-04 comes only from the feed. The product is borderline: it is a print-and-play card set (art cards used as an encounter generator), but it has its own rules and is listed as an RPG, so I treated it as an RPG product. The page also offers a bundle (this game and 10 more for $40.00); that bundle price is not the deal being checked. No text on the page was addressed to AI.",
+    "price_now_seen": "$4.20",
+    "price_was_seen": "$6.00",
+    "reason": "The page shows a 30% off Halloween Sale 2026 price of $4.20, down from $6.00, on a solo RPG / GM adventure card pack (itch genre Role Playing, tag Solo RPG, with its own rules document, for use with Mork Borg or any dark fantasy system).",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://zeta2391.itch.io/dome",
+   "title": "Dome",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The sale price is real (40% off, Halloween Sale 2026), but the page lists the game in Spanish only and describes a few-minute dice art game, not clearly a tabletop RPG, and the site lists English products only."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed. A commenter says the game is not available in English. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$0.60",
+    "price_was_seen": "$1.00",
+    "reason": "The sale price is real (40% off, Halloween Sale 2026), but the page lists the game in Spanish only and describes a few-minute dice art game, not clearly a tabletop RPG, and the site lists English products only.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://zeta2391.itch.io/astro-garden",
+   "title": "Astro-Garden",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text is in Spanish and the Languages field lists only Spanish (Castilian and Latin America). The English-only rule (check.not_english) should catch it, even though it passes the sale and RPG checks. The page shows no sale end date, so the claimed 2026-11-04 is unconfirmed. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$1.77",
+    "price_was_seen": "$2.95",
+    "reason": "The page shows a solo journaling micro-RPG (genre Role Playing, tag Solo RPG) at $1.77, down from a struck-through $2.95 (40% Off) in the running Halloween Sale 2026.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://ianthedad.itch.io/rpgworld",
+   "title": "RpgWorld: Rules-lite SOLO RPG",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show an end date, so the claimed 2026-11-04 is unconfirmed. $0.99 is the minimum price (the page says '$0.99 USD or more'). The 'Physical game' category is itch.io's label for a downloadable PDF booklet. The page also offers a 9-game bundle for $9.00. No instructions aimed at AI found on the page.",
+    "price_now_seen": "$0.99",
+    "price_was_seen": "$1.99",
+    "reason": "The page shows a rules-lite solo journal RPG booklet (dice and tables) marked 'On Sale! 50% Off', $1.99 down to $0.99, under the 'Halloween Sale 2026' banner.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://longgames.itch.io/knifefight",
+   "title": "Knife Fight In A Phone Booth - D20 Arcade",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The sale is real (40% off, $3.00 to $1.80), but the product is a two-player dice fighting game, not a tabletop RPG; it only uses RPG dice."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Page lists genre 'Fighting, Role Playing' and tag rpgdice, but the description says it is a quick filler game to play alongside RPG sessions. No end date shown on the page (the claimed 2026-11-04 is not visible). No instructions aimed at AI found.",
+    "price_now_seen": "$1.80 USD",
+    "price_was_seen": "$3.00",
+    "reason": "The sale is real (40% off, $3.00 to $1.80), but the product is a two-player dice fighting game, not a tabletop RPG; it only uses RPG dice.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://lambnutt.itch.io/ttrpg-starfall-academy-the-first-trial",
+   "title": "TTRPG: StarFall Academy : The First Trial",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show an end date, so the claimed 2026-11-04 is unconfirmed. $1.49 is the minimum price ('or more'). The page says it is AI-assisted. It is also part of a 6-item bundle for $7.00. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$1.49",
+    "price_was_seen": "$2.99",
+    "reason": "The page shows a tabletop RPG adventure (tags Tabletop and Role Playing, a Game Master-run story, PDF files) at 50% off, $2.99 down to $1.49, in the running Halloween Sale 2026.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://staces.itch.io/maitre-enqueteur",
+   "title": "Maître Enquêteur",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The 35% off price is real, but the page calls it a 'board game' (tags: Board Game, Print & Play) that only borrows ideas from tabletop RPGs, and it is French-only, so it is not an English tabletop RPG product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date. The deal's 'ends' value of 2026-11-04 may come from the Halloween 2026 bundle promo, which the page does not date. No AI-directed instructions seen on the page.",
+    "price_now_seen": "3.25€",
+    "price_was_seen": "5.00€",
+    "reason": "The 35% off price is real, but the page calls it a 'board game' (tags: Board Game, Print & Play) that only borrows ideas from tabletop RPGs, and it is French-only, so it is not an English tabletop RPG product.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://albi13.itch.io/superstition",
+   "title": "Superstition",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed here. The Halloween Sale bundle banner is a separate offer: 'Get this game and 2 more for $19.00'. The product is a downloadable PDF (itch 'Physical game' category), not a printed book. The comments section has some Italian text, which is ordinary user content. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$5.85",
+    "price_was_seen": "$9.00",
+    "reason": "The page describes Superstition as a solo journaling RPG (genre Role Playing) and shows a running 'Halloween Sale 2026' at 35% off, from $9.00 to $5.85.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://pizzapranks.itch.io/indiepocalypse-35",
+   "title": "Indiepocalypse #35",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page confirms a 34% off sale from $15.00 to $9.90, but the product is a mixed indie video game and zine bundle (Windows downloads, with only two tabletop RPG items out of ten), so it is not a tabletop RPG product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Genre is listed as Adventure and the platform is Windows. The page does not show the sale end date of 2026-11-04. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$9.90",
+    "price_was_seen": "$15.00",
+    "reason": "The page confirms a 34% off sale from $15.00 to $9.90, but the product is a mixed indie video game and zine bundle (Windows downloads, with only two tabletop RPG items out of ten), so it is not a tabletop RPG product.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://inkusalters.itch.io/remains-of-vesper",
+   "title": "Remains of Vesper",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The product is a hybrid: a TTRPG zine plus a video game, so the RPG call is a judgment. The page shows no end date, so the claimed 2026-11-04 is not confirmed by the page. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$1.50",
+    "price_was_seen": "$2.00",
+    "reason": "The page shows a 25% off sale from $2.00 to $1.50 CAD (Vekari Halloween Sale 2026). It describes the product as a standalone solo TTRPG/journalling zine with a game counterpart, tagged Solo RPG and Tabletop role-playing game.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://oakhaven.itch.io/curators-vault",
+   "title": "Curator's Vault",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 15% Halloween Sale discount ($35.00 to $29.75), but the product is a bundle of printable GM tracker and ledger sheets, which may count as accessories rather than a rulebook, adventure or supplement, so I can't tell if it is in scope."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show a sale end date, so the claimed 2026-11-04 is unconfirmed. It is tagged 'Tabletop role-playing game' and 'gm-tools', and it is not an adventure or rules text. The page also carries a promotional link to the creator's newsletter (the-oakhaven-archive.kit.com/handover). It is ordinary marketing and I did not open it. I found no text addressed to AI.",
+    "price_now_seen": "$29.75 USD",
+    "price_was_seen": "$35.00",
+    "reason": "The page shows a real 15% Halloween Sale discount ($35.00 to $29.75), but the product is a bundle of printable GM tracker and ledger sheets, which may count as accessories rather than a rulebook, adventure or supplement, so I can't tell if it is in scope.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-24"
+  },
+  {
+   "job": "recheck",
+   "key": "https://koboldpress.com/kpstore/product/cities-towns-complete-bundle/",
+   "title": "Cities & Towns Complete Bundle",
+   "shop": "Kobold Press",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date. The price text was in the page's screen-reader spans, not a struck-through element. The page contained no text addressed to AI.",
+    "price_now_seen": "$74.99",
+    "price_was_seen": "$98.89",
+    "reason": "The Kobold Press store page shows a Sale! badge, with the original price at $98.89 and the current price at $74.99. It is filed under Dungeons & Dragons 5.5E, Tales of the Valiant, Player Options and Maps, so it is a tabletop RPG supplement bundle.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-22"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/voidheart-symphony-quickstart-kill-or-cure-revised-edition-rulebook",
+   "title": "Voidheart Symphony Quickstart Kill Or Cure (Revised Edition) Rulebook",
+   "shop": "tabletopgaming.shop",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The discount is small (5%). The text 'Sold out' appears on the page but so does '5 in stock', so it is most likely a hidden button label. No end date is shown. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "£9.50",
+    "price_was_seen": "£10.00",
+    "reason": "The page shows a Sale tag with £9.50 against a struck-through £10.00 for a quickstart scenario of the tabletop RPG Voidheart Symphony, listed as Game Type: Rule Books.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/dagger-in-the-heart-2nd-print-rulebook",
+   "title": "Dagger in the Heart - 2nd Print Rulebook",
+   "shop": "tabletopgaming.shop",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The discount is small, about 4%. The text 'Sold out' appears on the page but sits beside '5 in stock' and looks like a hidden button label. No end date is shown. The page contained no text addressed to AI.",
+    "price_now_seen": "£33.49",
+    "price_was_seen": "£35.00",
+    "reason": "The page shows the Dagger in the Heart rulebook (an adventure for the RPG Heart: The City Beneath, Game Type: Rule Books) with a Sale price of £33.49 and £35.00 struck through, and it lists 5 in stock.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/godsrain-a-pathfinder-novel-softcover-rulebook",
+   "title": "Godsrain: A Pathfinder Novel (Softcover) Rulebook",
+   "shop": "tabletopgaming.shop",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page describes a Pathfinder tie-in novel (fiction, not an RPG book) and it is marked Sold out / Out of stock."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page says 'Game Type: Rule Books', but the description is clearly a novel by Liane Merciel. No text addressed to AI found.",
+    "price_now_seen": "£15.99",
+    "price_was_seen": "£16.99",
+    "reason": "The page describes a Pathfinder tie-in novel (fiction, not an RPG book) and it is marked Sold out / Out of stock.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/mycologists-primer-sourcebook",
+   "title": "Mycologist's Primer Sourcebook",
+   "shop": "tabletopgaming.shop",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The discount is small (about 5%). The page text contains both 'Sold out' and '5 in stock'. The 'Sold out' text is probably a hidden button state, since stock shows 5. No end date is shown. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "£47.49",
+    "price_was_seen": "£49.99",
+    "reason": "The page marks this system-agnostic RPG sourcebook (Game Type: Roleplaying Games) as 'Sale' at £47.49, with £49.99 struck through, and shows 5 in stock.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/the-deck-of-many-things-dungeons-dragons",
+   "title": "The Deck of Many Things: Dungeons & Dragons",
+   "shop": "tabletopgaming.shop",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The discount is small, about 4.7%. The page text has both 'Sold out' and '5 in stock'. The 'Sold out' text is most likely a hidden button label, but I could not confirm that. No end date is shown. I found no text on the page addressed to AI.",
+    "price_now_seen": "£80.99",
+    "price_was_seen": "£84.99",
+    "reason": "The page shows this D&D box set (The Book of Many Things plus a card deck, listed as Game Type: Roleplaying Games) at a sale price of £80.99, with £84.99 struck through and a Sale label.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/battletech-gothic-miniatures",
+   "title": "BattleTech Gothic Role Playing Game/Miniatures",
+   "shop": "tabletopgaming.shop",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real sale (£94.99 against a struck-through £99.99, 5 in stock), but the product is a boxed set of 7 BattleMech miniatures with a rulebook, and the shop tags it 'Roleplaying Games (RPG's)', so I can't tell whether it counts as a tabletop RPG or as miniatures, which are out of scope."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date shown. The page's 'Sold out' label sits next to '5 in stock', which is probably hidden template text. No instructions aimed at AI found on the page.",
+    "price_now_seen": "£94.99",
+    "price_was_seen": "£99.99",
+    "reason": "The page shows a real sale (£94.99 against a struck-through £99.99, 5 in stock), but the product is a boxed set of 7 BattleMech miniatures with a rulebook, and the shop tags it 'Roleplaying Games (RPG's)', so I can't tell whether it counts as a tabletop RPG or as miniatures, which are out of scope.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/stormlight-plot-decks-role-playing-game",
+   "title": "Stormlight Plot Decks Role Playing Game",
+   "shop": "tabletopgaming.shop",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real sale (£11.49 against a struck-through £11.99, about 4% off) and the shop files it under Roleplaying Games. But it is a deck of Opportunity and Complication cards for the Cosmere RPG, which may count as an accessory rather than a rulebook or supplement, so I can't tell if it belongs."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date shown. The page text also contains 'Sold out' next to '5 in stock', probably leftover template text. No instructions aimed at AI found on the page.",
+    "price_now_seen": "£11.49",
+    "price_was_seen": "£11.99",
+    "reason": "The page shows a real sale (£11.49 against a struck-through £11.99, about 4% off) and the shop files it under Roleplaying Games. But it is a deck of Opportunity and Complication cards for the Cosmere RPG, which may count as an accessory rather than a rulebook or supplement, so I can't tell if it belongs.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/12531/rappan-athuk-reloaded-map-book",
+   "title": "Rappan Athuk Reloaded Map Book",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/56587/sundered-skies-figure-flats",
+   "title": "Sundered Skies - Figure Flats",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/56789/daring-tales-of-adventure-figure-flats",
+   "title": "Daring Tales of Adventure: Figure Flats",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/60232/tabletop-heroes-age-of-piracy-british-sailors",
+   "title": "Tabletop Heroes: Age of Piracy - British Sailors",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/86582/hellfrost-calendar",
+   "title": "Hellfrost Calendar",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/138998/hellfrost-action-deck",
+   "title": "Hellfrost Action Deck",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/188204/daring-tales-of-adventure-codex",
+   "title": "Daring Tales of Adventure Codex",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/228546/potion-generator",
+   "title": "Potion Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/230432/book-generator",
+   "title": "Book Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/236789/the-synthetics-1",
+   "title": "The Synthetics #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/247783/rappan-athuk-map-folio",
+   "title": "Rappan Athuk Map Folio",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/304446/tegel-manor-deed",
+   "title": "Tegel Manor Deed",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/318479/hudson-brand-flats",
+   "title": "Hudson & Brand Flats",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/345769/tome-of-horrors-2020-cards-deck-one",
+   "title": "Tome of Horrors 2020 Cards Deck ONE",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/345772/tome-of-horrors-2020-cards-deck-two",
+   "title": "Tome of Horrors 2020 Cards Deck TWO",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/345900/tome-of-horrors-2020-cards-deck-three",
+   "title": "Tome of Horrors 2020 Cards Deck THREE",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/346946/neverland-here-be-monsters-ace-gamebooks-3",
+   "title": "NEVERLAND - Here Be Monsters! (ACE Gamebooks #3)",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/346948/beowulf-beastslayer-ace-gamebooks-4",
+   "title": "Beowulf Beastslayer (ACE Gamebooks #4)",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/363706/christmas-in-july",
+   "title": "Christmas in July",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/364432/the-tessellation-1",
+   "title": "The Tessellation #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/385181/necropolis-virtual-tabletop-maps-and-tokens-vtt",
+   "title": "Necropolis Virtual Tabletop Maps And Tokens (VTT)",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/395940/ironclads-british-fleet-manual",
+   "title": "Ironclads British Fleet Manual",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/395941/ironclads-american-fleet-manual",
+   "title": "Ironclads American Fleet Manual",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/395942/ironclads-german-fleet-manual",
+   "title": "Ironclads German Fleet Manual",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+   "title": "Prophecy Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/436256/heorot-roleplaying-in-the-world-of-beowulf-beastslayer-core-rulebook",
+   "title": "HEOROT – Roleplaying in the World of Beowulf Beastslayer (Core Rulebook)",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/446518/frigorifique",
+   "title": "Frigorifique",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+   "title": "Space Bar Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/470605/nemot-rising-1",
+   "title": "Nemot Rising #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/473527/galaxy-builder-decks-spooky-set",
+   "title": "Galaxy Builder Decks: Spooky Set",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/483574/nemot-rising-3",
+   "title": "Nemot Rising #3",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/506200/the-box-of-delights-the-roleplaying-game",
+   "title": "The Box of Delights - The Roleplaying Game",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/515448/landscapes-of-the-lost-soul",
+   "title": "Landscapes of the Lost Soul",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/517645/northwest-nightmares",
+   "title": "Northwest Nightmares",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/531552/the-pirate-queen-s-wrath",
+   "title": "The Pirate Queen's Wrath",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/540415/mistress-of-the-woods",
+   "title": "Mistress of the Woods",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/557672/sandbox-generator-urban-expansion",
+   "title": "Sandbox Generator - Urban Expansion",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/563068/which-came-first",
+   "title": "Which Came First?",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/567215/martian-comics-36",
+   "title": "Martian Comics #36",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/574578/helix-dust",
+   "title": "Helix Dust",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/578275/the-horizons-of-khera-1",
+   "title": "The Horizons of Khera #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms",
+   "title": "Big Damn Sci-Fi Field Forms",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/588434/the-ones-who-hound-him-in-the-dark",
+   "title": "The Ones Who Hound Him in the Dark",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9-conditions-illusions-townsfolk-spellcraft",
+   "title": "BUNDLE: Animated Spells Level 6-9, Conditions, Illusions, Townsfolk & Spellcraft - 5e 2014 D&D (Reference Cards)",
+   "shop": "Hit Point Press",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows $259.00 as the sale price against a struck-through $345.00 (25% off), but both prices are in CAD while the deal claims USD, and the product is a set of animated 5e spell reference cards, which may count as an accessory rather than an RPG book."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$259.00 CAD",
+    "price_was_seen": "$345.00 CAD",
+    "ends_seen": null,
+    "reason": "The page shows $259.00 as the sale price against a struck-through $345.00 (25% off), but both prices are in CAD while the deal claims USD, and the product is a set of animated 5e spell reference cards, which may count as an accessory rather than an RPG book.",
+    "notes": "No end date is shown. Jev history shows the price at 258 for the last 7 days, so the 'sale' may be the normal price. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 12.7,
+    "turns": 2,
+    "cost_usd": 0.12077070000000001,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9",
+   "title": "BUNDLE: Animated Spells Level 6-9 - 5e 2014 D&D (Reference Cards)",
+   "shop": "Hit Point Press",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page prices are in CAD, not the claimed USD. The price has sat at about 129 for 7 days, so the struck-through 173 looks like a standing list price, not a running sale. The product is a set of animated spell reference cards, which is closer to an accessory than a rulebook or supplement."
+   ],
+   "agent": {
+    "verdict": "drop",
+    "price_now_seen": "$130.00 CAD",
+    "price_was_seen": "$173.00 CAD",
+    "ends_seen": null,
+    "reason": "The page prices are in CAD, not the claimed USD. The price has sat at about 129 for 7 days, so the struck-through 173 looks like a standing list price, not a running sale. The product is a set of animated spell reference cards, which is closer to an accessory than a rulebook or supplement.",
+    "notes": "The page shows a '25% off' badge and no end date. 130 of 173 is about 25% off, so the page's own math is consistent. No text addressed to AI was found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 12.6,
+    "turns": 2,
+    "cost_usd": 0.09449099999999999,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/complete-set-of-animated-spells-level-0-5-things",
+   "title": "BUNDLE: Animated Spells Level 0-5 + Things - 5e 2014 D&D (Reference Cards)",
+   "shop": "Hit Point Press",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: This is a set of physical animated spell reference cards, which is an accessory and not a rulebook, adventure or supplement, and the page prices are in CAD while the deal claims USD."
+   ],
+   "agent": {
+    "verdict": "drop",
+    "price_now_seen": "$316.00 CAD",
+    "price_was_seen": "$431.00 CAD",
+    "ends_seen": null,
+    "reason": "This is a set of physical animated spell reference cards, which is an accessory and not a rulebook, adventure or supplement, and the page prices are in CAD while the deal claims USD.",
+    "notes": "The page shows a 27% off sale price ($316.00 CAD against $431.00 CAD) and no end date. The history shows the price at about 315 for 6 days, so this may be a standing price and not a new sale. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 9.4,
+    "turns": 2,
+    "cost_usd": 0.0952305,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://iamfelixrios.itch.io/the-devil-would-be-proud",
+   "title": "The Devil Would Be Proud (1E)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$2.50",
+    "price_was_seen": "$5.00",
+    "ends_seen": null,
+    "reason": "The page tagged 'Tabletop role-playing game' shows a solo journaling RPG at $2.50, down from $5.00 (50% off), under the 'Halloween Sale 2026' banner.",
+    "notes": "The page has English and Spanish text, and the English PDF is included. The page shows no sale end date, so the claimed end date of 2026-11-04 is not confirmed. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 11.5,
+    "turns": 2,
+    "cost_usd": 0.0707263,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://1veetvoojagig.itch.io/guidance",
+   "title": "Guidance",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.62",
+    "price_was_seen": "$2.50",
+    "ends_seen": null,
+    "reason": "The page tags this as a Tabletop role-playing game with a rulebook PDF and shows an active 'On Sale! 35% Off' label, $2.50 struck through and $1.62 current.",
+    "notes": "The page shows no sale end date, so the claimed end of 2026-11-04 comes only from the feed. It also appears in the Itching for Games 3 bundle, which is not a problem for this deal. No text addressed to AI was found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 16.1,
+    "turns": 2,
+    "cost_usd": 0.0658229,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://clawhammergames.itch.io/before-the-flood",
+   "title": "Before the Flood",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$5.00",
+    "price_was_seen": "$10.00",
+    "ends_seen": null,
+    "reason": "The page tags this as a Tabletop role-playing game and shows a 50% Off Halloween Sale 2026, from $10.00 to $5.00, running now.",
+    "notes": "The page shows no end date, so the claimed end date 2026-11-04 is not confirmed by the page. The product is a collaborative map-making game, which is borderline as an RPG, but it carries the itch.io tag 'Tabletop role-playing game' and has a print edition from IPR. $5 is a minimum price (pay-what-you-want style, 'or more'). No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.6,
+    "turns": 2,
+    "cost_usd": 0.0663968,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://marccook.itch.io/fade-beyond-the-veil",
+   "title": "Fade Beyond the Veil",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$3.00",
+    "price_was_seen": "$5.00",
+    "ends_seen": null,
+    "reason": "The page shows a 40% off Halloween Sale 2026 price of $3.00 (was $5.00) on a PDF rulebook that calls itself a miniature wargame and RPG, is tagged Tabletop role-playing game, and is built on the LUMEN RPG system.",
+    "notes": "The price is a pay-what-you-want minimum ('$3.00 USD or more'). The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed here. The product is a hybrid of wargame and RPG and needs no miniatures ('Miniature Agnostic'). It is a borderline RPG fit. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 14.1,
+    "turns": 2,
+    "cost_usd": 0.0763949,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://afiregender.itch.io/a-volume-of-natures-aesthetics",
+   "title": "A Volume Of Nature's Aesthetics",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$5.00",
+    "price_was_seen": "$10.00",
+    "ends_seen": null,
+    "reason": "The page shows a Wanderhome tabletop RPG supplement (tags: Tabletop role-playing game, Supplement) at $5.00, down from $10.00, marked '50% Off' in the 'Halloween Sale 2026'.",
+    "notes": "The page shows no end date; the claimed 2026-11-04 is not confirmed on the page. The page also offers a bundle (this supplement and 2 more for $7.00), which is a separate offer from the $5.00 price. The product is a PDF art book for Wanderhome. The page's category label is 'Physical game', but the files listed are PDFs. No text on the page was addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 12.6,
+    "turns": 2,
+    "cost_usd": 0.0650582,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://itch.io/s/211607/rpgs-from-hell",
+   "title": "RPGS FROM HELL",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$3.00",
+    "price_was_seen": "$5.00",
+    "ends_seen": "THIS OFFER ENDS NOVEMBER FIRST",
+    "reason": "The page shows a two-game bundle of tabletop RPGs (Coldbloods, a GM-and-players story game, and It's in Your House, a book of five micro-RPGs) at $3.00 instead of $5.00, saving 40%, with the offer ending November 1.",
+    "notes": "The bundle's two games are listed at $3 and $2, which add up to the $5.00 regular price. The page has no text addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 11.4,
+    "turns": 2,
+    "cost_usd": 0.08589530000000001,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://impioussaint.itch.io/a-dead-festival-forbidden-psalm",
+   "title": "A Dead Festival Forbidden Psalm - miniatures game, inspired by and compatible with MÖRK BORG",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The Halloween Sale price (£3.00 to £2.61, 13% off) is shown on the page, but the product is a miniatures game expansion, so I can't tell whether it counts as a tabletop RPG product."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "£2.61",
+    "price_was_seen": "£3.00",
+    "ends_seen": null,
+    "reason": "The Halloween Sale price (£3.00 to £2.61, 13% off) is shown on the page, but the product is a miniatures game expansion, so I can't tell whether it counts as a tabletop RPG product.",
+    "notes": "The page calls itself a 'tabletop miniatures game' and an expansion for Forbidden Psalm, which needs the core book. It is tagged 'Tabletop role-playing game' and says its content can also be used in the MÖRK BORG ttrpg. The page shows no sale end date, so the claimed end date of 2026-11-04 is not confirmed. The page also offers a 57-game bundle for £66.00. No text addressed to AI was found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 23.2,
+    "turns": 2,
+    "cost_usd": 0.0669434,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://lynnemeyer.itch.io/tales-from-the-camp",
+   "title": "Tales from the Camp: A Tarot-based Storytelling Game for 1-3 Players",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$3.50",
+    "price_was_seen": "$7.00",
+    "ends_seen": null,
+    "reason": "The page shows a struck-through $7.00 and a current price of $3.50 under a '50% Off' Halloween Sale 2026 banner. The game is tagged 'Tabletop role-playing game' and is a tarot-driven storytelling game for 1-3 players.",
+    "notes": "The page shows no end date, so the claimed end of 2026-11-04 is not confirmed. The page also offers a 6-game bundle at $8.75, but that is a separate offer. It is a small, solo-friendly storytelling RPG rather than a classic rulebook, so the RPG fit is borderline but supported by the tag. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.3,
+    "turns": 2,
+    "cost_usd": 0.0719335,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://age-of-ravens-games.itch.io/superhero-b-plots-list-pnp-cards",
+   "title": "Superhero B-Plots List & PnP Cards",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "ends_seen": null,
+    "reason": "The page shows a Halloween Sale 2026 at 50% off, $2.00 struck through to $1.00, for a tabletop RPG GM toolkit (tags: Tabletop role-playing game, gm-toolkit; built for Mutants & Masterminds and similar games).",
+    "notes": "The page shows no end date; the claimed end date of 2026-11-04 is not confirmed on the page. The product is a card deck and prompt tables for RPG GMs, so it is a supplement and not a game. Its itch category says 'Physical game', but the files are PDFs and print-and-play. The page also offers a 24-game bundle for $35.00, which is a separate offer. No instructions aimed at AI were found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 13.9,
+    "turns": 2,
+    "cost_usd": 0.0676959,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://friedspin.itch.io/solo-oracle-deck-54",
+   "title": "Solo Oracle Deck – 54 Print-and-Play Cards to Play Any RPG Without a GM (EN + DE)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "1.40€",
+    "price_was_seen": "4.00€",
+    "ends_seen": null,
+    "reason": "The page shows 65% off, 4.00€ struck through and 1.40€ now, under the 'FriedSpin Halloween Sale 2026'. It is tagged Tabletop role-playing game and Solo RPG, and it is a system-agnostic solo oracle deck for playing RPGs.",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-04 is unconfirmed. The product is borderline: it is a print-and-play card deck, but it works as a solo-RPG supplement, not a general card game. No AI-directed text found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 12.8,
+    "turns": 2,
+    "cost_usd": 0.0645078,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://friedspin.itch.io/gm-improv-deck-en",
+   "title": "The GM Improv Deck – 54 Print-and-Play Cards: NPCs, Hooks, Twists & Rumors (EN)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "1.22€",
+    "price_was_seen": "3.50€",
+    "ends_seen": null,
+    "reason": "The page shows a system-neutral tabletop RPG GM supplement (NPC, hook, twist and rumor cards, tagged Tabletop role-playing game) at 1.22€, down from 3.50€, marked 'On Sale! 65% Off' as part of the FriedSpin Halloween Sale 2026.",
+    "notes": "The page does not show a sale end date, so the claimed end date of 2026-11-04 is unconfirmed. The product is a print-and-play card deck of GM content rather than a rulebook. I judged it a supplement, not an accessory. The page contains no text addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.3,
+    "turns": 2,
+    "cost_usd": 0.06822629999999999,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://friedspin.itch.io/npc-quick-cards-en",
+   "title": "40 NPC Quick Cards – Name, Look, Want, Secret & Hook (Print + VTT)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "1.40€",
+    "price_was_seen": "4.00€",
+    "ends_seen": null,
+    "reason": "The page shows a 65% off sale (4.00€ struck through, 1.40€ now) under the FriedSpin Halloween Sale 2026, for a system-agnostic printable and VTT NPC supplement tagged Tabletop role-playing game.",
+    "notes": "The page does not show an end date, so the claimed end of 2026-11-04 is not confirmed here. The product is a GM-aid supplement of NPC cards, which is a borderline fit for the RPG category. It is not a GM screen or an accessory. The page contains no text addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 14.7,
+    "turns": 2,
+    "cost_usd": 0.0652085,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://friedspin.itch.io/random-encounter-cards-en",
+   "title": "40 Random Encounter Cards – Social, Exploration, Combat & Weird (Print & PDF)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "1.40€",
+    "price_was_seen": "4.00€",
+    "ends_seen": null,
+    "reason": "The page shows a system-neutral GM encounter card pack tagged 'Tabletop role-playing game' at 1.40€, down from a struck-through 4.00€, under the running 'FriedSpin Halloween Sale 2026' (65% off).",
+    "notes": "The page does not show an end date. The 2026-11-04 end date comes only from the itch data feed. The page text includes an AI disclosure (AI-assisted English text) and a bundle offer (117 items for 153.25€). Neither is an instruction to me. No text addressed to AI was found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.8,
+    "turns": 2,
+    "cost_usd": 0.06562319999999999,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://friedspin.itch.io/shopkeeper-cards-30",
+   "title": "30 Shopkeeper Cards – Memorable Merchants with Hooks & Secrets (Print & PDF)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "1.22€",
+    "price_was_seen": "3.50€",
+    "ends_seen": null,
+    "reason": "The page shows a GM-tool supplement for tabletop RPGs (tagged Tabletop role-playing game, system-neutral NPC pack) at 1.22€, down from a struck-through 3.50€, in the running 'FriedSpin Halloween Sale 2026' (65% off).",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 is not confirmed here. The pack is GM aid content (PDF with printable cards), not a core rulebook, so it is a borderline RPG supplement. The page also offers a 116-game FriedSpin bundle for 153.25€, which is a separate offer. The page contained no text addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.1,
+    "turns": 2,
+    "cost_usd": 0.0680166,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://impioussaint.itch.io/forbidden-psalm-rotten-bits",
+   "title": "Forbidden Psalm: Rotten Bits",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The sale is real (£6.00 struck through to £5.22, 13% off, Halloween Sale 2026), but the page calls Forbidden Psalm a tabletop miniatures game and only says its content can also be used in the MÖRK BORG ttrpg, so I can't tell if it counts as an RPG product."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "£5.22",
+    "price_was_seen": "£6.00",
+    "ends_seen": null,
+    "reason": "The sale is real (£6.00 struck through to £5.22, 13% off, Halloween Sale 2026), but the page calls Forbidden Psalm a tabletop miniatures game and only says its content can also be used in the MÖRK BORG ttrpg, so I can't tell if it counts as an RPG product.",
+    "notes": "No sale end date appears on the page, so the claimed end date 2026-11-04 is unconfirmed. The page is tagged 'Tabletop role-playing game' and 'morkborg'. No text addressed to AI was found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 12.3,
+    "turns": 2,
+    "cost_usd": 0.0687191,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://age-of-ravens-games.itch.io/journey-events",
+   "title": "100 Journey Events List & PnP Cards",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "ends_seen": null,
+    "reason": "The page shows a Halloween Sale 2026 at 50% off ($2.00 struck through, now $1.00) for a print-and-play deck of travel events for fantasy tabletop RPGs, tagged 'Tabletop role-playing game' and 'rpg-tools'.",
+    "notes": "The page shows no end date, so the claimed end of 2026-11-04 is unconfirmed. It is a GM tool (event deck), not a rulebook, but it is an RPG supplement. The page also advertises a 24-game bundle for $35.00. No instructions aimed at AI were found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 8.5,
+    "turns": 2,
+    "cost_usd": 0.0645651,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://age-of-ravens-games.itch.io/supervillain-plot-generator-list-pnp",
+   "title": "Supervillain Plot Generator List & PnP Cards",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "ends_seen": null,
+    "reason": "The page shows a struck-through $2.00 and $1.00 USD under 'Halloween Sale 2026, 50% Off', for a GM plot-generator card deck and text table tagged 'Tabletop role-playing game' for superhero RPGs.",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 is not confirmed here. The product is a GM tool (print-and-play cards plus a PDF table), a borderline RPG supplement rather than a rulebook. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 11.5,
+    "turns": 2,
+    "cost_usd": 0.0700154,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://age-of-ravens-games.itch.io/100-urban-fantasy-events-table-pnp-cards",
+   "title": "100 Urban Fantasy Events Table & PnP Cards",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "ends_seen": null,
+    "reason": "The page tags it 'Tabletop role-playing game' and describes an RPG event table with print-and-play cards. It shows 50% Off, $2.00 struck through and $1.00 now, under a 'Halloween Sale 2026' banner.",
+    "notes": "The page shows no end date for this sale. The claimed end date of 2026-11-04 could not be confirmed from the page. It is a pay-what-you-want style 'or more' price with a $1 minimum. It is a small GM tool (events table plus PnP cards), not a full rulebook. No text addressed to AI found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 11.2,
+    "turns": 2,
+    "cost_usd": 0.06543779999999999,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://age-of-ravens-games.itch.io/faction-builder-toolkit-list-pnp-cards",
+   "title": "Faction Builder Toolkit List & PnP Cards",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "ends_seen": null,
+    "reason": "The page shows a running 'Halloween Sale 2026' at 50% off ($2.00 to $1.00), tagged Tabletop role-playing game. It is a downloadable PDF/RTF GM toolkit for RPGs such as Godbound, 13th Age and Blades in the Dark, so it counts as an RPG supplement and not a physical card product.",
+    "notes": "The page does not show a sale end date, so the claimed 2026-11-04 is unconfirmed. Itch lists the category as 'Physical game', but the files are a PDF and an RTF, so the product is digital. Part of a 24-item bundle sale. No AI-directed text found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 11.2,
+    "turns": 2,
+    "cost_usd": 0.0678603,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://age-of-ravens-games.itch.io/urban-fantasy-b-plots-list-pnp-cards",
+   "title": "Urban Fantasy B-Plots List & PnP Cards",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "ends_seen": null,
+    "reason": "The page shows a tabletop RPG GM-tools card deck (tagged Tabletop role-playing game, genre Role Playing) on 'On Sale! 50% Off' as part of the Halloween Sale 2026, at $1.00 with $2.00 struck through.",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 is not confirmed here. The product is a GM supplement (prompt cards, PDF and print-and-play), not a rulebook. It is also part of a 24-item bundle for $35.00. No text addressed to AI was found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 11.1,
+    "turns": 2,
+    "cost_usd": 0.0693349,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://dankrpg.itch.io/fang-and-claw",
+   "title": "Fang and Claw",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.99",
+    "price_was_seen": "$3.99",
+    "ends_seen": null,
+    "reason": "The page tags this as a Tabletop role-playing game adventure (a PDF with hooks, creatures and a 10-room facility) and shows $3.99 struck through to $1.99 under '50% Off' and 'Halloween Sale 2026'.",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 could not be confirmed. The price is 'or more' (itch.io minimum price). The page also offers a 7-game bundle for $12.50. No instructions addressed to AI were found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 9.8,
+    "turns": 2,
+    "cost_usd": 0.0634553,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://silasnorth-archives.itch.io/the-cryptid-game-masters-case-file-workbook",
+   "title": "The Cryptid Game Master's Case File Workbook",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$4.99",
+    "price_was_seen": "$9.99",
+    "ends_seen": null,
+    "reason": "The page shows a system-neutral tabletop RPG GM toolkit (tagged Tabletop role-playing game) at $4.99, down from $9.99 (50% off), in the running Halloween Sale 2026.",
+    "notes": "The page text shows no end date, so the claimed 2026-11-04 is not confirmed on the page. The product is a digital PDF workbook. The 'physical game' category is only itch's label, and the page says nothing will be shipped. No text addressed to AI found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 18.9,
+    "turns": 2,
+    "cost_usd": 0.06741939999999999,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://age-of-ravens-games.itch.io/100-cyberpunk-events-table-pnp-cards",
+   "title": "100 Cyberpunk Events Table & PnP Cards",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "ends_seen": null,
+    "reason": "The page tags this as a Tabletop role-playing game (cyberpunk event tables and print-and-play cards for RPGs like Cyberpunk RED), and shows 'Halloween Sale 2026, 50% Off' at $1.00 with $2.00 struck through.",
+    "notes": "The page shows no end date; the claimed end date of 2026-11-04 is not confirmed on the page. The product is a GM tool/supplement (event table and cards), which fits as an RPG supplement. The page lists a 24-game bundle for $35.00, which is a separate item.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 9.5,
+    "turns": 2,
+    "cost_usd": 0.06557009999999999,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://age-of-ravens-games.itch.io/100-fantasy-city-events-table-pnp-cards",
+   "title": "100 Fantasy City Events Table & PnP Cards",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "ends_seen": null,
+    "reason": "The page tags it 'Tabletop role-playing game' and shows a struck-through $2.00 with $1.00 as the price now, under a 'Halloween Sale 2026' 50% Off banner.",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 could not be confirmed. The price is pay-what-you-want with a $1 minimum ('$1.00 USD or more'). This is a downloadable PDF and RTF random table for any fantasy game, and its category is listed as 'Physical game'. No text addressed to AI was found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.3,
+    "turns": 2,
+    "cost_usd": 0.0642348,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://age-of-ravens-games.itch.io/100-kingdom-events-list-pnp-cards",
+   "title": "100 Kingdom Events List & PnP Cards",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "ends_seen": null,
+    "reason": "The page shows a 50% off Halloween Sale 2026 price of $1.00 (was $2.00, struck through) for a print-and-play event deck tagged Tabletop role-playing game, meant as GM prompts for RPG campaigns.",
+    "notes": "The page does not show an end date, so the claimed 2026-11-04 is unconfirmed. The page offers a 24-game bundle for $35.00, which is a separate offer. The itch category is 'Physical game', but the files are digital PDF/RTF downloads. No text addressed to AI was found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 15.0,
+    "turns": 2,
+    "cost_usd": 0.0658683,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://kendric2000.itch.io/osr-fantasy-character-sheet-pack-22-sheets",
+   "title": "OSR Fantasy Character Sheet Pack (22 Sheets)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The 50% off Halloween Sale price is confirmed ($3.95 struck through, $1.97 now), but the product is a PDF pack of character sheets, which may count as an excluded accessory rather than a rulebook, adventure or supplement, so the owner should decide."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$1.97",
+    "price_was_seen": "$3.95",
+    "ends_seen": null,
+    "reason": "The 50% off Halloween Sale price is confirmed ($3.95 struck through, $1.97 now), but the product is a PDF pack of character sheets, which may count as an excluded accessory rather than a rulebook, adventure or supplement, so the owner should decide.",
+    "notes": "The page shows no end date; the claimed 2026-11-04 is not on the page. The page is tagged Tabletop role-playing game, OSR and Dungeons & Dragons. It also offers a bundle: 26 items for $113.75. No instructions addressed to AI were found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.1,
+    "turns": 2,
+    "cost_usd": 0.06426799999999999,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://elancharan.itch.io/diety",
+   "title": "DIETY",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$0.50",
+    "price_was_seen": "$1.00",
+    "ends_seen": null,
+    "reason": "The page describes DIETY as an ultra-rules-light tabletop RPG (tagged micro-rpg, Solo RPG) and shows $0.50 with $1.00 struck through under '50% Off' in the Halloween Sale 2026.",
+    "notes": "The page shows no end date, so the claimed end of 2026-11-04 is not confirmed here. The category label says 'Physical game', but the download is DIETY.pdf and the game is a tabletop RPG. The page also links a bundle (43 games for $10.00), which I did not open. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.6,
+    "turns": 2,
+    "cost_usd": 0.06568349999999999,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://starlightstoriesco.itch.io/pumpkinandspicecafe",
+   "title": "Pumpkin & Spice Café",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$7.64",
+    "price_was_seen": "$8.99",
+    "ends_seen": null,
+    "reason": "The page shows a solo journaling RPG (genre Role Playing, tags Solo RPG, rpj, d6 roll-for-prompts play) at $7.64, down from $8.99, under a running 'Halloween Sale' with a 15% Off label.",
+    "notes": "The page shows no end date; the claimed end date of 2026-11-03 is not visible on the page. It is a printable PDF download sold under itch's 'Physical games' category. It discloses AI-assisted graphics and text. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 9.5,
+    "turns": 2,
+    "cost_usd": 0.0646774,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://aldermoon-creations.itch.io/postwitch",
+   "title": "Postwitch",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$1.00",
+    "price_was_seen": "$2.00",
+    "ends_seen": null,
+    "reason": "The page describes a solo journaling tabletop RPG (PDF) and shows $1.00 with a struck-through $2.00 under an 'On Sale! 50% Off' banner.",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 could not be confirmed. Itch lists the category as 'Physical game' but the files are PDFs. No text addressed to AI found.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 13.3,
+    "turns": 2,
+    "cost_usd": 0.0622871,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://kingyak.itch.io/tell-me-about-your-character",
+   "title": "Tell Me About Your Character",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$0.75",
+    "price_was_seen": "$1.00",
+    "ends_seen": null,
+    "reason": "The page shows a tabletop RPG player aid (genre Role Playing, 'can be used with any role-playing game') at $0.75, down from a struck-through $1.00, labelled 'On Sale! 25% Off' as part of the Halloween Sale 2026.",
+    "notes": "The page shows no end date; the claimed end date of 2026-11-04 is not confirmed by the page. It is a character-development worksheet booklet, so it is RPG-related but not a game system. It is also part of an 18-game bundle for $100.00.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 12.0,
+    "turns": 2,
+    "cost_usd": 0.0632337,
+    "error": null,
+    "hook_blocked": false
+   }
+  }
+ ],
+ "counts": {
+  "jobs_found": 205,
+  "already_done": 0,
+  "run_now": 76,
+  "reused_from_memory": 129,
+  "published_by_agent": 96,
+  "needs_owner": 94
+ }
+}

@@ -42,10 +42,10 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-10-27"
+   "bot wall (known, never fetched)": "2026-10-28"
   },
-  "last_seen": "2026-10-27",
-  "example_url": "https://www.drivethrurpg.com/product/506200/the-box-of-delights-the-roleplaying-game"
+  "last_seen": "2026-10-28",
+  "example_url": "https://www.drivethrurpg.com/product/588434/the-ones-who-hound-him-in-the-dark"
  },
  "elancharan.itch.io": {
   "first_seen": "2026-10-27",
@@ -215,6 +215,14 @@
   "last_seen": "2026-10-27",
   "example_url": "https://paramountplus.qflm.net/"
  },
+ "parcel2go.com": {
+  "first_seen": "2026-10-28",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-28"
+  },
+  "last_seen": "2026-10-28",
+  "example_url": "https://www.parcel2go.com/products.json?limit=1"
+ },
  "pelgranepress.com": {
   "first_seen": "2026-10-17",
   "reasons": {
@@ -262,6 +270,14 @@
   },
   "last_seen": "2026-10-17",
   "example_url": "https://www.reddit.com/r/rpg/"
+ },
+ "reuters.com": {
+  "first_seen": "2026-10-28",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-28"
+  },
+  "last_seen": "2026-10-28",
+  "example_url": "https://www.reuters.com/"
  },
  "sealedstories.com": {
   "first_seen": "2026-10-27",
