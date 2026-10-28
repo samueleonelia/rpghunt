@@ -472,3 +472,11 @@
 **Open**
 - "Sites that block us" now lists many news-post link targets that are not shops (ad and link trackers, Hasbro newsroom, Amazon short links). Noise in the report, not a real problem.
 - 103 items in "Needs your check".
+
+## 2026-10-28: second day with discovery, schedule catch-up installed
+
+**Status:** 07:30 run fine: 2,175 deals live, 56 min, about $2.35 (Jev $0.02, agent $2.33). 53 shops (Daemon Editora paused). 0 new shops: 113 unknown sites in the leads, 106 already checked in the last 30 days, 7 new ones checked, none a store.
+- itch: 1,807 deals, 42 min with 4 games at a time (most of the run time).
+- Memory works: 10,397 of 10,695 deals unchanged (no cost); 129 of 205 agent jobs answered from memory.
+- LaunchAgent reinstalled with the user's OK (RunAtLoad): on load it ran the script, which skipped because today's run was already committed.
+- CLAUDE.md: the discovery decision named Wikidata; corrected to Wikipedia.

@@ -8,7 +8,7 @@ Product truth lives in `PRODUCT.md` (written by Impeccable init).
 
 ## Decisions
 - 2026-10-27: **No set list of shops.** Every day the run looks for new sellers by itself (`scraper/discover.py`):
-  English RPG news feeds and Wikidata lists of RPG publishers/designers, listed in `data/shops/lead-feeds.json`.
+  English RPG news feeds and English Wikipedia's RPG publisher/designer categories (Wikidata's robots.txt blocks bots), listed in `data/shops/lead-feeds.json`.
   A new site is added when it is a web store selling English tabletop RPGs. Add sources there, not shops by hand.
 - 2026-10-27: **English products only, for now** (user). Non-English titles are dropped by a plain rule (`check.not_english`).
 - 2026-10-16: pivot from pure archive to deals site, archive kept as the catalog behind the deals. English first, Italian later.
