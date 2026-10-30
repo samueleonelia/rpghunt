@@ -1,0 +1,593 @@
+{
+ "date": "2026-10-29",
+ "shops": [
+  {
+   "id": "arc-dream-publishing",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://shop.arcdream.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "atlas-games",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://shop.atlas-games.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "bullypulpitgames",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: http://www.bullypulpitgames.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "bundle-of-holding",
+   "platform": "bundleofholding",
+   "status": "ok",
+   "items_read": null,
+   "deals": 0,
+   "errors": [],
+   "seconds": 3.2,
+   "break_alarm": "2026-10-29",
+   "alarm_average": 4.57
+  },
+  {
+   "id": "catalyst-game-labs",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://store.catalystgamelabs.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "chaosium",
+   "platform": "generic",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://www.chaosium.com/call-of-cthulhu-rpg/ DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "coolstuffinc",
+   "platform": "generic",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://www.coolstuffinc.com/main_saleItems.php DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "critical-kit",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://www.criticalkit.co.uk/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "darrington-press",
+   "platform": "woocommerce",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://darringtonpress.com/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "demiplane",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 0.0,
+   "no_sale_page": true
+  },
+  {
+   "id": "drivethrurpg",
+   "platform": "drivethrurpg",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://api.drivethrurpg.com/api/vBeta/products?onSale=1&pageSize=50&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "enpublishingrpg",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://enpublishingrpg.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "evil-hat",
+   "platform": "woocommerce",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://evilhat.com/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "exalted-funeral",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://www.exaltedfuneral.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "fanatical",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 0.0,
+   "no_sale_page": true
+  },
+  {
+   "id": "frog-god-games",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://www.froggodgames.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "gallant-knight-games",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://gallantknightgames.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "gamenerdz",
+   "platform": "bigcommerce",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://www.gamenerdz.com/deals?page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "games-omnivorous",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://gamesomnivorous.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "gms-tabletop-games",
+   "platform": "woocommerce",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://gmstabletopgames.com/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "green-ronin-publishing",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://greenroninstore.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "hit-point-press",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://hitpointpress.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "humble-bundle",
+   "platform": "humble",
+   "status": "ok",
+   "items_read": null,
+   "deals": 0,
+   "errors": [],
+   "seconds": 3.2,
+   "break_alarm": "2026-10-29",
+   "alarm_average": 26.71
+  },
+  {
+   "id": "itch",
+   "platform": "itch",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 12.6,
+   "pages_from_cache": 0,
+   "break_alarm": "2026-10-29",
+   "alarm_average": 530.0
+  },
+  {
+   "id": "kenzerco",
+   "platform": "woocommerce",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://kenzerco.com/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "kobold-press",
+   "platform": "woocommerce",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://koboldpress.com/kpstore/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "leisure-games",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://leisuregames.com/collections/reduced-price-1/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "leyline-press",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://leyline.press/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "loot-the-room",
+   "platform": "woocommerce",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://loottheroom.uk/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "magpie-games",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://magpiegames.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "massif-press",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 0.0,
+   "no_sale_page": true
+  },
+  {
+   "id": "mcdm-productions",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://shop.mcdmproductions.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "modiphius",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://modiphius.net/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "modiphius-us",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://modiphius.us/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "mongoose-publishing",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://www.mongoosepublishing.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "monkey-s-paw-games",
+   "platform": "itch",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 0.0,
+   "pages_from_cache": 0
+  },
+  {
+   "id": "monte-cook-games",
+   "platform": "woocommerce",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://www.montecookgames.com/store/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "necrotic-gnome",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://necroticgnome.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "noble-knight-games",
+   "platform": "generic",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://www.nobleknight.com/sales DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "paizo",
+   "platform": "generic",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://store.paizo.com/fall-clearance-sale/ DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "palladium-books",
+   "platform": "woocommerce",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://palladiumbooks.com/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "paradigmconcepts",
+   "platform": "woocommerce",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://paradigmconcepts.com/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "pinnacle-entertainment-group",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://shop.peginc.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "possum-creek-games",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://possumcreekgames.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "r-talsorian-games",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://talsorianstore.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "renegade-game-studios",
+   "platform": "generic",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://renegadegamestudios.com/sale/ DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "roll20-marketplace",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 0.0,
+   "no_sale_page": true
+  },
+  {
+   "id": "rowan-rook-and-decard",
+   "platform": "woocommerce",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://rowanrookanddecard.com/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "shop-critrole",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://shop.critrole.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "shop-slyflourish",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://shop.slyflourish.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "steve-jackson-games-warehouse-23",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://warehouse23.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "id": "tabletopgaming",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://tabletopgaming.shop/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "id": "tuesday-knight-games",
+   "platform": "shopify",
+   "status": "error",
+   "items_read": null,
+   "deals": 0,
+   "errors": [
+    "error: https://www.tuesdayknightgames.com/products.json?limit=250&page=1 DNSError"
+   ],
+   "seconds": 3.1
+  }
+ ],
+ "totals": {
+  "shops": 53,
+  "ok": 8,
+  "blocked": 0,
+  "error": 45,
+  "deals_raw": 0,
+  "deals_unique": 0,
+  "break_alarms": 3
+ }
+}

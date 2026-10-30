@@ -1,4 +1,12 @@
 {
+ "bundle-of-holding": {
+  "date": "2026-10-29",
+  "outcome": "rejected"
+ },
+ "chaosium": {
+  "date": "2026-10-29",
+  "outcome": "accepted"
+ },
  "coolstuffinc": {
   "date": "2026-10-24",
   "outcome": "rejected"
@@ -15,6 +23,14 @@
   "date": "2026-10-17",
   "outcome": "rejected"
  },
+ "humble-bundle": {
+  "date": "2026-10-29",
+  "outcome": "rejected"
+ },
+ "itch": {
+  "date": "2026-10-29",
+  "outcome": "accepted"
+ },
  "massif-press": {
   "date": "2026-10-24",
   "outcome": "rejected"
@@ -22,6 +38,14 @@
  "noble-knight-games": {
   "date": "2026-10-24",
   "outcome": "rejected"
+ },
+ "paizo": {
+  "date": "2026-10-29",
+  "outcome": "accepted"
+ },
+ "renegade-game-studios": {
+  "date": "2026-10-29",
+  "outcome": "accepted"
  },
  "roll20-marketplace": {
   "date": "2026-10-24",

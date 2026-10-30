@@ -1,0 +1,40 @@
+[
+ {
+  "kind": "shop",
+  "key": "recipe:bundle-of-holding",
+  "url": "https://bundleofholding.com/",
+  "title": "Bundle of Holding",
+  "shop": "Bundle of Holding",
+  "price_now": null,
+  "price_was": null,
+  "currency": "USD",
+  "jev": null,
+  "agent": {
+   "result": "unsure",
+   "notes": "Bundle of Holding sells time-limited RPG bundles, not individual discounted items. The front page redirects to the current bundle, and /presents lists the bundles. I tested product_link on /presents and it found 5 bundles (Blue Fox Cthulhu, Monster Hunters, Cohors Cthulhu, The Black Ballad, Yellow King RPG). price_now matched US$17.95 on BlueFox and US$19.95 on DeathInSpace. The normal price is shown as the total retail value in bold text in the overview, e.g. $87 for BlueFox and $80 for DeathInSpace, and it is not struck through. My price_was selector also matches the bundle title and other bold text, so code has to pick the entry that starts with a dollar sign. The `:nth-of-type(2)` variant and the `p:last-of-type > strong:last-of-type` variant did not give the price. I found no sale end date in the text of the pages I opened. I saw no instructions aimed at AI on any page.",
+   "failed_checks": [
+    "agent_result: unsure"
+   ]
+  },
+  "question": "The scraper cannot read Bundle of Holding's sales (break alarm). Open https://bundleofholding.com/ and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:humble-bundle",
+  "url": "https://www.humblebundle.com/books",
+  "title": "Humble Bundle",
+  "shop": "Humble Bundle",
+  "price_now": null,
+  "price_was": null,
+  "currency": null,
+  "jev": null,
+  "agent": {
+   "result": "blocked",
+   "notes": "javascript. https://www.humblebundle.com/books loads (status 200) but its visible text lists no bundles and no prices. The price_candidates list is empty, and the only price-like text is the menu links 'Deals Under $5/$10/$20'. The bundle tiles are built by JavaScript, so I did not guess selectors. No text on the page was addressed to AI.",
+   "failed_checks": [
+    "agent_result: blocked"
+   ]
+  },
+  "question": "The scraper cannot read Humble Bundle's sales (break alarm). Open https://www.humblebundle.com/books and tell me where its sale page is, or say 'pause it' if it has none."
+ }
+]

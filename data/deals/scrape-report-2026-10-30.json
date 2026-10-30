@@ -1,0 +1,600 @@
+{
+ "date": "2026-10-30",
+ "shops": [
+  {
+   "id": "arc-dream-publishing",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 121,
+   "deals": 0,
+   "errors": [],
+   "seconds": 2.5,
+   "pages": 1
+  },
+  {
+   "id": "atlas-games",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 804,
+   "deals": 340,
+   "errors": [],
+   "seconds": 9.4,
+   "pages": 4
+  },
+  {
+   "id": "bullypulpitgames",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 34,
+   "deals": 0,
+   "errors": [],
+   "seconds": 2.5,
+   "pages": 1
+  },
+  {
+   "id": "bundle-of-holding",
+   "platform": "bundleofholding",
+   "status": "ok",
+   "items_read": null,
+   "deals": 4,
+   "errors": [],
+   "seconds": 26.4
+  },
+  {
+   "id": "catalyst-game-labs",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 1471,
+   "deals": 53,
+   "errors": [],
+   "seconds": 16.5,
+   "pages": 6
+  },
+  {
+   "id": "chaosium",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 62,
+   "deals": 1,
+   "errors": [],
+   "seconds": 138.6,
+   "sale_pages": 5,
+   "links_found": 62,
+   "failed_pages": 0
+  },
+  {
+   "id": "coolstuffinc",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 18,
+   "deals": 0,
+   "errors": [],
+   "seconds": 48.4,
+   "sale_pages": 1,
+   "links_found": 18,
+   "failed_pages": 0
+  },
+  {
+   "id": "critical-kit",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 96,
+   "deals": 6,
+   "errors": [],
+   "seconds": 3.2,
+   "pages": 1
+  },
+  {
+   "id": "darrington-press",
+   "platform": "woocommerce",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 0.9,
+   "pages": 0,
+   "skipped_variant_only": 0
+  },
+  {
+   "id": "demiplane",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 0.0,
+   "no_sale_page": true
+  },
+  {
+   "id": "drivethrurpg",
+   "platform": "drivethrurpg",
+   "status": "ok",
+   "items_read": 4259,
+   "deals": 4203,
+   "errors": [],
+   "seconds": 274.0,
+   "pages": 86,
+   "community_content": 0,
+   "ai_flagged": 141
+  },
+  {
+   "id": "enpublishingrpg",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 1065,
+   "deals": 3,
+   "errors": [],
+   "seconds": 12.4,
+   "pages": 5
+  },
+  {
+   "id": "evil-hat",
+   "platform": "woocommerce",
+   "status": "ok",
+   "items_read": 26,
+   "deals": 25,
+   "errors": [],
+   "seconds": 6.1,
+   "pages": 1,
+   "skipped_variant_only": 1
+  },
+  {
+   "id": "exalted-funeral",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 1341,
+   "deals": 379,
+   "errors": [],
+   "seconds": 13.5,
+   "pages": 6
+  },
+  {
+   "id": "fanatical",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 0.0,
+   "no_sale_page": true
+  },
+  {
+   "id": "frog-god-games",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 392,
+   "deals": 1,
+   "errors": [],
+   "seconds": 4.5,
+   "pages": 2
+  },
+  {
+   "id": "gallant-knight-games",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 95,
+   "deals": 0,
+   "errors": [],
+   "seconds": 2.7,
+   "pages": 1
+  },
+  {
+   "id": "gamenerdz",
+   "platform": "bigcommerce",
+   "status": "ok",
+   "items_read": 829,
+   "deals": 135,
+   "errors": [],
+   "seconds": 64.7,
+   "pages": 28,
+   "hidden_price": 620
+  },
+  {
+   "id": "games-omnivorous",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 36,
+   "deals": 2,
+   "errors": [],
+   "seconds": 2.1,
+   "pages": 1
+  },
+  {
+   "id": "gms-tabletop-games",
+   "platform": "woocommerce",
+   "status": "ok",
+   "items_read": 6,
+   "deals": 6,
+   "errors": [],
+   "seconds": 3.1,
+   "pages": 1,
+   "skipped_variant_only": 0
+  },
+  {
+   "id": "green-ronin-publishing",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 780,
+   "deals": 42,
+   "errors": [],
+   "seconds": 10.4,
+   "pages": 4
+  },
+  {
+   "id": "hammerdog-games-myshopify",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 42,
+   "deals": 0,
+   "errors": [],
+   "seconds": 1.9,
+   "pages": 1
+  },
+  {
+   "id": "hit-point-press",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 658,
+   "deals": 61,
+   "errors": [],
+   "seconds": 6.5,
+   "pages": 3
+  },
+  {
+   "id": "humble-bundle",
+   "platform": "humble",
+   "status": "ok",
+   "items_read": null,
+   "deals": 21,
+   "errors": [],
+   "seconds": 54.1
+  },
+  {
+   "id": "itch",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 1947,
+   "deals": 1874,
+   "errors": [],
+   "seconds": 1862.9,
+   "sale_pages": 1,
+   "links_found": 1947,
+   "failed_pages": 0,
+   "listing_errors": [
+    "dead: https://itch.io/physical-games/on-sale/tag-ttrpg?page=201 HTTP 404"
+   ]
+  },
+  {
+   "id": "kenzerco",
+   "platform": "woocommerce",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 2.1,
+   "pages": 0,
+   "skipped_variant_only": 0
+  },
+  {
+   "id": "kobold-press",
+   "platform": "woocommerce",
+   "status": "ok",
+   "items_read": 26,
+   "deals": 26,
+   "errors": [],
+   "seconds": 3.5,
+   "pages": 1,
+   "skipped_variant_only": 0
+  },
+  {
+   "id": "leisure-games",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 698,
+   "deals": 692,
+   "errors": [],
+   "seconds": 9.6,
+   "pages": 3
+  },
+  {
+   "id": "leyline-press",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 45,
+   "deals": 0,
+   "errors": [],
+   "seconds": 2.4,
+   "pages": 1
+  },
+  {
+   "id": "loot-the-room",
+   "platform": "woocommerce",
+   "status": "ok",
+   "items_read": 9,
+   "deals": 9,
+   "errors": [],
+   "seconds": 7.4,
+   "pages": 1,
+   "skipped_variant_only": 0
+  },
+  {
+   "id": "magpie-games",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 169,
+   "deals": 5,
+   "errors": [],
+   "seconds": 2.7,
+   "pages": 1
+  },
+  {
+   "id": "massif-press",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 0.0,
+   "no_sale_page": true
+  },
+  {
+   "id": "mcdm-productions",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 49,
+   "deals": 8,
+   "errors": [],
+   "seconds": 3.2,
+   "pages": 1
+  },
+  {
+   "id": "modiphius",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 1781,
+   "deals": 291,
+   "errors": [],
+   "seconds": 18.1,
+   "pages": 8
+  },
+  {
+   "id": "modiphius-us",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 1659,
+   "deals": 0,
+   "errors": [],
+   "seconds": 15.4,
+   "pages": 7
+  },
+  {
+   "id": "mongoose-publishing",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 782,
+   "deals": 0,
+   "errors": [],
+   "seconds": 9.1,
+   "pages": 4
+  },
+  {
+   "id": "monkey-s-paw-games",
+   "platform": "itch",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 0.0,
+   "pages_from_cache": 0
+  },
+  {
+   "id": "monte-cook-games",
+   "platform": "woocommerce",
+   "status": "ok",
+   "items_read": 4,
+   "deals": 3,
+   "errors": [],
+   "seconds": 5.1,
+   "pages": 1,
+   "skipped_variant_only": 0
+  },
+  {
+   "id": "necrotic-gnome",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 80,
+   "deals": 0,
+   "errors": [],
+   "seconds": 2.9,
+   "pages": 1
+  },
+  {
+   "id": "noble-knight-games",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 2,
+   "deals": 0,
+   "errors": [],
+   "seconds": 6.9,
+   "sale_pages": 1,
+   "links_found": 2,
+   "failed_pages": 0
+  },
+  {
+   "id": "paizo",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 227,
+   "deals": 227,
+   "errors": [],
+   "seconds": 523.2,
+   "sale_pages": 1,
+   "links_found": 227,
+   "failed_pages": 0
+  },
+  {
+   "id": "palladium-books",
+   "platform": "woocommerce",
+   "status": "ok",
+   "items_read": 16,
+   "deals": 16,
+   "errors": [],
+   "seconds": 6.9,
+   "pages": 1,
+   "skipped_variant_only": 0
+  },
+  {
+   "id": "paradigmconcepts",
+   "platform": "woocommerce",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 2.8,
+   "pages": 0,
+   "skipped_variant_only": 0
+  },
+  {
+   "id": "pinnacle-entertainment-group",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 1505,
+   "deals": 3,
+   "errors": [],
+   "seconds": 14.6,
+   "pages": 7
+  },
+  {
+   "id": "possum-creek-games",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 13,
+   "deals": 1,
+   "errors": [],
+   "seconds": 2.2,
+   "pages": 1
+  },
+  {
+   "id": "r-talsorian-games",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 139,
+   "deals": 1,
+   "errors": [],
+   "seconds": 2.7,
+   "pages": 1
+  },
+  {
+   "id": "renegade-game-studios",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 413,
+   "deals": 230,
+   "errors": [],
+   "seconds": 974.7,
+   "sale_pages": 2,
+   "links_found": 413,
+   "failed_pages": 0
+  },
+  {
+   "id": "roll20-marketplace",
+   "platform": "generic",
+   "status": "ok",
+   "items_read": 0,
+   "deals": 0,
+   "errors": [],
+   "seconds": 0.0,
+   "no_sale_page": true
+  },
+  {
+   "id": "rowan-rook-and-decard",
+   "platform": "woocommerce",
+   "status": "ok",
+   "items_read": 20,
+   "deals": 0,
+   "errors": [],
+   "seconds": 5.8,
+   "pages": 1,
+   "skipped_variant_only": 1
+  },
+  {
+   "id": "shop-critrole",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 308,
+   "deals": 44,
+   "errors": [],
+   "seconds": 4.4,
+   "pages": 2
+  },
+  {
+   "id": "shop-slyflourish",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 14,
+   "deals": 0,
+   "errors": [],
+   "seconds": 2.4,
+   "pages": 1
+  },
+  {
+   "id": "snowbrightstudio",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 15,
+   "deals": 0,
+   "errors": [],
+   "seconds": 2.0,
+   "pages": 1
+  },
+  {
+   "id": "spacepenguin",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 106,
+   "deals": 2,
+   "errors": [],
+   "seconds": 2.1,
+   "pages": 1
+  },
+  {
+   "id": "steve-jackson-games-warehouse-23",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 2739,
+   "deals": 19,
+   "errors": [],
+   "seconds": 22.5,
+   "pages": 11
+  },
+  {
+   "id": "tabletopgaming",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 2443,
+   "deals": 2427,
+   "errors": [],
+   "seconds": 31.9,
+   "pages": 10
+  },
+  {
+   "id": "tuesday-knight-games",
+   "platform": "shopify",
+   "status": "ok",
+   "items_read": 400,
+   "deals": 16,
+   "errors": [],
+   "seconds": 4.4,
+   "pages": 2
+  }
+ ],
+ "totals": {
+  "shops": 56,
+  "ok": 56,
+  "blocked": 0,
+  "error": 0,
+  "deals_raw": 11176,
+  "deals_unique": 11042,
+  "break_alarms": 0
+ }
+}

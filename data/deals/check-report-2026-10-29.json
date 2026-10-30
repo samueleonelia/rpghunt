@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-29",
+ "mode": "real",
+ "fake_jev": false,
+ "model": "jev-latest",
+ "thresholds": {
+  "rpg_yes": 0.7,
+  "rpg_no": 0.2,
+  "support_conf": 0.8,
+  "contradict_conf": 0.8,
+  "pick_conf": 0.6,
+  "offer_conf": 0.6,
+  "history_min_days": 1,
+  "everyday_no_history": "wait",
+  "batch_size": 1
+ },
+ "counts": {
+  "deals_in": 0,
+  "dropped_by_code": 0,
+  "rpg_dropped_stage_a": 0,
+  "stage_b_deals": 0,
+  "reused_from_memory": 0,
+  "published": 0,
+  "dropped_total": 0,
+  "needs_agent": 0,
+  "wait": 0,
+  "not_published_by_reason": {}
+ },
+ "requests": {
+  "stage_a": 0,
+  "stage_b": 0,
+  "page_fetches": 0,
+  "page_failures": 0
+ },
+ "jev": {
+  "requests": 0,
+  "cache_hits": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "errors": 0,
+  "estimated_cost_usd": 0.0,
+  "cost_note": "input tokens only, $0.042 per million"
+ },
+ "needs_agent": [],
+ "deals": []
+}

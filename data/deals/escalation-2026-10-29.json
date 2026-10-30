@@ -1,0 +1,424 @@
+{
+ "date": "2026-10-29",
+ "fake": false,
+ "jobs": [
+  {
+   "job": "recipe",
+   "key": "recipe:bundle-of-holding",
+   "shop": "Bundle of Holding",
+   "why": "break alarm",
+   "outcome": "rejected",
+   "agent_run": {
+    "seconds": 86.9,
+    "turns": 7,
+    "cost_usd": 0.1258218,
+    "error": null,
+    "hook_blocked": false
+   },
+   "agent_result": "unsure",
+   "agent_notes": "Bundle of Holding sells time-limited RPG bundles, not individual discounted items. The front page redirects to the current bundle, and /presents lists the bundles. I tested product_link on /presents and it found 5 bundles (Blue Fox Cthulhu, Monster Hunters, Cohors Cthulhu, The Black Ballad, Yellow King RPG). price_now matched US$17.95 on BlueFox and US$19.95 on DeathInSpace. The normal price is shown as the total retail value in bold text in the overview, e.g. $87 for BlueFox and $80 for DeathInSpace, and it is not struck through. My price_was selector also matches the bundle title and other bold text, so code has to pick the entry that starts with a dollar sign. The `:nth-of-type(2)` variant and the `p:last-of-type > strong:last-of-type` variant did not give the price. I found no sale end date in the text of the pages I opened. I saw no instructions aimed at AI on any page.",
+   "proposed_recipe": {
+    "sale_pages": [
+     "https://bundleofholding.com/presents"
+    ],
+    "product_link": "div.wrapper > div.button > a",
+    "price_now": "section.item > h3 > span",
+    "price_was": "section.overview-description > p > strong:last-of-type",
+    "ends": null
+   },
+   "validation": {
+    "accepted": false,
+    "reasons": [
+     "agent_result: unsure"
+    ],
+    "recipe": null,
+    "deals": 0,
+    "matched": [],
+    "sample": []
+   },
+   "reasons": [
+    "agent_result: unsure"
+   ]
+  },
+  {
+   "job": "recipe",
+   "key": "recipe:humble-bundle",
+   "shop": "Humble Bundle",
+   "why": "break alarm",
+   "outcome": "rejected",
+   "agent_run": {
+    "seconds": 15.4,
+    "turns": 2,
+    "cost_usd": 0.0640231,
+    "error": null,
+    "hook_blocked": false
+   },
+   "agent_result": "blocked",
+   "agent_notes": "javascript. https://www.humblebundle.com/books loads (status 200) but its visible text lists no bundles and no prices. The price_candidates list is empty, and the only price-like text is the menu links 'Deals Under $5/$10/$20'. The bundle tiles are built by JavaScript, so I did not guess selectors. No text on the page was addressed to AI.",
+   "proposed_recipe": {
+    "sale_pages": [],
+    "product_link": "",
+    "price_now": "",
+    "price_was": "",
+    "ends": null
+   },
+   "validation": {
+    "accepted": false,
+    "reasons": [
+     "agent_result: blocked"
+    ],
+    "recipe": null,
+    "deals": 0,
+    "matched": [],
+    "sample": []
+   },
+   "reasons": [
+    "agent_result: blocked"
+   ]
+  },
+  {
+   "job": "recipe",
+   "key": "recipe:itch",
+   "shop": "itch.io",
+   "why": "break alarm",
+   "outcome": "accepted",
+   "agent_run": {
+    "seconds": 38.3,
+    "turns": 7,
+    "cost_usd": 0.11477389999999998,
+    "error": null,
+    "hook_blocked": false
+   },
+   "agent_result": "recipe",
+   "agent_notes": "The sale listing shows only the current price (div.price_value) and the percent off, not the normal price, so the prices have to be read from each product page. The product link selector is tested on the listing and finds the products (e.g. https://claymorerpgs.itch.io/fist). The price_now selector returns text like '$2.50 USD' with the currency suffix. On the FIST page, price_was was tested only through '.original_price', which matched '$20.00'. On the draftCrawl page, the exact price_was selector returned '$5.00'. FIST's page also shows 'Halloween Sale 2026' with a bundle offer, but no end date was found, so ends is null. The existing feed recipe (the .xml feeds) was not re-tested here. No instructions aimed at AI were found on the pages.",
+   "proposed_recipe": {
+    "sale_pages": [
+     "https://itch.io/physical-games/on-sale/tag-ttrpg"
+    ],
+    "product_link": ".game_cell a.title",
+    "price_now": ".buy_message span.dollars:not(.original_price)",
+    "price_was": ".buy_message span.original_price",
+    "ends": null
+   },
+   "validation": {
+    "accepted": true,
+    "reasons": [
+     "ok"
+    ],
+    "recipe": {
+     "sale_pages": [
+      "https://itch.io/physical-games/on-sale/tag-ttrpg"
+     ],
+     "product_link": ".game_cell a.title",
+     "price_now": ".buy_message span.dollars:not(.original_price)",
+     "price_was": ".buy_message span.original_price"
+    },
+    "deals": 58,
+    "matched": [
+     {
+      "evidence_url": "https://claymorerpgs.itch.io/fist",
+      "deal_url": "https://claymorerpgs.itch.io/fist",
+      "price_now": 10.0,
+      "price_was": 20.0,
+      "same_url": true
+     },
+     {
+      "evidence_url": "https://bills.itch.io/draftcrawl",
+      "deal_url": "https://bills.itch.io/draftcrawl",
+      "price_now": 2.5,
+      "price_was": 5.0,
+      "same_url": true
+     }
+    ],
+    "sample": [
+     {
+      "title": "Last Tea Shop Expanded Edition",
+      "url": "https://springvillager.itch.io/last-tea-shop-complete",
+      "price_now": 3.5,
+      "price_was": 5.0
+     },
+     {
+      "title": "FIST: Ultra Edition",
+      "url": "https://claymorerpgs.itch.io/fist",
+      "price_now": 10.0,
+      "price_was": 20.0
+     },
+     {
+      "title": "draftCrawl",
+      "url": "https://bills.itch.io/draftcrawl",
+      "price_now": 2.5,
+      "price_was": 5.0
+     },
+     {
+      "title": "Liminal Horror Deluxe Edition",
+      "url": "https://goblinarchives.itch.io/liminal-horror-deluxe-edition",
+      "price_now": 21.25,
+      "price_was": 25.0
+     },
+     {
+      "title": "The Magical Year of a Teenage Witch",
+      "url": "https://swashtalk.itch.io/the-magical-year-of-a-teenage-witch",
+      "price_now": 8.0,
+      "price_was": 10.0
+     }
+    ]
+   },
+   "reasons": [
+    "ok"
+   ]
+  },
+  {
+   "job": "recipe",
+   "key": "recipe:chaosium",
+   "shop": "Chaosium",
+   "why": "reader returned 0 deals",
+   "outcome": "accepted",
+   "agent_run": {
+    "seconds": 34.0,
+    "turns": 7,
+    "cost_usd": 0.11463749999999999,
+    "error": null,
+    "hook_blocked": false
+   },
+   "agent_result": "recipe",
+   "agent_notes": "Chaosium has no sale page (no sale, deals or clearance links on the front page). Sales show only on category listings: a sale card has an 'On Sale!' label, a struck-through price.price--non-sale and the current price.price--withoutTax. I tested the three selectors above. The product_link selector matched cards on call-of-cthulhu-rpg, and the two price selectors returned $59.99 and $89.99 on the Malleus Monstrorum product page. I did not test the other four sale_pages. product_link matches every product, not only discounted ones, so the reader must open each product page and keep only those where price_was is present. A narrower selector, 'article.card:has(.price--non-sale) figure.card-figure > a', would return only sale cards. A permission denial stopped me testing it, so it is unverified. The earlier '0 deals' result probably means the reader looked for sale info on the listing cards, or that the earlier sales had ended. I could not confirm which. The pages contained no text addressed to AI.",
+   "proposed_recipe": {
+    "sale_pages": [
+     "https://www.chaosium.com/call-of-cthulhu-rpg/",
+     "https://www.chaosium.com/runequest-rpg/",
+     "https://www.chaosium.com/basic-roleplaying/",
+     "https://www.chaosium.com/pendragon-rpg/",
+     "https://www.chaosium.com/other-rpgs/"
+    ],
+    "product_link": "article.card figure.card-figure > a",
+    "price_now": ".productView-price span.price--withoutTax",
+    "price_was": ".productView-price span.price--non-sale",
+    "ends": null
+   },
+   "validation": {
+    "accepted": true,
+    "reasons": [
+     "ok"
+    ],
+    "recipe": {
+     "sale_pages": [
+      "https://www.chaosium.com/call-of-cthulhu-rpg/",
+      "https://www.chaosium.com/runequest-rpg/",
+      "https://www.chaosium.com/basic-roleplaying/",
+      "https://www.chaosium.com/pendragon-rpg/",
+      "https://www.chaosium.com/other-rpgs/"
+     ],
+     "product_link": "article.card figure.card-figure > a",
+     "price_now": ".productView-price span.price--withoutTax",
+     "price_was": ".productView-price span.price--non-sale"
+    },
+    "deals": 1,
+    "matched": [
+     {
+      "evidence_url": "https://www.chaosium.com/malleus-monstrorum-cthulhu-mythos-bestiary-slipcase-set/",
+      "deal_url": "https://www.chaosium.com/malleus-monstrorum-cthulhu-mythos-bestiary-slipcase-set/",
+      "price_now": 59.99,
+      "price_was": 89.99,
+      "same_url": true
+     }
+    ],
+    "sample": [
+     {
+      "title": "Malleus Monstrorum - Cthulhu Mythos Bestiary - Slipcase Set",
+      "url": "https://www.chaosium.com/malleus-monstrorum-cthulhu-mythos-bestiary-slipcase-set/",
+      "price_now": 59.99,
+      "price_was": 89.99
+     }
+    ]
+   },
+   "reasons": [
+    "ok"
+   ]
+  },
+  {
+   "job": "recipe",
+   "key": "recipe:paizo",
+   "shop": "Paizo",
+   "why": "reader returned 0 deals",
+   "outcome": "accepted",
+   "agent_run": {
+    "seconds": 32.0,
+    "turns": 5,
+    "cost_usd": 0.1072675,
+    "error": null,
+    "hook_blocked": false
+   },
+   "agent_result": "recipe",
+   "agent_notes": "The sale page is a server-rendered list of product cards. The product_link selector matched 12 links on the listing. The price selectors match the current and struck-through prices on the listing. They also match on the one product page I opened, where they hit the main price first, then the prices of related products. The listing also holds non-RPG items: miniatures, flip-mats, pawns, board and card games, and booster cases. The reader needs to filter those out, and the small \"Pathfinder\"/\"Starfinder\" label on each card may help. The page shows no sale end date. The old page https://store.paizo.com/sales/ lists no products, only discount tiers. The second evidence row (flip-mat) comes from the listing card, not from a product page I opened. No instructions aimed at AI were found on these pages.",
+   "proposed_recipe": {
+    "sale_pages": [
+     "https://store.paizo.com/fall-clearance-sale/"
+    ],
+    "product_link": "article.card figure.card-figure a",
+    "price_now": "span.price.price--withoutTax",
+    "price_was": "span.price.price--rrp",
+    "ends": null
+   },
+   "validation": {
+    "accepted": true,
+    "reasons": [
+     "ok"
+    ],
+    "recipe": {
+     "sale_pages": [
+      "https://store.paizo.com/fall-clearance-sale/"
+     ],
+     "product_link": "article.card figure.card-figure a",
+     "price_now": "span.price.price--withoutTax",
+     "price_was": "span.price.price--rrp"
+    },
+    "deals": 60,
+    "matched": [
+     {
+      "evidence_url": "https://store.paizo.com/pathfinder-rpg-core-rulebook-ogl-pocket-edition/",
+      "deal_url": "https://store.paizo.com/pathfinder-rpg-core-rulebook-ogl-pocket-edition/",
+      "price_now": 17.5,
+      "price_was": 34.99,
+      "same_url": true
+     },
+     {
+      "evidence_url": "https://store.paizo.com/pathfinder-flip-mat-basic/",
+      "deal_url": "https://store.paizo.com/pathfinder-flip-mat-basic/",
+      "price_now": 11.99,
+      "price_was": 19.99,
+      "same_url": true
+     }
+    ],
+    "sample": [
+     {
+      "title": "Pathfinder Battles Deep Cuts: Adult Mirage Dragon Boxed Miniature",
+      "url": "https://store.paizo.com/pathfinder-battles-deep-cuts-adult-mirage-dragon-boxed-miniature/",
+      "price_now": 32.0,
+      "price_was": 79.99
+     },
+     {
+      "title": "Pathfinder Flip-Mat: Bigger Basic",
+      "url": "https://store.paizo.com/pathfinder-flip-mat-bigger-basic/",
+      "price_now": 13.19,
+      "price_was": 21.99
+     },
+     {
+      "title": "Pathfinder Flip-Mat: Basic",
+      "url": "https://store.paizo.com/pathfinder-flip-mat-basic/",
+      "price_now": 11.99,
+      "price_was": 19.99
+     },
+     {
+      "title": "Pathfinder Flip-Mat: Basic Terrain Multi-Pack",
+      "url": "https://store.paizo.com/pathfinder-flip-mat-basic-terrain-multi-pack/",
+      "price_now": 15.0,
+      "price_was": 29.99
+     },
+     {
+      "title": "Pathfinder Adventure Path: Rise of the Runelords Pawn Collection",
+      "url": "https://store.paizo.com/pathfinder-adventure-path-rise-of-the-runelords-pawn-collection/",
+      "price_now": 12.5,
+      "price_was": 24.99
+     }
+    ]
+   },
+   "reasons": [
+    "ok"
+   ]
+  },
+  {
+   "job": "recipe",
+   "key": "recipe:renegade-game-studios",
+   "shop": "Renegade Game Studios",
+   "why": "reader returned 0 deals",
+   "outcome": "accepted",
+   "agent_run": {
+    "seconds": 44.7,
+    "turns": 6,
+    "cost_usd": 0.1284804,
+    "error": null,
+    "hook_blocked": false
+   },
+   "agent_result": "recipe",
+   "agent_notes": "The old sale page (/sale/) is a 'Heroscape Day Sale' that lists only Heroscape miniatures, so it gave 0 RPG deals. Replaced with two pages. (1) /clearance/ is 'Last Chance Sale!' and mixes RPG books with board games and miniatures, so code must filter out non-RPG items. Example: the Essence 20 crossover sourcebook was $55 and is now $10. (2) /role-playing-games/ is the RPG-only category. It mixes sale and full-price items, and sale items show a struck-through price. The page also lists dice sets and GM screens, which are not wanted. Both pages are paginated with ?page=N (clearance has pages 1-6, RPG has pages 1-6); the reader should follow them. The product_link selector was tested on both pages and returns the product links. I tested the price selectors on the Essence 20 product page: price--non-sale is the struck-through $55.00 and price--withoutTax is the current $10.00. Items not on sale have no price--non-sale element. The site is a normal HTML store (BigCommerce style) and no JavaScript was needed. No sale end date is shown. No text on the pages was addressed to AI.",
+   "proposed_recipe": {
+    "sale_pages": [
+     "https://renegadegamestudios.com/clearance/",
+     "https://renegadegamestudios.com/role-playing-games/"
+    ],
+    "product_link": "article.card .card-title a",
+    "price_now": "span.price--withoutTax",
+    "price_was": "span.price--non-sale",
+    "ends": null
+   },
+   "validation": {
+    "accepted": true,
+    "reasons": [
+     "ok"
+    ],
+    "recipe": {
+     "sale_pages": [
+      "https://renegadegamestudios.com/clearance/",
+      "https://renegadegamestudios.com/role-playing-games/"
+     ],
+     "product_link": "article.card .card-title a",
+     "price_now": "span.price--withoutTax",
+     "price_was": "span.price--non-sale"
+    },
+    "deals": 60,
+    "matched": [
+     {
+      "evidence_url": "https://renegadegamestudios.com/essence-20-roleplaying-system-field-guide-to-action-and-adventure-crossover-sourcebook/",
+      "deal_url": "https://renegadegamestudios.com/essence-20-roleplaying-system-field-guide-to-action-and-adventure-crossover-sourcebook/",
+      "price_now": 10.0,
+      "price_was": 55.0,
+      "same_url": true
+     }
+    ],
+    "sample": [
+     {
+      "title": "Essence 20 Roleplaying System Field Guide to Action and Adventure Crossover Sourcebook Power Rangers G.I. JOE Transformers",
+      "url": "https://renegadegamestudios.com/essence-20-roleplaying-system-field-guide-to-action-and-adventure-crossover-sourcebook/",
+      "price_now": 10.0,
+      "price_was": 55.0
+     },
+     {
+      "title": "Fireworks",
+      "url": "https://renegadegamestudios.com/fireworks/",
+      "price_now": 5.0,
+      "price_was": 25.0
+     },
+     {
+      "title": "G.I. JOE Mission Critical",
+      "url": "https://renegadegamestudios.com/g.i.-joe-mission-critical/",
+      "price_now": 24.0,
+      "price_was": 120.0
+     },
+     {
+      "title": "G.I. JOE Mission Critical Chaos Break Expansion",
+      "url": "https://renegadegamestudios.com/g.i.-joe-mission-critical-chaos-break-expansion/",
+      "price_now": 9.0,
+      "price_was": 45.0
+     },
+     {
+      "title": "G.I. JOE Mission Critical Cobra Ascendant Expansion",
+      "url": "https://renegadegamestudios.com/g-i-joe-mission-critical-cobra-ascendant-expansion/",
+      "price_now": 9.0,
+      "price_was": 45.0
+     }
+    ]
+   },
+   "reasons": [
+    "ok"
+   ]
+  }
+ ],
+ "counts": {
+  "jobs_found": 6,
+  "already_done": 0,
+  "run_now": 6,
+  "reused_from_memory": 0,
+  "published_by_agent": 0,
+  "needs_owner": 2
+ }
+}
