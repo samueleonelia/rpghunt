@@ -87,6 +87,10 @@
   "date": "2026-10-27",
   "result": "added"
  },
+ "burnafterrunningrpg.com": {
+  "date": "2026-10-31",
+  "result": "known store"
+ },
  "cakebreadandwalton.co.uk": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -159,12 +163,20 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "deviantart.com": {
+  "date": "2026-10-31",
+  "result": "not a seller"
+ },
  "dice.camp": {
   "date": "2026-10-27",
   "result": "not a seller"
  },
  "diceexploder.com": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "digitalextremes.com": {
+  "date": "2026-10-31",
   "result": "not a seller"
  },
  "dimensionaldoubleshift.com": {
@@ -181,6 +193,10 @@
  },
  "dungeonmecha.bearblog.dev": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "dungeonsanddragonsfan.com": {
+  "date": "2026-10-31",
   "result": "not a seller"
  },
  "edenstudios.net": {
@@ -247,6 +263,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "flickeringmyth.com": {
+  "date": "2026-10-31",
+  "result": "not a seller"
+ },
  "flyingbuffalo.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -257,6 +277,10 @@
  },
  "forgottenfutures.co.uk": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "forums.soulframe.com": {
+  "date": "2026-10-31",
   "result": "not a seller"
  },
  "freeleaguepublishing.com": {
@@ -297,6 +321,10 @@
  },
  "gear.tombraider.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "gnomestew.com": {
+  "date": "2026-10-31",
   "result": "not a seller"
  },
  "go.skimresources.com": {
@@ -523,6 +551,14 @@
   "date": "2026-10-28",
   "result": "not a seller"
  },
+ "patchworkpaladin.com": {
+  "date": "2026-10-31",
+  "result": "not a seller"
+ },
+ "phantasypunk.com": {
+  "date": "2026-10-31",
+  "result": "not a seller"
+ },
  "pigames.net": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -537,6 +573,10 @@
  },
  "pokebeach.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "polygon.com": {
+  "date": "2026-10-31",
   "result": "not a seller"
  },
  "pooltime.bearblog.dev": {
@@ -591,6 +631,10 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "screenrant.com": {
+  "date": "2026-10-31",
+  "result": "not a seller"
+ },
  "sealedstories.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -611,6 +655,10 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "silverpalace.elementagames.com": {
+  "date": "2026-10-31",
+  "result": "not a seller"
+ },
  "sjgames.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -626,6 +674,14 @@
  "snowbrightstudio.com": {
   "date": "2026-10-30",
   "result": "added"
+ },
+ "sortiraparis.com": {
+  "date": "2026-10-31",
+  "result": "not a seller"
+ },
+ "soulframe.com": {
+  "date": "2026-10-31",
+  "result": "not a seller"
  },
  "soundcloud.com": {
   "date": "2026-10-27",
@@ -677,6 +733,10 @@
  },
  "tabletopjunkie.com": {
   "date": "2026-10-28",
+  "result": "not a seller"
+ },
+ "tabletopsentinel.com": {
+  "date": "2026-10-31",
   "result": "not a seller"
  },
  "tampabaybeacons.com": {
@@ -751,8 +811,16 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "ttrpginsider.news": {
+  "date": "2026-10-31",
+  "result": "not a seller"
+ },
  "tubbz.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "turbodork.com": {
+  "date": "2026-10-31",
   "result": "not a seller"
  },
  "turtlebeach.com": {
@@ -763,8 +831,16 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "unsplash.com": {
+  "date": "2026-10-31",
+  "result": "not a seller"
+ },
  "upperdeck.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "us.list-manage.com": {
+  "date": "2026-10-31",
   "result": "not a seller"
  },
  "vacationsimulatorgame.com": {

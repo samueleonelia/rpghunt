@@ -55,6 +55,14 @@
   "last_seen": "2026-10-27",
   "example_url": "http://www.cubicle7games.com/"
  },
+ "deviantart.com": {
+  "first_seen": "2026-10-31",
+  "reasons": {
+   "HTTP 403": "2026-10-31"
+  },
+  "last_seen": "2026-10-31",
+  "example_url": "https://www.deviantart.com/wp-json/wc/store/v1/products?per_page=1"
+ },
  "diceexploder.com": {
   "first_seen": "2026-10-30",
   "reasons": {
@@ -74,9 +82,9 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-10-30"
+   "bot wall (known, never fetched)": "2026-10-31"
   },
-  "last_seen": "2026-10-30",
+  "last_seen": "2026-10-31",
   "example_url": "https://www.drivethrurpg.com/product/588434/the-ones-who-hound-him-in-the-dark"
  },
  "elancharan.itch.io": {
@@ -118,6 +126,14 @@
   },
   "last_seen": "2026-10-30",
   "example_url": "https://forbiddenplanet.com/"
+ },
+ "forums.soulframe.com": {
+  "first_seen": "2026-10-31",
+  "reasons": {
+   "HTTP 403": "2026-10-31"
+  },
+  "last_seen": "2026-10-31",
+  "example_url": "https://forums.soulframe.com/"
  },
  "foundryvtt.store": {
   "first_seen": "2026-10-17",
@@ -407,6 +423,14 @@
   "last_seen": "2026-10-27",
   "example_url": "https://store.epicgames.com/"
  },
+ "tabletopsentinel.com": {
+  "first_seen": "2026-10-31",
+  "reasons": {
+   "HTTP 403": "2026-10-31"
+  },
+  "last_seen": "2026-10-31",
+  "example_url": "https://www.tabletopsentinel.com/products.json?limit=1"
+ },
  "tarabrunopr-dot-yamm-track.appspot.com": {
   "first_seen": "2026-10-30",
   "reasons": {
@@ -470,6 +494,22 @@
   },
   "last_seen": "2026-10-17",
   "example_url": "https://www.ulissesf-shop.com/"
+ },
+ "unsplash.com": {
+  "first_seen": "2026-10-31",
+  "reasons": {
+   "HTTP 401": "2026-10-31"
+  },
+  "last_seen": "2026-10-31",
+  "example_url": "https://unsplash.com/"
+ },
+ "us.list-manage.com": {
+  "first_seen": "2026-10-31",
+  "reasons": {
+   "robots.txt disallows us": "2026-10-31"
+  },
+  "last_seen": "2026-10-31",
+  "example_url": "https://us.list-manage.com/"
  },
  "wargamer.com": {
   "first_seen": "2026-10-27",
