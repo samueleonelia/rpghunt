@@ -82,10 +82,10 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-10-31"
+   "bot wall (known, never fetched)": "2026-11-01"
   },
-  "last_seen": "2026-10-31",
-  "example_url": "https://www.drivethrurpg.com/product/588434/the-ones-who-hound-him-in-the-dark"
+  "last_seen": "2026-11-01",
+  "example_url": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms"
  },
  "elancharan.itch.io": {
   "first_seen": "2026-10-27",
@@ -222,6 +222,22 @@
   },
   "last_seen": "2026-10-27",
   "example_url": "https://lp.constantcontactpages.com/"
+ },
+ "lucca2026.luccacomicsandgames.com": {
+  "first_seen": "2026-11-01",
+  "reasons": {
+   "HTTP 403": "2026-11-01"
+  },
+  "last_seen": "2026-11-01",
+  "example_url": "https://lucca2026.luccacomicsandgames.com/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "luccacomicsandgames.com": {
+  "first_seen": "2026-11-01",
+  "reasons": {
+   "HTTP 401": "2026-11-01"
+  },
+  "last_seen": "2026-11-01",
+  "example_url": "https://www.luccacomicsandgames.com/products.json?limit=1"
  },
  "mindstormlabs.com": {
   "first_seen": "2026-10-27",
