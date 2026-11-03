@@ -1,0 +1,5435 @@
+[
+ {
+  "kind": "deal",
+  "key": "https://hitpointpress.com/products/animated-spells-master-collection-for-roll20-vtt",
+  "url": "https://hitpointpress.com/products/animated-spells-master-collection-for-roll20-vtt",
+  "title": "DIGITAL Animated Spells Master Collection - (Roll20 Key, VTT)",
+  "shop": "Hit Point Press",
+  "price_now": 50.0,
+  "price_was": 122.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$50.00 CAD",
+   "reason": "The page shows a real 59% discount ($50.00 CAD, was $122.00 CAD) on a Roll20 VTT asset pack (animated spell cards and tokens for D&D 5e), but the prices are in CAD while the deal claims USD, and it is unclear whether a card and token pack counts as a tabletop RPG product.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 59% discount ($50.00 CAD, was $122.00 CAD) on a Roll20 VTT asset pack (animated spell cards and tokens for D&D 5e), but the prices are in CAD while the deal claims USD, and it is unclear whether a card and token pack counts as a tabletop RPG product."
+   ]
+  },
+  "question": "Does this page show DIGITAL Animated Spells Master Collection - (Roll20 Key, VTT) at 50.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.humblebundle.com/software/vampire-masquerade-complete-v5-collection-for-alchemy-vtt-software",
+  "url": "https://www.humblebundle.com/software/vampire-masquerade-complete-v5-collection-for-alchemy-vtt-software",
+  "title": "Vampire: The Masquerade Complete V5 Collection for Alchemy VTT",
+  "shop": "Humble Bundle",
+  "price_now": 5.42,
+  "price_was": 451.14,
+  "currency": "EUR",
+  "jev": {
+   "reasons": [
+    "suspect_discount: 5.42 vs 452.92 is 99% off"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": null,
+   "reason": "The page loaded but its visible text shows only a site banner, with no product, price, normal price or end date, so the claimed 5.42 vs 452.92 cannot be confirmed.",
+   "failed_checks": [
+    "agent_unsure: The page loaded but its visible text shows only a site banner, with no product, price, normal price or end date, so the claimed 5.42 vs 452.92 cannot be confirmed."
+   ]
+  },
+  "question": "Does this page show Vampire: The Masquerade Complete V5 Collection for Alchemy VTT at 5.42 EUR on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://alfredvalley.itch.io/thousand-empty-light",
+  "url": "https://alfredvalley.itch.io/thousand-empty-light",
+  "title": "Thousand Empty Light",
+  "shop": "itch.io",
+  "price_now": 5.4,
+  "price_was": 6.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: contradicts (0.31)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.31
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£5.40",
+   "reason": "The page shows a running 10% Halloween Sale on this Mothership RPG adventure, but the price is £5.40 GBP (was £6.00), not the claimed $5.40 USD, and no end date is shown.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 10% Halloween Sale on this Mothership RPG adventure, but the price is £5.40 GBP (was £6.00), not the claimed $5.40 USD, and no end date is shown."
+   ]
+  },
+  "question": "Does this page show Thousand Empty Light at 5.4 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://alfredvalley.itch.io/lay-on-hands",
+  "url": "https://alfredvalley.itch.io/lay-on-hands",
+  "title": "Lay On Hands",
+  "shop": "itch.io",
+  "price_now": 5.4,
+  "price_was": 6.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: contradicts (0.24)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.24
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£5.40",
+   "reason": "The page shows a real 10% off Halloween Sale on this solo RPG zine, but the prices are in GBP (£5.40 and £6.00) while the deal claims USD 5.40, so the claimed currency can't be confirmed, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 10% off Halloween Sale on this solo RPG zine, but the prices are in GBP (£5.40 and £6.00) while the deal claims USD 5.40, so the claimed currency can't be confirmed, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show Lay On Hands at 5.4 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://hatchlingdm.itch.io/cryptid-creeks",
+  "url": "https://hatchlingdm.itch.io/cryptid-creeks",
+  "title": "Cryptid Creeks",
+  "shop": "itch.io",
+  "price_now": 6.0,
+  "price_was": 12.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: contradicts (0.28)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.28
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£6.00",
+   "reason": "The page shows a 50% off sale at £12.00 to £6.00 GBP, but the deal claims USD and itch.io may show a converted currency, so I can't confirm the claimed USD price; no end date is shown.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 50% off sale at £12.00 to £6.00 GBP, but the deal claims USD and itch.io may show a converted currency, so I can't confirm the claimed USD price; no end date is shown."
+   ]
+  },
+  "question": "Does this page show Cryptid Creeks at 6.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://sunzenaut.itch.io/obscure",
+  "url": "https://sunzenaut.itch.io/obscure",
+  "title": "OBSCURE",
+  "shop": "itch.io",
+  "price_now": 7.5,
+  "price_was": 10.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.33)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.33
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "7.50€",
+   "reason": "The page shows OBSCURE (a tabletop RPG) at 7.50€ down from 10.00€ in the 'Halloween Sale 2026' (25% off), but it shows euros while the deal claims USD, and it gives no end date to check against the claimed 2026-11-04.",
+   "failed_checks": [
+    "agent_unsure: The page shows OBSCURE (a tabletop RPG) at 7.50€ down from 10.00€ in the 'Halloween Sale 2026' (25% off), but it shows euros while the deal claims USD, and it gives no end date to check against the claimed 2026-11-04."
+   ]
+  },
+  "question": "Does this page show OBSCURE at 7.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://sunzenaut.itch.io/grotten",
+  "url": "https://sunzenaut.itch.io/grotten",
+  "title": "Grotten: 1-Bit Deeper",
+  "shop": "itch.io",
+  "price_now": 5.25,
+  "price_was": 7.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.35)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.35
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "5.25€",
+   "reason": "The page shows a real, running 25% off Halloween Sale on a tabletop RPG (7.00€ down to 5.25€), but it prices in EUR while the deal claims USD, and it shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real, running 25% off Halloween Sale on a tabletop RPG (7.00€ down to 5.25€), but it prices in EUR while the deal claims USD, and it shows no end date."
+   ]
+  },
+  "question": "Does this page show Grotten: 1-Bit Deeper at 5.25 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://wendigoworkshop.itch.io/anomaly-hunters",
+  "url": "https://wendigoworkshop.itch.io/anomaly-hunters",
+  "title": "Anomaly Hunters",
+  "shop": "itch.io",
+  "price_now": 2.0,
+  "price_was": 4.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.48)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.48
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$2.00",
+   "reason": "The page shows a real 50% off Halloween Sale on a tabletop RPG, $4.00 down to $2.00, but it labels the prices as CAD while the deal claims USD, and it shows no end date to confirm 2026-11-04.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 50% off Halloween Sale on a tabletop RPG, $4.00 down to $2.00, but it labels the prices as CAD while the deal claims USD, and it shows no end date to confirm 2026-11-04."
+   ]
+  },
+  "question": "Does this page show Anomaly Hunters at 2.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://alfredvalley.itch.io/tundrabower",
+  "url": "https://alfredvalley.itch.io/tundrabower",
+  "title": "Tundrabower",
+  "shop": "itch.io",
+  "price_now": 1.35,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: contradicts (0.28)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.28
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£1.35",
+   "reason": "The page shows a running Halloween Sale 2026 (10% off, £1.50 to £1.35) on a tabletop RPG setting, but the prices are in GBP while the deal claims USD, and no end date is shown.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running Halloween Sale 2026 (10% off, £1.50 to £1.35) on a tabletop RPG setting, but the prices are in GBP while the deal claims USD, and no end date is shown."
+   ]
+  },
+  "question": "Does this page show Tundrabower at 1.35 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://paramythgames.itch.io/into-the-dark-dungeon-silver-mine",
+  "url": "https://paramythgames.itch.io/into-the-dark-dungeon-silver-mine",
+  "title": "Into The Dark Dungeon - Silver Mine (PnP)",
+  "shop": "itch.io",
+  "price_now": 9.2,
+  "price_was": 11.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: contradicts (0.30)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.3
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "9.20€",
+   "reason": "The page shows a real 20% Halloween Sale (11.50€ to 9.20€), but the price is in EUR while the deal claims USD. The product is a print-and-play dungeon-crawl board game, tagged both 'Board Game' and 'Tabletop role-playing game', so I can't tell if it counts as an RPG product. The page also shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 20% Halloween Sale (11.50€ to 9.20€), but the price is in EUR while the deal claims USD. The product is a print-and-play dungeon-crawl board game, tagged both 'Board Game' and 'Tabletop role-playing game', so I can't tell if it counts as an RPG product. The page also shows no end date."
+   ]
+  },
+  "question": "Does this page show Into The Dark Dungeon - Silver Mine (PnP) at 9.2 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://alfredvalley.itch.io/sodastone",
+  "url": "https://alfredvalley.itch.io/sodastone",
+  "title": "Sodastone",
+  "shop": "itch.io",
+  "price_now": 2.7,
+  "price_was": 3.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: contradicts (0.35)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.35
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£2.70",
+   "reason": "The page shows a real 10% Off 'Halloween Sale 2026' on a tabletop RPG pamphlet, but it prices it in GBP (£3.00 to £2.70) while the deal claims USD, and it shows no end date to confirm 2026-11-04.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 10% Off 'Halloween Sale 2026' on a tabletop RPG pamphlet, but it prices it in GBP (£3.00 to £2.70) while the deal claims USD, and it shows no end date to confirm 2026-11-04."
+   ]
+  },
+  "question": "Does this page show Sodastone at 2.7 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://loottheroom.itch.io/candle",
+  "url": "https://loottheroom.itch.io/candle",
+  "title": "CANDLE",
+  "shop": "itch.io",
+  "price_now": 6.6,
+  "price_was": 10.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.38)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.38
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£6.60 GBP",
+   "reason": "The page shows a running 34% off sale on this Mörk Borg adventure, but the prices are in pounds (£6.60, was £10.00) while the deal claims USD, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 34% off sale on this Mörk Borg adventure, but the prices are in pounds (£6.60, was £10.00) while the deal claims USD, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show CANDLE at 6.6 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://capacle.itch.io/murder",
+  "url": "https://capacle.itch.io/murder",
+  "title": "Murder at Morsley Manor",
+  "shop": "itch.io",
+  "price_now": 3.43,
+  "price_was": 4.9,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.43",
+   "reason": "The 30% off Halloween Sale 2026 price is shown ($4.90 to $3.43), but the product is a social-deduction game played with a standard deck of cards, so the page does not settle whether it counts as a tabletop RPG (the author's tags include 'Tabletop role-playing game').",
+   "failed_checks": [
+    "agent_unsure: The 30% off Halloween Sale 2026 price is shown ($4.90 to $3.43), but the product is a social-deduction game played with a standard deck of cards, so the page does not settle whether it counts as a tabletop RPG (the author's tags include 'Tabletop role-playing game')."
+   ]
+  },
+  "question": "Does this page show Murder at Morsley Manor at 3.43 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://understory.itch.io/red-herrings",
+  "url": "https://understory.itch.io/red-herrings",
+  "title": "Red Herrings: A Game of Planting Clues",
+  "shop": "itch.io",
+  "price_now": 3.0,
+  "price_was": 6.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.62"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.00",
+   "reason": "The price and the 50% Halloween Sale are real, but the game is a Clue/Cluedo board-game hack that is only tagged 'Tabletop role-playing game' next to 'Board Game', so I can't tell whether it counts as a tabletop RPG.",
+   "failed_checks": [
+    "agent_unsure: The price and the 50% Halloween Sale are real, but the game is a Clue/Cluedo board-game hack that is only tagged 'Tabletop role-playing game' next to 'Board Game', so I can't tell whether it counts as a tabletop RPG."
+   ]
+  },
+  "question": "Does this page show Red Herrings: A Game of Planting Clues at 3.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://thehomebakery.itch.io/lifeblood",
+  "url": "https://thehomebakery.itch.io/lifeblood",
+  "title": "LifeBlood",
+  "shop": "itch.io",
+  "price_now": 3.75,
+  "price_was": 5.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.30)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.3
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£3.75",
+   "reason": "The page shows a 25% off Halloween Sale at £3.75 (was £5.00) in GBP, but the deal claims USD 3.75, so the currency doesn't match, and the page shows no end date to confirm 2026-11-04.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 25% off Halloween Sale at £3.75 (was £5.00) in GBP, but the deal claims USD 3.75, so the currency doesn't match, and the page shows no end date to confirm 2026-11-04."
+   ]
+  },
+  "question": "Does this page show LifeBlood at 3.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://hikary02.itch.io/flowers-on-your-doorstep",
+  "url": "https://hikary02.itch.io/flowers-on-your-doorstep",
+  "title": "Flowers On Your Doorstep",
+  "shop": "itch.io",
+  "price_now": 1.99,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: contradicts (0.25)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.25
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "1.99€",
+   "reason": "The page shows a running Halloween Sale at 50% off for a solo tabletop RPG, but it prices it in euros (1.99€ EUR) while the deal claims USD, and no end date is shown.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running Halloween Sale at 50% off for a solo tabletop RPG, but it prices it in euros (1.99€ EUR) while the deal claims USD, and no end date is shown."
+   ]
+  },
+  "question": "Does this page show Flowers On Your Doorstep at 1.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://alfredvalley.itch.io/known-frequencies-issue-2",
+  "url": "https://alfredvalley.itch.io/known-frequencies-issue-2",
+  "title": "Known Frequencies (issue 2)",
+  "shop": "itch.io",
+  "price_now": 1.8,
+  "price_was": 2.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.34)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.34
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£1.80",
+   "reason": "The page shows a 10% Halloween Sale on this Mothership zine, but the prices are in pounds (£1.80, was £2.00) while the deal claims USD, and the page shows no end date to check against 2026-11-04.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 10% Halloween Sale on this Mothership zine, but the prices are in pounds (£1.80, was £2.00) while the deal claims USD, and the page shows no end date to check against 2026-11-04."
+   ]
+  },
+  "question": "Does this page show Known Frequencies (issue 2) at 1.8 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://thehomebakery.itch.io/the-skeleton-closet",
+  "url": "https://thehomebakery.itch.io/the-skeleton-closet",
+  "title": "The Skeleton Closet",
+  "shop": "itch.io",
+  "price_now": 3.75,
+  "price_was": 5.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.25)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.25
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£3.75",
+   "reason": "The page shows a running 25% off Halloween Sale on a tabletop RPG supplement, but the prices are in GBP (£3.75 from £5.00) while the deal claims USD 3.75 from 5.00, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 25% off Halloween Sale on a tabletop RPG supplement, but the prices are in GBP (£3.75 from £5.00) while the deal claims USD 3.75 from 5.00, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show The Skeleton Closet at 3.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://impioussaint.itch.io/forbidden-psalm-last-war",
+  "url": "https://impioussaint.itch.io/forbidden-psalm-last-war",
+  "title": "Forbidden Psalm: Last War",
+  "shop": "itch.io",
+  "price_now": 9.78,
+  "price_was": 11.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.26)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.26
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£9.78",
+   "reason": "The page shows a running 13% off sale (£11.25 down to £9.78), but the currency is GBP while the deal claims USD, and the product is a stand-alone miniatures skirmish game that is also a Mörk Borg-compatible RPG setting, so it is borderline for RPG scope.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 13% off sale (£11.25 down to £9.78), but the currency is GBP while the deal claims USD, and the product is a stand-alone miniatures skirmish game that is also a Mörk Borg-compatible RPG setting, so it is borderline for RPG scope."
+   ]
+  },
+  "question": "Does this page show Forbidden Psalm: Last War at 9.78 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://impioussaint.itch.io/a-dead-festival-forbidden-psalm",
+  "url": "https://impioussaint.itch.io/a-dead-festival-forbidden-psalm",
+  "title": "A Dead Festival Forbidden Psalm - miniatures game, inspired by and compatible with MÖRK BORG",
+  "shop": "itch.io",
+  "price_now": 2.61,
+  "price_was": 3.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.28",
+    "support_unsure: contradicts (0.25)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.25
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£2.61",
+   "reason": "The page shows a real 13% Halloween Sale (£3.00 to £2.61), but the product is a miniatures game expansion for MÖRK BORG (tagged TTRPG, content also usable in the TTRPG), so it is unclear whether it counts as an RPG product, and the page shows GBP while the deal claims USD.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 13% Halloween Sale (£3.00 to £2.61), but the product is a miniatures game expansion for MÖRK BORG (tagged TTRPG, content also usable in the TTRPG), so it is unclear whether it counts as an RPG product, and the page shows GBP while the deal claims USD."
+   ]
+  },
+  "question": "Does this page show A Dead Festival Forbidden Psalm - miniatures game, inspired by and compatible with MÖRK BORG at 2.61 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://sunzenaut.itch.io/the-obscure-files-1",
+  "url": "https://sunzenaut.itch.io/the-obscure-files-1",
+  "title": "The OBSCURE Files #1",
+  "shop": "itch.io",
+  "price_now": 7.12,
+  "price_was": 9.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.46)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.46
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "7.12€",
+   "reason": "The page shows a real 25% off 'Halloween Sale 2026' on this TTRPG zine (9.50€ to 7.12€), but the prices are in EUR while the deal claims USD, and the page shows no end date to confirm 2026-11-04.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 25% off 'Halloween Sale 2026' on this TTRPG zine (9.50€ to 7.12€), but the prices are in EUR while the deal claims USD, and the page shows no end date to confirm 2026-11-04."
+   ]
+  },
+  "question": "Does this page show The OBSCURE Files #1 at 7.12 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://sunzenaut.itch.io/the-obscure-files-2",
+  "url": "https://sunzenaut.itch.io/the-obscure-files-2",
+  "title": "The OBSCURE Files #2",
+  "shop": "itch.io",
+  "price_now": 7.12,
+  "price_was": 9.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.52)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.52
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "7.12€",
+   "reason": "The page shows a real 25% Halloween Sale on this TTRPG zine (9.50€ down to 7.12€), but it states EUR while the deal claims USD, and it shows no end date to check against 2026-11-04.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 25% Halloween Sale on this TTRPG zine (9.50€ down to 7.12€), but it states EUR while the deal claims USD, and it shows no end date to check against 2026-11-04."
+   ]
+  },
+  "question": "Does this page show The OBSCURE Files #2 at 7.12 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://jellygamesit.itch.io/thewalkingdeck",
+  "url": "https://jellygamesit.itch.io/thewalkingdeck",
+  "title": "The Walking Deck - NOT another Zombies RPG",
+  "shop": "itch.io",
+  "price_now": 0.5,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: contradicts (0.55)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.55
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.92
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "0.50€",
+   "reason": "The page shows a 50% off sale of 1.00€ to 0.50€ on a tabletop RPG, but the prices are in EUR while the deal claims USD, and the page shows no sale end date to confirm 2026-11-04.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 50% off sale of 1.00€ to 0.50€ on a tabletop RPG, but the prices are in EUR while the deal claims USD, and the page shows no sale end date to confirm 2026-11-04."
+   ]
+  },
+  "question": "Does this page show The Walking Deck - NOT another Zombies RPG at 0.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://brianbinh.itch.io/night-flows-like-rain",
+  "url": "https://brianbinh.itch.io/night-flows-like-rain",
+  "title": "Night Flows Like Rain",
+  "shop": "itch.io",
+  "price_now": 0.5,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.68"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.94
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$0.50",
+   "reason": "The page shows a running Halloween Sale at 50% off ($1.00 to $0.50), but the product is a set of printable flowchart reference sheets for an RPG SRD, itch.io labels it an 'accessory', and I can't tell whether that counts as a rulebook or supplement or as an excluded accessory.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running Halloween Sale at 50% off ($1.00 to $0.50), but the product is a set of printable flowchart reference sheets for an RPG SRD, itch.io labels it an 'accessory', and I can't tell whether that counts as a rulebook or supplement or as an excluded accessory."
+   ]
+  },
+  "question": "Does this page show Night Flows Like Rain at 0.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://barcstravis.itch.io/detangle",
+  "url": "https://barcstravis.itch.io/detangle",
+  "title": "Detangle",
+  "shop": "itch.io",
+  "price_now": 1.0,
+  "price_was": 2.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.53"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$1.00 USD",
+   "reason": "The page confirms a 50% off sale from $2.00 to $1.00, but the product is a solo cord-detangling activity that the creator tags 'Tabletop role-playing game', so I can't tell if it counts as a tabletop RPG.",
+   "failed_checks": [
+    "agent_unsure: The page confirms a 50% off sale from $2.00 to $1.00, but the product is a solo cord-detangling activity that the creator tags 'Tabletop role-playing game', so I can't tell if it counts as a tabletop RPG."
+   ]
+  },
+  "question": "Does this page show Detangle at 1.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://thehomebakery.itch.io/beneaththelibrary",
+  "url": "https://thehomebakery.itch.io/beneaththelibrary",
+  "title": "What Lurks Beneath the Library",
+  "shop": "itch.io",
+  "price_now": 5.25,
+  "price_was": 7.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.30)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.3
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.92
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£5.25",
+   "reason": "The page shows a 25% off sale on this tabletop RPG one-shot, but the prices are in GBP (£7.00 to £5.25) and the claimed deal says USD, so the currency doesn't match and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 25% off sale on this tabletop RPG one-shot, but the prices are in GBP (£7.00 to £5.25) and the claimed deal says USD, so the currency doesn't match and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show What Lurks Beneath the Library at 5.25 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://jellygamesit.itch.io/blackcat",
+  "url": "https://jellygamesit.itch.io/blackcat",
+  "title": "Black Cat",
+  "shop": "itch.io",
+  "price_now": 2.5,
+  "price_was": 5.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: contradicts (0.44)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.44
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.95
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "2.50€",
+   "reason": "The page shows a 50% off sale on this tabletop RPG, but the prices are in EUR (2.50€, was 5.00€) while the deal claims USD, and no sale end date is shown.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 50% off sale on this tabletop RPG, but the prices are in EUR (2.50€, was 5.00€) while the deal claims USD, and no sale end date is shown."
+   ]
+  },
+  "question": "Does this page show Black Cat at 2.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://tallywinkle.itch.io/wrapping-mapping",
+  "url": "https://tallywinkle.itch.io/wrapping-mapping",
+  "title": "Wrapping Mapping",
+  "shop": "itch.io",
+  "price_now": 1.87,
+  "price_was": 2.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.60"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$1.87",
+   "reason": "The price and the 25% off Halloween Sale are real and running, but the product is a paper-craft landscape-building game that only carries the 'Tabletop role-playing game' tag, so I can't tell if it counts as an RPG product.",
+   "failed_checks": [
+    "agent_unsure: The price and the 25% off Halloween Sale are real and running, but the product is a paper-craft landscape-building game that only carries the 'Tabletop role-playing game' tag, so I can't tell if it counts as an RPG product."
+   ]
+  },
+  "question": "Does this page show Wrapping Mapping at 1.87 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://wendigoworkshop.itch.io/aberrant",
+  "url": "https://wendigoworkshop.itch.io/aberrant",
+  "title": "Aberrant - Early Edition",
+  "shop": "itch.io",
+  "price_now": 4.0,
+  "price_was": 8.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.56)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.56
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$4.00 CAD",
+   "reason": "The page shows a running 50% off sale on a TTRPG ($8.00 struck through, $4.00 now), but the price is in CAD and the deal claims USD, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 50% off sale on a TTRPG ($8.00 struck through, $4.00 now), but the price is in CAD and the deal claims USD, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show Aberrant - Early Edition at 4.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://ranarh.itch.io/go-do-be-at",
+  "url": "https://ranarh.itch.io/go-do-be-at",
+  "title": "Go Do Be At",
+  "shop": "itch.io",
+  "price_now": 1.0,
+  "price_was": 2.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.46"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$1.00",
+   "reason": "The page shows a real 50% off sale ($2.00 down to $1.00, part of MiaT's Halloween Sale 2026), but the product is a movement and icebreaker bookmark game that is tagged micro-rpg and LARP, so I can't tell if it counts as a tabletop RPG.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 50% off sale ($2.00 down to $1.00, part of MiaT's Halloween Sale 2026), but the product is a movement and icebreaker bookmark game that is tagged micro-rpg and LARP, so I can't tell if it counts as a tabletop RPG."
+   ]
+  },
+  "question": "Does this page show Go Do Be At at 1.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://brainmage.itch.io/100-haunted-trinkets",
+  "url": "https://brainmage.itch.io/100-haunted-trinkets",
+  "title": "100 Haunted Trinkets",
+  "shop": "itch.io",
+  "price_now": 2.01,
+  "price_was": 3.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.53",
+    "support_unsure: contradicts (0.48)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.48
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£2.01",
+   "reason": "The page shows a real 33% off sale on a tabletop RPG roll table, but the prices are in GBP (£2.01, was £3.00) while the deal claims USD, and no end date is shown.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 33% off sale on a tabletop RPG roll table, but the prices are in GBP (£2.01, was £3.00) while the deal claims USD, and no end date is shown."
+   ]
+  },
+  "question": "Does this page show 100 Haunted Trinkets at 2.01 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://friedspin.itch.io/solo-engine-toolkit",
+  "url": "https://friedspin.itch.io/solo-engine-toolkit",
+  "title": "Solo Engine Toolkit – System-Neutral Oracle, Procedures & Companion",
+  "shop": "itch.io",
+  "price_now": 3.49,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.49)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.49
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "3.49€",
+   "reason": "The page shows a running 65% off sale on a tabletop RPG tool (9.99€ down to 3.49€, 'FriedSpin Halloween Sale 2026'), but the prices are in EUR while the deal claims USD, and no end date is shown.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 65% off sale on a tabletop RPG tool (9.99€ down to 3.49€, 'FriedSpin Halloween Sale 2026'), but the prices are in EUR while the deal claims USD, and no end date is shown."
+   ]
+  },
+  "question": "Does this page show Solo Engine Toolkit – System-Neutral Oracle, Procedures & Companion at 3.49 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://friedspin.itch.io/solo-oracle-deck-54",
+  "url": "https://friedspin.itch.io/solo-oracle-deck-54",
+  "title": "Solo Oracle Deck – 54 Print-and-Play Cards to Play Any RPG Without a GM (EN + DE)",
+  "shop": "itch.io",
+  "price_now": 1.4,
+  "price_was": 4.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22",
+    "support_unsure: supports (0.49)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.49
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "1.40€",
+   "reason": "The page shows a real 65% off sale (4.00€ to 1.40€, FriedSpin Halloween Sale), but the prices are in EUR while the deal claims USD. The product is a system-agnostic print-and-play oracle deck, which may count as an accessory and not an RPG product, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 65% off sale (4.00€ to 1.40€, FriedSpin Halloween Sale), but the prices are in EUR while the deal claims USD. The product is a system-agnostic print-and-play oracle deck, which may count as an accessory and not an RPG product, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show Solo Oracle Deck – 54 Print-and-Play Cards to Play Any RPG Without a GM (EN + DE) at 1.4 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://jellygamesit.itch.io/thatsummer",
+  "url": "https://jellygamesit.itch.io/thatsummer",
+  "title": "That summer of 1960-something",
+  "shop": "itch.io",
+  "price_now": 1.0,
+  "price_was": 2.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.28)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.28
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "1.00€",
+   "reason": "The page shows a running 'Halloween Sale 2026' at 50% off, 2.00€ down to 1.00€, for a one-page tabletop RPG. But the prices are in EUR and the deal claims USD, and the page shows no end date, so I can't confirm the claimed currency or the 2026-11-04 end.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 'Halloween Sale 2026' at 50% off, 2.00€ down to 1.00€, for a one-page tabletop RPG. But the prices are in EUR and the deal claims USD, and the page shows no end date, so I can't confirm the claimed currency or the 2026-11-04 end."
+   ]
+  },
+  "question": "Does this page show That summer of 1960-something at 1.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://sleeping-kraken.itch.io/a-night-worth-forgetting",
+  "url": "https://sleeping-kraken.itch.io/a-night-worth-forgetting",
+  "title": "A Night Worth Forgetting - A 3rd Level Horror Mini-Campaign for 5E",
+  "shop": "itch.io",
+  "price_now": 3.97,
+  "price_was": 7.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.40)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.4
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.93
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "3.97€",
+   "reason": "The page shows an 'On Sale! 50% Off' banner with 7.95€ struck through and 3.97€ now, but the prices are in EUR while the deal claims USD, no end date is shown, and the history says 3.97 was already the usual price.",
+   "failed_checks": [
+    "agent_unsure: The page shows an 'On Sale! 50% Off' banner with 7.95€ struck through and 3.97€ now, but the prices are in EUR while the deal claims USD, no end date is shown, and the history says 3.97 was already the usual price."
+   ]
+  },
+  "question": "Does this page show A Night Worth Forgetting - A 3rd Level Horror Mini-Campaign for 5E at 3.97 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://gurkenlabs.itch.io/quest-character-sheets",
+  "url": "https://gurkenlabs.itch.io/quest-character-sheets",
+  "title": "Quest Character Sheets",
+  "shop": "itch.io",
+  "price_now": 1.2,
+  "price_was": 2.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.21"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$1.20 USD",
+   "reason": "The page confirms a 40% Halloween Sale price of $1.20, down from $2.00. The product is printable character sheets for the Quest TTRPG, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it belongs on the list.",
+   "failed_checks": [
+    "agent_unsure: The page confirms a 40% Halloween Sale price of $1.20, down from $2.00. The product is printable character sheets for the Quest TTRPG, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it belongs on the list."
+   ]
+  },
+  "question": "Does this page show Quest Character Sheets at 1.2 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://trollinthewell.itch.io/shadow-over-swamptown-5e",
+  "url": "https://trollinthewell.itch.io/shadow-over-swamptown-5e",
+  "title": "THE SHADOW OVER SWAMPTOWN (5E)",
+  "shop": "itch.io",
+  "price_now": 2.5,
+  "price_was": 5.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.49)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.49
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£2.50",
+   "reason": "The page shows a real 50% off 'Rotten Halloween Goblin Sale 2026!' on a D&D adventure, but the prices are in GBP while the deal claims USD, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 50% off 'Rotten Halloween Goblin Sale 2026!' on a D&D adventure, but the prices are in GBP while the deal claims USD, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show THE SHADOW OVER SWAMPTOWN (5E) at 2.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://impioussaint.itch.io/forbidden-psalm-rotten-bits",
+  "url": "https://impioussaint.itch.io/forbidden-psalm-rotten-bits",
+  "title": "Forbidden Psalm: Rotten Bits",
+  "shop": "itch.io",
+  "price_now": 5.22,
+  "price_was": 6.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.44",
+    "support_unsure: supports (0.42)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.42
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£5.22",
+   "reason": "The page shows a running Halloween Sale at 13% off, but the price is in GBP, not the claimed USD. The product is a supplement for a tabletop miniatures game that is also usable with the MÖRK BORG ttrpg, so it may not count as an RPG product.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running Halloween Sale at 13% off, but the price is in GBP, not the claimed USD. The product is a supplement for a tabletop miniatures game that is also usable with the MÖRK BORG ttrpg, so it may not count as an RPG product."
+   ]
+  },
+  "question": "Does this page show Forbidden Psalm: Rotten Bits at 5.22 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://jellygamesit.itch.io/beasthuman",
+  "url": "https://jellygamesit.itch.io/beasthuman",
+  "title": "Beast & Human",
+  "shop": "itch.io",
+  "price_now": 0.5,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.40)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.4
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "0.50€",
+   "reason": "The page shows a 50% off Halloween Sale on this tabletop RPG (1.00€ down to 0.50€), but it prices in EUR while the deal claims USD, and it shows no end date to confirm 2026-11-04.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 50% off Halloween Sale on this tabletop RPG (1.00€ down to 0.50€), but it prices in EUR while the deal claims USD, and it shows no end date to confirm 2026-11-04."
+   ]
+  },
+  "question": "Does this page show Beast & Human at 0.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://vasistha.itch.io/last-item-on-the-agenda",
+  "url": "https://vasistha.itch.io/last-item-on-the-agenda",
+  "title": "Last Item on the Agenda",
+  "shop": "itch.io",
+  "price_now": 2.5,
+  "price_was": 5.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.21"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.96
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$2.50",
+   "reason": "The 50% off Halloween Sale price is real and matches the claim, but the product is a live-action larp (tagged 'Tabletop role-playing game' by its author), so I can't tell whether it counts as a tabletop RPG.",
+   "failed_checks": [
+    "agent_unsure: The 50% off Halloween Sale price is real and matches the claim, but the product is a live-action larp (tagged 'Tabletop role-playing game' by its author), so I can't tell whether it counts as a tabletop RPG."
+   ]
+  },
+  "question": "Does this page show Last Item on the Agenda at 2.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://sezjacklin.itch.io/space-mice",
+  "url": "https://sezjacklin.itch.io/space-mice",
+  "title": "Space Mice! - TTRGP",
+  "shop": "itch.io",
+  "price_now": 3.5,
+  "price_was": 7.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.52)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.52
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.50 AUD",
+   "reason": "The page shows a real 50% off sale on a tabletop RPG, but it prices it in AUD ('$3.50 AUD or more') while the deal claims USD, and it shows no end date to back the claimed 2026-11-04.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 50% off sale on a tabletop RPG, but it prices it in AUD ('$3.50 AUD or more') while the deal claims USD, and it shows no end date to back the claimed 2026-11-04."
+   ]
+  },
+  "question": "Does this page show Space Mice! - TTRGP at 3.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://locus-solus.itch.io/ce-que-la-mer",
+  "url": "https://locus-solus.itch.io/ce-que-la-mer",
+  "title": "Ce que la mer nous apporte",
+  "shop": "itch.io",
+  "price_now": 3.5,
+  "price_was": 5.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.43)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.43
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "3.50€",
+   "reason": "The page shows a running 30% off Halloween Sale on a tabletop RPG adventure, 5.00€ down to 3.50€, but the prices are in EUR while the deal claims USD, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 30% off Halloween Sale on a tabletop RPG adventure, 5.00€ down to 3.50€, but the prices are in EUR while the deal claims USD, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show Ce que la mer nous apporte at 3.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://trollinthewell.itch.io/something-rotten",
+  "url": "https://trollinthewell.itch.io/something-rotten",
+  "title": "SOMETHING ROTTEN [D&D]",
+  "shop": "itch.io",
+  "price_now": 5.0,
+  "price_was": 10.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.30)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.3
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£5.00",
+   "reason": "The page shows a running 50% off sale on a D&D adventure, but the prices are in GBP (£10.00 to £5.00) and the deal claims USD, so I can't confirm the claimed currency, and the page gives no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 50% off sale on a D&D adventure, but the prices are in GBP (£10.00 to £5.00) and the deal claims USD, so I can't confirm the claimed currency, and the page gives no end date."
+   ]
+  },
+  "question": "Does this page show SOMETHING ROTTEN [D&D] at 5.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://mystecoregames.itch.io/we-are-monster",
+  "url": "https://mystecoregames.itch.io/we-are-monster",
+  "title": "We Are Monster!",
+  "shop": "itch.io",
+  "price_now": 1.75,
+  "price_was": 3.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.26)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.26
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£1.75",
+   "reason": "The page shows a running Halloween Sale (50% off, £3.50 to £1.75) on a tabletop RPG, but the prices are in GBP and the deal claims USD 1.75, so I can't confirm the claimed currency.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running Halloween Sale (50% off, £3.50 to £1.75) on a tabletop RPG, but the prices are in GBP and the deal claims USD 1.75, so I can't confirm the claimed currency."
+   ]
+  },
+  "question": "Does this page show We Are Monster! at 1.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://vasistha.itch.io/graffiti-the-art-of-rebellion",
+  "url": "https://vasistha.itch.io/graffiti-the-art-of-rebellion",
+  "title": "Graffiti: The Art of Rebellion",
+  "shop": "itch.io",
+  "price_now": 2.5,
+  "price_was": 5.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.36"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$2.50",
+   "reason": "The page shows a running Halloween Sale at $2.50, down from $5.00 (50% off), but the product is a multi-day live-action larp. The author tagged it 'Tabletop role-playing game', and I can't tell whether a larp counts as a tabletop RPG.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running Halloween Sale at $2.50, down from $5.00 (50% off), but the product is a multi-day live-action larp. The author tagged it 'Tabletop role-playing game', and I can't tell whether a larp counts as a tabletop RPG."
+   ]
+  },
+  "question": "Does this page show Graffiti: The Art of Rebellion at 2.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://valeriolucido.itch.io/mangime",
+  "url": "https://valeriolucido.itch.io/mangime",
+  "title": "Mangime",
+  "shop": "itch.io",
+  "price_now": 4.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.58)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.58
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "4.99€",
+   "reason": "The page shows a real 50% off sale on a solo tabletop RPG, but the prices are in euros while the deal claims USD, and no end date is shown.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 50% off sale on a solo tabletop RPG, but the prices are in euros while the deal claims USD, and no end date is shown."
+   ]
+  },
+  "question": "Does this page show Mangime at 4.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://valeriolucido.itch.io/campanilismo",
+  "url": "https://valeriolucido.itch.io/campanilismo",
+  "title": "Campanili(smo)",
+  "shop": "itch.io",
+  "price_now": 4.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65",
+    "support_unsure: supports (0.50)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.5
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "4.99€",
+   "reason": "The page shows a tabletop RPG on sale at 4.99€ (was 9.99€, 50% off), but the prices are in euros while the claim says USD, the page shows no end date to confirm 2026-10-31, and the game text is Italian.",
+   "failed_checks": [
+    "agent_unsure: The page shows a tabletop RPG on sale at 4.99€ (was 9.99€, 50% off), but the prices are in euros while the claim says USD, the page shows no end date to confirm 2026-10-31, and the game text is Italian."
+   ]
+  },
+  "question": "Does this page show Campanili(smo) at 4.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://valeriolucido.itch.io/de-collegium-folklorum",
+  "url": "https://valeriolucido.itch.io/de-collegium-folklorum",
+  "title": "De Collegium Folklorum",
+  "shop": "itch.io",
+  "price_now": 4.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.53)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.53
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "4.99€",
+   "reason": "The page shows a real 50% Off sale on a tabletop RPG, but the prices are in EUR while the deal says USD, and no end date is shown.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 50% Off sale on a tabletop RPG, but the prices are in EUR while the deal says USD, and no end date is shown."
+   ]
+  },
+  "question": "Does this page show De Collegium Folklorum at 4.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://entropylink.itch.io/character-booklet",
+  "url": "https://entropylink.itch.io/character-booklet",
+  "title": "Character Booklet & Campaign Journal",
+  "shop": "itch.io",
+  "price_now": 5.84,
+  "price_was": 8.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.27"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$5.84",
+   "reason": "The page confirms a 35% off Halloween Sale at $5.84 (was $8.99), but the product is a printable 5e character sheet and journal, which may count as an accessory rather than a supplement, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page confirms a 35% off Halloween Sale at $5.84 (was $8.99), but the product is a printable 5e character sheet and journal, which may count as an accessory rather than a supplement, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show Character Booklet & Campaign Journal at 5.84 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://rex-francis.itch.io/we",
+  "url": "https://rex-francis.itch.io/we",
+  "title": "W/E",
+  "shop": "itch.io",
+  "price_now": 6.0,
+  "price_was": 12.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.56)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.56
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$6.00",
+   "reason": "The page shows a running 50% Halloween Sale on this tabletop RPG ($12.00 down to $6.00), but it labels the price AUD while the deal claims USD, and it shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 50% Halloween Sale on this tabletop RPG ($12.00 down to $6.00), but it labels the price AUD while the deal claims USD, and it shows no end date."
+   ]
+  },
+  "question": "Does this page show W/E at 6.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://worldbuildersrunesmiths.itch.io/worldbuilders-work",
+  "url": "https://worldbuildersrunesmiths.itch.io/worldbuilders-work",
+  "title": "Worldbuilders Guidebook: Big Book of Templates",
+  "shop": "itch.io",
+  "price_now": 11.25,
+  "price_was": 15.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.39"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$11.25",
+   "reason": "The 25% off Halloween Sale price of $11.25 (was $15.00) is on the page, but the product is a system-agnostic worldbuilding template book for GMs and novelists, so it is unclear whether it counts as a tabletop RPG supplement.",
+   "failed_checks": [
+    "agent_unsure: The 25% off Halloween Sale price of $11.25 (was $15.00) is on the page, but the product is a system-agnostic worldbuilding template book for GMs and novelists, so it is unclear whether it counts as a tabletop RPG supplement."
+   ]
+  },
+  "question": "Does this page show Worldbuilders Guidebook: Big Book of Templates at 11.25 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://locus-solus.itch.io/papillon-tonnerre",
+  "url": "https://locus-solus.itch.io/papillon-tonnerre",
+  "title": "Papillon / Tonnerre",
+  "shop": "itch.io",
+  "price_now": 7.7,
+  "price_was": 11.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.42)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.42
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "7.70€",
+   "reason": "The page shows a running 30% off Halloween Sale (11.00€ to 7.70€) on a tabletop RPG, but the prices are in euros while the deal claims USD, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 30% off Halloween Sale (11.00€ to 7.70€) on a tabletop RPG, but the prices are in euros while the deal claims USD, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show Papillon / Tonnerre at 7.7 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://squidzmckenzie.itch.io/killer-vacation",
+  "url": "https://squidzmckenzie.itch.io/killer-vacation",
+  "title": "Killer Vacation",
+  "shop": "itch.io",
+  "price_now": 4.02,
+  "price_was": 6.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.33)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.33
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$4.02",
+   "reason": "The page shows a 33% off Halloween Sale on this TTRPG, $6.00 down to $4.02, but the prices are labelled CAD and the deal claims USD, and no end date is shown.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 33% off Halloween Sale on this TTRPG, $6.00 down to $4.02, but the prices are labelled CAD and the deal claims USD, and no end date is shown."
+   ]
+  },
+  "question": "Does this page show Killer Vacation at 4.02 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://friedspin.itch.io/one-page-dungeon-stubs-10",
+  "url": "https://friedspin.itch.io/one-page-dungeon-stubs-10",
+  "title": "10 One-Page Dungeon Stubs – Kurz-Dungeons für Fantasy-Rollenspiele (Deutsch, systemneutral)",
+  "shop": "itch.io",
+  "price_now": 1.75,
+  "price_was": 5.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.64)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.64
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "1.75€",
+   "reason": "The page shows a real 65% off sale on a tabletop RPG product, but the prices are in EUR while the deal claims USD, and the product is German-only, which conflicts with the English-only rule.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 65% off sale on a tabletop RPG product, but the prices are in EUR while the deal claims USD, and the product is German-only, which conflicts with the English-only rule."
+   ]
+  },
+  "question": "Does this page show 10 One-Page Dungeon Stubs – Kurz-Dungeons für Fantasy-Rollenspiele (Deutsch, systemneutral) at 1.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://friedspin.itch.io/city-district-hooks-20-deutsch",
+  "url": "https://friedspin.itch.io/city-district-hooks-20-deutsch",
+  "title": "20 Stadtviertel-Hooks – lebendige Viertel für deine Fantasy-Stadt (Deutsch, systemneutral)",
+  "shop": "itch.io",
+  "price_now": 1.4,
+  "price_was": 4.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.43)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.43
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "1.40€",
+   "reason": "The page shows a running 65% Off sale (4.00€ struck through, 1.40€ now) on a system-neutral tabletop RPG aid, but the prices are in euros while the claim says USD, the page shows no end date, and the product is entirely in German.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 65% Off sale (4.00€ struck through, 1.40€ now) on a system-neutral tabletop RPG aid, but the prices are in euros while the claim says USD, the page shows no end date, and the product is entirely in German."
+   ]
+  },
+  "question": "Does this page show 20 Stadtviertel-Hooks – lebendige Viertel für deine Fantasy-Stadt (Deutsch, systemneutral) at 1.4 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://kendric2000.itch.io/osr-fantasy-character-sheet-pack-22-sheets",
+  "url": "https://kendric2000.itch.io/osr-fantasy-character-sheet-pack-22-sheets",
+  "title": "OSR Fantasy Character Sheet Pack (22 Sheets)",
+  "shop": "itch.io",
+  "price_now": 1.97,
+  "price_was": 3.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.20"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$1.97",
+   "reason": "The 50% off Halloween Sale price is confirmed ($3.95 struck through, $1.97 now), but the product is a PDF pack of character sheets, which may count as an excluded accessory rather than a rulebook, adventure or supplement, so the owner should decide.",
+   "failed_checks": [
+    "agent_unsure: The 50% off Halloween Sale price is confirmed ($3.95 struck through, $1.97 now), but the product is a PDF pack of character sheets, which may count as an excluded accessory rather than a rulebook, adventure or supplement, so the owner should decide."
+   ]
+  },
+  "question": "Does this page show OSR Fantasy Character Sheet Pack (22 Sheets) at 1.97 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://oakhaven.itch.io/dialogue-voice-sheet-game-master-utility-series-gu-001",
+  "url": "https://oakhaven.itch.io/dialogue-voice-sheet-game-master-utility-series-gu-001",
+  "title": "Dialogue & Voice Sheet — Game Master Utility Series (GU-001)",
+  "shop": "itch.io",
+  "price_now": 2.97,
+  "price_was": 3.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.29"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$2.97",
+   "reason": "The sale is real (15% off, Halloween Sale 2026, $3.50 to $2.97), but the product is a 2-page fillable NPC voice sheet, a GM aid closer to an accessory than a rulebook, adventure or supplement, so I can't tell if it counts as an RPG product.",
+   "failed_checks": [
+    "agent_unsure: The sale is real (15% off, Halloween Sale 2026, $3.50 to $2.97), but the product is a 2-page fillable NPC voice sheet, a GM aid closer to an accessory than a rulebook, adventure or supplement, so I can't tell if it counts as an RPG product."
+   ]
+  },
+  "question": "Does this page show Dialogue & Voice Sheet — Game Master Utility Series (GU-001) at 2.97 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://blackfeatherforge.itch.io/the-storytellers-toolkit",
+  "url": "https://blackfeatherforge.itch.io/the-storytellers-toolkit",
+  "title": "The Storyteller's Toolkit",
+  "shop": "itch.io",
+  "price_now": 10.0,
+  "price_was": 20.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.20"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.94
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$10.00",
+   "reason": "The page confirms a 50% off Halloween sale at $10.00 (was $20.00), but the product is a printable GM screen, trackers and card deck for the Ashcrown RPG, so whether it counts as an RPG supplement or an excluded GM screen/accessory is the owner's call.",
+   "failed_checks": [
+    "agent_unsure: The page confirms a 50% off Halloween sale at $10.00 (was $20.00), but the product is a printable GM screen, trackers and card deck for the Ashcrown RPG, so whether it counts as an RPG supplement or an excluded GM screen/accessory is the owner's call."
+   ]
+  },
+  "question": "Does this page show The Storyteller's Toolkit at 10.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://entropylink.itch.io/arcane-spell-cards",
+  "url": "https://entropylink.itch.io/arcane-spell-cards",
+  "title": "Arcane Spell Cards: Bard, Sorcerer, Warlock, Wizard",
+  "shop": "itch.io",
+  "price_now": 11.69,
+  "price_was": 17.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.21",
+    "support_unsure: supports (0.77)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.77
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$11.69",
+   "reason": "The price and the Halloween Sale 35% discount are real and running, but this is a set of printable 5e spell cards, which may count as a play accessory instead of a rulebook or supplement, so the owner should decide.",
+   "failed_checks": [
+    "agent_unsure: The price and the Halloween Sale 35% discount are real and running, but this is a set of printable 5e spell cards, which may count as a play accessory instead of a rulebook or supplement, so the owner should decide."
+   ]
+  },
+  "question": "Does this page show Arcane Spell Cards: Bard, Sorcerer, Warlock, Wizard at 11.69 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://entropylink.itch.io/nature-spell-cards",
+  "url": "https://entropylink.itch.io/nature-spell-cards",
+  "title": "Nature Spell Cards: Druid, Ranger",
+  "shop": "itch.io",
+  "price_now": 11.69,
+  "price_was": 17.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.20",
+    "support_unsure: supports (0.79)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.79
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$11.69",
+   "reason": "The page shows a running Halloween Sale at $11.69, down from $17.99 (35% off), but the product is printable 5e spell cards, which could count as an accessory (excluded) or as a rules supplement, so I can't tell.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running Halloween Sale at $11.69, down from $17.99 (35% off), but the product is printable 5e spell cards, which could count as an accessory (excluded) or as a rules supplement, so I can't tell."
+   ]
+  },
+  "question": "Does this page show Nature Spell Cards: Druid, Ranger at 11.69 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://oakhaven.itch.io/logic-ledger-game-master-utility-series-gu-005",
+  "url": "https://oakhaven.itch.io/logic-ledger-game-master-utility-series-gu-005",
+  "title": "Logic Ledger — Game Master Utility Series (GU-005)",
+  "shop": "itch.io",
+  "price_now": 2.97,
+  "price_was": 3.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.30"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$2.97",
+   "reason": "The page confirms a 15% off Halloween Sale at $2.97, down from $3.50, but the product is a 2-page printable GM tracker sheet, which may count as an accessory rather than a rulebook, adventure or supplement.",
+   "failed_checks": [
+    "agent_unsure: The page confirms a 15% off Halloween Sale at $2.97, down from $3.50, but the product is a 2-page printable GM tracker sheet, which may count as an accessory rather than a rulebook, adventure or supplement."
+   ]
+  },
+  "question": "Does this page show Logic Ledger — Game Master Utility Series (GU-005) at 2.97 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://oakhaven.itch.io/reputation-tracker-game-master-utility-series-gu-002",
+  "url": "https://oakhaven.itch.io/reputation-tracker-game-master-utility-series-gu-002",
+  "title": "Reputation Tracker — Game Master Utility Series (GU-002)",
+  "shop": "itch.io",
+  "price_now": 2.97,
+  "price_was": 3.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.34"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$2.97",
+   "reason": "The page confirms a Halloween Sale at 15% off ($3.50 struck through, $2.97 now), but the product is a system-agnostic printable GM tracker sheet, and I can't tell whether it counts as a tabletop RPG supplement or as an accessory.",
+   "failed_checks": [
+    "agent_unsure: The page confirms a Halloween Sale at 15% off ($3.50 struck through, $2.97 now), but the product is a system-agnostic printable GM tracker sheet, and I can't tell whether it counts as a tabletop RPG supplement or as an accessory."
+   ]
+  },
+  "question": "Does this page show Reputation Tracker — Game Master Utility Series (GU-002) at 2.97 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://oakhaven.itch.io/treasure-loot-ledger-game-master-utility-series-gu-008",
+  "url": "https://oakhaven.itch.io/treasure-loot-ledger-game-master-utility-series-gu-008",
+  "title": "Treasure & Loot Ledger — Game Master Utility Series (GU-008)",
+  "shop": "itch.io",
+  "price_now": 2.97,
+  "price_was": 3.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.20"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$2.97",
+   "reason": "The page confirms a 15% Halloween Sale price of $2.97 (was $3.50), but the product is a two-page printable GM loot-tracking sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it is in scope.",
+   "failed_checks": [
+    "agent_unsure: The page confirms a 15% Halloween Sale price of $2.97 (was $3.50), but the product is a two-page printable GM loot-tracking sheet, which may count as an accessory rather than a rulebook, adventure or supplement, so I can't tell if it is in scope."
+   ]
+  },
+  "question": "Does this page show Treasure & Loot Ledger — Game Master Utility Series (GU-008) at 2.97 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://oakhaven.itch.io/interrogation-record-game-master-utility-series-gu-003",
+  "url": "https://oakhaven.itch.io/interrogation-record-game-master-utility-series-gu-003",
+  "title": "Interrogation Record — Game Master Utility Series (GU-003)",
+  "shop": "itch.io",
+  "price_now": 2.97,
+  "price_was": 3.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.36"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$2.97",
+   "reason": "The page confirms a running Halloween Sale at $2.97 (was $3.50, 15% off), but the product is a 3-page printable GM record sheet, which is closer to an accessory than a rulebook, adventure or supplement, so I can't tell whether it counts as an RPG product.",
+   "failed_checks": [
+    "agent_unsure: The page confirms a running Halloween Sale at $2.97 (was $3.50, 15% off), but the product is a 3-page printable GM record sheet, which is closer to an accessory than a rulebook, adventure or supplement, so I can't tell whether it counts as an RPG product."
+   ]
+  },
+  "question": "Does this page show Interrogation Record — Game Master Utility Series (GU-003) at 2.97 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/g-i-joe-roleplaying-game-pre-gen-character-sheets/",
+  "url": "https://renegadegamestudios.com/g-i-joe-roleplaying-game-pre-gen-character-sheets/",
+  "title": "G.I. JOE Roleplaying Game PDF Pre-Gen Character Sheets",
+  "shop": "Renegade Game Studios",
+  "price_now": 0.0,
+  "price_was": 21.99,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65",
+    "support_unsure: supports (0.68)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.68
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.8
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$0.00",
+   "reason": "The page shows a permanent free $0 RPG bonus download (pre-gen character sheets) with no struck-through normal price, no sale wording and no end date, so it cannot be confirmed as a running sale or clearance.",
+   "failed_checks": [
+    "agent_unsure: The page shows a permanent free $0 RPG bonus download (pre-gen character sheets) with no struck-through normal price, no sale wording and no end date, so it cannot be confirmed as a running sale or clearance."
+   ]
+  },
+  "question": "Does this page show G.I. JOE Roleplaying Game PDF Pre-Gen Character Sheets at 0.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-ferocious-fighters-factions-in-action-vol-1-sourcebook/",
+  "url": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-ferocious-fighters-factions-in-action-vol-1-sourcebook/",
+  "title": "PDF G.I. JOE Roleplaying Game Ferocious Fighters: Factions in Action Vol. 1 Sourcebook",
+  "shop": "Renegade Game Studios",
+  "price_now": 20.0,
+  "price_was": 35.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.33)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.33
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.84
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$20.00",
+   "reason": "The product page shows only $20.00 with no normal price or sale label; the one struck-through $35.00 sits in a related-product card (the print edition), not in this product's own price block.",
+   "failed_checks": [
+    "agent_unsure: The product page shows only $20.00 with no normal price or sale label; the one struck-through $35.00 sits in a related-product card (the print edition), not in this product's own price block."
+   ]
+  },
+  "question": "Does this page show PDF G.I. JOE Roleplaying Game Ferocious Fighters: Factions in Action Vol. 1 Sourcebook at 20.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-intercontinental-adventures-factions-in-action-vol-2-sourcebook/",
+  "url": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-intercontinental-adventures-factions-in-action-vol-2-sourcebook/",
+  "title": "PDF G.I. JOE Roleplaying Game Intercontinental Adventures: Factions in Action Vol. 2 Sourcebook",
+  "shop": "Renegade Game Studios",
+  "price_now": 30.0,
+  "price_was": 45.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.07)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.07
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.83
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$30.00",
+   "reason": "The product's own price block shows only $30.00 with no struck-through normal price, and the only $45.00 struck price on the page sits in a related-product card, so the claimed discount is not shown for this item.",
+   "failed_checks": [
+    "agent_unsure: The product's own price block shows only $30.00 with no struck-through normal price, and the only $45.00 struck price on the page sits in a related-product card, so the claimed discount is not shown for this item."
+   ]
+  },
+  "question": "Does this page show PDF G.I. JOE Roleplaying Game Intercontinental Adventures: Factions in Action Vol. 2 Sourcebook at 30.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-quartermasters-guide-to-gear-sourcebook/",
+  "url": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-quartermasters-guide-to-gear-sourcebook/",
+  "title": "PDF G.I. JOE Roleplaying Game Quartermaster's Guide to Gear Sourcebook",
+  "shop": "Renegade Game Studios",
+  "price_now": 30.0,
+  "price_was": 45.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.20)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.2
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.77
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$30.00",
+   "reason": "The product page shows $30.00 with no normal price or sale label; the only struck-through $45.00 on the page is in a related-product card, not this product.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $30.00 with no normal price or sale label; the only struck-through $45.00 on the page is in a related-product card, not this product."
+   ]
+  },
+  "question": "Does this page show PDF G.I. JOE Roleplaying Game Quartermaster's Guide to Gear Sourcebook at 30.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-sgt-slaughter-limited-edition-accessory-pack/",
+  "url": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-sgt-slaughter-limited-edition-accessory-pack/",
+  "title": "PDF G.I. JOE Roleplaying Game Sgt Slaughter Limited Edition Accessory Pack",
+  "shop": "Renegade Game Studios",
+  "price_now": 20.0,
+  "price_was": 55.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.18)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.18
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.84
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$20.00",
+   "reason": "The product page shows $20.00 with no struck-through normal price; the only $55.00 struck price on the page sits in a related-product card (likely the physical edition), so the discount cannot be confirmed here.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $20.00 with no struck-through normal price; the only $55.00 struck price on the page sits in a related-product card (likely the physical edition), so the discount cannot be confirmed here."
+   ]
+  },
+  "question": "Does this page show PDF G.I. JOE Roleplaying Game Sgt Slaughter Limited Edition Accessory Pack at 20.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-the-emerald-oubliette-adventure/",
+  "url": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-the-emerald-oubliette-adventure/",
+  "title": "PDF G.I. JOE Roleplaying Game The Emerald Oubliette Adventure",
+  "shop": "Renegade Game Studios",
+  "price_now": 10.0,
+  "price_was": 30.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.33)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.33
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.83
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$10.00",
+   "reason": "The product page shows $10.00 with no normal price and no sale label; the only struck-through $30.00 is in a related-product card, so I can't tie it to this product.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $10.00 with no normal price and no sale label; the only struck-through $30.00 is in a related-product card, so I can't tie it to this product."
+   ]
+  },
+  "question": "Does this page show PDF G.I. JOE Roleplaying Game The Emerald Oubliette Adventure at 10.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-g-i-joe-transformers-roleplaying-game-shock-mayhem/",
+  "url": "https://renegadegamestudios.com/pdf-g-i-joe-transformers-roleplaying-game-shock-mayhem/",
+  "title": "PDF G.I. JOE Transformers Roleplaying Game Shock & Mayhem",
+  "shop": "Renegade Game Studios",
+  "price_now": 3.99,
+  "price_was": 12.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: silent (0.24)"
+   ],
+   "support": {
+    "choice": "silent",
+    "confidence": 0.24
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.84
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.99",
+   "reason": "The product page shows this RPG PDF at $3.99, but the main product has no normal or struck-through price, and the page says nothing about a sale or its end date.",
+   "failed_checks": [
+    "agent_unsure: The product page shows this RPG PDF at $3.99, but the main product has no normal or struck-through price, and the page says nothing about a sale or its end date."
+   ]
+  },
+  "question": "Does this page show PDF G.I. JOE Transformers Roleplaying Game Shock & Mayhem at 3.99 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-core-rulebook/",
+  "url": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-core-rulebook/",
+  "title": "PDF My Little Pony Roleplaying Game Core Rulebook",
+  "shop": "Renegade Game Studios",
+  "price_now": 38.5,
+  "price_was": 55.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.19)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.19
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.83
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$38.50",
+   "reason": "The product page shows $38.50 with no struck-through or 'was' price for this item, and the first page of the clearance listing does not include it, so the claimed $55.00 normal price is not confirmed.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $38.50 with no struck-through or 'was' price for this item, and the first page of the clearance listing does not include it, so the claimed $55.00 normal price is not confirmed."
+   ]
+  },
+  "question": "Does this page show PDF My Little Pony Roleplaying Game Core Rulebook at 38.5 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-dark-skies-over-equestria-adventure-series-book/",
+  "url": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-dark-skies-over-equestria-adventure-series-book/",
+  "title": "PDF My Little Pony Roleplaying Game Dark Skies Over Equestria Adventure Series Book",
+  "shop": "Renegade Game Studios",
+  "price_now": 30.0,
+  "price_was": 45.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.06)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.06
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.83
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$30.00",
+   "reason": "The product's own price block shows only $30.00 with no struck-through price; the only $45.00 on the page sits in a related-product card, so no normal price is confirmed for this item.",
+   "failed_checks": [
+    "agent_unsure: The product's own price block shows only $30.00 with no struck-through price; the only $45.00 on the page sits in a related-product card, so no normal price is confirmed for this item."
+   ]
+  },
+  "question": "Does this page show PDF My Little Pony Roleplaying Game Dark Skies Over Equestria Adventure Series Book at 30.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-in-a-jam-adventure/",
+  "url": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-in-a-jam-adventure/",
+  "title": "PDF My Little Pony Roleplaying Game In A Jam Adventure",
+  "shop": "Renegade Game Studios",
+  "price_now": 10.0,
+  "price_was": 30.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: silent (0.14)"
+   ],
+   "support": {
+    "choice": "silent",
+    "confidence": 0.14
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.85
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$10.00",
+   "reason": "The product page shows $10.00 with no normal price or sale label for this item; the struck-through $30.00 is on a different product card in the related-products section.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $10.00 with no normal price or sale label for this item; the struck-through $30.00 is on a different product card in the related-products section."
+   ]
+  },
+  "question": "Does this page show PDF My Little Pony Roleplaying Game In A Jam Adventure at 10.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-a-glutton-for-punishment-adventure/",
+  "url": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-a-glutton-for-punishment-adventure/",
+  "title": "PDF Power Rangers Roleplaying Game A Glutton for Punishment Adventure",
+  "shop": "Renegade Game Studios",
+  "price_now": 10.0,
+  "price_was": 30.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.26)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.26
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.87
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$10.00",
+   "reason": "The product page shows $10.00 with no normal price and no sale or clearance label; the only struck-out $30.00 on the page sits in a different product's card in the related-products list.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $10.00 with no normal price and no sale or clearance label; the only struck-out $30.00 on the page sits in a different product's card in the related-products list."
+   ]
+  },
+  "question": "Does this page show PDF Power Rangers Roleplaying Game A Glutton for Punishment Adventure at 10.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-a-time-of-knight-adventure/",
+  "url": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-a-time-of-knight-adventure/",
+  "title": "PDF Power Rangers Roleplaying Game A Time of Knight Adventure",
+  "shop": "Renegade Game Studios",
+  "price_now": 8.99,
+  "price_was": 15.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.19)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.19
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.81
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$8.99",
+   "reason": "The product page shows $8.99 for this RPG adventure PDF but no normal price or sale label; the only struck-through $15.00 is on a related-product card, not this product.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $8.99 for this RPG adventure PDF but no normal price or sale label; the only struck-through $15.00 is on a related-product card, not this product."
+   ]
+  },
+  "question": "Does this page show PDF Power Rangers Roleplaying Game A Time of Knight Adventure at 8.99 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-adventures-in-angel-grove/",
+  "url": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-adventures-in-angel-grove/",
+  "title": "PDF Power Rangers Roleplaying Game Adventures in Angel Grove",
+  "shop": "Renegade Game Studios",
+  "price_now": 31.5,
+  "price_was": 45.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.13)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.13
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.85
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$31.50",
+   "reason": "The product's own price block shows only $31.50 with no normal price; the one struck-through $45.00 on the page sits in a related-product card, so a discount on this item can't be confirmed.",
+   "failed_checks": [
+    "agent_unsure: The product's own price block shows only $31.50 with no normal price; the one struck-through $45.00 on the page sits in a related-product card, so a discount on this item can't be confirmed."
+   ]
+  },
+  "question": "Does this page show PDF Power Rangers Roleplaying Game Adventures in Angel Grove at 31.5 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-beneath-the-helmet-sourcebook/",
+  "url": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-beneath-the-helmet-sourcebook/",
+  "title": "PDF Power Rangers Roleplaying Game Beneath the Helmet Sourcebook",
+  "shop": "Renegade Game Studios",
+  "price_now": 30.0,
+  "price_was": 45.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.07)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.07
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.87
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$30.00",
+   "reason": "The product's own price block shows only $30.00 with no struck-through normal price; the only struck $45.00 on the page sits in a related-product card, so it can't be tied to this item.",
+   "failed_checks": [
+    "agent_unsure: The product's own price block shows only $30.00 with no struck-through normal price; the only struck $45.00 on the page sits in a related-product card, so it can't be tied to this item."
+   ]
+  },
+  "question": "Does this page show PDF Power Rangers Roleplaying Game Beneath the Helmet Sourcebook at 30.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-jump-through-time-sourcebook/",
+  "url": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-jump-through-time-sourcebook/",
+  "title": "PDF Power Rangers Roleplaying Game Jump Through Time Sourcebook",
+  "shop": "Renegade Game Studios",
+  "price_now": 35.0,
+  "price_was": 50.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: contradicts (0.13)"
+   ],
+   "support": {
+    "choice": "contradicts",
+    "confidence": 0.13
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.85
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$35.00",
+   "reason": "The product page shows $35.00 with no struck-through normal price for this item; the only $50.00 struck price sits in a related-product card, so a discount cannot be confirmed.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $35.00 with no struck-through normal price for this item; the only $50.00 struck price sits in a related-product card, so a discount cannot be confirmed."
+   ]
+  },
+  "question": "Does this page show PDF Power Rangers Roleplaying Game Jump Through Time Sourcebook at 35.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-the-phantom-gambit-adventure/",
+  "url": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-the-phantom-gambit-adventure/",
+  "title": "PDF Power Rangers Roleplaying Game The Phantom Gambit Adventure",
+  "shop": "Renegade Game Studios",
+  "price_now": 12.0,
+  "price_was": 20.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.18)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.18
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.84
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$12.00",
+   "reason": "The product page shows $12.00 with no struck-through normal price or sale label for this item; the only struck $20.00 sits in a related-product card, so the claimed discount cannot be confirmed here.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $12.00 with no struck-through normal price or sale label for this item; the only struck $20.00 sits in a related-product card, so the claimed discount cannot be confirmed here."
+   ]
+  },
+  "question": "Does this page show PDF Power Rangers Roleplaying Game The Phantom Gambit Adventure at 12.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-a-beacon-of-hope-adventure/",
+  "url": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-a-beacon-of-hope-adventure/",
+  "title": "PDF Transformers Roleplaying Game A Beacon of Hope Adventure",
+  "shop": "Renegade Game Studios",
+  "price_now": 10.0,
+  "price_was": 30.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.35)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.35
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.79
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$10.00",
+   "reason": "The product page shows $10.00 with no struck-through normal price or sale label; the only $30.00 struck-out price on it belongs to a related-product card (a different item), and the first clearance page does not list this product.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $10.00 with no struck-through normal price or sale label; the only $30.00 struck-out price on it belongs to a related-product card (a different item), and the first clearance page does not list this product."
+   ]
+  },
+  "question": "Does this page show PDF Transformers Roleplaying Game A Beacon of Hope Adventure at 10.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-the-enigma-of-combination-sourcebook/",
+  "url": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-the-enigma-of-combination-sourcebook/",
+  "title": "PDF Transformers Roleplaying Game The Enigma of Combination Sourcebook",
+  "shop": "Renegade Game Studios",
+  "price_now": 30.0,
+  "price_was": 45.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: silent (0.07)"
+   ],
+   "support": {
+    "choice": "silent",
+    "confidence": 0.07
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.81
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$30.00",
+   "reason": "The product's own price block shows only $30.00 with no struck-through normal price; the only struck $45.00 is inside a related-product card, so it can't be tied to this PDF.",
+   "failed_checks": [
+    "agent_unsure: The product's own price block shows only $30.00 with no struck-through normal price; the only struck $45.00 is inside a related-product card, so it can't be tied to this PDF."
+   ]
+  },
+  "question": "Does this page show PDF Transformers Roleplaying Game The Enigma of Combination Sourcebook at 30.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-the-time-is-now-adventure-book/",
+  "url": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-the-time-is-now-adventure-book/",
+  "title": "PDF Transformers Roleplaying Game The Time is Now Adventure Book",
+  "shop": "Renegade Game Studios",
+  "price_now": 31.5,
+  "price_was": 45.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.20)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.2
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.8
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$31.50",
+   "reason": "The product's own price block shows only $31.50 with no normal price; the one struck-through $45.00 sits in a related-product card (div.card-text), and the page has no sale or clearance label of its own.",
+   "failed_checks": [
+    "agent_unsure: The product's own price block shows only $31.50 with no normal price; the one struck-through $45.00 sits in a related-product card (div.card-text), and the page has no sale or clearance label of its own."
+   ]
+  },
+  "question": "Does this page show PDF Transformers Roleplaying Game The Time is Now Adventure Book at 31.5 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-bundle/",
+  "url": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-bundle/",
+  "title": "PDF Vampire: The Masquerade 5th Edition Roleplaying Bundle",
+  "shop": "Renegade Game Studios",
+  "price_now": 64.97,
+  "price_was": 172.5,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.43)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.43
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.75
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$64.97",
+   "reason": "The product page shows $64.97 with no normal price or sale label for this bundle; the only struck-through $172.50 sits in a related-product card, so it cannot be tied to this bundle.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $64.97 with no normal price or sale label for this bundle; the only struck-through $172.50 sits in a related-product card, so it cannot be tied to this bundle."
+   ]
+  },
+  "question": "Does this page show PDF Vampire: The Masquerade 5th Edition Roleplaying Bundle at 64.97 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-fall-of-london-chronicle/",
+  "url": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-fall-of-london-chronicle/",
+  "title": "Vampire: The Masquerade 5th Edition Roleplaying Game Fall of London Chronicle",
+  "shop": "Renegade Game Studios",
+  "price_now": 50.0,
+  "price_was": 172.5,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.07)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.07
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.84
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$50.00",
+   "reason": "The page shows this RPG book at $50.00 with no struck-through normal price or sale label, so it does not confirm a discount; the claimed $172.50 appears only on a different product card in the related-products area.",
+   "failed_checks": [
+    "agent_unsure: The page shows this RPG book at $50.00 with no struck-through normal price or sale label, so it does not confirm a discount; the claimed $172.50 appears only on a different product card in the related-products area."
+   ]
+  },
+  "question": "Does this page show Vampire: The Masquerade 5th Edition Roleplaying Game Fall of London Chronicle at 50.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://renegadegamestudios.com/werewolf-the-apocalypse-5th-edition-roleplaying-game-tribes-of-gaia/",
+  "url": "https://renegadegamestudios.com/werewolf-the-apocalypse-5th-edition-roleplaying-game-tribes-of-gaia/",
+  "title": "Werewolf: The Apocalypse 5th Edition Roleplaying Game Tribes of Gaia",
+  "shop": "Renegade Game Studios",
+  "price_now": 55.0,
+  "price_was": 175.0,
+  "currency": null,
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.42)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.42
+   },
+   "offer_kind": {
+    "choice": "clearance",
+    "confidence": 0.71
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$55.00",
+   "reason": "The product page shows $55.00 with no struck-through normal price. The only struck $175.00 on the page is in a related-product card, so I can't tie it to this book.",
+   "failed_checks": [
+    "agent_unsure: The product page shows $55.00 with no struck-through normal price. The only struck $175.00 on the page is in a related-product card, so I can't tie it to this book."
+   ]
+  },
+  "question": "Does this page show Werewolf: The Apocalypse 5th Edition Roleplaying Game Tribes of Gaia at 55.0 on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://tabletopgaming.shop/products/battletech-gothic-miniatures",
+  "url": "https://tabletopgaming.shop/products/battletech-gothic-miniatures",
+  "title": "BattleTech Gothic Role Playing Game/Miniatures",
+  "shop": "tabletopgaming.shop",
+  "price_now": 94.99,
+  "price_was": 99.99,
+  "currency": "GBP",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.52"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£94.99",
+   "reason": "The page shows a real sale (£94.99 against a struck-through £99.99, 5 in stock), but the product is a boxed set of 7 BattleMech miniatures with a rulebook, and the shop tags it 'Roleplaying Games (RPG's)', so I can't tell whether it counts as a tabletop RPG or as miniatures, which are out of scope.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real sale (£94.99 against a struck-through £99.99, 5 in stock), but the product is a boxed set of 7 BattleMech miniatures with a rulebook, and the shop tags it 'Roleplaying Games (RPG's)', so I can't tell whether it counts as a tabletop RPG or as miniatures, which are out of scope."
+   ]
+  },
+  "question": "Does this page show BattleTech Gothic Role Playing Game/Miniatures at 94.99 GBP on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://tabletopgaming.shop/products/stormlight-plot-decks-role-playing-game",
+  "url": "https://tabletopgaming.shop/products/stormlight-plot-decks-role-playing-game",
+  "title": "Stormlight Plot Decks Role Playing Game",
+  "shop": "tabletopgaming.shop",
+  "price_now": 11.49,
+  "price_was": 11.99,
+  "currency": "GBP",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.26"
+   ],
+   "support": null,
+   "offer_kind": null
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£11.49",
+   "reason": "The page shows a real sale (£11.49 against a struck-through £11.99, about 4% off) and the shop files it under Roleplaying Games. But it is a deck of Opportunity and Complication cards for the Cosmere RPG, which may count as an accessory rather than a rulebook or supplement, so I can't tell if it belongs.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real sale (£11.49 against a struck-through £11.99, about 4% off) and the shop files it under Roleplaying Games. But it is a deck of Opportunity and Complication cards for the Cosmere RPG, which may count as an accessory rather than a rulebook or supplement, so I can't tell if it belongs."
+   ]
+  },
+  "question": "Does this page show Stormlight Plot Decks Role Playing Game at 11.49 GBP on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "shop",
+  "key": "recipe:drivethrurpg",
+  "url": "https://api.drivethrurpg.com/",
+  "title": "DriveThruRPG",
+  "shop": "DriveThruRPG",
+  "price_now": null,
+  "price_was": null,
+  "currency": "USD",
+  "jev": null,
+  "agent": {
+   "result": "blocked",
+   "notes": "A CSS recipe cannot work for this shop. api.drivethrurpg.com returns only JSON (the front page is a welcome message with no products, prices or links). The public website www.drivethrurpg.com is behind a Cloudflare bot wall, and we do not get around blocks. The existing JSON API reader (platform 'drivethrurpg') is the right way to read this shop and needs no CSS recipe. If the break alarm came from that reader, check the API reader, not a recipe. No instructions addressed to AI were seen on the page.",
+   "failed_checks": [
+    "agent_result: blocked"
+   ]
+  },
+  "question": "The scraper cannot read DriveThruRPG's sales (break alarm). Open https://api.drivethrurpg.com/ and tell me where its sale page is, or say 'pause it' if it has none."
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/12531/rappan-athuk-reloaded-map-book",
+  "url": "https://www.drivethrurpg.com/product/12531/rappan-athuk-reloaded-map-book",
+  "title": "Rappan Athuk Reloaded Map Book",
+  "shop": "DriveThruRPG",
+  "price_now": 8.0,
+  "price_was": 15.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.49"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Rappan Athuk Reloaded Map Book at 8.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/56587/sundered-skies-figure-flats",
+  "url": "https://www.drivethrurpg.com/product/56587/sundered-skies-figure-flats",
+  "title": "Sundered Skies - Figure Flats",
+  "shop": "DriveThruRPG",
+  "price_now": 2.99,
+  "price_was": 4.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.43"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sundered Skies - Figure Flats at 2.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/56789/daring-tales-of-adventure-figure-flats",
+  "url": "https://www.drivethrurpg.com/product/56789/daring-tales-of-adventure-figure-flats",
+  "title": "Daring Tales of Adventure: Figure Flats",
+  "shop": "DriveThruRPG",
+  "price_now": 1.79,
+  "price_was": 2.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.41"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Daring Tales of Adventure: Figure Flats at 1.79 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/60232/tabletop-heroes-age-of-piracy-british-sailors",
+  "url": "https://www.drivethrurpg.com/product/60232/tabletop-heroes-age-of-piracy-british-sailors",
+  "title": "Tabletop Heroes: Age of Piracy - British Sailors",
+  "shop": "DriveThruRPG",
+  "price_now": 4.19,
+  "price_was": 6.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.66"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Tabletop Heroes: Age of Piracy - British Sailors at 4.19 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/86582/hellfrost-calendar",
+  "url": "https://www.drivethrurpg.com/product/86582/hellfrost-calendar",
+  "title": "Hellfrost Calendar",
+  "shop": "DriveThruRPG",
+  "price_now": 0.59,
+  "price_was": 0.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.57"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Hellfrost Calendar at 0.59 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/138998/hellfrost-action-deck",
+  "url": "https://www.drivethrurpg.com/product/138998/hellfrost-action-deck",
+  "title": "Hellfrost Action Deck",
+  "shop": "DriveThruRPG",
+  "price_now": 4.2,
+  "price_was": 7.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.26"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Hellfrost Action Deck at 4.2 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/170517/the-magical-bazaar",
+  "url": "https://www.drivethrurpg.com/product/170517/the-magical-bazaar",
+  "title": "The Magical Bazaar",
+  "shop": "DriveThruRPG",
+  "price_now": 0.52,
+  "price_was": 2.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.63"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Magical Bazaar at 0.52 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/170682/the-crow-s-nest-luxurious-inn-tavern",
+  "url": "https://www.drivethrurpg.com/product/170682/the-crow-s-nest-luxurious-inn-tavern",
+  "title": "The Crow's Nest Luxurious Inn & Tavern",
+  "shop": "DriveThruRPG",
+  "price_now": 0.69,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.67"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Crow's Nest Luxurious Inn & Tavern at 0.69 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/170878/the-joyful-goblin-inn-and-tavern",
+  "url": "https://www.drivethrurpg.com/product/170878/the-joyful-goblin-inn-and-tavern",
+  "title": "The Joyful Goblin Inn and Tavern",
+  "shop": "DriveThruRPG",
+  "price_now": 0.97,
+  "price_was": 3.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.63"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Joyful Goblin Inn and Tavern at 0.97 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/188204/daring-tales-of-adventure-codex",
+  "url": "https://www.drivethrurpg.com/product/188204/daring-tales-of-adventure-codex",
+  "title": "Daring Tales of Adventure Codex",
+  "shop": "DriveThruRPG",
+  "price_now": 14.99,
+  "price_was": 24.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.68"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Daring Tales of Adventure Codex at 14.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/205611/character-generator-w-bg",
+  "url": "https://www.drivethrurpg.com/product/205611/character-generator-w-bg",
+  "title": "Character Generator w/ bg",
+  "shop": "DriveThruRPG",
+  "price_now": 2.1,
+  "price_was": 3.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Character Generator w/ bg at 2.1 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/228546/potion-generator",
+  "url": "https://www.drivethrurpg.com/product/228546/potion-generator",
+  "title": "Potion Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.75,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.44"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Potion Generator at 0.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/230432/book-generator",
+  "url": "https://www.drivethrurpg.com/product/230432/book-generator",
+  "title": "Book Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.75,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Book Generator at 0.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/234520/the-alchemist-shop-1",
+  "url": "https://www.drivethrurpg.com/product/234520/the-alchemist-shop-1",
+  "title": "The Alchemist Shop 1",
+  "shop": "DriveThruRPG",
+  "price_now": 0.49,
+  "price_was": 1.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Alchemist Shop 1 at 0.49 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/234522/the-christmas-cabin",
+  "url": "https://www.drivethrurpg.com/product/234522/the-christmas-cabin",
+  "title": "The Christmas Cabin",
+  "shop": "DriveThruRPG",
+  "price_now": 0.48,
+  "price_was": 2.79,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.68"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Christmas Cabin at 0.48 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/236789/the-synthetics-1",
+  "url": "https://www.drivethrurpg.com/product/236789/the-synthetics-1",
+  "title": "The Synthetics #1",
+  "shop": "DriveThruRPG",
+  "price_now": 2.0,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.66"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Synthetics #1 at 2.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/238717/mood-emotion-generator",
+  "url": "https://www.drivethrurpg.com/product/238717/mood-emotion-generator",
+  "title": "Mood-Emotion Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.88,
+  "price_was": 1.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.34"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Mood-Emotion Generator at 0.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/242497/body-language-generator",
+  "url": "https://www.drivethrurpg.com/product/242497/body-language-generator",
+  "title": "Body Language Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.88,
+  "price_was": 1.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.46"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Body Language Generator at 0.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/247783/rappan-athuk-map-folio",
+  "url": "https://www.drivethrurpg.com/product/247783/rappan-athuk-map-folio",
+  "title": "Rappan Athuk Map Folio",
+  "shop": "DriveThruRPG",
+  "price_now": 11.5,
+  "price_was": 22.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.30"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Rappan Athuk Map Folio at 11.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/251847/character-communicator",
+  "url": "https://www.drivethrurpg.com/product/251847/character-communicator",
+  "title": "Character Communicator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.88,
+  "price_was": 1.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.63"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Character Communicator at 0.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/260263/emotional-reaction-generator",
+  "url": "https://www.drivethrurpg.com/product/260263/emotional-reaction-generator",
+  "title": "Emotional Reaction Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.88,
+  "price_was": 1.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.41"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Emotional Reaction Generator at 0.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/268084/thinking-generator",
+  "url": "https://www.drivethrurpg.com/product/268084/thinking-generator",
+  "title": "Thinking Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.88,
+  "price_was": 1.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.59"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Thinking Generator at 0.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/280968/item-and-effects-cards-for-the-sunken-temple-of-chloren-var",
+  "url": "https://www.drivethrurpg.com/product/280968/item-and-effects-cards-for-the-sunken-temple-of-chloren-var",
+  "title": "Item and Effects Cards for The Sunken Temple of Chloren-Var",
+  "shop": "DriveThruRPG",
+  "price_now": 0.37,
+  "price_was": 2.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.44"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Item and Effects Cards for The Sunken Temple of Chloren-Var at 0.37 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/304446/tegel-manor-deed",
+  "url": "https://www.drivethrurpg.com/product/304446/tegel-manor-deed",
+  "title": "Tegel Manor Deed",
+  "shop": "DriveThruRPG",
+  "price_now": 0.5,
+  "price_was": 0.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Tegel Manor Deed at 0.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/318479/hudson-brand-flats",
+  "url": "https://www.drivethrurpg.com/product/318479/hudson-brand-flats",
+  "title": "Hudson & Brand Flats",
+  "shop": "DriveThruRPG",
+  "price_now": 0.7,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.63"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Hudson & Brand Flats at 0.7 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/335195/vinlock-s-ultimate-guide-to-freshwater-fishing",
+  "url": "https://www.drivethrurpg.com/product/335195/vinlock-s-ultimate-guide-to-freshwater-fishing",
+  "title": "Vinlock's Ultimate Guide to Freshwater Fishing",
+  "shop": "DriveThruRPG",
+  "price_now": 0.44,
+  "price_was": 4.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.42"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Vinlock's Ultimate Guide to Freshwater Fishing at 0.44 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/345769/tome-of-horrors-2020-cards-deck-one",
+  "url": "https://www.drivethrurpg.com/product/345769/tome-of-horrors-2020-cards-deck-one",
+  "title": "Tome of Horrors 2020 Cards Deck ONE",
+  "shop": "DriveThruRPG",
+  "price_now": 8.49,
+  "price_was": 16.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Tome of Horrors 2020 Cards Deck ONE at 8.49 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/345772/tome-of-horrors-2020-cards-deck-two",
+  "url": "https://www.drivethrurpg.com/product/345772/tome-of-horrors-2020-cards-deck-two",
+  "title": "Tome of Horrors 2020 Cards Deck TWO",
+  "shop": "DriveThruRPG",
+  "price_now": 8.49,
+  "price_was": 16.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Tome of Horrors 2020 Cards Deck TWO at 8.49 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/345900/tome-of-horrors-2020-cards-deck-three",
+  "url": "https://www.drivethrurpg.com/product/345900/tome-of-horrors-2020-cards-deck-three",
+  "title": "Tome of Horrors 2020 Cards Deck THREE",
+  "shop": "DriveThruRPG",
+  "price_now": 8.49,
+  "price_was": 16.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.21"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.96
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Tome of Horrors 2020 Cards Deck THREE at 8.49 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/347850/mood-emotion-generator-2",
+  "url": "https://www.drivethrurpg.com/product/347850/mood-emotion-generator-2",
+  "title": "Mood-Emotion Generator 2",
+  "shop": "DriveThruRPG",
+  "price_now": 0.88,
+  "price_was": 1.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.32"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Mood-Emotion Generator 2 at 0.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/349621/mood-emotion-generator-3",
+  "url": "https://www.drivethrurpg.com/product/349621/mood-emotion-generator-3",
+  "title": "Mood-Emotion Generator 3",
+  "shop": "DriveThruRPG",
+  "price_now": 0.88,
+  "price_was": 1.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.37"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Mood-Emotion Generator 3 at 0.88 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/364432/the-tessellation-1",
+  "url": "https://www.drivethrurpg.com/product/364432/the-tessellation-1",
+  "title": "The Tessellation #1",
+  "shop": "DriveThruRPG",
+  "price_now": 1.5,
+  "price_was": 2.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Tessellation #1 at 1.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/382390/the-consortium-of-cartographers-guildhall",
+  "url": "https://www.drivethrurpg.com/product/382390/the-consortium-of-cartographers-guildhall",
+  "title": "The Consortium of Cartographers - Guildhall",
+  "shop": "DriveThruRPG",
+  "price_now": 0.5,
+  "price_was": 2.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.58"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Consortium of Cartographers - Guildhall at 0.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/385181/necropolis-virtual-tabletop-maps-and-tokens-vtt",
+  "url": "https://www.drivethrurpg.com/product/385181/necropolis-virtual-tabletop-maps-and-tokens-vtt",
+  "title": "Necropolis Virtual Tabletop Maps And Tokens (VTT)",
+  "shop": "DriveThruRPG",
+  "price_now": 15.0,
+  "price_was": 29.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.27"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.97
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Necropolis Virtual Tabletop Maps And Tokens (VTT) at 15.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/387715/1000-swords-ship-complete-kit-with-tokens-art-pack",
+  "url": "https://www.drivethrurpg.com/product/387715/1000-swords-ship-complete-kit-with-tokens-art-pack",
+  "title": "1000 Swords Ship complete kit with tokens & art pack",
+  "shop": "DriveThruRPG",
+  "price_now": 3.95,
+  "price_was": 22.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.32"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show 1000 Swords Ship complete kit with tokens & art pack at 3.95 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/392398/the-smokey-mystery-inn-with-tokens-and-character-sheet",
+  "url": "https://www.drivethrurpg.com/product/392398/the-smokey-mystery-inn-with-tokens-and-character-sheet",
+  "title": "The Smokey Mystery Inn with tokens and character sheet",
+  "shop": "DriveThruRPG",
+  "price_now": 2.06,
+  "price_was": 11.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.64"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Smokey Mystery Inn with tokens and character sheet at 2.06 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/395707/fantasy-and-or-science-fiction-multi-language-dictionary-languages-of-amoverek",
+  "url": "https://www.drivethrurpg.com/product/395707/fantasy-and-or-science-fiction-multi-language-dictionary-languages-of-amoverek",
+  "title": "Fantasy and/or Science Fiction Multi Language Dictionary - Languages of Amoverek",
+  "shop": "DriveThruRPG",
+  "price_now": 5.59,
+  "price_was": 12.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.35"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Fantasy and/or Science Fiction Multi Language Dictionary - Languages of Amoverek at 5.59 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/395940/ironclads-british-fleet-manual",
+  "url": "https://www.drivethrurpg.com/product/395940/ironclads-british-fleet-manual",
+  "title": "Ironclads British Fleet Manual",
+  "shop": "DriveThruRPG",
+  "price_now": 5.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.62"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Ironclads British Fleet Manual at 5.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/395941/ironclads-american-fleet-manual",
+  "url": "https://www.drivethrurpg.com/product/395941/ironclads-american-fleet-manual",
+  "title": "Ironclads American Fleet Manual",
+  "shop": "DriveThruRPG",
+  "price_now": 5.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.58"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Ironclads American Fleet Manual at 5.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/395942/ironclads-german-fleet-manual",
+  "url": "https://www.drivethrurpg.com/product/395942/ironclads-german-fleet-manual",
+  "title": "Ironclads German Fleet Manual",
+  "shop": "DriveThruRPG",
+  "price_now": 5.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.58"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Ironclads German Fleet Manual at 5.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+  "url": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+  "title": "Prophecy Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 0.75,
+  "price_was": 1.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.48"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Prophecy Generator at 0.75 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/441081/pirate-cats-from-space",
+  "url": "https://www.drivethrurpg.com/product/441081/pirate-cats-from-space",
+  "title": "Pirate Cats From Space!",
+  "shop": "DriveThruRPG",
+  "price_now": 1.5,
+  "price_was": 2.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.68"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Pirate Cats From Space! at 1.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/446518/frigorifique",
+  "url": "https://www.drivethrurpg.com/product/446518/frigorifique",
+  "title": "Frigorifique",
+  "shop": "DriveThruRPG",
+  "price_now": 5.28,
+  "price_was": 7.03,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.61"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Frigorifique at 5.28 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+  "url": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+  "title": "Space Bar Generator",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.34"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Space Bar Generator at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/470605/nemot-rising-1",
+  "url": "https://www.drivethrurpg.com/product/470605/nemot-rising-1",
+  "title": "Nemot Rising #1",
+  "shop": "DriveThruRPG",
+  "price_now": 2.0,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.55"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Nemot Rising #1 at 2.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/473527/galaxy-builder-decks-spooky-set",
+  "url": "https://www.drivethrurpg.com/product/473527/galaxy-builder-decks-spooky-set",
+  "title": "Galaxy Builder Decks: Spooky Set",
+  "shop": "DriveThruRPG",
+  "price_now": 0.5,
+  "price_was": 2.49,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Galaxy Builder Decks: Spooky Set at 0.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/483574/nemot-rising-3",
+  "url": "https://www.drivethrurpg.com/product/483574/nemot-rising-3",
+  "title": "Nemot Rising #3",
+  "shop": "DriveThruRPG",
+  "price_now": 2.0,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.66"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Nemot Rising #3 at 2.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/515448/landscapes-of-the-lost-soul",
+  "url": "https://www.drivethrurpg.com/product/515448/landscapes-of-the-lost-soul",
+  "title": "Landscapes of the Lost Soul",
+  "shop": "DriveThruRPG",
+  "price_now": 6.99,
+  "price_was": 9.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Landscapes of the Lost Soul at 6.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/554956/the-art-of-great-roleplaying-a-manifesto-for-players",
+  "url": "https://www.drivethrurpg.com/product/554956/the-art-of-great-roleplaying-a-manifesto-for-players",
+  "title": "The Art of Great Roleplaying: A manifesto for Players",
+  "shop": "DriveThruRPG",
+  "price_now": 0.36,
+  "price_was": 0.54,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.38"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Art of Great Roleplaying: A manifesto for Players at 0.36 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/557672/sandbox-generator-urban-expansion",
+  "url": "https://www.drivethrurpg.com/product/557672/sandbox-generator-urban-expansion",
+  "title": "Sandbox Generator - Urban Expansion",
+  "shop": "DriveThruRPG",
+  "price_now": 1.13,
+  "price_was": 1.5,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.63"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Sandbox Generator - Urban Expansion at 1.13 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/560769/deadrow-mere",
+  "url": "https://www.drivethrurpg.com/product/560769/deadrow-mere",
+  "title": "Deadrow Mere",
+  "shop": "DriveThruRPG",
+  "price_now": 3.5,
+  "price_was": 6.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.69"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Deadrow Mere at 3.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/561019/seven-bells-shipping-storage-co",
+  "url": "https://www.drivethrurpg.com/product/561019/seven-bells-shipping-storage-co",
+  "title": "Seven Bells Shipping & Storage Co.",
+  "shop": "DriveThruRPG",
+  "price_now": 7.0,
+  "price_was": 13.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.55"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Seven Bells Shipping & Storage Co. at 7.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/566646/fallen-tree",
+  "url": "https://www.drivethrurpg.com/product/566646/fallen-tree",
+  "title": "Fallen Tree",
+  "shop": "DriveThruRPG",
+  "price_now": 3.5,
+  "price_was": 6.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.68"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Fallen Tree at 3.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/566652/narrow-stretch",
+  "url": "https://www.drivethrurpg.com/product/566652/narrow-stretch",
+  "title": "Narrow Stretch",
+  "shop": "DriveThruRPG",
+  "price_now": 3.5,
+  "price_was": 6.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.66"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Narrow Stretch at 3.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/566669/shadowed-stream",
+  "url": "https://www.drivethrurpg.com/product/566669/shadowed-stream",
+  "title": "Shadowed Stream",
+  "shop": "DriveThruRPG",
+  "price_now": 3.5,
+  "price_was": 6.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.68"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Shadowed Stream at 3.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/567215/martian-comics-36",
+  "url": "https://www.drivethrurpg.com/product/567215/martian-comics-36",
+  "title": "Martian Comics #36",
+  "shop": "DriveThruRPG",
+  "price_now": 1.5,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.26"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Martian Comics #36 at 1.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/578275/the-horizons-of-khera-1",
+  "url": "https://www.drivethrurpg.com/product/578275/the-horizons-of-khera-1",
+  "title": "The Horizons of Khera #1",
+  "shop": "DriveThruRPG",
+  "price_now": 1.5,
+  "price_was": 3.99,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 0.99
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show The Horizons of Khera #1 at 1.5 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms",
+  "url": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms",
+  "title": "Big Damn Sci-Fi Field Forms",
+  "shop": "DriveThruRPG",
+  "price_now": 0.98,
+  "price_was": 1.95,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.67"
+   ],
+   "support": null,
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": null,
+   "price_now_seen": null,
+   "reason": null,
+   "failed_checks": [
+    "page_unreadable: blocked"
+   ]
+  },
+  "question": "Does this page show Big Damn Sci-Fi Field Forms at 0.98 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://jackspinoza.itch.io/sluggish-morss-the-table-top-rpg",
+  "url": "https://jackspinoza.itch.io/sluggish-morss-the-table-top-rpg",
+  "title": "Sluggish Morss: The Table Top RPG",
+  "shop": "itch.io",
+  "price_now": 7.0,
+  "price_was": 14.0,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "support_unsure: supports (0.31)"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.31
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "£7.00",
+   "reason": "The page shows a real 50% off sale on a tabletop RPG (£14.00 to £7.00), but the prices are in GBP and the deal claims USD. The page also shows no end date, so 2026-11-08 can't be confirmed.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 50% off sale on a tabletop RPG (£14.00 to £7.00), but the prices are in GBP and the deal claims USD. The page also shows no end date, so 2026-11-08 can't be confirmed."
+   ]
+  },
+  "question": "Does this page show Sluggish Morss: The Table Top RPG at 7.0 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-bard-character-sheet-2024",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-bard-character-sheet-2024",
+  "title": "DnD 2024 Character Sheet Bard Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but this is a printable character sheet (a play aid, not clearly a rulebook, adventure or supplement), and it was seen earlier at $3.26, below the 'sale' price, so the discount looks doubtful.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but this is a printable character sheet (a play aid, not clearly a rulebook, adventure or supplement), and it was seen earlier at $3.26, below the 'sale' price, so the discount looks doubtful."
+   ]
+  },
+  "question": "Does this page show DnD 2024 Character Sheet Bard Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet-2024",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet-2024",
+  "title": "DnD 2024 Character Sheet Sorcerer Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but the product is a printable D&D character sheet, which may count as an accessory rather than a rulebook, adventure or supplement. The price history shows a usual price of $3.26, below today's sale price, and the page gives no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but the product is a printable D&D character sheet, which may count as an accessory rather than a rulebook, adventure or supplement. The price history shows a usual price of $3.26, below today's sale price, and the page gives no end date."
+   ]
+  },
+  "question": "Does this page show DnD 2024 Character Sheet Sorcerer Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-druid-character-sheet",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-druid-character-sheet",
+  "title": "DnD 5e Character Sheet Druid Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.24"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a real 35% off Halloween Sale price ($5.25 to $3.41), but the product is a printable D&D 5e character sheet, and I can't tell whether that counts as an RPG product or an excluded accessory.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 35% off Halloween Sale price ($5.25 to $3.41), but the product is a printable D&D 5e character sheet, and I can't tell whether that counts as an RPG product or an excluded accessory."
+   ]
+  },
+  "question": "Does this page show DnD 5e Character Sheet Druid Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-paladin-character-sheet-2024",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-paladin-character-sheet-2024",
+  "title": "DnD 2024 Character Sheet Paladin Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a running Halloween Sale 2026 at 35% off ($5.25 to $3.41), but the product is a printable D&D 5e character sheet, and it is unclear whether that counts as a supplement or as an excluded accessory.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running Halloween Sale 2026 at 35% off ($5.25 to $3.41), but the product is a printable D&D 5e character sheet, and it is unclear whether that counts as a supplement or as an excluded accessory."
+   ]
+  },
+  "question": "Does this page show DnD 2024 Character Sheet Paladin Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet-2024",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet-2024",
+  "title": "DnD 2024 Character Sheet Warlock Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page does show $3.41 against $5.25 with a '35% Off' Halloween Sale tag, but this is a printable D&D character sheet (a play aid, not clearly a rulebook, adventure or supplement), and the price history shows a usual price of $3.26, below today's sale price.",
+   "failed_checks": [
+    "agent_unsure: The page does show $3.41 against $5.25 with a '35% Off' Halloween Sale tag, but this is a printable D&D character sheet (a play aid, not clearly a rulebook, adventure or supplement), and the price history shows a usual price of $3.26, below today's sale price."
+   ]
+  },
+  "question": "Does this page show DnD 2024 Character Sheet Warlock Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet-2024",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet-2024",
+  "title": "DnD 2024 Character Sheet Cleric Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.24"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows $5.25 cut to $3.41 (35% off, Halloween Sale 2026), but this is a printable D&D character sheet PDF, which may count as an accessory rather than a rulebook, adventure or supplement, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows $5.25 cut to $3.41 (35% off, Halloween Sale 2026), but this is a printable D&D character sheet PDF, which may count as an accessory rather than a rulebook, adventure or supplement, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show DnD 2024 Character Sheet Cleric Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-rogue-character-sheet-2024",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-rogue-character-sheet-2024",
+  "title": "DnD 2024 Character Sheet Rogue Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page confirms a 35% Halloween Sale at $3.41, down from $5.25, but the product is a printable D&D character sheet, which may count as an accessory rather than an RPG supplement, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page confirms a 35% Halloween Sale at $3.41, down from $5.25, but the product is a printable D&D character sheet, which may count as an accessory rather than an RPG supplement, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show DnD 2024 Character Sheet Rogue Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet",
+  "title": "DnD 5e Character Sheet Sorcerer Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.21"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a Halloween Sale at 35% off ($5.25 to $3.41), but the product is a printable character sheet, which may count as an accessory rather than an RPG book, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a Halloween Sale at 35% off ($5.25 to $3.41), but the product is a printable character sheet, which may count as an accessory rather than an RPG book, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show DnD 5e Character Sheet Sorcerer Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-player-kit-2024",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-player-kit-2024",
+  "title": "Printable DnD Character Journal + DnD 2024 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet",
+  "shop": "itch.io",
+  "price_now": 18.99,
+  "price_was": 29.23,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$18.99",
+   "reason": "The page shows a Halloween Sale at 35% off ($29.23 to $18.99), but the product is printable character sheets, spell cards and a journal, which may count as accessories rather than RPG books, and the price history shows the usual price was lower ($18.17), so the discount may not be real.",
+   "failed_checks": [
+    "agent_unsure: The page shows a Halloween Sale at 35% off ($29.23 to $18.99), but the product is printable character sheets, spell cards and a journal, which may count as accessories rather than RPG books, and the price history shows the usual price was lower ($18.17), so the discount may not be real."
+   ]
+  },
+  "question": "Does this page show Printable DnD Character Journal + DnD 2024 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet at 18.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-random-encounter-tables-bundle",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-random-encounter-tables-bundle",
+  "title": "DnD d100 Roll Charts Bundle: Random Encounter Tables, 5 Books (PDF)",
+  "shop": "itch.io",
+  "price_now": 15.2,
+  "price_was": 23.39,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.55"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.96
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$15.20",
+   "reason": "The page shows a 35% Halloween Sale at $15.20, down from $23.39, but the price history shows a usual price of $14.54 over 6 days, so $15.20 is higher than the earlier price and the discount may be inflated.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 35% Halloween Sale at $15.20, down from $23.39, but the price history shows a usual price of $14.54 over 6 days, so $15.20 is higher than the earlier price and the discount may be inflated."
+   ]
+  },
+  "question": "Does this page show DnD d100 Roll Charts Bundle: Random Encounter Tables, 5 Books (PDF) at 15.2 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet-2024",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet-2024",
+  "title": "DnD 2024 Character Sheet Fighter Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows $5.25 cut to $3.41 (35% off, 'Halloween Sale 2026'), but the product is a printable D&D character sheet, which may count as an accessory rather than a rulebook, adventure or supplement. The page shows no end date. Our history has a usual price of $3.26, below the claimed sale price.",
+   "failed_checks": [
+    "agent_unsure: The page shows $5.25 cut to $3.41 (35% off, 'Halloween Sale 2026'), but the product is a printable D&D character sheet, which may count as an accessory rather than a rulebook, adventure or supplement. The page shows no end date. Our history has a usual price of $3.26, below the claimed sale price."
+   ]
+  },
+  "question": "Does this page show DnD 2024 Character Sheet Fighter Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet-2024",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet-2024",
+  "title": "DnD 2024 Character Sheet Ranger Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.23"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a running 35% off Halloween Sale at $3.41, down from $5.25, but the product is a printable D&D 5e character sheet. That may count as an accessory rather than a rulebook, adventure or supplement, and the page shows no end date.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 35% off Halloween Sale at $3.41, down from $5.25, but the product is a printable D&D 5e character sheet. That may count as an accessory rather than a rulebook, adventure or supplement, and the page shows no end date."
+   ]
+  },
+  "question": "Does this page show DnD 2024 Character Sheet Ranger Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-wizard-character-sheet-2024",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-wizard-character-sheet-2024",
+  "title": "DnD 2024 Character Sheet Wizard Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.21"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a live 35% off sale ($5.25 to $3.41), but the product is a fillable D&D 5e character sheet PDF, so I can't tell whether it counts as a rulebook, adventure or supplement or is an excluded accessory.",
+   "failed_checks": [
+    "agent_unsure: The page shows a live 35% off sale ($5.25 to $3.41), but the product is a fillable D&D 5e character sheet PDF, so I can't tell whether it counts as a rulebook, adventure or supplement or is an excluded accessory."
+   ]
+  },
+  "question": "Does this page show DnD 2024 Character Sheet Wizard Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-npc-generator",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-npc-generator",
+  "title": "DnD NPC Generator: 160 Ready NPCs, DM Reference Sheets (Digital Download)",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.65"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a 35% off Halloween Sale at $3.41 against $5.25 for a 5e NPC table PDF (an RPG GM tool), but the shop's own price history says the usual price was $3.26, so the $5.25 normal price may not be genuine.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 35% off Halloween Sale at $3.41 against $5.25 for a 5e NPC table PDF (an RPG GM tool), but the shop's own price history says the usual price was $3.26, so the $5.25 normal price may not be genuine."
+   ]
+  },
+  "question": "Does this page show DnD NPC Generator: 160 Ready NPCs, DM Reference Sheets (Digital Download) at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet",
+  "title": "DnD 5e Character Sheet Warlock Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.20"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows $3.41 against $5.25 under a '35% Off' Halloween Sale banner, but it is a fillable D&D 5e character sheet (a play aid, which may count as an accessory rather than a rulebook or supplement), it shows no end date, and our history lists the usual price as $3.26, which is below the current 'sale' price.",
+   "failed_checks": [
+    "agent_unsure: The page shows $3.41 against $5.25 under a '35% Off' Halloween Sale banner, but it is a fillable D&D 5e character sheet (a play aid, which may count as an accessory rather than a rulebook or supplement), it shows no end date, and our history lists the usual price as $3.26, which is below the current 'sale' price."
+   ]
+  },
+  "question": "Does this page show DnD 5e Character Sheet Warlock Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-initiative-tracker-dm-binder",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-initiative-tracker-dm-binder",
+  "title": "D&D 5e Initiative Tracker: Printable DM Binder, 12 Fillable Sheets (PDF)",
+  "shop": "itch.io",
+  "price_now": 4.55,
+  "price_was": 7.01,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.20"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$4.55",
+   "reason": "The page shows 35% off ($7.01 to $4.55) in a Halloween Sale, but this is a printable GM worksheet binder (closer to an accessory than a rulebook, adventure or supplement), it shows no end date, and the price history shows a usual price of $4.35, which is lower than the sale price.",
+   "failed_checks": [
+    "agent_unsure: The page shows 35% off ($7.01 to $4.55) in a Halloween Sale, but this is a printable GM worksheet binder (closer to an accessory than a rulebook, adventure or supplement), it shows no end date, and the price history shows a usual price of $4.35, which is lower than the sale price."
+   ]
+  },
+  "question": "Does this page show D&D 5e Initiative Tracker: Printable DM Binder, 12 Fillable Sheets (PDF) at 4.55 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet",
+  "title": "DnD 5e Character Sheet Cleric Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.20"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a running 35%-off shop-wide sale at $3.41 (was $5.25), but the product is a printable character sheet (a play aid, close to an accessory, not a rulebook or adventure), and the price history shows it was already $3.26 before, so the discount looks doubtful.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 35%-off shop-wide sale at $3.41 (was $5.25), but the product is a printable character sheet (a play aid, close to an accessory, not a rulebook or adventure), and the price history shows it was already $3.26 before, so the discount looks doubtful."
+   ]
+  },
+  "question": "Does this page show DnD 5e Character Sheet Cleric Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-character-sheet",
+  "title": "DND 101 | Dungeons and Dragons Beginner Character Sheet | New Player Quick Reference | Dungeons and Dragons | TTRPG",
+  "shop": "itch.io",
+  "price_now": 5.31,
+  "price_was": 8.18,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.42"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$5.31",
+   "reason": "The page shows a running 35% off Halloween Sale at $5.31 (was $8.18), but the product is a printable D&D character sheet and quick-reference card, which could count as an accessory rather than a rulebook, adventure or supplement, so I can't tell whether it belongs.",
+   "failed_checks": [
+    "agent_unsure: The page shows a running 35% off Halloween Sale at $5.31 (was $8.18), but the product is a printable D&D character sheet and quick-reference card, which could count as an accessory rather than a rulebook, adventure or supplement, so I can't tell whether it belongs."
+   ]
+  },
+  "question": "Does this page show DND 101 | Dungeons and Dragons Beginner Character Sheet | New Player Quick Reference | Dungeons and Dragons | TTRPG at 5.31 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-gothic",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-gothic",
+  "title": "Gothic DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory",
+  "shop": "itch.io",
+  "price_now": 6.83,
+  "price_was": 10.51,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.20"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$6.83",
+   "reason": "The page shows a real 35% off Halloween Sale at $6.83 (was $10.51), but the product is a printable D&D character sheet set, which may count as an accessory rather than a rulebook, adventure or supplement.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 35% off Halloween Sale at $6.83 (was $10.51), but the product is a printable D&D character sheet set, which may count as an accessory rather than a rulebook, adventure or supplement."
+   ]
+  },
+  "question": "Does this page show Gothic DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory at 6.83 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-player-kit",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-player-kit",
+  "title": "Printable DnD Character Journal + DnD 2014 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet",
+  "shop": "itch.io",
+  "price_now": 18.99,
+  "price_was": 29.23,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.25"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$18.99",
+   "reason": "The page shows a 35% off Halloween Sale at $18.99 (was $29.23), but the product is printable character sheets, spell cards and a journal, which may count as play accessories rather than a rulebook or supplement, and Jev's history shows it usually sold for $18.17, so the discount may not be real.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 35% off Halloween Sale at $18.99 (was $29.23), but the product is printable character sheets, spell cards and a journal, which may count as play accessories rather than a rulebook or supplement, and Jev's history shows it usually sold for $18.17, so the discount may not be real."
+   ]
+  },
+  "question": "Does this page show Printable DnD Character Journal + DnD 2014 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet at 18.99 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet",
+  "title": "DnD 5e Character Sheet Fighter Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.21"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but the product is a fillable D&D 5e character sheet PDF, which may count as an accessory rather than a rulebook or supplement. Its own price history also shows a usual price of $3.26, below today's sale price, so the discount may not be real.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but the product is a fillable D&D 5e character sheet PDF, which may count as an accessory rather than a rulebook or supplement. Its own price history also shows a usual price of $3.26, below today's sale price, so the discount may not be real."
+   ]
+  },
+  "question": "Does this page show DnD 5e Character Sheet Fighter Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-cards-bundle",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-cards-bundle",
+  "title": "DnD Card Bundle 5e 2014 | Printable Spell, Monster and Magic Item Cards, Dungeon Master Tools | Digital Download",
+  "shop": "itch.io",
+  "price_now": 28.11,
+  "price_was": 43.26,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.26"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$28.11",
+   "reason": "The page shows a 35% Halloween Sale at $28.11, down from $43.26, but the product is printable spell, monster and item reference cards, which may count as an accessory rather than an RPG supplement. Our own history also shows this item at $26.89 on earlier days, which is below today's sale price.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 35% Halloween Sale at $28.11, down from $43.26, but the product is printable spell, monster and item reference cards, which may count as an accessory rather than an RPG supplement. Our own history also shows this item at $26.89 on earlier days, which is below today's sale price."
+   ]
+  },
+  "question": "Does this page show DnD Card Bundle 5e 2014 | Printable Spell, Monster and Magic Item Cards, Dungeon Master Tools | Digital Download at 28.11 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet",
+  "title": "DnD 5e Character Sheet Ranger Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.21"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a real 35%-off shop-wide sale ($5.25 to $3.41), but the product is a fillable D&D 5e character sheet PDF, which may count as an accessory rather than a rulebook or supplement. Jev's price history also lists a usual and lowest price of $3.26, below today's sale price.",
+   "failed_checks": [
+    "agent_unsure: The page shows a real 35%-off shop-wide sale ($5.25 to $3.41), but the product is a fillable D&D 5e character sheet PDF, which may count as an accessory rather than a rulebook or supplement. Jev's price history also lists a usual and lowest price of $3.26, below today's sale price."
+   ]
+  },
+  "question": "Does this page show DnD 5e Character Sheet Ranger Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-ember",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-ember",
+  "title": "Ember DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory",
+  "shop": "itch.io",
+  "price_now": 6.83,
+  "price_was": 10.51,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.98
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$6.83",
+   "reason": "The page does show a 35% off Halloween Sale at $6.83 (was $10.51), but the product is a printable D&D character sheet set, which is a play aid or accessory rather than a clear rulebook, adventure or supplement, so I can't tell whether it counts as an RPG product.",
+   "failed_checks": [
+    "agent_unsure: The page does show a 35% off Halloween Sale at $6.83 (was $10.51), but the product is a printable D&D character sheet set, which is a play aid or accessory rather than a clear rulebook, adventure or supplement, so I can't tell whether it counts as an RPG product."
+   ]
+  },
+  "question": "Does this page show Ember DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory at 6.83 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ },
+ {
+  "kind": "deal",
+  "key": "https://onegoodeveningdnd.itch.io/dnd-barbarian-character-sheet",
+  "url": "https://onegoodeveningdnd.itch.io/dnd-barbarian-character-sheet",
+  "title": "DnD 5e Character Sheet Barbarian Printable and Fillable PDF D&D 5e",
+  "shop": "itch.io",
+  "price_now": 3.41,
+  "price_was": 5.25,
+  "currency": "USD",
+  "jev": {
+   "reasons": [
+    "rpg_unsure: p=0.22"
+   ],
+   "support": {
+    "choice": "supports",
+    "confidence": 0.97
+   },
+   "offer_kind": {
+    "choice": "promotion",
+    "confidence": 1.0
+   }
+  },
+  "agent": {
+   "verdict": "unsure",
+   "price_now_seen": "$3.41",
+   "reason": "The page shows a 35% Halloween Sale at $3.41 (was $5.25), but the product is a printable D&D 5e character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, and Jev saw it at $3.26 in earlier runs, so the discount may not be real.",
+   "failed_checks": [
+    "agent_unsure: The page shows a 35% Halloween Sale at $3.41 (was $5.25), but the product is a printable D&D 5e character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, and Jev saw it at $3.26 in earlier runs, so the discount may not be real."
+   ]
+  },
+  "question": "Does this page show DnD 5e Character Sheet Barbarian Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.",
+  "outcome": "needs_owner"
+ }
+]

@@ -39,6 +39,14 @@
   "last_seen": "2026-10-30",
   "example_url": "https://bulbapedia.bulbagarden.net/"
  },
+ "comicsbeat.com": {
+  "first_seen": "2026-11-03",
+  "reasons": {
+   "HTTP 403": "2026-11-03"
+  },
+  "last_seen": "2026-11-03",
+  "example_url": "https://www.comicsbeat.com/"
+ },
  "creative-commons-shop.fourthwall.com": {
   "first_seen": "2026-10-27",
   "reasons": {
@@ -82,9 +90,9 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-11-02"
+   "bot wall (known, never fetched)": "2026-11-03"
   },
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-03",
   "example_url": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms"
  },
  "elancharan.itch.io": {
@@ -159,6 +167,14 @@
   "last_seen": "2026-10-30",
   "example_url": "https://www.gama.org/"
  },
+ "gameholecon.com": {
+  "first_seen": "2026-11-03",
+  "reasons": {
+   "HTTP 403": "2026-11-03"
+  },
+  "last_seen": "2026-11-03",
+  "example_url": "https://www.gameholecon.com/wp-json/wc/store/v1/products?per_page=1"
+ },
  "go.skimresources.com": {
   "first_seen": "2026-10-27",
   "reasons": {
@@ -174,6 +190,14 @@
   },
   "last_seen": "2026-10-27",
   "example_url": "http://www.goodman-games.com/"
+ },
+ "iconartfestival.com": {
+  "first_seen": "2026-11-03",
+  "reasons": {
+   "HTTP 403": "2026-11-03"
+  },
+  "last_seen": "2026-11-03",
+  "example_url": "https://iconartfestival.com/wp-json/wc/store/v1/products?per_page=1"
  },
  "imagecomics.threadless.com": {
   "first_seen": "2026-10-27",
@@ -262,6 +286,14 @@
   },
   "last_seen": "2026-10-30",
   "example_url": "https://missoulian.com/products.json?limit=1"
+ },
+ "motorcitycomiccon.com": {
+  "first_seen": "2026-11-03",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-03"
+  },
+  "last_seen": "2026-11-03",
+  "example_url": "https://motorcitycomiccon.com/products.json?limit=1"
  },
  "mutualdocs.com": {
   "first_seen": "2026-10-27",
@@ -366,6 +398,14 @@
   },
   "last_seen": "2026-10-27",
   "example_url": "https://pixabay.com/"
+ },
+ "pod.link": {
+  "first_seen": "2026-11-03",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-03"
+  },
+  "last_seen": "2026-11-03",
+  "example_url": "https://pod.link/"
  },
  "pokebeach.com": {
   "first_seen": "2026-10-27",
