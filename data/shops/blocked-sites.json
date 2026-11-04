@@ -63,6 +63,22 @@
   "last_seen": "2026-10-27",
   "example_url": "http://www.cubicle7games.com/"
  },
+ "cults3d.com": {
+  "first_seen": "2026-11-04",
+  "reasons": {
+   "HTTP 403": "2026-11-04"
+  },
+  "last_seen": "2026-11-04",
+  "example_url": "https://cults3d.com/"
+ },
+ "dashborg.link": {
+  "first_seen": "2026-11-04",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-04"
+  },
+  "last_seen": "2026-11-04",
+  "example_url": "https://dashborg.link/"
+ },
  "deviantart.com": {
   "first_seen": "2026-10-31",
   "reasons": {
@@ -90,9 +106,9 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-11-03"
+   "bot wall (known, never fetched)": "2026-11-04"
   },
-  "last_seen": "2026-11-03",
+  "last_seen": "2026-11-04",
   "example_url": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms"
  },
  "elancharan.itch.io": {
@@ -263,6 +279,22 @@
   "last_seen": "2026-11-01",
   "example_url": "https://www.luccacomicsandgames.com/products.json?limit=1"
  },
+ "makerworld.com": {
+  "first_seen": "2026-11-04",
+  "reasons": {
+   "HTTP 403": "2026-11-04"
+  },
+  "last_seen": "2026-11-04",
+  "example_url": "https://makerworld.com/"
+ },
+ "megacatstudios-dot-yamm-track.appspot.com": {
+  "first_seen": "2026-11-04",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-04"
+  },
+  "last_seen": "2026-11-04",
+  "example_url": "https://megacatstudios-dot-yamm-track.appspot.com/"
+ },
  "mindstormlabs.com": {
   "first_seen": "2026-10-27",
   "reasons": {
@@ -326,6 +358,14 @@
   },
   "last_seen": "2026-10-30",
   "example_url": "https://neonichiban.com/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "news.xbox.com": {
+  "first_seen": "2026-11-04",
+  "reasons": {
+   "HTTP 401": "2026-11-04"
+  },
+  "last_seen": "2026-11-04",
+  "example_url": "https://news.xbox.com/en-us/wp-json/wc/store/v1/products?per_page=1"
  },
  "newsroom.hasbro.com": {
   "first_seen": "2026-10-27",
@@ -414,6 +454,14 @@
   },
   "last_seen": "2026-10-27",
   "example_url": "https://www.pokebeach.com/"
+ },
+ "printables.com": {
+  "first_seen": "2026-11-04",
+  "reasons": {
+   "HTTP 403": "2026-11-04"
+  },
+  "last_seen": "2026-11-04",
+  "example_url": "https://www.printables.com/"
  },
  "pubads.g.doubleclick.net": {
   "first_seen": "2026-10-27",
@@ -590,5 +638,13 @@
   },
   "last_seen": "2026-10-27",
   "example_url": "https://www.xreal.com/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "yu-gi-oh.jp": {
+  "first_seen": "2026-11-04",
+  "reasons": {
+   "HTTP 403": "2026-11-04"
+  },
+  "last_seen": "2026-11-04",
+  "example_url": "https://yu-gi-oh.jp/"
  }
 }
