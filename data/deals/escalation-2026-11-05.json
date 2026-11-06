@@ -1,0 +1,3509 @@
+{
+ "date": "2026-11-05",
+ "fake": false,
+ "jobs": [
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/animated-spells-master-collection-for-roll20-vtt",
+   "title": "DIGITAL Animated Spells Master Collection - (Roll20 Key, VTT)",
+   "shop": "Hit Point Press",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 59% discount ($50.00 CAD, was $122.00 CAD) on a Roll20 VTT asset pack (animated spell cards and tokens for D&D 5e), but the prices are in CAD while the deal claims USD, and it is unclear whether a card and token pack counts as a tabletop RPG product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No instructions aimed at AI found on the page. The shop's history shows a usual price of about $51 over 8 days, so this may be a standing price and not a time-limited sale. No end date is shown. The shop's own site is set to Canada (region_country=CA), so the deal record's USD currency is likely wrong.",
+    "price_now_seen": "$50.00 CAD",
+    "price_was_seen": "$122.00 CAD",
+    "reason": "The page shows a real 59% discount ($50.00 CAD, was $122.00 CAD) on a Roll20 VTT asset pack (animated spell cards and tokens for D&D 5e), but the prices are in CAD while the deal claims USD, and it is unclear whether a card and token pack counts as a tabletop RPG product.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9-conditions-illusions-townsfolk-spellcraft",
+   "title": "BUNDLE: Animated Spells Level 6-9, Conditions, Illusions, Townsfolk & Spellcraft - 5e 2014 D&D (Reference Cards)",
+   "shop": "Hit Point Press",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: This is a bundle of animated reference cards, which is an accessory and not a rulebook, adventure or supplement. The page prices are in CAD, not the claimed USD, and the price history shows about $258 for 8 days, so the 25% off is not a new sale."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows a struck-through $342.00 CAD and 25% off, with no end date. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$257.00 CAD",
+    "price_was_seen": "$342.00 CAD",
+    "reason": "This is a bundle of animated reference cards, which is an accessory and not a rulebook, adventure or supplement. The page prices are in CAD, not the claimed USD, and the price history shows about $258 for 8 days, so the 25% off is not a new sale.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9",
+   "title": "BUNDLE: Animated Spells Level 6-9 - 5e 2014 D&D (Reference Cards)",
+   "shop": "Hit Point Press",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page shows the prices in CAD, not the claimed USD, and the product is a set of D&D spell reference cards, which is an accessory rather than a rulebook, adventure or supplement."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does show a 25% discount, but gives no end date. Jev's history shows the same $129 price for 8 days, so this may be the usual price. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$129.00 CAD",
+    "price_was_seen": "$171.00 CAD",
+    "reason": "The page shows the prices in CAD, not the claimed USD, and the product is a set of D&D spell reference cards, which is an accessory rather than a rulebook, adventure or supplement.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://hitpointpress.com/products/complete-set-of-animated-spells-level-0-5-things",
+   "title": "BUNDLE: Animated Spells Level 0-5 + Things - 5e 2014 D&D (Reference Cards)",
+   "shop": "Hit Point Press",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: This is a bundle of animated D&D spell reference cards, which is an accessory and not a rulebook, adventure or supplement. The page also prices it in CAD, while the deal claims USD."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows a 27% off sale with no end date. The price history says the price has stayed around 315 for 8 days, so the $428 'regular' price looks like a permanent list price and not a limited sale. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$314.00 CAD",
+    "price_was_seen": "$428.00 CAD",
+    "reason": "This is a bundle of animated D&D spell reference cards, which is an accessory and not a rulebook, adventure or supplement. The page also prices it in CAD, while the deal claims USD.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.humblebundle.com/software/vampire-masquerade-complete-v5-collection-for-alchemy-vtt-software",
+   "title": "Vampire: The Masquerade Complete V5 Collection for Alchemy VTT",
+   "shop": "Humble Bundle",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page loaded but its visible text shows only a site banner, with no product, price, normal price or end date, so the claimed 5.42 vs 452.92 cannot be confirmed."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Page title matches the product ('Vampire: The Masquerade Complete V5 Collection for Alchemy VTT (pay what you want and help charity)'), but the body is built with JavaScript, so no price data is visible. The 99% discount is also suspect for a pay-what-you-want bundle. No instructions aimed at AI were found on the page.",
+    "price_now_seen": null,
+    "price_was_seen": null,
+    "reason": "The page loaded but its visible text shows only a site banner, with no product, price, normal price or end date, so the claimed 5.42 vs 452.92 cannot be confirmed.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-31"
+  },
+  {
+   "job": "recheck",
+   "key": "https://jackspinoza.itch.io/sluggish-morss-the-table-top-rpg",
+   "title": "Sluggish Morss: The Table Top RPG",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 50% off sale on a tabletop RPG (£14.00 to £7.00), but the prices are in GBP and the deal claims USD. The page also shows no end date, so 2026-11-08 can't be confirmed."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page also offers a 17-game bundle for £15.00. The currency shown may depend on the visitor's location, so the owner should check it. No text addressed to AI was found on the page.",
+    "price_now_seen": "£7.00",
+    "price_was_seen": "£14.00",
+    "reason": "The page shows a real 50% off sale on a tabletop RPG (£14.00 to £7.00), but the prices are in GBP and the deal claims USD. The page also shows no end date, so 2026-11-08 can't be confirmed.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://koke-rpgs.itch.io/a-book-for-everyone",
+   "title": "A Book For Everyone",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-30 is not confirmed by the page. The listing is a downloadable PDF (the category says 'Physical game'). The page contains no text addressed to AI.",
+    "price_now_seen": "$4.80",
+    "price_was_seen": "$8.00",
+    "reason": "The page shows the solo journaling tabletop RPG 'A Book For Everyone' at $4.80, down from $8.00, with an 'On Sale! 40% Off' badge and the 'Koke RPGs Autun Sale 2026 - 40% off all games' promotion.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-01"
+  },
+  {
+   "job": "recheck",
+   "key": "https://revryebread.itch.io/if-not-us-then-who",
+   "title": "If Not Us, Then Who?",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-20 is unconfirmed. The $10.50 is the minimum price (pay-what-you-want style, 'or more'). The page also advertises a separate 12-game bundle for $100, which is not this deal. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$10.50",
+    "price_was_seen": "$15.00",
+    "reason": "The page tags this as a tabletop role-playing game and shows an 'On Sale! 30% Off' banner with $15.00 struck down to $10.50 USD.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://loottheroom.itch.io/candle",
+   "title": "CANDLE",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a running 34% off sale on this Mörk Borg adventure, but the prices are in pounds (£6.60, was £10.00) while the deal claims USD, and the page shows no end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The product is a tabletop RPG adventure PDF, listed in itch.io's 'Physical games' category. The page offers it in a 12-item MÖRK BUNDLE for £50.00 as well. The round GBP figures suggest the seller set the price in GBP, so the claimed currency of USD looks wrong. The owner should confirm the currency. No text on the page was addressed to AI.",
+    "price_now_seen": "£6.60 GBP",
+    "price_was_seen": "£10.00",
+    "reason": "The page shows a running 34% off sale on this Mörk Borg adventure, but the prices are in pounds (£6.60, was £10.00) while the deal claims USD, and the page shows no end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://zeta2391.itch.io/express-journal",
+   "title": "Express Journal",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page lists Spanish as its only language (Spanish; Castilian and Spanish; Latin America), and a commenter asks for an English version. The English-only rule (check.not_english) should catch it. The page shows no sale end date, so the claimed 2026-11-10 is unconfirmed. The item is a physical-category wallet-card game with a free PDF download. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$0.00",
+    "price_was_seen": "$1.00",
+    "reason": "The page tags it 'Tabletop role-playing game', 'micro-rpg' and 'Solo RPG' and shows an 'On Sale! 100% Off' banner with $1.00 struck through and $0.00 now.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-04"
+  },
+  {
+   "job": "recheck",
+   "key": "https://revryebread.itch.io/dawn-of-the-first-day",
+   "title": "Dawn of the First Day",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed end date of 2026-11-20 is not confirmed. The game is played with a deck of playing cards, which is why the RPG score was low, but its tags and its themes (oracle game, Fiasco-style) mark it as a tabletop RPG. The page also advertises a separate $100 bundle of 11 more games, which is not part of this deal. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$5.59",
+    "price_was_seen": "$7.99",
+    "reason": "The page shows a GM-less tabletop role-playing game (tagged 'Tabletop role-playing game', sold as a PDF) on sale at 30% off, from $7.99 to $5.59.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://friedspin.itch.io/dungeon-room-stock-cards-lite-10",
+   "title": "Dungeon Room Stock Cards Lite – 10 Rooms with Threat, Loot & Twist (PnP + VTT)",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-17 is unconfirmed. The price is pay-what-you-want with a $0.15 minimum ('$0.15 USD or more'). A bundle of all 10 Lite products is offered at $1.50. No text addressed to AI was found on the page.",
+    "price_now_seen": "$0.15",
+    "price_was_seen": "$1.00",
+    "reason": "The page tagged 'Tabletop role-playing game' shows this system-neutral dungeon room card set (PnP + VTT) with an 'On Sale! 85% Off' banner, $1.00 struck down to $0.15, as part of the 'FriedSpin Lite Sampler Sale'.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-04"
+  },
+  {
+   "job": "recheck",
+   "key": "https://trollinthewell.itch.io/something-rotten",
+   "title": "SOMETHING ROTTEN [D&D]",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a running 50% off sale on a D&D adventure, but the prices are in GBP (£10.00 to £5.00) and the deal claims USD, so I can't confirm the claimed currency, and the page gives no end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text has 'On Sale!', '50% Off' and 'Rotten Halloween Goblin Sale 2026!'. The prices are in pounds, not dollars. The claimed end date of 2026-11-06 is not on the page. The 'Get this adventure for D&D and 1 more for £6.00 GBP' bundle line is a separate offer. No text on the page was addressed to AI.",
+    "price_now_seen": "£5.00",
+    "price_was_seen": "£10.00",
+    "reason": "The page shows a running 50% off sale on a D&D adventure, but the prices are in GBP (£10.00 to £5.00) and the deal claims USD, so I can't confirm the claimed currency, and the page gives no end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://lithun.itch.io/the-deck-of-heists",
+   "title": "The Deck of Heists",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-30 is not confirmed by the page. The product is a 54-card generator delivered as a PDF. Itch.io lists it as a 'Physical game', but the page tags it as a supplement and for tabletop role-playing games. No text addressed to AI was found.",
+    "price_now_seen": "$1.79",
+    "price_was_seen": "$3.99",
+    "reason": "The page shows a system-agnostic tabletop RPG supplement (GM tool, downloadable PDF) marked 'On Sale! 55% Off', $3.99 struck through and now $1.79 USD.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-04"
+  },
+  {
+   "job": "recheck",
+   "key": "https://valeriolucido.itch.io/reflections",
+   "title": "Reflections",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page shows a real 50% off sale on a tabletop RPG, but the game is Italian-only (Languages: Italian, description in Italian), and RPG Hunt lists English products only. The price is also shown in EUR, not the claimed USD."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-10-31 is unconfirmed. Jev history shows 4.99 as the usual and lowest earlier price, which does not fit a 9.99 normal price. The page also offers a bundle ('Il grande ribasso', this loop and 5 more for 14.98€). No text addressed to AI was found.",
+    "price_now_seen": "4.99€",
+    "price_was_seen": "9.99€",
+    "reason": "The page shows a real 50% off sale on a tabletop RPG, but the game is Italian-only (Languages: Italian, description in Italian), and RPG Hunt lists English products only. The price is also shown in EUR, not the claimed USD.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://abhack-paperclip.itch.io/lantern-lane",
+   "title": "Lantern Lane: A Solo Halloween Writing Game",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-12-01 is unconfirmed. It is a solo journaling game and its page says it was written by an AI. $4.02 is the minimum price ('or more'). A bundle of 3 games for $12.06 is also offered. The page has no text addressed to AI.",
+    "price_now_seen": "$4.02",
+    "price_was_seen": "$6.00",
+    "reason": "The page shows a 33% off sale at $4.02 (struck-through $6.00) for a game tagged Solo RPG, GM-Less and Tabletop role-playing game, played with dice and tables.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet",
+   "title": "DND 101 | Dungeons and Dragons Beginner Character Sheet | New Player Quick Reference | Dungeons and Dragons | TTRPG",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a running 35% off Halloween Sale at $5.31 (was $8.18), but the product is a printable D&D character sheet and quick-reference card, which could count as an accessory rather than a rulebook, adventure or supplement, so I can't tell whether it belongs."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show a sale end date, so the claimed end of 2026-11-04 is not confirmed. The page also links a 112-game Halloween Sale bundle for $737.32, which is a different offer and not the one claimed. No instructions aimed at AI found on the page.",
+    "price_now_seen": "$5.31",
+    "price_was_seen": "$8.18",
+    "reason": "The page shows a running 35% off Halloween Sale at $5.31 (was $8.18), but the product is a printable D&D character sheet and quick-reference card, which could count as an accessory rather than a rulebook, adventure or supplement, so I can't tell whether it belongs.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-random-encounter-tables",
+   "title": "Terrain Encounters D&D d100 Random Table Generator | Dungeon Master Tools | Dungeons and Dragons | Printable Product",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end of 2026-11-04 is not confirmed by the page. The 'Get this game and 111 more for $737.32' bundle line is a separate offer and was ignored. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.80",
+    "price_was_seen": "$5.85",
+    "reason": "The page shows a printable D&D 5e encounter-table supplement at $3.80, down from $5.85 (35% off), in the Halloween Sale 2026 that is running now.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-rogue-character-sheet",
+   "title": "DnD 5e Character Sheet Rogue Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page does show 35% off ($5.25 to $3.41) in a Halloween Sale, but the product is a printable character sheet, which is an accessory and not a rulebook, adventure or supplement, and its usual price was $3.26, so the sale price is above the earlier price."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date is shown on the page. The page has no text addressed to AI.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page does show 35% off ($5.25 to $3.41) in a Halloween Sale, but the product is a printable character sheet, which is an accessory and not a rulebook, adventure or supplement, and its usual price was $3.26, so the sale price is above the earlier price.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://trollinthewell.itch.io/shadow-over-swamptown-5e",
+   "title": "THE SHADOW OVER SWAMPTOWN (5E)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 50% off 'Rotten Halloween Goblin Sale 2026!' on a D&D adventure, but the prices are in GBP while the deal claims USD, and the page shows no end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text has no instructions aimed at AI. The currency mismatch could be itch.io showing the seller's own currency, but I can't confirm that from the page. The claimed end date 2026-11-06 does not appear in the page text.",
+    "price_now_seen": "£2.50",
+    "price_was_seen": "£5.00",
+    "reason": "The page shows a real 50% off 'Rotten Halloween Goblin Sale 2026!' on a D&D adventure, but the prices are in GBP while the deal claims USD, and the page shows no end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://radixitchio.itch.io/party-of-four",
+   "title": "Party of Four - AI Game Master for Claude, solo or with friends",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The price and sale are real, but the product is a downloadable AI skill for Claude that acts as a game master, not a tabletop RPG book, adventure, supplement or VTT module."
+   ],
+   "agent": {
+    "ends_seen": "Nov 4",
+    "model": "sonnet",
+    "notes": "The page says the sale runs until Nov 4, but the deal record claims ends 2026-11-14. The page also says '70% Off' and '65% off each', which do not match. No instructions addressed to AI were found on the page.",
+    "price_now_seen": "$2.09",
+    "price_was_seen": "$6.99",
+    "reason": "The price and sale are real, but the product is a downloadable AI skill for Claude that acts as a game master, not a tabletop RPG book, adventure, supplement or VTT module.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-cards-bundle",
+   "title": "DnD Card Bundle 5e 2014 | Printable Spell, Monster and Magic Item Cards, Dungeon Master Tools | Digital Download",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a 35% Halloween Sale at $28.11, down from $43.26, but the product is printable spell, monster and item reference cards, which may count as an accessory rather than an RPG supplement. Our own history also shows this item at $26.89 on earlier days, which is below today's sale price."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed end date of 2026-11-04 is not confirmed. It is tagged 'Tabletop role-playing game' and is a 5e SRD 5.1 card set. No AI-addressed instructions found on the page.",
+    "price_now_seen": "$28.11",
+    "price_was_seen": "$43.26",
+    "reason": "The page shows a 35% Halloween Sale at $28.11, down from $43.26, but the product is printable spell, monster and item reference cards, which may count as an accessory rather than an RPG supplement. Our own history also shows this item at $26.89 on earlier days, which is below today's sale price.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://valeriolucido.itch.io/de-collegium-folklorum",
+   "title": "De Collegium Folklorum",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 50% Off sale on a tabletop RPG, but the prices are in EUR while the deal says USD, and no end date is shown."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text is entirely in Italian, so the rulebook is probably not English. RPG Hunt lists English products only, so the owner should decide. The page gives no sale end date, so the claimed 2026-10-31 cannot be confirmed. The Jev history shows the price was already 4.99 on earlier runs. The page also advertises a bundle (\"Il grande ribasso\", 6 games for 14.98€). No instructions aimed at AI were found on the page.",
+    "price_now_seen": "4.99€",
+    "price_was_seen": "9.99€",
+    "reason": "The page shows a real 50% Off sale on a tabletop RPG, but the prices are in EUR while the deal says USD, and no end date is shown.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://lithun.itch.io/the-deck-of-twists",
+   "title": "The Deck of Twists",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-30 is unconfirmed. $1.79 is the minimum price ('or more'). The page also offers a 7-deck bundle for $11.63. No text addressed to AI was found.",
+    "price_now_seen": "$1.79",
+    "price_was_seen": "$3.99",
+    "reason": "The page shows a system-agnostic GM tool deck for tabletop RPGs (tagged Tabletop role-playing game) marked 'On Sale! 55% Off', with $3.99 struck through and $1.79 as the current price.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-04"
+  },
+  {
+   "job": "recheck",
+   "key": "https://lithun.itch.io/the-deck-of-villains",
+   "title": "The Deck of Villains",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The claimed end date 2026-11-30 does not appear on the page, so it is unconfirmed. The product is a PDF GM tool, listed under itch.io's 'Physical game' category. No text addressed to AI was found.",
+    "price_now_seen": "$1.34 USD",
+    "price_was_seen": "$2.99",
+    "reason": "The page shows a system-agnostic GM villain supplement (tagged Tabletop role-playing game) on sale at $1.34, 55% off the struck-through $2.99, running today.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-04"
+  },
+  {
+   "job": "recheck",
+   "key": "https://valeriolucido.itch.io/mangime",
+   "title": "Mangime",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 50% off sale on a solo tabletop RPG, but the prices are in euros while the deal claims USD, and no end date is shown."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text is mostly Italian, though the download includes an English PDF (Mangime_EN_A5_digital.pdf), so the English-only rule is also unclear. The claimed end date of 2026-10-31 does not appear on the page. The page also mentions a bundle (\"Il grande ribasso\", 6 items for 14.98€). I found no text on the page addressed to AI.",
+    "price_now_seen": "4.99€",
+    "price_was_seen": "9.99€",
+    "reason": "The page shows a real 50% off sale on a solo tabletop RPG, but the prices are in euros while the deal claims USD, and no end date is shown.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-player-kit",
+   "title": "Printable DnD Character Journal + DnD 2014 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a 35% off Halloween Sale at $18.99 (was $29.23), but the product is printable character sheets, spell cards and a journal, which may count as play accessories rather than a rulebook or supplement, and Jev's history shows it usually sold for $18.17, so the discount may not be real."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, although the deal record says 2026-11-04. The page text is ordinary product copy and has no instructions aimed at AI.",
+    "price_now_seen": "$18.99",
+    "price_was_seen": "$29.23",
+    "reason": "The page shows a 35% off Halloween Sale at $18.99 (was $29.23), but the product is printable character sheets, spell cards and a journal, which may count as play accessories rather than a rulebook or supplement, and Jev's history shows it usually sold for $18.17, so the discount may not be real.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-monster-cards",
+   "title": "D&D Monster Stat Cards | Printable PDF | Dungeons and Dragons 5e | 2014 and 2024 Editions",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page shows 35% off in a Halloween Sale, but our own history has this item at a usual price of $13.81 over 6 days, so $14.43 is not a real discount, and printable monster cards are a GM aid rather than a clear rulebook, adventure or supplement."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the deal's 2026-11-04 end date is not on the page. The page text had no instructions addressed to AI.",
+    "price_now_seen": "$14.43",
+    "price_was_seen": "$22.21",
+    "reason": "The page shows 35% off in a Halloween Sale, but our own history has this item at a usual price of $13.81 over 6 days, so $14.43 is not a real discount, and printable monster cards are a GM aid rather than a clear rulebook, adventure or supplement.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-random-encounter-tables-bundle",
+   "title": "DnD d100 Roll Charts Bundle: Random Encounter Tables, 5 Books (PDF)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a 35% Halloween Sale at $15.20, down from $23.39, but the price history shows a usual price of $14.54 over 6 days, so $15.20 is higher than the earlier price and the discount may be inflated."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The product is a printable D&D 5e random encounter table set (a GM supplement), so it is a tabletop RPG product. The page shows no sale end date, so the claimed 2026-11-04 is not confirmed. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$15.20",
+    "price_was_seen": "$23.39",
+    "reason": "The page shows a 35% Halloween Sale at $15.20, down from $23.39, but the price history shows a usual price of $14.54 over 6 days, so $15.20 is higher than the earlier price and the discount may be inflated.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://valeriolucido.itch.io/campanilismo",
+   "title": "Campanili(smo)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a tabletop RPG on sale at 4.99€ (was 9.99€, 50% off), but the prices are in euros while the claim says USD, the page shows no end date to confirm 2026-10-31, and the game text is Italian."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page is tagged 'Tabletop role-playing game' and 'italian' and is written in Italian, so the English-only rule probably applies. The sale is shown as 'On Sale! 50% Off' with no end date. The page also offers a 6-game bundle for 14.98€ (Il grande ribasso). No text addressed to AI was found.",
+    "price_now_seen": "4.99€",
+    "price_was_seen": "9.99€",
+    "reason": "The page shows a tabletop RPG on sale at 4.99€ (was 9.99€, 50% off), but the prices are in euros while the claim says USD, the page shows no end date to confirm 2026-10-31, and the game text is Italian.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://lithun.itch.io/the-deck-of-doors",
+   "title": "The Deck of Doors",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-30 is not confirmed by the page. The $1.79 price is a minimum ('or more'), as on itch.io pay-what-you-want pages. The product is a downloadable PDF listed under the Physical game category. It also appears in a 7-item bundle at $11.63, which is a separate offer. No text addressed to AI was found.",
+    "price_now_seen": "$1.79",
+    "price_was_seen": "$3.99",
+    "reason": "The page shows a system-agnostic GM tool supplement (54-card location generator for tabletop GMs, tagged Tabletop role-playing game) marked 'On Sale! 55% Off' with $3.99 struck through and $1.79 as the current price.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-04"
+  },
+  {
+   "job": "recheck",
+   "key": "https://lithun.itch.io/the-deck-of-whispers",
+   "title": "The Deck of Whispers",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed end date of 2026-11-30 is not confirmed. The page also offers a 7-item bundle at $11.63, which is a separate offer. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$1.34",
+    "price_was_seen": "$2.99",
+    "reason": "The page shows a system-agnostic GM supplement (rumor and plot-hook deck, tagged Tabletop role-playing game) marked 'On Sale! 55% Off', from $2.99 to $1.34 USD.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-04"
+  },
+  {
+   "job": "recheck",
+   "key": "https://lithun.itch.io/the-deck-of-consequences",
+   "title": "The Deck of Consequences",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-30 is not confirmed. It is a downloadable PDF (54 kB) even though itch.io files it under 'Physical game' and 'Card Game'. It is part of a 7-item bundle ('The Deck of Sales') priced at $11.63. The page says it was AI Assisted (Text). The page contains no instructions aimed at AI.",
+    "price_now_seen": "$2.24",
+    "price_was_seen": "$4.99",
+    "reason": "The page shows a system-agnostic GM supplement for tabletop RPGs (tagged 'Tabletop role-playing game') at $2.24, down from $4.99 (55% off) with an 'On Sale!' banner.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-04"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-barbarian-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Barbarian Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page does show 35% off during the Halloween Sale, but the product is a printable character sheet (a play accessory, not a rulebook, adventure or supplement), and the shop's own price history shows it at $3.26 before, so $3.41 is not a real discount."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end date of 2026-11-04 is not on the page. The page has no text addressed to AI.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page does show 35% off during the Halloween Sale, but the product is a printable character sheet (a play accessory, not a rulebook, adventure or supplement), and the shop's own price history shows it at $3.26 before, so $3.41 is not a real discount.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-monk-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Monk Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page does show a 35% off Halloween Sale at $3.41, but the product is a printable D&D character sheet (a play accessory, not a rulebook, adventure or supplement), and the shop's own history shows it at $3.26 before, so $3.41 is not a real discount."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end date 2026-11-04 is not on the page. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page does show a 35% off Halloween Sale at $3.41, but the product is a printable D&D character sheet (a play accessory, not a rulebook, adventure or supplement), and the shop's own history shows it at $3.26 before, so $3.41 is not a real discount.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-paladin-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Paladin Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a running Halloween Sale 2026 at 35% off ($5.25 to $3.41), but the product is a printable D&D 5e character sheet, and it is unclear whether that counts as a supplement or as an excluded accessory."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The price and sale are confirmed on the page. The page shows no end date, so the claimed 2026-11-04 is not confirmed. The product is tagged Tabletop role-playing game, character-sheet and gm-tools. No instructions addressed to AI found on the page.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a running Halloween Sale 2026 at 35% off ($5.25 to $3.41), but the product is a printable D&D 5e character sheet, and it is unclear whether that counts as a supplement or as an excluded accessory.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-druid-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Druid Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page does show $3.41 against $5.25 in the Halloween Sale, but this is a printable character sheet (a play accessory, not a rulebook, adventure or supplement), and Jev's history shows it usually sells for $3.26, so the $5.25 'normal' price is not real."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed 2026-11-04 is not confirmed by the page. The page text contained no instructions addressed to AI.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page does show $3.41 against $5.25 in the Halloween Sale, but this is a printable character sheet (a play accessory, not a rulebook, adventure or supplement), and Jev's history shows it usually sells for $3.26, so the $5.25 'normal' price is not real.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Warlock Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page does show $3.41 against $5.25 with a '35% Off' Halloween Sale tag, but this is a printable D&D character sheet (a play aid, not clearly a rulebook, adventure or supplement), and the price history shows a usual price of $3.26, below today's sale price."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed 2026-11-04 is not on the page. The 'Get this game and 111 more for $737.32' bundle line is a separate offer. No text addressed to AI was found.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page does show $3.41 against $5.25 with a '35% Off' Halloween Sale tag, but this is a printable D&D character sheet (a play aid, not clearly a rulebook, adventure or supplement), and the price history shows a usual price of $3.26, below today's sale price.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-player-kit-2024",
+   "title": "Printable DnD Character Journal + DnD 2024 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a Halloween Sale at 35% off ($29.23 to $18.99), but the product is printable character sheets, spell cards and a journal, which may count as accessories rather than RPG books, and the price history shows the usual price was lower ($18.17), so the discount may not be real."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-04 was not confirmed. Page text was plain product copy and contained no instructions addressed to AI.",
+    "price_now_seen": "$18.99",
+    "price_was_seen": "$29.23",
+    "reason": "The page shows a Halloween Sale at 35% off ($29.23 to $18.99), but the product is printable character sheets, spell cards and a journal, which may count as accessories rather than RPG books, and the price history shows the usual price was lower ($18.17), so the discount may not be real.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-rogue-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Rogue Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page confirms a 35% Halloween Sale at $3.41, down from $5.25, but the product is a printable D&D character sheet, which may count as an accessory rather than an RPG supplement, and the page shows no end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text contains no instructions addressed to AI. The 2026-11-04 end date in the deal record does not appear on the page. The same listing is part of an itch.io bundle (112 items for $737.32).",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page confirms a 35% Halloween Sale at $3.41, down from $5.25, but the product is a printable D&D character sheet, which may count as an accessory rather than an RPG supplement, and the page shows no end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-bard-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Bard Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but this is a printable character sheet (a play aid, not clearly a rulebook, adventure or supplement), and it was seen earlier at $3.26, below the 'sale' price, so the discount looks doubtful."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show an end date, so the claimed 2026-11-04 is unconfirmed. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but this is a printable character sheet (a play aid, not clearly a rulebook, adventure or supplement), and it was seen earlier at $3.26, below the 'sale' price, so the discount looks doubtful.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-random-encounter-tables-5",
+   "title": "Planar and Ocean Encounters D&D d100 Random Table Generator | Dungeon Master Tools | Dungeons and Dragons",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, so the claimed 2026-11-04 is not confirmed by the page. The page says the product was made with AI assistance. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.80",
+    "price_was_seen": "$5.85",
+    "reason": "The page shows a printable D&D 5e random encounter table PDF (a tabletop RPG GM supplement) at $3.80, down from $5.85 (35% off), under the 'Halloween Sale 2026' banner.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Fighter Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows $5.25 cut to $3.41 (35% off, 'Halloween Sale 2026'), but the product is a printable D&D character sheet, which may count as an accessory rather than a rulebook, adventure or supplement. The page shows no end date. Our history has a usual price of $3.26, below the claimed sale price."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text is ordinary product copy and contains no instructions aimed at AI. The claimed price matches the page. Whether a character sheet counts as an RPG product, and whether the $5.25 'was' price is real, are for the owner to decide.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows $5.25 cut to $3.41 (35% off, 'Halloween Sale 2026'), but the product is a printable D&D character sheet, which may count as an accessory rather than a rulebook, adventure or supplement. The page shows no end date. Our history has a usual price of $3.26, below the claimed sale price.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://valeriolucido.itch.io/while-the-sand-lasts",
+   "title": "While the sand lasts",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows prices in EUR (itch.io may be converting for the visitor), but the deal record says USD. The amounts match, so the owner may want to check the currency label. The page shows no sale end date, so the claimed end of 2026-10-31 is not confirmed. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "4.99€",
+    "price_was_seen": "9.99€",
+    "reason": "The page shows this tabletop RPG (GM-less, no dice) marked 'On Sale! 50% Off', with 9.99€ struck through and 4.99€ as the current price.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Cleric Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows $5.25 cut to $3.41 (35% off, Halloween Sale 2026), but this is a printable D&D character sheet PDF, which may count as an accessory rather than a rulebook, adventure or supplement, and the page shows no end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Jev history lists a usual and lowest earlier price of $3.26, below today's $3.41, so the discount against a real normal price is doubtful. The page lists the item as a 'Physical game' with tags including gm-tools and character-sheet. No text addressed to AI was found on the page.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows $5.25 cut to $3.41 (35% off, Halloween Sale 2026), but this is a printable D&D character sheet PDF, which may count as an accessory rather than a rulebook, adventure or supplement, and the page shows no end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Ranger Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a running 35% off Halloween Sale at $3.41, down from $5.25, but the product is a printable D&D 5e character sheet. That may count as an accessory rather than a rulebook, adventure or supplement, and the page shows no end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The prices match the claim. The page names the sale and gives no end date, so the claimed 2026-11-04 is unconfirmed. Whether character sheets count as RPG products is the owner's call. The page contains no text addressed to AI.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a running 35% off Halloween Sale at $3.41, down from $5.25, but the product is a printable D&D 5e character sheet. That may count as an accessory rather than a rulebook, adventure or supplement, and the page shows no end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Sorcerer Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but the product is a printable D&D character sheet, which may count as an accessory rather than a rulebook, adventure or supplement. The price history shows a usual price of $3.26, below today's sale price, and the page gives no end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No instructions aimed at AI found on the page. The page text confirms the sale price and the original price. It has no end date, so the claimed end date of 2026-11-04 is unconfirmed. The page also advertises a 112-item bundle for $737.32.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but the product is a printable D&D character sheet, which may count as an accessory rather than a rulebook, adventure or supplement. The price history shows a usual price of $3.26, below today's sale price, and the page gives no end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-wizard-character-sheet-2024",
+   "title": "DnD 2024 Character Sheet Wizard Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a live 35% off sale ($5.25 to $3.41), but the product is a fillable D&D 5e character sheet PDF, so I can't tell whether it counts as a rulebook, adventure or supplement or is an excluded accessory."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Page text matched the claimed prices, with no instructions aimed at AI. The page shows no sale end date, so the claimed 2026-11-04 is unconfirmed. The sale is labelled 'Halloween Sale 2026' and is still running today. Jev's earlier price history lists a usual price of $3.26, which does not fit a $5.25 normal price. The owner should check that.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a live 35% off sale ($5.25 to $3.41), but the product is a fillable D&D 5e character sheet PDF, so I can't tell whether it counts as a rulebook, adventure or supplement or is an excluded accessory.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-npc-generator",
+   "title": "DnD NPC Generator: 160 Ready NPCs, DM Reference Sheets (Digital Download)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a 35% off Halloween Sale at $3.41 against $5.25 for a 5e NPC table PDF (an RPG GM tool), but the shop's own price history says the usual price was $3.26, so the $5.25 normal price may not be genuine."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end of 2026-11-04 is not on it. The page has no text addressed to AI.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a 35% off Halloween Sale at $3.41 against $5.25 for a 5e NPC table PDF (an RPG GM tool), but the shop's own price history says the usual price was $3.26, so the $5.25 normal price may not be genuine.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-plot-hooks-and-rumor-tables",
+   "title": "DnD Tables | Digital Download | Rumors and Plot Hooks | DM Tools | Dungeons and Dragons 5E | 240 Rumors | Homebrew",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text shows no sale end date, so the claimed end date of 2026-11-04 is not confirmed here. The product is a GM-tools supplement (random tables, no stat blocks or maps), and the page says the text was made with AI assistance. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a D&D 5E rumor and plot hook table supplement at $3.41, down from $5.25 (35% off), under the 'Halloween Sale 2026' banner.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-initiative-tracker-dm-binder",
+   "title": "D&D 5e Initiative Tracker: Printable DM Binder, 12 Fillable Sheets (PDF)",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows 35% off ($7.01 to $4.55) in a Halloween Sale, but this is a printable GM worksheet binder (closer to an accessory than a rulebook, adventure or supplement), it shows no end date, and the price history shows a usual price of $4.35, which is lower than the sale price."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No instructions aimed at AI found on the page. The page shows no sale end date, so the claimed end date of 2026-11-04 could not be confirmed. The price history (usual and lowest price $4.35) contradicts the claimed $7.01 normal price. Whether a fillable GM tracker counts as an RPG product is for the owner to decide.",
+    "price_now_seen": "$4.55",
+    "price_was_seen": "$7.01",
+    "reason": "The page shows 35% off ($7.01 to $4.55) in a Halloween Sale, but this is a printable GM worksheet binder (closer to an accessory than a rulebook, adventure or supplement), it shows no end date, and the price history shows a usual price of $4.35, which is lower than the sale price.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet",
+   "title": "DnD 5e Character Sheet Warlock Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows $3.41 against $5.25 under a '35% Off' Halloween Sale banner, but it is a fillable D&D 5e character sheet (a play aid, which may count as an accessory rather than a rulebook or supplement), it shows no end date, and our history lists the usual price as $3.26, which is below the current 'sale' price."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date appears on the page, so the claimed 2026-11-04 is unconfirmed. The page text has no instructions aimed at AI.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows $3.41 against $5.25 under a '35% Off' Halloween Sale banner, but it is a fillable D&D 5e character sheet (a play aid, which may count as an accessory rather than a rulebook or supplement), it shows no end date, and our history lists the usual price as $3.26, which is below the current 'sale' price.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-gothic",
+   "title": "Gothic DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% off Halloween Sale at $6.83 (was $10.51), but the product is a printable D&D character sheet set, which may count as an accessory rather than a rulebook, adventure or supplement."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show an end date. The Jev history lists a usual price of $6.53, so the $10.51 'was' price may not be the normal price, and $6.83 is above the usual price. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$6.83",
+    "price_was_seen": "$10.51",
+    "reason": "The page shows a real 35% off Halloween Sale at $6.83 (was $10.51), but the product is a printable D&D character sheet set, which may count as an accessory rather than a rulebook, adventure or supplement.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-dark-academia",
+   "title": "Dark Academia DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page does show a running 35% shop-wide sale, but the product is a printable character sheet set (a play accessory, not a rulebook, adventure or supplement), and the history shows it usually sells for $6.53, so $6.83 is not a real discount."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date, though the deal record says 2026-12-01. The page text has no instructions addressed to AI. The $745.11 figure is a whole-shop bundle offer, not this product's price.",
+    "price_now_seen": "$6.83",
+    "price_was_seen": "$10.51",
+    "reason": "The page does show a running 35% shop-wide sale, but the product is a printable character sheet set (a play accessory, not a rulebook, adventure or supplement), and the history shows it usually sells for $6.53, so $6.83 is not a real discount.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-druid-character-sheet",
+   "title": "DnD 5e Character Sheet Druid Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35% off Halloween Sale price ($5.25 to $3.41), but the product is a printable D&D 5e character sheet, and I can't tell whether that counts as an RPG product or an excluded accessory."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date, so the claimed 2026-11-04 is unconfirmed. The page has no text addressed to AI.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a real 35% off Halloween Sale price ($5.25 to $3.41), but the product is a printable D&D 5e character sheet, and I can't tell whether that counts as an RPG product or an excluded accessory.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet",
+   "title": "DnD 5e Character Sheet Fighter Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but the product is a fillable D&D 5e character sheet PDF, which may count as an accessory rather than a rulebook or supplement. Its own price history also shows a usual price of $3.26, below today's sale price, so the discount may not be real."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date is shown on the page, so the claimed 2026-11-04 end could not be confirmed. The page text contained no instructions addressed to AI.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a 35% off Halloween Sale at $3.41 (was $5.25), but the product is a fillable D&D 5e character sheet PDF, which may count as an accessory rather than a rulebook or supplement. Its own price history also shows a usual price of $3.26, below today's sale price, so the discount may not be real.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet",
+   "title": "DnD 5e Character Sheet Ranger Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real 35%-off shop-wide sale ($5.25 to $3.41), but the product is a fillable D&D 5e character sheet PDF, which may count as an accessory rather than a rulebook or supplement. Jev's price history also lists a usual and lowest price of $3.26, below today's sale price."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date on the page; the listing's ends value of 2026-12-01 is not shown there. The page says it was made with AI tools. No text on the page addressed AI instructions.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a real 35%-off shop-wide sale ($5.25 to $3.41), but the product is a fillable D&D 5e character sheet PDF, which may count as an accessory rather than a rulebook or supplement. Jev's price history also lists a usual and lowest price of $3.26, below today's sale price.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-card-bundle-2024",
+   "title": "DnD 2024 DM Card Bundle, 4,127 Printable Cards: Monsters, Spells, Magic Items, NPCs, Quests, Traps, Events",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page does not show an end date, so the claimed 2026-12-01 is unconfirmed. Jev history shows about $54.74 for the last 6 days, which fits a sale that has been running that long. The listing is itch.io 'physical game' but the files are instant PDF downloads. The page discloses AI-assisted content. No instructions addressed to AI were found on the page.",
+    "price_now_seen": "$54.67",
+    "price_was_seen": "$84.11",
+    "reason": "The page shows this printable 5e (2024 rules) GM card set, tagged Tabletop role-playing game, at $54.67 USD, down from $84.11, under a '35% Off' banner for a shop-wide 'Version 2 Sale'.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-bard-character-sheet",
+   "title": "DnD 5e Character Sheet Bard Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page does show $3.41 against $5.25 in a shop-wide 35% sale, but the item is a printable character sheet (a play accessory, not a rulebook, adventure or supplement), and history shows it usually sells for $3.26, so $3.41 is no real discount."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date; the claimed end of 2026-12-01 is not visible in the page text. Nothing on the page was addressed to AI. The sale covers all 113 items in the shop (bundle: $745.11).",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page does show $3.41 against $5.25 in a shop-wide 35% sale, but the item is a printable character sheet (a play accessory, not a rulebook, adventure or supplement), and history shows it usually sells for $3.26, so $3.41 is no real discount.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-monk-character-sheet",
+   "title": "DnD 5e Character Sheet Monk Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page does show a 35% Halloween Sale, but the product is a printable character sheet (a play accessory, not a rulebook, adventure or supplement), and the shop's own history shows it at $3.26 before, so $3.41 is no real discount."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows a sale banner but no end date text; the claimed end date of 2026-11-04 could not be confirmed. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page does show a 35% Halloween Sale, but the product is a printable character sheet (a play accessory, not a rulebook, adventure or supplement), and the shop's own history shows it at $3.26 before, so $3.41 is no real discount.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet",
+   "title": "DnD 5e Character Sheet Sorcerer Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a Halloween Sale at 35% off ($5.25 to $3.41), but the product is a printable character sheet, which may count as an accessory rather than an RPG book, and the page shows no end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Price history shows a usual price of $3.26 and a lowest earlier price of $3.26, so $3.41 is not below the price seen before and the $5.25 normal price may be inflated. The page has no text addressed to AI.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a Halloween Sale at 35% off ($5.25 to $3.41), but the product is a printable character sheet, which may count as an accessory rather than an RPG book, and the page shows no end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-ember",
+   "title": "Ember DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page does show a 35% off Halloween Sale at $6.83 (was $10.51), but the product is a printable D&D character sheet set, which is a play aid or accessory rather than a clear rulebook, adventure or supplement, so I can't tell whether it counts as an RPG product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no sale end date (the claimed 2026-11-04 is not on it). Jev's history lists $6.53 as the lowest and usual price, so today's $6.83 is not a real low. The page text has no instructions aimed at AI.",
+    "price_now_seen": "$6.83",
+    "price_was_seen": "$10.51",
+    "reason": "The page does show a 35% off Halloween Sale at $6.83 (was $10.51), but the product is a printable D&D character sheet set, which is a play aid or accessory rather than a clear rulebook, adventure or supplement, so I can't tell whether it counts as an RPG product.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://onegoodeveningdnd.itch.io/dnd-barbarian-character-sheet",
+   "title": "DnD 5e Character Sheet Barbarian Printable and Fillable PDF D&D 5e",
+   "shop": "itch.io",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a 35% Halloween Sale at $3.41 (was $5.25), but the product is a printable D&D 5e character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, and Jev saw it at $3.26 in earlier runs, so the discount may not be real."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page has no end date. The 'ends: 2026-11-04' in the deal record is not on the page. The page text has no instructions aimed at AI.",
+    "price_now_seen": "$3.41",
+    "price_was_seen": "$5.25",
+    "reason": "The page shows a 35% Halloween Sale at $3.41 (was $5.25), but the product is a printable D&D 5e character sheet, which may count as an accessory rather than a rulebook, adventure or supplement, and Jev saw it at $3.26 in earlier runs, so the discount may not be real.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-11-03"
+  },
+  {
+   "job": "recheck",
+   "key": "https://koboldpress.com/kpstore/product/cities-towns-complete-bundle/",
+   "title": "Cities & Towns Complete Bundle",
+   "shop": "Kobold Press",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page shows no end date. The price text was in the page's screen-reader spans, not a struck-through element. The page contained no text addressed to AI.",
+    "price_now_seen": "$74.99",
+    "price_was_seen": "$98.89",
+    "reason": "The Kobold Press store page shows a Sale! badge, with the original price at $98.89 and the current price at $74.99. It is filed under Dungeons & Dragons 5.5E, Tales of the Valiant, Player Options and Maps, so it is a tabletop RPG supplement bundle.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-22"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/alice-is-missing-silent-falls/",
+   "title": "Alice is Missing: Silent Falls",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product page shows only $20.00 with no struck-through normal price or sale label, so the page does not show a discount; the one struck $35.00 sits in a different related-product card."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The product is a 38-card expansion for Alice is Missing, which the page calls a silent role playing game, so its RPG status is borderline. The listing was found via /clearance/, but the product page itself shows no sale. No AI-directed text seen on the page.",
+    "price_now_seen": "$20.00",
+    "price_was_seen": null,
+    "reason": "The product page shows only $20.00 with no struck-through normal price or sale label, so the page does not show a discount; the one struck $35.00 sits in a different related-product card.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/g-i-joe-roleplaying-game-pre-gen-character-sheets/",
+   "title": "G.I. JOE Roleplaying Game PDF Pre-Gen Character Sheets",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a permanent free $0 RPG bonus download (pre-gen character sheets) with no struck-through normal price, no sale wording and no end date, so it cannot be confirmed as a running sale or clearance."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The claimed price_was of 21.99 does not appear on the page. The product is a free supplement with reviews dating from 2022, so it looks like a standing freebie rather than a promotion. The page contains no text addressed to AI.",
+    "price_now_seen": "$0.00",
+    "price_was_seen": null,
+    "reason": "The page shows a permanent free $0 RPG bonus download (pre-gen character sheets) with no struck-through normal price, no sale wording and no end date, so it cannot be confirmed as a running sale or clearance.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/my-little-pony-roleplaying-game-fillable-pdf-character-sheet/",
+   "title": "My Little Pony Roleplaying Game Fillable PDF Character Sheet",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product page shows only $0.00 with no normal price or sale label, so this is a standing free character sheet and not a running sale; the struck-through $21.99 belongs to a different product card in the related-products list."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The $21.99 struck-through price is in a div.card-text related-product card, not in div.productView-price. No text on the page addresses AI.",
+    "price_now_seen": "$0.00",
+    "price_was_seen": null,
+    "reason": "The product page shows only $0.00 with no normal price or sale label, so this is a standing free character sheet and not a running sale; the struck-through $21.99 belongs to a different product card in the related-products list.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-essence-20-roleplaying-system-field-guide-to-action-and-adventure-crossover-sourcebook/",
+   "title": "PDF Essence 20 Roleplaying System Field Guide to Action and Adventure Crossover Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product page shows only $38.00 with no struck-through normal price, so no discount is shown for this PDF."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The only struck-through price on the page, $55.00, sits in a related-product card (the print edition), not in this product's price block. The product's own price block (span.price.price--withoutTax) shows $38.00 alone. No sale end date and no text addressed to AI found.",
+    "price_now_seen": "$38.00",
+    "price_was_seen": null,
+    "reason": "The product page shows only $38.00 with no struck-through normal price, so no discount is shown for this PDF.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-cobra-codex-sourcebook/",
+   "title": "PDF G.I. JOE Roleplaying Game Cobra Codex Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price block shows only $35.00 with no struck-through normal price; the only crossed-out $50.00 on the page sits in a related-product card (the physical Cobra Codex book), not this PDF."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page has no sale or clearance text. The deal was found via the /clearance/ listing, but this product page doesn't show it as discounted. No AI-directed text seen on the page.",
+    "price_now_seen": "$35.00",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $35.00 with no struck-through normal price; the only crossed-out $50.00 on the page sits in a related-product card (the physical Cobra Codex book), not this PDF.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-ferocious-fighters-factions-in-action-vol-1-sourcebook/",
+   "title": "PDF G.I. JOE Roleplaying Game Ferocious Fighters: Factions in Action Vol. 1 Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows only $20.00 with no normal price or sale label; the one struck-through $35.00 sits in a related-product card (the print edition), not in this product's own price block."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page is a tabletop RPG sourcebook (PDF), so the RPG check passes. The claimed $35.00 was-price may come from that related card or from the /clearance/ listing, which this recheck did not open. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$20.00",
+    "price_was_seen": null,
+    "reason": "The product page shows only $20.00 with no normal price or sale label; the one struck-through $35.00 sits in a related-product card (the print edition), not in this product's own price block.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-hawk-s-personnel-files-sourcebook/",
+   "title": "PDF G.I. JOE Roleplaying Game Hawk’s Personnel Files Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The PDF's own price block shows only $35.00 with no struck-through price; the $50.00 crossed-out price sits in a related-product card (likely the print edition), not on this product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No AI-directed text found on the page. The page's visible text has no sale or clearance wording. The only struck price ($50.00, span.price.price--non-sale) is inside div.card-text, a related-products card. The main price is div.productView-price span.price.price--withoutTax at $35.00.",
+    "price_now_seen": "$35.00",
+    "price_was_seen": null,
+    "reason": "The PDF's own price block shows only $35.00 with no struck-through price; the $50.00 crossed-out price sits in a related-product card (likely the print edition), not on this product.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-intercontinental-adventures-factions-in-action-vol-2-sourcebook/",
+   "title": "PDF G.I. JOE Roleplaying Game Intercontinental Adventures: Factions in Action Vol. 2 Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product's own price block shows only $30.00 with no struck-through normal price, and the only $45.00 struck price on the page sits in a related-product card, so the claimed discount is not shown for this item."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The site menu links a 'Last Chance Sale!' page (/clearance/), but this product page shows no sale or clearance label and no end date. No instructions aimed at AI found on the page.",
+    "price_now_seen": "$30.00",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $30.00 with no struck-through normal price, and the only $45.00 struck price on the page sits in a related-product card, so the claimed discount is not shown for this item.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-operation-cold-iron-adventure-book/",
+   "title": "PDF G.I. JOE Roleplaying Game Operation Cold Iron Adventure Book",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price block shows only $31.50 with no struck-through normal price; the $45.00 struck-through price sits in a Related Products card (the separate physical book), not on this PDF."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page has no sale or clearance label and no end date. The claimed was-price of $45.00 likely came from the related physical-book card. The page contains no text addressed to AI.",
+    "price_now_seen": "$31.50",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $31.50 with no struck-through normal price; the $45.00 struck-through price sits in a Related Products card (the separate physical book), not on this PDF.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-quartermasters-guide-to-gear-sourcebook/",
+   "title": "PDF G.I. JOE Roleplaying Game Quartermaster's Guide to Gear Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $30.00 with no normal price or sale label; the only struck-through $45.00 on the page is in a related-product card, not this product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The product is a tabletop RPG PDF (G.I. JOE RPG sourcebook). The claimed discount comes only from the clearance listing, which I did not open. The nav links to a 'Last Chance Sale!' page (/clearance/). No text on the page was addressed to AI.",
+    "price_now_seen": "$30.00",
+    "price_was_seen": null,
+    "reason": "The product page shows $30.00 with no normal price or sale label; the only struck-through $45.00 on the page is in a related-product card, not this product.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-sgt-slaughter-limited-edition-accessory-pack/",
+   "title": "PDF G.I. JOE Roleplaying Game Sgt Slaughter Limited Edition Accessory Pack",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $20.00 with no struck-through normal price; the only $55.00 struck price on the page sits in a related-product card (likely the physical edition), so the discount cannot be confirmed here."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page has no sale label or end date. It is linked from the 'Last Chance Sale!' clearance nav, but I did not open the clearance listing. No instructions aimed at AI found on the page.",
+    "price_now_seen": "$20.00",
+    "price_was_seen": null,
+    "reason": "The product page shows $20.00 with no struck-through normal price; the only $55.00 struck price on the page sits in a related-product card (likely the physical edition), so the discount cannot be confirmed here.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-the-emerald-oubliette-adventure/",
+   "title": "PDF G.I. JOE Roleplaying Game The Emerald Oubliette Adventure",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $10.00 with no normal price and no sale label; the only struck-through $30.00 is in a related-product card, so I can't tie it to this product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Product is a tabletop RPG adventure PDF (G.I. JOE RPG). The page's nav links 'Last Chance Sale!' (https://renegadegamestudios.com/clearance/), which is where the deal was found, but I did not open it. No AI-directed text was found on the page.",
+    "price_now_seen": "$10.00",
+    "price_was_seen": null,
+    "reason": "The product page shows $10.00 with no normal price and no sale label; the only struck-through $30.00 is in a related-product card, so I can't tie it to this product.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-welcome-to-the-treacherous-coils-of-cobra/",
+   "title": "PDF G.I. JOE Roleplaying Game Welcome to the Treacherous Coils of Cobra",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price block shows only $8.99 with no normal price or sale label; the struck-through $205.00 belongs to a different product card in the related-items section."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The $205.00 'was' price comes from a card in the related-products area (div.card-text > ... price--non-sale), not from the product's price block (div.productView-price). The page text has no sale or clearance wording. The shop's clearance listing linked this page, but the page itself does not show a discount.",
+    "price_now_seen": "$8.99",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $8.99 with no normal price or sale label; the struck-through $205.00 belongs to a different product card in the related-items section.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-g-i-joe-transformers-roleplaying-game-shock-mayhem/",
+   "title": "PDF G.I. JOE Transformers Roleplaying Game Shock & Mayhem",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows this RPG PDF at $3.99, but the main product has no normal or struck-through price, and the page says nothing about a sale or its end date."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The only struck-through $12.00 on the page (span.price.price--non-sale) is inside a related-product card (div.card-text), not the main product (div.productView-price). I could not tell which product that card belongs to. The site nav labels /clearance/ 'Last Chance Sale!', which is consistent with clearance, but this product page does not confirm it. No AI-addressed text found on the page.",
+    "price_now_seen": "$3.99",
+    "price_was_seen": null,
+    "reason": "The product page shows this RPG PDF at $3.99, but the main product has no normal or struck-through price, and the page says nothing about a sale or its end date.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-core-rulebook/",
+   "title": "PDF My Little Pony Roleplaying Game Core Rulebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $38.50 with no struck-through or 'was' price for this item, and the first page of the clearance listing does not include it, so the claimed $55.00 normal price is not confirmed."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The only struck $55.00 on the product page sits in a related-product card, not the main product. The clearance page opened (https://renegadegamestudios.com/clearance/) showed no link to this product in the part fetched. No instructions aimed at AI found on either page.",
+    "price_now_seen": "$38.50",
+    "price_was_seen": null,
+    "reason": "The product page shows $38.50 with no struck-through or 'was' price for this item, and the first page of the clearance listing does not include it, so the claimed $55.00 normal price is not confirmed.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-dark-skies-over-equestria-adventure-series-book/",
+   "title": "PDF My Little Pony Roleplaying Game Dark Skies Over Equestria Adventure Series Book",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product's own price block shows only $30.00 with no struck-through price; the only $45.00 on the page sits in a related-product card, so no normal price is confirmed for this item."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page has a nav link 'Last Chance Sale!' (clearance) but nothing on the product itself says it is on sale. The $45.00 struck price is in a div.card-text, probably the physical edition shown under related products. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$30.00",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $30.00 with no struck-through price; the only $45.00 on the page sits in a related-product card, so no normal price is confirmed for this item.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-diamond-dice-disaster/",
+   "title": "PDF My Little Pony Roleplaying Game Diamond Dice Disaster",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price block shows only $8.99 with no normal price or sale label; the struck-through $15.00 sits in a related-product card, not on this product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The only struck-through price on the page ($15.00, span.price.price--non-sale) is inside a div.card-text, which is the related-products area. The main price block (div.productView-price) has no non-sale price. The page has no end date. No text addressed to AI was found.",
+    "price_now_seen": "$8.99",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $8.99 with no normal price or sale label; the struck-through $15.00 sits in a related-product card, not on this product.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-in-a-jam-adventure/",
+   "title": "PDF My Little Pony Roleplaying Game In A Jam Adventure",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $10.00 with no normal price or sale label for this item; the struck-through $30.00 is on a different product card in the related-products section."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "I did not open the clearance page (found_via), so the discount was not confirmed there. The shop's nav links 'Last Chance Sale!' (/clearance/), which suggests clearance, but the product page itself shows no discount. No instructions addressed to AI were found on the page.",
+    "price_now_seen": "$10.00",
+    "price_was_seen": null,
+    "reason": "The product page shows $10.00 with no normal price or sale label for this item; the struck-through $30.00 is on a different product card in the related-products section.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-story-of-the-seasons-adventure-sourcebook/",
+   "title": "PDF My Little Pony Roleplaying Game Story of the Seasons Adventure & Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product page shows only $30.00 with no struck-through normal price or sale label; the $45.00 struck price on the page belongs to a different related product card (the print edition), and the product does not appear on the clearance page I opened."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The clearance page (page 1) did not list this PDF. No AI-addressed instructions seen on either page.",
+    "price_now_seen": "$30.00",
+    "price_was_seen": null,
+    "reason": "The product page shows only $30.00 with no struck-through normal price or sale label; the $45.00 struck price on the page belongs to a different related product card (the print edition), and the product does not appear on the clearance page I opened.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-knights-of-canterlot-sourcebook/",
+   "title": "PDF My Little Pony Roleplaying Game: Knights of Canterlot Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The PDF's own page shows only $20.00 with no struck-through normal price; the $35.00 crossed-out price belongs to a related-product card (likely the print edition), not this PDF."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The clearance page text I read did not list this PDF in the part I checked, although the shop's 'Last Chance Sale!' heading is active. No instructions aimed at AI were found on the pages.",
+    "price_now_seen": "$20.00",
+    "price_was_seen": null,
+    "reason": "The PDF's own page shows only $20.00 with no struck-through normal price; the $35.00 crossed-out price belongs to a related-product card (likely the print edition), not this PDF.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-a-glutton-for-punishment-adventure/",
+   "title": "PDF Power Rangers Roleplaying Game A Glutton for Punishment Adventure",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $10.00 with no normal price and no sale or clearance label; the only struck-out $30.00 on the page sits in a different product's card in the related-products list."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page's visible text is only the title, brand, $10.00 and the review prompt. The deal was found via the /clearance/ listing, which I did not open because the brief limits me to the deal page. The claimed $30.00 normal price may come from that listing or from the related-product card, and I could not confirm either. No instructions addressed to AI found on the page.",
+    "price_now_seen": "$10.00",
+    "price_was_seen": null,
+    "reason": "The product page shows $10.00 with no normal price and no sale or clearance label; the only struck-out $30.00 on the page sits in a different product's card in the related-products list.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-a-time-of-knight-adventure/",
+   "title": "PDF Power Rangers Roleplaying Game A Time of Knight Adventure",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $8.99 for this RPG adventure PDF but no normal price or sale label; the only struck-through $15.00 is on a related-product card, not this product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The deal was found via the shop's clearance page, which I did not open. The $15.00 struck price sits in a card (div.card-text > span.price--non-sale) among related products, so it can't be tied to this PDF. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$8.99",
+    "price_was_seen": null,
+    "reason": "The product page shows $8.99 for this RPG adventure PDF but no normal price or sale label; the only struck-through $15.00 is on a related-product card, not this product.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-across-the-stars-sourcebook/",
+   "title": "PDF Power Rangers Roleplaying Game Across the Stars Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price block shows only $38.50 with no struck-through normal price; the $55.00 struck price is in a separate related-product card (a different item), so this page shows no discount."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The $55.00 struck-through price sits under div.card-text in a related-products card, not in div.productView-price. The page does not say the PDF is on sale. The deal was found via the clearance page, but I did not open that page.",
+    "price_now_seen": "$38.50",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $38.50 with no struck-through normal price; the $55.00 struck price is in a separate related-product card (a different item), so this page shows no discount.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-adventures-in-angel-grove/",
+   "title": "PDF Power Rangers Roleplaying Game Adventures in Angel Grove",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product's own price block shows only $31.50 with no normal price; the one struck-through $45.00 on the page sits in a related-product card, so a discount on this item can't be confirmed."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Page header links 'Last Chance Sale!' (/clearance/), but the product page itself shows no sale label or end date. The $45.00 struck price is in div.card-text (a related product, likely the print book), not div.productView-price. No AI-directed text found on the page.",
+    "price_now_seen": "$31.50",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $31.50 with no normal price; the one struck-through $45.00 on the page sits in a related-product card, so a discount on this item can't be confirmed.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-beneath-the-helmet-sourcebook/",
+   "title": "PDF Power Rangers Roleplaying Game Beneath the Helmet Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product's own price block shows only $30.00 with no struck-through normal price; the only struck $45.00 on the page sits in a related-product card, so it can't be tied to this item."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No sale or clearance wording appears on the product page. The claimed $45.00 normal price and the clearance status come only from the clearance listing (https://renegadegamestudios.com/clearance/), which I did not open. No text addressed to AI was found.",
+    "price_now_seen": "$30.00",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $30.00 with no struck-through normal price; the only struck $45.00 on the page sits in a related-product card, so it can't be tied to this item.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-finsters-monster-matic-cookbook-sourcebook/",
+   "title": "PDF Power Rangers Roleplaying Game Finster's Monster-Matic Cookbook Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price block shows only $38.00 with no normal price or sale label; the struck-through $55.00 sits in a related-product card (div.card-text), not on this PDF."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text has no sale, clearance or promotion wording. The only struck price ($55.00, span.price--non-sale) is inside a related-product card, which probably belongs to the non-PDF edition linked below the product. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$38.00",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $38.00 with no normal price or sale label; the struck-through $55.00 sits in a related-product card (div.card-text), not on this PDF.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-jump-through-time-sourcebook/",
+   "title": "PDF Power Rangers Roleplaying Game Jump Through Time Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $35.00 with no struck-through normal price for this item; the only $50.00 struck price sits in a related-product card, so a discount cannot be confirmed."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page only links the shop-wide 'Last Chance Sale!' (/clearance/) in its menu, not sale details for this product. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$35.00",
+    "price_was_seen": null,
+    "reason": "The product page shows $35.00 with no struck-through normal price for this item; the only $50.00 struck price sits in a related-product card, so a discount cannot be confirmed.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-the-phantom-gambit-adventure/",
+   "title": "PDF Power Rangers Roleplaying Game The Phantom Gambit Adventure",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $12.00 with no struck-through normal price or sale label for this item; the only struck $20.00 sits in a related-product card, so the claimed discount cannot be confirmed here."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The nav has a 'Last Chance Sale!' link to /clearance/, but the product page itself shows no clearance label or end date. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$12.00",
+    "price_was_seen": null,
+    "reason": "The product page shows $12.00 with no struck-through normal price or sale label for this item; the only struck $20.00 sits in a related-product card, so the claimed discount cannot be confirmed here.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-through-the-shattered-grid-sourcebook/",
+   "title": "PDF Power Rangers Roleplaying Game Through the Shattered Grid Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product page shows only $30.00, with no struck-through normal price and no sale badge. The $45.00 struck price on the page belongs to a related-product card, not this item."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "I did not find this item on page 1 of https://renegadegamestudios.com/clearance/. That page lists 12 items, mostly G.I. JOE, and I did not open pages 2 to 6. If the item is on a later clearance page with a Was/Now price, the product page does not back it up. No instructions aimed at AI were found on either page.",
+    "price_now_seen": "$30.00",
+    "price_was_seen": null,
+    "reason": "The product page shows only $30.00, with no struck-through normal price and no sale badge. The $45.00 struck price on the page belongs to a related-product card, not this item.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-a-beacon-of-hope-adventure/",
+   "title": "PDF Transformers Roleplaying Game A Beacon of Hope Adventure",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $10.00 with no struck-through normal price or sale label; the only $30.00 struck-out price on it belongs to a related-product card (a different item), and the first clearance page does not list this product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Product is a tabletop RPG adventure PDF (Transformers RPG). Checked https://renegadegamestudios.com/clearance/ page 1 only; it lists other items with Was/Now prices but not this one. Clearance pages 2-6 were not opened. No AI-addressed text found on either page.",
+    "price_now_seen": "$10.00",
+    "price_was_seen": null,
+    "reason": "The product page shows $10.00 with no struck-through normal price or sale label; the only $30.00 struck-out price on it belongs to a related-product card (a different item), and the first clearance page does not list this product.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-decepticon-directive-sourcebook/",
+   "title": "PDF Transformers Roleplaying Game Decepticon Directive Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price block shows only $30.00 with no struck-through price; the $45.00 struck price sits in a related-product card (div.card-text), not on this PDF."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The $45.00 was price probably came from a different product's card, since the page's price_elements put it under a related-products card. The page has no sale or clearance label for this item.",
+    "price_now_seen": "$30.00",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $30.00 with no struck-through price; the $45.00 struck price sits in a related-product card (div.card-text), not on this PDF.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-the-enigma-of-combination-sourcebook/",
+   "title": "PDF Transformers Roleplaying Game The Enigma of Combination Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product's own price block shows only $30.00 with no struck-through normal price; the only struck $45.00 is inside a related-product card, so it can't be tied to this PDF."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page was reached from the clearance page, but it shows no sale label or end date of its own. The $30.00 price matches the claimed price. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$30.00",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $30.00 with no struck-through normal price; the only struck $45.00 is inside a related-product card, so it can't be tied to this PDF.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-the-time-is-now-adventure-book/",
+   "title": "PDF Transformers Roleplaying Game The Time is Now Adventure Book",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product's own price block shows only $31.50 with no normal price; the one struck-through $45.00 sits in a related-product card (div.card-text), and the page has no sale or clearance label of its own."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The $31.50 price matches the claim. The only sign of a sale is the shop's nav link 'Last Chance Sale!' (/clearance/) and the deal being found there. I did not open the clearance page. The struck $45.00 most likely belongs to the related physical book 'Transformers Roleplaying Game The Time is Now Adventure Book', so it cannot be tied to this PDF. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$31.50",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $31.50 with no normal price; the one struck-through $45.00 sits in a related-product card (div.card-text), and the page has no sale or clearance label of its own.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-technorganic-secrets-sourcebook/",
+   "title": "PDF Transformers Roleplaying Game: Technorganic Secrets Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price block shows only $30.00 with no struck-through normal price, and the one crossed-out $45.00 on the page sits in a related-product card, not this product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No sale, clearance or end date is shown on this product page. The $45.00 struck price is in a div.card-text inside a related-product card (likely the print edition). No text addressed to AI found.",
+    "price_now_seen": "$30.00",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $30.00 with no struck-through normal price, and the one crossed-out $45.00 on the page sits in a related-product card, not this product.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/pdf-transformers-roleplaying-game-transformers-one-sourcebook/",
+   "title": "PDF Transformers Roleplaying Game: Transformers ONE Sourcebook",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price block shows only $30.00 with no struck-through normal price or sale label; the only struck $45.00 on the page sits in a related-product card, not this product."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Jev also said contradicts (0.14). No AI-addressed text was found on the page. The deal was found via the clearance page, but this product page does not show it as a sale.",
+    "price_now_seen": "$30.00",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $30.00 with no struck-through normal price or sale label; the only struck $45.00 on the page sits in a related-product card, not this product.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-bundle/",
+   "title": "PDF Vampire: The Masquerade 5th Edition Roleplaying Bundle",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $64.97 with no normal price or sale label for this bundle; the only struck-through $172.50 sits in a related-product card, so it cannot be tied to this bundle."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page links to the shop's own sale listing ('Last Chance Sale!', https://renegadegamestudios.com/clearance/), which I did not open. The product page itself does not confirm a discount. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$64.97",
+    "price_was_seen": null,
+    "reason": "The product page shows $64.97 with no normal price or sale label for this bundle; the only struck-through $172.50 sits in a related-product card, so it cannot be tied to this bundle.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/power-rangers-roleplaying-game-pre-gen-character-sheets/",
+   "title": "Power Rangers Roleplaying Game Pre-Gen Character Sheets",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price is $0.00 with no normal price or sale label; the struck-through $21.99 sits in a separate related-product card, so this is an ordinary free PDF, not a running sale."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$0.00",
+    "price_was_seen": null,
+    "reason": "The product's own price is $0.00 with no normal price or sale label; the struck-through $21.99 sits in a separate related-product card, so this is an ordinary free PDF, not a running sale.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/teens-in-space-character-ship-sheet/",
+   "title": "Teens in Space Character & Ship Sheet",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page shows this product at $0.00 with no normal price or sale label; the struck-through $21.99 belongs to a different related-product card, so the claimed discount is not supported."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Product page is a character/ship sheet for Teens in Space (Kids on Bikes), likely a free PDF handout, not a discounted product. The $21.99 non-sale price sits in a separate 'related products' card (div.card-text), not in div.productView-price. No AI-directed text seen on the page.",
+    "price_now_seen": "$0.00",
+    "price_was_seen": null,
+    "reason": "The page shows this product at $0.00 with no normal price or sale label; the struck-through $21.99 belongs to a different related-product card, so the claimed discount is not supported.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-core-rulebook/",
+   "title": "Vampire: The Masquerade 5th Edition Roleplaying Game Core Rulebook PRE-ORDER",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price block shows only $55.00 with no struck-through normal price; the $172.50 struck price belongs to a different product card in the related-items section, and this is a pre-order page with no sale shown."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No AI-addressed instructions seen on the page.",
+    "price_now_seen": "$55.00",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $55.00 with no struck-through normal price; the $172.50 struck price belongs to a different product card in the related-items section, and this is a pre-order page with no sale shown.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-fall-of-london-chronicle/",
+   "title": "Vampire: The Masquerade 5th Edition Roleplaying Game Fall of London Chronicle",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows this RPG book at $50.00 with no struck-through normal price or sale label, so it does not confirm a discount; the claimed $172.50 appears only on a different product card in the related-products area."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The only struck-through price on the page ($172.50) is inside a related-product card (div.card-text), not the main product price (div.productView-price, $50.00, not struck). The claimed price_was of 172.50 was probably taken from that related card. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$50.00",
+    "price_was_seen": null,
+    "reason": "The page shows this RPG book at $50.00 with no struck-through normal price or sale label, so it does not confirm a discount; the claimed $172.50 appears only on a different product card in the related-products area.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-player-s-guide/",
+   "title": "Vampire: The Masquerade 5th Edition Roleplaying Game Players Guide",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product page shows only $50.00 with no struck-through normal price; the $172.50 struck price is on a different related-product card, so the claimed discount is not supported."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "Price is $50.00 but this product shows no sale or clearance marking. The $172.50 struck price sits in a card (div.card-text) in the related-products area, not in div.productView-price. The reader probably picked it up by mistake. No text on the page addressed to AI.",
+    "price_now_seen": "$50.00",
+    "price_was_seen": null,
+    "reason": "The product page shows only $50.00 with no struck-through normal price; the $172.50 struck price is on a different related-product card, so the claimed discount is not supported.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-revelations-of-the-dark-mother-accessory/",
+   "title": "Vampire: The Masquerade 5th Edition Roleplaying Game Revelations of the Dark Mother Accessory",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product page shows only $40.00 with no struck-through normal price or sale label; the $172.50 crossed-out price belongs to a different product card further down the page."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The claimed price_was of 172.50 looks like it was taken from a neighbouring product card (span.price.price--non-sale inside div.card-text), not from this product's own price block (div.productView-price). No text on the page addresses AI.",
+    "price_now_seen": "$40.00",
+    "price_was_seen": null,
+    "reason": "The product page shows only $40.00 with no struck-through normal price or sale label; the $172.50 crossed-out price belongs to a different product card further down the page.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-tradition-of-destruction/",
+   "title": "Vampire: The Masquerade 5th Edition Roleplaying Game Tradition of Destruction",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product's own price block shows only $12.00 with no normal price or sale label; the struck-through $172.50 belongs to a different product card in the related-items section."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The claimed price_was of 172.5 was probably picked up from a related-product card. The page also describes this as a stand-alone Free RPG Day story, so $12.00 looks like its regular price. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$12.00",
+    "price_was_seen": null,
+    "reason": "The product's own price block shows only $12.00 with no normal price or sale label; the struck-through $172.50 belongs to a different product card in the related-items section.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/vampire-the-masquerade-roleplaying-game-5th-edition-crimson-gutter/",
+   "title": "Vampire: The Masquerade Roleplaying Game 5th Edition The Crimson Gutter",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product page shows only $45.00 with no struck-through normal price or sale label; the $172.50 struck price on the page belongs to a different product card in the related-products section."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No AI-directed text found on the page. The claimed price_was of 172.5 looks like it was taken from a related-product card, not this product.",
+    "price_now_seen": "$45.00",
+    "price_was_seen": null,
+    "reason": "The product page shows only $45.00 with no struck-through normal price or sale label; the $172.50 struck price on the page belongs to a different product card in the related-products section.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/werewolf-the-apocalypse-5th-edition-roleplaying-game-primer/",
+   "title": "Werewolf: The Apocalypse 5th Edition Roleplaying Game Primer",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: This is a permanently free PDF primer listed under Free Bonus Content, with no normal price and no sale; the struck-through $175.00 belongs to a different product card in the related-items section."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No instructions aimed at AI found on the page.",
+    "price_now_seen": "$0.00",
+    "price_was_seen": null,
+    "reason": "This is a permanently free PDF primer listed under Free Bonus Content, with no normal price and no sale; the struck-through $175.00 belongs to a different product card in the related-items section.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/werewolf-the-apocalypse-5th-edition-roleplaying-game-red-tundra-story/",
+   "title": "Werewolf: The Apocalypse 5th Edition Roleplaying Game Red Tundra",
+   "shop": "Renegade Game Studios",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product page shows only $12.00 with no normal price or sale label, the item is out of stock, and the struck-through $175.00 belongs to a different product card."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The $175.00 struck-through price sits in a 'div.card-text' related-product card, not in the main 'div.productView-price' block, so the claimed was-price of 175 is wrong. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "$12.00",
+    "price_was_seen": null,
+    "reason": "The product page shows only $12.00 with no normal price or sale label, the item is out of stock, and the struck-through $175.00 belongs to a different product card.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://renegadegamestudios.com/werewolf-the-apocalypse-5th-edition-roleplaying-game-tribes-of-gaia/",
+   "title": "Werewolf: The Apocalypse 5th Edition Roleplaying Game Tribes of Gaia",
+   "shop": "Renegade Game Studios",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The product page shows $55.00 with no struck-through normal price. The only struck $175.00 on the page is in a related-product card, so I can't tie it to this book."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page text mentions no sale or clearance. I tried to open the clearance listing (https://renegadegamestudios.com/clearance/) to see whether this book appears there with a was-price, but that command was denied, so I did not check it. The page contains no text addressed to AI.",
+    "price_now_seen": "$55.00",
+    "price_was_seen": null,
+    "reason": "The product page shows $55.00 with no struck-through normal price. The only struck $175.00 on the page is in a related-product card, so I can't tie it to this book.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-30"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/voidheart-symphony-quickstart-kill-or-cure-revised-edition-rulebook",
+   "title": "Voidheart Symphony Quickstart Kill Or Cure (Revised Edition) Rulebook",
+   "shop": "tabletopgaming.shop",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The discount is small (5%). The text 'Sold out' appears on the page but so does '5 in stock', so it is most likely a hidden button label. No end date is shown. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "£9.50",
+    "price_was_seen": "£10.00",
+    "reason": "The page shows a Sale tag with £9.50 against a struck-through £10.00 for a quickstart scenario of the tabletop RPG Voidheart Symphony, listed as Game Type: Rule Books.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/dagger-in-the-heart-2nd-print-rulebook",
+   "title": "Dagger in the Heart - 2nd Print Rulebook",
+   "shop": "tabletopgaming.shop",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The discount is small, about 4%. The text 'Sold out' appears on the page but sits beside '5 in stock' and looks like a hidden button label. No end date is shown. The page contained no text addressed to AI.",
+    "price_now_seen": "£33.49",
+    "price_was_seen": "£35.00",
+    "reason": "The page shows the Dagger in the Heart rulebook (an adventure for the RPG Heart: The City Beneath, Game Type: Rule Books) with a Sale price of £33.49 and £35.00 struck through, and it lists 5 in stock.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/godsrain-a-pathfinder-novel-softcover-rulebook",
+   "title": "Godsrain: A Pathfinder Novel (Softcover) Rulebook",
+   "shop": "tabletopgaming.shop",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page describes a Pathfinder tie-in novel (fiction, not an RPG book) and it is marked Sold out / Out of stock."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The page says 'Game Type: Rule Books', but the description is clearly a novel by Liane Merciel. No text addressed to AI found.",
+    "price_now_seen": "£15.99",
+    "price_was_seen": "£16.99",
+    "reason": "The page describes a Pathfinder tie-in novel (fiction, not an RPG book) and it is marked Sold out / Out of stock.",
+    "verdict": "drop"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/mycologists-primer-sourcebook",
+   "title": "Mycologist's Primer Sourcebook",
+   "shop": "tabletopgaming.shop",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The discount is small (about 5%). The page text contains both 'Sold out' and '5 in stock'. The 'Sold out' text is probably a hidden button state, since stock shows 5. No end date is shown. No instructions aimed at AI were found on the page.",
+    "price_now_seen": "£47.49",
+    "price_was_seen": "£49.99",
+    "reason": "The page marks this system-agnostic RPG sourcebook (Game Type: Roleplaying Games) as 'Sale' at £47.49, with £49.99 struck through, and shows 5 in stock.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/the-deck-of-many-things-dungeons-dragons",
+   "title": "The Deck of Many Things: Dungeons & Dragons",
+   "shop": "tabletopgaming.shop",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "The discount is small, about 4.7%. The page text has both 'Sold out' and '5 in stock'. The 'Sold out' text is most likely a hidden button label, but I could not confirm that. No end date is shown. I found no text on the page addressed to AI.",
+    "price_now_seen": "£80.99",
+    "price_was_seen": "£84.99",
+    "reason": "The page shows this D&D box set (The Book of Many Things plus a card deck, listed as Game Type: Roleplaying Games) at a sale price of £80.99, with £84.99 struck through and a Sale label.",
+    "verdict": "publish"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/battletech-gothic-miniatures",
+   "title": "BattleTech Gothic Role Playing Game/Miniatures",
+   "shop": "tabletopgaming.shop",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real sale (£94.99 against a struck-through £99.99, 5 in stock), but the product is a boxed set of 7 BattleMech miniatures with a rulebook, and the shop tags it 'Roleplaying Games (RPG's)', so I can't tell whether it counts as a tabletop RPG or as miniatures, which are out of scope."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date shown. The page's 'Sold out' label sits next to '5 in stock', which is probably hidden template text. No instructions aimed at AI found on the page.",
+    "price_now_seen": "£94.99",
+    "price_was_seen": "£99.99",
+    "reason": "The page shows a real sale (£94.99 against a struck-through £99.99, 5 in stock), but the product is a boxed set of 7 BattleMech miniatures with a rulebook, and the shop tags it 'Roleplaying Games (RPG's)', so I can't tell whether it counts as a tabletop RPG or as miniatures, which are out of scope.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recheck",
+   "key": "https://tabletopgaming.shop/products/stormlight-plot-decks-role-playing-game",
+   "title": "Stormlight Plot Decks Role Playing Game",
+   "shop": "tabletopgaming.shop",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real sale (£11.49 against a struck-through £11.99, about 4% off) and the shop files it under Roleplaying Games. But it is a deck of Opportunity and Complication cards for the Cosmere RPG, which may count as an accessory rather than a rulebook or supplement, so I can't tell if it belongs."
+   ],
+   "agent": {
+    "ends_seen": null,
+    "model": "sonnet",
+    "notes": "No end date shown. The page text also contains 'Sold out' next to '5 in stock', probably leftover template text. No instructions aimed at AI found on the page.",
+    "price_now_seen": "£11.49",
+    "price_was_seen": "£11.99",
+    "reason": "The page shows a real sale (£11.49 against a struck-through £11.99, about 4% off) and the shop files it under Roleplaying Games. But it is a deck of Opportunity and Complication cards for the Cosmere RPG, which may count as an accessory rather than a rulebook or supplement, so I can't tell if it belongs.",
+    "verdict": "unsure"
+   },
+   "agent_run": null,
+   "reused_from": "2026-10-27"
+  },
+  {
+   "job": "recipe",
+   "key": "recipe:itch",
+   "shop": "itch.io",
+   "why": "break alarm",
+   "outcome": "rejected",
+   "agent_run": {
+    "seconds": 101.8,
+    "turns": 2,
+    "cost_usd": 0.0772612,
+    "error": null,
+    "hook_blocked": false
+   },
+   "agent_result": "blocked",
+   "agent_notes": "The sale page https://itch.io/physical-games/on-sale/tag-ttrpg returned HTTP 429 (too many requests) after the fetch command's own retries. I did not try to get around it. The saved recipe could not be re-tested today, so I can't say whether the selectors still work or whether the break alarm comes from this rate limit or from a page change. Try again later.",
+   "proposed_recipe": null,
+   "validation": {
+    "accepted": false,
+    "reasons": [
+     "agent_result: blocked"
+    ],
+    "recipe": null,
+    "deals": 0,
+    "matched": [],
+    "sample": []
+   },
+   "reasons": [
+    "agent_result: blocked"
+   ]
+  },
+  {
+   "job": "recipe",
+   "key": "recipe:paizo",
+   "shop": "Paizo",
+   "why": "reader returned 0 deals",
+   "outcome": "accepted",
+   "agent_run": {
+    "seconds": 29.7,
+    "turns": 6,
+    "cost_usd": 0.10678889999999999,
+    "error": null,
+    "hook_blocked": false
+   },
+   "agent_result": "recipe",
+   "agent_notes": "The old sale page https://store.paizo.com/fall-clearance-sale/ now returns 404, which is why the reader found 0 deals. https://store.paizo.com/sales/ is only an info page with no products. It lists the Fall Clearance discounts by product line and links to these category pages. The two category pages above are the First Edition lines (50-70% off) and show struck-through prices. The selectors are unchanged and match on these pages. Not verified: I did not run --css on the Starfinder page or open a product from it; its struck-through prices are $10.99 and $9.99. The Pathfinder Second Edition page (20% off) showed no struck-through prices when I opened it, so I left it out. Category pages mix discounted and full-price items, so the reader should keep only items that have a price_was. Miniatures, board games and the card game are in the sale but are not RPG products, so they are left out. No sale end date is shown on the pages I opened. No instructions addressed to AI were seen.",
+   "proposed_recipe": {
+    "sale_pages": [
+     "https://store.paizo.com/pathfinder/pathfinder-first-edition/",
+     "https://store.paizo.com/starfinder/starfinder-first-edition/"
+    ],
+    "product_link": "article.card figure.card-figure a",
+    "price_now": "span.price.price--withoutTax",
+    "price_was": "span.price.price--rrp",
+    "ends": null
+   },
+   "validation": {
+    "accepted": true,
+    "reasons": [
+     "ok"
+    ],
+    "recipe": {
+     "sale_pages": [
+      "https://store.paizo.com/pathfinder/pathfinder-first-edition/",
+      "https://store.paizo.com/starfinder/starfinder-first-edition/"
+     ],
+     "product_link": "article.card figure.card-figure a",
+     "price_now": "span.price.price--withoutTax",
+     "price_was": "span.price.price--rrp"
+    },
+    "deals": 36,
+    "matched": [
+     {
+      "evidence_url": "https://store.paizo.com/pathfinder-roleplaying-game-planar-adventures/",
+      "deal_url": "https://store.paizo.com/pathfinder-roleplaying-game-planar-adventures/",
+      "price_now": 22.5,
+      "price_was": 44.99,
+      "same_url": true
+     }
+    ],
+    "sample": [
+     {
+      "title": "Pathfinder Roleplaying Game: Planar Adventures",
+      "url": "https://store.paizo.com/pathfinder-roleplaying-game-planar-adventures/",
+      "price_now": 22.5,
+      "price_was": 44.99
+     },
+     {
+      "title": "Pathfinder Campaign Setting: The Inner Sea World Guide (PFRPG) Hardcover",
+      "url": "https://store.paizo.com/pathfinder-chronicles-campaign-setting-world-guide-the-inner-sea/",
+      "price_now": 25.0,
+      "price_was": 49.99
+     },
+     {
+      "title": "Pathfinder Roleplaying Game: Mythic Adventures (OGL) Hardcover",
+      "url": "https://store.paizo.com/pathfinder-rpg-mythic-adventures/",
+      "price_now": 10.0,
+      "price_was": 20.0
+     },
+     {
+      "title": "Pathfinder Adventure Path: Curse of the Crimson Throne Pocket Edition",
+      "url": "https://store.paizo.com/pathfinder-adventure-path-curse-of-the-crimson-throne-pocket-edition/",
+      "price_now": 15.0,
+      "price_was": 29.99
+     },
+     {
+      "title": "Pathfinder Roleplaying Game: Horror Adventures (PFRPG) Hardcover",
+      "url": "https://store.paizo.com/pathfinder-roleplaying-game-horror-adventures-pfrpg-hardcover/",
+      "price_now": 22.5,
+      "price_was": 44.99
+     }
+    ]
+   },
+   "reasons": [
+    "ok"
+   ]
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/170517/the-magical-bazaar",
+   "title": "The Magical Bazaar",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/170682/the-crow-s-nest-luxurious-inn-tavern",
+   "title": "The Crow's Nest Luxurious Inn & Tavern",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/170878/the-joyful-goblin-inn-and-tavern",
+   "title": "The Joyful Goblin Inn and Tavern",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/228546/potion-generator",
+   "title": "Potion Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/230432/book-generator",
+   "title": "Book Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/234520/the-alchemist-shop-1",
+   "title": "The Alchemist Shop 1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/234522/the-christmas-cabin",
+   "title": "The Christmas Cabin",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/236789/the-synthetics-1",
+   "title": "The Synthetics #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/280968/item-and-effects-cards-for-the-sunken-temple-of-chloren-var",
+   "title": "Item and Effects Cards for The Sunken Temple of Chloren-Var",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/318479/hudson-brand-flats",
+   "title": "Hudson & Brand Flats",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/335195/vinlock-s-ultimate-guide-to-freshwater-fishing",
+   "title": "Vinlock's Ultimate Guide to Freshwater Fishing",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/354603/grammar-fuel-genres",
+   "title": "Grammar Fuel: Genres",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/364432/the-tessellation-1",
+   "title": "The Tessellation #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/382390/the-consortium-of-cartographers-guildhall",
+   "title": "The Consortium of Cartographers - Guildhall",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/387715/1000-swords-ship-complete-kit-with-tokens-art-pack",
+   "title": "1000 Swords Ship complete kit with tokens & art pack",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/389203/grammar-fuel-science-fiction-genre-subgenres",
+   "title": "Grammar Fuel: Science Fiction Genre & Subgenres",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/392398/the-smokey-mystery-inn-with-tokens-and-character-sheet",
+   "title": "The Smokey Mystery Inn with tokens and character sheet",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/396395/grammar-fuel-fantasy-genre-subgenres",
+   "title": "Grammar Fuel: Fantasy Genre & Subgenres",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/417789/rocks-on-the-other-side",
+   "title": "Rocks on the Other Side",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/429774/prophecy-generator",
+   "title": "Prophecy Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/446518/frigorifique",
+   "title": "Frigorifique",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/446716/space-bar-generator",
+   "title": "Space Bar Generator",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/470605/nemot-rising-1",
+   "title": "Nemot Rising #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/483574/nemot-rising-3",
+   "title": "Nemot Rising #3",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/515448/landscapes-of-the-lost-soul",
+   "title": "Landscapes of the Lost Soul",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/540819/cometary-ghosts",
+   "title": "Cometary Ghosts",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/554956/the-art-of-great-roleplaying-a-manifesto-for-players",
+   "title": "The Art of Great Roleplaying: A manifesto for Players",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/557672/sandbox-generator-urban-expansion",
+   "title": "Sandbox Generator - Urban Expansion",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/560769/deadrow-mere",
+   "title": "Deadrow Mere",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/561019/seven-bells-shipping-storage-co",
+   "title": "Seven Bells Shipping & Storage Co.",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/566646/fallen-tree",
+   "title": "Fallen Tree",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/566652/narrow-stretch",
+   "title": "Narrow Stretch",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/566669/shadowed-stream",
+   "title": "Shadowed Stream",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/567215/martian-comics-36",
+   "title": "Martian Comics #36",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/573245/livre-jeu-paris-1600-thriller-interactif-en-jeu-de-role-solo",
+   "title": "Livre Jeu PARIS 1600 - Thriller interactif en jeu de rôle solo",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/578275/the-horizons-of-khera-1",
+   "title": "The Horizons of Khera #1",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms",
+   "title": "Big Damn Sci-Fi Field Forms",
+   "shop": "DriveThruRPG",
+   "outcome": "needs_owner",
+   "reasons": [
+    "page_unreadable: blocked"
+   ],
+   "agent_run": null
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/big-bundle-of-mutants-bbm",
+   "title": "Big Bundle of Mutants",
+   "shop": "Exalted Funeral",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The price is $47.60 against a struck-through $68.00, and the shop banner says its Black November sale runs all month, but the page never says the four bundled items are tabletop RPG books (one link name suggests stickers and a PDF)."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$47.60 USD",
+    "price_was_seen": "$68.00 USD",
+    "ends_seen": null,
+    "reason": "The price is $47.60 against a struck-through $68.00, and the shop banner says its Black November sale runs all month, but the page never says the four bundled items are tabletop RPG books (one link name suggests stickers and a PDF).",
+    "notes": "The page text says nothing addressed to AI. The page does not say what kind of product this is. The bundle lists B.D.S.M., M.I.L.F., C.B.T. and A.T.M. with 'Mutants' themes, and the B.D.S.M. link slug is 'below-dwelling-sewer-mutants-stickers-pdf'. The bundle's category (RPG supplement or sticker and PDF pack) is not stated. The shop also sells merch and board games. The banner links to https://www.exaltedfuneral.com/collections/black-november-discounts-all-month-long.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 61.6,
+    "turns": 2,
+    "cost_usd": 0.08161840000000001,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/youre-a-fucking-butterfly-pdf",
+   "title": "You're a Fucking Butterfly",
+   "shop": "Exalted Funeral",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real $7.50 sale price against $15.00, and the shop banner says its Black November deals run all month. But the product is a 12-page zine with a PDF for a larp (live-action game) for 10-52 players, so I can't tell whether it counts as a tabletop RPG product."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$7.50 USD",
+    "price_was_seen": "$15.00 USD",
+    "ends_seen": null,
+    "reason": "The page shows a real $7.50 sale price against $15.00, and the shop banner says its Black November deals run all month. But the product is a 12-page zine with a PDF for a larp (live-action game) for 10-52 players, so I can't tell whether it counts as a tabletop RPG product.",
+    "notes": "The shop's banner links to https://www.exaltedfuneral.com/collections/black-november-discounts-all-month-long, which I did not open. The page text had no instructions aimed at AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 26.2,
+    "turns": 2,
+    "cost_usd": 0.07717750000000001,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/planar-compass-coloring-book",
+   "title": "Planar Compass Coloring Book",
+   "shop": "Exalted Funeral",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The product is a 24-page black-and-white coloring book of art from the Planar Compass zine, which is an accessory or merchandise item and not a rulebook, adventure or supplement."
+   ],
+   "agent": {
+    "verdict": "drop",
+    "price_now_seen": "$5.00 USD",
+    "price_was_seen": "$10.00 USD",
+    "ends_seen": null,
+    "reason": "The product is a 24-page black-and-white coloring book of art from the Planar Compass zine, which is an accessory or merchandise item and not a rulebook, adventure or supplement.",
+    "notes": "The page does show $10.00 struck out and a $5.00 sale price, and the shop banner mentions a Black November sale running all month. The item is still not a tabletop RPG product. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 8.7,
+    "turns": 2,
+    "cost_usd": 0.06406680000000001,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/my-jam-pdf",
+   "title": "My Jam",
+   "shop": "Exalted Funeral",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page shows a sale price of $6.25 against a regular price of $25.00, not the claimed $3.75 against $15.00."
+   ],
+   "agent": {
+    "verdict": "drop",
+    "price_now_seen": "$6.25 USD",
+    "price_was_seen": "$25.00 USD",
+    "ends_seen": null,
+    "reason": "The page shows a sale price of $6.25 against a regular price of $25.00, not the claimed $3.75 against $15.00.",
+    "notes": "The product is a larp (a live-action game), not a classic tabletop RPG book, so it is borderline for the RPG scope. The page also has a shop-wide 'BLACK NOVEMBER' banner that links to a deals collection. The page contained no text addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.4,
+    "turns": 2,
+    "cost_usd": 0.0798507,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/unusual-esoterica-1",
+   "title": "Unusual Esoterica - Series #1",
+   "shop": "Exalted Funeral",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The sale price ($10 against a struck-through $20) is real and sits inside the shop's 'Black November' promotion, but the product is a set of 10 double-sided talisman cards 'for use with' RPGs, so I can't tell whether it counts as an RPG supplement or a card accessory."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$10.00 USD",
+    "price_was_seen": "$20.00 USD",
+    "ends_seen": null,
+    "reason": "The sale price ($10 against a struck-through $20) is real and sits inside the shop's 'Black November' promotion, but the product is a set of 10 double-sided talisman cards 'for use with' RPGs, so I can't tell whether it counts as an RPG supplement or a card accessory.",
+    "notes": "The page's own banner says 'Save up to 75% OFF all month long with BLACK NOVEMBER deals live now!' No end date is shown. No text on the page was addressed to AI. The page says 'PDF not included', so it is a physical card deck.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.3,
+    "turns": 2,
+    "cost_usd": 0.07788830000000001,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/herbalists-primer",
+   "title": "Herbalist's Primer Collection",
+   "shop": "Exalted Funeral",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page shows a sale price of $12.50, not the claimed $1.25, so the claimed price does not match the page."
+   ],
+   "agent": {
+    "verdict": "drop",
+    "price_now_seen": "$12.50",
+    "price_was_seen": "$50.00",
+    "ends_seen": null,
+    "reason": "The page shows a sale price of $12.50, not the claimed $1.25, so the claimed price does not match the page.",
+    "notes": "The product is a system-agnostic tabletop RPG book collection, so it is on topic. The claimed price of 1.25 looks like a decimal-place error for 12.50. The page also lists the regular price as $12.50 next to $50.00, so the discount itself is unclear. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.4,
+    "turns": 2,
+    "cost_usd": 0.070744,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/wassail",
+   "title": "Wassail!",
+   "shop": "Exalted Funeral",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows $5.00 on sale against a struck-through $10.00, but it never calls Wassail! a tabletop RPG; it describes a 2-6 player ritual game played with Lenormand or playing cards, sold as a 20-page A5 zine."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$5.00 USD",
+    "price_was_seen": "$10.00 USD",
+    "ends_seen": null,
+    "reason": "The page shows $5.00 on sale against a struck-through $10.00, but it never calls Wassail! a tabletop RPG; it describes a 2-6 player ritual game played with Lenormand or playing cards, sold as a 20-page A5 zine.",
+    "notes": "The shop's banner advertises BLACK NOVEMBER deals running all month, so the sale looks live. The page also lists a second struck-through $5.00 as a 'Regular price', which is odd markup. Our own history shows a usual price of $6.00, so the real discount may be smaller than the stated 50%. No text on the page is addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 12.6,
+    "turns": 2,
+    "cost_usd": 0.0799233,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/spirals",
+   "title": "Spirals",
+   "shop": "Exalted Funeral",
+   "outcome": "drop",
+   "reasons": [
+    "agent_drop: The page shows a sale price of $4.80 (was $8.00), not the claimed $1.80 (was $3.00), and $1.80 appears nowhere in the page text."
+   ],
+   "agent": {
+    "verdict": "drop",
+    "price_now_seen": "$4.80 USD",
+    "price_was_seen": "$8.00 USD",
+    "ends_seen": null,
+    "reason": "The page shows a sale price of $4.80 (was $8.00), not the claimed $1.80 (was $3.00), and $1.80 appears nowhere in the page text.",
+    "notes": "The page has a 'Format' option, so $1.80/$3.00 may be a cheaper variant such as the PDF. The visible text does not show it. The product is a solo dice game zine, so it is borderline for RPG. The shop banner says BLACK NOVEMBER deals run all month. No AI-directed instructions found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 9.3,
+    "turns": 2,
+    "cost_usd": 0.077084,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/forbidden-psalm-monster-reference-deck",
+   "title": "Forbidden Psalm: Monster Reference Deck",
+   "shop": "Exalted Funeral",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a Forbidden Psalm/MÖRK BORG RPG card deck at $10.50, down from a struck-through $15.00, but the product is marked \"Sold out\", so the deal can't be bought and I can't tell whether it should be listed."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$10.50",
+    "price_was_seen": "$15.00",
+    "ends_seen": null,
+    "reason": "The page shows a Forbidden Psalm/MÖRK BORG RPG card deck at $10.50, down from a struck-through $15.00, but the product is marked \"Sold out\", so the deal can't be bought and I can't tell whether it should be listed.",
+    "notes": "The site banner advertises BLACK NOVEMBER deals running all month, but the page doesn't say this product is part of that sale. No end date is shown. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.4,
+    "turns": 2,
+    "cost_usd": 0.079213,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/remember-frankie",
+   "title": "Remember Frankie + PDF",
+   "shop": "Exalted Funeral",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$6.00 USD",
+    "price_was_seen": "$12.00 USD",
+    "ends_seen": null,
+    "reason": "The page shows a $6.00 sale price with $12.00 struck through for a 3-4 player tabletop storytelling game (a rules zine with settings and prompts), and the shop is running a month-long Black November sale.",
+    "notes": "The page never uses the word 'RPG'. It calls the product a 'storytelling game' with core rules and play settings, so the RPG call is a judgment. The price block lists a struck '$6.00' as 'Regular price' next to the struck '$12.00'. The sale price of $6.00 is shown unstruck. The site banner says 'Save up to 75% OFF all month long with BLACK NOVEMBER deals', but the product page does not name an end date. No instructions aimed at AI were seen on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 12.8,
+    "turns": 2,
+    "cost_usd": 0.0820509,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/epic-levels-armor-classy-cdungeon",
+   "title": "Epic Levels Armor Classy CDungeon",
+   "shop": "Exalted Funeral",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows $9.00 against a regular price of $18.00, but the product is mainly a rap music CD with a 14-page system-agnostic mini-adventure insert, so I can't tell if it counts as a tabletop RPG product."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$9.00",
+    "price_was_seen": "$18.00",
+    "ends_seen": null,
+    "reason": "The page shows $9.00 against a regular price of $18.00, but the product is mainly a rap music CD with a 14-page system-agnostic mini-adventure insert, so I can't tell if it counts as a tabletop RPG product.",
+    "notes": "The price markup is odd: 'Regular price' appears twice ($9.00 and $18.00) before 'Sale price $9.00', so the discount is likely real but not clearly marked. No sale end date is shown. The page contains no text addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.1,
+    "turns": 2,
+    "cost_usd": 0.0734214,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/ssd-symbolic-skin-designs-pdf",
+   "title": "SSD: Symbolic Skin Designs",
+   "shop": "Exalted Funeral",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows a real sale ($15.00 against a struck-through $30.00, under the shop's BLACK NOVEMBER deals banner), but the product is an art-only tattoo-flash book that 'supplements' the Cybermetal 2012 rules, so I can't tell if it counts as a tabletop RPG supplement."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$15.00 USD",
+    "price_was_seen": "$30.00 USD",
+    "ends_seen": null,
+    "reason": "The page shows a real sale ($15.00 against a struck-through $30.00, under the shop's BLACK NOVEMBER deals banner), but the product is an art-only tattoo-flash book that 'supplements' the Cybermetal 2012 rules, so I can't tell if it counts as a tabletop RPG supplement.",
+    "notes": "The page has no end date. The banner says 'BLACK NOVEMBER deals' run 'all month long'. The URL ends in '-pdf', but the description says it is a physical half-letter softcover and 'PDF not included'. No text on the page was addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.8,
+    "turns": 2,
+    "cost_usd": 0.0791458,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/we-3-shall-meet-again",
+   "title": "We Three Shall Meet Again",
+   "shop": "Exalted Funeral",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$4.00",
+    "price_was_seen": "$10.00",
+    "ends_seen": null,
+    "reason": "The page shows this three-player story-game pamphlet at a $4.00 sale price with $10.00 struck through, and the shop's banner says its Black November deals are live all month.",
+    "notes": "It is a small indie journalling game, so it counts as a tabletop RPG only loosely, which explains the unsure RPG score. The page gives no explicit end date; the banner says 'all month long'. Jev history lists a usual price of $8.00, lower than the $10.00 'was' price. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 10.7,
+    "turns": 2,
+    "cost_usd": 0.0785891,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/random-access",
+   "title": "Random Access",
+   "shop": "Exalted Funeral",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$4.40",
+    "price_was_seen": "$11.00",
+    "ends_seen": null,
+    "reason": "The page shows Random Access, a SPRAWLS-compatible tabletop RPG module by Luke Gearing, on sale at $4.40 with $11.00 struck through, and the shop banner says its Black November deals run all month.",
+    "notes": "No end date is shown on the product page. The banner links to the collection https://www.exaltedfuneral.com/collections/black-november-discounts-all-month-long. The page contained no text addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 11.3,
+    "turns": 2,
+    "cost_usd": 0.0768572,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://www.exaltedfuneral.com/products/heads-pdf",
+   "title": "HEADS! + PDF",
+   "shop": "Exalted Funeral",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$7.50 USD",
+    "price_was_seen": "$15.00 USD",
+    "ends_seen": null,
+    "reason": "The page shows HEADS!, a system-agnostic dueling minigame for RPGs (tri-fold pamphlet with PDF), at a sale price of $7.50 with a struck-through regular price of $15.00, during the shop's 'BLACK NOVEMBER deals all month long' promotion.",
+    "notes": "No explicit end date on the product page; the shop banner says the deals run all month. The product is a small RPG supplement, so the RPG score is borderline. No text addressed to AI found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 9.0,
+    "turns": 2,
+    "cost_usd": 0.078531,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://momatoes.itch.io/arc",
+   "title": "ARC: Doom Tabletop RPG",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$12.50",
+    "price_was_seen": "$25.00",
+    "ends_seen": null,
+    "reason": "The page shows the ARC: Doom Tabletop RPG PDF marked 'On Sale! 50% Off', $25.00 crossed down to $12.50 USD or more.",
+    "notes": "The claimed end date 2026-11-09 does not appear anywhere on the page, so it could not be confirmed. $12.50 is the minimum price (pay-what-you-want, 'or more'). The page also mentions a separate 4-game bundle for $25.00, which is not this deal. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 59.5,
+    "turns": 2,
+    "cost_usd": 0.076093,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "https://darkworldstudios.itch.io/acheron-core-rule-book",
+   "title": "Acheron Core Rule Book",
+   "shop": "itch.io",
+   "outcome": "publish",
+   "reasons": [
+    "ok"
+   ],
+   "agent": {
+    "verdict": "publish",
+    "price_now_seen": "$15.00",
+    "price_was_seen": "$25.00",
+    "ends_seen": null,
+    "reason": "The itch.io page shows the Acheron Core Rule Book, a tabletop RPG rulebook, marked 'On Sale! 40% Off' at $15.00, down from $25.00.",
+    "notes": "The page does not show a sale end date, so the claimed end date of 2026-11-19 is not confirmed by the page. The shop's price history lists a usual price of $12.50 and a lowest earlier price of $12.50, which is below the current $15.00 sale price. The page itself shows a 40% discount from $25.00. No instructions aimed at AI were found on the page.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 8.8,
+    "turns": 2,
+    "cost_usd": 0.0657878,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "http://plusoneexp.com/products/wandering-blades-by-daniel-kwan",
+   "title": "Wandering Blades Quickstart",
+   "shop": "plusoneexp.com",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: The page shows $0.00 with a struck-through $6.00, but $6.00 is also the price of the separate 'Print + PDF' option, and the page says nothing about a sale, promotion or end date, so it may be a permanently free quickstart PDF rather than a running deal."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": "$0.00",
+    "price_was_seen": "$6.00",
+    "ends_seen": null,
+    "reason": "The page shows $0.00 with a struck-through $6.00, but $6.00 is also the price of the separate 'Print + PDF' option, and the page says nothing about a sale, promotion or end date, so it may be a permanently free quickstart PDF rather than a running deal.",
+    "notes": "The http URL redirects in a way fetchpage rejects (SSRF protection), so I opened the https version of the same page. The page had no text addressed to AI.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 15.7,
+    "turns": 3,
+    "cost_usd": 0.1213573,
+    "error": null,
+    "hook_blocked": false
+   }
+  },
+  {
+   "job": "recheck",
+   "key": "http://plusoneexp.com/products/hinterlight-quickstart",
+   "title": "Hinterlight Quickstart",
+   "shop": "plusoneexp.com",
+   "outcome": "needs_owner",
+   "reasons": [
+    "agent_unsure: My own fetch of the page failed (redirect to an internal IP was rejected), so I could not confirm anything myself; the trimmed page text in the input shows $0.00 against $12.00, while the deal claims a normal price of $6.00, and it does not say whether this is a promotion or a permanently free quickstart."
+   ],
+   "agent": {
+    "verdict": "unsure",
+    "price_now_seen": null,
+    "price_was_seen": null,
+    "ends_seen": null,
+    "reason": "My own fetch of the page failed (redirect to an internal IP was rejected), so I could not confirm anything myself; the trimmed page text in the input shows $0.00 against $12.00, while the deal claims a normal price of $6.00, and it does not say whether this is a promotion or a permanently free quickstart.",
+    "notes": "fetchpage failed 3 times with 'Redirect to internal IP 127.0.0.1 rejected (SSRF protection)' for the http:// URL, so the owner may want to check by hand. The input text describes Hinterlight as a tabletop ritual game (RPG-like, Kickstarter quickstart), so it is likely an RPG product. No instructions aimed at AI were seen in the page text.",
+    "model": "sonnet"
+   },
+   "agent_run": {
+    "seconds": 13.5,
+    "turns": 2,
+    "cost_usd": 0.060706800000000005,
+    "error": null,
+    "hook_blocked": false
+   }
+  }
+ ],
+ "counts": {
+  "jobs_found": 176,
+  "already_done": 0,
+  "run_now": 58,
+  "reused_from_memory": 118,
+  "published_by_agent": 28,
+  "needs_owner": 104
+ }
+}

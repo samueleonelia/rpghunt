@@ -1,0 +1,12 @@
+{
+ "date": "2026-11-05",
+ "counts": {
+  "leads_on_known_shops": 58,
+  "matched_in_run": 0,
+  "misses": 0,
+  "candidates": 0,
+  "by_reason": {}
+ },
+ "misses": [],
+ "candidates": []
+}

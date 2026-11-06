@@ -15,6 +15,22 @@
   "last_seen": "2026-10-27",
   "example_url": "https://abhack-paperclip.itch.io/lantern-lane"
  },
+ "aftermath-shop.fourthwall.com": {
+  "first_seen": "2026-11-05",
+  "reasons": {
+   "HTTP 403": "2026-11-05"
+  },
+  "last_seen": "2026-11-05",
+  "example_url": "https://aftermath-shop.fourthwall.com/products.json?limit=1"
+ },
+ "alzresearch.org": {
+  "first_seen": "2026-11-05",
+  "reasons": {
+   "HTTP 403": "2026-11-05"
+  },
+  "last_seen": "2026-11-05",
+  "example_url": "https://alzresearch.org/"
+ },
  "amazon.co.uk": {
   "first_seen": "2026-10-30",
   "reasons": {
@@ -30,6 +46,22 @@
   },
   "last_seen": "2026-10-30",
   "example_url": "https://www.amazon.com/deals/?_encoding=UTF8&amp;discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522departments%255C%2522%253A%255B%255C%252216333373011%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&amp;pd_rd_w=8jvKx&amp;content-id=amzn1.sym.ccd23603-7e16-488c-beb8-d20f7dabc9cc&amp;pf_rd_p=ccd23603-7e16-488c-beb8-d20f7dabc9cc&amp;pf_rd_r=6QT3G9W6V7V35FY8J4RE&amp;pd_rd_wg=ZLPct&amp;pd_rd_r=bf2d5b5f-433f-48ad-b001-d40f4724caa3&amp;ref_=pd_hp_d_r_atf_dealz_wd_dd_editorial/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "apps.alzfdn.org": {
+  "first_seen": "2026-11-05",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-05"
+  },
+  "last_seen": "2026-11-05",
+  "example_url": "https://apps.alzfdn.org/tribute/"
+ },
+ "boardgamegeek.com": {
+  "first_seen": "2026-11-05",
+  "reasons": {
+   "HTTP 403": "2026-11-05"
+  },
+  "last_seen": "2026-11-05",
+  "example_url": "https://boardgamegeek.com/"
  },
  "bulbapedia.bulbagarden.net": {
   "first_seen": "2026-10-30",
@@ -106,9 +138,9 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-11-04"
+   "bot wall (known, never fetched)": "2026-11-06"
   },
-  "last_seen": "2026-11-04",
+  "last_seen": "2026-11-06",
   "example_url": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms"
  },
  "elancharan.itch.io": {
@@ -118,6 +150,14 @@
   },
   "last_seen": "2026-10-27",
   "example_url": "https://elancharan.itch.io/jamma"
+ },
+ "emplqatab.cc.rs6.net": {
+  "first_seen": "2026-11-06",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-06"
+  },
+  "last_seen": "2026-11-06",
+  "example_url": "https://emplqatab.cc.rs6.net/"
  },
  "entertainmentearth.com": {
   "first_seen": "2026-10-27",
@@ -207,6 +247,14 @@
   "last_seen": "2026-10-27",
   "example_url": "http://www.goodman-games.com/"
  },
+ "hitpointpress.com": {
+  "first_seen": "2026-11-06",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-06"
+  },
+  "last_seen": "2026-11-06",
+  "example_url": "https://hitpointpress.com/products/complete-set-of-animated-spells-level-0-5-things"
+ },
  "iconartfestival.com": {
   "first_seen": "2026-11-03",
   "reasons": {
@@ -230,6 +278,22 @@
   },
   "last_seen": "2026-10-17",
   "example_url": "https://www.indiepressrevolution.com/xcart/"
+ },
+ "itch.io": {
+  "first_seen": "2026-11-05",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-05"
+  },
+  "last_seen": "2026-11-05",
+  "example_url": "https://itch.io/physical-games/on-sale/tag-ttrpg"
+ },
+ "launch.ben10rpg.com": {
+  "first_seen": "2026-11-05",
+  "reasons": {
+   "HTTP 403": "2026-11-05"
+  },
+  "last_seen": "2026-11-05",
+  "example_url": "https://launch.ben10rpg.com/"
  },
  "link.amazon": {
   "first_seen": "2026-10-27",
@@ -319,6 +383,14 @@
   "last_seen": "2026-10-30",
   "example_url": "https://missoulian.com/products.json?limit=1"
  },
+ "momatoes.itch.io": {
+  "first_seen": "2026-11-05",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-05"
+  },
+  "last_seen": "2026-11-05",
+  "example_url": "https://momatoes.itch.io/arc"
+ },
  "motorcitycomiccon.com": {
   "first_seen": "2026-11-03",
   "reasons": {
@@ -383,6 +455,14 @@
   "last_seen": "2026-10-27",
   "example_url": "https://www.onebookshelf.com/"
  },
+ "onegoodeveningdnd.itch.io": {
+  "first_seen": "2026-11-05",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-05"
+  },
+  "last_seen": "2026-11-05",
+  "example_url": "https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet"
+ },
  "ospreypublishing.com": {
   "first_seen": "2026-10-17",
   "reasons": {
@@ -398,6 +478,14 @@
   },
   "last_seen": "2026-10-30",
   "example_url": "https://www.oudaily.com/products.json?limit=1"
+ },
+ "paradigmconcepts.com": {
+  "first_seen": "2026-11-06",
+  "reasons": {
+   "HTTP 503": "2026-11-06"
+  },
+  "last_seen": "2026-11-06",
+  "example_url": "https://paradigmconcepts.com/wp-json/wc/store/v1/products?on_sale=true&per_page=100&page=1"
  },
  "paramountplus.qflm.net": {
   "first_seen": "2026-10-27",
@@ -479,6 +567,14 @@
   "last_seen": "2026-10-17",
   "example_url": "https://www.reddit.com/r/rpg/"
  },
+ "renegadegamestudios.com": {
+  "first_seen": "2026-11-05",
+  "reasons": {
+   "HTTP 503": "2026-11-05"
+  },
+  "last_seen": "2026-11-05",
+  "example_url": "https://renegadegamestudios.com/pdf-vampire-the-masquerade-live-action-roleplaying-game-laws-of-the-night-deluxe/"
+ },
  "reuters.com": {
   "first_seen": "2026-10-28",
   "reasons": {
@@ -486,6 +582,14 @@
   },
   "last_seen": "2026-10-28",
   "example_url": "https://www.reuters.com/"
+ },
+ "rpggeek.com": {
+  "first_seen": "2026-11-05",
+  "reasons": {
+   "HTTP 403": "2026-11-05"
+  },
+  "last_seen": "2026-11-05",
+  "example_url": "https://rpggeek.com/"
  },
  "sealedstories.com": {
   "first_seen": "2026-10-27",
@@ -554,10 +658,10 @@
  "themetalcarrotdev.itch.io": {
   "first_seen": "2026-10-27",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-10-27"
+   "rate limit (HTTP 429 after retries)": "2026-11-05"
   },
-  "last_seen": "2026-10-27",
-  "example_url": "https://themetalcarrotdev.itch.io/celestial-under-the-retro-skies"
+  "last_seen": "2026-11-05",
+  "example_url": "https://themetalcarrotdev.itch.io/shrine-of-shrines"
  },
  "threads.com": {
   "first_seen": "2026-10-27",
@@ -574,6 +678,14 @@
   },
   "last_seen": "2026-10-30",
   "example_url": "https://tlx99deab.cc.rs6.net/"
+ },
+ "tow.whfb.app": {
+  "first_seen": "2026-11-06",
+  "reasons": {
+   "HTTP 403": "2026-11-06"
+  },
+  "last_seen": "2026-11-06",
+  "example_url": "https://tow.whfb.app/wp-json/wc/store/v1/products?per_page=1"
  },
  "trolllord.com": {
   "first_seen": "2026-10-27",
@@ -622,6 +734,22 @@
   },
   "last_seen": "2026-10-27",
   "example_url": "https://www.wargamer.com/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "warhammer-community.com": {
+  "first_seen": "2026-11-05",
+  "reasons": {
+   "HTTP 403": "2026-11-05"
+  },
+  "last_seen": "2026-11-05",
+  "example_url": "https://www.warhammer-community.com/products.json?limit=1"
+ },
+ "warners.mymagazinesub.co.uk": {
+  "first_seen": "2026-11-06",
+  "reasons": {
+   "HTTP 403": "2026-11-06"
+  },
+  "last_seen": "2026-11-06",
+  "example_url": "https://warners.mymagazinesub.co.uk/"
  },
  "wired.com": {
   "first_seen": "2026-10-30",

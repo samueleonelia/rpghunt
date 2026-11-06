@@ -23,6 +23,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "aftermath.site": {
+  "date": "2026-11-05",
+  "result": "not a seller"
+ },
  "ajitageorge.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -35,6 +39,14 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "alzfdn.org": {
+  "date": "2026-11-05",
+  "result": "not a seller"
+ },
+ "alzresearch.org": {
+  "date": "2026-11-05",
+  "result": "not a seller"
+ },
  "amazon.co.uk": {
   "date": "2026-10-30",
   "result": "not a seller"
@@ -43,12 +55,20 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "amazongamestudios.com": {
+  "date": "2026-11-06",
+  "result": "not a seller"
+ },
  "asmodeeaccess.com": {
   "date": "2026-10-28",
   "result": "not a seller"
  },
  "aspyr.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "au.creativecommons.net": {
+  "date": "2026-11-05",
   "result": "not a seller"
  },
  "avalanchepress.com": {
@@ -83,6 +103,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "boardgamegeek.com": {
+  "date": "2026-11-05",
+  "result": "not a seller"
+ },
  "bonkposting.online": {
   "date": "2026-10-30",
   "result": "not a seller"
@@ -115,6 +139,10 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "change.org": {
+  "date": "2026-11-05",
+  "result": "not a seller"
+ },
  "columbiagames.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -127,8 +155,16 @@
   "date": "2026-11-03",
   "result": "not a seller"
  },
+ "comichub.com": {
+  "date": "2026-11-06",
+  "result": "not a seller"
+ },
  "comicsbeat.com": {
   "date": "2026-11-03",
+  "result": "not a seller"
+ },
+ "comicshopassistant.com": {
+  "date": "2026-11-06",
   "result": "not a seller"
  },
  "communityimpact.com": {
@@ -169,6 +205,10 @@
  },
  "cults3d.com": {
   "date": "2026-11-04",
+  "result": "not a seller"
+ },
+ "czechgames.com": {
+  "date": "2026-11-05",
   "result": "not a seller"
  },
  "d8summit.org": {
@@ -259,6 +299,14 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "email.overloadpr.com": {
+  "date": "2026-11-06",
+  "result": "not a seller"
+ },
+ "emplqatab.cc.rs6.net": {
+  "date": "2026-11-06",
+  "result": "not a seller"
+ },
  "enpublishingrpg.com": {
   "date": "2026-10-17",
   "result": "added"
@@ -277,6 +325,10 @@
  },
  "euronews.com": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "eventmoot.com": {
+  "date": "2026-11-05",
   "result": "not a seller"
  },
  "eveonline.com": {
@@ -487,8 +539,16 @@
   "date": "2026-10-27",
   "result": "added"
  },
+ "konstantinewrites.com": {
+  "date": "2026-11-05",
+  "result": "not a seller"
+ },
  "landing.figgyz.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "launch.ben10rpg.com": {
+  "date": "2026-11-05",
   "result": "not a seller"
  },
  "launchoracle.com": {
@@ -555,6 +615,10 @@
   "date": "2026-11-04",
   "result": "not a seller"
  },
+ "mesaderpg.com.br": {
+  "date": "2026-11-06",
+  "result": "not a seller"
+ },
  "meta.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -591,8 +655,16 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "myth.works": {
+  "date": "2026-11-06",
+  "result": "added"
+ },
  "nagademon.org": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "nba.2k.com": {
+  "date": "2026-11-06",
   "result": "not a seller"
  },
  "neonichiban.com": {
@@ -637,6 +709,10 @@
  },
  "nottshobbies.co.uk": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "nvidia.com": {
+  "date": "2026-11-06",
   "result": "not a seller"
  },
  "oax.art": {
@@ -687,6 +763,10 @@
   "date": "2026-10-31",
   "result": "not a seller"
  },
+ "perilsandprincesses.com": {
+  "date": "2026-11-05",
+  "result": "known store"
+ },
  "phantasypunk.com": {
   "date": "2026-10-31",
   "result": "not a seller"
@@ -710,6 +790,10 @@
  "pleasance.co.uk": {
   "date": "2026-11-03",
   "result": "not a seller"
+ },
+ "plusoneexp.com": {
+  "date": "2026-11-05",
+  "result": "added"
  },
  "pod.link": {
   "date": "2026-11-03",
@@ -775,6 +859,10 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "rpggeek.com": {
+  "date": "2026-11-05",
+  "result": "not a seller"
+ },
  "rpgtrader.com": {
   "date": "2026-11-03",
   "result": "not a seller"
@@ -793,6 +881,10 @@
  },
  "sanseking.com": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "scoutaktion.de": {
+  "date": "2026-11-05",
   "result": "not a seller"
  },
  "screenrant.com": {
@@ -871,6 +963,10 @@
   "date": "2026-10-28",
   "result": "not a seller"
  },
+ "spiel-essen.de": {
+  "date": "2026-11-05",
+  "result": "not a seller"
+ },
  "starfleetgames.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -878,6 +974,10 @@
  "steelseries.prf.hn": {
   "date": "2026-10-27",
   "result": "not a seller"
+ },
+ "stillfleet.com": {
+  "date": "2026-11-05",
+  "result": "added"
  },
  "stitcher.com": {
   "date": "2026-10-27",
@@ -955,6 +1055,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "theoodie.co.uk": {
+  "date": "2026-11-05",
+  "result": "not a seller"
+ },
  "thousandcastles.com": {
   "date": "2026-10-30",
   "result": "not a seller"
@@ -989,6 +1093,10 @@
  },
  "toucant.bearblog.dev": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "tow.whfb.app": {
+  "date": "2026-11-06",
   "result": "not a seller"
  },
  "tritacgames.com": {
@@ -1075,12 +1183,24 @@
   "date": "2026-11-04",
   "result": "not a seller"
  },
+ "warhammer-community.com": {
+  "date": "2026-11-05",
+  "result": "not a seller"
+ },
  "warhammer.com": {
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "warners.mymagazinesub.co.uk": {
+  "date": "2026-11-06",
+  "result": "not a seller"
+ },
  "warnersgroup.co.uk": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "wartable.online": {
+  "date": "2026-11-06",
   "result": "not a seller"
  },
  "white-wolf.com": {
@@ -1089,6 +1209,18 @@
  },
  "wired.com": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "worldofwarcraft.blizzard.com": {
+  "date": "2026-11-06",
+  "result": "not a seller"
+ },
+ "worldofwarships.eu": {
+  "date": "2026-11-06",
+  "result": "not a seller"
+ },
+ "wowslegends.com": {
+  "date": "2026-11-06",
   "result": "not a seller"
  },
  "wpn.wizards.com": {
