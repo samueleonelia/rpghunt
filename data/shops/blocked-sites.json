@@ -135,12 +135,20 @@
   "last_seen": "2026-10-17",
   "example_url": "https://www.dmsguild.com/"
  },
+ "drbatwcab.cc.rs6.net": {
+  "first_seen": "2026-11-07",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-07"
+  },
+  "last_seen": "2026-11-07",
+  "example_url": "https://drbatwcab.cc.rs6.net/"
+ },
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-11-06"
+   "bot wall (known, never fetched)": "2026-11-07"
   },
-  "last_seen": "2026-11-06",
+  "last_seen": "2026-11-07",
   "example_url": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms"
  },
  "elancharan.itch.io": {
@@ -250,9 +258,9 @@
  "hitpointpress.com": {
   "first_seen": "2026-11-06",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-06"
+   "rate limit (HTTP 429 after retries)": "2026-11-07"
   },
-  "last_seen": "2026-11-06",
+  "last_seen": "2026-11-07",
   "example_url": "https://hitpointpress.com/products/complete-set-of-animated-spells-level-0-5-things"
  },
  "iconartfestival.com": {
@@ -390,6 +398,14 @@
   },
   "last_seen": "2026-11-05",
   "example_url": "https://momatoes.itch.io/arc"
+ },
+ "monsterfightclub.com": {
+  "first_seen": "2026-11-07",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-07"
+  },
+  "last_seen": "2026-11-07",
+  "example_url": "https://monsterfightclub.com/products/snowy-ice-fields"
  },
  "motorcitycomiccon.com": {
   "first_seen": "2026-11-03",
