@@ -146,9 +146,9 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-11-08"
+   "bot wall (known, never fetched)": "2026-11-09"
   },
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "example_url": "https://www.drivethrurpg.com/product/588538/oss-fact-sheet"
  },
  "elancharan.itch.io": {
@@ -274,9 +274,9 @@
  "hitpointpress.com": {
   "first_seen": "2026-11-06",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-08"
+   "rate limit (HTTP 429 after retries)": "2026-11-09"
   },
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-09",
   "example_url": "https://hitpointpress.com/products/complete-set-of-animated-spells-level-0-5-things"
  },
  "iconartfestival.com": {
