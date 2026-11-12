@@ -71,6 +71,10 @@
   "date": "2026-11-08",
   "result": "not a seller"
  },
+ "apocalypse-world.com": {
+  "date": "2026-11-12",
+  "result": "not a seller"
+ },
  "asmodeeaccess.com": {
   "date": "2026-10-28",
   "result": "not a seller"
@@ -125,6 +129,10 @@
  },
  "blendcotastudios.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "blog.playstation.com": {
+  "date": "2026-11-12",
   "result": "not a seller"
  },
  "bloodraynecomic.com": {
@@ -183,6 +191,10 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "cdn1.polaris.com": {
+  "date": "2026-11-12",
+  "result": "not a seller"
+ },
  "change.org": {
   "date": "2026-11-05",
   "result": "not a seller"
@@ -209,6 +221,10 @@
  },
  "comicshopassistant.com": {
   "date": "2026-11-06",
+  "result": "not a seller"
+ },
+ "commandersherald.com": {
+  "date": "2026-11-12",
   "result": "not a seller"
  },
  "communityimpact.com": {
@@ -242,6 +258,10 @@
  "crimsondesert.pearlabyss.com": {
   "date": "2026-11-11",
   "result": "not a seller"
+ },
+ "criticalrolefoundation.org": {
+  "date": "2026-11-12",
+  "result": "probe failed"
  },
  "critrole.com": {
   "date": "2026-10-27",
@@ -277,6 +297,10 @@
  },
  "d8summit.org": {
   "date": "2026-11-03",
+  "result": "not a seller"
+ },
+ "darkheresy.owlcat.games": {
+  "date": "2026-11-12",
   "result": "not a seller"
  },
  "darkhorse.com": {
@@ -333,6 +357,10 @@
  },
  "dimensionaldoubleshift.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "direct.playstation.com": {
+  "date": "2026-11-12",
   "result": "not a seller"
  },
  "dndbeyond.com": {
@@ -405,6 +433,10 @@
  },
  "euronews.com": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "eventbrite.com": {
+  "date": "2026-11-12",
   "result": "not a seller"
  },
  "eventmoot.com": {
@@ -647,6 +679,10 @@
   "date": "2026-10-27",
   "result": "added"
  },
+ "keymaster.fun": {
+  "date": "2026-11-12",
+  "result": "not a seller"
+ },
  "konstantinewrites.com": {
   "date": "2026-11-05",
   "result": "not a seller"
@@ -687,6 +723,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "lokebattlemats.us": {
+  "date": "2026-11-12",
+  "result": "not a seller"
+ },
  "loungefly.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -705,6 +745,10 @@
  },
  "ludonarrativedissidents.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "lyft.com": {
+  "date": "2026-11-12",
   "result": "not a seller"
  },
  "magic.wizards.com": {
@@ -739,6 +783,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "mhof.net": {
+  "date": "2026-11-12",
+  "result": "not a seller"
+ },
  "mindstormlabs.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -757,6 +805,10 @@
  },
  "motorcitycomiccon.com": {
   "date": "2026-11-03",
+  "result": "not a seller"
+ },
+ "mrwhocr.com": {
+  "date": "2026-11-12",
   "result": "not a seller"
  },
  "mutualdocs.com": {
@@ -837,6 +889,10 @@
  },
  "nimblenomicon.pages.dev": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "noisybug.co.uk": {
+  "date": "2026-11-12",
   "result": "not a seller"
  },
  "nottshobbies.co.uk": {
@@ -957,6 +1013,10 @@
  },
  "pokebeach.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "polaris.com": {
+  "date": "2026-11-12",
   "result": "not a seller"
  },
  "polygon.com": {
@@ -1095,6 +1155,10 @@
   "date": "2026-11-03",
   "result": "not a seller"
  },
+ "shutupandsitdown.com": {
+  "date": "2026-11-12",
+  "result": "not a seller"
+ },
  "silverpalace.elementagames.com": {
   "date": "2026-10-31",
   "result": "not a seller"
@@ -1199,6 +1263,10 @@
   "date": "2026-11-03",
   "result": "not a seller"
  },
+ "tabletopbookshelf.com": {
+  "date": "2026-11-12",
+  "result": "not a seller"
+ },
  "tabletopgaming.co.uk": {
   "date": "2026-11-08",
   "result": "known store"
@@ -1259,6 +1327,10 @@
   "date": "2026-11-08",
   "result": "known store"
  },
+ "thenaturalfarmer.org": {
+  "date": "2026-11-12",
+  "result": "not a seller"
+ },
  "theonyxpath.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -1317,6 +1389,14 @@
  },
  "tow.whfb.app": {
   "date": "2026-11-06",
+  "result": "not a seller"
+ },
+ "toyretailersassociation.co.uk": {
+  "date": "2026-11-12",
+  "result": "not a seller"
+ },
+ "tracking.us.nylas.com": {
+  "date": "2026-11-12",
   "result": "not a seller"
  },
  "tritacgames.com": {
@@ -1411,6 +1491,10 @@
   "date": "2026-11-02",
   "result": "not a seller"
  },
+ "walmart.com": {
+  "date": "2026-11-12",
+  "result": "not a seller"
+ },
  "wargamer.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -1438,6 +1522,10 @@
  "wartable.online": {
   "date": "2026-11-06",
   "result": "not a seller"
+ },
+ "we-evolve.co.uk": {
+  "date": "2026-11-12",
+  "result": "known store"
  },
  "weirdco.net": {
   "date": "2026-11-11",
