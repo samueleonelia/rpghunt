@@ -87,6 +87,10 @@
   "date": "2026-11-07",
   "result": "not a seller"
  },
+ "assets.warhammer-community.com": {
+  "date": "2026-11-13",
+  "result": "not a seller"
+ },
  "atelier.games": {
   "date": "2026-11-11",
   "result": "not a seller"
@@ -101,6 +105,10 @@
  },
  "backdraft.gg": {
   "date": "2026-11-10",
+  "result": "not a seller"
+ },
+ "ballxpit.com": {
+  "date": "2026-11-13",
   "result": "not a seller"
  },
  "baltimorecomiccon.com": {
@@ -251,6 +259,10 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "creations.bethesda.net": {
+  "date": "2026-11-13",
+  "result": "not a seller"
+ },
  "creativecommons.org": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -371,6 +383,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "dqrpg.dragonquest.com": {
+  "date": "2026-11-13",
+  "result": "not a seller"
+ },
  "drbatwcab.cc.rs6.net": {
   "date": "2026-11-07",
   "result": "not a seller"
@@ -397,6 +413,14 @@
  },
  "edhealy.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "elderscrolls.bethesda.net": {
+  "date": "2026-11-13",
+  "result": "not a seller"
+ },
+ "elderscrollsonline.com": {
+  "date": "2026-11-13",
   "result": "not a seller"
  },
  "elfnmoon.com": {
@@ -767,6 +791,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "marvelrivals.com": {
+  "date": "2026-11-13",
+  "result": "not a seller"
+ },
  "maxinferno.com": {
   "date": "2026-11-11",
   "result": "not a seller"
@@ -789,6 +817,10 @@
  },
  "mindstormlabs.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "miniatures-workshop.com": {
+  "date": "2026-11-13",
   "result": "not a seller"
  },
  "missoulian.com": {
@@ -891,6 +923,14 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "nintendo.com": {
+  "date": "2026-11-13",
+  "result": "not a seller"
+ },
+ "nisamerica.com": {
+  "date": "2026-11-13",
+  "result": "not a seller"
+ },
  "noisybug.co.uk": {
   "date": "2026-11-12",
   "result": "not a seller"
@@ -981,6 +1021,10 @@
  },
  "planetarcana.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "playdarktide.com": {
+  "date": "2026-11-13",
   "result": "not a seller"
  },
  "playstation.com": {
@@ -1131,6 +1175,10 @@
   "date": "2026-11-04",
   "result": "not a seller"
  },
+ "sega.com": {
+  "date": "2026-11-13",
+  "result": "not a seller"
+ },
  "shadomain.com": {
   "date": "2026-11-08",
   "result": "added"
@@ -1145,6 +1193,10 @@
  },
  "sholink.to": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "shop.2000ad.com": {
+  "date": "2026-11-13",
   "result": "not a seller"
  },
  "shop.limithron.com": {
@@ -1249,6 +1301,10 @@
  },
  "strictlylimitedgames.com": {
   "date": "2026-11-11",
+  "result": "not a seller"
+ },
+ "superevilmegacorp.com": {
+  "date": "2026-11-13",
   "result": "not a seller"
  },
  "sword-sorcery.com": {

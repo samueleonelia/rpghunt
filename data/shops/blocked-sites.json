@@ -55,6 +55,22 @@
   "last_seen": "2026-11-05",
   "example_url": "https://apps.alzfdn.org/tribute/"
  },
+ "assets.warhammer-community.com": {
+  "first_seen": "2026-11-13",
+  "reasons": {
+   "HTTP 403": "2026-11-13"
+  },
+  "last_seen": "2026-11-13",
+  "example_url": "https://assets.warhammer-community.com/"
+ },
+ "ballxpit.com": {
+  "first_seen": "2026-11-13",
+  "reasons": {
+   "HTTP 403": "2026-11-13"
+  },
+  "last_seen": "2026-11-13",
+  "example_url": "https://ballxpit.com/wp-json/wc/store/v1/products?per_page=1"
+ },
  "bardlight.store": {
   "first_seen": "2026-11-10",
   "reasons": {
@@ -126,6 +142,14 @@
   },
   "last_seen": "2026-11-03",
   "example_url": "https://www.comicsbeat.com/"
+ },
+ "creations.bethesda.net": {
+  "first_seen": "2026-11-13",
+  "reasons": {
+   "HTTP 403": "2026-11-13"
+  },
+  "last_seen": "2026-11-13",
+  "example_url": "https://creations.bethesda.net/products.json?limit=1"
  },
  "creative-commons-shop.fourthwall.com": {
   "first_seen": "2026-10-27",
@@ -210,9 +234,9 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-11-12"
+   "bot wall (known, never fetched)": "2026-11-13"
   },
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-13",
   "example_url": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms"
  },
  "elancharan.itch.io": {
@@ -911,6 +935,14 @@
   "last_seen": "2026-10-27",
   "example_url": "http://www.sealedstories.com/wp-json/wc/store/v1/products?per_page=1"
  },
+ "sega.com": {
+  "first_seen": "2026-11-13",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-13"
+  },
+  "last_seen": "2026-11-13",
+  "example_url": "https://www.sega.com/"
+ },
  "shop.arcdream.com": {
   "first_seen": "2026-11-10",
   "reasons": {
@@ -1054,6 +1086,14 @@
   },
   "last_seen": "2026-10-27",
   "example_url": "https://store.epicgames.com/"
+ },
+ "store.nintendo.com": {
+  "first_seen": "2026-11-13",
+  "reasons": {
+   "HTTP 403": "2026-11-13"
+  },
+  "last_seen": "2026-11-13",
+  "example_url": "https://store.nintendo.com/it-it/wp-json/wc/store/v1/products?per_page=1"
  },
  "storytellersvault.com": {
   "first_seen": "2026-11-10",
