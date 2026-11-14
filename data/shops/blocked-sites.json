@@ -63,6 +63,14 @@
   "last_seen": "2026-11-13",
   "example_url": "https://assets.warhammer-community.com/"
  },
+ "avclub.com": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://www.avclub.com/wp-json/wc/store/v1/products?per_page=1"
+ },
  "ballxpit.com": {
   "first_seen": "2026-11-13",
   "reasons": {
@@ -135,6 +143,22 @@
   "last_seen": "2026-11-12",
   "example_url": "https://cdn1.polaris.com/"
  },
+ "chasesociety.com": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://chasesociety.com/"
+ },
+ "comics.ha.com": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "HTTP 403": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://comics.ha.com/"
+ },
  "comicsbeat.com": {
   "first_seen": "2026-11-03",
   "reasons": {
@@ -166,6 +190,14 @@
   },
   "last_seen": "2026-11-12",
   "example_url": "https://www.criticalkit.co.uk/products.json?limit=250&page=2"
+ },
+ "crocs.co.uk": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://www.crocs.co.uk/c/silhouette/shoes/wp-json/wc/store/v1/products?per_page=1"
  },
  "cubicle7games.com": {
   "first_seen": "2026-10-27",
@@ -234,10 +266,26 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-11-13"
+   "bot wall (known, never fetched)": "2026-11-14"
   },
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "example_url": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms"
+ },
+ "ebay.co.uk": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "HTTP 403": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://www.ebay.co.uk/"
+ },
+ "ebay.com": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "HTTP 403": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://www.ebay.com/"
  },
  "elancharan.itch.io": {
   "first_seen": "2026-10-27",
@@ -399,6 +447,14 @@
   "last_seen": "2026-11-12",
   "example_url": "https://greenroninstore.com/products.json?limit=250&page=1"
  },
+ "ha.com": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "HTTP 403": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://www.ha.com/"
+ },
  "hammerdog-games.myshopify.com": {
   "first_seen": "2026-11-10",
   "reasons": {
@@ -418,10 +474,10 @@
  "hitpointpress.com": {
   "first_seen": "2026-11-06",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-12"
+   "rate limit (HTTP 429 after retries)": "2026-11-14"
   },
-  "last_seen": "2026-11-12",
-  "example_url": "https://hitpointpress.com/products.json?limit=250&page=1"
+  "last_seen": "2026-11-14",
+  "example_url": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9"
  },
  "iconartfestival.com": {
   "first_seen": "2026-11-03",
@@ -482,9 +538,9 @@
  "leisuregames.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-12"
+   "rate limit (HTTP 429 after retries)": "2026-11-14"
   },
-  "last_seen": "2026-11-12",
+  "last_seen": "2026-11-14",
   "example_url": "https://leisuregames.com/products/the-green-law-of-varkith"
  },
  "leyline.press": {
@@ -695,6 +751,14 @@
   "last_seen": "2026-10-30",
   "example_url": "https://neonichiban.com/wp-json/wc/store/v1/products?per_page=1"
  },
+ "netflix.com": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://www.netflix.com/"
+ },
  "news.xbox.com": {
   "first_seen": "2026-11-04",
   "reasons": {
@@ -791,6 +855,14 @@
   "last_seen": "2026-11-11",
   "example_url": "https://www.paypal.com/"
  },
+ "pcgamesn.com": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://www.pcgamesn.com/wp-json/wc/store/v1/products?per_page=1"
+ },
  "pelgranepress.com": {
   "first_seen": "2026-10-17",
   "reasons": {
@@ -879,6 +951,14 @@
   "last_seen": "2026-11-12",
   "example_url": "https://possumcreekgames.com/products.json?limit=250&page=1"
  },
+ "pricecharting.com": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "HTTP 403": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://www.pricecharting.com/"
+ },
  "printables.com": {
   "first_seen": "2026-11-04",
   "reasons": {
@@ -886,6 +966,14 @@
   },
   "last_seen": "2026-11-04",
   "example_url": "https://www.printables.com/"
+ },
+ "psacard.com": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "HTTP 403": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://www.psacard.com/"
  },
  "pubads.g.doubleclick.net": {
   "first_seen": "2026-10-27",
@@ -970,10 +1058,10 @@
  "shop.critrole.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-12"
+   "rate limit (HTTP 429 after retries)": "2026-11-14"
   },
-  "last_seen": "2026-11-12",
-  "example_url": "https://shop.critrole.com/products.json?limit=1"
+  "last_seen": "2026-11-14",
+  "example_url": "https://shop.critrole.com/products/daggerheart-class-pack-kickstarter-bard"
  },
  "shop.critrole.eu": {
   "first_seen": "2026-11-12",
@@ -986,10 +1074,10 @@
  "shop.limithron.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-12"
+   "rate limit (HTTP 429 after retries)": "2026-11-14"
   },
-  "last_seen": "2026-11-12",
-  "example_url": "https://shop.limithron.com/products.json?limit=250&page=1"
+  "last_seen": "2026-11-14",
+  "example_url": "https://shop.limithron.com/products/down-among-the-dead-wholesale"
  },
  "shop.mcdmproductions.com": {
   "first_seen": "2026-11-10",
@@ -1182,6 +1270,14 @@
   },
   "last_seen": "2026-11-06",
   "example_url": "https://tow.whfb.app/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "trenchcrusade.com": {
+  "first_seen": "2026-11-14",
+  "reasons": {
+   "HTTP 403": "2026-11-14"
+  },
+  "last_seen": "2026-11-14",
+  "example_url": "https://www.trenchcrusade.com/"
  },
  "trolllord.com": {
   "first_seen": "2026-10-27",

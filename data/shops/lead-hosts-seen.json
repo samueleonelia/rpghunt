@@ -103,6 +103,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "avclub.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "backdraft.gg": {
   "date": "2026-11-10",
   "result": "not a seller"
@@ -129,6 +133,10 @@
  },
  "bethesda.net": {
   "date": "2026-11-04",
+  "result": "not a seller"
+ },
+ "betweentwocons.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "bill-bridges.com": {
@@ -207,6 +215,10 @@
   "date": "2026-11-05",
   "result": "not a seller"
  },
+ "chasesociety.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "columbiagames.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -221,6 +233,10 @@
  },
  "comichub.com": {
   "date": "2026-11-06",
+  "result": "not a seller"
+ },
+ "comics.ha.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "comicsbeat.com": {
@@ -278,6 +294,10 @@
  "critrole.com": {
   "date": "2026-10-27",
   "result": "added"
+ },
+ "crocs.co.uk": {
+  "date": "2026-11-14",
+  "result": "not a seller"
  },
  "cryptozoic.com": {
   "date": "2026-10-27",
@@ -347,6 +367,10 @@
   "date": "2026-10-27",
   "result": "added"
  },
+ "dena.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "devgameclub.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -359,6 +383,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "dicebreaker.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "diceexploder.com": {
   "date": "2026-10-30",
   "result": "not a seller"
@@ -369,6 +397,10 @@
  },
  "dimensionaldoubleshift.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "dinosofthewildwest.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "direct.playstation.com": {
@@ -387,6 +419,10 @@
   "date": "2026-11-13",
   "result": "not a seller"
  },
+ "draugrdeathknight.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "drbatwcab.cc.rs6.net": {
   "date": "2026-11-07",
   "result": "not a seller"
@@ -401,6 +437,14 @@
  },
  "dysonlogos.blog": {
   "date": "2026-11-10",
+  "result": "not a seller"
+ },
+ "ebay.co.uk": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
+ "ebay.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "edenstudios.net": {
@@ -471,6 +515,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "fanaticscollect.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "fanbrix.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -521,6 +569,10 @@
  },
  "forums.soulframe.com": {
   "date": "2026-10-31",
+  "result": "not a seller"
+ },
+ "fracturedrealms.org": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "freeleaguepublishing.com": {
@@ -599,6 +651,14 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "goldin.co": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
+ "goldinauctions.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "goodman-games.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -619,8 +679,16 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "guinnessworldrecords.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "gunnar.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "ha.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "halloweencostumes.com": {
@@ -649,6 +717,10 @@
  },
  "hollywoodreporter.com": {
   "date": "2026-11-02",
+  "result": "not a seller"
+ },
+ "hotheadcollective.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "iconartfestival.com": {
@@ -747,6 +819,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "livenation.co.uk": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "lokebattlemats.us": {
   "date": "2026-11-12",
   "result": "not a seller"
@@ -757,6 +833,10 @@
  },
  "lp.constantcontactpages.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "lps.library.cmu.edu": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "lucca2026.luccacomicsandgames.com": {
@@ -777,6 +857,10 @@
  },
  "magic.wizards.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "magicmadhouse.co.uk": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "makerworld.com": {
@@ -839,12 +923,20 @@
   "date": "2026-11-03",
   "result": "not a seller"
  },
+ "mottokrosh.com": {
+  "date": "2026-11-14",
+  "result": "added"
+ },
  "mrwhocr.com": {
   "date": "2026-11-12",
   "result": "not a seller"
  },
  "mutualdocs.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "myabandonware.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "myaccounts.wizards.com": {
@@ -881,6 +973,10 @@
  },
  "neonichiban.com": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "netflix.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "newrecruit.eu": {
@@ -999,6 +1095,10 @@
   "date": "2026-11-11",
   "result": "not a seller"
  },
+ "pcgamesn.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "perilsandprincesses.com": {
   "date": "2026-11-05",
   "result": "known store"
@@ -1013,6 +1113,10 @@
  },
  "pigames.net": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "pingwest.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "pixabay.com": {
@@ -1059,6 +1163,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "pokumon.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "polaris.com": {
   "date": "2026-11-12",
   "result": "not a seller"
@@ -1073,6 +1181,10 @@
  },
  "postman.mynewsdesk.com": {
   "date": "2026-11-11",
+  "result": "not a seller"
+ },
+ "pricecharting.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "printables.com": {
@@ -1091,12 +1203,24 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "promptuary.lps.library.cmu.edu": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
+ "psacard.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "pubads.g.doubleclick.net": {
   "date": "2026-10-27",
   "result": "not a seller"
  },
  "puzzledungeon.com": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "pwccmarketplace.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "rascal.news": {
@@ -1142,6 +1266,14 @@
  "sadslut.club": {
   "date": "2026-11-03",
   "result": "known store"
+ },
+ "sales-history.fanaticscollect.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
+ "sales-history.pwccmarketplace.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
  },
  "salt-ent.com": {
   "date": "2026-10-30",
@@ -1239,6 +1371,10 @@
   "date": "2026-10-30",
   "result": "added"
  },
+ "social.mottokrosh.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "sortiraparis.com": {
   "date": "2026-10-31",
   "result": "not a seller"
@@ -1315,6 +1451,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "tablecatgames.com": {
+  "date": "2026-11-14",
+  "result": "added"
+ },
  "tabletop.events": {
   "date": "2026-11-03",
   "result": "not a seller"
@@ -1345,6 +1485,10 @@
  },
  "tampabaybeacons.com": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "tankrat.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "tarabrunopr-dot-yamm-track.appspot.com": {
@@ -1415,6 +1559,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "ticketmaster.co.uk": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "timelineltdcom.godaddysites.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -1453,6 +1601,10 @@
  },
  "tracking.us.nylas.com": {
   "date": "2026-11-12",
+  "result": "not a seller"
+ },
+ "trenchcrusade.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "tritacgames.com": {
@@ -1567,6 +1719,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "warhammertv.com": {
+  "date": "2026-11-14",
+  "result": "not a seller"
+ },
  "warners.mymagazinesub.co.uk": {
   "date": "2026-11-06",
   "result": "not a seller"
@@ -1601,6 +1757,10 @@
  },
  "wittyfuneralhome.com": {
   "date": "2026-11-11",
+  "result": "not a seller"
+ },
+ "wolden.mottokrosh.com": {
+  "date": "2026-11-14",
   "result": "not a seller"
  },
  "worldofwarcraft.blizzard.com": {
