@@ -1,4 +1,12 @@
 {
+ "6d6fireball.com": {
+  "first_seen": "2026-11-15",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-15"
+  },
+  "last_seen": "2026-11-15",
+  "example_url": "http://6d6fireball.com/"
+ },
  "8bitdo.com": {
   "first_seen": "2026-10-27",
   "reasons": {
@@ -151,6 +159,14 @@
   "last_seen": "2026-11-14",
   "example_url": "https://chasesociety.com/"
  },
+ "comedy.co.uk": {
+  "first_seen": "2026-11-15",
+  "reasons": {
+   "HTTP 403": "2026-11-15"
+  },
+  "last_seen": "2026-11-15",
+  "example_url": "https://www.comedy.co.uk/wp-json/wc/store/v1/products?per_page=1"
+ },
  "comics.ha.com": {
   "first_seen": "2026-11-14",
   "reasons": {
@@ -266,9 +282,9 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-11-14"
+   "bot wall (known, never fetched)": "2026-11-15"
   },
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "example_url": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms"
  },
  "ebay.co.uk": {
@@ -326,6 +342,14 @@
   },
   "last_seen": "2026-10-27",
   "example_url": "https://www.etsy.com/"
+ },
+ "evil-santa.deviantart.com": {
+  "first_seen": "2026-11-15",
+  "reasons": {
+   "HTTP 403": "2026-11-15"
+  },
+  "last_seen": "2026-11-15",
+  "example_url": "http://evil-santa.deviantart.com/wp-json/wc/store/v1/products?per_page=1"
  },
  "exaltedfuneral.com": {
   "first_seen": "2026-11-10",
@@ -474,10 +498,10 @@
  "hitpointpress.com": {
   "first_seen": "2026-11-06",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-14"
+   "rate limit (HTTP 429 after retries)": "2026-11-15"
   },
-  "last_seen": "2026-11-14",
-  "example_url": "https://hitpointpress.com/products/bundle-animated-spells-level-6-9"
+  "last_seen": "2026-11-15",
+  "example_url": "https://hitpointpress.com/products/complete-set-of-animated-spells-level-0-5-things"
  },
  "iconartfestival.com": {
   "first_seen": "2026-11-03",
@@ -538,9 +562,9 @@
  "leisuregames.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-14"
+   "rate limit (HTTP 429 after retries)": "2026-11-15"
   },
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "example_url": "https://leisuregames.com/products/the-green-law-of-varkith"
  },
  "leyline.press": {
@@ -1058,9 +1082,9 @@
  "shop.critrole.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-14"
+   "rate limit (HTTP 429 after retries)": "2026-11-15"
   },
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "example_url": "https://shop.critrole.com/products/daggerheart-class-pack-kickstarter-bard"
  },
  "shop.critrole.eu": {
@@ -1074,9 +1098,9 @@
  "shop.limithron.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-14"
+   "rate limit (HTTP 429 after retries)": "2026-11-15"
   },
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "example_url": "https://shop.limithron.com/products/down-among-the-dead-wholesale"
  },
  "shop.mcdmproductions.com": {
@@ -1238,6 +1262,14 @@
   },
   "last_seen": "2026-10-30",
   "example_url": "https://tcg.azuki.com/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "teepublic.com": {
+  "first_seen": "2026-11-15",
+  "reasons": {
+   "HTTP 403": "2026-11-15"
+  },
+  "last_seen": "2026-11-15",
+  "example_url": "https://www.teepublic.com/user/rpgbot"
  },
  "themetalcarrotdev.itch.io": {
   "first_seen": "2026-10-27",
