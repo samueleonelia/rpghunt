@@ -179,6 +179,10 @@
   "date": "2026-11-08",
   "result": "not a seller"
  },
+ "brickzonehub.co.uk": {
+  "date": "2026-11-16",
+  "result": "not a seller"
+ },
  "bulbapedia.bulbagarden.net": {
   "date": "2026-10-30",
   "result": "not a seller"
@@ -455,6 +459,10 @@
   "date": "2026-11-10",
   "result": "not a seller"
  },
+ "ea.com": {
+  "date": "2026-11-16",
+  "result": "not a seller"
+ },
  "ebay.co.uk": {
   "date": "2026-11-14",
   "result": "not a seller"
@@ -497,6 +505,10 @@
  },
  "emplqatab.cc.rs6.net": {
   "date": "2026-11-06",
+  "result": "not a seller"
+ },
+ "ennies.org": {
+  "date": "2026-11-16",
   "result": "not a seller"
  },
  "enpublishingrpg.com": {
@@ -833,6 +845,14 @@
  },
  "launchoracle.com": {
   "date": "2026-10-28",
+  "result": "not a seller"
+ },
+ "leagueoflegends.com": {
+  "date": "2026-11-16",
+  "result": "not a seller"
+ },
+ "lego.com": {
+  "date": "2026-11-16",
   "result": "not a seller"
  },
  "levelup5e.com": {
