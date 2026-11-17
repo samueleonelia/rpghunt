@@ -51,6 +51,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "alpinehearingprotection.com": {
+  "date": "2026-11-17",
+  "result": "not a seller"
+ },
  "alzfdn.org": {
   "date": "2026-11-05",
   "result": "not a seller"
@@ -179,6 +183,10 @@
   "date": "2026-11-08",
   "result": "not a seller"
  },
+ "bricklink.com": {
+  "date": "2026-11-17",
+  "result": "not a seller"
+ },
  "brickzonehub.co.uk": {
   "date": "2026-11-16",
   "result": "not a seller"
@@ -205,6 +213,10 @@
  },
  "callofduty.com": {
   "date": "2026-11-03",
+  "result": "not a seller"
+ },
+ "cambridge.org": {
+  "date": "2026-11-17",
   "result": "not a seller"
  },
  "cbr.com": {
@@ -299,6 +311,10 @@
   "date": "2026-11-11",
   "result": "not a seller"
  },
+ "crithitthegiant.com": {
+  "date": "2026-11-17",
+  "result": "not a seller"
+ },
  "criticalrolefoundation.org": {
   "date": "2026-11-12",
   "result": "probe failed"
@@ -337,6 +353,10 @@
  },
  "czechgames.com": {
   "date": "2026-11-05",
+  "result": "not a seller"
+ },
+ "czepeku.com": {
+  "date": "2026-11-17",
   "result": "not a seller"
  },
  "d8summit.org": {
@@ -651,6 +671,10 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "games-workshop.com": {
+  "date": "2026-11-17",
+  "result": "not a seller"
+ },
  "gamescience.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -699,8 +723,16 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "goskagit.com": {
+  "date": "2026-11-17",
+  "result": "not a seller"
+ },
  "grcogman.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "greenmangaming.com": {
+  "date": "2026-11-17",
   "result": "not a seller"
  },
  "groupfinder.gg": {
@@ -739,6 +771,10 @@
   "date": "2026-11-15",
   "result": "not a seller"
  },
+ "hellbreakgame.com": {
+  "date": "2026-11-17",
+  "result": "not a seller"
+ },
  "heroesonline.com": {
   "date": "2026-11-03",
   "result": "not a seller"
@@ -771,6 +807,10 @@
   "date": "2026-11-15",
   "result": "not a seller"
  },
+ "ico.org.uk": {
+  "date": "2026-11-17",
+  "result": "not a seller"
+ },
  "iconartfestival.com": {
   "date": "2026-11-03",
   "result": "not a seller"
@@ -797,6 +837,10 @@
  },
  "insideoutlibrary.com": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "ir.webtoon.com": {
+  "date": "2026-11-17",
   "result": "not a seller"
  },
  "ironcrown.com": {
@@ -877,6 +921,10 @@
  },
  "lisasmedman.wixsite.com": {
   "date": "2026-10-27",
+  "result": "not a seller"
+ },
+ "literacytrust.org.uk": {
+  "date": "2026-11-17",
   "result": "not a seller"
  },
  "livenation.co.uk": {
@@ -1031,6 +1079,10 @@
   "date": "2026-11-06",
   "result": "not a seller"
  },
+ "ncsc.gov.uk": {
+  "date": "2026-11-17",
+  "result": "not a seller"
+ },
  "neonichiban.com": {
   "date": "2026-10-30",
   "result": "not a seller"
@@ -1175,6 +1227,10 @@
   "date": "2026-11-05",
   "result": "known store"
  },
+ "pewresearch.org": {
+  "date": "2026-11-17",
+  "result": "not a seller"
+ },
  "pexels.com": {
   "date": "2026-11-10",
   "result": "not a seller"
@@ -1205,6 +1261,10 @@
  },
  "playstation.com": {
   "date": "2026-11-03",
+  "result": "not a seller"
+ },
+ "playstile.com": {
+  "date": "2026-11-17",
   "result": "not a seller"
  },
  "playwolcen.com": {
@@ -1289,6 +1349,10 @@
  },
  "puzzledungeon.com": {
   "date": "2026-10-30",
+  "result": "not a seller"
+ },
+ "pwc.com": {
+  "date": "2026-11-17",
   "result": "not a seller"
  },
  "pwccmarketplace.com": {
@@ -1415,9 +1479,17 @@
   "date": "2026-11-13",
   "result": "not a seller"
  },
+ "shop.kelsey.co.uk": {
+  "date": "2026-11-17",
+  "result": "not a seller"
+ },
  "shop.limithron.com": {
   "date": "2026-11-10",
   "result": "added"
+ },
+ "shopto.net": {
+  "date": "2026-11-17",
+  "result": "not a seller"
  },
  "shortrun.org": {
   "date": "2026-11-03",
@@ -1607,6 +1679,10 @@
   "date": "2026-10-27",
   "result": "not a seller"
  },
+ "thedigitalfix.com": {
+  "date": "2026-11-17",
+  "result": "not a seller"
+ },
  "thegaminggang.com": {
   "date": "2026-11-08",
   "result": "not a seller"
@@ -1745,6 +1821,10 @@
  },
  "ucon-gaming.org": {
   "date": "2026-11-03",
+  "result": "not a seller"
+ },
+ "uk.airfix.com": {
+  "date": "2026-11-17",
   "result": "not a seller"
  },
  "uk.xtool.com": {
