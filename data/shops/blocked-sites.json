@@ -279,6 +279,14 @@
   "last_seen": "2026-11-12",
   "example_url": "https://direct.playstation.com/products.json?limit=1"
  },
+ "disneyplus.com": {
+  "first_seen": "2026-11-18",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-18"
+  },
+  "last_seen": "2026-11-18",
+  "example_url": "https://www.disneyplus.com/"
+ },
  "dmsguild.com": {
   "first_seen": "2026-10-17",
   "reasons": {
@@ -298,10 +306,10 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-11-17"
+   "bot wall (known, never fetched)": "2026-11-18"
   },
-  "last_seen": "2026-11-17",
-  "example_url": "https://www.drivethrurpg.com/product/580738/big-damn-sci-fi-field-forms"
+  "last_seen": "2026-11-18",
+  "example_url": "https://www.drivethrurpg.com/product/593652/safeguard-print-play"
  },
  "ea.com": {
   "first_seen": "2026-11-16",
@@ -399,6 +407,14 @@
   "last_seen": "2026-10-30",
   "example_url": "https://forbiddenplanet.com/"
  },
+ "fortyseven-dot-yamm-track.appspot.com": {
+  "first_seen": "2026-11-18",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-18"
+  },
+  "last_seen": "2026-11-18",
+  "example_url": "https://fortyseven-dot-yamm-track.appspot.com/"
+ },
  "forums.soulframe.com": {
   "first_seen": "2026-10-31",
   "reasons": {
@@ -487,6 +503,14 @@
   "last_seen": "2026-10-27",
   "example_url": "https://go.skimresources.com/"
  },
+ "goodluckpress.co": {
+  "first_seen": "2026-11-18",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-18"
+  },
+  "last_seen": "2026-11-18",
+  "example_url": "https://goodluckpress.co/products/community-bundle"
+ },
  "goodman-games.com": {
   "first_seen": "2026-10-27",
   "reasons": {
@@ -538,9 +562,9 @@
  "hitpointpress.com": {
   "first_seen": "2026-11-06",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-17"
+   "rate limit (HTTP 429 after retries)": "2026-11-18"
   },
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "example_url": "https://hitpointpress.com/products/complete-set-of-animated-spells-level-0-5-things"
  },
  "ico.org.uk": {
@@ -626,9 +650,9 @@
  "leisuregames.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-17"
+   "rate limit (HTTP 429 after retries)": "2026-11-18"
   },
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "example_url": "https://leisuregames.com/products/the-green-law-of-varkith"
  },
  "leyline.press": {
@@ -1071,6 +1095,14 @@
   "last_seen": "2026-10-27",
   "example_url": "https://pubads.g.doubleclick.net/"
  },
+ "razer.com": {
+  "first_seen": "2026-11-18",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-18"
+  },
+  "last_seen": "2026-11-18",
+  "example_url": "https://www.razer.com/products.json?limit=1"
+ },
  "reddit.com": {
   "first_seen": "2026-10-17",
   "reasons": {
@@ -1146,9 +1178,9 @@
  "shop.critrole.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-17"
+   "rate limit (HTTP 429 after retries)": "2026-11-18"
   },
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "example_url": "https://shop.critrole.com/products/daggerheart-class-pack-kickstarter-bard"
  },
  "shop.critrole.eu": {
@@ -1162,9 +1194,9 @@
  "shop.limithron.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-17"
+   "rate limit (HTTP 429 after retries)": "2026-11-18"
   },
-  "last_seen": "2026-11-17",
+  "last_seen": "2026-11-18",
   "example_url": "https://shop.limithron.com/products/down-among-the-dead-wholesale"
  },
  "shop.mcdmproductions.com": {
@@ -1190,6 +1222,14 @@
   },
   "last_seen": "2026-11-12",
   "example_url": "https://shop.slyflourish.com/products.json?limit=250&page=1"
+ },
+ "shop.towerbridge.org.uk": {
+  "first_seen": "2026-11-18",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-18"
+  },
+  "last_seen": "2026-11-18",
+  "example_url": "https://shop.towerbridge.org.uk/products/celia-pike-cats-at-tower-bridge-print"
  },
  "shopto.net": {
   "first_seen": "2026-11-17",
@@ -1438,6 +1478,14 @@
   },
   "last_seen": "2026-10-31",
   "example_url": "https://unsplash.com/"
+ },
+ "urldefense.com": {
+  "first_seen": "2026-11-18",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-18"
+  },
+  "last_seen": "2026-11-18",
+  "example_url": "https://urldefense.com/"
  },
  "us.list-manage.com": {
   "first_seen": "2026-10-31",

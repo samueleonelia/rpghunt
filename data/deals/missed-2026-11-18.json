@@ -1,0 +1,32 @@
+{
+ "date": "2026-11-18",
+ "counts": {
+  "leads_on_known_shops": 54,
+  "matched_in_run": 0,
+  "misses": 1,
+  "candidates": 0,
+  "by_reason": {
+   "not_a_product_page": 1
+  }
+ },
+ "misses": [
+  {
+   "url": "https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e",
+   "title": null,
+   "shop_id": "enpublishingrpg",
+   "shop": "enpublishingrpg.com",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Massive Level Up Pre-Holiday 50% Sale",
+    "post_url": "https://www.enworld.org/threads/massive-level-up-pre-holiday-50-sale.721318/",
+    "published": "2026-11-09",
+    "link_text": ""
+   },
+   "reason": "not_a_product_page",
+   "detail": "the link goes to a home, blog or collection page",
+   "candidate": false
+  }
+ ],
+ "candidates": []
+}
