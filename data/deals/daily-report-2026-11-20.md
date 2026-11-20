@@ -1,0 +1,916 @@
+# RPG Hunt daily report, 2026-11-20
+
+## Alerts
+
+- **Shops that look broken (deals collapsed): steve-jackson-games-warehouse-23, tuesday-knight-games.**
+- **New sites blocking us: ahcoffeebeans.itch.io, basunat.itch.io, big-idea-forge.itch.io, blackmilkclothing.com, dangerfield.com.au, gormanshop.com.au, innocentgoblin.itch.io, kendric2000.itch.io, lithun.itch.io, neon-rot.itch.io, nolimelightproductions.itch.io, princesshighway.com.au, securityweek.com, shop.hauntedtable.games, startplaying.games, status.optimizely.com, thecommongoodsus.itch.io, tvtropes.org.**
+
+## The short version
+
+- 947 deals would go on the site (869 sale, 65 physical, 11 bundle, 2 free).
+- 457 deals were left for the browsing agent; it handled 457 of them today.
+- 387 item(s) need your check.
+- 68 shops read; 0 sale links in the lead posts were not found by our readers.
+- Everything ran.
+
+## Numbers by step
+
+1. **Shops:** 68 shops, 37 read fine, 31 blocked us, 0 had errors. They gave 2727 possible deals.
+2. **Leads and new sellers:** 245 links from 18 of 18 sources (57 on shops we read, 2 on shops that block robots, 186 on unknown sites). 146 unknown sites, 25 checked today (the rest were checked in the last 30 days), 0 new shops added.
+3. **Misses:** 0 leads were not in today's run; 0 turned into candidate deals.
+4. **Jev check:** 2727 deals in, 2475 unchanged since an earlier run (verdict reused, no cost), 7 dropped by plain rules (not a discount, ended), 50 dropped as not RPG, 928 passed, 457 sent to the agent, 16 waiting for price history.
+5. **Browsing agent:** 459 jobs found, 238 run now, 221 answered from memory (same link and price, no cost), 24 deals it published.
+6. **Site file:** 947 deals (944 with a picture, 63 linked to the game list).
+
+## Published by type
+
+sale: 869, physical: 65, bundle: 11, free: 2
+
+## Top 10 deals
+
+1. [Mortar & Pestle: A Potion-Brewing Solo RPG](https://slugpplgames.itch.io/mortar-pestle-a-potion-brewing-solo-rpg) at itch.io: 0.0 USD, was 5.0, 100% off
+2. [Pinebrook Lake](https://slugpplgames.itch.io/pinebrook-lake) at itch.io: 0.0 USD, was 2.0, 100% off
+3. [Working Class Alphabet — for the DCC RPG (Dungeon Crawl Classics) — INNER HAM](https://www.drivethrurpg.com/product/238957/working-class-alphabet-for-the-dcc-rpg-dungeon-crawl-classics-inner-ham) at DriveThruRPG: 0.25 USD, was 3.0, 92% off
+4. [Center Space 2nd Edition](https://www.drivethrurpg.com/product/19262/center-space-2nd-edition) at DriveThruRPG: 1.0 USD, was 10.99, 91% off
+5. [Gnew Binston](https://www.drivethrurpg.com/product/341589/gnew-binston) at DriveThruRPG: 0.44 USD, was 5.0, 91% off
+6. [Unseen Unraveling - a Cthulhu/Lovecraft-inspired Horror Campaign Creation Package](https://www.drivethrurpg.com/product/437845/unseen-unraveling-a-cthulhu-lovecraft-inspired-horror-campaign-creation-package) at DriveThruRPG: 1.67 USD, was 13.95, 88% off
+7. [Patrons Extraordinary: The Unpretty Preview (DCC RPG) Dungeon Crawl Classics — INNER HAM](https://www.drivethrurpg.com/product/151691/patrons-extraordinary-the-unpretty-preview-dcc-rpg-dungeon-crawl-classics-inner-ham) at DriveThruRPG: 0.13 USD, was 1.0, 87% off
+8. [Lifeshapers Volume I](https://www.drivethrurpg.com/product/24026/lifeshapers-volume-i) at DriveThruRPG: 1.0 USD, was 7.0, 86% off
+9. [Lifeshapers Volume 2](https://www.drivethrurpg.com/product/57825/lifeshapers-volume-2) at DriveThruRPG: 1.0 USD, was 7.0, 86% off
+10. [Mystic Himalayas - an Ice Cold Mysterious Campaign Creation Package](https://www.drivethrurpg.com/product/446853/mystic-himalayas-an-ice-cold-mysterious-campaign-creation-package) at DriveThruRPG: 2.23 USD, was 15.95, 86% off
+
+## New shops
+
+None today.
+
+## Shops that look broken
+
+- **steve-jackson-games-warehouse-23**: 3 deals today, usually about 19.0. Its reader may have stopped working.
+- **tuesday-knight-games**: 3 deals today, usually about 16.0. Its reader may have stopped working.
+
+## Sites that block us
+
+- **NEW** **ahcoffeebeans.itch.io**: rate limit (HTTP 429 after retries). Example: https://ahcoffeebeans.itch.io/robins
+- **NEW** **basunat.itch.io**: rate limit (HTTP 429 after retries). Example: https://basunat.itch.io/soloing-published-adventures
+- **NEW** **big-idea-forge.itch.io**: rate limit (HTTP 429 after retries). Example: https://big-idea-forge.itch.io/wizards-apprentice-final-exam
+- **NEW** **blackmilkclothing.com**: rate limit (HTTP 429 after retries). Example: https://blackmilkclothing.com/products.json?limit=1
+- **NEW** **dangerfield.com.au**: rate limit (HTTP 429 after retries). Example: https://dangerfield.com.au/products.json?limit=250
+- **NEW** **gormanshop.com.au**: rate limit (HTTP 429 after retries). Example: https://gormanshop.com.au/products.json?limit=1
+- **NEW** **innocentgoblin.itch.io**: rate limit (HTTP 429 after retries). Example: https://innocentgoblin.itch.io/year-of-queer
+- **NEW** **kendric2000.itch.io**: rate limit (HTTP 429 after retries). Example: https://kendric2000.itch.io/wonders-warrens-waystones
+- **NEW** **lithun.itch.io**: rate limit (HTTP 429 after retries). Example: https://lithun.itch.io/the-deck-of-twists
+- **NEW** **neon-rot.itch.io**: rate limit (HTTP 429 after retries). Example: https://neon-rot.itch.io/chorogaiden-omens
+- **NEW** **nolimelightproductions.itch.io**: rate limit (HTTP 429 after retries). Example: https://nolimelightproductions.itch.io/prosperon-welcome-to-arco-prime
+- **NEW** **princesshighway.com.au**: rate limit (HTTP 429 after retries). Example: https://princesshighway.com.au/products.json?limit=1
+- **NEW** **securityweek.com**: robots.txt disallows us. Example: https://www.securityweek.com/products.json?limit=1
+- **NEW** **shop.hauntedtable.games**: rate limit (HTTP 429 after retries). Example: https://shop.hauntedtable.games/products.json?limit=1
+- **NEW** **startplaying.games**: HTTP 403. Example: https://startplaying.games/wp-json/wc/store/v1/products?per_page=1
+- **NEW** **status.optimizely.com**: HTTP 403. Example: https://status.optimizely.com/wp-json/wc/store/v1/products?per_page=1
+- **NEW** **thecommongoodsus.itch.io**: rate limit (HTTP 429 after retries). Example: https://thecommongoodsus.itch.io/solo-hexcrawl-kit
+- **NEW** **tvtropes.org**: HTTP 403. Example: https://tvtropes.org/
+- **asmodee.co.uk**: rate limit (HTTP 429 after retries). Example: https://www.asmodee.co.uk/products.json?limit=250&page=2
+- **bardlight.store**: rate limit (HTTP 429 after retries). Example: https://bardlight.store/products.json?limit=250&page=1
+- **bullypulpitgames.com**: rate limit (HTTP 429 after retries). Example: http://www.bullypulpitgames.com/products.json?limit=250&page=2
+- **criticalkit.co.uk**: rate limit (HTTP 429 after retries). Example: https://www.criticalkit.co.uk/products.json?limit=250&page=1
+- **drivethrurpg.com**: bot wall (known, never fetched). Example: https://www.drivethrurpg.com/product/593652/safeguard-print-play
+- **enpublishingrpg.com**: rate limit (HTTP 429 after retries). Example: https://enpublishingrpg.com/products.json?limit=250&page=1
+- **etsy.com**: HTTP 403. Example: https://www.etsy.com/shop/ThierolfIllustration
+- **exaltedfuneral.com**: rate limit (HTTP 429 after retries). Example: https://www.exaltedfuneral.com/products.json?limit=250&page=1
+- **froggodgames.com**: rate limit (HTTP 429 after retries). Example: https://www.froggodgames.com/products.json?limit=250&page=2
+- **gallantknightgames.com**: rate limit (HTTP 429 after retries). Example: https://gallantknightgames.com/products.json?limit=250&page=1
+- **gamesomnivorous.com**: rate limit (HTTP 429 after retries). Example: https://gamesomnivorous.com/products.json?limit=250&page=1
+- **goodluckpress.co**: rate limit (HTTP 429 after retries). Example: https://goodluckpress.co/products.json?limit=250&page=1
+- **greenroninstore.com**: rate limit (HTTP 429 after retries). Example: https://greenroninstore.com/products.json?limit=250&page=1
+- **hammerdog-games.myshopify.com**: rate limit (HTTP 429 after retries). Example: https://hammerdog-games.myshopify.com/products.json?limit=250&page=1
+- **hitpointpress.com**: rate limit (HTTP 429 after retries). Example: https://hitpointpress.com/products.json?limit=250&page=1
+- **itch.io**: rate limit (HTTP 429 after retries). Example: https://itch.io/physical-games/on-sale/tag-ttrpg?page=54
+- **leisuregames.com**: rate limit (HTTP 429 after retries). Example: https://leisuregames.com/collections/reduced-price-1/products.json?limit=250&page=1
+- **leyline.press**: rate limit (HTTP 429 after retries). Example: https://leyline.press/products.json?limit=250&page=1
+- **magpiegames.com**: rate limit (HTTP 429 after retries). Example: https://magpiegames.com/products.json?limit=250&page=1
+- **modiphius.net**: rate limit (HTTP 429 after retries). Example: https://modiphius.net/products.json?limit=250&page=1
+- **modiphius.us**: rate limit (HTTP 429 after retries). Example: https://modiphius.us/products.json?limit=250&page=1
+- **mongoosepublishing.com**: rate limit (HTTP 429 after retries). Example: https://www.mongoosepublishing.com/products.json?limit=250&page=1
+- **monsterfightclub.com**: rate limit (HTTP 429 after retries). Example: https://monsterfightclub.com/products.json?limit=250&page=1
+- **myth.works**: rate limit (HTTP 429 after retries). Example: https://www.myth.works/products.json?limit=250&page=1
+- **necroticgnome.com**: rate limit (HTTP 429 after retries). Example: https://necroticgnome.com/products.json?limit=250&page=1
+- **plusoneexp.com**: rate limit (HTTP 429 after retries). Example: http://plusoneexp.com/products.json?limit=250&page=1
+- **shop.arcdream.com**: rate limit (HTTP 429 after retries). Example: https://shop.arcdream.com/products.json?limit=250&page=1
+- **shop.atlas-games.com**: rate limit (HTTP 429 after retries). Example: https://shop.atlas-games.com/products.json?limit=250&page=3
+- **shop.critrole.com**: rate limit (HTTP 429 after retries). Example: https://shop.critrole.com/products.json?limit=250&page=1
+- **shop.limithron.com**: rate limit (HTTP 429 after retries). Example: https://shop.limithron.com/products/down-among-the-dead-wholesale
+- **shop.mcdmproductions.com**: rate limit (HTTP 429 after retries). Example: https://shop.mcdmproductions.com/products.json?limit=250&page=1
+- **shop.mottokrosh.com**: rate limit (HTTP 429 after retries). Example: https://shop.mottokrosh.com/products.json?limit=250&page=1
+- **shop.peginc.com**: rate limit (HTTP 429 after retries). Example: https://shop.peginc.com/products.json?limit=250&page=1
+- **shop.slyflourish.com**: rate limit (HTTP 429 after retries). Example: https://shop.slyflourish.com/products.json?limit=250&page=1
+- **snowbrightstudio.com**: rate limit (HTTP 429 after retries). Example: https://snowbrightstudio.com/products.json?limit=250&page=1
+- **spacepenguin.ink**: rate limit (HTTP 429 after retries). Example: https://spacepenguin.ink/products.json?limit=250&page=1
+- **stillfleet.com**: rate limit (HTTP 429 after retries). Example: http://stillfleet.com/products.json?limit=250&page=1
+- **store.catalystgamelabs.com**: rate limit (HTTP 429 after retries). Example: https://store.catalystgamelabs.com/products.json?limit=250&page=1
+- **tabletopgaming.shop**: rate limit (HTTP 429 after retries). Example: https://tabletopgaming.shop/products.json?limit=250&page=1
+- **talsorianstore.com**: rate limit (HTTP 429 after retries). Example: https://talsorianstore.com/products.json?limit=250&page=2
+- **tuesdayknightgames.com**: rate limit (HTTP 429 after retries). Example: https://www.tuesdayknightgames.com/collections/mothership-0e/products/the-hackers-handbook
+- **warehouse23.com**: rate limit (HTTP 429 after retries). Example: https://warehouse23.com/products.json?limit=250&page=2
+
+All sites that ever blocked us: 218 (`data/shops/blocked-sites.json`). We never get around a block (good-bot rule).
+
+## Safety limits hit
+
+None. Every shop was read to the end.
+
+## Misses
+
+None.
+
+## Needs your check
+
+- **Create Your Own RPG** (itch.io): https://basunat.itch.io/your-world-your-story-a-guide-to-designing-custom-rpgs
+  Question: Does this page show Create Your Own RPG at 2.97 USD on sale today? Open the link and tell me yes or no.
+- **Quest RPG Notion Campaign Template | Notion Template | TTRPG** (itch.io): https://minva-tabletop-design-co.itch.io/quest-rpg-notion-campaign-template-notion-template-ttrpg
+  Question: Does this page show Quest RPG Notion Campaign Template | Notion Template | TTRPG at 3.5 USD on sale today? Open the link and tell me yes or no.
+- **D&D Session Zero Guide | Dungeons and Dragons | DnD** (itch.io): https://minva-tabletop-design-co.itch.io/dnd-session-zero-guide
+  Question: Does this page show D&D Session Zero Guide | Dungeons and Dragons | DnD at 3.15 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Wizard Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-wizard-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Wizard Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **The Last Bell** (itch.io): https://marrow-ash-press.itch.io/the-last-bell
+  Question: Does this page show The Last Bell at 3.49 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Paladin Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-paladin-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Paladin Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Warlock Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Warlock Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **Printable DnD Character Journal + DnD 2024 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet** (itch.io): https://onegoodeveningdnd.itch.io/dnd-player-kit-2024
+  Question: Does this page show Printable DnD Character Journal + DnD 2024 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet at 18.99 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Rogue Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-rogue-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Rogue Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Fighter Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Fighter Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Bard Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-bard-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Bard Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **DnD d100 Roll Charts Bundle: Random Encounter Tables, 5 Books (PDF)** (itch.io): https://onegoodeveningdnd.itch.io/dnd-random-encounter-tables-bundle
+  Question: Does this page show DnD d100 Roll Charts Bundle: Random Encounter Tables, 5 Books (PDF) at 15.2 USD on sale today? Open the link and tell me yes or no.
+- **DnD NPC Generator: 160 Ready NPCs, DM Reference Sheets (Digital Download)** (itch.io): https://onegoodeveningdnd.itch.io/dnd-npc-generator
+  Question: Does this page show DnD NPC Generator: 160 Ready NPCs, DM Reference Sheets (Digital Download) at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Cleric Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Cleric Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Ranger Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Ranger Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **DnD 2024 Character Sheet Sorcerer Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet-2024
+  Question: Does this page show DnD 2024 Character Sheet Sorcerer Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Warlock Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-warlock-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Warlock Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **D&D 5e Initiative Tracker: Printable DM Binder, 12 Fillable Sheets (PDF)** (itch.io): https://onegoodeveningdnd.itch.io/dnd-initiative-tracker-dm-binder
+  Question: Does this page show D&D 5e Initiative Tracker: Printable DM Binder, 12 Fillable Sheets (PDF) at 4.55 USD on sale today? Open the link and tell me yes or no.
+- **DND 101 | Dungeons and Dragons Beginner Character Sheet | New Player Quick Reference | Dungeons and Dragons | TTRPG** (itch.io): https://onegoodeveningdnd.itch.io/dnd-character-sheet
+  Question: Does this page show DND 101 | Dungeons and Dragons Beginner Character Sheet | New Player Quick Reference | Dungeons and Dragons | TTRPG at 5.31 USD on sale today? Open the link and tell me yes or no.
+- **Printable DnD Character Journal + DnD 2014 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet** (itch.io): https://onegoodeveningdnd.itch.io/dnd-player-kit
+  Question: Does this page show Printable DnD Character Journal + DnD 2014 Spell Card Bundle | Dungeons and Dragons DnD Character Sheet at 18.99 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Cleric Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-cleric-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Cleric Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **Gothic DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory** (itch.io): https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-gothic
+  Question: Does this page show Gothic DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory at 6.83 USD on sale today? Open the link and tell me yes or no.
+- **DnD Card Bundle 5e 2014 | Printable Spell, Monster and Magic Item Cards, Dungeon Master Tools | Digital Download** (itch.io): https://onegoodeveningdnd.itch.io/dnd-cards-bundle
+  Question: Does this page show DnD Card Bundle 5e 2014 | Printable Spell, Monster and Magic Item Cards, Dungeon Master Tools | Digital Download at 28.11 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Fighter Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-fighter-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Fighter Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Druid Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-druid-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Druid Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Ranger Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-ranger-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Ranger Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Sorcerer Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-sorcerer-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Sorcerer Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **Ember DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory** (itch.io): https://onegoodeveningdnd.itch.io/dnd-character-sheet-5e-ember
+  Question: Does this page show Ember DnD Character Sheet Set | 10 Page Printable & Fillable PDF, A4 + US Letter | Spell Sheet, Inventory at 6.83 USD on sale today? Open the link and tell me yes or no.
+- **DnD 5e Character Sheet Barbarian Printable and Fillable PDF D&D 5e** (itch.io): https://onegoodeveningdnd.itch.io/dnd-barbarian-character-sheet
+  Question: Does this page show DnD 5e Character Sheet Barbarian Printable and Fillable PDF D&D 5e at 3.41 USD on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Horror Adventures (PFRPG) Hardcover** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-horror-adventures-pfrpg-hardcover/
+  Question: Does this page show Pathfinder Roleplaying Game: Horror Adventures (PFRPG) Hardcover at 22.5 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Campaign Setting: Inner Sea Races Hardcover** (Paizo): https://store.paizo.com/pathfinder-campaign-setting-inner-sea-races-hardcover/
+  Question: Does this page show Pathfinder Campaign Setting: Inner Sea Races Hardcover at 22.5 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Villain Codex Pocket Edition** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-villain-codex-pocket-edition/
+  Question: Does this page show Pathfinder Roleplaying Game: Villain Codex Pocket Edition at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Monster Codex Pocket Edition** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-monster-codex-pocket-edition/
+  Question: Does this page show Pathfinder Roleplaying Game: Monster Codex Pocket Edition at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: NPC Codex Pocket Edition** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-npc-codex-pocket-edition/
+  Question: Does this page show Pathfinder Roleplaying Game: NPC Codex Pocket Edition at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Campaign Setting: Inner Sea World Guide (PFRPG) PDF** (Paizo): https://store.paizo.com/pathfinder-campaign-setting-inner-sea-world-guide-pfrpg-pdf/
+  Question: Does this page show Pathfinder Campaign Setting: Inner Sea World Guide (PFRPG) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Horror Adventures Pocket Edition** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-horror-adventures-pocket-edition/
+  Question: Does this page show Pathfinder Roleplaying Game: Horror Adventures Pocket Edition at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path #136: Temple of the Peacock Spirit (Return of the Runelords 4 of 6) PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-136-temple-of-the-peacock-spirit-return-of-the-runelords-4-of-6-pdf/
+  Question: Does this page show Pathfinder Adventure Path #136: Temple of the Peacock Spirit (Return of the Runelords 4 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Bestiary 6 (PFRPG) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-bestiary-6-pfrpg-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Bestiary 6 (PFRPG) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path: Rise of the Runelords Anniversary Edition Interactive Maps PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-rise-of-the-runelords-anniversary-edition-interactive-maps-pdf/
+  Question: Does this page show Pathfinder Adventure Path: Rise of the Runelords Anniversary Edition Interactive Maps PDF at 9.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: The Dragon's Demand PDF** (Paizo): https://store.paizo.com/pathfinder-module-the-dragon-s-demand-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: The Dragon's Demand PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path #91: Battle of Bloodmarch Hill (Giantslayer 1 of 6) PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-91-battle-of-bloodmarch-hill-giantslayer-1-of-6-pfrpg-pdf/
+  Question: Does this page show Pathfinder Adventure Path #91: Battle of Bloodmarch Hill (Giantslayer 1 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path #137: The City Outside of Time (Return of the Runelords 5 of 6) PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-137-the-city-outside-of-time-return-of-the-runelords-5-of-6-pdf/
+  Question: Does this page show Pathfinder Adventure Path #137: The City Outside of Time (Return of the Runelords 5 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Planar Adventures PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-planar-adventures-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Planar Adventures PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path #135: Runeplague (Return of the Runelords 3 of 6) PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-135-runeplague-return-of-the-runelords-3-of-6-pdf/
+  Question: Does this page show Pathfinder Adventure Path #135: Runeplague (Return of the Runelords 3 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path #69: Maiden, Mother, Crone (Reign of Winter 3 of 6) PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-69-maiden-mother-crone-reign-of-winter-3-of-6-pfrpg-pdf/
+  Question: Does this page show Pathfinder Adventure Path #69: Maiden, Mother, Crone (Reign of Winter 3 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Advanced Player's Guide (OGL) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-advanced-player-s-guide-ogl-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Advanced Player's Guide (OGL) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path #103: The Hellfire Compact (Hell's Vengeance 1 of 6) PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-103-the-hellfire-compact-hell-s-vengeance-1-of-6-pfrpg-pdf/
+  Question: Does this page show Pathfinder Adventure Path #103: The Hellfire Compact (Hell's Vengeance 1 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path #94: Ice Tomb of the Giant Queen (Giantslayer 4 of 6) PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-94-ice-tomb-of-the-giant-queen-giantslayer-4-of-6-pfrpg-pdf/
+  Question: Does this page show Pathfinder Adventure Path #94: Ice Tomb of the Giant Queen (Giantslayer 4 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Cards: The Dragon's Demand Campaign Cards** (Paizo): https://store.paizo.com/pathfinder-campaign-cards-the-dragon-s-demand/
+  Question: Does this page show Pathfinder Cards: The Dragon's Demand Campaign Cards at 5.5 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Bestiary 5 (OGL) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-bestiary-5-ogl-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Bestiary 5 (OGL) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Horror Adventures (PFRPG) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-horror-adventures-pfrpg-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Horror Adventures (PFRPG) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Bestiary 4 (OGL) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-bestiary-4-ogl-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Bestiary 4 (OGL) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path #93: Forge of the Giant God (Giantslayer 3 of 6) PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-93-forge-of-the-giant-god-giantslayer-3-of-6-pfrpg-pdf/
+  Question: Does this page show Pathfinder Adventure Path #93: Forge of the Giant God (Giantslayer 3 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: Plunder & Peril PDF** (Paizo): https://store.paizo.com/pathfinder-module-plunder-peril-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: Plunder & Peril PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path #92: The Hill Giant's Pledge (Giantslayer 2 of 6) PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-92-the-hill-giant-s-pledge-giantslayer-2-of-6-pfrpg-pdf/
+  Question: Does this page show Pathfinder Adventure Path #92: The Hill Giant's Pledge (Giantslayer 2 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Bestiary 3 (OGL) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-bestiary-3-ogl-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Bestiary 3 (OGL) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path #81: Shifting Sands (Mummy’s Mask 3 of 6) PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-81-shifting-sands-mummy-s-mask-3-of-6-pfrpg-pdf/
+  Question: Does this page show Pathfinder Adventure Path #81: Shifting Sands (Mummy’s Mask 3 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Advanced Race Guide (OGL) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-advanced-race-guide-ogl-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Advanced Race Guide (OGL) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Ultimate Intrigue (PFRPG) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-ultimate-intrigue-pfrpg-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Ultimate Intrigue (PFRPG) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: Feast of Ravenmoor PDF** (Paizo): https://store.paizo.com/pathfinder-module-the-feast-of-ravenmoor-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: Feast of Ravenmoor PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Adventurer's Guide (PFRPG) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-adventurer-s-guide-pfrpg-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Adventurer's Guide (PFRPG) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Bestiary 2 (OGL) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-bestiary-2-ogl-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Bestiary 2 (OGL) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Adventure Path #90: The Divinity Drive (Iron Gods 6 of 6) PDF** (Paizo): https://store.paizo.com/pathfinder-adventure-path-90-the-divinity-drive-iron-gods-6-of-6-pdf/
+  Question: Does this page show Pathfinder Adventure Path #90: The Divinity Drive (Iron Gods 6 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: Gallows of Madness PDF** (Paizo): https://store.paizo.com/pathfinder-module-gallows-of-madness-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: Gallows of Madness PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Player Companion: Legacy of the First World PDF** (Paizo): https://store.paizo.com/pathfinder-player-companion-legacy-of-the-first-world-pfrpg-pdf/
+  Question: Does this page show Pathfinder Player Companion: Legacy of the First World PDF at 9.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: Cradle of Night PDF** (Paizo): https://store.paizo.com/pathfinder-module-cradle-of-night-pdf/
+  Question: Does this page show Pathfinder Module: Cradle of Night PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: NPC Codex (OGL) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-npc-codex-ogl-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: NPC Codex (OGL) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Villain Codex (PFRPG) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-villain-codex-pfrpg-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Villain Codex (PFRPG) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: Ire of the Storm PDF** (Paizo): https://store.paizo.com/pathfinder-module-ire-of-the-storm-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: Ire of the Storm PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: Wardens of the Reborn Forge PDF** (Paizo): https://store.paizo.com/pathfinder-module-wardens-of-the-reborn-forge-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: Wardens of the Reborn Forge PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: Daughters of Fury PDF** (Paizo): https://store.paizo.com/pathfinder-module-daughters-of-fury-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: Daughters of Fury PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: The House on Hook Street PDF** (Paizo): https://store.paizo.com/pathfinder-module-the-house-on-hook-street-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: The House on Hook Street PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Monster Codex (OGL) PDF** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-monster-codex-ogl-pdf/
+  Question: Does this page show Pathfinder Roleplaying Game: Monster Codex (OGL) PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: Seers of the Drowned City PDF** (Paizo): https://store.paizo.com/pathfinder-module-seers-of-the-drowned-city-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: Seers of the Drowned City PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Player Companion: Faiths of Purity PDF** (Paizo): https://store.paizo.com/pathfinder-player-companion-faiths-of-purity-pfrpg-pdf/
+  Question: Does this page show Pathfinder Player Companion: Faiths of Purity PDF at 9.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: Down the Blighted Path PDF** (Paizo): https://store.paizo.com/pathfinder-module-down-the-blighted-path-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: Down the Blighted Path PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Player Companion: Champions of Purity PDF** (Paizo): https://store.paizo.com/pathfinder-player-companion-champions-of-purity-pdf/
+  Question: Does this page show Pathfinder Player Companion: Champions of Purity PDF at 9.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: Feast of Dust PDF** (Paizo): https://store.paizo.com/pathfinder-module-feast-of-dust-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: Feast of Dust PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Module: Tears at Bitter Manor PDF** (Paizo): https://store.paizo.com/pathfinder-module-tears-at-bitter-manor-pfrpg-pdf/
+  Question: Does this page show Pathfinder Module: Tears at Bitter Manor PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Player Companion: Faiths & Philosophies PDF** (Paizo): https://store.paizo.com/pathfinder-player-companion-faiths-philosophies-pfrpg-pdf/
+  Question: Does this page show Pathfinder Player Companion: Faiths & Philosophies PDF at 9.99 on sale today? Open the link and tell me yes or no.
+- **Pathfinder Roleplaying Game: Ultimate Magic (OGL) Pocket Edition** (Paizo): https://store.paizo.com/pathfinder-roleplaying-game-ultimate-magic-ogl-pocket-edition/
+  Question: Does this page show Pathfinder Roleplaying Game: Ultimate Magic (OGL) Pocket Edition at 19.99 on sale today? Open the link and tell me yes or no.
+- **Rule Zero: Critical Hits PDF** (Paizo): https://store.paizo.com/rule-zero-critical-hits-pdf/
+  Question: Does this page show Rule Zero: Critical Hits PDF at 2.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Mechageddon! Adventure Path PDF** (Paizo): https://store.paizo.com/starfinder-mechageddon-adventure-path-pdf/
+  Question: Does this page show Starfinder Mechageddon! Adventure Path PDF at 39.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Society Scenario #2-01: Pact World Warriors** (Paizo): https://store.paizo.com/starfinder-society-scenario-2-01-pact-world-warriors/
+  Question: Does this page show Starfinder Society Scenario #2-01: Pact World Warriors at 5.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure: Drift Crisis Case Files PDF** (Paizo): https://store.paizo.com/starfinder-adventure-drift-crisis-case-files-pdf/
+  Question: Does this page show Starfinder Adventure: Drift Crisis Case Files PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path: Dead Suns PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-dead-suns-pdf/
+  Question: Does this page show Starfinder Adventure Path: Dead Suns PDF at 39.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure: The Liberation of Locus-1 PDF** (Paizo): https://store.paizo.com/starfinder-adventure-the-liberation-of-locus-1-pdf/
+  Question: Does this page show Starfinder Adventure: The Liberation of Locus-1 PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure: Junker's Delight PDF** (Paizo): https://store.paizo.com/starfinder-adventure-junker-s-delight-pdf/
+  Question: Does this page show Starfinder Adventure: Junker's Delight PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Spell Cards Supplemental** (Paizo): https://store.paizo.com/starfinder-spell-cards-supplemental/
+  Question: Does this page show Starfinder Spell Cards Supplemental at 15.0 on sale today? Open the link and tell me yes or no.
+- **Starfinder Deck of Many Worlds** (Paizo): https://store.paizo.com/starfinder-deck-of-many-worlds/
+  Question: Does this page show Starfinder Deck of Many Worlds at 9.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Critical Fumble Deck** (Paizo): https://store.paizo.com/starfinder-critical-fumble-deck/
+  Question: Does this page show Starfinder Critical Fumble Deck at 5.5 on sale today? Open the link and tell me yes or no.
+- **Starfinder Scoured Stars Adventure Path PDF** (Paizo): https://store.paizo.com/starfinder-scoured-stars-adventure-path-pdf/
+  Question: Does this page show Starfinder Scoured Stars Adventure Path PDF at 39.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #51: Into the Dataverse (Drift Hackers 3 of 3) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-51-into-the-dataverse-drift-hackers-3-of-3-pdf/
+  Question: Does this page show Starfinder Adventure Path #51: Into the Dataverse (Drift Hackers 3 of 3) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #50: Clockwork Demons (Drift Hackers 2 of 3) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-50-clockwork-demons-drift-hackers-2-of-3-pdf/
+  Question: Does this page show Starfinder Adventure Path #50: Clockwork Demons (Drift Hackers 2 of 3) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #49: A Light in the Dark (Drift Hackers 1 of 3) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-49-a-light-in-the-dark-drift-hackers-1-of-3-pdf/
+  Question: Does this page show Starfinder Adventure Path #49: A Light in the Dark (Drift Hackers 1 of 3) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #48: Masters of Time and Space (Drift Crashers 3 of 3) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-48-masters-of-time-and-space-drift-crashers-3-of-3-pdf/
+  Question: Does this page show Starfinder Adventure Path #48: Masters of Time and Space (Drift Crashers 3 of 3) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #47: Nightmare Scenario (Drift Crashers 2 of 3) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-47-nightmare-scenario-drift-crashers-2-of-3-pdf/
+  Question: Does this page show Starfinder Adventure Path #47: Nightmare Scenario (Drift Crashers 2 of 3) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #46: The Perfect Storm (Drift Crashers 1 of 3) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-46-the-perfect-storm-drift-crashers-1-of-3-pdf/
+  Question: Does this page show Starfinder Adventure Path #46: The Perfect Storm (Drift Crashers 1 of 3) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #41: Serpents in the Cradle (Horizons of the Vast 2 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-41-serpents-in-the-cradle-horizons-of-the-vast-2-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #41: Serpents in the Cradle (Horizons of the Vast 2 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #40: Planetfall (Horizons of the Vast 1 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-40-planetfall-horizons-of-the-vast-1-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #40: Planetfall (Horizons of the Vast 1 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #38: Crash & Burn (Fly Free or Die 5 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-38-crash-burn-fly-free-or-die-5-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #38: Crash & Burn (Fly Free or Die 5 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #36: Professional Courtesy (Fly Free or Die 3 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-36-professional-courtesy-fly-free-or-die-3-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #36: Professional Courtesy (Fly Free or Die 3 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #33: Dominion’s End (Devastation Ark 3 of 3) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-33-dominion-s-end-devastation-ark-3-of-3-pdf/
+  Question: Does this page show Starfinder Adventure Path #33: Dominion’s End (Devastation Ark 3 of 3) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #32: The Starstone Blockade (The Devastation Ark 2 of 3) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-32-the-starstone-blockade-the-devastation-ark-2-of-3-pdf/
+  Question: Does this page show Starfinder Adventure Path #32: The Starstone Blockade (The Devastation Ark 2 of 3) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #31: Waking the Worldseed (Devastation Ark 1 of 3) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-31-waking-the-worldseed-devastation-ark-1-of-3-pdf/
+  Question: Does this page show Starfinder Adventure Path #31: Waking the Worldseed (Devastation Ark 1 of 3) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #30: Puppets Without Strings (The Threefold Conspiracy 6 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-30-puppets-without-strings-the-threefold-conspiracy-6-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #30: Puppets Without Strings (The Threefold Conspiracy 6 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #25: The Chimera Mystery (The Threefold Conspiracy 1 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-25-the-chimera-mystery-the-threefold-conspiracy-1-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #25: The Chimera Mystery (The Threefold Conspiracy 1 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #22: The Forever Reliquary  (Attack of the Swarm! 4 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-22-the-forever-reliquary-attack-of-the-swarm-4-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #22: The Forever Reliquary (Attack of the Swarm! 4 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #19: Fate of the Fifth (Attack of the Swarm! 1 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-19-fate-of-the-fifth-attack-of-the-swarm-1-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #19: Fate of the Fifth (Attack of the Swarm! 1 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #15: Sun Divers (Dawn of Flame 3 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-15-sun-divers-dawn-of-flame-3-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #15: Sun Divers (Dawn of Flame 3 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #14: Soldiers of Brass (Dawn of Flame 2 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-14-soldiers-of-brass-dawn-of-flame-2-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #14: Soldiers of Brass (Dawn of Flame 2 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #6: Empire of Bones (Dead Suns 6 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-6-empire-of-bones-dead-suns-6-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #6: Empire of Bones (Dead Suns 6 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #5: The Thirteenth Gate (Dead Suns 5 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-5-the-thirteenth-gate-dead-suns-5-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #5: The Thirteenth Gate (Dead Suns 5 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #4: The Ruined Clouds (Dead Suns 4 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-4-the-ruined-clouds-dead-suns-4-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #4: The Ruined Clouds (Dead Suns 4 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Adventure Path #3: Splintered Worlds (Dead Suns 3 of 6) PDF** (Paizo): https://store.paizo.com/starfinder-adventure-path-splintered-worlds-dead-suns-3-of-6-pdf/
+  Question: Does this page show Starfinder Adventure Path #3: Splintered Worlds (Dead Suns 3 of 6) PDF at 19.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Enhanced PDF** (Paizo): https://store.paizo.com/starfinder-enhanced-pdf/
+  Question: Does this page show Starfinder Enhanced PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Ports of Call PDF** (Paizo): https://store.paizo.com/starfinder-ports-of-call-pdf/
+  Question: Does this page show Starfinder Ports of Call PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Galactic Magic PDF** (Paizo): https://store.paizo.com/starfinder-galactic-magic-pdf/
+  Question: Does this page show Starfinder Galactic Magic PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Galaxy Exploration Manual PDF** (Paizo): https://store.paizo.com/starfinder-galaxy-exploration-manual-pdf/
+  Question: Does this page show Starfinder Galaxy Exploration Manual PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Starship Operations Manual PDF** (Paizo): https://store.paizo.com/starfinder-starship-operations-manual-pdf/
+  Question: Does this page show Starfinder Starship Operations Manual PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Near Space PDF** (Paizo): https://store.paizo.com/starfinder-rpg-near-space-pdf/
+  Question: Does this page show Starfinder Near Space PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Character Operations Manual PDF** (Paizo): https://store.paizo.com/starfinder-character-operations-manual-pdf/
+  Question: Does this page show Starfinder Character Operations Manual PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Beginner Box PDF** (Paizo): https://store.paizo.com/starfinder-beginner-box-pdf/
+  Question: Does this page show Starfinder Beginner Box PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Pact Worlds PDF** (Paizo): https://store.paizo.com/starfinder-pact-worlds-pdf/
+  Question: Does this page show Starfinder Pact Worlds PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Core Rulebook PDF** (Paizo): https://store.paizo.com/starfinder-core-rulebook-pdf/
+  Question: Does this page show Starfinder Core Rulebook PDF at 29.99 on sale today? Open the link and tell me yes or no.
+- **Starfinder Character Operations Manual Hardcover** (Paizo): https://store.paizo.com/starfinder-character-operations-manual/
+  Question: Does this page show Starfinder Character Operations Manual Hardcover at 20.0 on sale today? Open the link and tell me yes or no.
+- **Starfinder Near Space Hardcover** (Paizo): https://store.paizo.com/starfinder-rpg-near-space/
+  Question: Does this page show Starfinder Near Space Hardcover at 20.0 on sale today? Open the link and tell me yes or no.
+- **Starfinder Starship Operations Manual Hardcover** (Paizo): https://store.paizo.com/starfinder-starship-operations-manual/
+  Question: Does this page show Starfinder Starship Operations Manual Hardcover at 20.0 on sale today? Open the link and tell me yes or no.
+- **Starfinder Galaxy Exploration Manual Hardcover** (Paizo): https://store.paizo.com/starfinder-galaxy-exploration-manual/
+  Question: Does this page show Starfinder Galaxy Exploration Manual Hardcover at 20.0 on sale today? Open the link and tell me yes or no.
+- **Starfinder Ports of Call Hardcover** (Paizo): https://store.paizo.com/starfinder-rpg-ports-of-call/
+  Question: Does this page show Starfinder Ports of Call Hardcover at 23.5 on sale today? Open the link and tell me yes or no.
+- **Starfinder Enhanced Hardcover** (Paizo): https://store.paizo.com/starfinder-rpg-starfinder-enhanced/
+  Question: Does this page show Starfinder Enhanced Hardcover at 22.5 on sale today? Open the link and tell me yes or no.
+- **G.I. JOE Roleplaying Game PDF Pre-Gen Character Sheets** (Renegade Game Studios): https://renegadegamestudios.com/g-i-joe-roleplaying-game-pre-gen-character-sheets/
+  Question: Does this page show G.I. JOE Roleplaying Game PDF Pre-Gen Character Sheets at 0.0 on sale today? Open the link and tell me yes or no.
+- **PDF G.I. JOE Roleplaying Game Ferocious Fighters: Factions in Action Vol. 1 Sourcebook** (Renegade Game Studios): https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-ferocious-fighters-factions-in-action-vol-1-sourcebook/
+  Question: Does this page show PDF G.I. JOE Roleplaying Game Ferocious Fighters: Factions in Action Vol. 1 Sourcebook at 20.0 on sale today? Open the link and tell me yes or no.
+- **PDF G.I. JOE Roleplaying Game Intercontinental Adventures: Factions in Action Vol. 2 Sourcebook** (Renegade Game Studios): https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-intercontinental-adventures-factions-in-action-vol-2-sourcebook/
+  Question: Does this page show PDF G.I. JOE Roleplaying Game Intercontinental Adventures: Factions in Action Vol. 2 Sourcebook at 30.0 on sale today? Open the link and tell me yes or no.
+- **PDF G.I. JOE Roleplaying Game Quartermaster's Guide to Gear Sourcebook** (Renegade Game Studios): https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-quartermasters-guide-to-gear-sourcebook/
+  Question: Does this page show PDF G.I. JOE Roleplaying Game Quartermaster's Guide to Gear Sourcebook at 30.0 on sale today? Open the link and tell me yes or no.
+- **PDF G.I. JOE Roleplaying Game Sgt Slaughter Limited Edition Accessory Pack** (Renegade Game Studios): https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-sgt-slaughter-limited-edition-accessory-pack/
+  Question: Does this page show PDF G.I. JOE Roleplaying Game Sgt Slaughter Limited Edition Accessory Pack at 20.0 on sale today? Open the link and tell me yes or no.
+- **PDF G.I. JOE Roleplaying Game The Emerald Oubliette Adventure** (Renegade Game Studios): https://renegadegamestudios.com/pdf-g-i-joe-roleplaying-game-the-emerald-oubliette-adventure/
+  Question: Does this page show PDF G.I. JOE Roleplaying Game The Emerald Oubliette Adventure at 10.0 on sale today? Open the link and tell me yes or no.
+- **PDF G.I. JOE Transformers Roleplaying Game Shock & Mayhem** (Renegade Game Studios): https://renegadegamestudios.com/pdf-g-i-joe-transformers-roleplaying-game-shock-mayhem/
+  Question: Does this page show PDF G.I. JOE Transformers Roleplaying Game Shock & Mayhem at 3.99 on sale today? Open the link and tell me yes or no.
+- **PDF My Little Pony Roleplaying Game Core Rulebook** (Renegade Game Studios): https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-core-rulebook/
+  Question: Does this page show PDF My Little Pony Roleplaying Game Core Rulebook at 38.5 on sale today? Open the link and tell me yes or no.
+- **PDF My Little Pony Roleplaying Game Dark Skies Over Equestria Adventure Series Book** (Renegade Game Studios): https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-dark-skies-over-equestria-adventure-series-book/
+  Question: Does this page show PDF My Little Pony Roleplaying Game Dark Skies Over Equestria Adventure Series Book at 30.0 on sale today? Open the link and tell me yes or no.
+- **PDF My Little Pony Roleplaying Game In A Jam Adventure** (Renegade Game Studios): https://renegadegamestudios.com/pdf-my-little-pony-roleplaying-game-in-a-jam-adventure/
+  Question: Does this page show PDF My Little Pony Roleplaying Game In A Jam Adventure at 10.0 on sale today? Open the link and tell me yes or no.
+- **PDF Power Rangers Roleplaying Game A Glutton for Punishment Adventure** (Renegade Game Studios): https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-a-glutton-for-punishment-adventure/
+  Question: Does this page show PDF Power Rangers Roleplaying Game A Glutton for Punishment Adventure at 10.0 on sale today? Open the link and tell me yes or no.
+- **PDF Power Rangers Roleplaying Game A Time of Knight Adventure** (Renegade Game Studios): https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-a-time-of-knight-adventure/
+  Question: Does this page show PDF Power Rangers Roleplaying Game A Time of Knight Adventure at 8.99 on sale today? Open the link and tell me yes or no.
+- **PDF Power Rangers Roleplaying Game Adventures in Angel Grove** (Renegade Game Studios): https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-adventures-in-angel-grove/
+  Question: Does this page show PDF Power Rangers Roleplaying Game Adventures in Angel Grove at 31.5 on sale today? Open the link and tell me yes or no.
+- **PDF Power Rangers Roleplaying Game Beneath the Helmet Sourcebook** (Renegade Game Studios): https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-beneath-the-helmet-sourcebook/
+  Question: Does this page show PDF Power Rangers Roleplaying Game Beneath the Helmet Sourcebook at 30.0 on sale today? Open the link and tell me yes or no.
+- **PDF Power Rangers Roleplaying Game Jump Through Time Sourcebook** (Renegade Game Studios): https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-jump-through-time-sourcebook/
+  Question: Does this page show PDF Power Rangers Roleplaying Game Jump Through Time Sourcebook at 35.0 on sale today? Open the link and tell me yes or no.
+- **PDF Power Rangers Roleplaying Game The Phantom Gambit Adventure** (Renegade Game Studios): https://renegadegamestudios.com/pdf-power-rangers-roleplaying-game-the-phantom-gambit-adventure/
+  Question: Does this page show PDF Power Rangers Roleplaying Game The Phantom Gambit Adventure at 12.0 on sale today? Open the link and tell me yes or no.
+- **PDF Transformers Roleplaying Game A Beacon of Hope Adventure** (Renegade Game Studios): https://renegadegamestudios.com/pdf-transformers-roleplaying-game-a-beacon-of-hope-adventure/
+  Question: Does this page show PDF Transformers Roleplaying Game A Beacon of Hope Adventure at 10.0 on sale today? Open the link and tell me yes or no.
+- **PDF Transformers Roleplaying Game The Enigma of Combination Sourcebook** (Renegade Game Studios): https://renegadegamestudios.com/pdf-transformers-roleplaying-game-the-enigma-of-combination-sourcebook/
+  Question: Does this page show PDF Transformers Roleplaying Game The Enigma of Combination Sourcebook at 30.0 on sale today? Open the link and tell me yes or no.
+- **PDF Transformers Roleplaying Game The Time is Now Adventure Book** (Renegade Game Studios): https://renegadegamestudios.com/pdf-transformers-roleplaying-game-the-time-is-now-adventure-book/
+  Question: Does this page show PDF Transformers Roleplaying Game The Time is Now Adventure Book at 31.5 on sale today? Open the link and tell me yes or no.
+- **PDF Vampire: The Masquerade 5th Edition Roleplaying Bundle** (Renegade Game Studios): https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-bundle/
+  Question: Does this page show PDF Vampire: The Masquerade 5th Edition Roleplaying Bundle at 64.97 on sale today? Open the link and tell me yes or no.
+- **Vampire: The Masquerade 5th Edition Roleplaying Game Fall of London Chronicle** (Renegade Game Studios): https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-fall-of-london-chronicle/
+  Question: Does this page show Vampire: The Masquerade 5th Edition Roleplaying Game Fall of London Chronicle at 50.0 on sale today? Open the link and tell me yes or no.
+- **Werewolf: The Apocalypse 5th Edition Roleplaying Game Tribes of Gaia** (Renegade Game Studios): https://renegadegamestudios.com/werewolf-the-apocalypse-5th-edition-roleplaying-game-tribes-of-gaia/
+  Question: Does this page show Werewolf: The Apocalypse 5th Edition Roleplaying Game Tribes of Gaia at 55.0 on sale today? Open the link and tell me yes or no.
+- **Steve Jackson Games (Warehouse 23)** (Steve Jackson Games (Warehouse 23)): https://warehouse23.com/
+  Question: The scraper cannot read Steve Jackson Games (Warehouse 23)'s sales (break alarm). Open https://warehouse23.com/ and tell me where its sale page is, or say 'pause it' if it has none.
+- **Tuesday Knight Games** (Tuesday Knight Games): https://www.tuesdayknightgames.com/collections/all
+  Question: The scraper cannot read Tuesday Knight Games's sales (break alarm). Open https://www.tuesdayknightgames.com/collections/all and tell me where its sale page is, or say 'pause it' if it has none.
+- **ABS12 Flexible Solo Game Engine v 1.0** (DriveThruRPG): https://www.drivethrurpg.com/product/190270/abs12-flexible-solo-game-engine-v-1-0
+  Question: Does this page show ABS12 Flexible Solo Game Engine v 1.0 at 1.75 USD on sale today? Open the link and tell me yes or no.
+- **ABS12 Fact Generator Flexible Dice v 1.0** (DriveThruRPG): https://www.drivethrurpg.com/product/191261/abs12-fact-generator-flexible-dice-v-1-0
+  Question: Does this page show ABS12 Fact Generator Flexible Dice v 1.0 at 0.88 USD on sale today? Open the link and tell me yes or no.
+- **Random Solo Adventure: Post Apocalypse - Solo Gamebook** (DriveThruRPG): https://www.drivethrurpg.com/product/200088/random-solo-adventure-post-apocalypse-solo-gamebook
+  Question: Does this page show Random Solo Adventure: Post Apocalypse - Solo Gamebook at 0.99 USD on sale today? Open the link and tell me yes or no.
+- **Character Generator w/ bg** (DriveThruRPG): https://www.drivethrurpg.com/product/205611/character-generator-w-bg
+  Question: Does this page show Character Generator w/ bg at 2.1 USD on sale today? Open the link and tell me yes or no.
+- **Description Generator** (DriveThruRPG): https://www.drivethrurpg.com/product/208413/description-generator
+  Question: Does this page show Description Generator at 0.88 USD on sale today? Open the link and tell me yes or no.
+- **Sci-Fi / Cyberpunk Mini Adventure Cards** (DriveThruRPG): https://www.drivethrurpg.com/product/221369/sci-fi-cyberpunk-mini-adventure-cards
+  Question: Does this page show Sci-Fi / Cyberpunk Mini Adventure Cards at 1.0 USD on sale today? Open the link and tell me yes or no.
+- **The Synthetics #1** (DriveThruRPG): https://www.drivethrurpg.com/product/236789/the-synthetics-1
+  Question: Does this page show The Synthetics #1 at 2.0 USD on sale today? Open the link and tell me yes or no.
+- **Plot Generator** (DriveThruRPG): https://www.drivethrurpg.com/product/237218/plot-generator
+  Question: Does this page show Plot Generator at 0.88 USD on sale today? Open the link and tell me yes or no.
+- **Theme Generator** (DriveThruRPG): https://www.drivethrurpg.com/product/238399/theme-generator
+  Question: Does this page show Theme Generator at 0.88 USD on sale today? Open the link and tell me yes or no.
+- **Mood-Emotion Generator** (DriveThruRPG): https://www.drivethrurpg.com/product/238717/mood-emotion-generator
+  Question: Does this page show Mood-Emotion Generator at 0.88 USD on sale today? Open the link and tell me yes or no.
+- **Generic Adventure Magazine #1, May 2018** (DriveThruRPG): https://www.drivethrurpg.com/product/241417/generic-adventure-magazine-1-may-2018
+  Question: Does this page show Generic Adventure Magazine #1, May 2018 at 0.8 USD on sale today? Open the link and tell me yes or no.
+- **(GM Tools) Sci-fi Starship Deck Plans #2** (DriveThruRPG): https://www.drivethrurpg.com/product/259522/gm-tools-sci-fi-starship-deck-plans-2
+  Question: Does this page show (GM Tools) Sci-fi Starship Deck Plans #2 at 0.6 USD on sale today? Open the link and tell me yes or no.
+- **(GM Tools) Sci-fi Starship Deck Plans #3** (DriveThruRPG): https://www.drivethrurpg.com/product/262140/gm-tools-sci-fi-starship-deck-plans-3
+  Question: Does this page show (GM Tools) Sci-fi Starship Deck Plans #3 at 0.6 USD on sale today? Open the link and tell me yes or no.
+- **Tavern Menus - 10 Fun Menu Handouts For Your Fantasy Tavern Adventures** (DriveThruRPG): https://www.drivethrurpg.com/product/268011/tavern-menus-10-fun-menu-handouts-for-your-fantasy-tavern-adventures
+  Question: Does this page show Tavern Menus - 10 Fun Menu Handouts For Your Fantasy Tavern Adventures at 1.39 USD on sale today? Open the link and tell me yes or no.
+- **Tavern Drinks - 10 Fun Drink Menu Handouts For Your Fantasy Tavern Adventures** (DriveThruRPG): https://www.drivethrurpg.com/product/271017/tavern-drinks-10-fun-drink-menu-handouts-for-your-fantasy-tavern-adventures
+  Question: Does this page show Tavern Drinks - 10 Fun Drink Menu Handouts For Your Fantasy Tavern Adventures at 1.39 USD on sale today? Open the link and tell me yes or no.
+- **(GM Tools) Sci-fi Starship Deck Plans #4** (DriveThruRPG): https://www.drivethrurpg.com/product/272898/gm-tools-sci-fi-starship-deck-plans-4
+  Question: Does this page show (GM Tools) Sci-fi Starship Deck Plans #4 at 0.6 USD on sale today? Open the link and tell me yes or no.
+- **Item and Effects Cards for The Sunken Temple of Chloren-Var** (DriveThruRPG): https://www.drivethrurpg.com/product/280968/item-and-effects-cards-for-the-sunken-temple-of-chloren-var
+  Question: Does this page show Item and Effects Cards for The Sunken Temple of Chloren-Var at 0.37 USD on sale today? Open the link and tell me yes or no.
+- **(GM Tools) Sci-fi Starship Deck Plans #5** (DriveThruRPG): https://www.drivethrurpg.com/product/285498/gm-tools-sci-fi-starship-deck-plans-5
+  Question: Does this page show (GM Tools) Sci-fi Starship Deck Plans #5 at 0.6 USD on sale today? Open the link and tell me yes or no.
+- **Tavern Songs & Ballads for Bards & Jolly Adventurers** (DriveThruRPG): https://www.drivethrurpg.com/product/291521/tavern-songs-ballads-for-bards-jolly-adventurers
+  Question: Does this page show Tavern Songs & Ballads for Bards & Jolly Adventurers at 1.39 USD on sale today? Open the link and tell me yes or no.
+- **Vinlock's Ultimate Guide to Freshwater Fishing** (DriveThruRPG): https://www.drivethrurpg.com/product/335195/vinlock-s-ultimate-guide-to-freshwater-fishing
+  Question: Does this page show Vinlock's Ultimate Guide to Freshwater Fishing at 0.44 USD on sale today? Open the link and tell me yes or no.
+- **How To Create Your Own Fantasy RPG Adventures** (DriveThruRPG): https://www.drivethrurpg.com/product/350004/how-to-create-your-own-fantasy-rpg-adventures
+  Question: Does this page show How To Create Your Own Fantasy RPG Adventures at 15.0 USD on sale today? Open the link and tell me yes or no.
+- **Industrial District Chop Shop 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/351370/industrial-district-chop-shop-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Industrial District Chop Shop 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **Industrial District Ganger Hideout 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/363798/industrial-district-ganger-hideout-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Industrial District Ganger Hideout 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **Industrial District Ganger Hideout 4k - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/363799/industrial-district-ganger-hideout-4k-cyberpunk-animated-battle-map
+  Question: Does this page show Industrial District Ganger Hideout 4k - Cyberpunk Animated Battle Map at 3.2 USD on sale today? Open the link and tell me yes or no.
+- **The Tessellation #1** (DriveThruRPG): https://www.drivethrurpg.com/product/364432/the-tessellation-1
+  Question: Does this page show The Tessellation #1 at 1.5 USD on sale today? Open the link and tell me yes or no.
+- **Dungeon Tables - The Game Master's Dungeon Builder Handbook** (DriveThruRPG): https://www.drivethrurpg.com/product/367079/dungeon-tables-the-game-master-s-dungeon-builder-handbook
+  Question: Does this page show Dungeon Tables - The Game Master's Dungeon Builder Handbook at 6.97 USD on sale today? Open the link and tell me yes or no.
+- **Corporate Headquarters 27th Floor 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/370302/corporate-headquarters-27th-floor-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Corporate Headquarters 27th Floor 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **Dystopian City Bank Heist 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/371252/dystopian-city-bank-heist-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Dystopian City Bank Heist 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **Industrial District Storage Co 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/371573/industrial-district-storage-co-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Industrial District Storage Co 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **Industrial District Storage Co 4K - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/371574/industrial-district-storage-co-4k-cyberpunk-animated-battle-map
+  Question: Does this page show Industrial District Storage Co 4K - Cyberpunk Animated Battle Map at 3.2 USD on sale today? Open the link and tell me yes or no.
+- **Combat District Slum Pub 4k - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/378988/combat-district-slum-pub-4k-cyberpunk-animated-battle-map
+  Question: Does this page show Combat District Slum Pub 4k - Cyberpunk Animated Battle Map at 3.2 USD on sale today? Open the link and tell me yes or no.
+- **Combat District Slum Pub 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/378989/combat-district-slum-pub-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Combat District Slum Pub 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **The Consortium of Cartographers - Guildhall** (DriveThruRPG): https://www.drivethrurpg.com/product/382390/the-consortium-of-cartographers-guildhall
+  Question: Does this page show The Consortium of Cartographers - Guildhall at 0.5 USD on sale today? Open the link and tell me yes or no.
+- **Fantasy Battle Maps: River Town with Dungeon - 3 Level VTT Map** (DriveThruRPG): https://www.drivethrurpg.com/product/382557/fantasy-battle-maps-river-town-with-dungeon-3-level-vtt-map
+  Question: Does this page show Fantasy Battle Maps: River Town with Dungeon - 3 Level VTT Map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Tavern - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/382811/vtt-battle-maps-fantasy-town-tavern-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Tavern - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Blacksmith & Mill - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/382896/vtt-battle-maps-fantasy-town-blacksmith-mill-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Blacksmith & Mill - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Dungeon - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/382978/vtt-battle-maps-fantasy-town-dungeon-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Dungeon - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Harbor - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/383077/vtt-battle-maps-fantasy-town-harbor-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Harbor - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Cthulhu Mansion - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/383130/vtt-battle-maps-lovecraft-inspired-cthulhu-mansion-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Cthulhu Mansion - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Temple - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/383450/vtt-battle-maps-fantasy-town-temple-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Temple - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Cthulhu Lighthouse - 40x30, 4 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/383517/vtt-battle-maps-lovecraft-inspired-cthulhu-lighthouse-40x30-4-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Cthulhu Lighthouse - 40x30, 4 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Magic Greenhouse - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/383686/vtt-battle-maps-fantasy-town-magic-greenhouse-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Magic Greenhouse - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Market - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/383862/vtt-battle-maps-fantasy-town-market-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Market - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Goldmine - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/383959/vtt-battle-maps-fantasy-town-goldmine-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Goldmine - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Brewery & Wineyard - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/384038/vtt-battle-maps-fantasy-town-brewery-wineyard-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Brewery & Wineyard - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Apothecary - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/384341/vtt-battle-maps-fantasy-town-apothecary-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Apothecary - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Drawbridge - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/384475/vtt-battle-maps-fantasy-town-drawbridge-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Drawbridge - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Bakery - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/384705/vtt-battle-maps-fantasy-town-bakery-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Bakery - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Bathhouse - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/385105/vtt-battle-maps-fantasy-town-bathhouse-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Bathhouse - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Battle Arena - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/385314/vtt-battle-maps-fantasy-town-battle-arena-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Battle Arena - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Mushroom Cave - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/385476/vtt-battle-maps-fantasy-town-mushroom-cave-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Mushroom Cave - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Sheriff's Gulch: Saloon - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/385539/vtt-battle-maps-sheriff-s-gulch-saloon-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Sheriff's Gulch: Saloon - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Dystopian City Morgue Club 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/385631/dystopian-city-morgue-club-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Dystopian City Morgue Club 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Smuggler's Hollow - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/385755/vtt-battle-maps-fantasy-town-smuggler-s-hollow-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Smuggler's Hollow - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Undertaker - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/385847/vtt-battle-maps-lovecraft-inspired-undertaker-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Undertaker - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Out of their Depth - four fantasy adventure seeds with 30x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/386178/out-of-their-depth-four-fantasy-adventure-seeds-with-30x40-maps
+  Question: Does this page show Out of their Depth - four fantasy adventure seeds with 30x40 maps at 0.71 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Observatory - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/386291/vtt-battle-maps-fantasy-town-observatory-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Observatory - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Sheriff's Gulch: Bank - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/386413/vtt-battle-maps-sheriff-s-gulch-bank-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Sheriff's Gulch: Bank - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Generic Adventure Magazine #3, February 2022** (DriveThruRPG): https://www.drivethrurpg.com/product/386505/generic-adventure-magazine-3-february-2022
+  Question: Does this page show Generic Adventure Magazine #3, February 2022 at 0.8 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Warehouse - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/386753/vtt-battle-maps-mafia-1930-warehouse-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Warehouse - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Druids' Henge - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/386960/vtt-battle-maps-fantasy-town-druids-henge-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Druids' Henge - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Industrial District Container City 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/387022/industrial-district-container-city-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Industrial District Container City 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Labyrinth - 30x30, 3 Levels with Adventure Seed** (DriveThruRPG): https://www.drivethrurpg.com/product/387049/vtt-battle-maps-fantasy-town-labyrinth-30x30-3-levels-with-adventure-seed
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Labyrinth - 30x30, 3 Levels with Adventure Seed at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Winter Library - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/387166/vtt-battle-maps-fantasy-town-winter-library-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Winter Library - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Ruined Residence - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/387505/vtt-battle-maps-fantasy-town-ruined-residence-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Ruined Residence - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Alley Casino - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/387599/vtt-battle-maps-mafia-1930-alley-casino-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Alley Casino - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Modular Forest - 4*40x40 = 80x80** (DriveThruRPG): https://www.drivethrurpg.com/product/387787/vtt-battle-maps-fantasy-town-modular-forest-4-40x40-80x80
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Modular Forest - 4*40x40 = 80x80 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Gates of Yog Sothoth - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/388006/vtt-battle-maps-lovecraft-inspired-gates-of-yog-sothoth-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Gates of Yog Sothoth - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: King's Grave - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/388286/vtt-battle-maps-fantasy-town-king-s-grave-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: King's Grave - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Innsmouth House - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/388478/vtt-battle-maps-lovecraft-inspired-innsmouth-house-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Innsmouth House - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Fisherman's Cave - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/388980/vtt-battle-maps-lovecraft-inspired-fisherman-s-cave-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Fisherman's Cave - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Small Shops - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/389319/vtt-battle-maps-fantasy-town-small-shops-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Small Shops - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps: Pirates! Cannon Island - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/389452/vtt-battle-maps-pirates-cannon-island-40x30-3-levels
+  Question: Does this page show VTT Battle Maps: Pirates! Cannon Island - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Sheriff's Gulch: Prison & Court - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/389585/vtt-battle-maps-sheriff-s-gulch-prison-court-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Sheriff's Gulch: Prison & Court - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Room of Azathoth - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/389695/vtt-battle-maps-lovecraft-inspired-room-of-azathoth-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Room of Azathoth - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Alchemist - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/389870/vtt-battle-maps-lovecraft-inspired-alchemist-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Alchemist - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Mob Mansion - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/390140/vtt-battle-maps-mafia-1930-mob-mansion-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Mob Mansion - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Re-Animator's Crypt - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/390211/vtt-battle-maps-lovecraft-inspired-re-animator-s-crypt-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Re-Animator's Crypt - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Sheriff's Gulch: Train Station - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/390327/vtt-battle-maps-sheriff-s-gulch-train-station-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Sheriff's Gulch: Train Station - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Modular Sewers 11 tiles 30x30** (DriveThruRPG): https://www.drivethrurpg.com/product/390599/vtt-battle-maps-fantasy-town-modular-sewers-11-tiles-30x30
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Modular Sewers 11 tiles 30x30 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Castle Walls - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/390795/vtt-battle-maps-fantasy-town-castle-walls-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Castle Walls - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Mountain of Madness - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/390861/vtt-battle-maps-lovecraft-inspired-mountain-of-madness-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Mountain of Madness - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Knight's Tower - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/391084/vtt-battle-maps-fantasy-town-knight-s-tower-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Knight's Tower - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Wizard's House - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/391279/vtt-battle-maps-fantasy-town-wizard-s-house-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Wizard's House - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Sanctuary - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/391540/vtt-battle-maps-fantasy-town-sanctuary-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Sanctuary - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Dystopian City River Bridge 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/392382/dystopian-city-river-bridge-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Dystopian City River Bridge 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Penitentiary - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/392491/vtt-battle-maps-fantasy-town-penitentiary-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Penitentiary - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps: Pirates! Merchant - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/392623/vtt-battle-maps-pirates-merchant-40x30-3-levels
+  Question: Does this page show VTT Battle Maps: Pirates! Merchant - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Lake Shrine - 120x30, 3 images** (DriveThruRPG): https://www.drivethrurpg.com/product/392797/vtt-battle-maps-fantasy-town-lake-shrine-120x30-3-images
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Lake Shrine - 120x30, 3 images at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Clergyman's Attic - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/392942/vtt-battle-maps-lovecraft-inspired-clergyman-s-attic-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Clergyman's Attic - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Forest Citadel, 4 images, 40x30** (DriveThruRPG): https://www.drivethrurpg.com/product/393139/vtt-battle-maps-fantasy-town-forest-citadel-4-images-40x30
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Forest Citadel, 4 images, 40x30 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Modular Village Part I | 4 images, 40x40** (DriveThruRPG): https://www.drivethrurpg.com/product/393388/vtt-battle-maps-modular-village-part-i-4-images-40x40
+  Question: Does this page show VTT Battle Maps - Modular Village Part I | 4 images, 40x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Quarry - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/393474/vtt-battle-maps-fantasy-town-quarry-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Quarry - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Movie Studio - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/393518/vtt-battle-maps-mafia-1930-movie-studio-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Movie Studio - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Abandoned Theater - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/393520/vtt-battle-maps-lovecraft-inspired-abandoned-theater-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Abandoned Theater - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Gem Cavern - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/393525/vtt-battle-maps-fantasy-town-gem-cavern-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Gem Cavern - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Whipsering Abyss - 40x30, 3 Images** (DriveThruRPG): https://www.drivethrurpg.com/product/393544/vtt-battle-maps-lovecraft-inspired-whipsering-abyss-40x30-3-images
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Whipsering Abyss - 40x30, 3 Images at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Modular Village Part II | 4 images, 40x40** (DriveThruRPG): https://www.drivethrurpg.com/product/394599/vtt-battle-maps-modular-village-part-ii-4-images-40x40
+  Question: Does this page show VTT Battle Maps - Modular Village Part II | 4 images, 40x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Docks Warehouse - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/394742/vtt-battle-maps-mafia-1930-docks-warehouse-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Docks Warehouse - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Lake Shrine II - 120x30, 3 images** (DriveThruRPG): https://www.drivethrurpg.com/product/394839/vtt-battle-maps-fantasy-town-lake-shrine-ii-120x30-3-images
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Lake Shrine II - 120x30, 3 images at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: The Copacabana - 40x30, 2 Images** (DriveThruRPG): https://www.drivethrurpg.com/product/394970/vtt-battle-maps-mafia-1930-the-copacabana-40x30-2-images
+  Question: Does this page show VTT Battle Maps - Mafia 1930: The Copacabana - 40x30, 2 Images at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Modular Dungeon 1, 40x40, 3 parts** (DriveThruRPG): https://www.drivethrurpg.com/product/395175/vtt-battle-maps-fantasy-town-modular-dungeon-1-40x40-3-parts
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Modular Dungeon 1, 40x40, 3 parts at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Cyberpunkish: Hydroponics Lab - 120x30, 3 images** (DriveThruRPG): https://www.drivethrurpg.com/product/395508/vtt-battle-maps-cyberpunkish-hydroponics-lab-120x30-3-images
+  Question: Does this page show VTT Battle Maps - Cyberpunkish: Hydroponics Lab - 120x30, 3 images at 0.59 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Forest Hideout - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/395770/vtt-battle-maps-fantasy-town-forest-hideout-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Forest Hideout - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Winter Cabin - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/395864/vtt-battle-maps-fantasy-town-winter-cabin-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Winter Cabin - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: River Hills - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/395994/vtt-battle-maps-fantasy-town-river-hills-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: River Hills - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Halls of Legend - 60x80, 4 images** (DriveThruRPG): https://www.drivethrurpg.com/product/396078/vtt-battle-maps-fantasy-town-halls-of-legend-60x80-4-images
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Halls of Legend - 60x80, 4 images at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Sunken Paths, 30x40 Map** (DriveThruRPG): https://www.drivethrurpg.com/product/396256/vtt-battle-maps-fantasy-town-sunken-paths-30x40-map
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Sunken Paths, 30x40 Map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Halls of Heroes, 60x40 Map** (DriveThruRPG): https://www.drivethrurpg.com/product/396426/vtt-battle-maps-fantasy-town-halls-of-heroes-60x40-map
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Halls of Heroes, 60x40 Map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Cthulhu Homestead - 30x40, 2 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/396566/vtt-battle-maps-lovecraft-inspired-cthulhu-homestead-30x40-2-levels
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Cthulhu Homestead - 30x40, 2 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Mystery Dungeon, 60x40 Map** (DriveThruRPG): https://www.drivethrurpg.com/product/397110/vtt-battle-maps-fantasy-town-mystery-dungeon-60x40-map
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Mystery Dungeon, 60x40 Map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Modular Dungeon 2, 40x40, 3 parts** (DriveThruRPG): https://www.drivethrurpg.com/product/397224/vtt-battle-maps-fantasy-town-modular-dungeon-2-40x40-3-parts
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Modular Dungeon 2, 40x40, 3 parts at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Diner - 40x30, 3 Images** (DriveThruRPG): https://www.drivethrurpg.com/product/397290/vtt-battle-maps-mafia-1930-diner-40x30-3-images
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Diner - 40x30, 3 Images at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Modular Sewers II - 11 tiles 30x30** (DriveThruRPG): https://www.drivethrurpg.com/product/397592/vtt-battle-maps-fantasy-town-modular-sewers-ii-11-tiles-30x30
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Modular Sewers II - 11 tiles 30x30 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Magic Models - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/397793/vtt-battle-maps-fantasy-town-magic-models-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Magic Models - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Dystopian City Bowling Alley 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/397956/dystopian-city-bowling-alley-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Dystopian City Bowling Alley 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Modular Woods - 4 30x30maps=60x60** (DriveThruRPG): https://www.drivethrurpg.com/product/397991/vtt-battle-maps-fantasy-town-modular-woods-4-30x30maps-60x60
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Modular Woods - 4 30x30maps=60x60 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Outsider's Crypt - 120x30 dungeon map** (DriveThruRPG): https://www.drivethrurpg.com/product/398573/vtt-battle-maps-lovecraft-inspired-outsider-s-crypt-120x30-dungeon-map
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Outsider's Crypt - 120x30 dungeon map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Horror Harbor - 120x30 Cthulhu Map** (DriveThruRPG): https://www.drivethrurpg.com/product/398858/vtt-battle-maps-lovecraft-inspired-horror-harbor-120x30-cthulhu-map
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Horror Harbor - 120x30 Cthulhu Map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Elven Forest - 120x30, 3 images** (DriveThruRPG): https://www.drivethrurpg.com/product/398971/vtt-battle-maps-fantasy-town-elven-forest-120x30-3-images
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Elven Forest - 120x30, 3 images at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Desert Pyramids - 120x30, 3 images** (DriveThruRPG): https://www.drivethrurpg.com/product/399082/vtt-battle-maps-fantasy-town-desert-pyramids-120x30-3-images
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Desert Pyramids - 120x30, 3 images at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Industrial District Waste Run Off 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/399145/industrial-district-waste-run-off-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Industrial District Waste Run Off 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Desert Pyramids II - 120x30, 3 images** (DriveThruRPG): https://www.drivethrurpg.com/product/399275/vtt-battle-maps-fantasy-town-desert-pyramids-ii-120x30-3-images
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Desert Pyramids II - 120x30, 3 images at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Desert Pyramids III - 120x30, 3 images** (DriveThruRPG): https://www.drivethrurpg.com/product/399519/vtt-battle-maps-fantasy-town-desert-pyramids-iii-120x30-3-images
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Desert Pyramids III - 120x30, 3 images at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Desert Pyramids IV - 120x30, 3 images** (DriveThruRPG): https://www.drivethrurpg.com/product/399686/vtt-battle-maps-fantasy-town-desert-pyramids-iv-120x30-3-images
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Desert Pyramids IV - 120x30, 3 images at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Bank with Vaults - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/399750/vtt-battle-maps-mafia-1930-bank-with-vaults-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Bank with Vaults - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Dystopian City Police Station 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/400031/dystopian-city-police-station-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Dystopian City Police Station 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **Industrial District Ganger Yard 4k - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/400237/industrial-district-ganger-yard-4k-cyberpunk-animated-battle-map
+  Question: Does this page show Industrial District Ganger Yard 4k - Cyberpunk Animated Battle Map at 3.2 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Court House - 120x30, 3 Maps** (DriveThruRPG): https://www.drivethrurpg.com/product/400294/vtt-battle-maps-mafia-1930-court-house-120x30-3-maps
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Court House - 120x30, 3 Maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Police Station - 40x30, 3 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/400369/vtt-battle-maps-mafia-1930-police-station-40x30-3-levels
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Police Station - 40x30, 3 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Castle - Ground Floors - 4 images, 80x60** (DriveThruRPG): https://www.drivethrurpg.com/product/400390/vtt-battle-maps-fantasy-town-castle-ground-floors-4-images-80x60
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Castle - Ground Floors - 4 images, 80x60 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Castle - Roof/Top Floors - 4 images, 80x60** (DriveThruRPG): https://www.drivethrurpg.com/product/400391/vtt-battle-maps-fantasy-town-castle-roof-top-floors-4-images-80x60
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Castle - Roof/Top Floors - 4 images, 80x60 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Castle - Underground - 4 images, 80x60** (DriveThruRPG): https://www.drivethrurpg.com/product/400393/vtt-battle-maps-fantasy-town-castle-underground-4-images-80x60
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Castle - Underground - 4 images, 80x60 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Prison - 40x30, 5 Maps** (DriveThruRPG): https://www.drivethrurpg.com/product/400468/vtt-battle-maps-mafia-1930-prison-40x30-5-maps
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Prison - 40x30, 5 Maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Lawyer's Office - 40x30, 2 Levels** (DriveThruRPG): https://www.drivethrurpg.com/product/401255/vtt-battle-maps-mafia-1930-lawyer-s-office-40x30-2-levels
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Lawyer's Office - 40x30, 2 Levels at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Deadly Fire Pit - 120x30 Cthulhu Map** (DriveThruRPG): https://www.drivethrurpg.com/product/401431/vtt-battle-maps-lovecraft-inspired-deadly-fire-pit-120x30-cthulhu-map
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Deadly Fire Pit - 120x30 Cthulhu Map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Captive Lesser One - 120x40 Cthulhu Map** (DriveThruRPG): https://www.drivethrurpg.com/product/401541/vtt-battle-maps-lovecraft-inspired-captive-lesser-one-120x40-cthulhu-map
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Captive Lesser One - 120x40 Cthulhu Map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Residential District Hab Block 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/401589/residential-district-hab-block-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Residential District Hab Block 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Azathoth's Crypt - 80x80 Cthulhu Map** (DriveThruRPG): https://www.drivethrurpg.com/product/401873/vtt-battle-maps-lovecraft-inspired-azathoth-s-crypt-80x80-cthulhu-map
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Azathoth's Crypt - 80x80 Cthulhu Map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: R'lyeh Tower - 80x40 Two Levels Cthulhu Map** (DriveThruRPG): https://www.drivethrurpg.com/product/402399/vtt-battle-maps-lovecraft-inspired-r-lyeh-tower-80x40-two-levels-cthulhu-map
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: R'lyeh Tower - 80x40 Two Levels Cthulhu Map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Deepest Dungeon - 4 Level 40x40** (DriveThruRPG): https://www.drivethrurpg.com/product/402577/vtt-battle-maps-fantasy-town-deepest-dungeon-4-level-40x40
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Deepest Dungeon - 4 Level 40x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Dimension Shift - Two World 40x40 Cthulhu Map** (DriveThruRPG): https://www.drivethrurpg.com/product/402660/vtt-battle-maps-lovecraft-inspired-dimension-shift-two-world-40x40-cthulhu-map
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Dimension Shift - Two World 40x40 Cthulhu Map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Jungle Legends: Mysterious Paths - 3 VTT Maps = 120x40 Battlemap** (DriveThruRPG): https://www.drivethrurpg.com/product/402782/vtt-battle-maps-jungle-legends-mysterious-paths-3-vtt-maps-120x40-battlemap
+  Question: Does this page show VTT Battle Maps - Jungle Legends: Mysterious Paths - 3 VTT Maps = 120x40 Battlemap at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Mafia 1930: Train Bridge - 3 40x40=120x40 Maps** (DriveThruRPG): https://www.drivethrurpg.com/product/403040/vtt-battle-maps-mafia-1930-train-bridge-3-40x40-120x40-maps
+  Question: Does this page show VTT Battle Maps - Mafia 1930: Train Bridge - 3 40x40=120x40 Maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Sheriff's Gulch: Train Bridge - 3 40x40 Maps** (DriveThruRPG): https://www.drivethrurpg.com/product/403174/vtt-battle-maps-sheriff-s-gulch-train-bridge-3-40x40-maps
+  Question: Does this page show VTT Battle Maps - Sheriff's Gulch: Train Bridge - 3 40x40 Maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Jungle Legends: Water Crossings - 3 VTT Maps = 120x40 Battlemap** (DriveThruRPG): https://www.drivethrurpg.com/product/403858/vtt-battle-maps-jungle-legends-water-crossings-3-vtt-maps-120x40-battlemap
+  Question: Does this page show VTT Battle Maps - Jungle Legends: Water Crossings - 3 VTT Maps = 120x40 Battlemap at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Jungle Legends: Fountain of Youth - 4 VTT Maps = 80x80 Battlemap** (DriveThruRPG): https://www.drivethrurpg.com/product/404192/vtt-battle-maps-jungle-legends-fountain-of-youth-4-vtt-maps-80x80-battlemap
+  Question: Does this page show VTT Battle Maps - Jungle Legends: Fountain of Youth - 4 VTT Maps = 80x80 Battlemap at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Jungle Legends: Magic Ruins - 3 VTT Maps = 120x40 Battlemap** (DriveThruRPG): https://www.drivethrurpg.com/product/404414/vtt-battle-maps-jungle-legends-magic-ruins-3-vtt-maps-120x40-battlemap
+  Question: Does this page show VTT Battle Maps - Jungle Legends: Magic Ruins - 3 VTT Maps = 120x40 Battlemap at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Sheriff's Gulch: Camp Site - 2x 40x40 Maps** (DriveThruRPG): https://www.drivethrurpg.com/product/405026/vtt-battle-maps-sheriff-s-gulch-camp-site-2x-40x40-maps
+  Question: Does this page show VTT Battle Maps - Sheriff's Gulch: Camp Site - 2x 40x40 Maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Seaside Walk - Three 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/405189/vtt-battle-maps-lovecraft-inspired-seaside-walk-three-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Seaside Walk - Three 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Dragon's Treasure | Three VTT 40x40 Maps=120x40** (DriveThruRPG): https://www.drivethrurpg.com/product/405367/vtt-battle-maps-fantasy-town-dragon-s-treasure-three-vtt-40x40-maps-120x40
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Dragon's Treasure | Three VTT 40x40 Maps=120x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Lake Town | Two VTT 40x40 Maps=80x40** (DriveThruRPG): https://www.drivethrurpg.com/product/405572/vtt-battle-maps-fantasy-town-lake-town-two-vtt-40x40-maps-80x40
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Lake Town | Two VTT 40x40 Maps=80x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Magic Halls - Two 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/406113/vtt-battle-maps-lovecraft-inspired-magic-halls-two-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Magic Halls - Two 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Wizard Cabins - Two 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/406554/vtt-battle-maps-lovecraft-inspired-wizard-cabins-two-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Wizard Cabins - Two 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Bridge Abyss | Three VTT 40x40 Maps=120x40** (DriveThruRPG): https://www.drivethrurpg.com/product/406776/vtt-battle-maps-fantasy-town-bridge-abyss-three-vtt-40x40-maps-120x40
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Bridge Abyss | Three VTT 40x40 Maps=120x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Halls of Cthulhu - Three 40x30 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/407002/vtt-battle-maps-lovecraft-inspired-halls-of-cthulhu-three-40x30-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Halls of Cthulhu - Three 40x30 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Suspicious Pawnshop (Battle, Adventure, or Encounter Map)** (DriveThruRPG): https://www.drivethrurpg.com/product/408139/suspicious-pawnshop-battle-adventure-or-encounter-map
+  Question: Does this page show Suspicious Pawnshop (Battle, Adventure, or Encounter Map) at 3.49 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Victorian Tales: Lord's Mansion | Two VTT 40x40 Maps=80x40** (DriveThruRPG): https://www.drivethrurpg.com/product/408245/vtt-battle-maps-victorian-tales-lord-s-mansion-two-vtt-40x40-maps-80x40
+  Question: Does this page show VTT Battle Maps - Victorian Tales: Lord's Mansion | Two VTT 40x40 Maps=80x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Hidden Crypt | Three VTT 40x40 Maps=80x80** (DriveThruRPG): https://www.drivethrurpg.com/product/409907/vtt-battle-maps-fantasy-town-hidden-crypt-three-vtt-40x40-maps-80x80
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Hidden Crypt | Three VTT 40x40 Maps=80x80 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Magic Temple | Four VTT 40x40 Maps=80x80** (DriveThruRPG): https://www.drivethrurpg.com/product/410549/vtt-battle-maps-fantasy-town-magic-temple-four-vtt-40x40-maps-80x80
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Magic Temple | Four VTT 40x40 Maps=80x80 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Dystopian City Street Encounter 4k - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/411171/dystopian-city-street-encounter-4k-cyberpunk-animated-battle-map
+  Question: Does this page show Dystopian City Street Encounter 4k - Cyberpunk Animated Battle Map at 3.2 USD on sale today? Open the link and tell me yes or no.
+- **Dystopian City Street Encounter 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/411174/dystopian-city-street-encounter-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Dystopian City Street Encounter 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Secret Catacombs - Four 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/411485/vtt-battle-maps-lovecraft-inspired-secret-catacombs-four-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Secret Catacombs - Four 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Ice Mountain | Two VTT 40x40 Maps=80x40** (DriveThruRPG): https://www.drivethrurpg.com/product/411670/vtt-battle-maps-fantasy-town-ice-mountain-two-vtt-40x40-maps-80x40
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Ice Mountain | Two VTT 40x40 Maps=80x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Thieves Guild Hideout (Battle, Adventure, or Encounter Map)** (DriveThruRPG): https://www.drivethrurpg.com/product/415639/thieves-guild-hideout-battle-adventure-or-encounter-map
+  Question: Does this page show Thieves Guild Hideout (Battle, Adventure, or Encounter Map) at 3.49 USD on sale today? Open the link and tell me yes or no.
+- **Rocks on the Other Side** (DriveThruRPG): https://www.drivethrurpg.com/product/417789/rocks-on-the-other-side
+  Question: Does this page show Rocks on the Other Side at 5.99 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Busy Tavern | Two VTT 40x40 Maps=80x40** (DriveThruRPG): https://www.drivethrurpg.com/product/423604/vtt-battle-maps-fantasy-town-busy-tavern-two-vtt-40x40-maps-80x40
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Busy Tavern | Two VTT 40x40 Maps=80x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Old-School Monster Cards Vol. 2 - | D to G | - 51 Print & Play, Tarot-Sized Monster Cards for Old-School Essentials** (DriveThruRPG): https://www.drivethrurpg.com/product/424601/old-school-monster-cards-vol-2-d-to-g-51-print-play-tarot-sized-monster-cards-for-old-school-essentials
+  Question: Does this page show Old-School Monster Cards Vol. 2 - | D to G | - 51 Print & Play, Tarot-Sized Monster Cards for Old-School Essentials at 2.09 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Mystic Lake - Two 40x30 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/424936/vtt-battle-maps-lovecraft-inspired-mystic-lake-two-40x30-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Mystic Lake - Two 40x30 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Combat District Chapel Pub 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/425313/combat-district-chapel-pub-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Combat District Chapel Pub 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Warlord's Tower - Four 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/426643/vtt-battle-maps-lovecraft-inspired-warlord-s-tower-four-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Warlord's Tower - Four 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Dagon Island - Four 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/426645/vtt-battle-maps-lovecraft-inspired-dagon-island-four-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Dagon Island - Four 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Volcano Edge - Four 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/426647/vtt-battle-maps-lovecraft-inspired-volcano-edge-four-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Volcano Edge - Four 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Abandoned Library - Four 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/426653/vtt-battle-maps-lovecraft-inspired-abandoned-library-four-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Abandoned Library - Four 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Town Church - Four 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/426659/vtt-battle-maps-lovecraft-inspired-town-church-four-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Town Church - Four 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Mystical Dungeon - Three 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/426664/vtt-battle-maps-lovecraft-inspired-mystical-dungeon-three-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Mystical Dungeon - Three 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Horror Lake - Four 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/426666/vtt-battle-maps-lovecraft-inspired-horror-lake-four-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Horror Lake - Four 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Spider's Cave - Three 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/426675/vtt-battle-maps-lovecraft-inspired-spider-s-cave-three-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Spider's Cave - Three 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Train to Nowhere - Four 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/426687/vtt-battle-maps-lovecraft-inspired-train-to-nowhere-four-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Train to Nowhere - Four 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Khalk'ru's Temple - Four 40x40 maps** (DriveThruRPG): https://www.drivethrurpg.com/product/426697/vtt-battle-maps-lovecraft-inspired-khalk-ru-s-temple-four-40x40-maps
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Khalk'ru's Temple - Four 40x40 maps at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Dark Mountain | Two VTT 40x40 Maps=80x40** (DriveThruRPG): https://www.drivethrurpg.com/product/427522/vtt-battle-maps-fantasy-town-dark-mountain-two-vtt-40x40-maps-80x40
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Dark Mountain | Two VTT 40x40 Maps=80x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Catacombs | Four VTT 40x40 Maps=80x80** (DriveThruRPG): https://www.drivethrurpg.com/product/428191/vtt-battle-maps-fantasy-town-catacombs-four-vtt-40x40-maps-80x80
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Catacombs | Four VTT 40x40 Maps=80x80 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Corporate R&D Lab 1080p - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/428446/corporate-r-d-lab-1080p-cyberpunk-animated-battle-map
+  Question: Does this page show Corporate R&D Lab 1080p - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **Khor Torum (Dwarven City Map and Setting)** (DriveThruRPG): https://www.drivethrurpg.com/product/434275/khor-torum-dwarven-city-map-and-setting
+  Question: Does this page show Khor Torum (Dwarven City Map and Setting) at 3.49 USD on sale today? Open the link and tell me yes or no.
+- **Combat District Safehouse Hovel UHD 4k- Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/436486/combat-district-safehouse-hovel-uhd-4k-cyberpunk-animated-battle-map
+  Question: Does this page show Combat District Safehouse Hovel UHD 4k- Cyberpunk Animated Battle Map at 3.2 USD on sale today? Open the link and tell me yes or no.
+- **Combat District Safehouse Hovel HD 1080 - Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/436487/combat-district-safehouse-hovel-hd-1080-cyberpunk-animated-battle-map
+  Question: Does this page show Combat District Safehouse Hovel HD 1080 - Cyberpunk Animated Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **Notice Board Creation Asset Pack For Fantasy Tabletop Role Playing Games** (DriveThruRPG): https://www.drivethrurpg.com/product/437812/notice-board-creation-asset-pack-for-fantasy-tabletop-role-playing-games
+  Question: Does this page show Notice Board Creation Asset Pack For Fantasy Tabletop Role Playing Games at 4.17 USD on sale today? Open the link and tell me yes or no.
+- **Old-School Monster Cards Vol. 3 - | H to N | - 48 Print & Play, Tarot-Sized Monster Cards for Old-School Essentials** (DriveThruRPG): https://www.drivethrurpg.com/product/441444/old-school-monster-cards-vol-3-h-to-n-48-print-play-tarot-sized-monster-cards-for-old-school-essentials
+  Question: Does this page show Old-School Monster Cards Vol. 3 - | H to N | - 48 Print & Play, Tarot-Sized Monster Cards for Old-School Essentials at 2.09 USD on sale today? Open the link and tell me yes or no.
+- **Dark Cave Encounters 1080p - Animated Fantasy Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/443854/dark-cave-encounters-1080p-animated-fantasy-battle-map
+  Question: Does this page show Dark Cave Encounters 1080p - Animated Fantasy Battle Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **(DIY: GM Tools) Sci-fi Starship Deck Plans #1** (DriveThruRPG): https://www.drivethrurpg.com/product/447230/diy-gm-tools-sci-fi-starship-deck-plans-1
+  Question: Does this page show (DIY: GM Tools) Sci-fi Starship Deck Plans #1 at 0.6 USD on sale today? Open the link and tell me yes or no.
+- **Modular Animated Sewers Pack [VTT Edition] - Industrial Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/447478/modular-animated-sewers-pack-vtt-edition-industrial-cyberpunk-animated-battle-map
+  Question: Does this page show Modular Animated Sewers Pack [VTT Edition] - Industrial Cyberpunk Animated Battle Map at 2.0 USD on sale today? Open the link and tell me yes or no.
+- **Modular Animated Streets Road Pack [VTT Edition] - Futuristic Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/447480/modular-animated-streets-road-pack-vtt-edition-futuristic-cyberpunk-animated-battle-map
+  Question: Does this page show Modular Animated Streets Road Pack [VTT Edition] - Futuristic Cyberpunk Animated Battle Map at 2.0 USD on sale today? Open the link and tell me yes or no.
+- **Modular Animated Necropolis Pack [VTT Edition] - Gothic Dark Fantasy Dungeon VTT Battle Map Tiles** (DriveThruRPG): https://www.drivethrurpg.com/product/447547/modular-animated-necropolis-pack-vtt-edition-gothic-dark-fantasy-dungeon-vtt-battle-map-tiles
+  Question: Does this page show Modular Animated Necropolis Pack [VTT Edition] - Gothic Dark Fantasy Dungeon VTT Battle Map Tiles at 2.0 USD on sale today? Open the link and tell me yes or no.
+- **Old-School Monster Cards Vol. 4 - | O to Z | - 69 Print & Play, Tarot-Sized Monster Cards for Old-School Essentials** (DriveThruRPG): https://www.drivethrurpg.com/product/449356/old-school-monster-cards-vol-4-o-to-z-69-print-play-tarot-sized-monster-cards-for-old-school-essentials
+  Question: Does this page show Old-School Monster Cards Vol. 4 - | O to Z | - 69 Print & Play, Tarot-Sized Monster Cards for Old-School Essentials at 3.49 USD on sale today? Open the link and tell me yes or no.
+- **Modular Animated Hab Block Roof Pack [VTT Edition] - Futuristic Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/455358/modular-animated-hab-block-roof-pack-vtt-edition-futuristic-cyberpunk-animated-battle-map
+  Question: Does this page show Modular Animated Hab Block Roof Pack [VTT Edition] - Futuristic Cyberpunk Animated Battle Map at 2.0 USD on sale today? Open the link and tell me yes or no.
+- **Modular Animated City Alleys Pack [VTT Edition] - Futuristic Cyberpunk Animated Battle Map** (DriveThruRPG): https://www.drivethrurpg.com/product/465873/modular-animated-city-alleys-pack-vtt-edition-futuristic-cyberpunk-animated-battle-map
+  Question: Does this page show Modular Animated City Alleys Pack [VTT Edition] - Futuristic Cyberpunk Animated Battle Map at 2.0 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps: Scorched Earth - Crash Site, 160x40 Grid and No-grid Map** (DriveThruRPG): https://www.drivethrurpg.com/product/467354/vtt-battle-maps-scorched-earth-crash-site-160x40-grid-and-no-grid-map
+  Question: Does this page show VTT Battle Maps: Scorched Earth - Crash Site, 160x40 Grid and No-grid Map at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **The Tiny Tome of Tablecraft Tips • Tricks and Tactics for the Talented GM** (DriveThruRPG): https://www.drivethrurpg.com/product/467846/the-tiny-tome-of-tablecraft-tips-tricks-and-tactics-for-the-talented-gm
+  Question: Does this page show The Tiny Tome of Tablecraft Tips • Tricks and Tactics for the Talented GM at 2.09 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Forest Ambush | Three VTT 40x40 Maps=120x80** (DriveThruRPG): https://www.drivethrurpg.com/product/470352/vtt-battle-maps-fantasy-town-forest-ambush-three-vtt-40x40-maps-120x80
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Forest Ambush | Three VTT 40x40 Maps=120x80 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Nemot Rising #1** (DriveThruRPG): https://www.drivethrurpg.com/product/470605/nemot-rising-1
+  Question: Does this page show Nemot Rising #1 at 2.0 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Science Fiction City: Dead Factory | Two VTT 40x40 Maps=80x40** (DriveThruRPG): https://www.drivethrurpg.com/product/476392/vtt-battle-maps-science-fiction-city-dead-factory-two-vtt-40x40-maps-80x40
+  Question: Does this page show VTT Battle Maps - Science Fiction City: Dead Factory | Two VTT 40x40 Maps=80x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **STORYLINE: Write Structured Adventures | A how to-book on RPG-writing** (DriveThruRPG): https://www.drivethrurpg.com/product/477159/storyline-write-structured-adventures-a-how-to-book-on-rpg-writing
+  Question: Does this page show STORYLINE: Write Structured Adventures | A how to-book on RPG-writing at 2.99 USD on sale today? Open the link and tell me yes or no.
+- **Nemot Rising #3** (DriveThruRPG): https://www.drivethrurpg.com/product/483574/nemot-rising-3
+  Question: Does this page show Nemot Rising #3 at 2.0 USD on sale today? Open the link and tell me yes or no.
+- **Dystopian City Gun Runner Apt - Cyberpunk Sci-Fi Animated Battle Token Map** (DriveThruRPG): https://www.drivethrurpg.com/product/491743/dystopian-city-gun-runner-apt-cyberpunk-sci-fi-animated-battle-token-map
+  Question: Does this page show Dystopian City Gun Runner Apt - Cyberpunk Sci-Fi Animated Battle Token Map at 1.6 USD on sale today? Open the link and tell me yes or no.
+- **Dungeon Cards: Fantasy, Volume 4 - Dwarven Mines** (DriveThruRPG): https://www.drivethrurpg.com/product/506545/dungeon-cards-fantasy-volume-4-dwarven-mines
+  Question: Does this page show Dungeon Cards: Fantasy, Volume 4 - Dwarven Mines at 1.19 USD on sale today? Open the link and tell me yes or no.
+- **Lost in the City** (DriveThruRPG): https://www.drivethrurpg.com/product/523073/lost-in-the-city
+  Question: Does this page show Lost in the City at 2.0 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Fall Forest | Three VTT 40x30 Maps=120x30** (DriveThruRPG): https://www.drivethrurpg.com/product/524760/vtt-battle-maps-fantasy-town-fall-forest-three-vtt-40x30-maps-120x30
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Fall Forest | Three VTT 40x30 Maps=120x30 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Dark Forest | Three VTT 40x40 Maps=120x40** (DriveThruRPG): https://www.drivethrurpg.com/product/526386/vtt-battle-maps-fantasy-town-dark-forest-three-vtt-40x40-maps-120x40
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Dark Forest | Three VTT 40x40 Maps=120x40 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Fantasy Town: Graveyard | Three VTT 40x30 Maps=120x30** (DriveThruRPG): https://www.drivethrurpg.com/product/526387/vtt-battle-maps-fantasy-town-graveyard-three-vtt-40x30-maps-120x30
+  Question: Does this page show VTT Battle Maps - Fantasy Town: Graveyard | Three VTT 40x30 Maps=120x30 at 1.28 USD on sale today? Open the link and tell me yes or no.
+- **Cometary Ghosts** (DriveThruRPG): https://www.drivethrurpg.com/product/540819/cometary-ghosts
+  Question: Does this page show Cometary Ghosts at 0.74 USD on sale today? Open the link and tell me yes or no.
+- **Tech District VR Bar 4k - Cyberpunk Sci-Fi Animated Battle Token Map** (DriveThruRPG): https://www.drivethrurpg.com/product/544599/tech-district-vr-bar-4k-cyberpunk-sci-fi-animated-battle-token-map
+  Question: Does this page show Tech District VR Bar 4k - Cyberpunk Sci-Fi Animated Battle Token Map at 3.2 USD on sale today? Open the link and tell me yes or no.
+- **Roll an NPC Name** (DriveThruRPG): https://www.drivethrurpg.com/product/547502/roll-an-npc-name
+  Question: Does this page show Roll an NPC Name at 1.0 USD on sale today? Open the link and tell me yes or no.
+- **Town Builder 3: Fully Realized Castles, Temples, Estates, and Great Structures for Your TTRPG Fantasy Towns** (DriveThruRPG): https://www.drivethrurpg.com/product/553808/town-builder-3-fully-realized-castles-temples-estates-and-great-structures-for-your-ttrpg-fantasy-towns
+  Question: Does this page show Town Builder 3: Fully Realized Castles, Temples, Estates, and Great Structures for Your TTRPG Fantasy Towns at 13.97 USD on sale today? Open the link and tell me yes or no.
+- **The Art of Great Roleplaying: A manifesto for Players** (DriveThruRPG): https://www.drivethrurpg.com/product/554956/the-art-of-great-roleplaying-a-manifesto-for-players
+  Question: Does this page show The Art of Great Roleplaying: A manifesto for Players at 0.36 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Classic Fantasy Dungeon: Underground Temple | 36x27** (DriveThruRPG): https://www.drivethrurpg.com/product/556299/vtt-battle-maps-classic-fantasy-dungeon-underground-temple-36x27
+  Question: Does this page show VTT Battle Maps - Classic Fantasy Dungeon: Underground Temple | 36x27 at 0.8 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Innsmouth Hotel 40x40 Cthulhu Map** (DriveThruRPG): https://www.drivethrurpg.com/product/556382/vtt-battle-maps-lovecraft-inspired-innsmouth-hotel-40x40-cthulhu-map
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Innsmouth Hotel 40x40 Cthulhu Map at 1.59 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Miskatonic Library 40x30 Cthulhu Map** (DriveThruRPG): https://www.drivethrurpg.com/product/556777/vtt-battle-maps-lovecraft-inspired-miskatonic-library-40x30-cthulhu-map
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Miskatonic Library 40x30 Cthulhu Map at 1.59 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: R’lyeh Rising Platforms 40x40 Cthulhu Map** (DriveThruRPG): https://www.drivethrurpg.com/product/557295/vtt-battle-maps-lovecraft-inspired-r-lyeh-rising-platforms-40x40-cthulhu-map
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: R’lyeh Rising Platforms 40x40 Cthulhu Map at 1.59 USD on sale today? Open the link and tell me yes or no.
+- **VTT Battle Maps - Lovecraft inspired: Antarctica Camp 40x40 Cthulhu Map** (DriveThruRPG): https://www.drivethrurpg.com/product/558353/vtt-battle-maps-lovecraft-inspired-antarctica-camp-40x40-cthulhu-map
+  Question: Does this page show VTT Battle Maps - Lovecraft inspired: Antarctica Camp 40x40 Cthulhu Map at 1.59 USD on sale today? Open the link and tell me yes or no.
+- **100 Mad Inventors of the Steam Age** (DriveThruRPG): https://www.drivethrurpg.com/product/563528/100-mad-inventors-of-the-steam-age
+  Question: Does this page show 100 Mad Inventors of the Steam Age at 2.77 USD on sale today? Open the link and tell me yes or no.
+- **Martian Comics #36** (DriveThruRPG): https://www.drivethrurpg.com/product/567215/martian-comics-36
+  Question: Does this page show Martian Comics #36 at 1.5 USD on sale today? Open the link and tell me yes or no.
+- **Livre Jeu PARIS 1600 - Thriller interactif en jeu de rôle solo** (DriveThruRPG): https://www.drivethrurpg.com/product/573245/livre-jeu-paris-1600-thriller-interactif-en-jeu-de-role-solo
+  Question: Does this page show Livre Jeu PARIS 1600 - Thriller interactif en jeu de rôle solo at 4.8 USD on sale today? Open the link and tell me yes or no.
+- **The Horizons of Khera #1** (DriveThruRPG): https://www.drivethrurpg.com/product/578275/the-horizons-of-khera-1
+  Question: Does this page show The Horizons of Khera #1 at 1.5 USD on sale today? Open the link and tell me yes or no.
+- **Mishaps at Merryhands' Print & Play** (DriveThruRPG): https://www.drivethrurpg.com/product/593650/mishaps-at-merryhands-print-play
+  Question: Does this page show Mishaps at Merryhands' Print & Play at 4.2 USD on sale today? Open the link and tell me yes or no.
+- **Safeguard Print & Play** (DriveThruRPG): https://www.drivethrurpg.com/product/593652/safeguard-print-play
+  Question: Does this page show Safeguard Print & Play at 4.2 USD on sale today? Open the link and tell me yes or no.
+- **Rattenjäger** (itch.io): https://neon-rot.itch.io/rattenjager
+  Question: Does this page show Rattenjäger at 7.7 USD on sale today? Open the link and tell me yes or no.
+- **Parrot Borg (Wholesale)** (shop.limithron.com): https://shop.limithron.com/products/parrot-borg-wholesale
+  Question: Does this page show Parrot Borg (Wholesale) at 4.99 USD on sale today? Open the link and tell me yes or no.
+- **FSDU Loaded Bundle (Wholesale)** (shop.limithron.com): https://shop.limithron.com/products/fsdu-loaded-bundle-wholesale-copy
+  Question: Does this page show FSDU Loaded Bundle (Wholesale) at 629.99 USD on sale today? Open the link and tell me yes or no.
+- **FSDU Basics Bundle (Wholesale)** (shop.limithron.com): https://shop.limithron.com/products/fsdu-basics-bundle-wholesale
+  Question: Does this page show FSDU Basics Bundle (Wholesale) at 399.99 USD on sale today? Open the link and tell me yes or no.
+- **Full Stock Bundle (Wholesale)** (shop.limithron.com): https://shop.limithron.com/products/full-stock-bundle-wholesale
+  Question: Does this page show Full Stock Bundle (Wholesale) at 1079.99 USD on sale today? Open the link and tell me yes or no.
+- **Gameplay Bundle (Wholesale)** (shop.limithron.com): https://shop.limithron.com/products/gameplay-bundle-wholesale
+  Question: Does this page show Gameplay Bundle (Wholesale) at 499.99 USD on sale today? Open the link and tell me yes or no.
+- **Down Among the Dead (Wholesale)** (shop.limithron.com): https://shop.limithron.com/products/down-among-the-dead-wholesale
+  Question: Does this page show Down Among the Dead (Wholesale) at 19.99 USD on sale today? Open the link and tell me yes or no.
+
+## Time per step
+
+- Read the shops: 4223.2 s (ok)
+- Find leads and new shops: 355.0 s (ok): 245 leads, 0 new shops
+- Look for misses: 0.1 s (ok): 0 misses, 0 became candidate deals
+- Jev check: 539.8 s (ok)
+- Browsing agent: 1203.5 s (ok)
+- Build the site file: 592.1 s (ok): 947 deals; pages opened 112, from cache 307
+- Put the deals on the site: 0.0 s (ok): 947 deals copied to the site file
+- **Total: 6913.7 s (115.2 min)**
+
+## Cost
+
+- Jev: 238 requests, 217659 tokens in, 21216 tokens out, 200 answers reused from cache, about $0.01.
+- Browsing agent: 8 job(s), $0.62.
+- **Day total: about $0.63** (alarm at $5.00).
