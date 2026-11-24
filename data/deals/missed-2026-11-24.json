@@ -1,0 +1,850 @@
+{
+ "date": "2026-11-24",
+ "counts": {
+  "leads_on_known_shops": 81,
+  "matched_in_run": 0,
+  "misses": 49,
+  "candidates": 0,
+  "by_reason": {
+   "not_a_product_page": 7,
+   "not_on_sale_anymore": 37,
+   "shop_blocked": 5
+  }
+ },
+ "misses": [
+  {
+   "url": "https://app.demiplane.com/nexus/worldofdarkness/sources",
+   "title": "Demiplane NEXUS",
+   "shop_id": "demiplane",
+   "shop": "Demiplane",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Demiplane NEXUS"
+   },
+   "reason": "not_a_product_page",
+   "detail": "the link goes to a home, blog or collection page",
+   "candidate": false
+  },
+  {
+   "url": "https://marketplace.roll20.net/browse/gameaddon/44702/vtm-6e-playtest-not-in-my-domain-vtt-companion",
+   "title": "Roll20",
+   "shop_id": "roll20-marketplace",
+   "shop": "Roll20 Marketplace",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Roll20"
+   },
+   "reason": "not_a_product_page",
+   "detail": "the link goes to a home, blog or collection page",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/578154/vampire-the-masquerade-playtest-player-packet-pdf?affiliate_id=36142",
+   "title": "Player Packet",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Player Packet"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/578155/vampire-the-masquerade-playtest-storyteller-packet-pdf?affiliate_id=36142",
+   "title": "Storyteller Packet",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Storyteller Packet"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/578156/not-in-my-domain-vampire-the-masquerade-playtest-scenario?affiliate_id=36142",
+   "title": "Not In My Domain",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Not In My Domain"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/578157/vampire-the-masquerade-playtest-bundle-bundle?affiliate_id=36142",
+   "title": "as a bundle",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "as a bundle"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/594605/ordinary-horror?affiliate_id=36142",
+   "title": "Ordinary Horror",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Ordinary Horror"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593962/hack-d-slash-d-second-edition?affiliate_id=36142",
+   "title": "Hack’D & Slash’D Second Edition",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Hack’D & Slash’D Second Edition"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/594055/h1-the-dens-of-discord?affiliate_id=36142",
+   "title": "H1: The Dens of Discord",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "H1: The Dens of Discord"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/468906/when-sky-and-sea-were-not-named?affiliate_id=36142",
+   "title": "When Sky and Sea Were Not Named",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "When Sky and Sea Were Not Named"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.dmsguild.com/product/593302/new-island-a-monsterous-ravenloft-pocket-domain?affiliate_id=36142",
+   "title": "New Island: A Monsterous Raveloft Pocket Domain",
+   "shop_id": "dungeon-masters-guild",
+   "shop": "Dungeon Masters Guild",
+   "class": "blocked_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "New Island: A Monsterous Raveloft Pocket Domain"
+   },
+   "reason": "shop_blocked",
+   "detail": "the shop cannot be read automatically",
+   "candidate": false
+  },
+  {
+   "url": "https://www.dmsguild.com/product/594685/carnival-of-the-mists?affiliate_id=36142",
+   "title": "Carnival of the Mists",
+   "shop_id": "dungeon-masters-guild",
+   "shop": "Dungeon Masters Guild",
+   "class": "blocked_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Carnival of the Mists"
+   },
+   "reason": "shop_blocked",
+   "detail": "the shop cannot be read automatically",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593276/down-down-down-mothership-rpg-pamphlet-adventure?affiliate_id=36142",
+   "title": "Down Down Down",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Down Down Down"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/594213/moving-day?affiliate_id=36142",
+   "title": "Moving Day",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Moving Day"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593634/supply-and-demand?affiliate_id=36142",
+   "title": "Supply and Demand",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Supply and Demand"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593630/lair-of-the-lost-sd-ba-28?affiliate_id=36142",
+   "title": "Lair of the Lost",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Lair of the Lost"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/594682/the-terror-in-the-sunken-ziggurat?affiliate_id=36142",
+   "title": "The Terror in the Sunken Ziggurat",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "The Terror in the Sunken Ziggurat"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/594205/the-princess-the-dragon-and-the-knights?affiliate_id=36142",
+   "title": "The Princess, the Dragon, and the Knights",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "The Princess, the Dragon, and the Knights"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/594092/bon-appetit?affiliate_id=36142",
+   "title": "Bon Appetit",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Bon Appetit"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593557/the-false-unicorn?affiliate_id=36142",
+   "title": "The False Unicorn",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "The False Unicorn"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593408/the-nocturnal-visitor-a-vaesen-adventure-in-cumbria?affiliate_id=36142",
+   "title": "The Nocturnal Visitor",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "The Nocturnal Visitor"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593314/artifical-johnson?affiliate_id=36142",
+   "title": "Artificial Johnson",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Artificial Johnson"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.dmsguild.com/product/594791/the-mad-leper-presents-the-stelomancer?affiliate_id=36142",
+   "title": "The Stelomancer",
+   "shop_id": "dungeon-masters-guild",
+   "shop": "Dungeon Masters Guild",
+   "class": "blocked_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "The Stelomancer"
+   },
+   "reason": "shop_blocked",
+   "detail": "the shop cannot be read automatically",
+   "candidate": false
+  },
+  {
+   "url": "https://www.dmsguild.com/product/594942/artifacts-of-antiquity-volume-16?affiliate_id=36142",
+   "title": "Artifacts of Antiquity Volume 16",
+   "shop_id": "dungeon-masters-guild",
+   "shop": "Dungeon Masters Guild",
+   "class": "blocked_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Artifacts of Antiquity Volume 16"
+   },
+   "reason": "shop_blocked",
+   "detail": "the shop cannot be read automatically",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593686/spellblade-s-codicil?affiliate_id=36142",
+   "title": "Spellblade’s Codicil",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Spellblade’s Codicil"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593564/the-refractionist?affiliate_id=36142",
+   "title": "Refreactionist",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Refreactionist"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/594630/2d-dungeon-tiles-expansion-set-2?affiliate_id=36142",
+   "title": "2D Dungeon Tiles Expansion Set 2",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "2D Dungeon Tiles Expansion Set 2"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/594928/frostbreak-falls-free-battle-map?affiliate_id=36142",
+   "title": "Frostbreak Falls",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Frostbreak Falls"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/594618/under-the-holm-oaks-six-forest-beasts-in-a-card?affiliate_id=36142",
+   "title": "Under the Holm Oaks",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Under the Holm Oaks"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/594588/warrior-of-bestial-mimicry-monk-subclass?affiliate_id=36142",
+   "title": "Warrior of Bestial Mimicry",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Warrior of Bestial Mimicry"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/592500/alternate-chase-rules?affiliate_id=36142",
+   "title": "Alternate Chase Rules",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Alternate Chase Rules"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/594375/worldcrafter-s-almanac?affiliate_id=36142",
+   "title": "Worldcrafter’s Almanac",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Worldcrafter’s Almanac"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593980/blackvein-mine-free-battle-map?affiliate_id=36142",
+   "title": "Blackvein Mine",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Blackvein Mine"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593723/random-table-for-paintings-in-a-noble-s-house?affiliate_id=36142",
+   "title": "Random Table for Paintings in a Noble’s House",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Random Table for Paintings in a Noble’s House"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593695/book-of-dead-mages-i?affiliate_id=36142",
+   "title": "Book of Dead Mages I",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Book of Dead Mages I"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593642/weapon-tactics?affiliate_id=36142",
+   "title": "Weapon Tactics",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Weapon Tactics"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593476/muddshier-vail?affiliate_id=36142",
+   "title": "Muddshier Vail",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Muddshier Vail"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593378/lifters-for-mgt2e?affiliate_id=36142",
+   "title": "Lifters for MgT2e",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Lifters for MgT2e"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593339/shades-of-charming-a-reskinned-item-for-d-d-5e?affiliate_id=36142",
+   "title": "Shades of Charming",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Shades of Charming"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593349/high-passage?affiliate_id=36142",
+   "title": "High Passage",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "High Passage"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593377/the-thornbrook-inn-battlemap-three-levels?affiliate_id=36142",
+   "title": "Thornbrook Inn",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Thornbrook Inn"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593304/gardener-s-field-guide?affiliate_id=36142",
+   "title": "Gardener’s Field Guide",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Gardener’s Field Guide"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/product/593286/the-gunslinger-class?affiliate_id=36142",
+   "title": "Gunslinger",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Gunslinger"
+   },
+   "reason": "not_on_sale_anymore",
+   "detail": "not on sale in the DriveThruRPG API today (website not fetched)",
+   "candidate": false
+  },
+  {
+   "url": "https://www.drivethrurpg.com/en/browse?promo=44243&src=BFCM2026rpg&affiliate_id=36142",
+   "title": "DriveThruRPG’s Black Friday Sale",
+   "shop_id": "drivethrurpg",
+   "shop": "DriveThruRPG",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "DriveThruRPG’s Black Friday Sale"
+   },
+   "reason": "not_a_product_page",
+   "detail": "the link goes to a home, blog or collection page",
+   "candidate": false
+  },
+  {
+   "url": "https://heroforge.com/content/sale/",
+   "title": "Hero Forge’s Black Friday Sale",
+   "shop_id": "heroforge",
+   "shop": "heroforge.com",
+   "class": "new_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Hero Forge’s Black Friday Sale"
+   },
+   "reason": "shop_blocked",
+   "detail": "the shop cannot be read automatically",
+   "candidate": false
+  },
+  {
+   "url": "https://renegadegamestudios.com/g-i-joe-roleplaying-game-hero-miniaures-set-1/?rfsn=7647170.14cbad",
+   "title": "Hero Miniature Set 1",
+   "shop_id": "renegade-game-studios",
+   "shop": "Renegade Game Studios",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Hero Miniature Set 1"
+   },
+   "reason": "not_a_product_page",
+   "detail": "the link goes to a home, blog or collection page",
+   "candidate": false
+  },
+  {
+   "url": "https://renegadegamestudios.com/g-i-joe-roleplaying-game-sgt-slaughter-limited-edition-accessory-pack/",
+   "title": "Sgt Slaughter Limited Edition Accessory Pack",
+   "shop_id": "renegade-game-studios",
+   "shop": "Renegade Game Studios",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Sgt Slaughter Limited Edition Accessory Pack"
+   },
+   "reason": "not_a_product_page",
+   "detail": "the link goes to a home, blog or collection page",
+   "candidate": false
+  },
+  {
+   "url": "https://renegadegamestudios.com/power-rangers-roleplaying-game-hero-miniatures-set-1/",
+   "title": "Hero Miniatures Set 1",
+   "shop_id": "renegade-game-studios",
+   "shop": "Renegade Game Studios",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Hero Miniatures Set 1"
+   },
+   "reason": "not_a_product_page",
+   "detail": "the link goes to a home, blog or collection page",
+   "candidate": false
+  },
+  {
+   "url": "https://renegadegamestudios.com/power-rangers-roleplaying-game-hero-miniatures-set-2/",
+   "title": "Hero Miniatures Set 2",
+   "shop_id": "renegade-game-studios",
+   "shop": "Renegade Game Studios",
+   "class": "known_shop",
+   "lead": {
+    "feed": "enworld",
+    "post_title": "Freebies, Sales, and Charity Bundles for November 23, 2026",
+    "post_url": "https://www.enworld.org/threads/freebies-sales-and-charity-bundles-for-november-23-2026.721478/",
+    "published": "2026-11-23",
+    "link_text": "Hero Miniatures Set 2"
+   },
+   "reason": "not_a_product_page",
+   "detail": "the link goes to a home, blog or collection page",
+   "candidate": false
+  }
+ ],
+ "candidates": []
+}
