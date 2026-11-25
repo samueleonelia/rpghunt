@@ -1,4 +1,12 @@
 {
+ "404media.myshopify.com": {
+  "first_seen": "2026-11-25",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
+  },
+  "last_seen": "2026-11-25",
+  "example_url": "https://404media.myshopify.com/products.json?limit=1"
+ },
  "6d6fireball.com": {
   "first_seen": "2026-11-15",
   "reasons": {
@@ -22,6 +30,14 @@
   },
   "last_seen": "2026-10-27",
   "example_url": "https://abhack-paperclip.itch.io/lantern-lane"
+ },
+ "adventurersapprentice.com": {
+  "first_seen": "2026-11-25",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-25"
+  },
+  "last_seen": "2026-11-25",
+  "example_url": "https://adventurersapprentice.com/r/aHR0cHM6Ly9hZHZlbnR1cmVyc2FwcHJlbnRpY2Uuc3VtdXBzdG9yZS5jb20v?name=AdventurersApprenticeonlinestore"
  },
  "aftermath-shop.fourthwall.com": {
   "first_seen": "2026-11-05",
@@ -74,9 +90,9 @@
  "asmodee.co.uk": {
   "first_seen": "2026-11-19",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://www.asmodee.co.uk/products.json?limit=250&page=1"
  },
  "assets.warhammer-community.com": {
@@ -114,9 +130,9 @@
  "bardlight.store": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://bardlight.store/products.json?limit=250&page=1"
  },
  "basunat.itch.io": {
@@ -210,9 +226,9 @@
  "bullypulpitgames.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "http://www.bullypulpitgames.com/products.json?limit=250&page=1"
  },
  "cambridge.org": {
@@ -290,9 +306,9 @@
  "criticalkit.co.uk": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://www.criticalkit.co.uk/products.json?limit=250&page=1"
  },
  "crocs.co.uk": {
@@ -402,9 +418,9 @@
  "drivethrurpg.com": {
   "first_seen": "2026-10-17",
   "reasons": {
-   "bot wall (known, never fetched)": "2026-11-24"
+   "bot wall (known, never fetched)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://www.drivethrurpg.com/product/594918/silk-onyx"
  },
  "dungeonscrawl.com": {
@@ -439,6 +455,14 @@
   "last_seen": "2026-11-14",
   "example_url": "https://www.ebay.com/"
  },
+ "eff.org": {
+  "first_seen": "2026-11-25",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-25"
+  },
+  "last_seen": "2026-11-25",
+  "example_url": "https://www.eff.org/wp-json/wc/store/v1/products?per_page=1"
+ },
  "elancharan.itch.io": {
   "first_seen": "2026-10-27",
   "reasons": {
@@ -458,9 +482,9 @@
  "enpublishingrpg.com": {
   "first_seen": "2026-11-08",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://enpublishingrpg.com/products.json?limit=250&page=1"
  },
  "entertainmentearth.com": {
@@ -490,10 +514,10 @@
  "exaltedfuneral.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
-  "example_url": "https://www.exaltedfuneral.com/collections/black-november-discounts-all-month-long"
+  "last_seen": "2026-11-25",
+  "example_url": "https://www.exaltedfuneral.com/products.json?limit=250&page=1"
  },
  "fanpro.com": {
   "first_seen": "2026-10-27",
@@ -562,17 +586,17 @@
  "froggodgames.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
-  "example_url": "https://www.froggodgames.com/products.json?limit=250&page=2"
+  "last_seen": "2026-11-25",
+  "example_url": "https://www.froggodgames.com/products.json?limit=250&page=1"
  },
  "gallantknightgames.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://gallantknightgames.com/products.json?limit=250&page=1"
  },
  "gama.org": {
@@ -610,9 +634,9 @@
  "gamesomnivorous.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://gamesomnivorous.com/products.json?limit=250&page=1"
  },
  "gardenshop.telegraph.co.uk": {
@@ -622,6 +646,14 @@
   },
   "last_seen": "2026-11-19",
   "example_url": "https://gardenshop.telegraph.co.uk/products.json?limit=1"
+ },
+ "gatesofkrystalia.com": {
+  "first_seen": "2026-11-25",
+  "reasons": {
+   "HTTP 403": "2026-11-25"
+  },
+  "last_seen": "2026-11-25",
+  "example_url": "https://www.gatesofkrystalia.com/wp-json/wc/store/v1/products?per_page=1"
  },
  "go.skimresources.com": {
   "first_seen": "2026-10-27",
@@ -634,9 +666,9 @@
  "goodluckpress.co": {
   "first_seen": "2026-11-18",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://goodluckpress.co/products.json?limit=250&page=1"
  },
  "goodman-games.com": {
@@ -666,9 +698,9 @@
  "greenroninstore.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://greenroninstore.com/products.json?limit=250&page=1"
  },
  "ha.com": {
@@ -682,9 +714,9 @@
  "hammerdog-games.myshopify.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://hammerdog-games.myshopify.com/products.json?limit=250&page=1"
  },
  "heartofthedeernicorn.com": {
@@ -706,9 +738,9 @@
  "hitpointpress.com": {
   "first_seen": "2026-11-06",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://hitpointpress.com/products.json?limit=250&page=1"
  },
  "ico.org.uk": {
@@ -783,6 +815,14 @@
   "last_seen": "2026-11-12",
   "example_url": "https://keymaster.fun/products.json?limit=1"
  },
+ "kotaku.com": {
+  "first_seen": "2026-11-25",
+  "reasons": {
+   "HTTP 401": "2026-11-25"
+  },
+  "last_seen": "2026-11-25",
+  "example_url": "https://kotaku.com/wp-json/wc/store/v1/products?per_page=1"
+ },
  "launch.ben10rpg.com": {
   "first_seen": "2026-11-05",
   "reasons": {
@@ -810,18 +850,18 @@
  "leisuregames.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://leisuregames.com/collections/reduced-price-1/products.json?limit=250&page=1"
  },
  "leyline.press": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
-  "example_url": "https://leyline.press/products.json?limit=250&page=2"
+  "last_seen": "2026-11-25",
+  "example_url": "https://leyline.press/products.json?limit=250&page=1"
  },
  "link.amazon": {
   "first_seen": "2026-10-27",
@@ -882,10 +922,10 @@
  "magpiegames.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-23"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-23",
-  "example_url": "https://magpiegames.com/products.json?limit=250&page=2"
+  "last_seen": "2026-11-25",
+  "example_url": "https://magpiegames.com/products.json?limit=250&page=1"
  },
  "makerworld.com": {
   "first_seen": "2026-11-04",
@@ -946,18 +986,18 @@
  "modiphius.net": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://modiphius.net/products.json?limit=250&page=1"
  },
  "modiphius.us": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
-  "example_url": "https://modiphius.us/products.json?limit=250&page=2"
+  "last_seen": "2026-11-25",
+  "example_url": "https://modiphius.us/products.json?limit=250&page=1"
  },
  "momatoes.itch.io": {
   "first_seen": "2026-11-05",
@@ -970,17 +1010,17 @@
  "mongoosepublishing.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://www.mongoosepublishing.com/products.json?limit=250&page=1"
  },
  "monsterfightclub.com": {
   "first_seen": "2026-11-07",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://monsterfightclub.com/products.json?limit=250&page=1"
  },
  "motorcitycomiccon.com": {
@@ -1018,9 +1058,9 @@
  "myth.works": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://www.myth.works/products.json?limit=250&page=1"
  },
  "nacongaming.com": {
@@ -1034,9 +1074,9 @@
  "necroticgnome.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://necroticgnome.com/products.json?limit=250&page=1"
  },
  "neon-rot.itch.io": {
@@ -1094,6 +1134,14 @@
   },
   "last_seen": "2026-11-20",
   "example_url": "https://nolimelightproductions.itch.io/prosperon-welcome-to-arco-prime"
+ },
+ "npr.org": {
+  "first_seen": "2026-11-25",
+  "reasons": {
+   "robots.txt disallows us": "2026-11-25"
+  },
+  "last_seen": "2026-11-25",
+  "example_url": "https://www.npr.org/products.json?limit=1"
  },
  "onebookshelf.com": {
   "first_seen": "2026-10-27",
@@ -1210,9 +1258,9 @@
  "plusoneexp.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "http://plusoneexp.com/products.json?limit=250&page=2"
  },
  "pockettactics.com": {
@@ -1258,9 +1306,9 @@
  "possumcreekgames.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://possumcreekgames.com/products.json?limit=250&page=1"
  },
  "pricecharting.com": {
@@ -1386,17 +1434,17 @@
  "shop.arcdream.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://shop.arcdream.com/products.json?limit=250&page=1"
  },
  "shop.atlas-games.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://shop.atlas-games.com/products.json?limit=250&page=1"
  },
  "shop.critrole.co.uk": {
@@ -1410,9 +1458,9 @@
  "shop.critrole.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://shop.critrole.com/products.json?limit=250&page=1"
  },
  "shop.critrole.eu": {
@@ -1434,33 +1482,41 @@
  "shop.limithron.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
-  "example_url": "https://shop.limithron.com/products/down-among-the-dead-wholesale"
+  "last_seen": "2026-11-25",
+  "example_url": "https://shop.limithron.com/products.json?limit=250&page=1"
+ },
+ "shop.lostpages.co.uk": {
+  "first_seen": "2026-11-25",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
+  },
+  "last_seen": "2026-11-25",
+  "example_url": "https://shop.lostpages.co.uk/products.json?limit=1"
  },
  "shop.mcdmproductions.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://shop.mcdmproductions.com/products.json?limit=250&page=1"
  },
  "shop.mottokrosh.com": {
   "first_seen": "2026-11-19",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
-  "example_url": "https://shop.mottokrosh.com/products.json?limit=250&page=2"
+  "last_seen": "2026-11-25",
+  "example_url": "https://shop.mottokrosh.com/products.json?limit=250&page=1"
  },
  "shop.peginc.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://shop.peginc.com/products.json?limit=250&page=1"
  },
  "shop.scorpionmasque.com": {
@@ -1474,9 +1530,9 @@
  "shop.slyflourish.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://shop.slyflourish.com/products.json?limit=250&page=1"
  },
  "shop.towerbridge.org.uk": {
@@ -1514,10 +1570,10 @@
  "snowbrightstudio.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
-  "example_url": "https://snowbrightstudio.com/products.json?limit=250&page=2"
+  "last_seen": "2026-11-25",
+  "example_url": "https://snowbrightstudio.com/products.json?limit=250&page=1"
  },
  "soundcloud.com": {
   "first_seen": "2026-10-27",
@@ -1530,10 +1586,10 @@
  "spacepenguin.ink": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
-  "example_url": "https://spacepenguin.ink/products.json?limit=250&page=2"
+  "last_seen": "2026-11-25",
+  "example_url": "https://spacepenguin.ink/products.json?limit=250&page=1"
  },
  "startplaying.games": {
   "first_seen": "2026-11-20",
@@ -1562,17 +1618,17 @@
  "stillfleet.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "http://stillfleet.com/products.json?limit=250&page=1"
  },
  "store.catalystgamelabs.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://store.catalystgamelabs.com/products.json?limit=250&page=1"
  },
  "store.epicgames.com": {
@@ -1590,6 +1646,14 @@
   },
   "last_seen": "2026-11-13",
   "example_url": "https://store.nintendo.com/it-it/wp-json/wc/store/v1/products?per_page=1"
+ },
+ "store.xkcd.com": {
+  "first_seen": "2026-11-25",
+  "reasons": {
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
+  },
+  "last_seen": "2026-11-25",
+  "example_url": "https://store.xkcd.com/products.json?limit=250"
  },
  "storytellersvault.com": {
   "first_seen": "2026-11-10",
@@ -1610,9 +1674,9 @@
  "tabletopgaming.shop": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://tabletopgaming.shop/products.json?limit=250&page=1"
  },
  "tabletopsentinel.com": {
@@ -1626,10 +1690,10 @@
  "talsorianstore.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
-  "example_url": "https://talsorianstore.com/products.json?limit=250&page=2"
+  "last_seen": "2026-11-25",
+  "example_url": "https://talsorianstore.com/products.json?limit=250&page=1"
  },
  "tarabrunopr-dot-yamm-track.appspot.com": {
   "first_seen": "2026-10-30",
@@ -1667,10 +1731,10 @@
  "thearcanelibrary.com": {
   "first_seen": "2026-11-24",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
-  "example_url": "https://www.thearcanelibrary.com/products/ultimate-bundle-combat-cards-full-set-5e"
+  "last_seen": "2026-11-25",
+  "example_url": "https://www.thearcanelibrary.com/products.json?limit=250&page=1"
  },
  "thecommongoodsus.itch.io": {
   "first_seen": "2026-11-20",
@@ -1747,9 +1811,9 @@
  "tuesdayknightgames.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "example_url": "https://www.tuesdayknightgames.com/products.json?limit=250&page=1"
  },
  "tvtropes.org": {
@@ -1803,10 +1867,10 @@
  "warehouse23.com": {
   "first_seen": "2026-11-10",
   "reasons": {
-   "rate limit (HTTP 429 after retries)": "2026-11-24"
+   "rate limit (HTTP 429 after retries)": "2026-11-25"
   },
-  "last_seen": "2026-11-24",
-  "example_url": "https://warehouse23.com/products.json?limit=250&page=2"
+  "last_seen": "2026-11-25",
+  "example_url": "https://warehouse23.com/products.json?limit=250&page=1"
  },
  "wargamer.com": {
   "first_seen": "2026-10-27",
@@ -1863,5 +1927,13 @@
   },
   "last_seen": "2026-11-04",
   "example_url": "https://yu-gi-oh.jp/"
+ },
+ "yugioh.fandom.com": {
+  "first_seen": "2026-11-25",
+  "reasons": {
+   "HTTP 403": "2026-11-25"
+  },
+  "last_seen": "2026-11-25",
+  "example_url": "https://yugioh.fandom.com/"
  }
 }
