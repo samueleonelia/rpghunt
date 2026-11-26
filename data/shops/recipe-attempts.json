@@ -3,16 +3,20 @@
   "date": "2026-10-29",
   "outcome": "rejected"
  },
+ "catalyst-game-labs": {
+  "date": "2026-11-26",
+  "outcome": "rejected"
+ },
  "chaosium": {
   "date": "2026-10-29",
   "outcome": "accepted"
  },
  "coolstuffinc": {
-  "date": "2026-11-19",
+  "date": "2026-11-26",
   "outcome": "rejected"
  },
  "demiplane": {
-  "date": "2026-11-19",
+  "date": "2026-11-26",
   "outcome": "rejected"
  },
  "drivethrurpg": {
@@ -24,7 +28,7 @@
   "outcome": "rejected"
  },
  "fanatical": {
-  "date": "2026-11-19",
+  "date": "2026-11-26",
   "outcome": "rejected"
  },
  "gamenerdz": {
@@ -44,11 +48,11 @@
   "outcome": "rejected"
  },
  "massif-press": {
-  "date": "2026-11-19",
+  "date": "2026-11-26",
   "outcome": "rejected"
  },
  "noble-knight-games": {
-  "date": "2026-11-19",
+  "date": "2026-11-26",
   "outcome": "rejected"
  },
  "paizo": {
@@ -60,7 +64,7 @@
   "outcome": "accepted"
  },
  "roll20-marketplace": {
-  "date": "2026-11-19",
+  "date": "2026-11-26",
   "outcome": "rejected"
  },
  "steve-jackson-games-warehouse-23": {

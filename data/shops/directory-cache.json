@@ -1,6 +1,6 @@
 {
  "wikipedia-rpg-designers": {
-  "date": "2026-10-27",
+  "date": "2026-11-26",
   "sites": [
    {
     "label": "Genevieve Cogman",
@@ -13,10 +13,6 @@
    {
     "label": "Daniel D. Fox",
     "site": "https://sllswrd.games/"
-   },
-   {
-    "label": "Ajit George",
-    "site": "https://ajitageorge.com/"
    },
    {
     "label": "Ed Healy",
@@ -63,17 +59,85 @@
     "site": "http://thuleanperspective.com"
    },
    {
-    "label": "Jessica Hammer",
-    "site": "http://replayable.net"
+    "label": "Shannon Appelcline",
+    "site": "https://www.designers-and-dragons.com/"
+   },
+   {
+    "label": "Rob Bell (Virginia politician)",
+    "site": "http://delegaterobbell.com"
+   },
+   {
+    "label": "Jason L. Blair",
+    "site": "http://jasonlblair.com"
    },
    {
     "label": "Bill Bridges (game designer)",
     "site": "http://bill-bridges.com/"
+   },
+   {
+    "label": "Matthew Costello",
+    "site": "https://www.mattcostello.com"
+   },
+   {
+    "label": "Richard Dansky",
+    "site": "http://www.richarddansky.com"
+   },
+   {
+    "label": "Dennis Detwiller",
+    "site": "http://detwillerdesign.com"
+   },
+   {
+    "label": "Charles E. Gannon",
+    "site": "http://charlesegannon.com"
+   },
+   {
+    "label": "Ajit George",
+    "site": "https://ajitageorge.com/"
+   },
+   {
+    "label": "Gabrielle Harbowy",
+    "site": "http://www.gabrielleharbowy.com"
+   },
+   {
+    "label": "Jess Hartley",
+    "site": "http://jesshartley.com/"
+   },
+   {
+    "label": "Steven Marsh (game designer)",
+    "site": "http://www.waitingforgo.com"
+   },
+   {
+    "label": "James A. Moore",
+    "site": "http://jamesamoorebooks.com"
+   },
+   {
+    "label": "Blaine Pardoe",
+    "site": "http://www.blainepardoe.com/index.html"
+   },
+   {
+    "label": "Margaret Weis",
+    "site": "http://margaretweis.com"
+   },
+   {
+    "label": "Chuck Wendig",
+    "site": "http://terribleminds.com/"
+   },
+   {
+    "label": "Walter Jon Williams",
+    "site": "http://walterjonwilliams.net"
+   },
+   {
+    "label": "Matt Wilson (artist)",
+    "site": "http://www.mattwilsonart.com"
+   },
+   {
+    "label": "Jessica Hammer",
+    "site": "http://replayable.net"
    }
   ]
  },
  "wikipedia-rpg-publishers": {
-  "date": "2026-10-27",
+  "date": "2026-11-26",
   "sites": [
    {
     "label": "2 Dés Sans Faces",
