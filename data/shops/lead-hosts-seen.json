@@ -339,6 +339,10 @@
   "date": "2026-11-14",
   "result": "not a seller"
  },
+ "chronicdelusionist.neocities.org": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
  "clockworkworlds.com": {
   "date": "2026-11-25",
   "result": "not a seller"
@@ -395,6 +399,10 @@
   "date": "2026-11-11",
   "result": "not a seller"
  },
+ "copyrightnow.com": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
  "corporate.asmodee.com": {
   "date": "2026-11-26",
   "result": "not a seller"
@@ -422,6 +430,10 @@
  "creativecommons.org": {
   "date": "2026-11-26",
   "result": "not a seller"
+ },
+ "creaturecuration.com": {
+  "date": "2026-11-27",
+  "result": "added"
  },
  "crimsondesert.pearlabyss.com": {
   "date": "2026-11-11",
@@ -627,6 +639,10 @@
   "date": "2026-11-20",
   "result": "not a seller"
  },
+ "drivethrucomics.com": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
  "dungeonmecha.bearblog.dev": {
   "date": "2026-10-30",
   "result": "not a seller"
@@ -724,7 +740,7 @@
   "result": "not a seller"
  },
  "etsy.com": {
-  "date": "2026-10-27",
+  "date": "2026-11-27",
   "result": "not a seller"
  },
  "euronews.com": {
@@ -770,6 +786,10 @@
  "fantasynpcs.com": {
   "date": "2026-10-17",
   "result": "not a shop"
+ },
+ "fasthosts.co.uk": {
+  "date": "2026-11-27",
+  "result": "not a seller"
  },
  "fave.co": {
   "date": "2026-11-26",
@@ -1127,6 +1147,10 @@
   "date": "2026-11-26",
   "result": "not a seller"
  },
+ "itsnotgames.com": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
  "ixbt.games": {
   "date": "2026-11-08",
   "result": "not a seller"
@@ -1167,12 +1191,28 @@
   "date": "2026-11-25",
   "result": "not a seller"
  },
+ "johnlewis.com": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
  "jp.square-enix.com": {
   "date": "2026-11-25",
   "result": "not a seller"
  },
  "jpost.com": {
   "date": "2026-11-20",
+  "result": "not a seller"
+ },
+ "juliathedm.com": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
+ "justgeek.com": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
+ "justwatch.com": {
+  "date": "2026-11-27",
   "result": "not a seller"
  },
  "kantopost.com": {
@@ -1193,6 +1233,10 @@
  },
  "kotaku.com": {
   "date": "2026-11-25",
+  "result": "not a seller"
+ },
+ "krakenopus.com": {
+  "date": "2026-11-27",
   "result": "not a seller"
  },
  "landandseagame.com": {
@@ -1241,6 +1285,10 @@
  },
  "lisasmedman.wixsite.com": {
   "date": "2026-11-26",
+  "result": "not a seller"
+ },
+ "listhammer.info": {
+  "date": "2026-11-27",
   "result": "not a seller"
  },
  "literacytrust.org.uk": {
@@ -1679,6 +1727,14 @@
   "date": "2026-11-21",
   "result": "not a seller"
  },
+ "pokemongomerchandise.com": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
+ "pokemontabletop.com": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
  "pokumon.com": {
   "date": "2026-11-14",
   "result": "not a seller"
@@ -1765,6 +1821,10 @@
  },
  "rcrfcharity.org": {
   "date": "2026-11-03",
+  "result": "not a seller"
+ },
+ "redbubble.com": {
+  "date": "2026-11-27",
   "result": "not a seller"
  },
  "regicidegame.com": {
@@ -1879,6 +1939,10 @@
   "date": "2026-10-31",
   "result": "not a seller"
  },
+ "scribd.com": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
  "sealedstories.com": {
   "date": "2026-10-27",
   "result": "not a seller"
@@ -1935,6 +1999,10 @@
   "date": "2026-11-20",
   "result": "not a seller"
  },
+ "shop.iv.studio": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
  "shop.kelsey.co.uk": {
   "date": "2026-11-17",
   "result": "not a seller"
@@ -1947,6 +2015,10 @@
   "date": "2026-11-25",
   "result": "not a seller"
  },
+ "shop.rockmanorgames.com": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
  "shopto.net": {
   "date": "2026-11-17",
   "result": "not a seller"
@@ -1957,6 +2029,10 @@
  },
  "shutupandsitdown.com": {
   "date": "2026-11-12",
+  "result": "not a seller"
+ },
+ "sideshow.com": {
+  "date": "2026-11-27",
   "result": "not a seller"
  },
  "silverpalace.elementagames.com": {
@@ -2013,6 +2089,10 @@
  },
  "spiel-essen.de": {
   "date": "2026-11-05",
+  "result": "not a seller"
+ },
+ "squishable.com": {
+  "date": "2026-11-27",
   "result": "not a seller"
  },
  "starfleetgames.com": {
@@ -2223,6 +2303,10 @@
   "date": "2026-10-30",
   "result": "not a seller"
  },
+ "threadless.com": {
+  "date": "2026-11-27",
+  "result": "not a seller"
+ },
  "threads.com": {
   "date": "2026-11-26",
   "result": "not a seller"
@@ -2345,6 +2429,10 @@
  },
  "uk.airfix.com": {
   "date": "2026-11-17",
+  "result": "not a seller"
+ },
+ "uk.stance.com": {
+  "date": "2026-11-27",
   "result": "not a seller"
  },
  "uk.xtool.com": {
